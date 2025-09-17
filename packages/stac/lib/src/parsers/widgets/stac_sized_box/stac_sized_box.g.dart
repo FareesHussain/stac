@@ -6,15 +6,15 @@ part of 'stac_sized_box.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacSizedBox _$StacSizedBoxFromJson(Map<String, dynamic> json) =>
-    _StacSizedBox(
+_$StacSizedBoxImpl _$$StacSizedBoxImplFromJson(Map<String, dynamic> json) =>
+    _$StacSizedBoxImpl(
       width: json['width'] == null ? null : StacDouble.fromJson(json['width']),
       height:
           json['height'] == null ? null : StacDouble.fromJson(json['height']),
       child: json['child'] as Map<String, dynamic>?,
     );
 
-Map<String, dynamic> _$StacSizedBoxToJson(_StacSizedBox instance) =>
+Map<String, dynamic> _$$StacSizedBoxImplToJson(_$StacSizedBoxImpl instance) =>
     <String, dynamic>{
       'width': instance.width,
       'height': instance.height,

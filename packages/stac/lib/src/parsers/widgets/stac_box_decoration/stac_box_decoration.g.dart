@@ -6,8 +6,9 @@ part of 'stac_box_decoration.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacBoxDecoration _$StacBoxDecorationFromJson(Map<String, dynamic> json) =>
-    _StacBoxDecoration(
+_$StacBoxDecorationImpl _$$StacBoxDecorationImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacBoxDecorationImpl(
       color: json['color'] as String?,
       backgroundBlendMode:
           $enumDecodeNullable(_$BlendModeEnumMap, json['backgroundBlendMode']),
@@ -32,7 +33,8 @@ _StacBoxDecoration _$StacBoxDecorationFromJson(Map<String, dynamic> json) =>
           : StacGradient.fromJson(json['gradient'] as Map<String, dynamic>),
     );
 
-Map<String, dynamic> _$StacBoxDecorationToJson(_StacBoxDecoration instance) =>
+Map<String, dynamic> _$$StacBoxDecorationImplToJson(
+        _$StacBoxDecorationImpl instance) =>
     <String, dynamic>{
       'color': instance.color,
       'backgroundBlendMode': _$BlendModeEnumMap[instance.backgroundBlendMode],

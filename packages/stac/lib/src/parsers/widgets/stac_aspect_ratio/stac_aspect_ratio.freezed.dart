@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,78 +9,96 @@ part of 'stac_aspect_ratio.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacAspectRatio {
-  StacDouble get aspectRatio;
-  Map<String, dynamic>? get child;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacAspectRatio
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacAspectRatioCopyWith<StacAspectRatio> get copyWith =>
-      _$StacAspectRatioCopyWithImpl<StacAspectRatio>(
-          this as StacAspectRatio, _$identity);
-
-  /// Serializes this StacAspectRatio to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacAspectRatio &&
-            (identical(other.aspectRatio, aspectRatio) ||
-                other.aspectRatio == aspectRatio) &&
-            const DeepCollectionEquality().equals(other.child, child));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType, aspectRatio, const DeepCollectionEquality().hash(child));
-
-  @override
-  String toString() {
-    return 'StacAspectRatio(aspectRatio: $aspectRatio, child: $child)';
-  }
+StacAspectRatio _$StacAspectRatioFromJson(Map<String, dynamic> json) {
+  return _StacAspectRatio.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacAspectRatioCopyWith<$Res> {
+mixin _$StacAspectRatio {
+  StacDouble get aspectRatio => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get child => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacAspectRatioCopyWith<StacAspectRatio> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacAspectRatioCopyWith<$Res> {
   factory $StacAspectRatioCopyWith(
-          StacAspectRatio value, $Res Function(StacAspectRatio) _then) =
-      _$StacAspectRatioCopyWithImpl;
+          StacAspectRatio value, $Res Function(StacAspectRatio) then) =
+      _$StacAspectRatioCopyWithImpl<$Res, StacAspectRatio>;
   @useResult
   $Res call({StacDouble aspectRatio, Map<String, dynamic>? child});
 }
 
 /// @nodoc
-class _$StacAspectRatioCopyWithImpl<$Res>
+class _$StacAspectRatioCopyWithImpl<$Res, $Val extends StacAspectRatio>
     implements $StacAspectRatioCopyWith<$Res> {
-  _$StacAspectRatioCopyWithImpl(this._self, this._then);
+  _$StacAspectRatioCopyWithImpl(this._value, this._then);
 
-  final StacAspectRatio _self;
-  final $Res Function(StacAspectRatio) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacAspectRatio
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? aspectRatio = null,
     Object? child = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       aspectRatio: null == aspectRatio
-          ? _self.aspectRatio
+          ? _value.aspectRatio
           : aspectRatio // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       child: freezed == child
-          ? _self.child
+          ? _value.child
+          : child // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacAspectRatioImplCopyWith<$Res>
+    implements $StacAspectRatioCopyWith<$Res> {
+  factory _$$StacAspectRatioImplCopyWith(_$StacAspectRatioImpl value,
+          $Res Function(_$StacAspectRatioImpl) then) =
+      __$$StacAspectRatioImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call({StacDouble aspectRatio, Map<String, dynamic>? child});
+}
+
+/// @nodoc
+class __$$StacAspectRatioImplCopyWithImpl<$Res>
+    extends _$StacAspectRatioCopyWithImpl<$Res, _$StacAspectRatioImpl>
+    implements _$$StacAspectRatioImplCopyWith<$Res> {
+  __$$StacAspectRatioImplCopyWithImpl(
+      _$StacAspectRatioImpl _value, $Res Function(_$StacAspectRatioImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? aspectRatio = null,
+    Object? child = freezed,
+  }) {
+    return _then(_$StacAspectRatioImpl(
+      aspectRatio: null == aspectRatio
+          ? _value.aspectRatio
+          : aspectRatio // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      child: freezed == child
+          ? _value._child
           : child // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
     ));
@@ -90,13 +107,14 @@ class _$StacAspectRatioCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _StacAspectRatio implements StacAspectRatio {
-  const _StacAspectRatio(
+class _$StacAspectRatioImpl implements _StacAspectRatio {
+  const _$StacAspectRatioImpl(
       {this.aspectRatio = const StacDouble(1),
       final Map<String, dynamic>? child})
       : _child = child;
-  factory _StacAspectRatio.fromJson(Map<String, dynamic> json) =>
-      _$StacAspectRatioFromJson(json);
+
+  factory _$StacAspectRatioImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacAspectRatioImplFromJson(json);
 
   @override
   @JsonKey()
@@ -111,80 +129,55 @@ class _StacAspectRatio implements StacAspectRatio {
     return EqualUnmodifiableMapView(value);
   }
 
-  /// Create a copy of StacAspectRatio
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacAspectRatioCopyWith<_StacAspectRatio> get copyWith =>
-      __$StacAspectRatioCopyWithImpl<_StacAspectRatio>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacAspectRatioToJson(
-      this,
-    );
+  String toString() {
+    return 'StacAspectRatio(aspectRatio: $aspectRatio, child: $child)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacAspectRatio &&
+            other is _$StacAspectRatioImpl &&
             (identical(other.aspectRatio, aspectRatio) ||
                 other.aspectRatio == aspectRatio) &&
             const DeepCollectionEquality().equals(other._child, _child));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType, aspectRatio, const DeepCollectionEquality().hash(_child));
 
-  @override
-  String toString() {
-    return 'StacAspectRatio(aspectRatio: $aspectRatio, child: $child)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacAspectRatioCopyWith<$Res>
-    implements $StacAspectRatioCopyWith<$Res> {
-  factory _$StacAspectRatioCopyWith(
-          _StacAspectRatio value, $Res Function(_StacAspectRatio) _then) =
-      __$StacAspectRatioCopyWithImpl;
-  @override
-  @useResult
-  $Res call({StacDouble aspectRatio, Map<String, dynamic>? child});
-}
-
-/// @nodoc
-class __$StacAspectRatioCopyWithImpl<$Res>
-    implements _$StacAspectRatioCopyWith<$Res> {
-  __$StacAspectRatioCopyWithImpl(this._self, this._then);
-
-  final _StacAspectRatio _self;
-  final $Res Function(_StacAspectRatio) _then;
-
-  /// Create a copy of StacAspectRatio
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? aspectRatio = null,
-    Object? child = freezed,
-  }) {
-    return _then(_StacAspectRatio(
-      aspectRatio: null == aspectRatio
-          ? _self.aspectRatio
-          : aspectRatio // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      child: freezed == child
-          ? _self._child
-          : child // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-    ));
+  _$$StacAspectRatioImplCopyWith<_$StacAspectRatioImpl> get copyWith =>
+      __$$StacAspectRatioImplCopyWithImpl<_$StacAspectRatioImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacAspectRatioImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacAspectRatio implements StacAspectRatio {
+  const factory _StacAspectRatio(
+      {final StacDouble aspectRatio,
+      final Map<String, dynamic>? child}) = _$StacAspectRatioImpl;
+
+  factory _StacAspectRatio.fromJson(Map<String, dynamic> json) =
+      _$StacAspectRatioImpl.fromJson;
+
+  @override
+  StacDouble get aspectRatio;
+  @override
+  Map<String, dynamic>? get child;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacAspectRatioImplCopyWith<_$StacAspectRatioImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

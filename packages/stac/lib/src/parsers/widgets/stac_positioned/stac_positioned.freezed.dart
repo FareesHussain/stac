@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,84 +9,41 @@ part of 'stac_positioned.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacPositioned {
-  StacPositionedType? get positionedType;
-  StacDouble? get left;
-  StacDouble? get top;
-  StacDouble? get right;
-  StacDouble? get bottom;
-  StacDouble? get width;
-  StacDouble? get height;
-  StacDouble? get start;
-  StacDouble? get end;
-  TextDirection get textDirection;
-  StacRect? get rect;
-  Map<String, dynamic>? get child;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacPositioned
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacPositionedCopyWith<StacPositioned> get copyWith =>
-      _$StacPositionedCopyWithImpl<StacPositioned>(
-          this as StacPositioned, _$identity);
-
-  /// Serializes this StacPositioned to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacPositioned &&
-            (identical(other.positionedType, positionedType) ||
-                other.positionedType == positionedType) &&
-            (identical(other.left, left) || other.left == left) &&
-            (identical(other.top, top) || other.top == top) &&
-            (identical(other.right, right) || other.right == right) &&
-            (identical(other.bottom, bottom) || other.bottom == bottom) &&
-            (identical(other.width, width) || other.width == width) &&
-            (identical(other.height, height) || other.height == height) &&
-            (identical(other.start, start) || other.start == start) &&
-            (identical(other.end, end) || other.end == end) &&
-            (identical(other.textDirection, textDirection) ||
-                other.textDirection == textDirection) &&
-            (identical(other.rect, rect) || other.rect == rect) &&
-            const DeepCollectionEquality().equals(other.child, child));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      positionedType,
-      left,
-      top,
-      right,
-      bottom,
-      width,
-      height,
-      start,
-      end,
-      textDirection,
-      rect,
-      const DeepCollectionEquality().hash(child));
-
-  @override
-  String toString() {
-    return 'StacPositioned(positionedType: $positionedType, left: $left, top: $top, right: $right, bottom: $bottom, width: $width, height: $height, start: $start, end: $end, textDirection: $textDirection, rect: $rect, child: $child)';
-  }
+StacPositioned _$StacPositionedFromJson(Map<String, dynamic> json) {
+  return _StacPositioned.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacPositionedCopyWith<$Res> {
+mixin _$StacPositioned {
+  StacPositionedType? get positionedType => throw _privateConstructorUsedError;
+  StacDouble? get left => throw _privateConstructorUsedError;
+  StacDouble? get top => throw _privateConstructorUsedError;
+  StacDouble? get right => throw _privateConstructorUsedError;
+  StacDouble? get bottom => throw _privateConstructorUsedError;
+  StacDouble? get width => throw _privateConstructorUsedError;
+  StacDouble? get height => throw _privateConstructorUsedError;
+  StacDouble? get start => throw _privateConstructorUsedError;
+  StacDouble? get end => throw _privateConstructorUsedError;
+  TextDirection get textDirection => throw _privateConstructorUsedError;
+  StacRect? get rect => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get child => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacPositionedCopyWith<StacPositioned> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacPositionedCopyWith<$Res> {
   factory $StacPositionedCopyWith(
-          StacPositioned value, $Res Function(StacPositioned) _then) =
-      _$StacPositionedCopyWithImpl;
+          StacPositioned value, $Res Function(StacPositioned) then) =
+      _$StacPositionedCopyWithImpl<$Res, StacPositioned>;
   @useResult
   $Res call(
       {StacPositionedType? positionedType,
@@ -107,15 +63,15 @@ abstract mixin class $StacPositionedCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacPositionedCopyWithImpl<$Res>
+class _$StacPositionedCopyWithImpl<$Res, $Val extends StacPositioned>
     implements $StacPositionedCopyWith<$Res> {
-  _$StacPositionedCopyWithImpl(this._self, this._then);
+  _$StacPositionedCopyWithImpl(this._value, this._then);
 
-  final StacPositioned _self;
-  final $Res Function(StacPositioned) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacPositioned
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -132,77 +88,178 @@ class _$StacPositionedCopyWithImpl<$Res>
     Object? rect = freezed,
     Object? child = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       positionedType: freezed == positionedType
-          ? _self.positionedType
+          ? _value.positionedType
           : positionedType // ignore: cast_nullable_to_non_nullable
               as StacPositionedType?,
       left: freezed == left
-          ? _self.left
+          ? _value.left
           : left // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       top: freezed == top
-          ? _self.top
+          ? _value.top
           : top // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       right: freezed == right
-          ? _self.right
+          ? _value.right
           : right // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       bottom: freezed == bottom
-          ? _self.bottom
+          ? _value.bottom
           : bottom // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       width: freezed == width
-          ? _self.width
+          ? _value.width
           : width // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       height: freezed == height
-          ? _self.height
+          ? _value.height
           : height // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       start: freezed == start
-          ? _self.start
+          ? _value.start
           : start // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       end: freezed == end
-          ? _self.end
+          ? _value.end
           : end // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       textDirection: null == textDirection
-          ? _self.textDirection
+          ? _value.textDirection
           : textDirection // ignore: cast_nullable_to_non_nullable
               as TextDirection,
       rect: freezed == rect
-          ? _self.rect
+          ? _value.rect
           : rect // ignore: cast_nullable_to_non_nullable
               as StacRect?,
       child: freezed == child
-          ? _self.child
+          ? _value.child
           : child // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacPositioned
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacRectCopyWith<$Res>? get rect {
-    if (_self.rect == null) {
+    if (_value.rect == null) {
       return null;
     }
 
-    return $StacRectCopyWith<$Res>(_self.rect!, (value) {
-      return _then(_self.copyWith(rect: value));
+    return $StacRectCopyWith<$Res>(_value.rect!, (value) {
+      return _then(_value.copyWith(rect: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacPositionedImplCopyWith<$Res>
+    implements $StacPositionedCopyWith<$Res> {
+  factory _$$StacPositionedImplCopyWith(_$StacPositionedImpl value,
+          $Res Function(_$StacPositionedImpl) then) =
+      __$$StacPositionedImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {StacPositionedType? positionedType,
+      StacDouble? left,
+      StacDouble? top,
+      StacDouble? right,
+      StacDouble? bottom,
+      StacDouble? width,
+      StacDouble? height,
+      StacDouble? start,
+      StacDouble? end,
+      TextDirection textDirection,
+      StacRect? rect,
+      Map<String, dynamic>? child});
+
+  @override
+  $StacRectCopyWith<$Res>? get rect;
+}
+
+/// @nodoc
+class __$$StacPositionedImplCopyWithImpl<$Res>
+    extends _$StacPositionedCopyWithImpl<$Res, _$StacPositionedImpl>
+    implements _$$StacPositionedImplCopyWith<$Res> {
+  __$$StacPositionedImplCopyWithImpl(
+      _$StacPositionedImpl _value, $Res Function(_$StacPositionedImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? positionedType = freezed,
+    Object? left = freezed,
+    Object? top = freezed,
+    Object? right = freezed,
+    Object? bottom = freezed,
+    Object? width = freezed,
+    Object? height = freezed,
+    Object? start = freezed,
+    Object? end = freezed,
+    Object? textDirection = null,
+    Object? rect = freezed,
+    Object? child = freezed,
+  }) {
+    return _then(_$StacPositionedImpl(
+      positionedType: freezed == positionedType
+          ? _value.positionedType
+          : positionedType // ignore: cast_nullable_to_non_nullable
+              as StacPositionedType?,
+      left: freezed == left
+          ? _value.left
+          : left // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      top: freezed == top
+          ? _value.top
+          : top // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      right: freezed == right
+          ? _value.right
+          : right // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      bottom: freezed == bottom
+          ? _value.bottom
+          : bottom // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      width: freezed == width
+          ? _value.width
+          : width // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      height: freezed == height
+          ? _value.height
+          : height // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      start: freezed == start
+          ? _value.start
+          : start // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      end: freezed == end
+          ? _value.end
+          : end // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      textDirection: null == textDirection
+          ? _value.textDirection
+          : textDirection // ignore: cast_nullable_to_non_nullable
+              as TextDirection,
+      rect: freezed == rect
+          ? _value.rect
+          : rect // ignore: cast_nullable_to_non_nullable
+              as StacRect?,
+      child: freezed == child
+          ? _value._child
+          : child // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacPositioned implements StacPositioned {
-  const _StacPositioned(
+class _$StacPositionedImpl implements _StacPositioned {
+  const _$StacPositionedImpl(
       {this.positionedType,
       this.left,
       this.top,
@@ -216,8 +273,9 @@ class _StacPositioned implements StacPositioned {
       this.rect,
       final Map<String, dynamic>? child})
       : _child = child;
-  factory _StacPositioned.fromJson(Map<String, dynamic> json) =>
-      _$StacPositionedFromJson(json);
+
+  factory _$StacPositionedImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacPositionedImplFromJson(json);
 
   @override
   final StacPositionedType? positionedType;
@@ -252,26 +310,16 @@ class _StacPositioned implements StacPositioned {
     return EqualUnmodifiableMapView(value);
   }
 
-  /// Create a copy of StacPositioned
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacPositionedCopyWith<_StacPositioned> get copyWith =>
-      __$StacPositionedCopyWithImpl<_StacPositioned>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacPositionedToJson(
-      this,
-    );
+  String toString() {
+    return 'StacPositioned(positionedType: $positionedType, left: $left, top: $top, right: $right, bottom: $bottom, width: $width, height: $height, start: $start, end: $end, textDirection: $textDirection, rect: $rect, child: $child)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacPositioned &&
+            other is _$StacPositionedImpl &&
             (identical(other.positionedType, positionedType) ||
                 other.positionedType == positionedType) &&
             (identical(other.left, left) || other.left == left) &&
@@ -288,7 +336,7 @@ class _StacPositioned implements StacPositioned {
             const DeepCollectionEquality().equals(other._child, _child));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -305,129 +353,65 @@ class _StacPositioned implements StacPositioned {
       rect,
       const DeepCollectionEquality().hash(_child));
 
-  @override
-  String toString() {
-    return 'StacPositioned(positionedType: $positionedType, left: $left, top: $top, right: $right, bottom: $bottom, width: $width, height: $height, start: $start, end: $end, textDirection: $textDirection, rect: $rect, child: $child)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacPositionedCopyWith<$Res>
-    implements $StacPositionedCopyWith<$Res> {
-  factory _$StacPositionedCopyWith(
-          _StacPositioned value, $Res Function(_StacPositioned) _then) =
-      __$StacPositionedCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {StacPositionedType? positionedType,
-      StacDouble? left,
-      StacDouble? top,
-      StacDouble? right,
-      StacDouble? bottom,
-      StacDouble? width,
-      StacDouble? height,
-      StacDouble? start,
-      StacDouble? end,
-      TextDirection textDirection,
-      StacRect? rect,
-      Map<String, dynamic>? child});
-
-  @override
-  $StacRectCopyWith<$Res>? get rect;
-}
-
-/// @nodoc
-class __$StacPositionedCopyWithImpl<$Res>
-    implements _$StacPositionedCopyWith<$Res> {
-  __$StacPositionedCopyWithImpl(this._self, this._then);
-
-  final _StacPositioned _self;
-  final $Res Function(_StacPositioned) _then;
-
-  /// Create a copy of StacPositioned
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? positionedType = freezed,
-    Object? left = freezed,
-    Object? top = freezed,
-    Object? right = freezed,
-    Object? bottom = freezed,
-    Object? width = freezed,
-    Object? height = freezed,
-    Object? start = freezed,
-    Object? end = freezed,
-    Object? textDirection = null,
-    Object? rect = freezed,
-    Object? child = freezed,
-  }) {
-    return _then(_StacPositioned(
-      positionedType: freezed == positionedType
-          ? _self.positionedType
-          : positionedType // ignore: cast_nullable_to_non_nullable
-              as StacPositionedType?,
-      left: freezed == left
-          ? _self.left
-          : left // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      top: freezed == top
-          ? _self.top
-          : top // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      right: freezed == right
-          ? _self.right
-          : right // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      bottom: freezed == bottom
-          ? _self.bottom
-          : bottom // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      width: freezed == width
-          ? _self.width
-          : width // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      height: freezed == height
-          ? _self.height
-          : height // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      start: freezed == start
-          ? _self.start
-          : start // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      end: freezed == end
-          ? _self.end
-          : end // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      textDirection: null == textDirection
-          ? _self.textDirection
-          : textDirection // ignore: cast_nullable_to_non_nullable
-              as TextDirection,
-      rect: freezed == rect
-          ? _self.rect
-          : rect // ignore: cast_nullable_to_non_nullable
-              as StacRect?,
-      child: freezed == child
-          ? _self._child
-          : child // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-    ));
-  }
+  _$$StacPositionedImplCopyWith<_$StacPositionedImpl> get copyWith =>
+      __$$StacPositionedImplCopyWithImpl<_$StacPositionedImpl>(
+          this, _$identity);
 
-  /// Create a copy of StacPositioned
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @pragma('vm:prefer-inline')
-  $StacRectCopyWith<$Res>? get rect {
-    if (_self.rect == null) {
-      return null;
-    }
-
-    return $StacRectCopyWith<$Res>(_self.rect!, (value) {
-      return _then(_self.copyWith(rect: value));
-    });
+  Map<String, dynamic> toJson() {
+    return _$$StacPositionedImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacPositioned implements StacPositioned {
+  const factory _StacPositioned(
+      {final StacPositionedType? positionedType,
+      final StacDouble? left,
+      final StacDouble? top,
+      final StacDouble? right,
+      final StacDouble? bottom,
+      final StacDouble? width,
+      final StacDouble? height,
+      final StacDouble? start,
+      final StacDouble? end,
+      final TextDirection textDirection,
+      final StacRect? rect,
+      final Map<String, dynamic>? child}) = _$StacPositionedImpl;
+
+  factory _StacPositioned.fromJson(Map<String, dynamic> json) =
+      _$StacPositionedImpl.fromJson;
+
+  @override
+  StacPositionedType? get positionedType;
+  @override
+  StacDouble? get left;
+  @override
+  StacDouble? get top;
+  @override
+  StacDouble? get right;
+  @override
+  StacDouble? get bottom;
+  @override
+  StacDouble? get width;
+  @override
+  StacDouble? get height;
+  @override
+  StacDouble? get start;
+  @override
+  StacDouble? get end;
+  @override
+  TextDirection get textDirection;
+  @override
+  StacRect? get rect;
+  @override
+  Map<String, dynamic>? get child;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacPositionedImplCopyWith<_$StacPositionedImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

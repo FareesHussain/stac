@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,77 +9,38 @@ part of 'stac_text_button.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacTextButton {
-  Map<String, dynamic>? get onPressed;
-  Map<String, dynamic>? get onLongPress;
-  Map<String, dynamic>? get onHover;
-  Map<String, dynamic>? get onFocusChange;
-  StacButtonStyle? get style;
-  dynamic get autofocus;
-  Clip get clipBehavior;
-  bool get isSemanticButton;
-  Map<String, dynamic> get child;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacTextButton
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacTextButtonCopyWith<StacTextButton> get copyWith =>
-      _$StacTextButtonCopyWithImpl<StacTextButton>(
-          this as StacTextButton, _$identity);
-
-  /// Serializes this StacTextButton to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacTextButton &&
-            const DeepCollectionEquality().equals(other.onPressed, onPressed) &&
-            const DeepCollectionEquality()
-                .equals(other.onLongPress, onLongPress) &&
-            const DeepCollectionEquality().equals(other.onHover, onHover) &&
-            const DeepCollectionEquality()
-                .equals(other.onFocusChange, onFocusChange) &&
-            (identical(other.style, style) || other.style == style) &&
-            const DeepCollectionEquality().equals(other.autofocus, autofocus) &&
-            (identical(other.clipBehavior, clipBehavior) ||
-                other.clipBehavior == clipBehavior) &&
-            (identical(other.isSemanticButton, isSemanticButton) ||
-                other.isSemanticButton == isSemanticButton) &&
-            const DeepCollectionEquality().equals(other.child, child));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      const DeepCollectionEquality().hash(onPressed),
-      const DeepCollectionEquality().hash(onLongPress),
-      const DeepCollectionEquality().hash(onHover),
-      const DeepCollectionEquality().hash(onFocusChange),
-      style,
-      const DeepCollectionEquality().hash(autofocus),
-      clipBehavior,
-      isSemanticButton,
-      const DeepCollectionEquality().hash(child));
-
-  @override
-  String toString() {
-    return 'StacTextButton(onPressed: $onPressed, onLongPress: $onLongPress, onHover: $onHover, onFocusChange: $onFocusChange, style: $style, autofocus: $autofocus, clipBehavior: $clipBehavior, isSemanticButton: $isSemanticButton, child: $child)';
-  }
+StacTextButton _$StacTextButtonFromJson(Map<String, dynamic> json) {
+  return _StacTextButton.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacTextButtonCopyWith<$Res> {
+mixin _$StacTextButton {
+  Map<String, dynamic>? get onPressed => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get onLongPress => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get onHover => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get onFocusChange => throw _privateConstructorUsedError;
+  StacButtonStyle? get style => throw _privateConstructorUsedError;
+  dynamic get autofocus => throw _privateConstructorUsedError;
+  Clip get clipBehavior => throw _privateConstructorUsedError;
+  bool get isSemanticButton => throw _privateConstructorUsedError;
+  Map<String, dynamic> get child => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacTextButtonCopyWith<StacTextButton> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacTextButtonCopyWith<$Res> {
   factory $StacTextButtonCopyWith(
-          StacTextButton value, $Res Function(StacTextButton) _then) =
-      _$StacTextButtonCopyWithImpl;
+          StacTextButton value, $Res Function(StacTextButton) then) =
+      _$StacTextButtonCopyWithImpl<$Res, StacTextButton>;
   @useResult
   $Res call(
       {Map<String, dynamic>? onPressed,
@@ -97,15 +57,15 @@ abstract mixin class $StacTextButtonCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacTextButtonCopyWithImpl<$Res>
+class _$StacTextButtonCopyWithImpl<$Res, $Val extends StacTextButton>
     implements $StacTextButtonCopyWith<$Res> {
-  _$StacTextButtonCopyWithImpl(this._self, this._then);
+  _$StacTextButtonCopyWithImpl(this._value, this._then);
 
-  final StacTextButton _self;
-  final $Res Function(StacTextButton) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacTextButton
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -119,65 +79,145 @@ class _$StacTextButtonCopyWithImpl<$Res>
     Object? isSemanticButton = null,
     Object? child = null,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       onPressed: freezed == onPressed
-          ? _self.onPressed
+          ? _value.onPressed
           : onPressed // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onLongPress: freezed == onLongPress
-          ? _self.onLongPress
+          ? _value.onLongPress
           : onLongPress // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onHover: freezed == onHover
-          ? _self.onHover
+          ? _value.onHover
           : onHover // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onFocusChange: freezed == onFocusChange
-          ? _self.onFocusChange
+          ? _value.onFocusChange
           : onFocusChange // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       style: freezed == style
-          ? _self.style
+          ? _value.style
           : style // ignore: cast_nullable_to_non_nullable
               as StacButtonStyle?,
       autofocus: freezed == autofocus
-          ? _self.autofocus
+          ? _value.autofocus
           : autofocus // ignore: cast_nullable_to_non_nullable
               as dynamic,
       clipBehavior: null == clipBehavior
-          ? _self.clipBehavior
+          ? _value.clipBehavior
           : clipBehavior // ignore: cast_nullable_to_non_nullable
               as Clip,
       isSemanticButton: null == isSemanticButton
-          ? _self.isSemanticButton
+          ? _value.isSemanticButton
           : isSemanticButton // ignore: cast_nullable_to_non_nullable
               as bool,
       child: null == child
-          ? _self.child
+          ? _value.child
           : child // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacTextButton
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacButtonStyleCopyWith<$Res>? get style {
-    if (_self.style == null) {
+    if (_value.style == null) {
       return null;
     }
 
-    return $StacButtonStyleCopyWith<$Res>(_self.style!, (value) {
-      return _then(_self.copyWith(style: value));
+    return $StacButtonStyleCopyWith<$Res>(_value.style!, (value) {
+      return _then(_value.copyWith(style: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacTextButtonImplCopyWith<$Res>
+    implements $StacTextButtonCopyWith<$Res> {
+  factory _$$StacTextButtonImplCopyWith(_$StacTextButtonImpl value,
+          $Res Function(_$StacTextButtonImpl) then) =
+      __$$StacTextButtonImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {Map<String, dynamic>? onPressed,
+      Map<String, dynamic>? onLongPress,
+      Map<String, dynamic>? onHover,
+      Map<String, dynamic>? onFocusChange,
+      StacButtonStyle? style,
+      dynamic autofocus,
+      Clip clipBehavior,
+      bool isSemanticButton,
+      Map<String, dynamic> child});
+
+  @override
+  $StacButtonStyleCopyWith<$Res>? get style;
+}
+
+/// @nodoc
+class __$$StacTextButtonImplCopyWithImpl<$Res>
+    extends _$StacTextButtonCopyWithImpl<$Res, _$StacTextButtonImpl>
+    implements _$$StacTextButtonImplCopyWith<$Res> {
+  __$$StacTextButtonImplCopyWithImpl(
+      _$StacTextButtonImpl _value, $Res Function(_$StacTextButtonImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? onPressed = freezed,
+    Object? onLongPress = freezed,
+    Object? onHover = freezed,
+    Object? onFocusChange = freezed,
+    Object? style = freezed,
+    Object? autofocus = freezed,
+    Object? clipBehavior = null,
+    Object? isSemanticButton = null,
+    Object? child = null,
+  }) {
+    return _then(_$StacTextButtonImpl(
+      onPressed: freezed == onPressed
+          ? _value._onPressed
+          : onPressed // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onLongPress: freezed == onLongPress
+          ? _value._onLongPress
+          : onLongPress // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onHover: freezed == onHover
+          ? _value._onHover
+          : onHover // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onFocusChange: freezed == onFocusChange
+          ? _value._onFocusChange
+          : onFocusChange // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      style: freezed == style
+          ? _value.style
+          : style // ignore: cast_nullable_to_non_nullable
+              as StacButtonStyle?,
+      autofocus: freezed == autofocus ? _value.autofocus! : autofocus,
+      clipBehavior: null == clipBehavior
+          ? _value.clipBehavior
+          : clipBehavior // ignore: cast_nullable_to_non_nullable
+              as Clip,
+      isSemanticButton: null == isSemanticButton
+          ? _value.isSemanticButton
+          : isSemanticButton // ignore: cast_nullable_to_non_nullable
+              as bool,
+      child: null == child
+          ? _value._child
+          : child // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacTextButton implements StacTextButton {
-  const _StacTextButton(
+class _$StacTextButtonImpl implements _StacTextButton {
+  const _$StacTextButtonImpl(
       {final Map<String, dynamic>? onPressed,
       final Map<String, dynamic>? onLongPress,
       final Map<String, dynamic>? onHover,
@@ -192,8 +232,9 @@ class _StacTextButton implements StacTextButton {
         _onHover = onHover,
         _onFocusChange = onFocusChange,
         _child = child;
-  factory _StacTextButton.fromJson(Map<String, dynamic> json) =>
-      _$StacTextButtonFromJson(json);
+
+  factory _$StacTextButtonImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacTextButtonImplFromJson(json);
 
   final Map<String, dynamic>? _onPressed;
   @override
@@ -254,26 +295,16 @@ class _StacTextButton implements StacTextButton {
     return EqualUnmodifiableMapView(_child);
   }
 
-  /// Create a copy of StacTextButton
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacTextButtonCopyWith<_StacTextButton> get copyWith =>
-      __$StacTextButtonCopyWithImpl<_StacTextButton>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacTextButtonToJson(
-      this,
-    );
+  String toString() {
+    return 'StacTextButton(onPressed: $onPressed, onLongPress: $onLongPress, onHover: $onHover, onFocusChange: $onFocusChange, style: $style, autofocus: $autofocus, clipBehavior: $clipBehavior, isSemanticButton: $isSemanticButton, child: $child)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacTextButton &&
+            other is _$StacTextButtonImpl &&
             const DeepCollectionEquality()
                 .equals(other._onPressed, _onPressed) &&
             const DeepCollectionEquality()
@@ -290,7 +321,7 @@ class _StacTextButton implements StacTextButton {
             const DeepCollectionEquality().equals(other._child, _child));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -304,111 +335,56 @@ class _StacTextButton implements StacTextButton {
       isSemanticButton,
       const DeepCollectionEquality().hash(_child));
 
-  @override
-  String toString() {
-    return 'StacTextButton(onPressed: $onPressed, onLongPress: $onLongPress, onHover: $onHover, onFocusChange: $onFocusChange, style: $style, autofocus: $autofocus, clipBehavior: $clipBehavior, isSemanticButton: $isSemanticButton, child: $child)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacTextButtonCopyWith<$Res>
-    implements $StacTextButtonCopyWith<$Res> {
-  factory _$StacTextButtonCopyWith(
-          _StacTextButton value, $Res Function(_StacTextButton) _then) =
-      __$StacTextButtonCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {Map<String, dynamic>? onPressed,
-      Map<String, dynamic>? onLongPress,
-      Map<String, dynamic>? onHover,
-      Map<String, dynamic>? onFocusChange,
-      StacButtonStyle? style,
-      dynamic autofocus,
-      Clip clipBehavior,
-      bool isSemanticButton,
-      Map<String, dynamic> child});
-
-  @override
-  $StacButtonStyleCopyWith<$Res>? get style;
-}
-
-/// @nodoc
-class __$StacTextButtonCopyWithImpl<$Res>
-    implements _$StacTextButtonCopyWith<$Res> {
-  __$StacTextButtonCopyWithImpl(this._self, this._then);
-
-  final _StacTextButton _self;
-  final $Res Function(_StacTextButton) _then;
-
-  /// Create a copy of StacTextButton
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? onPressed = freezed,
-    Object? onLongPress = freezed,
-    Object? onHover = freezed,
-    Object? onFocusChange = freezed,
-    Object? style = freezed,
-    Object? autofocus = freezed,
-    Object? clipBehavior = null,
-    Object? isSemanticButton = null,
-    Object? child = null,
-  }) {
-    return _then(_StacTextButton(
-      onPressed: freezed == onPressed
-          ? _self._onPressed
-          : onPressed // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onLongPress: freezed == onLongPress
-          ? _self._onLongPress
-          : onLongPress // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onHover: freezed == onHover
-          ? _self._onHover
-          : onHover // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onFocusChange: freezed == onFocusChange
-          ? _self._onFocusChange
-          : onFocusChange // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      style: freezed == style
-          ? _self.style
-          : style // ignore: cast_nullable_to_non_nullable
-              as StacButtonStyle?,
-      autofocus: freezed == autofocus
-          ? _self.autofocus
-          : autofocus // ignore: cast_nullable_to_non_nullable
-              as dynamic,
-      clipBehavior: null == clipBehavior
-          ? _self.clipBehavior
-          : clipBehavior // ignore: cast_nullable_to_non_nullable
-              as Clip,
-      isSemanticButton: null == isSemanticButton
-          ? _self.isSemanticButton
-          : isSemanticButton // ignore: cast_nullable_to_non_nullable
-              as bool,
-      child: null == child
-          ? _self._child
-          : child // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>,
-    ));
-  }
+  _$$StacTextButtonImplCopyWith<_$StacTextButtonImpl> get copyWith =>
+      __$$StacTextButtonImplCopyWithImpl<_$StacTextButtonImpl>(
+          this, _$identity);
 
-  /// Create a copy of StacTextButton
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @pragma('vm:prefer-inline')
-  $StacButtonStyleCopyWith<$Res>? get style {
-    if (_self.style == null) {
-      return null;
-    }
-
-    return $StacButtonStyleCopyWith<$Res>(_self.style!, (value) {
-      return _then(_self.copyWith(style: value));
-    });
+  Map<String, dynamic> toJson() {
+    return _$$StacTextButtonImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacTextButton implements StacTextButton {
+  const factory _StacTextButton(
+      {final Map<String, dynamic>? onPressed,
+      final Map<String, dynamic>? onLongPress,
+      final Map<String, dynamic>? onHover,
+      final Map<String, dynamic>? onFocusChange,
+      final StacButtonStyle? style,
+      final dynamic autofocus,
+      final Clip clipBehavior,
+      final bool isSemanticButton,
+      required final Map<String, dynamic> child}) = _$StacTextButtonImpl;
+
+  factory _StacTextButton.fromJson(Map<String, dynamic> json) =
+      _$StacTextButtonImpl.fromJson;
+
+  @override
+  Map<String, dynamic>? get onPressed;
+  @override
+  Map<String, dynamic>? get onLongPress;
+  @override
+  Map<String, dynamic>? get onHover;
+  @override
+  Map<String, dynamic>? get onFocusChange;
+  @override
+  StacButtonStyle? get style;
+  @override
+  dynamic get autofocus;
+  @override
+  Clip get clipBehavior;
+  @override
+  bool get isSemanticButton;
+  @override
+  Map<String, dynamic> get child;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacTextButtonImplCopyWith<_$StacTextButtonImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

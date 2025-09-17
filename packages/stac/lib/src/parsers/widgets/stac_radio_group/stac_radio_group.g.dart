@@ -6,14 +6,15 @@ part of 'stac_radio_group.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacRadioGroup _$StacRadioGroupFromJson(Map<String, dynamic> json) =>
-    _StacRadioGroup(
+_$StacRadioGroupImpl _$$StacRadioGroupImplFromJson(Map<String, dynamic> json) =>
+    _$StacRadioGroupImpl(
       id: json['id'] as String?,
       groupValue: json['groupValue'],
       child: json['child'] as Map<String, dynamic>?,
     );
 
-Map<String, dynamic> _$StacRadioGroupToJson(_StacRadioGroup instance) =>
+Map<String, dynamic> _$$StacRadioGroupImplToJson(
+        _$StacRadioGroupImpl instance) =>
     <String, dynamic>{
       'id': instance.id,
       'groupValue': instance.groupValue,

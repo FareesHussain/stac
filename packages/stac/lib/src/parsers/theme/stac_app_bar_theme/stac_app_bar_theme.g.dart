@@ -6,8 +6,9 @@ part of 'stac_app_bar_theme.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacAppBarTheme _$StacAppBarThemeFromJson(Map<String, dynamic> json) =>
-    _StacAppBarTheme(
+_$StacAppBarThemeImpl _$$StacAppBarThemeImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacAppBarThemeImpl(
       color: json['color'] as String?,
       backgroundColor: json['backgroundColor'] as String?,
       foregroundColor: json['foregroundColor'] as String?,
@@ -45,7 +46,8 @@ _StacAppBarTheme _$StacAppBarThemeFromJson(Map<String, dynamic> json) =>
           : StacEdgeInsets.fromJson(json['actionsPadding']),
     );
 
-Map<String, dynamic> _$StacAppBarThemeToJson(_StacAppBarTheme instance) =>
+Map<String, dynamic> _$$StacAppBarThemeImplToJson(
+        _$StacAppBarThemeImpl instance) =>
     <String, dynamic>{
       'color': instance.color,
       'backgroundColor': instance.backgroundColor,

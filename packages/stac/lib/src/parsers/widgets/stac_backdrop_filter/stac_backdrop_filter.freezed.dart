@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,55 +9,33 @@ part of 'stac_backdrop_filter.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacBackdropFilter {
-  StacImageFilter get filter;
-  Map<String, dynamic>? get child;
-  bool get enabled;
-  BlendMode get blendMode;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacBackdropFilter
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacBackdropFilterCopyWith<StacBackdropFilter> get copyWith =>
-      _$StacBackdropFilterCopyWithImpl<StacBackdropFilter>(
-          this as StacBackdropFilter, _$identity);
-
-  /// Serializes this StacBackdropFilter to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacBackdropFilter &&
-            (identical(other.filter, filter) || other.filter == filter) &&
-            const DeepCollectionEquality().equals(other.child, child) &&
-            (identical(other.enabled, enabled) || other.enabled == enabled) &&
-            (identical(other.blendMode, blendMode) ||
-                other.blendMode == blendMode));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(runtimeType, filter,
-      const DeepCollectionEquality().hash(child), enabled, blendMode);
-
-  @override
-  String toString() {
-    return 'StacBackdropFilter(filter: $filter, child: $child, enabled: $enabled, blendMode: $blendMode)';
-  }
+StacBackdropFilter _$StacBackdropFilterFromJson(Map<String, dynamic> json) {
+  return _StacBackdropFilter.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacBackdropFilterCopyWith<$Res> {
+mixin _$StacBackdropFilter {
+  StacImageFilter get filter => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get child => throw _privateConstructorUsedError;
+  bool get enabled => throw _privateConstructorUsedError;
+  BlendMode get blendMode => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacBackdropFilterCopyWith<StacBackdropFilter> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacBackdropFilterCopyWith<$Res> {
   factory $StacBackdropFilterCopyWith(
-          StacBackdropFilter value, $Res Function(StacBackdropFilter) _then) =
-      _$StacBackdropFilterCopyWithImpl;
+          StacBackdropFilter value, $Res Function(StacBackdropFilter) then) =
+      _$StacBackdropFilterCopyWithImpl<$Res, StacBackdropFilter>;
   @useResult
   $Res call(
       {StacImageFilter filter,
@@ -70,15 +47,15 @@ abstract mixin class $StacBackdropFilterCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacBackdropFilterCopyWithImpl<$Res>
+class _$StacBackdropFilterCopyWithImpl<$Res, $Val extends StacBackdropFilter>
     implements $StacBackdropFilterCopyWith<$Res> {
-  _$StacBackdropFilterCopyWithImpl(this._self, this._then);
+  _$StacBackdropFilterCopyWithImpl(this._value, this._then);
 
-  final StacBackdropFilter _self;
-  final $Res Function(StacBackdropFilter) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacBackdropFilter
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -87,48 +64,102 @@ class _$StacBackdropFilterCopyWithImpl<$Res>
     Object? enabled = null,
     Object? blendMode = null,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       filter: null == filter
-          ? _self.filter
+          ? _value.filter
           : filter // ignore: cast_nullable_to_non_nullable
               as StacImageFilter,
       child: freezed == child
-          ? _self.child
+          ? _value.child
           : child // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       enabled: null == enabled
-          ? _self.enabled
+          ? _value.enabled
           : enabled // ignore: cast_nullable_to_non_nullable
               as bool,
       blendMode: null == blendMode
-          ? _self.blendMode
+          ? _value.blendMode
           : blendMode // ignore: cast_nullable_to_non_nullable
               as BlendMode,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacBackdropFilter
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacImageFilterCopyWith<$Res> get filter {
-    return $StacImageFilterCopyWith<$Res>(_self.filter, (value) {
-      return _then(_self.copyWith(filter: value));
+    return $StacImageFilterCopyWith<$Res>(_value.filter, (value) {
+      return _then(_value.copyWith(filter: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacBackdropFilterImplCopyWith<$Res>
+    implements $StacBackdropFilterCopyWith<$Res> {
+  factory _$$StacBackdropFilterImplCopyWith(_$StacBackdropFilterImpl value,
+          $Res Function(_$StacBackdropFilterImpl) then) =
+      __$$StacBackdropFilterImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {StacImageFilter filter,
+      Map<String, dynamic>? child,
+      bool enabled,
+      BlendMode blendMode});
+
+  @override
+  $StacImageFilterCopyWith<$Res> get filter;
+}
+
+/// @nodoc
+class __$$StacBackdropFilterImplCopyWithImpl<$Res>
+    extends _$StacBackdropFilterCopyWithImpl<$Res, _$StacBackdropFilterImpl>
+    implements _$$StacBackdropFilterImplCopyWith<$Res> {
+  __$$StacBackdropFilterImplCopyWithImpl(_$StacBackdropFilterImpl _value,
+      $Res Function(_$StacBackdropFilterImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? filter = null,
+    Object? child = freezed,
+    Object? enabled = null,
+    Object? blendMode = null,
+  }) {
+    return _then(_$StacBackdropFilterImpl(
+      filter: null == filter
+          ? _value.filter
+          : filter // ignore: cast_nullable_to_non_nullable
+              as StacImageFilter,
+      child: freezed == child
+          ? _value._child
+          : child // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      enabled: null == enabled
+          ? _value.enabled
+          : enabled // ignore: cast_nullable_to_non_nullable
+              as bool,
+      blendMode: null == blendMode
+          ? _value.blendMode
+          : blendMode // ignore: cast_nullable_to_non_nullable
+              as BlendMode,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacBackdropFilter implements StacBackdropFilter {
-  const _StacBackdropFilter(
+class _$StacBackdropFilterImpl implements _StacBackdropFilter {
+  const _$StacBackdropFilterImpl(
       {required this.filter,
       final Map<String, dynamic>? child,
       this.enabled = true,
       this.blendMode = BlendMode.srcOver})
       : _child = child;
-  factory _StacBackdropFilter.fromJson(Map<String, dynamic> json) =>
-      _$StacBackdropFilterFromJson(json);
+
+  factory _$StacBackdropFilterImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacBackdropFilterImplFromJson(json);
 
   @override
   final StacImageFilter filter;
@@ -149,26 +180,16 @@ class _StacBackdropFilter implements StacBackdropFilter {
   @JsonKey()
   final BlendMode blendMode;
 
-  /// Create a copy of StacBackdropFilter
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacBackdropFilterCopyWith<_StacBackdropFilter> get copyWith =>
-      __$StacBackdropFilterCopyWithImpl<_StacBackdropFilter>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacBackdropFilterToJson(
-      this,
-    );
+  String toString() {
+    return 'StacBackdropFilter(filter: $filter, child: $child, enabled: $enabled, blendMode: $blendMode)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacBackdropFilter &&
+            other is _$StacBackdropFilterImpl &&
             (identical(other.filter, filter) || other.filter == filter) &&
             const DeepCollectionEquality().equals(other._child, _child) &&
             (identical(other.enabled, enabled) || other.enabled == enabled) &&
@@ -176,82 +197,46 @@ class _StacBackdropFilter implements StacBackdropFilter {
                 other.blendMode == blendMode));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(runtimeType, filter,
       const DeepCollectionEquality().hash(_child), enabled, blendMode);
 
-  @override
-  String toString() {
-    return 'StacBackdropFilter(filter: $filter, child: $child, enabled: $enabled, blendMode: $blendMode)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacBackdropFilterCopyWith<$Res>
-    implements $StacBackdropFilterCopyWith<$Res> {
-  factory _$StacBackdropFilterCopyWith(
-          _StacBackdropFilter value, $Res Function(_StacBackdropFilter) _then) =
-      __$StacBackdropFilterCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {StacImageFilter filter,
-      Map<String, dynamic>? child,
-      bool enabled,
-      BlendMode blendMode});
-
-  @override
-  $StacImageFilterCopyWith<$Res> get filter;
-}
-
-/// @nodoc
-class __$StacBackdropFilterCopyWithImpl<$Res>
-    implements _$StacBackdropFilterCopyWith<$Res> {
-  __$StacBackdropFilterCopyWithImpl(this._self, this._then);
-
-  final _StacBackdropFilter _self;
-  final $Res Function(_StacBackdropFilter) _then;
-
-  /// Create a copy of StacBackdropFilter
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? filter = null,
-    Object? child = freezed,
-    Object? enabled = null,
-    Object? blendMode = null,
-  }) {
-    return _then(_StacBackdropFilter(
-      filter: null == filter
-          ? _self.filter
-          : filter // ignore: cast_nullable_to_non_nullable
-              as StacImageFilter,
-      child: freezed == child
-          ? _self._child
-          : child // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      enabled: null == enabled
-          ? _self.enabled
-          : enabled // ignore: cast_nullable_to_non_nullable
-              as bool,
-      blendMode: null == blendMode
-          ? _self.blendMode
-          : blendMode // ignore: cast_nullable_to_non_nullable
-              as BlendMode,
-    ));
-  }
+  _$$StacBackdropFilterImplCopyWith<_$StacBackdropFilterImpl> get copyWith =>
+      __$$StacBackdropFilterImplCopyWithImpl<_$StacBackdropFilterImpl>(
+          this, _$identity);
 
-  /// Create a copy of StacBackdropFilter
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @pragma('vm:prefer-inline')
-  $StacImageFilterCopyWith<$Res> get filter {
-    return $StacImageFilterCopyWith<$Res>(_self.filter, (value) {
-      return _then(_self.copyWith(filter: value));
-    });
+  Map<String, dynamic> toJson() {
+    return _$$StacBackdropFilterImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacBackdropFilter implements StacBackdropFilter {
+  const factory _StacBackdropFilter(
+      {required final StacImageFilter filter,
+      final Map<String, dynamic>? child,
+      final bool enabled,
+      final BlendMode blendMode}) = _$StacBackdropFilterImpl;
+
+  factory _StacBackdropFilter.fromJson(Map<String, dynamic> json) =
+      _$StacBackdropFilterImpl.fromJson;
+
+  @override
+  StacImageFilter get filter;
+  @override
+  Map<String, dynamic>? get child;
+  @override
+  bool get enabled;
+  @override
+  BlendMode get blendMode;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacBackdropFilterImplCopyWith<_$StacBackdropFilterImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

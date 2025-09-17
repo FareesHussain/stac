@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,70 +9,51 @@ part of 'stac_default_bottom_navigation_controller.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacDefaultBottomNavigationController {
-  int get length;
-  int? get initialIndex;
-  Map<String, dynamic> get child;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacDefaultBottomNavigationController
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacDefaultBottomNavigationControllerCopyWith<
-          StacDefaultBottomNavigationController>
-      get copyWith => _$StacDefaultBottomNavigationControllerCopyWithImpl<
-              StacDefaultBottomNavigationController>(
-          this as StacDefaultBottomNavigationController, _$identity);
-
-  /// Serializes this StacDefaultBottomNavigationController to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacDefaultBottomNavigationController &&
-            (identical(other.length, length) || other.length == length) &&
-            (identical(other.initialIndex, initialIndex) ||
-                other.initialIndex == initialIndex) &&
-            const DeepCollectionEquality().equals(other.child, child));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(runtimeType, length, initialIndex,
-      const DeepCollectionEquality().hash(child));
-
-  @override
-  String toString() {
-    return 'StacDefaultBottomNavigationController(length: $length, initialIndex: $initialIndex, child: $child)';
-  }
+StacDefaultBottomNavigationController
+    _$StacDefaultBottomNavigationControllerFromJson(Map<String, dynamic> json) {
+  return _StacDefaultBottomNavigationController.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacDefaultBottomNavigationControllerCopyWith<$Res> {
+mixin _$StacDefaultBottomNavigationController {
+  int get length => throw _privateConstructorUsedError;
+  int? get initialIndex => throw _privateConstructorUsedError;
+  Map<String, dynamic> get child => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacDefaultBottomNavigationControllerCopyWith<
+          StacDefaultBottomNavigationController>
+      get copyWith => throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacDefaultBottomNavigationControllerCopyWith<$Res> {
   factory $StacDefaultBottomNavigationControllerCopyWith(
           StacDefaultBottomNavigationController value,
-          $Res Function(StacDefaultBottomNavigationController) _then) =
-      _$StacDefaultBottomNavigationControllerCopyWithImpl;
+          $Res Function(StacDefaultBottomNavigationController) then) =
+      _$StacDefaultBottomNavigationControllerCopyWithImpl<$Res,
+          StacDefaultBottomNavigationController>;
   @useResult
   $Res call({int length, int? initialIndex, Map<String, dynamic> child});
 }
 
 /// @nodoc
-class _$StacDefaultBottomNavigationControllerCopyWithImpl<$Res>
+class _$StacDefaultBottomNavigationControllerCopyWithImpl<$Res,
+        $Val extends StacDefaultBottomNavigationController>
     implements $StacDefaultBottomNavigationControllerCopyWith<$Res> {
-  _$StacDefaultBottomNavigationControllerCopyWithImpl(this._self, this._then);
+  _$StacDefaultBottomNavigationControllerCopyWithImpl(this._value, this._then);
 
-  final StacDefaultBottomNavigationController _self;
-  final $Res Function(StacDefaultBottomNavigationController) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacDefaultBottomNavigationController
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -81,17 +61,63 @@ class _$StacDefaultBottomNavigationControllerCopyWithImpl<$Res>
     Object? initialIndex = freezed,
     Object? child = null,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       length: null == length
-          ? _self.length
+          ? _value.length
           : length // ignore: cast_nullable_to_non_nullable
               as int,
       initialIndex: freezed == initialIndex
-          ? _self.initialIndex
+          ? _value.initialIndex
           : initialIndex // ignore: cast_nullable_to_non_nullable
               as int?,
       child: null == child
-          ? _self.child
+          ? _value.child
+          : child // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacDefaultBottomNavigationControllerImplCopyWith<$Res>
+    implements $StacDefaultBottomNavigationControllerCopyWith<$Res> {
+  factory _$$StacDefaultBottomNavigationControllerImplCopyWith(
+          _$StacDefaultBottomNavigationControllerImpl value,
+          $Res Function(_$StacDefaultBottomNavigationControllerImpl) then) =
+      __$$StacDefaultBottomNavigationControllerImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call({int length, int? initialIndex, Map<String, dynamic> child});
+}
+
+/// @nodoc
+class __$$StacDefaultBottomNavigationControllerImplCopyWithImpl<$Res>
+    extends _$StacDefaultBottomNavigationControllerCopyWithImpl<$Res,
+        _$StacDefaultBottomNavigationControllerImpl>
+    implements _$$StacDefaultBottomNavigationControllerImplCopyWith<$Res> {
+  __$$StacDefaultBottomNavigationControllerImplCopyWithImpl(
+      _$StacDefaultBottomNavigationControllerImpl _value,
+      $Res Function(_$StacDefaultBottomNavigationControllerImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? length = null,
+    Object? initialIndex = freezed,
+    Object? child = null,
+  }) {
+    return _then(_$StacDefaultBottomNavigationControllerImpl(
+      length: null == length
+          ? _value.length
+          : length // ignore: cast_nullable_to_non_nullable
+              as int,
+      initialIndex: freezed == initialIndex
+          ? _value.initialIndex
+          : initialIndex // ignore: cast_nullable_to_non_nullable
+              as int?,
+      child: null == child
+          ? _value._child
           : child // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>,
     ));
@@ -100,16 +126,17 @@ class _$StacDefaultBottomNavigationControllerCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _StacDefaultBottomNavigationController
-    implements StacDefaultBottomNavigationController {
-  const _StacDefaultBottomNavigationController(
+class _$StacDefaultBottomNavigationControllerImpl
+    implements _StacDefaultBottomNavigationController {
+  const _$StacDefaultBottomNavigationControllerImpl(
       {required this.length,
       this.initialIndex,
       required final Map<String, dynamic> child})
       : _child = child;
-  factory _StacDefaultBottomNavigationController.fromJson(
+
+  factory _$StacDefaultBottomNavigationControllerImpl.fromJson(
           Map<String, dynamic> json) =>
-      _$StacDefaultBottomNavigationControllerFromJson(json);
+      _$$StacDefaultBottomNavigationControllerImplFromJson(json);
 
   @override
   final int length;
@@ -123,89 +150,64 @@ class _StacDefaultBottomNavigationController
     return EqualUnmodifiableMapView(_child);
   }
 
-  /// Create a copy of StacDefaultBottomNavigationController
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacDefaultBottomNavigationControllerCopyWith<
-          _StacDefaultBottomNavigationController>
-      get copyWith => __$StacDefaultBottomNavigationControllerCopyWithImpl<
-          _StacDefaultBottomNavigationController>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacDefaultBottomNavigationControllerToJson(
-      this,
-    );
+  String toString() {
+    return 'StacDefaultBottomNavigationController(length: $length, initialIndex: $initialIndex, child: $child)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacDefaultBottomNavigationController &&
+            other is _$StacDefaultBottomNavigationControllerImpl &&
             (identical(other.length, length) || other.length == length) &&
             (identical(other.initialIndex, initialIndex) ||
                 other.initialIndex == initialIndex) &&
             const DeepCollectionEquality().equals(other._child, _child));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(runtimeType, length, initialIndex,
       const DeepCollectionEquality().hash(_child));
 
-  @override
-  String toString() {
-    return 'StacDefaultBottomNavigationController(length: $length, initialIndex: $initialIndex, child: $child)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacDefaultBottomNavigationControllerCopyWith<$Res>
-    implements $StacDefaultBottomNavigationControllerCopyWith<$Res> {
-  factory _$StacDefaultBottomNavigationControllerCopyWith(
-          _StacDefaultBottomNavigationController value,
-          $Res Function(_StacDefaultBottomNavigationController) _then) =
-      __$StacDefaultBottomNavigationControllerCopyWithImpl;
-  @override
-  @useResult
-  $Res call({int length, int? initialIndex, Map<String, dynamic> child});
-}
-
-/// @nodoc
-class __$StacDefaultBottomNavigationControllerCopyWithImpl<$Res>
-    implements _$StacDefaultBottomNavigationControllerCopyWith<$Res> {
-  __$StacDefaultBottomNavigationControllerCopyWithImpl(this._self, this._then);
-
-  final _StacDefaultBottomNavigationController _self;
-  final $Res Function(_StacDefaultBottomNavigationController) _then;
-
-  /// Create a copy of StacDefaultBottomNavigationController
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? length = null,
-    Object? initialIndex = freezed,
-    Object? child = null,
-  }) {
-    return _then(_StacDefaultBottomNavigationController(
-      length: null == length
-          ? _self.length
-          : length // ignore: cast_nullable_to_non_nullable
-              as int,
-      initialIndex: freezed == initialIndex
-          ? _self.initialIndex
-          : initialIndex // ignore: cast_nullable_to_non_nullable
-              as int?,
-      child: null == child
-          ? _self._child
-          : child // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>,
-    ));
+  _$$StacDefaultBottomNavigationControllerImplCopyWith<
+          _$StacDefaultBottomNavigationControllerImpl>
+      get copyWith => __$$StacDefaultBottomNavigationControllerImplCopyWithImpl<
+          _$StacDefaultBottomNavigationControllerImpl>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacDefaultBottomNavigationControllerImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacDefaultBottomNavigationController
+    implements StacDefaultBottomNavigationController {
+  const factory _StacDefaultBottomNavigationController(
+          {required final int length,
+          final int? initialIndex,
+          required final Map<String, dynamic> child}) =
+      _$StacDefaultBottomNavigationControllerImpl;
+
+  factory _StacDefaultBottomNavigationController.fromJson(
+          Map<String, dynamic> json) =
+      _$StacDefaultBottomNavigationControllerImpl.fromJson;
+
+  @override
+  int get length;
+  @override
+  int? get initialIndex;
+  @override
+  Map<String, dynamic> get child;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacDefaultBottomNavigationControllerImplCopyWith<
+          _$StacDefaultBottomNavigationControllerImpl>
+      get copyWith => throw _privateConstructorUsedError;
+}

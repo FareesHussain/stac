@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,108 +9,46 @@ part of 'stac_snack_bar_theme_data.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacSnackBarThemeData {
-  SnackBarBehavior? get behavior;
-  String? get backgroundColor;
-  double? get elevation;
-  StacShapeBorder? get shape;
-  double? get width;
-  StacTextStyle? get contentTextStyle;
-  String? get actionTextColor;
-  String? get disabledActionTextColor;
-  StacEdgeInsets? get insetPadding;
-  DismissDirection? get dismissDirection;
-  bool? get showCloseIcon;
-  String? get closeIconColor;
-  double? get actionOverflowThreshold;
-  String? get actionBackgroundColor;
-  String? get disabledActionBackgroundColor;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacSnackBarThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacSnackBarThemeDataCopyWith<StacSnackBarThemeData> get copyWith =>
-      _$StacSnackBarThemeDataCopyWithImpl<StacSnackBarThemeData>(
-          this as StacSnackBarThemeData, _$identity);
-
-  /// Serializes this StacSnackBarThemeData to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacSnackBarThemeData &&
-            (identical(other.behavior, behavior) ||
-                other.behavior == behavior) &&
-            (identical(other.backgroundColor, backgroundColor) ||
-                other.backgroundColor == backgroundColor) &&
-            (identical(other.elevation, elevation) ||
-                other.elevation == elevation) &&
-            (identical(other.shape, shape) || other.shape == shape) &&
-            (identical(other.width, width) || other.width == width) &&
-            (identical(other.contentTextStyle, contentTextStyle) ||
-                other.contentTextStyle == contentTextStyle) &&
-            (identical(other.actionTextColor, actionTextColor) ||
-                other.actionTextColor == actionTextColor) &&
-            (identical(
-                    other.disabledActionTextColor, disabledActionTextColor) ||
-                other.disabledActionTextColor == disabledActionTextColor) &&
-            (identical(other.insetPadding, insetPadding) ||
-                other.insetPadding == insetPadding) &&
-            (identical(other.dismissDirection, dismissDirection) ||
-                other.dismissDirection == dismissDirection) &&
-            (identical(other.showCloseIcon, showCloseIcon) ||
-                other.showCloseIcon == showCloseIcon) &&
-            (identical(other.closeIconColor, closeIconColor) ||
-                other.closeIconColor == closeIconColor) &&
-            (identical(
-                    other.actionOverflowThreshold, actionOverflowThreshold) ||
-                other.actionOverflowThreshold == actionOverflowThreshold) &&
-            (identical(other.actionBackgroundColor, actionBackgroundColor) ||
-                other.actionBackgroundColor == actionBackgroundColor) &&
-            (identical(other.disabledActionBackgroundColor,
-                    disabledActionBackgroundColor) ||
-                other.disabledActionBackgroundColor ==
-                    disabledActionBackgroundColor));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      behavior,
-      backgroundColor,
-      elevation,
-      shape,
-      width,
-      contentTextStyle,
-      actionTextColor,
-      disabledActionTextColor,
-      insetPadding,
-      dismissDirection,
-      showCloseIcon,
-      closeIconColor,
-      actionOverflowThreshold,
-      actionBackgroundColor,
-      disabledActionBackgroundColor);
-
-  @override
-  String toString() {
-    return 'StacSnackBarThemeData(behavior: $behavior, backgroundColor: $backgroundColor, elevation: $elevation, shape: $shape, width: $width, contentTextStyle: $contentTextStyle, actionTextColor: $actionTextColor, disabledActionTextColor: $disabledActionTextColor, insetPadding: $insetPadding, dismissDirection: $dismissDirection, showCloseIcon: $showCloseIcon, closeIconColor: $closeIconColor, actionOverflowThreshold: $actionOverflowThreshold, actionBackgroundColor: $actionBackgroundColor, disabledActionBackgroundColor: $disabledActionBackgroundColor)';
-  }
+StacSnackBarThemeData _$StacSnackBarThemeDataFromJson(
+    Map<String, dynamic> json) {
+  return _StacSnackBarThemeData.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacSnackBarThemeDataCopyWith<$Res> {
+mixin _$StacSnackBarThemeData {
+  SnackBarBehavior? get behavior => throw _privateConstructorUsedError;
+  String? get backgroundColor => throw _privateConstructorUsedError;
+  double? get elevation => throw _privateConstructorUsedError;
+  StacShapeBorder? get shape => throw _privateConstructorUsedError;
+  double? get width => throw _privateConstructorUsedError;
+  StacTextStyle? get contentTextStyle => throw _privateConstructorUsedError;
+  String? get actionTextColor => throw _privateConstructorUsedError;
+  String? get disabledActionTextColor => throw _privateConstructorUsedError;
+  StacEdgeInsets? get insetPadding => throw _privateConstructorUsedError;
+  DismissDirection? get dismissDirection => throw _privateConstructorUsedError;
+  bool? get showCloseIcon => throw _privateConstructorUsedError;
+  String? get closeIconColor => throw _privateConstructorUsedError;
+  double? get actionOverflowThreshold => throw _privateConstructorUsedError;
+  String? get actionBackgroundColor => throw _privateConstructorUsedError;
+  String? get disabledActionBackgroundColor =>
+      throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacSnackBarThemeDataCopyWith<StacSnackBarThemeData> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacSnackBarThemeDataCopyWith<$Res> {
   factory $StacSnackBarThemeDataCopyWith(StacSnackBarThemeData value,
-          $Res Function(StacSnackBarThemeData) _then) =
-      _$StacSnackBarThemeDataCopyWithImpl;
+          $Res Function(StacSnackBarThemeData) then) =
+      _$StacSnackBarThemeDataCopyWithImpl<$Res, StacSnackBarThemeData>;
   @useResult
   $Res call(
       {SnackBarBehavior? behavior,
@@ -136,15 +73,16 @@ abstract mixin class $StacSnackBarThemeDataCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacSnackBarThemeDataCopyWithImpl<$Res>
+class _$StacSnackBarThemeDataCopyWithImpl<$Res,
+        $Val extends StacSnackBarThemeData>
     implements $StacSnackBarThemeDataCopyWith<$Res> {
-  _$StacSnackBarThemeDataCopyWithImpl(this._self, this._then);
+  _$StacSnackBarThemeDataCopyWithImpl(this._value, this._then);
 
-  final StacSnackBarThemeData _self;
-  final $Res Function(StacSnackBarThemeData) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacSnackBarThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -164,117 +102,238 @@ class _$StacSnackBarThemeDataCopyWithImpl<$Res>
     Object? actionBackgroundColor = freezed,
     Object? disabledActionBackgroundColor = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       behavior: freezed == behavior
-          ? _self.behavior
+          ? _value.behavior
           : behavior // ignore: cast_nullable_to_non_nullable
               as SnackBarBehavior?,
       backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
+          ? _value.backgroundColor
           : backgroundColor // ignore: cast_nullable_to_non_nullable
               as String?,
       elevation: freezed == elevation
-          ? _self.elevation
+          ? _value.elevation
           : elevation // ignore: cast_nullable_to_non_nullable
               as double?,
       shape: freezed == shape
-          ? _self.shape
+          ? _value.shape
           : shape // ignore: cast_nullable_to_non_nullable
               as StacShapeBorder?,
       width: freezed == width
-          ? _self.width
+          ? _value.width
           : width // ignore: cast_nullable_to_non_nullable
               as double?,
       contentTextStyle: freezed == contentTextStyle
-          ? _self.contentTextStyle
+          ? _value.contentTextStyle
           : contentTextStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       actionTextColor: freezed == actionTextColor
-          ? _self.actionTextColor
+          ? _value.actionTextColor
           : actionTextColor // ignore: cast_nullable_to_non_nullable
               as String?,
       disabledActionTextColor: freezed == disabledActionTextColor
-          ? _self.disabledActionTextColor
+          ? _value.disabledActionTextColor
           : disabledActionTextColor // ignore: cast_nullable_to_non_nullable
               as String?,
       insetPadding: freezed == insetPadding
-          ? _self.insetPadding
+          ? _value.insetPadding
           : insetPadding // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets?,
       dismissDirection: freezed == dismissDirection
-          ? _self.dismissDirection
+          ? _value.dismissDirection
           : dismissDirection // ignore: cast_nullable_to_non_nullable
               as DismissDirection?,
       showCloseIcon: freezed == showCloseIcon
-          ? _self.showCloseIcon
+          ? _value.showCloseIcon
           : showCloseIcon // ignore: cast_nullable_to_non_nullable
               as bool?,
       closeIconColor: freezed == closeIconColor
-          ? _self.closeIconColor
+          ? _value.closeIconColor
           : closeIconColor // ignore: cast_nullable_to_non_nullable
               as String?,
       actionOverflowThreshold: freezed == actionOverflowThreshold
-          ? _self.actionOverflowThreshold
+          ? _value.actionOverflowThreshold
           : actionOverflowThreshold // ignore: cast_nullable_to_non_nullable
               as double?,
       actionBackgroundColor: freezed == actionBackgroundColor
-          ? _self.actionBackgroundColor
+          ? _value.actionBackgroundColor
           : actionBackgroundColor // ignore: cast_nullable_to_non_nullable
               as String?,
       disabledActionBackgroundColor: freezed == disabledActionBackgroundColor
-          ? _self.disabledActionBackgroundColor
+          ? _value.disabledActionBackgroundColor
           : disabledActionBackgroundColor // ignore: cast_nullable_to_non_nullable
               as String?,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacSnackBarThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacShapeBorderCopyWith<$Res>? get shape {
-    if (_self.shape == null) {
+    if (_value.shape == null) {
       return null;
     }
 
-    return $StacShapeBorderCopyWith<$Res>(_self.shape!, (value) {
-      return _then(_self.copyWith(shape: value));
+    return $StacShapeBorderCopyWith<$Res>(_value.shape!, (value) {
+      return _then(_value.copyWith(shape: value) as $Val);
     });
   }
 
-  /// Create a copy of StacSnackBarThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacTextStyleCopyWith<$Res>? get contentTextStyle {
-    if (_self.contentTextStyle == null) {
+    if (_value.contentTextStyle == null) {
       return null;
     }
 
-    return $StacTextStyleCopyWith<$Res>(_self.contentTextStyle!, (value) {
-      return _then(_self.copyWith(contentTextStyle: value));
+    return $StacTextStyleCopyWith<$Res>(_value.contentTextStyle!, (value) {
+      return _then(_value.copyWith(contentTextStyle: value) as $Val);
     });
   }
 
-  /// Create a copy of StacSnackBarThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacEdgeInsetsCopyWith<$Res>? get insetPadding {
-    if (_self.insetPadding == null) {
+    if (_value.insetPadding == null) {
       return null;
     }
 
-    return $StacEdgeInsetsCopyWith<$Res>(_self.insetPadding!, (value) {
-      return _then(_self.copyWith(insetPadding: value));
+    return $StacEdgeInsetsCopyWith<$Res>(_value.insetPadding!, (value) {
+      return _then(_value.copyWith(insetPadding: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacSnackBarThemeDataImplCopyWith<$Res>
+    implements $StacSnackBarThemeDataCopyWith<$Res> {
+  factory _$$StacSnackBarThemeDataImplCopyWith(
+          _$StacSnackBarThemeDataImpl value,
+          $Res Function(_$StacSnackBarThemeDataImpl) then) =
+      __$$StacSnackBarThemeDataImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {SnackBarBehavior? behavior,
+      String? backgroundColor,
+      double? elevation,
+      StacShapeBorder? shape,
+      double? width,
+      StacTextStyle? contentTextStyle,
+      String? actionTextColor,
+      String? disabledActionTextColor,
+      StacEdgeInsets? insetPadding,
+      DismissDirection? dismissDirection,
+      bool? showCloseIcon,
+      String? closeIconColor,
+      double? actionOverflowThreshold,
+      String? actionBackgroundColor,
+      String? disabledActionBackgroundColor});
+
+  @override
+  $StacShapeBorderCopyWith<$Res>? get shape;
+  @override
+  $StacTextStyleCopyWith<$Res>? get contentTextStyle;
+  @override
+  $StacEdgeInsetsCopyWith<$Res>? get insetPadding;
+}
+
+/// @nodoc
+class __$$StacSnackBarThemeDataImplCopyWithImpl<$Res>
+    extends _$StacSnackBarThemeDataCopyWithImpl<$Res,
+        _$StacSnackBarThemeDataImpl>
+    implements _$$StacSnackBarThemeDataImplCopyWith<$Res> {
+  __$$StacSnackBarThemeDataImplCopyWithImpl(_$StacSnackBarThemeDataImpl _value,
+      $Res Function(_$StacSnackBarThemeDataImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? behavior = freezed,
+    Object? backgroundColor = freezed,
+    Object? elevation = freezed,
+    Object? shape = freezed,
+    Object? width = freezed,
+    Object? contentTextStyle = freezed,
+    Object? actionTextColor = freezed,
+    Object? disabledActionTextColor = freezed,
+    Object? insetPadding = freezed,
+    Object? dismissDirection = freezed,
+    Object? showCloseIcon = freezed,
+    Object? closeIconColor = freezed,
+    Object? actionOverflowThreshold = freezed,
+    Object? actionBackgroundColor = freezed,
+    Object? disabledActionBackgroundColor = freezed,
+  }) {
+    return _then(_$StacSnackBarThemeDataImpl(
+      behavior: freezed == behavior
+          ? _value.behavior
+          : behavior // ignore: cast_nullable_to_non_nullable
+              as SnackBarBehavior?,
+      backgroundColor: freezed == backgroundColor
+          ? _value.backgroundColor
+          : backgroundColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      elevation: freezed == elevation
+          ? _value.elevation
+          : elevation // ignore: cast_nullable_to_non_nullable
+              as double?,
+      shape: freezed == shape
+          ? _value.shape
+          : shape // ignore: cast_nullable_to_non_nullable
+              as StacShapeBorder?,
+      width: freezed == width
+          ? _value.width
+          : width // ignore: cast_nullable_to_non_nullable
+              as double?,
+      contentTextStyle: freezed == contentTextStyle
+          ? _value.contentTextStyle
+          : contentTextStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      actionTextColor: freezed == actionTextColor
+          ? _value.actionTextColor
+          : actionTextColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      disabledActionTextColor: freezed == disabledActionTextColor
+          ? _value.disabledActionTextColor
+          : disabledActionTextColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      insetPadding: freezed == insetPadding
+          ? _value.insetPadding
+          : insetPadding // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets?,
+      dismissDirection: freezed == dismissDirection
+          ? _value.dismissDirection
+          : dismissDirection // ignore: cast_nullable_to_non_nullable
+              as DismissDirection?,
+      showCloseIcon: freezed == showCloseIcon
+          ? _value.showCloseIcon
+          : showCloseIcon // ignore: cast_nullable_to_non_nullable
+              as bool?,
+      closeIconColor: freezed == closeIconColor
+          ? _value.closeIconColor
+          : closeIconColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      actionOverflowThreshold: freezed == actionOverflowThreshold
+          ? _value.actionOverflowThreshold
+          : actionOverflowThreshold // ignore: cast_nullable_to_non_nullable
+              as double?,
+      actionBackgroundColor: freezed == actionBackgroundColor
+          ? _value.actionBackgroundColor
+          : actionBackgroundColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      disabledActionBackgroundColor: freezed == disabledActionBackgroundColor
+          ? _value.disabledActionBackgroundColor
+          : disabledActionBackgroundColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacSnackBarThemeData implements StacSnackBarThemeData {
-  const _StacSnackBarThemeData(
+class _$StacSnackBarThemeDataImpl implements _StacSnackBarThemeData {
+  const _$StacSnackBarThemeDataImpl(
       {this.behavior,
       this.backgroundColor,
       this.elevation,
@@ -290,8 +349,9 @@ class _StacSnackBarThemeData implements StacSnackBarThemeData {
       this.actionOverflowThreshold,
       this.actionBackgroundColor,
       this.disabledActionBackgroundColor});
-  factory _StacSnackBarThemeData.fromJson(Map<String, dynamic> json) =>
-      _$StacSnackBarThemeDataFromJson(json);
+
+  factory _$StacSnackBarThemeDataImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacSnackBarThemeDataImplFromJson(json);
 
   @override
   final SnackBarBehavior? behavior;
@@ -324,27 +384,16 @@ class _StacSnackBarThemeData implements StacSnackBarThemeData {
   @override
   final String? disabledActionBackgroundColor;
 
-  /// Create a copy of StacSnackBarThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacSnackBarThemeDataCopyWith<_StacSnackBarThemeData> get copyWith =>
-      __$StacSnackBarThemeDataCopyWithImpl<_StacSnackBarThemeData>(
-          this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacSnackBarThemeDataToJson(
-      this,
-    );
+  String toString() {
+    return 'StacSnackBarThemeData(behavior: $behavior, backgroundColor: $backgroundColor, elevation: $elevation, shape: $shape, width: $width, contentTextStyle: $contentTextStyle, actionTextColor: $actionTextColor, disabledActionTextColor: $disabledActionTextColor, insetPadding: $insetPadding, dismissDirection: $dismissDirection, showCloseIcon: $showCloseIcon, closeIconColor: $closeIconColor, actionOverflowThreshold: $actionOverflowThreshold, actionBackgroundColor: $actionBackgroundColor, disabledActionBackgroundColor: $disabledActionBackgroundColor)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacSnackBarThemeData &&
+            other is _$StacSnackBarThemeDataImpl &&
             (identical(other.behavior, behavior) ||
                 other.behavior == behavior) &&
             (identical(other.backgroundColor, backgroundColor) ||
@@ -379,7 +428,7 @@ class _StacSnackBarThemeData implements StacSnackBarThemeData {
                     disabledActionBackgroundColor));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -399,179 +448,75 @@ class _StacSnackBarThemeData implements StacSnackBarThemeData {
       actionBackgroundColor,
       disabledActionBackgroundColor);
 
+  @JsonKey(ignore: true)
   @override
-  String toString() {
-    return 'StacSnackBarThemeData(behavior: $behavior, backgroundColor: $backgroundColor, elevation: $elevation, shape: $shape, width: $width, contentTextStyle: $contentTextStyle, actionTextColor: $actionTextColor, disabledActionTextColor: $disabledActionTextColor, insetPadding: $insetPadding, dismissDirection: $dismissDirection, showCloseIcon: $showCloseIcon, closeIconColor: $closeIconColor, actionOverflowThreshold: $actionOverflowThreshold, actionBackgroundColor: $actionBackgroundColor, disabledActionBackgroundColor: $disabledActionBackgroundColor)';
+  @pragma('vm:prefer-inline')
+  _$$StacSnackBarThemeDataImplCopyWith<_$StacSnackBarThemeDataImpl>
+      get copyWith => __$$StacSnackBarThemeDataImplCopyWithImpl<
+          _$StacSnackBarThemeDataImpl>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacSnackBarThemeDataImplToJson(
+      this,
+    );
   }
 }
 
-/// @nodoc
-abstract mixin class _$StacSnackBarThemeDataCopyWith<$Res>
-    implements $StacSnackBarThemeDataCopyWith<$Res> {
-  factory _$StacSnackBarThemeDataCopyWith(_StacSnackBarThemeData value,
-          $Res Function(_StacSnackBarThemeData) _then) =
-      __$StacSnackBarThemeDataCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {SnackBarBehavior? behavior,
-      String? backgroundColor,
-      double? elevation,
-      StacShapeBorder? shape,
-      double? width,
-      StacTextStyle? contentTextStyle,
-      String? actionTextColor,
-      String? disabledActionTextColor,
-      StacEdgeInsets? insetPadding,
-      DismissDirection? dismissDirection,
-      bool? showCloseIcon,
-      String? closeIconColor,
-      double? actionOverflowThreshold,
-      String? actionBackgroundColor,
-      String? disabledActionBackgroundColor});
+abstract class _StacSnackBarThemeData implements StacSnackBarThemeData {
+  const factory _StacSnackBarThemeData(
+          {final SnackBarBehavior? behavior,
+          final String? backgroundColor,
+          final double? elevation,
+          final StacShapeBorder? shape,
+          final double? width,
+          final StacTextStyle? contentTextStyle,
+          final String? actionTextColor,
+          final String? disabledActionTextColor,
+          final StacEdgeInsets? insetPadding,
+          final DismissDirection? dismissDirection,
+          final bool? showCloseIcon,
+          final String? closeIconColor,
+          final double? actionOverflowThreshold,
+          final String? actionBackgroundColor,
+          final String? disabledActionBackgroundColor}) =
+      _$StacSnackBarThemeDataImpl;
+
+  factory _StacSnackBarThemeData.fromJson(Map<String, dynamic> json) =
+      _$StacSnackBarThemeDataImpl.fromJson;
 
   @override
-  $StacShapeBorderCopyWith<$Res>? get shape;
+  SnackBarBehavior? get behavior;
   @override
-  $StacTextStyleCopyWith<$Res>? get contentTextStyle;
+  String? get backgroundColor;
   @override
-  $StacEdgeInsetsCopyWith<$Res>? get insetPadding;
+  double? get elevation;
+  @override
+  StacShapeBorder? get shape;
+  @override
+  double? get width;
+  @override
+  StacTextStyle? get contentTextStyle;
+  @override
+  String? get actionTextColor;
+  @override
+  String? get disabledActionTextColor;
+  @override
+  StacEdgeInsets? get insetPadding;
+  @override
+  DismissDirection? get dismissDirection;
+  @override
+  bool? get showCloseIcon;
+  @override
+  String? get closeIconColor;
+  @override
+  double? get actionOverflowThreshold;
+  @override
+  String? get actionBackgroundColor;
+  @override
+  String? get disabledActionBackgroundColor;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacSnackBarThemeDataImplCopyWith<_$StacSnackBarThemeDataImpl>
+      get copyWith => throw _privateConstructorUsedError;
 }
-
-/// @nodoc
-class __$StacSnackBarThemeDataCopyWithImpl<$Res>
-    implements _$StacSnackBarThemeDataCopyWith<$Res> {
-  __$StacSnackBarThemeDataCopyWithImpl(this._self, this._then);
-
-  final _StacSnackBarThemeData _self;
-  final $Res Function(_StacSnackBarThemeData) _then;
-
-  /// Create a copy of StacSnackBarThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $Res call({
-    Object? behavior = freezed,
-    Object? backgroundColor = freezed,
-    Object? elevation = freezed,
-    Object? shape = freezed,
-    Object? width = freezed,
-    Object? contentTextStyle = freezed,
-    Object? actionTextColor = freezed,
-    Object? disabledActionTextColor = freezed,
-    Object? insetPadding = freezed,
-    Object? dismissDirection = freezed,
-    Object? showCloseIcon = freezed,
-    Object? closeIconColor = freezed,
-    Object? actionOverflowThreshold = freezed,
-    Object? actionBackgroundColor = freezed,
-    Object? disabledActionBackgroundColor = freezed,
-  }) {
-    return _then(_StacSnackBarThemeData(
-      behavior: freezed == behavior
-          ? _self.behavior
-          : behavior // ignore: cast_nullable_to_non_nullable
-              as SnackBarBehavior?,
-      backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
-          : backgroundColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      elevation: freezed == elevation
-          ? _self.elevation
-          : elevation // ignore: cast_nullable_to_non_nullable
-              as double?,
-      shape: freezed == shape
-          ? _self.shape
-          : shape // ignore: cast_nullable_to_non_nullable
-              as StacShapeBorder?,
-      width: freezed == width
-          ? _self.width
-          : width // ignore: cast_nullable_to_non_nullable
-              as double?,
-      contentTextStyle: freezed == contentTextStyle
-          ? _self.contentTextStyle
-          : contentTextStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      actionTextColor: freezed == actionTextColor
-          ? _self.actionTextColor
-          : actionTextColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      disabledActionTextColor: freezed == disabledActionTextColor
-          ? _self.disabledActionTextColor
-          : disabledActionTextColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      insetPadding: freezed == insetPadding
-          ? _self.insetPadding
-          : insetPadding // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets?,
-      dismissDirection: freezed == dismissDirection
-          ? _self.dismissDirection
-          : dismissDirection // ignore: cast_nullable_to_non_nullable
-              as DismissDirection?,
-      showCloseIcon: freezed == showCloseIcon
-          ? _self.showCloseIcon
-          : showCloseIcon // ignore: cast_nullable_to_non_nullable
-              as bool?,
-      closeIconColor: freezed == closeIconColor
-          ? _self.closeIconColor
-          : closeIconColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      actionOverflowThreshold: freezed == actionOverflowThreshold
-          ? _self.actionOverflowThreshold
-          : actionOverflowThreshold // ignore: cast_nullable_to_non_nullable
-              as double?,
-      actionBackgroundColor: freezed == actionBackgroundColor
-          ? _self.actionBackgroundColor
-          : actionBackgroundColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      disabledActionBackgroundColor: freezed == disabledActionBackgroundColor
-          ? _self.disabledActionBackgroundColor
-          : disabledActionBackgroundColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-    ));
-  }
-
-  /// Create a copy of StacSnackBarThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacShapeBorderCopyWith<$Res>? get shape {
-    if (_self.shape == null) {
-      return null;
-    }
-
-    return $StacShapeBorderCopyWith<$Res>(_self.shape!, (value) {
-      return _then(_self.copyWith(shape: value));
-    });
-  }
-
-  /// Create a copy of StacSnackBarThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get contentTextStyle {
-    if (_self.contentTextStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_self.contentTextStyle!, (value) {
-      return _then(_self.copyWith(contentTextStyle: value));
-    });
-  }
-
-  /// Create a copy of StacSnackBarThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacEdgeInsetsCopyWith<$Res>? get insetPadding {
-    if (_self.insetPadding == null) {
-      return null;
-    }
-
-    return $StacEdgeInsetsCopyWith<$Res>(_self.insetPadding!, (value) {
-      return _then(_self.copyWith(insetPadding: value));
-    });
-  }
-}
-
-// dart format on

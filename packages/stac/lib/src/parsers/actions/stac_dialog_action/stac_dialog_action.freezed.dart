@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,76 +9,38 @@ part of 'stac_dialog_action.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacDialogAction {
-  Map<String, dynamic>? get widget;
-  StacNetworkRequest? get request;
-  String? get assetPath;
-  bool get barrierDismissible;
-  String? get barrierColor;
-  String? get barrierLabel;
-  bool get useSafeArea;
-  TraversalEdgeBehavior? get traversalEdgeBehavior;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacDialogAction
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacDialogActionCopyWith<StacDialogAction> get copyWith =>
-      _$StacDialogActionCopyWithImpl<StacDialogAction>(
-          this as StacDialogAction, _$identity);
-
-  /// Serializes this StacDialogAction to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacDialogAction &&
-            const DeepCollectionEquality().equals(other.widget, widget) &&
-            (identical(other.request, request) || other.request == request) &&
-            (identical(other.assetPath, assetPath) ||
-                other.assetPath == assetPath) &&
-            (identical(other.barrierDismissible, barrierDismissible) ||
-                other.barrierDismissible == barrierDismissible) &&
-            (identical(other.barrierColor, barrierColor) ||
-                other.barrierColor == barrierColor) &&
-            (identical(other.barrierLabel, barrierLabel) ||
-                other.barrierLabel == barrierLabel) &&
-            (identical(other.useSafeArea, useSafeArea) ||
-                other.useSafeArea == useSafeArea) &&
-            (identical(other.traversalEdgeBehavior, traversalEdgeBehavior) ||
-                other.traversalEdgeBehavior == traversalEdgeBehavior));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      const DeepCollectionEquality().hash(widget),
-      request,
-      assetPath,
-      barrierDismissible,
-      barrierColor,
-      barrierLabel,
-      useSafeArea,
-      traversalEdgeBehavior);
-
-  @override
-  String toString() {
-    return 'StacDialogAction(widget: $widget, request: $request, assetPath: $assetPath, barrierDismissible: $barrierDismissible, barrierColor: $barrierColor, barrierLabel: $barrierLabel, useSafeArea: $useSafeArea, traversalEdgeBehavior: $traversalEdgeBehavior)';
-  }
+StacDialogAction _$StacDialogActionFromJson(Map<String, dynamic> json) {
+  return _StacDialogAction.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacDialogActionCopyWith<$Res> {
+mixin _$StacDialogAction {
+  Map<String, dynamic>? get widget => throw _privateConstructorUsedError;
+  StacNetworkRequest? get request => throw _privateConstructorUsedError;
+  String? get assetPath => throw _privateConstructorUsedError;
+  bool get barrierDismissible => throw _privateConstructorUsedError;
+  String? get barrierColor => throw _privateConstructorUsedError;
+  String? get barrierLabel => throw _privateConstructorUsedError;
+  bool get useSafeArea => throw _privateConstructorUsedError;
+  TraversalEdgeBehavior? get traversalEdgeBehavior =>
+      throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacDialogActionCopyWith<StacDialogAction> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacDialogActionCopyWith<$Res> {
   factory $StacDialogActionCopyWith(
-          StacDialogAction value, $Res Function(StacDialogAction) _then) =
-      _$StacDialogActionCopyWithImpl;
+          StacDialogAction value, $Res Function(StacDialogAction) then) =
+      _$StacDialogActionCopyWithImpl<$Res, StacDialogAction>;
   @useResult
   $Res call(
       {Map<String, dynamic>? widget,
@@ -95,15 +56,15 @@ abstract mixin class $StacDialogActionCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacDialogActionCopyWithImpl<$Res>
+class _$StacDialogActionCopyWithImpl<$Res, $Val extends StacDialogAction>
     implements $StacDialogActionCopyWith<$Res> {
-  _$StacDialogActionCopyWithImpl(this._self, this._then);
+  _$StacDialogActionCopyWithImpl(this._value, this._then);
 
-  final StacDialogAction _self;
-  final $Res Function(StacDialogAction) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacDialogAction
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -116,61 +77,138 @@ class _$StacDialogActionCopyWithImpl<$Res>
     Object? useSafeArea = null,
     Object? traversalEdgeBehavior = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       widget: freezed == widget
-          ? _self.widget
+          ? _value.widget
           : widget // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       request: freezed == request
-          ? _self.request
+          ? _value.request
           : request // ignore: cast_nullable_to_non_nullable
               as StacNetworkRequest?,
       assetPath: freezed == assetPath
-          ? _self.assetPath
+          ? _value.assetPath
           : assetPath // ignore: cast_nullable_to_non_nullable
               as String?,
       barrierDismissible: null == barrierDismissible
-          ? _self.barrierDismissible
+          ? _value.barrierDismissible
           : barrierDismissible // ignore: cast_nullable_to_non_nullable
               as bool,
       barrierColor: freezed == barrierColor
-          ? _self.barrierColor
+          ? _value.barrierColor
           : barrierColor // ignore: cast_nullable_to_non_nullable
               as String?,
       barrierLabel: freezed == barrierLabel
-          ? _self.barrierLabel
+          ? _value.barrierLabel
           : barrierLabel // ignore: cast_nullable_to_non_nullable
               as String?,
       useSafeArea: null == useSafeArea
-          ? _self.useSafeArea
+          ? _value.useSafeArea
           : useSafeArea // ignore: cast_nullable_to_non_nullable
               as bool,
       traversalEdgeBehavior: freezed == traversalEdgeBehavior
-          ? _self.traversalEdgeBehavior
+          ? _value.traversalEdgeBehavior
           : traversalEdgeBehavior // ignore: cast_nullable_to_non_nullable
               as TraversalEdgeBehavior?,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacDialogAction
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacNetworkRequestCopyWith<$Res>? get request {
-    if (_self.request == null) {
+    if (_value.request == null) {
       return null;
     }
 
-    return $StacNetworkRequestCopyWith<$Res>(_self.request!, (value) {
-      return _then(_self.copyWith(request: value));
+    return $StacNetworkRequestCopyWith<$Res>(_value.request!, (value) {
+      return _then(_value.copyWith(request: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacDialogActionImplCopyWith<$Res>
+    implements $StacDialogActionCopyWith<$Res> {
+  factory _$$StacDialogActionImplCopyWith(_$StacDialogActionImpl value,
+          $Res Function(_$StacDialogActionImpl) then) =
+      __$$StacDialogActionImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {Map<String, dynamic>? widget,
+      StacNetworkRequest? request,
+      String? assetPath,
+      bool barrierDismissible,
+      String? barrierColor,
+      String? barrierLabel,
+      bool useSafeArea,
+      TraversalEdgeBehavior? traversalEdgeBehavior});
+
+  @override
+  $StacNetworkRequestCopyWith<$Res>? get request;
+}
+
+/// @nodoc
+class __$$StacDialogActionImplCopyWithImpl<$Res>
+    extends _$StacDialogActionCopyWithImpl<$Res, _$StacDialogActionImpl>
+    implements _$$StacDialogActionImplCopyWith<$Res> {
+  __$$StacDialogActionImplCopyWithImpl(_$StacDialogActionImpl _value,
+      $Res Function(_$StacDialogActionImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? widget = freezed,
+    Object? request = freezed,
+    Object? assetPath = freezed,
+    Object? barrierDismissible = null,
+    Object? barrierColor = freezed,
+    Object? barrierLabel = freezed,
+    Object? useSafeArea = null,
+    Object? traversalEdgeBehavior = freezed,
+  }) {
+    return _then(_$StacDialogActionImpl(
+      widget: freezed == widget
+          ? _value._widget
+          : widget // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      request: freezed == request
+          ? _value.request
+          : request // ignore: cast_nullable_to_non_nullable
+              as StacNetworkRequest?,
+      assetPath: freezed == assetPath
+          ? _value.assetPath
+          : assetPath // ignore: cast_nullable_to_non_nullable
+              as String?,
+      barrierDismissible: null == barrierDismissible
+          ? _value.barrierDismissible
+          : barrierDismissible // ignore: cast_nullable_to_non_nullable
+              as bool,
+      barrierColor: freezed == barrierColor
+          ? _value.barrierColor
+          : barrierColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      barrierLabel: freezed == barrierLabel
+          ? _value.barrierLabel
+          : barrierLabel // ignore: cast_nullable_to_non_nullable
+              as String?,
+      useSafeArea: null == useSafeArea
+          ? _value.useSafeArea
+          : useSafeArea // ignore: cast_nullable_to_non_nullable
+              as bool,
+      traversalEdgeBehavior: freezed == traversalEdgeBehavior
+          ? _value.traversalEdgeBehavior
+          : traversalEdgeBehavior // ignore: cast_nullable_to_non_nullable
+              as TraversalEdgeBehavior?,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacDialogAction implements StacDialogAction {
-  const _StacDialogAction(
+class _$StacDialogActionImpl implements _StacDialogAction {
+  const _$StacDialogActionImpl(
       {final Map<String, dynamic>? widget,
       this.request,
       this.assetPath,
@@ -180,8 +218,9 @@ class _StacDialogAction implements StacDialogAction {
       this.useSafeArea = true,
       this.traversalEdgeBehavior})
       : _widget = widget;
-  factory _StacDialogAction.fromJson(Map<String, dynamic> json) =>
-      _$StacDialogActionFromJson(json);
+
+  factory _$StacDialogActionImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacDialogActionImplFromJson(json);
 
   final Map<String, dynamic>? _widget;
   @override
@@ -210,26 +249,16 @@ class _StacDialogAction implements StacDialogAction {
   @override
   final TraversalEdgeBehavior? traversalEdgeBehavior;
 
-  /// Create a copy of StacDialogAction
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacDialogActionCopyWith<_StacDialogAction> get copyWith =>
-      __$StacDialogActionCopyWithImpl<_StacDialogAction>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacDialogActionToJson(
-      this,
-    );
+  String toString() {
+    return 'StacDialogAction(widget: $widget, request: $request, assetPath: $assetPath, barrierDismissible: $barrierDismissible, barrierColor: $barrierColor, barrierLabel: $barrierLabel, useSafeArea: $useSafeArea, traversalEdgeBehavior: $traversalEdgeBehavior)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacDialogAction &&
+            other is _$StacDialogActionImpl &&
             const DeepCollectionEquality().equals(other._widget, _widget) &&
             (identical(other.request, request) || other.request == request) &&
             (identical(other.assetPath, assetPath) ||
@@ -246,7 +275,7 @@ class _StacDialogAction implements StacDialogAction {
                 other.traversalEdgeBehavior == traversalEdgeBehavior));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -259,105 +288,54 @@ class _StacDialogAction implements StacDialogAction {
       useSafeArea,
       traversalEdgeBehavior);
 
-  @override
-  String toString() {
-    return 'StacDialogAction(widget: $widget, request: $request, assetPath: $assetPath, barrierDismissible: $barrierDismissible, barrierColor: $barrierColor, barrierLabel: $barrierLabel, useSafeArea: $useSafeArea, traversalEdgeBehavior: $traversalEdgeBehavior)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacDialogActionCopyWith<$Res>
-    implements $StacDialogActionCopyWith<$Res> {
-  factory _$StacDialogActionCopyWith(
-          _StacDialogAction value, $Res Function(_StacDialogAction) _then) =
-      __$StacDialogActionCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {Map<String, dynamic>? widget,
-      StacNetworkRequest? request,
-      String? assetPath,
-      bool barrierDismissible,
-      String? barrierColor,
-      String? barrierLabel,
-      bool useSafeArea,
-      TraversalEdgeBehavior? traversalEdgeBehavior});
-
-  @override
-  $StacNetworkRequestCopyWith<$Res>? get request;
-}
-
-/// @nodoc
-class __$StacDialogActionCopyWithImpl<$Res>
-    implements _$StacDialogActionCopyWith<$Res> {
-  __$StacDialogActionCopyWithImpl(this._self, this._then);
-
-  final _StacDialogAction _self;
-  final $Res Function(_StacDialogAction) _then;
-
-  /// Create a copy of StacDialogAction
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? widget = freezed,
-    Object? request = freezed,
-    Object? assetPath = freezed,
-    Object? barrierDismissible = null,
-    Object? barrierColor = freezed,
-    Object? barrierLabel = freezed,
-    Object? useSafeArea = null,
-    Object? traversalEdgeBehavior = freezed,
-  }) {
-    return _then(_StacDialogAction(
-      widget: freezed == widget
-          ? _self._widget
-          : widget // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      request: freezed == request
-          ? _self.request
-          : request // ignore: cast_nullable_to_non_nullable
-              as StacNetworkRequest?,
-      assetPath: freezed == assetPath
-          ? _self.assetPath
-          : assetPath // ignore: cast_nullable_to_non_nullable
-              as String?,
-      barrierDismissible: null == barrierDismissible
-          ? _self.barrierDismissible
-          : barrierDismissible // ignore: cast_nullable_to_non_nullable
-              as bool,
-      barrierColor: freezed == barrierColor
-          ? _self.barrierColor
-          : barrierColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      barrierLabel: freezed == barrierLabel
-          ? _self.barrierLabel
-          : barrierLabel // ignore: cast_nullable_to_non_nullable
-              as String?,
-      useSafeArea: null == useSafeArea
-          ? _self.useSafeArea
-          : useSafeArea // ignore: cast_nullable_to_non_nullable
-              as bool,
-      traversalEdgeBehavior: freezed == traversalEdgeBehavior
-          ? _self.traversalEdgeBehavior
-          : traversalEdgeBehavior // ignore: cast_nullable_to_non_nullable
-              as TraversalEdgeBehavior?,
-    ));
-  }
+  _$$StacDialogActionImplCopyWith<_$StacDialogActionImpl> get copyWith =>
+      __$$StacDialogActionImplCopyWithImpl<_$StacDialogActionImpl>(
+          this, _$identity);
 
-  /// Create a copy of StacDialogAction
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @pragma('vm:prefer-inline')
-  $StacNetworkRequestCopyWith<$Res>? get request {
-    if (_self.request == null) {
-      return null;
-    }
-
-    return $StacNetworkRequestCopyWith<$Res>(_self.request!, (value) {
-      return _then(_self.copyWith(request: value));
-    });
+  Map<String, dynamic> toJson() {
+    return _$$StacDialogActionImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacDialogAction implements StacDialogAction {
+  const factory _StacDialogAction(
+          {final Map<String, dynamic>? widget,
+          final StacNetworkRequest? request,
+          final String? assetPath,
+          final bool barrierDismissible,
+          final String? barrierColor,
+          final String? barrierLabel,
+          final bool useSafeArea,
+          final TraversalEdgeBehavior? traversalEdgeBehavior}) =
+      _$StacDialogActionImpl;
+
+  factory _StacDialogAction.fromJson(Map<String, dynamic> json) =
+      _$StacDialogActionImpl.fromJson;
+
+  @override
+  Map<String, dynamic>? get widget;
+  @override
+  StacNetworkRequest? get request;
+  @override
+  String? get assetPath;
+  @override
+  bool get barrierDismissible;
+  @override
+  String? get barrierColor;
+  @override
+  String? get barrierLabel;
+  @override
+  bool get useSafeArea;
+  @override
+  TraversalEdgeBehavior? get traversalEdgeBehavior;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacDialogActionImplCopyWith<_$StacDialogActionImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

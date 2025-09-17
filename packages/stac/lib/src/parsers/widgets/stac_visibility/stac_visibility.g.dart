@@ -6,8 +6,8 @@ part of 'stac_visibility.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacVisibility _$StacVisibilityFromJson(Map<String, dynamic> json) =>
-    _StacVisibility(
+_$StacVisibilityImpl _$$StacVisibilityImplFromJson(Map<String, dynamic> json) =>
+    _$StacVisibilityImpl(
       child: json['child'] as Map<String, dynamic>,
       visible: json['visible'] as bool?,
       maintainState: json['maintainState'] as bool?,
@@ -18,7 +18,8 @@ _StacVisibility _$StacVisibilityFromJson(Map<String, dynamic> json) =>
       replacement: json['replacement'] as Map<String, dynamic>?,
     );
 
-Map<String, dynamic> _$StacVisibilityToJson(_StacVisibility instance) =>
+Map<String, dynamic> _$$StacVisibilityImplToJson(
+        _$StacVisibilityImpl instance) =>
     <String, dynamic>{
       'child': instance.child,
       'visible': instance.visible,

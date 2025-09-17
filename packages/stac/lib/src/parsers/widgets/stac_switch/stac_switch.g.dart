@@ -6,7 +6,8 @@ part of 'stac_switch.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacSwitch _$StacSwitchFromJson(Map<String, dynamic> json) => _StacSwitch(
+_$StacSwitchImpl _$$StacSwitchImplFromJson(Map<String, dynamic> json) =>
+    _$StacSwitchImpl(
       switchType:
           $enumDecodeNullable(_$StacSwitchTypeEnumMap, json['switchType']) ??
               StacSwitchType.material,
@@ -55,7 +56,7 @@ _StacSwitch _$StacSwitchFromJson(Map<String, dynamic> json) => _StacSwitch(
       applyCupertinoTheme: json['applyCupertinoTheme'] as bool?,
     );
 
-Map<String, dynamic> _$StacSwitchToJson(_StacSwitch instance) =>
+Map<String, dynamic> _$$StacSwitchImplToJson(_$StacSwitchImpl instance) =>
     <String, dynamic>{
       'switchType': _$StacSwitchTypeEnumMap[instance.switchType]!,
       'value': instance.value,

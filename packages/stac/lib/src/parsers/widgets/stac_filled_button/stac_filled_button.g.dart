@@ -6,8 +6,9 @@ part of 'stac_filled_button.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacFilledButton _$StacFilledButtonFromJson(Map<String, dynamic> json) =>
-    _StacFilledButton(
+_$StacFilledButtonImpl _$$StacFilledButtonImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacFilledButtonImpl(
       onPressed: json['onPressed'] as Map<String, dynamic>?,
       onLongPress: json['onLongPress'] as Map<String, dynamic>?,
       onHover: json['onHover'] as Map<String, dynamic>?,
@@ -21,7 +22,8 @@ _StacFilledButton _$StacFilledButtonFromJson(Map<String, dynamic> json) =>
       child: json['child'] as Map<String, dynamic>?,
     );
 
-Map<String, dynamic> _$StacFilledButtonToJson(_StacFilledButton instance) =>
+Map<String, dynamic> _$$StacFilledButtonImplToJson(
+        _$StacFilledButtonImpl instance) =>
     <String, dynamic>{
       'onPressed': instance.onPressed,
       'onLongPress': instance.onLongPress,

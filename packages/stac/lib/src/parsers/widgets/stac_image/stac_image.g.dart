@@ -6,7 +6,8 @@ part of 'stac_image.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacImage _$StacImageFromJson(Map<String, dynamic> json) => _StacImage(
+_$StacImageImpl _$$StacImageImplFromJson(Map<String, dynamic> json) =>
+    _$StacImageImpl(
       src: json['src'] as String,
       alignment:
           $enumDecodeNullable(_$StacAlignmentEnumMap, json['alignment']) ??
@@ -21,7 +22,7 @@ _StacImage _$StacImageFromJson(Map<String, dynamic> json) => _StacImage(
       fit: $enumDecodeNullable(_$BoxFitEnumMap, json['fit']),
     );
 
-Map<String, dynamic> _$StacImageToJson(_StacImage instance) =>
+Map<String, dynamic> _$$StacImageImplToJson(_$StacImageImpl instance) =>
     <String, dynamic>{
       'src': instance.src,
       'alignment': _$StacAlignmentEnumMap[instance.alignment]!,

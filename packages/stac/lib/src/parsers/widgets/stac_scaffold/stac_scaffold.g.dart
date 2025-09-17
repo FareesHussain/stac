@@ -6,8 +6,8 @@ part of 'stac_scaffold.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacScaffold _$StacScaffoldFromJson(Map<String, dynamic> json) =>
-    _StacScaffold(
+_$StacScaffoldImpl _$$StacScaffoldImplFromJson(Map<String, dynamic> json) =>
+    _$StacScaffoldImpl(
       appBar: json['appBar'] as Map<String, dynamic>?,
       body: json['body'] as Map<String, dynamic>?,
       floatingActionButton:
@@ -42,7 +42,7 @@ _StacScaffold _$StacScaffoldFromJson(Map<String, dynamic> json) =>
       restorationId: json['restorationId'] as String?,
     );
 
-Map<String, dynamic> _$StacScaffoldToJson(_StacScaffold instance) =>
+Map<String, dynamic> _$$StacScaffoldImplToJson(_$StacScaffoldImpl instance) =>
     <String, dynamic>{
       'appBar': instance.appBar,
       'body': instance.body,

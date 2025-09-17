@@ -6,14 +6,16 @@ part of 'stac_conditional.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacConditional _$StacConditionalFromJson(Map<String, dynamic> json) =>
-    _StacConditional(
+_$StacConditionalImpl _$$StacConditionalImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacConditionalImpl(
       condition: json['condition'] as String,
       ifTrue: json['ifTrue'] as Map<String, dynamic>,
       ifFalse: json['ifFalse'] as Map<String, dynamic>?,
     );
 
-Map<String, dynamic> _$StacConditionalToJson(_StacConditional instance) =>
+Map<String, dynamic> _$$StacConditionalImplToJson(
+        _$StacConditionalImpl instance) =>
     <String, dynamic>{
       'condition': instance.condition,
       'ifTrue': instance.ifTrue,

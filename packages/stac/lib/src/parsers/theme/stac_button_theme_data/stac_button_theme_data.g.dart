@@ -6,8 +6,9 @@ part of 'stac_button_theme_data.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacButtonThemeData _$StacButtonThemeDataFromJson(Map<String, dynamic> json) =>
-    _StacButtonThemeData(
+_$StacButtonThemeDataImpl _$$StacButtonThemeDataImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacButtonThemeDataImpl(
       textTheme:
           $enumDecodeNullable(_$ButtonTextThemeEnumMap, json['textTheme']) ??
               ButtonTextTheme.normal,
@@ -37,8 +38,8 @@ _StacButtonThemeData _$StacButtonThemeDataFromJson(Map<String, dynamic> json) =>
           _$MaterialTapTargetSizeEnumMap, json['materialTapTargetSize']),
     );
 
-Map<String, dynamic> _$StacButtonThemeDataToJson(
-        _StacButtonThemeData instance) =>
+Map<String, dynamic> _$$StacButtonThemeDataImplToJson(
+        _$StacButtonThemeDataImpl instance) =>
     <String, dynamic>{
       'textTheme': _$ButtonTextThemeEnumMap[instance.textTheme]!,
       'minWidth': instance.minWidth,

@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,117 +9,48 @@ part of 'stac_app_bar.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacAppBar {
-  Map<String, dynamic>? get leading;
-  Map<String, dynamic>? get title;
-  StacTextStyle? get titleTextStyle;
-  StacTextStyle? get toolbarTextStyle;
-  String? get shadowColor;
-  String? get backgroundColor;
-  String? get foregroundColor;
-  String? get surfaceTintColor;
-  List<Map<String, dynamic>> get actions;
-  Map<String, dynamic>? get bottom;
-  StacDouble? get titleSpacing;
-  StacDouble get toolbarOpacity;
-  StacDouble get bottomOpacity;
-  StacDouble? get toolbarHeight;
-  StacDouble? get leadingWidth;
-  bool get primary;
-  bool? get centerTitle;
-  StacDouble? get elevation;
-  StacDouble? get scrolledUnderElevation;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacAppBar
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacAppBarCopyWith<StacAppBar> get copyWith =>
-      _$StacAppBarCopyWithImpl<StacAppBar>(this as StacAppBar, _$identity);
-
-  /// Serializes this StacAppBar to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacAppBar &&
-            const DeepCollectionEquality().equals(other.leading, leading) &&
-            const DeepCollectionEquality().equals(other.title, title) &&
-            (identical(other.titleTextStyle, titleTextStyle) ||
-                other.titleTextStyle == titleTextStyle) &&
-            (identical(other.toolbarTextStyle, toolbarTextStyle) ||
-                other.toolbarTextStyle == toolbarTextStyle) &&
-            (identical(other.shadowColor, shadowColor) ||
-                other.shadowColor == shadowColor) &&
-            (identical(other.backgroundColor, backgroundColor) ||
-                other.backgroundColor == backgroundColor) &&
-            (identical(other.foregroundColor, foregroundColor) ||
-                other.foregroundColor == foregroundColor) &&
-            (identical(other.surfaceTintColor, surfaceTintColor) ||
-                other.surfaceTintColor == surfaceTintColor) &&
-            const DeepCollectionEquality().equals(other.actions, actions) &&
-            const DeepCollectionEquality().equals(other.bottom, bottom) &&
-            (identical(other.titleSpacing, titleSpacing) ||
-                other.titleSpacing == titleSpacing) &&
-            (identical(other.toolbarOpacity, toolbarOpacity) ||
-                other.toolbarOpacity == toolbarOpacity) &&
-            (identical(other.bottomOpacity, bottomOpacity) ||
-                other.bottomOpacity == bottomOpacity) &&
-            (identical(other.toolbarHeight, toolbarHeight) ||
-                other.toolbarHeight == toolbarHeight) &&
-            (identical(other.leadingWidth, leadingWidth) ||
-                other.leadingWidth == leadingWidth) &&
-            (identical(other.primary, primary) || other.primary == primary) &&
-            (identical(other.centerTitle, centerTitle) ||
-                other.centerTitle == centerTitle) &&
-            (identical(other.elevation, elevation) ||
-                other.elevation == elevation) &&
-            (identical(other.scrolledUnderElevation, scrolledUnderElevation) ||
-                other.scrolledUnderElevation == scrolledUnderElevation));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hashAll([
-        runtimeType,
-        const DeepCollectionEquality().hash(leading),
-        const DeepCollectionEquality().hash(title),
-        titleTextStyle,
-        toolbarTextStyle,
-        shadowColor,
-        backgroundColor,
-        foregroundColor,
-        surfaceTintColor,
-        const DeepCollectionEquality().hash(actions),
-        const DeepCollectionEquality().hash(bottom),
-        titleSpacing,
-        toolbarOpacity,
-        bottomOpacity,
-        toolbarHeight,
-        leadingWidth,
-        primary,
-        centerTitle,
-        elevation,
-        scrolledUnderElevation
-      ]);
-
-  @override
-  String toString() {
-    return 'StacAppBar(leading: $leading, title: $title, titleTextStyle: $titleTextStyle, toolbarTextStyle: $toolbarTextStyle, shadowColor: $shadowColor, backgroundColor: $backgroundColor, foregroundColor: $foregroundColor, surfaceTintColor: $surfaceTintColor, actions: $actions, bottom: $bottom, titleSpacing: $titleSpacing, toolbarOpacity: $toolbarOpacity, bottomOpacity: $bottomOpacity, toolbarHeight: $toolbarHeight, leadingWidth: $leadingWidth, primary: $primary, centerTitle: $centerTitle, elevation: $elevation, scrolledUnderElevation: $scrolledUnderElevation)';
-  }
+StacAppBar _$StacAppBarFromJson(Map<String, dynamic> json) {
+  return _StacAppBar.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacAppBarCopyWith<$Res> {
+mixin _$StacAppBar {
+  Map<String, dynamic>? get leading => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get title => throw _privateConstructorUsedError;
+  StacTextStyle? get titleTextStyle => throw _privateConstructorUsedError;
+  StacTextStyle? get toolbarTextStyle => throw _privateConstructorUsedError;
+  String? get shadowColor => throw _privateConstructorUsedError;
+  String? get backgroundColor => throw _privateConstructorUsedError;
+  String? get foregroundColor => throw _privateConstructorUsedError;
+  String? get surfaceTintColor => throw _privateConstructorUsedError;
+  List<Map<String, dynamic>> get actions => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get bottom => throw _privateConstructorUsedError;
+  StacDouble? get titleSpacing => throw _privateConstructorUsedError;
+  StacDouble get toolbarOpacity => throw _privateConstructorUsedError;
+  StacDouble get bottomOpacity => throw _privateConstructorUsedError;
+  StacDouble? get toolbarHeight => throw _privateConstructorUsedError;
+  StacDouble? get leadingWidth => throw _privateConstructorUsedError;
+  bool get primary => throw _privateConstructorUsedError;
+  bool? get centerTitle => throw _privateConstructorUsedError;
+  StacDouble? get elevation => throw _privateConstructorUsedError;
+  StacDouble? get scrolledUnderElevation => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacAppBarCopyWith<StacAppBar> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacAppBarCopyWith<$Res> {
   factory $StacAppBarCopyWith(
-          StacAppBar value, $Res Function(StacAppBar) _then) =
-      _$StacAppBarCopyWithImpl;
+          StacAppBar value, $Res Function(StacAppBar) then) =
+      _$StacAppBarCopyWithImpl<$Res, StacAppBar>;
   @useResult
   $Res call(
       {Map<String, dynamic>? leading,
@@ -148,14 +78,15 @@ abstract mixin class $StacAppBarCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacAppBarCopyWithImpl<$Res> implements $StacAppBarCopyWith<$Res> {
-  _$StacAppBarCopyWithImpl(this._self, this._then);
+class _$StacAppBarCopyWithImpl<$Res, $Val extends StacAppBar>
+    implements $StacAppBarCopyWith<$Res> {
+  _$StacAppBarCopyWithImpl(this._value, this._then);
 
-  final StacAppBar _self;
-  final $Res Function(StacAppBar) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacAppBar
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -179,119 +110,262 @@ class _$StacAppBarCopyWithImpl<$Res> implements $StacAppBarCopyWith<$Res> {
     Object? elevation = freezed,
     Object? scrolledUnderElevation = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       leading: freezed == leading
-          ? _self.leading
+          ? _value.leading
           : leading // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       title: freezed == title
-          ? _self.title
+          ? _value.title
           : title // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       titleTextStyle: freezed == titleTextStyle
-          ? _self.titleTextStyle
+          ? _value.titleTextStyle
           : titleTextStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       toolbarTextStyle: freezed == toolbarTextStyle
-          ? _self.toolbarTextStyle
+          ? _value.toolbarTextStyle
           : toolbarTextStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       shadowColor: freezed == shadowColor
-          ? _self.shadowColor
+          ? _value.shadowColor
           : shadowColor // ignore: cast_nullable_to_non_nullable
               as String?,
       backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
+          ? _value.backgroundColor
           : backgroundColor // ignore: cast_nullable_to_non_nullable
               as String?,
       foregroundColor: freezed == foregroundColor
-          ? _self.foregroundColor
+          ? _value.foregroundColor
           : foregroundColor // ignore: cast_nullable_to_non_nullable
               as String?,
       surfaceTintColor: freezed == surfaceTintColor
-          ? _self.surfaceTintColor
+          ? _value.surfaceTintColor
           : surfaceTintColor // ignore: cast_nullable_to_non_nullable
               as String?,
       actions: null == actions
-          ? _self.actions
+          ? _value.actions
           : actions // ignore: cast_nullable_to_non_nullable
               as List<Map<String, dynamic>>,
       bottom: freezed == bottom
-          ? _self.bottom
+          ? _value.bottom
           : bottom // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       titleSpacing: freezed == titleSpacing
-          ? _self.titleSpacing
+          ? _value.titleSpacing
           : titleSpacing // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       toolbarOpacity: null == toolbarOpacity
-          ? _self.toolbarOpacity
+          ? _value.toolbarOpacity
           : toolbarOpacity // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       bottomOpacity: null == bottomOpacity
-          ? _self.bottomOpacity
+          ? _value.bottomOpacity
           : bottomOpacity // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       toolbarHeight: freezed == toolbarHeight
-          ? _self.toolbarHeight
+          ? _value.toolbarHeight
           : toolbarHeight // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       leadingWidth: freezed == leadingWidth
-          ? _self.leadingWidth
+          ? _value.leadingWidth
           : leadingWidth // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       primary: null == primary
-          ? _self.primary
+          ? _value.primary
           : primary // ignore: cast_nullable_to_non_nullable
               as bool,
       centerTitle: freezed == centerTitle
-          ? _self.centerTitle
+          ? _value.centerTitle
           : centerTitle // ignore: cast_nullable_to_non_nullable
               as bool?,
       elevation: freezed == elevation
-          ? _self.elevation
+          ? _value.elevation
           : elevation // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       scrolledUnderElevation: freezed == scrolledUnderElevation
-          ? _self.scrolledUnderElevation
+          ? _value.scrolledUnderElevation
           : scrolledUnderElevation // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacAppBar
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacTextStyleCopyWith<$Res>? get titleTextStyle {
-    if (_self.titleTextStyle == null) {
+    if (_value.titleTextStyle == null) {
       return null;
     }
 
-    return $StacTextStyleCopyWith<$Res>(_self.titleTextStyle!, (value) {
-      return _then(_self.copyWith(titleTextStyle: value));
+    return $StacTextStyleCopyWith<$Res>(_value.titleTextStyle!, (value) {
+      return _then(_value.copyWith(titleTextStyle: value) as $Val);
     });
   }
 
-  /// Create a copy of StacAppBar
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacTextStyleCopyWith<$Res>? get toolbarTextStyle {
-    if (_self.toolbarTextStyle == null) {
+    if (_value.toolbarTextStyle == null) {
       return null;
     }
 
-    return $StacTextStyleCopyWith<$Res>(_self.toolbarTextStyle!, (value) {
-      return _then(_self.copyWith(toolbarTextStyle: value));
+    return $StacTextStyleCopyWith<$Res>(_value.toolbarTextStyle!, (value) {
+      return _then(_value.copyWith(toolbarTextStyle: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacAppBarImplCopyWith<$Res>
+    implements $StacAppBarCopyWith<$Res> {
+  factory _$$StacAppBarImplCopyWith(
+          _$StacAppBarImpl value, $Res Function(_$StacAppBarImpl) then) =
+      __$$StacAppBarImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {Map<String, dynamic>? leading,
+      Map<String, dynamic>? title,
+      StacTextStyle? titleTextStyle,
+      StacTextStyle? toolbarTextStyle,
+      String? shadowColor,
+      String? backgroundColor,
+      String? foregroundColor,
+      String? surfaceTintColor,
+      List<Map<String, dynamic>> actions,
+      Map<String, dynamic>? bottom,
+      StacDouble? titleSpacing,
+      StacDouble toolbarOpacity,
+      StacDouble bottomOpacity,
+      StacDouble? toolbarHeight,
+      StacDouble? leadingWidth,
+      bool primary,
+      bool? centerTitle,
+      StacDouble? elevation,
+      StacDouble? scrolledUnderElevation});
+
+  @override
+  $StacTextStyleCopyWith<$Res>? get titleTextStyle;
+  @override
+  $StacTextStyleCopyWith<$Res>? get toolbarTextStyle;
+}
+
+/// @nodoc
+class __$$StacAppBarImplCopyWithImpl<$Res>
+    extends _$StacAppBarCopyWithImpl<$Res, _$StacAppBarImpl>
+    implements _$$StacAppBarImplCopyWith<$Res> {
+  __$$StacAppBarImplCopyWithImpl(
+      _$StacAppBarImpl _value, $Res Function(_$StacAppBarImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? leading = freezed,
+    Object? title = freezed,
+    Object? titleTextStyle = freezed,
+    Object? toolbarTextStyle = freezed,
+    Object? shadowColor = freezed,
+    Object? backgroundColor = freezed,
+    Object? foregroundColor = freezed,
+    Object? surfaceTintColor = freezed,
+    Object? actions = null,
+    Object? bottom = freezed,
+    Object? titleSpacing = freezed,
+    Object? toolbarOpacity = null,
+    Object? bottomOpacity = null,
+    Object? toolbarHeight = freezed,
+    Object? leadingWidth = freezed,
+    Object? primary = null,
+    Object? centerTitle = freezed,
+    Object? elevation = freezed,
+    Object? scrolledUnderElevation = freezed,
+  }) {
+    return _then(_$StacAppBarImpl(
+      leading: freezed == leading
+          ? _value._leading
+          : leading // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      title: freezed == title
+          ? _value._title
+          : title // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      titleTextStyle: freezed == titleTextStyle
+          ? _value.titleTextStyle
+          : titleTextStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      toolbarTextStyle: freezed == toolbarTextStyle
+          ? _value.toolbarTextStyle
+          : toolbarTextStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      shadowColor: freezed == shadowColor
+          ? _value.shadowColor
+          : shadowColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      backgroundColor: freezed == backgroundColor
+          ? _value.backgroundColor
+          : backgroundColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      foregroundColor: freezed == foregroundColor
+          ? _value.foregroundColor
+          : foregroundColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      surfaceTintColor: freezed == surfaceTintColor
+          ? _value.surfaceTintColor
+          : surfaceTintColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      actions: null == actions
+          ? _value._actions
+          : actions // ignore: cast_nullable_to_non_nullable
+              as List<Map<String, dynamic>>,
+      bottom: freezed == bottom
+          ? _value._bottom
+          : bottom // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      titleSpacing: freezed == titleSpacing
+          ? _value.titleSpacing
+          : titleSpacing // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      toolbarOpacity: null == toolbarOpacity
+          ? _value.toolbarOpacity
+          : toolbarOpacity // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      bottomOpacity: null == bottomOpacity
+          ? _value.bottomOpacity
+          : bottomOpacity // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      toolbarHeight: freezed == toolbarHeight
+          ? _value.toolbarHeight
+          : toolbarHeight // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      leadingWidth: freezed == leadingWidth
+          ? _value.leadingWidth
+          : leadingWidth // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      primary: null == primary
+          ? _value.primary
+          : primary // ignore: cast_nullable_to_non_nullable
+              as bool,
+      centerTitle: freezed == centerTitle
+          ? _value.centerTitle
+          : centerTitle // ignore: cast_nullable_to_non_nullable
+              as bool?,
+      elevation: freezed == elevation
+          ? _value.elevation
+          : elevation // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      scrolledUnderElevation: freezed == scrolledUnderElevation
+          ? _value.scrolledUnderElevation
+          : scrolledUnderElevation // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacAppBar implements StacAppBar {
-  const _StacAppBar(
+class _$StacAppBarImpl implements _StacAppBar {
+  const _$StacAppBarImpl(
       {final Map<String, dynamic>? leading,
       final Map<String, dynamic>? title,
       this.titleTextStyle,
@@ -315,8 +389,9 @@ class _StacAppBar implements StacAppBar {
         _title = title,
         _actions = actions,
         _bottom = bottom;
-  factory _StacAppBar.fromJson(Map<String, dynamic> json) =>
-      _$StacAppBarFromJson(json);
+
+  factory _$StacAppBarImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacAppBarImplFromJson(json);
 
   final Map<String, dynamic>? _leading;
   @override
@@ -391,26 +466,16 @@ class _StacAppBar implements StacAppBar {
   @override
   final StacDouble? scrolledUnderElevation;
 
-  /// Create a copy of StacAppBar
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacAppBarCopyWith<_StacAppBar> get copyWith =>
-      __$StacAppBarCopyWithImpl<_StacAppBar>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacAppBarToJson(
-      this,
-    );
+  String toString() {
+    return 'StacAppBar(leading: $leading, title: $title, titleTextStyle: $titleTextStyle, toolbarTextStyle: $toolbarTextStyle, shadowColor: $shadowColor, backgroundColor: $backgroundColor, foregroundColor: $foregroundColor, surfaceTintColor: $surfaceTintColor, actions: $actions, bottom: $bottom, titleSpacing: $titleSpacing, toolbarOpacity: $toolbarOpacity, bottomOpacity: $bottomOpacity, toolbarHeight: $toolbarHeight, leadingWidth: $leadingWidth, primary: $primary, centerTitle: $centerTitle, elevation: $elevation, scrolledUnderElevation: $scrolledUnderElevation)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacAppBar &&
+            other is _$StacAppBarImpl &&
             const DeepCollectionEquality().equals(other._leading, _leading) &&
             const DeepCollectionEquality().equals(other._title, _title) &&
             (identical(other.titleTextStyle, titleTextStyle) ||
@@ -446,7 +511,7 @@ class _StacAppBar implements StacAppBar {
                 other.scrolledUnderElevation == scrolledUnderElevation));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hashAll([
         runtimeType,
@@ -471,186 +536,85 @@ class _StacAppBar implements StacAppBar {
         scrolledUnderElevation
       ]);
 
+  @JsonKey(ignore: true)
   @override
-  String toString() {
-    return 'StacAppBar(leading: $leading, title: $title, titleTextStyle: $titleTextStyle, toolbarTextStyle: $toolbarTextStyle, shadowColor: $shadowColor, backgroundColor: $backgroundColor, foregroundColor: $foregroundColor, surfaceTintColor: $surfaceTintColor, actions: $actions, bottom: $bottom, titleSpacing: $titleSpacing, toolbarOpacity: $toolbarOpacity, bottomOpacity: $bottomOpacity, toolbarHeight: $toolbarHeight, leadingWidth: $leadingWidth, primary: $primary, centerTitle: $centerTitle, elevation: $elevation, scrolledUnderElevation: $scrolledUnderElevation)';
+  @pragma('vm:prefer-inline')
+  _$$StacAppBarImplCopyWith<_$StacAppBarImpl> get copyWith =>
+      __$$StacAppBarImplCopyWithImpl<_$StacAppBarImpl>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacAppBarImplToJson(
+      this,
+    );
   }
 }
 
-/// @nodoc
-abstract mixin class _$StacAppBarCopyWith<$Res>
-    implements $StacAppBarCopyWith<$Res> {
-  factory _$StacAppBarCopyWith(
-          _StacAppBar value, $Res Function(_StacAppBar) _then) =
-      __$StacAppBarCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {Map<String, dynamic>? leading,
-      Map<String, dynamic>? title,
-      StacTextStyle? titleTextStyle,
-      StacTextStyle? toolbarTextStyle,
-      String? shadowColor,
-      String? backgroundColor,
-      String? foregroundColor,
-      String? surfaceTintColor,
-      List<Map<String, dynamic>> actions,
-      Map<String, dynamic>? bottom,
-      StacDouble? titleSpacing,
-      StacDouble toolbarOpacity,
-      StacDouble bottomOpacity,
-      StacDouble? toolbarHeight,
-      StacDouble? leadingWidth,
-      bool primary,
-      bool? centerTitle,
-      StacDouble? elevation,
-      StacDouble? scrolledUnderElevation});
+abstract class _StacAppBar implements StacAppBar {
+  const factory _StacAppBar(
+      {final Map<String, dynamic>? leading,
+      final Map<String, dynamic>? title,
+      final StacTextStyle? titleTextStyle,
+      final StacTextStyle? toolbarTextStyle,
+      final String? shadowColor,
+      final String? backgroundColor,
+      final String? foregroundColor,
+      final String? surfaceTintColor,
+      final List<Map<String, dynamic>> actions,
+      final Map<String, dynamic>? bottom,
+      final StacDouble? titleSpacing,
+      final StacDouble toolbarOpacity,
+      final StacDouble bottomOpacity,
+      final StacDouble? toolbarHeight,
+      final StacDouble? leadingWidth,
+      final bool primary,
+      final bool? centerTitle,
+      final StacDouble? elevation,
+      final StacDouble? scrolledUnderElevation}) = _$StacAppBarImpl;
+
+  factory _StacAppBar.fromJson(Map<String, dynamic> json) =
+      _$StacAppBarImpl.fromJson;
 
   @override
-  $StacTextStyleCopyWith<$Res>? get titleTextStyle;
+  Map<String, dynamic>? get leading;
   @override
-  $StacTextStyleCopyWith<$Res>? get toolbarTextStyle;
+  Map<String, dynamic>? get title;
+  @override
+  StacTextStyle? get titleTextStyle;
+  @override
+  StacTextStyle? get toolbarTextStyle;
+  @override
+  String? get shadowColor;
+  @override
+  String? get backgroundColor;
+  @override
+  String? get foregroundColor;
+  @override
+  String? get surfaceTintColor;
+  @override
+  List<Map<String, dynamic>> get actions;
+  @override
+  Map<String, dynamic>? get bottom;
+  @override
+  StacDouble? get titleSpacing;
+  @override
+  StacDouble get toolbarOpacity;
+  @override
+  StacDouble get bottomOpacity;
+  @override
+  StacDouble? get toolbarHeight;
+  @override
+  StacDouble? get leadingWidth;
+  @override
+  bool get primary;
+  @override
+  bool? get centerTitle;
+  @override
+  StacDouble? get elevation;
+  @override
+  StacDouble? get scrolledUnderElevation;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacAppBarImplCopyWith<_$StacAppBarImpl> get copyWith =>
+      throw _privateConstructorUsedError;
 }
-
-/// @nodoc
-class __$StacAppBarCopyWithImpl<$Res> implements _$StacAppBarCopyWith<$Res> {
-  __$StacAppBarCopyWithImpl(this._self, this._then);
-
-  final _StacAppBar _self;
-  final $Res Function(_StacAppBar) _then;
-
-  /// Create a copy of StacAppBar
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $Res call({
-    Object? leading = freezed,
-    Object? title = freezed,
-    Object? titleTextStyle = freezed,
-    Object? toolbarTextStyle = freezed,
-    Object? shadowColor = freezed,
-    Object? backgroundColor = freezed,
-    Object? foregroundColor = freezed,
-    Object? surfaceTintColor = freezed,
-    Object? actions = null,
-    Object? bottom = freezed,
-    Object? titleSpacing = freezed,
-    Object? toolbarOpacity = null,
-    Object? bottomOpacity = null,
-    Object? toolbarHeight = freezed,
-    Object? leadingWidth = freezed,
-    Object? primary = null,
-    Object? centerTitle = freezed,
-    Object? elevation = freezed,
-    Object? scrolledUnderElevation = freezed,
-  }) {
-    return _then(_StacAppBar(
-      leading: freezed == leading
-          ? _self._leading
-          : leading // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      title: freezed == title
-          ? _self._title
-          : title // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      titleTextStyle: freezed == titleTextStyle
-          ? _self.titleTextStyle
-          : titleTextStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      toolbarTextStyle: freezed == toolbarTextStyle
-          ? _self.toolbarTextStyle
-          : toolbarTextStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      shadowColor: freezed == shadowColor
-          ? _self.shadowColor
-          : shadowColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
-          : backgroundColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      foregroundColor: freezed == foregroundColor
-          ? _self.foregroundColor
-          : foregroundColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      surfaceTintColor: freezed == surfaceTintColor
-          ? _self.surfaceTintColor
-          : surfaceTintColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      actions: null == actions
-          ? _self._actions
-          : actions // ignore: cast_nullable_to_non_nullable
-              as List<Map<String, dynamic>>,
-      bottom: freezed == bottom
-          ? _self._bottom
-          : bottom // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      titleSpacing: freezed == titleSpacing
-          ? _self.titleSpacing
-          : titleSpacing // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      toolbarOpacity: null == toolbarOpacity
-          ? _self.toolbarOpacity
-          : toolbarOpacity // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      bottomOpacity: null == bottomOpacity
-          ? _self.bottomOpacity
-          : bottomOpacity // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      toolbarHeight: freezed == toolbarHeight
-          ? _self.toolbarHeight
-          : toolbarHeight // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      leadingWidth: freezed == leadingWidth
-          ? _self.leadingWidth
-          : leadingWidth // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      primary: null == primary
-          ? _self.primary
-          : primary // ignore: cast_nullable_to_non_nullable
-              as bool,
-      centerTitle: freezed == centerTitle
-          ? _self.centerTitle
-          : centerTitle // ignore: cast_nullable_to_non_nullable
-              as bool?,
-      elevation: freezed == elevation
-          ? _self.elevation
-          : elevation // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      scrolledUnderElevation: freezed == scrolledUnderElevation
-          ? _self.scrolledUnderElevation
-          : scrolledUnderElevation // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-    ));
-  }
-
-  /// Create a copy of StacAppBar
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get titleTextStyle {
-    if (_self.titleTextStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_self.titleTextStyle!, (value) {
-      return _then(_self.copyWith(titleTextStyle: value));
-    });
-  }
-
-  /// Create a copy of StacAppBar
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get toolbarTextStyle {
-    if (_self.toolbarTextStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_self.toolbarTextStyle!, (value) {
-      return _then(_self.copyWith(toolbarTextStyle: value));
-    });
-  }
-}
-
-// dart format on

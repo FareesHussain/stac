@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,103 +9,46 @@ part of 'stac_button_theme_data.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacButtonThemeData {
-  ButtonTextTheme get textTheme;
-  double get minWidth;
-  double get height;
-  StacEdgeInsets? get padding;
-  StacShapeBorder? get shape;
-  ButtonBarLayoutBehavior get layoutBehavior;
-  bool get alignedDropdown;
-  String? get buttonColor;
-  String? get disabledColor;
-  String? get focusColor;
-  String? get hoverColor;
-  String? get highlightColor;
-  String? get splashColor;
-  StacColorScheme? get colorScheme;
-  MaterialTapTargetSize? get materialTapTargetSize;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacButtonThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacButtonThemeDataCopyWith<StacButtonThemeData> get copyWith =>
-      _$StacButtonThemeDataCopyWithImpl<StacButtonThemeData>(
-          this as StacButtonThemeData, _$identity);
-
-  /// Serializes this StacButtonThemeData to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacButtonThemeData &&
-            (identical(other.textTheme, textTheme) ||
-                other.textTheme == textTheme) &&
-            (identical(other.minWidth, minWidth) ||
-                other.minWidth == minWidth) &&
-            (identical(other.height, height) || other.height == height) &&
-            (identical(other.padding, padding) || other.padding == padding) &&
-            (identical(other.shape, shape) || other.shape == shape) &&
-            (identical(other.layoutBehavior, layoutBehavior) ||
-                other.layoutBehavior == layoutBehavior) &&
-            (identical(other.alignedDropdown, alignedDropdown) ||
-                other.alignedDropdown == alignedDropdown) &&
-            (identical(other.buttonColor, buttonColor) ||
-                other.buttonColor == buttonColor) &&
-            (identical(other.disabledColor, disabledColor) ||
-                other.disabledColor == disabledColor) &&
-            (identical(other.focusColor, focusColor) ||
-                other.focusColor == focusColor) &&
-            (identical(other.hoverColor, hoverColor) ||
-                other.hoverColor == hoverColor) &&
-            (identical(other.highlightColor, highlightColor) ||
-                other.highlightColor == highlightColor) &&
-            (identical(other.splashColor, splashColor) ||
-                other.splashColor == splashColor) &&
-            (identical(other.colorScheme, colorScheme) ||
-                other.colorScheme == colorScheme) &&
-            (identical(other.materialTapTargetSize, materialTapTargetSize) ||
-                other.materialTapTargetSize == materialTapTargetSize));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      textTheme,
-      minWidth,
-      height,
-      padding,
-      shape,
-      layoutBehavior,
-      alignedDropdown,
-      buttonColor,
-      disabledColor,
-      focusColor,
-      hoverColor,
-      highlightColor,
-      splashColor,
-      colorScheme,
-      materialTapTargetSize);
-
-  @override
-  String toString() {
-    return 'StacButtonThemeData(textTheme: $textTheme, minWidth: $minWidth, height: $height, padding: $padding, shape: $shape, layoutBehavior: $layoutBehavior, alignedDropdown: $alignedDropdown, buttonColor: $buttonColor, disabledColor: $disabledColor, focusColor: $focusColor, hoverColor: $hoverColor, highlightColor: $highlightColor, splashColor: $splashColor, colorScheme: $colorScheme, materialTapTargetSize: $materialTapTargetSize)';
-  }
+StacButtonThemeData _$StacButtonThemeDataFromJson(Map<String, dynamic> json) {
+  return _StacButtonThemeData.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacButtonThemeDataCopyWith<$Res> {
+mixin _$StacButtonThemeData {
+  ButtonTextTheme get textTheme => throw _privateConstructorUsedError;
+  double get minWidth => throw _privateConstructorUsedError;
+  double get height => throw _privateConstructorUsedError;
+  StacEdgeInsets? get padding => throw _privateConstructorUsedError;
+  StacShapeBorder? get shape => throw _privateConstructorUsedError;
+  ButtonBarLayoutBehavior get layoutBehavior =>
+      throw _privateConstructorUsedError;
+  bool get alignedDropdown => throw _privateConstructorUsedError;
+  String? get buttonColor => throw _privateConstructorUsedError;
+  String? get disabledColor => throw _privateConstructorUsedError;
+  String? get focusColor => throw _privateConstructorUsedError;
+  String? get hoverColor => throw _privateConstructorUsedError;
+  String? get highlightColor => throw _privateConstructorUsedError;
+  String? get splashColor => throw _privateConstructorUsedError;
+  StacColorScheme? get colorScheme => throw _privateConstructorUsedError;
+  MaterialTapTargetSize? get materialTapTargetSize =>
+      throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacButtonThemeDataCopyWith<StacButtonThemeData> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacButtonThemeDataCopyWith<$Res> {
   factory $StacButtonThemeDataCopyWith(
-          StacButtonThemeData value, $Res Function(StacButtonThemeData) _then) =
-      _$StacButtonThemeDataCopyWithImpl;
+          StacButtonThemeData value, $Res Function(StacButtonThemeData) then) =
+      _$StacButtonThemeDataCopyWithImpl<$Res, StacButtonThemeData>;
   @useResult
   $Res call(
       {ButtonTextTheme textTheme,
@@ -131,15 +73,15 @@ abstract mixin class $StacButtonThemeDataCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacButtonThemeDataCopyWithImpl<$Res>
+class _$StacButtonThemeDataCopyWithImpl<$Res, $Val extends StacButtonThemeData>
     implements $StacButtonThemeDataCopyWith<$Res> {
-  _$StacButtonThemeDataCopyWithImpl(this._self, this._then);
+  _$StacButtonThemeDataCopyWithImpl(this._value, this._then);
 
-  final StacButtonThemeData _self;
-  final $Res Function(StacButtonThemeData) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacButtonThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -159,117 +101,236 @@ class _$StacButtonThemeDataCopyWithImpl<$Res>
     Object? colorScheme = freezed,
     Object? materialTapTargetSize = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       textTheme: null == textTheme
-          ? _self.textTheme
+          ? _value.textTheme
           : textTheme // ignore: cast_nullable_to_non_nullable
               as ButtonTextTheme,
       minWidth: null == minWidth
-          ? _self.minWidth
+          ? _value.minWidth
           : minWidth // ignore: cast_nullable_to_non_nullable
               as double,
       height: null == height
-          ? _self.height
+          ? _value.height
           : height // ignore: cast_nullable_to_non_nullable
               as double,
       padding: freezed == padding
-          ? _self.padding
+          ? _value.padding
           : padding // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets?,
       shape: freezed == shape
-          ? _self.shape
+          ? _value.shape
           : shape // ignore: cast_nullable_to_non_nullable
               as StacShapeBorder?,
       layoutBehavior: null == layoutBehavior
-          ? _self.layoutBehavior
+          ? _value.layoutBehavior
           : layoutBehavior // ignore: cast_nullable_to_non_nullable
               as ButtonBarLayoutBehavior,
       alignedDropdown: null == alignedDropdown
-          ? _self.alignedDropdown
+          ? _value.alignedDropdown
           : alignedDropdown // ignore: cast_nullable_to_non_nullable
               as bool,
       buttonColor: freezed == buttonColor
-          ? _self.buttonColor
+          ? _value.buttonColor
           : buttonColor // ignore: cast_nullable_to_non_nullable
               as String?,
       disabledColor: freezed == disabledColor
-          ? _self.disabledColor
+          ? _value.disabledColor
           : disabledColor // ignore: cast_nullable_to_non_nullable
               as String?,
       focusColor: freezed == focusColor
-          ? _self.focusColor
+          ? _value.focusColor
           : focusColor // ignore: cast_nullable_to_non_nullable
               as String?,
       hoverColor: freezed == hoverColor
-          ? _self.hoverColor
+          ? _value.hoverColor
           : hoverColor // ignore: cast_nullable_to_non_nullable
               as String?,
       highlightColor: freezed == highlightColor
-          ? _self.highlightColor
+          ? _value.highlightColor
           : highlightColor // ignore: cast_nullable_to_non_nullable
               as String?,
       splashColor: freezed == splashColor
-          ? _self.splashColor
+          ? _value.splashColor
           : splashColor // ignore: cast_nullable_to_non_nullable
               as String?,
       colorScheme: freezed == colorScheme
-          ? _self.colorScheme
+          ? _value.colorScheme
           : colorScheme // ignore: cast_nullable_to_non_nullable
               as StacColorScheme?,
       materialTapTargetSize: freezed == materialTapTargetSize
-          ? _self.materialTapTargetSize
+          ? _value.materialTapTargetSize
           : materialTapTargetSize // ignore: cast_nullable_to_non_nullable
               as MaterialTapTargetSize?,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacButtonThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacEdgeInsetsCopyWith<$Res>? get padding {
-    if (_self.padding == null) {
+    if (_value.padding == null) {
       return null;
     }
 
-    return $StacEdgeInsetsCopyWith<$Res>(_self.padding!, (value) {
-      return _then(_self.copyWith(padding: value));
+    return $StacEdgeInsetsCopyWith<$Res>(_value.padding!, (value) {
+      return _then(_value.copyWith(padding: value) as $Val);
     });
   }
 
-  /// Create a copy of StacButtonThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacShapeBorderCopyWith<$Res>? get shape {
-    if (_self.shape == null) {
+    if (_value.shape == null) {
       return null;
     }
 
-    return $StacShapeBorderCopyWith<$Res>(_self.shape!, (value) {
-      return _then(_self.copyWith(shape: value));
+    return $StacShapeBorderCopyWith<$Res>(_value.shape!, (value) {
+      return _then(_value.copyWith(shape: value) as $Val);
     });
   }
 
-  /// Create a copy of StacButtonThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacColorSchemeCopyWith<$Res>? get colorScheme {
-    if (_self.colorScheme == null) {
+    if (_value.colorScheme == null) {
       return null;
     }
 
-    return $StacColorSchemeCopyWith<$Res>(_self.colorScheme!, (value) {
-      return _then(_self.copyWith(colorScheme: value));
+    return $StacColorSchemeCopyWith<$Res>(_value.colorScheme!, (value) {
+      return _then(_value.copyWith(colorScheme: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacButtonThemeDataImplCopyWith<$Res>
+    implements $StacButtonThemeDataCopyWith<$Res> {
+  factory _$$StacButtonThemeDataImplCopyWith(_$StacButtonThemeDataImpl value,
+          $Res Function(_$StacButtonThemeDataImpl) then) =
+      __$$StacButtonThemeDataImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {ButtonTextTheme textTheme,
+      double minWidth,
+      double height,
+      StacEdgeInsets? padding,
+      StacShapeBorder? shape,
+      ButtonBarLayoutBehavior layoutBehavior,
+      bool alignedDropdown,
+      String? buttonColor,
+      String? disabledColor,
+      String? focusColor,
+      String? hoverColor,
+      String? highlightColor,
+      String? splashColor,
+      StacColorScheme? colorScheme,
+      MaterialTapTargetSize? materialTapTargetSize});
+
+  @override
+  $StacEdgeInsetsCopyWith<$Res>? get padding;
+  @override
+  $StacShapeBorderCopyWith<$Res>? get shape;
+  @override
+  $StacColorSchemeCopyWith<$Res>? get colorScheme;
+}
+
+/// @nodoc
+class __$$StacButtonThemeDataImplCopyWithImpl<$Res>
+    extends _$StacButtonThemeDataCopyWithImpl<$Res, _$StacButtonThemeDataImpl>
+    implements _$$StacButtonThemeDataImplCopyWith<$Res> {
+  __$$StacButtonThemeDataImplCopyWithImpl(_$StacButtonThemeDataImpl _value,
+      $Res Function(_$StacButtonThemeDataImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? textTheme = null,
+    Object? minWidth = null,
+    Object? height = null,
+    Object? padding = freezed,
+    Object? shape = freezed,
+    Object? layoutBehavior = null,
+    Object? alignedDropdown = null,
+    Object? buttonColor = freezed,
+    Object? disabledColor = freezed,
+    Object? focusColor = freezed,
+    Object? hoverColor = freezed,
+    Object? highlightColor = freezed,
+    Object? splashColor = freezed,
+    Object? colorScheme = freezed,
+    Object? materialTapTargetSize = freezed,
+  }) {
+    return _then(_$StacButtonThemeDataImpl(
+      textTheme: null == textTheme
+          ? _value.textTheme
+          : textTheme // ignore: cast_nullable_to_non_nullable
+              as ButtonTextTheme,
+      minWidth: null == minWidth
+          ? _value.minWidth
+          : minWidth // ignore: cast_nullable_to_non_nullable
+              as double,
+      height: null == height
+          ? _value.height
+          : height // ignore: cast_nullable_to_non_nullable
+              as double,
+      padding: freezed == padding
+          ? _value.padding
+          : padding // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets?,
+      shape: freezed == shape
+          ? _value.shape
+          : shape // ignore: cast_nullable_to_non_nullable
+              as StacShapeBorder?,
+      layoutBehavior: null == layoutBehavior
+          ? _value.layoutBehavior
+          : layoutBehavior // ignore: cast_nullable_to_non_nullable
+              as ButtonBarLayoutBehavior,
+      alignedDropdown: null == alignedDropdown
+          ? _value.alignedDropdown
+          : alignedDropdown // ignore: cast_nullable_to_non_nullable
+              as bool,
+      buttonColor: freezed == buttonColor
+          ? _value.buttonColor
+          : buttonColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      disabledColor: freezed == disabledColor
+          ? _value.disabledColor
+          : disabledColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      focusColor: freezed == focusColor
+          ? _value.focusColor
+          : focusColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      hoverColor: freezed == hoverColor
+          ? _value.hoverColor
+          : hoverColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      highlightColor: freezed == highlightColor
+          ? _value.highlightColor
+          : highlightColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      splashColor: freezed == splashColor
+          ? _value.splashColor
+          : splashColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      colorScheme: freezed == colorScheme
+          ? _value.colorScheme
+          : colorScheme // ignore: cast_nullable_to_non_nullable
+              as StacColorScheme?,
+      materialTapTargetSize: freezed == materialTapTargetSize
+          ? _value.materialTapTargetSize
+          : materialTapTargetSize // ignore: cast_nullable_to_non_nullable
+              as MaterialTapTargetSize?,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacButtonThemeData implements StacButtonThemeData {
-  const _StacButtonThemeData(
+class _$StacButtonThemeDataImpl implements _StacButtonThemeData {
+  const _$StacButtonThemeDataImpl(
       {this.textTheme = ButtonTextTheme.normal,
       this.minWidth = 88.0,
       this.height = 36.0,
@@ -285,8 +346,9 @@ class _StacButtonThemeData implements StacButtonThemeData {
       this.splashColor,
       this.colorScheme,
       this.materialTapTargetSize});
-  factory _StacButtonThemeData.fromJson(Map<String, dynamic> json) =>
-      _$StacButtonThemeDataFromJson(json);
+
+  factory _$StacButtonThemeDataImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacButtonThemeDataImplFromJson(json);
 
   @override
   @JsonKey()
@@ -324,27 +386,16 @@ class _StacButtonThemeData implements StacButtonThemeData {
   @override
   final MaterialTapTargetSize? materialTapTargetSize;
 
-  /// Create a copy of StacButtonThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacButtonThemeDataCopyWith<_StacButtonThemeData> get copyWith =>
-      __$StacButtonThemeDataCopyWithImpl<_StacButtonThemeData>(
-          this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacButtonThemeDataToJson(
-      this,
-    );
+  String toString() {
+    return 'StacButtonThemeData(textTheme: $textTheme, minWidth: $minWidth, height: $height, padding: $padding, shape: $shape, layoutBehavior: $layoutBehavior, alignedDropdown: $alignedDropdown, buttonColor: $buttonColor, disabledColor: $disabledColor, focusColor: $focusColor, hoverColor: $hoverColor, highlightColor: $highlightColor, splashColor: $splashColor, colorScheme: $colorScheme, materialTapTargetSize: $materialTapTargetSize)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacButtonThemeData &&
+            other is _$StacButtonThemeDataImpl &&
             (identical(other.textTheme, textTheme) ||
                 other.textTheme == textTheme) &&
             (identical(other.minWidth, minWidth) ||
@@ -374,7 +425,7 @@ class _StacButtonThemeData implements StacButtonThemeData {
                 other.materialTapTargetSize == materialTapTargetSize));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -394,179 +445,75 @@ class _StacButtonThemeData implements StacButtonThemeData {
       colorScheme,
       materialTapTargetSize);
 
+  @JsonKey(ignore: true)
   @override
-  String toString() {
-    return 'StacButtonThemeData(textTheme: $textTheme, minWidth: $minWidth, height: $height, padding: $padding, shape: $shape, layoutBehavior: $layoutBehavior, alignedDropdown: $alignedDropdown, buttonColor: $buttonColor, disabledColor: $disabledColor, focusColor: $focusColor, hoverColor: $hoverColor, highlightColor: $highlightColor, splashColor: $splashColor, colorScheme: $colorScheme, materialTapTargetSize: $materialTapTargetSize)';
+  @pragma('vm:prefer-inline')
+  _$$StacButtonThemeDataImplCopyWith<_$StacButtonThemeDataImpl> get copyWith =>
+      __$$StacButtonThemeDataImplCopyWithImpl<_$StacButtonThemeDataImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacButtonThemeDataImplToJson(
+      this,
+    );
   }
 }
 
-/// @nodoc
-abstract mixin class _$StacButtonThemeDataCopyWith<$Res>
-    implements $StacButtonThemeDataCopyWith<$Res> {
-  factory _$StacButtonThemeDataCopyWith(_StacButtonThemeData value,
-          $Res Function(_StacButtonThemeData) _then) =
-      __$StacButtonThemeDataCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {ButtonTextTheme textTheme,
-      double minWidth,
-      double height,
-      StacEdgeInsets? padding,
-      StacShapeBorder? shape,
-      ButtonBarLayoutBehavior layoutBehavior,
-      bool alignedDropdown,
-      String? buttonColor,
-      String? disabledColor,
-      String? focusColor,
-      String? hoverColor,
-      String? highlightColor,
-      String? splashColor,
-      StacColorScheme? colorScheme,
-      MaterialTapTargetSize? materialTapTargetSize});
+abstract class _StacButtonThemeData implements StacButtonThemeData {
+  const factory _StacButtonThemeData(
+          {final ButtonTextTheme textTheme,
+          final double minWidth,
+          final double height,
+          final StacEdgeInsets? padding,
+          final StacShapeBorder? shape,
+          final ButtonBarLayoutBehavior layoutBehavior,
+          final bool alignedDropdown,
+          final String? buttonColor,
+          final String? disabledColor,
+          final String? focusColor,
+          final String? hoverColor,
+          final String? highlightColor,
+          final String? splashColor,
+          final StacColorScheme? colorScheme,
+          final MaterialTapTargetSize? materialTapTargetSize}) =
+      _$StacButtonThemeDataImpl;
+
+  factory _StacButtonThemeData.fromJson(Map<String, dynamic> json) =
+      _$StacButtonThemeDataImpl.fromJson;
 
   @override
-  $StacEdgeInsetsCopyWith<$Res>? get padding;
+  ButtonTextTheme get textTheme;
   @override
-  $StacShapeBorderCopyWith<$Res>? get shape;
+  double get minWidth;
   @override
-  $StacColorSchemeCopyWith<$Res>? get colorScheme;
+  double get height;
+  @override
+  StacEdgeInsets? get padding;
+  @override
+  StacShapeBorder? get shape;
+  @override
+  ButtonBarLayoutBehavior get layoutBehavior;
+  @override
+  bool get alignedDropdown;
+  @override
+  String? get buttonColor;
+  @override
+  String? get disabledColor;
+  @override
+  String? get focusColor;
+  @override
+  String? get hoverColor;
+  @override
+  String? get highlightColor;
+  @override
+  String? get splashColor;
+  @override
+  StacColorScheme? get colorScheme;
+  @override
+  MaterialTapTargetSize? get materialTapTargetSize;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacButtonThemeDataImplCopyWith<_$StacButtonThemeDataImpl> get copyWith =>
+      throw _privateConstructorUsedError;
 }
-
-/// @nodoc
-class __$StacButtonThemeDataCopyWithImpl<$Res>
-    implements _$StacButtonThemeDataCopyWith<$Res> {
-  __$StacButtonThemeDataCopyWithImpl(this._self, this._then);
-
-  final _StacButtonThemeData _self;
-  final $Res Function(_StacButtonThemeData) _then;
-
-  /// Create a copy of StacButtonThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $Res call({
-    Object? textTheme = null,
-    Object? minWidth = null,
-    Object? height = null,
-    Object? padding = freezed,
-    Object? shape = freezed,
-    Object? layoutBehavior = null,
-    Object? alignedDropdown = null,
-    Object? buttonColor = freezed,
-    Object? disabledColor = freezed,
-    Object? focusColor = freezed,
-    Object? hoverColor = freezed,
-    Object? highlightColor = freezed,
-    Object? splashColor = freezed,
-    Object? colorScheme = freezed,
-    Object? materialTapTargetSize = freezed,
-  }) {
-    return _then(_StacButtonThemeData(
-      textTheme: null == textTheme
-          ? _self.textTheme
-          : textTheme // ignore: cast_nullable_to_non_nullable
-              as ButtonTextTheme,
-      minWidth: null == minWidth
-          ? _self.minWidth
-          : minWidth // ignore: cast_nullable_to_non_nullable
-              as double,
-      height: null == height
-          ? _self.height
-          : height // ignore: cast_nullable_to_non_nullable
-              as double,
-      padding: freezed == padding
-          ? _self.padding
-          : padding // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets?,
-      shape: freezed == shape
-          ? _self.shape
-          : shape // ignore: cast_nullable_to_non_nullable
-              as StacShapeBorder?,
-      layoutBehavior: null == layoutBehavior
-          ? _self.layoutBehavior
-          : layoutBehavior // ignore: cast_nullable_to_non_nullable
-              as ButtonBarLayoutBehavior,
-      alignedDropdown: null == alignedDropdown
-          ? _self.alignedDropdown
-          : alignedDropdown // ignore: cast_nullable_to_non_nullable
-              as bool,
-      buttonColor: freezed == buttonColor
-          ? _self.buttonColor
-          : buttonColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      disabledColor: freezed == disabledColor
-          ? _self.disabledColor
-          : disabledColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      focusColor: freezed == focusColor
-          ? _self.focusColor
-          : focusColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      hoverColor: freezed == hoverColor
-          ? _self.hoverColor
-          : hoverColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      highlightColor: freezed == highlightColor
-          ? _self.highlightColor
-          : highlightColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      splashColor: freezed == splashColor
-          ? _self.splashColor
-          : splashColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      colorScheme: freezed == colorScheme
-          ? _self.colorScheme
-          : colorScheme // ignore: cast_nullable_to_non_nullable
-              as StacColorScheme?,
-      materialTapTargetSize: freezed == materialTapTargetSize
-          ? _self.materialTapTargetSize
-          : materialTapTargetSize // ignore: cast_nullable_to_non_nullable
-              as MaterialTapTargetSize?,
-    ));
-  }
-
-  /// Create a copy of StacButtonThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacEdgeInsetsCopyWith<$Res>? get padding {
-    if (_self.padding == null) {
-      return null;
-    }
-
-    return $StacEdgeInsetsCopyWith<$Res>(_self.padding!, (value) {
-      return _then(_self.copyWith(padding: value));
-    });
-  }
-
-  /// Create a copy of StacButtonThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacShapeBorderCopyWith<$Res>? get shape {
-    if (_self.shape == null) {
-      return null;
-    }
-
-    return $StacShapeBorderCopyWith<$Res>(_self.shape!, (value) {
-      return _then(_self.copyWith(shape: value));
-    });
-  }
-
-  /// Create a copy of StacButtonThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacColorSchemeCopyWith<$Res>? get colorScheme {
-    if (_self.colorScheme == null) {
-      return null;
-    }
-
-    return $StacColorSchemeCopyWith<$Res>(_self.colorScheme!, (value) {
-      return _then(_self.copyWith(colorScheme: value));
-    });
-  }
-}
-
-// dart format on

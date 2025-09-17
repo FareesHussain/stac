@@ -6,8 +6,8 @@ part of 'stac_gradient.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacGradient _$StacGradientFromJson(Map<String, dynamic> json) =>
-    _StacGradient(
+_$StacGradientImpl _$$StacGradientImplFromJson(Map<String, dynamic> json) =>
+    _$StacGradientImpl(
       colors:
           (json['colors'] as List<dynamic>).map((e) => e as String).toList(),
       stops:
@@ -41,7 +41,7 @@ _StacGradient _$StacGradientFromJson(Map<String, dynamic> json) =>
           : StacDouble.fromJson(json['endAngle']),
     );
 
-Map<String, dynamic> _$StacGradientToJson(_StacGradient instance) =>
+Map<String, dynamic> _$$StacGradientImplToJson(_$StacGradientImpl instance) =>
     <String, dynamic>{
       'colors': instance.colors,
       'stops': instance.stops,

@@ -6,8 +6,9 @@ part of 'stac_outlined_button.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacOutlinedButton _$StacOutlinedButtonFromJson(Map<String, dynamic> json) =>
-    _StacOutlinedButton(
+_$StacOutlinedButtonImpl _$$StacOutlinedButtonImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacOutlinedButtonImpl(
       onPressed: json['onPressed'] as Map<String, dynamic>?,
       onLongPress: json['onLongPress'] as Map<String, dynamic>?,
       onHover: json['onHover'] as Map<String, dynamic>?,
@@ -21,7 +22,8 @@ _StacOutlinedButton _$StacOutlinedButtonFromJson(Map<String, dynamic> json) =>
       child: json['child'] as Map<String, dynamic>,
     );
 
-Map<String, dynamic> _$StacOutlinedButtonToJson(_StacOutlinedButton instance) =>
+Map<String, dynamic> _$$StacOutlinedButtonImplToJson(
+        _$StacOutlinedButtonImpl instance) =>
     <String, dynamic>{
       'onPressed': instance.onPressed,
       'onLongPress': instance.onLongPress,

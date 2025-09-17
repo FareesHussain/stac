@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,66 +9,35 @@ part of 'stac_auto_complete.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacAutoComplete {
-  List<String> get options;
-  Map<String, dynamic>? get onSelected;
-  StacDouble get optionsMaxHeight;
-  OptionsViewOpenDirection get optionsViewOpenDirection;
-  String? get initialValue;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacAutoComplete
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacAutoCompleteCopyWith<StacAutoComplete> get copyWith =>
-      _$StacAutoCompleteCopyWithImpl<StacAutoComplete>(
-          this as StacAutoComplete, _$identity);
-
-  /// Serializes this StacAutoComplete to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacAutoComplete &&
-            const DeepCollectionEquality().equals(other.options, options) &&
-            const DeepCollectionEquality()
-                .equals(other.onSelected, onSelected) &&
-            (identical(other.optionsMaxHeight, optionsMaxHeight) ||
-                other.optionsMaxHeight == optionsMaxHeight) &&
-            (identical(
-                    other.optionsViewOpenDirection, optionsViewOpenDirection) ||
-                other.optionsViewOpenDirection == optionsViewOpenDirection) &&
-            (identical(other.initialValue, initialValue) ||
-                other.initialValue == initialValue));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      const DeepCollectionEquality().hash(options),
-      const DeepCollectionEquality().hash(onSelected),
-      optionsMaxHeight,
-      optionsViewOpenDirection,
-      initialValue);
-
-  @override
-  String toString() {
-    return 'StacAutoComplete(options: $options, onSelected: $onSelected, optionsMaxHeight: $optionsMaxHeight, optionsViewOpenDirection: $optionsViewOpenDirection, initialValue: $initialValue)';
-  }
+StacAutoComplete _$StacAutoCompleteFromJson(Map<String, dynamic> json) {
+  return _StacAutoComplete.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacAutoCompleteCopyWith<$Res> {
+mixin _$StacAutoComplete {
+  List<String> get options => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get onSelected => throw _privateConstructorUsedError;
+  StacDouble get optionsMaxHeight => throw _privateConstructorUsedError;
+  OptionsViewOpenDirection get optionsViewOpenDirection =>
+      throw _privateConstructorUsedError;
+  String? get initialValue => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacAutoCompleteCopyWith<StacAutoComplete> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacAutoCompleteCopyWith<$Res> {
   factory $StacAutoCompleteCopyWith(
-          StacAutoComplete value, $Res Function(StacAutoComplete) _then) =
-      _$StacAutoCompleteCopyWithImpl;
+          StacAutoComplete value, $Res Function(StacAutoComplete) then) =
+      _$StacAutoCompleteCopyWithImpl<$Res, StacAutoComplete>;
   @useResult
   $Res call(
       {List<String> options,
@@ -80,15 +48,15 @@ abstract mixin class $StacAutoCompleteCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacAutoCompleteCopyWithImpl<$Res>
+class _$StacAutoCompleteCopyWithImpl<$Res, $Val extends StacAutoComplete>
     implements $StacAutoCompleteCopyWith<$Res> {
-  _$StacAutoCompleteCopyWithImpl(this._self, this._then);
+  _$StacAutoCompleteCopyWithImpl(this._value, this._then);
 
-  final StacAutoComplete _self;
-  final $Res Function(StacAutoComplete) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacAutoComplete
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -98,25 +66,83 @@ class _$StacAutoCompleteCopyWithImpl<$Res>
     Object? optionsViewOpenDirection = null,
     Object? initialValue = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       options: null == options
-          ? _self.options
+          ? _value.options
           : options // ignore: cast_nullable_to_non_nullable
               as List<String>,
       onSelected: freezed == onSelected
-          ? _self.onSelected
+          ? _value.onSelected
           : onSelected // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       optionsMaxHeight: null == optionsMaxHeight
-          ? _self.optionsMaxHeight
+          ? _value.optionsMaxHeight
           : optionsMaxHeight // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       optionsViewOpenDirection: null == optionsViewOpenDirection
-          ? _self.optionsViewOpenDirection
+          ? _value.optionsViewOpenDirection
           : optionsViewOpenDirection // ignore: cast_nullable_to_non_nullable
               as OptionsViewOpenDirection,
       initialValue: freezed == initialValue
-          ? _self.initialValue
+          ? _value.initialValue
+          : initialValue // ignore: cast_nullable_to_non_nullable
+              as String?,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacAutoCompleteImplCopyWith<$Res>
+    implements $StacAutoCompleteCopyWith<$Res> {
+  factory _$$StacAutoCompleteImplCopyWith(_$StacAutoCompleteImpl value,
+          $Res Function(_$StacAutoCompleteImpl) then) =
+      __$$StacAutoCompleteImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {List<String> options,
+      Map<String, dynamic>? onSelected,
+      StacDouble optionsMaxHeight,
+      OptionsViewOpenDirection optionsViewOpenDirection,
+      String? initialValue});
+}
+
+/// @nodoc
+class __$$StacAutoCompleteImplCopyWithImpl<$Res>
+    extends _$StacAutoCompleteCopyWithImpl<$Res, _$StacAutoCompleteImpl>
+    implements _$$StacAutoCompleteImplCopyWith<$Res> {
+  __$$StacAutoCompleteImplCopyWithImpl(_$StacAutoCompleteImpl _value,
+      $Res Function(_$StacAutoCompleteImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? options = null,
+    Object? onSelected = freezed,
+    Object? optionsMaxHeight = null,
+    Object? optionsViewOpenDirection = null,
+    Object? initialValue = freezed,
+  }) {
+    return _then(_$StacAutoCompleteImpl(
+      options: null == options
+          ? _value._options
+          : options // ignore: cast_nullable_to_non_nullable
+              as List<String>,
+      onSelected: freezed == onSelected
+          ? _value._onSelected
+          : onSelected // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      optionsMaxHeight: null == optionsMaxHeight
+          ? _value.optionsMaxHeight
+          : optionsMaxHeight // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      optionsViewOpenDirection: null == optionsViewOpenDirection
+          ? _value.optionsViewOpenDirection
+          : optionsViewOpenDirection // ignore: cast_nullable_to_non_nullable
+              as OptionsViewOpenDirection,
+      initialValue: freezed == initialValue
+          ? _value.initialValue
           : initialValue // ignore: cast_nullable_to_non_nullable
               as String?,
     ));
@@ -125,8 +151,8 @@ class _$StacAutoCompleteCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _StacAutoComplete implements StacAutoComplete {
-  const _StacAutoComplete(
+class _$StacAutoCompleteImpl implements _StacAutoComplete {
+  const _$StacAutoCompleteImpl(
       {required final List<String> options,
       final Map<String, dynamic>? onSelected,
       this.optionsMaxHeight = const StacDouble(200),
@@ -134,8 +160,9 @@ class _StacAutoComplete implements StacAutoComplete {
       this.initialValue})
       : _options = options,
         _onSelected = onSelected;
-  factory _StacAutoComplete.fromJson(Map<String, dynamic> json) =>
-      _$StacAutoCompleteFromJson(json);
+
+  factory _$StacAutoCompleteImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacAutoCompleteImplFromJson(json);
 
   final List<String> _options;
   @override
@@ -164,26 +191,16 @@ class _StacAutoComplete implements StacAutoComplete {
   @override
   final String? initialValue;
 
-  /// Create a copy of StacAutoComplete
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacAutoCompleteCopyWith<_StacAutoComplete> get copyWith =>
-      __$StacAutoCompleteCopyWithImpl<_StacAutoComplete>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacAutoCompleteToJson(
-      this,
-    );
+  String toString() {
+    return 'StacAutoComplete(options: $options, onSelected: $onSelected, optionsMaxHeight: $optionsMaxHeight, optionsViewOpenDirection: $optionsViewOpenDirection, initialValue: $initialValue)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacAutoComplete &&
+            other is _$StacAutoCompleteImpl &&
             const DeepCollectionEquality().equals(other._options, _options) &&
             const DeepCollectionEquality()
                 .equals(other._onSelected, _onSelected) &&
@@ -196,7 +213,7 @@ class _StacAutoComplete implements StacAutoComplete {
                 other.initialValue == initialValue));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -206,70 +223,44 @@ class _StacAutoComplete implements StacAutoComplete {
       optionsViewOpenDirection,
       initialValue);
 
-  @override
-  String toString() {
-    return 'StacAutoComplete(options: $options, onSelected: $onSelected, optionsMaxHeight: $optionsMaxHeight, optionsViewOpenDirection: $optionsViewOpenDirection, initialValue: $initialValue)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacAutoCompleteCopyWith<$Res>
-    implements $StacAutoCompleteCopyWith<$Res> {
-  factory _$StacAutoCompleteCopyWith(
-          _StacAutoComplete value, $Res Function(_StacAutoComplete) _then) =
-      __$StacAutoCompleteCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {List<String> options,
-      Map<String, dynamic>? onSelected,
-      StacDouble optionsMaxHeight,
-      OptionsViewOpenDirection optionsViewOpenDirection,
-      String? initialValue});
-}
-
-/// @nodoc
-class __$StacAutoCompleteCopyWithImpl<$Res>
-    implements _$StacAutoCompleteCopyWith<$Res> {
-  __$StacAutoCompleteCopyWithImpl(this._self, this._then);
-
-  final _StacAutoComplete _self;
-  final $Res Function(_StacAutoComplete) _then;
-
-  /// Create a copy of StacAutoComplete
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? options = null,
-    Object? onSelected = freezed,
-    Object? optionsMaxHeight = null,
-    Object? optionsViewOpenDirection = null,
-    Object? initialValue = freezed,
-  }) {
-    return _then(_StacAutoComplete(
-      options: null == options
-          ? _self._options
-          : options // ignore: cast_nullable_to_non_nullable
-              as List<String>,
-      onSelected: freezed == onSelected
-          ? _self._onSelected
-          : onSelected // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      optionsMaxHeight: null == optionsMaxHeight
-          ? _self.optionsMaxHeight
-          : optionsMaxHeight // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      optionsViewOpenDirection: null == optionsViewOpenDirection
-          ? _self.optionsViewOpenDirection
-          : optionsViewOpenDirection // ignore: cast_nullable_to_non_nullable
-              as OptionsViewOpenDirection,
-      initialValue: freezed == initialValue
-          ? _self.initialValue
-          : initialValue // ignore: cast_nullable_to_non_nullable
-              as String?,
-    ));
+  _$$StacAutoCompleteImplCopyWith<_$StacAutoCompleteImpl> get copyWith =>
+      __$$StacAutoCompleteImplCopyWithImpl<_$StacAutoCompleteImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacAutoCompleteImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacAutoComplete implements StacAutoComplete {
+  const factory _StacAutoComplete(
+      {required final List<String> options,
+      final Map<String, dynamic>? onSelected,
+      final StacDouble optionsMaxHeight,
+      final OptionsViewOpenDirection optionsViewOpenDirection,
+      final String? initialValue}) = _$StacAutoCompleteImpl;
+
+  factory _StacAutoComplete.fromJson(Map<String, dynamic> json) =
+      _$StacAutoCompleteImpl.fromJson;
+
+  @override
+  List<String> get options;
+  @override
+  Map<String, dynamic>? get onSelected;
+  @override
+  StacDouble get optionsMaxHeight;
+  @override
+  OptionsViewOpenDirection get optionsViewOpenDirection;
+  @override
+  String? get initialValue;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacAutoCompleteImplCopyWith<_$StacAutoCompleteImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

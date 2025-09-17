@@ -6,8 +6,9 @@ part of 'stac_button_style.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacButtonStyle _$StacButtonStyleFromJson(Map<String, dynamic> json) =>
-    _StacButtonStyle(
+_$StacButtonStyleImpl _$$StacButtonStyleImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacButtonStyleImpl(
       foregroundColor: json['foregroundColor'] as String?,
       backgroundColor: json['backgroundColor'] as String?,
       disabledForegroundColor: json['disabledForegroundColor'] as String?,
@@ -63,7 +64,8 @@ _StacButtonStyle _$StacButtonStyleFromJson(Map<String, dynamic> json) =>
               json['alignment'] as Map<String, dynamic>),
     );
 
-Map<String, dynamic> _$StacButtonStyleToJson(_StacButtonStyle instance) =>
+Map<String, dynamic> _$$StacButtonStyleImplToJson(
+        _$StacButtonStyleImpl instance) =>
     <String, dynamic>{
       'foregroundColor': instance.foregroundColor,
       'backgroundColor': instance.backgroundColor,

@@ -6,8 +6,8 @@ part of 'stac_list_view.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacListView _$StacListViewFromJson(Map<String, dynamic> json) =>
-    _StacListView(
+_$StacListViewImpl _$$StacListViewImplFromJson(Map<String, dynamic> json) =>
+    _$StacListViewImpl(
       scrollDirection:
           $enumDecodeNullable(_$AxisEnumMap, json['scrollDirection']) ??
               Axis.vertical,
@@ -42,7 +42,7 @@ _StacListView _$StacListViewFromJson(Map<String, dynamic> json) =>
           Clip.hardEdge,
     );
 
-Map<String, dynamic> _$StacListViewToJson(_StacListView instance) =>
+Map<String, dynamic> _$$StacListViewImplToJson(_$StacListViewImpl instance) =>
     <String, dynamic>{
       'scrollDirection': _$AxisEnumMap[instance.scrollDirection]!,
       'reverse': instance.reverse,

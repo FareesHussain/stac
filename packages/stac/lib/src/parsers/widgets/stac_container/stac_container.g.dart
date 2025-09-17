@@ -6,8 +6,8 @@ part of 'stac_container.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacContainer _$StacContainerFromJson(Map<String, dynamic> json) =>
-    _StacContainer(
+_$StacContainerImpl _$$StacContainerImplFromJson(Map<String, dynamic> json) =>
+    _$StacContainerImpl(
       alignment: $enumDecodeNullable(_$StacAlignmentEnumMap, json['alignment']),
       padding: json['padding'] == null
           ? null
@@ -36,7 +36,7 @@ _StacContainer _$StacContainerFromJson(Map<String, dynamic> json) =>
           $enumDecodeNullable(_$ClipEnumMap, json['clipBehavior']) ?? Clip.none,
     );
 
-Map<String, dynamic> _$StacContainerToJson(_StacContainer instance) =>
+Map<String, dynamic> _$$StacContainerImplToJson(_$StacContainerImpl instance) =>
     <String, dynamic>{
       'alignment': _$StacAlignmentEnumMap[instance.alignment],
       'padding': instance.padding,

@@ -6,17 +6,17 @@ part of 'stac_bottom_navigation_view.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacBottomNavigationView _$StacBottomNavigationViewFromJson(
+_$StacBottomNavigationViewImpl _$$StacBottomNavigationViewImplFromJson(
         Map<String, dynamic> json) =>
-    _StacBottomNavigationView(
+    _$StacBottomNavigationViewImpl(
       children: (json['children'] as List<dynamic>?)
               ?.map((e) => e as Map<String, dynamic>)
               .toList() ??
           const [],
     );
 
-Map<String, dynamic> _$StacBottomNavigationViewToJson(
-        _StacBottomNavigationView instance) =>
+Map<String, dynamic> _$$StacBottomNavigationViewImplToJson(
+        _$StacBottomNavigationViewImpl instance) =>
     <String, dynamic>{
       'children': instance.children,
     };

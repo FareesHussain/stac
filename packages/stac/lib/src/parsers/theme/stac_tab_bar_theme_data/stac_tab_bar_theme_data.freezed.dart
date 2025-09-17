@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,86 +9,39 @@ part of 'stac_tab_bar_theme_data.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacTabBarThemeData {
-  StacBoxDecoration? get indicator;
-  String? get indicatorColor;
-  TabBarIndicatorSize? get indicatorSize;
-  String? get dividerColor;
-  String? get labelColor;
-  StacEdgeInsets? get labelPadding;
-  StacTextStyle? get labelStyle;
-  String? get unselectedLabelColor;
-  StacTextStyle? get unselectedLabelStyle;
-  String? get overlayColor;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacTabBarThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacTabBarThemeDataCopyWith<StacTabBarThemeData> get copyWith =>
-      _$StacTabBarThemeDataCopyWithImpl<StacTabBarThemeData>(
-          this as StacTabBarThemeData, _$identity);
-
-  /// Serializes this StacTabBarThemeData to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacTabBarThemeData &&
-            (identical(other.indicator, indicator) ||
-                other.indicator == indicator) &&
-            (identical(other.indicatorColor, indicatorColor) ||
-                other.indicatorColor == indicatorColor) &&
-            (identical(other.indicatorSize, indicatorSize) ||
-                other.indicatorSize == indicatorSize) &&
-            (identical(other.dividerColor, dividerColor) ||
-                other.dividerColor == dividerColor) &&
-            (identical(other.labelColor, labelColor) ||
-                other.labelColor == labelColor) &&
-            (identical(other.labelPadding, labelPadding) ||
-                other.labelPadding == labelPadding) &&
-            (identical(other.labelStyle, labelStyle) ||
-                other.labelStyle == labelStyle) &&
-            (identical(other.unselectedLabelColor, unselectedLabelColor) ||
-                other.unselectedLabelColor == unselectedLabelColor) &&
-            (identical(other.unselectedLabelStyle, unselectedLabelStyle) ||
-                other.unselectedLabelStyle == unselectedLabelStyle) &&
-            (identical(other.overlayColor, overlayColor) ||
-                other.overlayColor == overlayColor));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      indicator,
-      indicatorColor,
-      indicatorSize,
-      dividerColor,
-      labelColor,
-      labelPadding,
-      labelStyle,
-      unselectedLabelColor,
-      unselectedLabelStyle,
-      overlayColor);
-
-  @override
-  String toString() {
-    return 'StacTabBarThemeData(indicator: $indicator, indicatorColor: $indicatorColor, indicatorSize: $indicatorSize, dividerColor: $dividerColor, labelColor: $labelColor, labelPadding: $labelPadding, labelStyle: $labelStyle, unselectedLabelColor: $unselectedLabelColor, unselectedLabelStyle: $unselectedLabelStyle, overlayColor: $overlayColor)';
-  }
+StacTabBarThemeData _$StacTabBarThemeDataFromJson(Map<String, dynamic> json) {
+  return _StacTabBarThemeData.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacTabBarThemeDataCopyWith<$Res> {
+mixin _$StacTabBarThemeData {
+  StacBoxDecoration? get indicator => throw _privateConstructorUsedError;
+  String? get indicatorColor => throw _privateConstructorUsedError;
+  TabBarIndicatorSize? get indicatorSize => throw _privateConstructorUsedError;
+  String? get dividerColor => throw _privateConstructorUsedError;
+  String? get labelColor => throw _privateConstructorUsedError;
+  StacEdgeInsets? get labelPadding => throw _privateConstructorUsedError;
+  StacTextStyle? get labelStyle => throw _privateConstructorUsedError;
+  String? get unselectedLabelColor => throw _privateConstructorUsedError;
+  StacTextStyle? get unselectedLabelStyle => throw _privateConstructorUsedError;
+  String? get overlayColor => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacTabBarThemeDataCopyWith<StacTabBarThemeData> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacTabBarThemeDataCopyWith<$Res> {
   factory $StacTabBarThemeDataCopyWith(
-          StacTabBarThemeData value, $Res Function(StacTabBarThemeData) _then) =
-      _$StacTabBarThemeDataCopyWithImpl;
+          StacTabBarThemeData value, $Res Function(StacTabBarThemeData) then) =
+      _$StacTabBarThemeDataCopyWithImpl<$Res, StacTabBarThemeData>;
   @useResult
   $Res call(
       {StacBoxDecoration? indicator,
@@ -110,15 +62,15 @@ abstract mixin class $StacTabBarThemeDataCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacTabBarThemeDataCopyWithImpl<$Res>
+class _$StacTabBarThemeDataCopyWithImpl<$Res, $Val extends StacTabBarThemeData>
     implements $StacTabBarThemeDataCopyWith<$Res> {
-  _$StacTabBarThemeDataCopyWithImpl(this._self, this._then);
+  _$StacTabBarThemeDataCopyWithImpl(this._value, this._then);
 
-  final StacTabBarThemeData _self;
-  final $Res Function(StacTabBarThemeData) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacTabBarThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -133,111 +85,200 @@ class _$StacTabBarThemeDataCopyWithImpl<$Res>
     Object? unselectedLabelStyle = freezed,
     Object? overlayColor = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       indicator: freezed == indicator
-          ? _self.indicator
+          ? _value.indicator
           : indicator // ignore: cast_nullable_to_non_nullable
               as StacBoxDecoration?,
       indicatorColor: freezed == indicatorColor
-          ? _self.indicatorColor
+          ? _value.indicatorColor
           : indicatorColor // ignore: cast_nullable_to_non_nullable
               as String?,
       indicatorSize: freezed == indicatorSize
-          ? _self.indicatorSize
+          ? _value.indicatorSize
           : indicatorSize // ignore: cast_nullable_to_non_nullable
               as TabBarIndicatorSize?,
       dividerColor: freezed == dividerColor
-          ? _self.dividerColor
+          ? _value.dividerColor
           : dividerColor // ignore: cast_nullable_to_non_nullable
               as String?,
       labelColor: freezed == labelColor
-          ? _self.labelColor
+          ? _value.labelColor
           : labelColor // ignore: cast_nullable_to_non_nullable
               as String?,
       labelPadding: freezed == labelPadding
-          ? _self.labelPadding
+          ? _value.labelPadding
           : labelPadding // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets?,
       labelStyle: freezed == labelStyle
-          ? _self.labelStyle
+          ? _value.labelStyle
           : labelStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       unselectedLabelColor: freezed == unselectedLabelColor
-          ? _self.unselectedLabelColor
+          ? _value.unselectedLabelColor
           : unselectedLabelColor // ignore: cast_nullable_to_non_nullable
               as String?,
       unselectedLabelStyle: freezed == unselectedLabelStyle
-          ? _self.unselectedLabelStyle
+          ? _value.unselectedLabelStyle
           : unselectedLabelStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       overlayColor: freezed == overlayColor
-          ? _self.overlayColor
+          ? _value.overlayColor
           : overlayColor // ignore: cast_nullable_to_non_nullable
               as String?,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacTabBarThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacBoxDecorationCopyWith<$Res>? get indicator {
-    if (_self.indicator == null) {
+    if (_value.indicator == null) {
       return null;
     }
 
-    return $StacBoxDecorationCopyWith<$Res>(_self.indicator!, (value) {
-      return _then(_self.copyWith(indicator: value));
+    return $StacBoxDecorationCopyWith<$Res>(_value.indicator!, (value) {
+      return _then(_value.copyWith(indicator: value) as $Val);
     });
   }
 
-  /// Create a copy of StacTabBarThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacEdgeInsetsCopyWith<$Res>? get labelPadding {
-    if (_self.labelPadding == null) {
+    if (_value.labelPadding == null) {
       return null;
     }
 
-    return $StacEdgeInsetsCopyWith<$Res>(_self.labelPadding!, (value) {
-      return _then(_self.copyWith(labelPadding: value));
+    return $StacEdgeInsetsCopyWith<$Res>(_value.labelPadding!, (value) {
+      return _then(_value.copyWith(labelPadding: value) as $Val);
     });
   }
 
-  /// Create a copy of StacTabBarThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacTextStyleCopyWith<$Res>? get labelStyle {
-    if (_self.labelStyle == null) {
+    if (_value.labelStyle == null) {
       return null;
     }
 
-    return $StacTextStyleCopyWith<$Res>(_self.labelStyle!, (value) {
-      return _then(_self.copyWith(labelStyle: value));
+    return $StacTextStyleCopyWith<$Res>(_value.labelStyle!, (value) {
+      return _then(_value.copyWith(labelStyle: value) as $Val);
     });
   }
 
-  /// Create a copy of StacTabBarThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacTextStyleCopyWith<$Res>? get unselectedLabelStyle {
-    if (_self.unselectedLabelStyle == null) {
+    if (_value.unselectedLabelStyle == null) {
       return null;
     }
 
-    return $StacTextStyleCopyWith<$Res>(_self.unselectedLabelStyle!, (value) {
-      return _then(_self.copyWith(unselectedLabelStyle: value));
+    return $StacTextStyleCopyWith<$Res>(_value.unselectedLabelStyle!, (value) {
+      return _then(_value.copyWith(unselectedLabelStyle: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacTabBarThemeDataImplCopyWith<$Res>
+    implements $StacTabBarThemeDataCopyWith<$Res> {
+  factory _$$StacTabBarThemeDataImplCopyWith(_$StacTabBarThemeDataImpl value,
+          $Res Function(_$StacTabBarThemeDataImpl) then) =
+      __$$StacTabBarThemeDataImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {StacBoxDecoration? indicator,
+      String? indicatorColor,
+      TabBarIndicatorSize? indicatorSize,
+      String? dividerColor,
+      String? labelColor,
+      StacEdgeInsets? labelPadding,
+      StacTextStyle? labelStyle,
+      String? unselectedLabelColor,
+      StacTextStyle? unselectedLabelStyle,
+      String? overlayColor});
+
+  @override
+  $StacBoxDecorationCopyWith<$Res>? get indicator;
+  @override
+  $StacEdgeInsetsCopyWith<$Res>? get labelPadding;
+  @override
+  $StacTextStyleCopyWith<$Res>? get labelStyle;
+  @override
+  $StacTextStyleCopyWith<$Res>? get unselectedLabelStyle;
+}
+
+/// @nodoc
+class __$$StacTabBarThemeDataImplCopyWithImpl<$Res>
+    extends _$StacTabBarThemeDataCopyWithImpl<$Res, _$StacTabBarThemeDataImpl>
+    implements _$$StacTabBarThemeDataImplCopyWith<$Res> {
+  __$$StacTabBarThemeDataImplCopyWithImpl(_$StacTabBarThemeDataImpl _value,
+      $Res Function(_$StacTabBarThemeDataImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? indicator = freezed,
+    Object? indicatorColor = freezed,
+    Object? indicatorSize = freezed,
+    Object? dividerColor = freezed,
+    Object? labelColor = freezed,
+    Object? labelPadding = freezed,
+    Object? labelStyle = freezed,
+    Object? unselectedLabelColor = freezed,
+    Object? unselectedLabelStyle = freezed,
+    Object? overlayColor = freezed,
+  }) {
+    return _then(_$StacTabBarThemeDataImpl(
+      indicator: freezed == indicator
+          ? _value.indicator
+          : indicator // ignore: cast_nullable_to_non_nullable
+              as StacBoxDecoration?,
+      indicatorColor: freezed == indicatorColor
+          ? _value.indicatorColor
+          : indicatorColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      indicatorSize: freezed == indicatorSize
+          ? _value.indicatorSize
+          : indicatorSize // ignore: cast_nullable_to_non_nullable
+              as TabBarIndicatorSize?,
+      dividerColor: freezed == dividerColor
+          ? _value.dividerColor
+          : dividerColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      labelColor: freezed == labelColor
+          ? _value.labelColor
+          : labelColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      labelPadding: freezed == labelPadding
+          ? _value.labelPadding
+          : labelPadding // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets?,
+      labelStyle: freezed == labelStyle
+          ? _value.labelStyle
+          : labelStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      unselectedLabelColor: freezed == unselectedLabelColor
+          ? _value.unselectedLabelColor
+          : unselectedLabelColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      unselectedLabelStyle: freezed == unselectedLabelStyle
+          ? _value.unselectedLabelStyle
+          : unselectedLabelStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      overlayColor: freezed == overlayColor
+          ? _value.overlayColor
+          : overlayColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacTabBarThemeData implements StacTabBarThemeData {
-  const _StacTabBarThemeData(
+class _$StacTabBarThemeDataImpl implements _StacTabBarThemeData {
+  const _$StacTabBarThemeDataImpl(
       {this.indicator,
       this.indicatorColor,
       this.indicatorSize,
@@ -248,8 +289,9 @@ class _StacTabBarThemeData implements StacTabBarThemeData {
       this.unselectedLabelColor,
       this.unselectedLabelStyle,
       this.overlayColor});
-  factory _StacTabBarThemeData.fromJson(Map<String, dynamic> json) =>
-      _$StacTabBarThemeDataFromJson(json);
+
+  factory _$StacTabBarThemeDataImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacTabBarThemeDataImplFromJson(json);
 
   @override
   final StacBoxDecoration? indicator;
@@ -272,27 +314,16 @@ class _StacTabBarThemeData implements StacTabBarThemeData {
   @override
   final String? overlayColor;
 
-  /// Create a copy of StacTabBarThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacTabBarThemeDataCopyWith<_StacTabBarThemeData> get copyWith =>
-      __$StacTabBarThemeDataCopyWithImpl<_StacTabBarThemeData>(
-          this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacTabBarThemeDataToJson(
-      this,
-    );
+  String toString() {
+    return 'StacTabBarThemeData(indicator: $indicator, indicatorColor: $indicatorColor, indicatorSize: $indicatorSize, dividerColor: $dividerColor, labelColor: $labelColor, labelPadding: $labelPadding, labelStyle: $labelStyle, unselectedLabelColor: $unselectedLabelColor, unselectedLabelStyle: $unselectedLabelStyle, overlayColor: $overlayColor)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacTabBarThemeData &&
+            other is _$StacTabBarThemeDataImpl &&
             (identical(other.indicator, indicator) ||
                 other.indicator == indicator) &&
             (identical(other.indicatorColor, indicatorColor) ||
@@ -315,7 +346,7 @@ class _StacTabBarThemeData implements StacTabBarThemeData {
                 other.overlayColor == overlayColor));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -330,165 +361,59 @@ class _StacTabBarThemeData implements StacTabBarThemeData {
       unselectedLabelStyle,
       overlayColor);
 
+  @JsonKey(ignore: true)
   @override
-  String toString() {
-    return 'StacTabBarThemeData(indicator: $indicator, indicatorColor: $indicatorColor, indicatorSize: $indicatorSize, dividerColor: $dividerColor, labelColor: $labelColor, labelPadding: $labelPadding, labelStyle: $labelStyle, unselectedLabelColor: $unselectedLabelColor, unselectedLabelStyle: $unselectedLabelStyle, overlayColor: $overlayColor)';
+  @pragma('vm:prefer-inline')
+  _$$StacTabBarThemeDataImplCopyWith<_$StacTabBarThemeDataImpl> get copyWith =>
+      __$$StacTabBarThemeDataImplCopyWithImpl<_$StacTabBarThemeDataImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacTabBarThemeDataImplToJson(
+      this,
+    );
   }
 }
 
-/// @nodoc
-abstract mixin class _$StacTabBarThemeDataCopyWith<$Res>
-    implements $StacTabBarThemeDataCopyWith<$Res> {
-  factory _$StacTabBarThemeDataCopyWith(_StacTabBarThemeData value,
-          $Res Function(_StacTabBarThemeData) _then) =
-      __$StacTabBarThemeDataCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {StacBoxDecoration? indicator,
-      String? indicatorColor,
-      TabBarIndicatorSize? indicatorSize,
-      String? dividerColor,
-      String? labelColor,
-      StacEdgeInsets? labelPadding,
-      StacTextStyle? labelStyle,
-      String? unselectedLabelColor,
-      StacTextStyle? unselectedLabelStyle,
-      String? overlayColor});
+abstract class _StacTabBarThemeData implements StacTabBarThemeData {
+  const factory _StacTabBarThemeData(
+      {final StacBoxDecoration? indicator,
+      final String? indicatorColor,
+      final TabBarIndicatorSize? indicatorSize,
+      final String? dividerColor,
+      final String? labelColor,
+      final StacEdgeInsets? labelPadding,
+      final StacTextStyle? labelStyle,
+      final String? unselectedLabelColor,
+      final StacTextStyle? unselectedLabelStyle,
+      final String? overlayColor}) = _$StacTabBarThemeDataImpl;
+
+  factory _StacTabBarThemeData.fromJson(Map<String, dynamic> json) =
+      _$StacTabBarThemeDataImpl.fromJson;
 
   @override
-  $StacBoxDecorationCopyWith<$Res>? get indicator;
+  StacBoxDecoration? get indicator;
   @override
-  $StacEdgeInsetsCopyWith<$Res>? get labelPadding;
+  String? get indicatorColor;
   @override
-  $StacTextStyleCopyWith<$Res>? get labelStyle;
+  TabBarIndicatorSize? get indicatorSize;
   @override
-  $StacTextStyleCopyWith<$Res>? get unselectedLabelStyle;
+  String? get dividerColor;
+  @override
+  String? get labelColor;
+  @override
+  StacEdgeInsets? get labelPadding;
+  @override
+  StacTextStyle? get labelStyle;
+  @override
+  String? get unselectedLabelColor;
+  @override
+  StacTextStyle? get unselectedLabelStyle;
+  @override
+  String? get overlayColor;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacTabBarThemeDataImplCopyWith<_$StacTabBarThemeDataImpl> get copyWith =>
+      throw _privateConstructorUsedError;
 }
-
-/// @nodoc
-class __$StacTabBarThemeDataCopyWithImpl<$Res>
-    implements _$StacTabBarThemeDataCopyWith<$Res> {
-  __$StacTabBarThemeDataCopyWithImpl(this._self, this._then);
-
-  final _StacTabBarThemeData _self;
-  final $Res Function(_StacTabBarThemeData) _then;
-
-  /// Create a copy of StacTabBarThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $Res call({
-    Object? indicator = freezed,
-    Object? indicatorColor = freezed,
-    Object? indicatorSize = freezed,
-    Object? dividerColor = freezed,
-    Object? labelColor = freezed,
-    Object? labelPadding = freezed,
-    Object? labelStyle = freezed,
-    Object? unselectedLabelColor = freezed,
-    Object? unselectedLabelStyle = freezed,
-    Object? overlayColor = freezed,
-  }) {
-    return _then(_StacTabBarThemeData(
-      indicator: freezed == indicator
-          ? _self.indicator
-          : indicator // ignore: cast_nullable_to_non_nullable
-              as StacBoxDecoration?,
-      indicatorColor: freezed == indicatorColor
-          ? _self.indicatorColor
-          : indicatorColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      indicatorSize: freezed == indicatorSize
-          ? _self.indicatorSize
-          : indicatorSize // ignore: cast_nullable_to_non_nullable
-              as TabBarIndicatorSize?,
-      dividerColor: freezed == dividerColor
-          ? _self.dividerColor
-          : dividerColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      labelColor: freezed == labelColor
-          ? _self.labelColor
-          : labelColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      labelPadding: freezed == labelPadding
-          ? _self.labelPadding
-          : labelPadding // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets?,
-      labelStyle: freezed == labelStyle
-          ? _self.labelStyle
-          : labelStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      unselectedLabelColor: freezed == unselectedLabelColor
-          ? _self.unselectedLabelColor
-          : unselectedLabelColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      unselectedLabelStyle: freezed == unselectedLabelStyle
-          ? _self.unselectedLabelStyle
-          : unselectedLabelStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      overlayColor: freezed == overlayColor
-          ? _self.overlayColor
-          : overlayColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-    ));
-  }
-
-  /// Create a copy of StacTabBarThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacBoxDecorationCopyWith<$Res>? get indicator {
-    if (_self.indicator == null) {
-      return null;
-    }
-
-    return $StacBoxDecorationCopyWith<$Res>(_self.indicator!, (value) {
-      return _then(_self.copyWith(indicator: value));
-    });
-  }
-
-  /// Create a copy of StacTabBarThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacEdgeInsetsCopyWith<$Res>? get labelPadding {
-    if (_self.labelPadding == null) {
-      return null;
-    }
-
-    return $StacEdgeInsetsCopyWith<$Res>(_self.labelPadding!, (value) {
-      return _then(_self.copyWith(labelPadding: value));
-    });
-  }
-
-  /// Create a copy of StacTabBarThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get labelStyle {
-    if (_self.labelStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_self.labelStyle!, (value) {
-      return _then(_self.copyWith(labelStyle: value));
-    });
-  }
-
-  /// Create a copy of StacTabBarThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get unselectedLabelStyle {
-    if (_self.unselectedLabelStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_self.unselectedLabelStyle!, (value) {
-      return _then(_self.copyWith(unselectedLabelStyle: value));
-    });
-  }
-}
-
-// dart format on

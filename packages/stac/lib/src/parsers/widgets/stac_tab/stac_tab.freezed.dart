@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,60 +9,32 @@ part of 'stac_tab.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacTab {
-  String? get text;
-  Map<String, dynamic>? get icon;
-  StacEdgeInsets? get iconMargin;
-  StacDouble? get height;
-  Map<String, dynamic>? get child;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacTab
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacTabCopyWith<StacTab> get copyWith =>
-      _$StacTabCopyWithImpl<StacTab>(this as StacTab, _$identity);
-
-  /// Serializes this StacTab to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacTab &&
-            (identical(other.text, text) || other.text == text) &&
-            const DeepCollectionEquality().equals(other.icon, icon) &&
-            (identical(other.iconMargin, iconMargin) ||
-                other.iconMargin == iconMargin) &&
-            (identical(other.height, height) || other.height == height) &&
-            const DeepCollectionEquality().equals(other.child, child));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      text,
-      const DeepCollectionEquality().hash(icon),
-      iconMargin,
-      height,
-      const DeepCollectionEquality().hash(child));
-
-  @override
-  String toString() {
-    return 'StacTab(text: $text, icon: $icon, iconMargin: $iconMargin, height: $height, child: $child)';
-  }
+StacTab _$StacTabFromJson(Map<String, dynamic> json) {
+  return _StacTab.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacTabCopyWith<$Res> {
-  factory $StacTabCopyWith(StacTab value, $Res Function(StacTab) _then) =
-      _$StacTabCopyWithImpl;
+mixin _$StacTab {
+  String? get text => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get icon => throw _privateConstructorUsedError;
+  StacEdgeInsets? get iconMargin => throw _privateConstructorUsedError;
+  StacDouble? get height => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get child => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacTabCopyWith<StacTab> get copyWith => throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacTabCopyWith<$Res> {
+  factory $StacTabCopyWith(StacTab value, $Res Function(StacTab) then) =
+      _$StacTabCopyWithImpl<$Res, StacTab>;
   @useResult
   $Res call(
       {String? text,
@@ -76,14 +47,15 @@ abstract mixin class $StacTabCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacTabCopyWithImpl<$Res> implements $StacTabCopyWith<$Res> {
-  _$StacTabCopyWithImpl(this._self, this._then);
+class _$StacTabCopyWithImpl<$Res, $Val extends StacTab>
+    implements $StacTabCopyWith<$Res> {
+  _$StacTabCopyWithImpl(this._value, this._then);
 
-  final StacTab _self;
-  final $Res Function(StacTab) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacTab
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -93,49 +65,107 @@ class _$StacTabCopyWithImpl<$Res> implements $StacTabCopyWith<$Res> {
     Object? height = freezed,
     Object? child = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       text: freezed == text
-          ? _self.text
+          ? _value.text
           : text // ignore: cast_nullable_to_non_nullable
               as String?,
       icon: freezed == icon
-          ? _self.icon
+          ? _value.icon
           : icon // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       iconMargin: freezed == iconMargin
-          ? _self.iconMargin
+          ? _value.iconMargin
           : iconMargin // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets?,
       height: freezed == height
-          ? _self.height
+          ? _value.height
           : height // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       child: freezed == child
-          ? _self.child
+          ? _value.child
           : child // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacTab
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacEdgeInsetsCopyWith<$Res>? get iconMargin {
-    if (_self.iconMargin == null) {
+    if (_value.iconMargin == null) {
       return null;
     }
 
-    return $StacEdgeInsetsCopyWith<$Res>(_self.iconMargin!, (value) {
-      return _then(_self.copyWith(iconMargin: value));
+    return $StacEdgeInsetsCopyWith<$Res>(_value.iconMargin!, (value) {
+      return _then(_value.copyWith(iconMargin: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacTabImplCopyWith<$Res> implements $StacTabCopyWith<$Res> {
+  factory _$$StacTabImplCopyWith(
+          _$StacTabImpl value, $Res Function(_$StacTabImpl) then) =
+      __$$StacTabImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {String? text,
+      Map<String, dynamic>? icon,
+      StacEdgeInsets? iconMargin,
+      StacDouble? height,
+      Map<String, dynamic>? child});
+
+  @override
+  $StacEdgeInsetsCopyWith<$Res>? get iconMargin;
+}
+
+/// @nodoc
+class __$$StacTabImplCopyWithImpl<$Res>
+    extends _$StacTabCopyWithImpl<$Res, _$StacTabImpl>
+    implements _$$StacTabImplCopyWith<$Res> {
+  __$$StacTabImplCopyWithImpl(
+      _$StacTabImpl _value, $Res Function(_$StacTabImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? text = freezed,
+    Object? icon = freezed,
+    Object? iconMargin = freezed,
+    Object? height = freezed,
+    Object? child = freezed,
+  }) {
+    return _then(_$StacTabImpl(
+      text: freezed == text
+          ? _value.text
+          : text // ignore: cast_nullable_to_non_nullable
+              as String?,
+      icon: freezed == icon
+          ? _value._icon
+          : icon // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      iconMargin: freezed == iconMargin
+          ? _value.iconMargin
+          : iconMargin // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets?,
+      height: freezed == height
+          ? _value.height
+          : height // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      child: freezed == child
+          ? _value._child
+          : child // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacTab implements StacTab {
-  const _StacTab(
+class _$StacTabImpl implements _StacTab {
+  const _$StacTabImpl(
       {this.text,
       final Map<String, dynamic>? icon,
       this.iconMargin,
@@ -143,8 +173,9 @@ class _StacTab implements StacTab {
       final Map<String, dynamic>? child})
       : _icon = icon,
         _child = child;
-  factory _StacTab.fromJson(Map<String, dynamic> json) =>
-      _$StacTabFromJson(json);
+
+  factory _$StacTabImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacTabImplFromJson(json);
 
   @override
   final String? text;
@@ -172,26 +203,16 @@ class _StacTab implements StacTab {
     return EqualUnmodifiableMapView(value);
   }
 
-  /// Create a copy of StacTab
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacTabCopyWith<_StacTab> get copyWith =>
-      __$StacTabCopyWithImpl<_StacTab>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacTabToJson(
-      this,
-    );
+  String toString() {
+    return 'StacTab(text: $text, icon: $icon, iconMargin: $iconMargin, height: $height, child: $child)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacTab &&
+            other is _$StacTabImpl &&
             (identical(other.text, text) || other.text == text) &&
             const DeepCollectionEquality().equals(other._icon, _icon) &&
             (identical(other.iconMargin, iconMargin) ||
@@ -200,7 +221,7 @@ class _StacTab implements StacTab {
             const DeepCollectionEquality().equals(other._child, _child));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -210,84 +231,42 @@ class _StacTab implements StacTab {
       height,
       const DeepCollectionEquality().hash(_child));
 
-  @override
-  String toString() {
-    return 'StacTab(text: $text, icon: $icon, iconMargin: $iconMargin, height: $height, child: $child)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacTabCopyWith<$Res> implements $StacTabCopyWith<$Res> {
-  factory _$StacTabCopyWith(_StacTab value, $Res Function(_StacTab) _then) =
-      __$StacTabCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {String? text,
-      Map<String, dynamic>? icon,
-      StacEdgeInsets? iconMargin,
-      StacDouble? height,
-      Map<String, dynamic>? child});
-
-  @override
-  $StacEdgeInsetsCopyWith<$Res>? get iconMargin;
-}
-
-/// @nodoc
-class __$StacTabCopyWithImpl<$Res> implements _$StacTabCopyWith<$Res> {
-  __$StacTabCopyWithImpl(this._self, this._then);
-
-  final _StacTab _self;
-  final $Res Function(_StacTab) _then;
-
-  /// Create a copy of StacTab
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? text = freezed,
-    Object? icon = freezed,
-    Object? iconMargin = freezed,
-    Object? height = freezed,
-    Object? child = freezed,
-  }) {
-    return _then(_StacTab(
-      text: freezed == text
-          ? _self.text
-          : text // ignore: cast_nullable_to_non_nullable
-              as String?,
-      icon: freezed == icon
-          ? _self._icon
-          : icon // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      iconMargin: freezed == iconMargin
-          ? _self.iconMargin
-          : iconMargin // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets?,
-      height: freezed == height
-          ? _self.height
-          : height // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      child: freezed == child
-          ? _self._child
-          : child // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-    ));
-  }
+  _$$StacTabImplCopyWith<_$StacTabImpl> get copyWith =>
+      __$$StacTabImplCopyWithImpl<_$StacTabImpl>(this, _$identity);
 
-  /// Create a copy of StacTab
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @pragma('vm:prefer-inline')
-  $StacEdgeInsetsCopyWith<$Res>? get iconMargin {
-    if (_self.iconMargin == null) {
-      return null;
-    }
-
-    return $StacEdgeInsetsCopyWith<$Res>(_self.iconMargin!, (value) {
-      return _then(_self.copyWith(iconMargin: value));
-    });
+  Map<String, dynamic> toJson() {
+    return _$$StacTabImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacTab implements StacTab {
+  const factory _StacTab(
+      {final String? text,
+      final Map<String, dynamic>? icon,
+      final StacEdgeInsets? iconMargin,
+      final StacDouble? height,
+      final Map<String, dynamic>? child}) = _$StacTabImpl;
+
+  factory _StacTab.fromJson(Map<String, dynamic> json) = _$StacTabImpl.fromJson;
+
+  @override
+  String? get text;
+  @override
+  Map<String, dynamic>? get icon;
+  @override
+  StacEdgeInsets? get iconMargin;
+  @override
+  StacDouble? get height;
+  @override
+  Map<String, dynamic>? get child;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacTabImplCopyWith<_$StacTabImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

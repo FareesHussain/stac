@@ -6,7 +6,8 @@ part of 'stac_tab_bar.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacTabBar _$StacTabBarFromJson(Map<String, dynamic> json) => _StacTabBar(
+_$StacTabBarImpl _$$StacTabBarImplFromJson(Map<String, dynamic> json) =>
+    _$StacTabBarImpl(
       tabs: (json['tabs'] as List<dynamic>)
           .map((e) => e as Map<String, dynamic>)
           .toList(),
@@ -52,7 +53,7 @@ _StacTabBar _$StacTabBarFromJson(Map<String, dynamic> json) => _StacTabBar(
       dividerHeight: (json['dividerHeight'] as num?)?.toDouble(),
     );
 
-Map<String, dynamic> _$StacTabBarToJson(_StacTabBar instance) =>
+Map<String, dynamic> _$$StacTabBarImplToJson(_$StacTabBarImpl instance) =>
     <String, dynamic>{
       'tabs': instance.tabs,
       'initialIndex': instance.initialIndex,

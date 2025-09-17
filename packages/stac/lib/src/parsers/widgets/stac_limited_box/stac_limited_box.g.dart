@@ -6,8 +6,8 @@ part of 'stac_limited_box.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacLimitedBox _$StacLimitedBoxFromJson(Map<String, dynamic> json) =>
-    _StacLimitedBox(
+_$StacLimitedBoxImpl _$$StacLimitedBoxImplFromJson(Map<String, dynamic> json) =>
+    _$StacLimitedBoxImpl(
       maxHeight: json['maxHeight'] == null
           ? StacDouble.infinity
           : StacDouble.fromJson(json['maxHeight']),
@@ -17,7 +17,8 @@ _StacLimitedBox _$StacLimitedBoxFromJson(Map<String, dynamic> json) =>
       child: json['child'] as Map<String, dynamic>?,
     );
 
-Map<String, dynamic> _$StacLimitedBoxToJson(_StacLimitedBox instance) =>
+Map<String, dynamic> _$$StacLimitedBoxImplToJson(
+        _$StacLimitedBoxImpl instance) =>
     <String, dynamic>{
       'maxHeight': instance.maxHeight,
       'maxWidth': instance.maxWidth,

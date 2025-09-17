@@ -6,8 +6,9 @@ part of 'stac_decoration_image.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacDecorationImage _$StacDecorationImageFromJson(Map<String, dynamic> json) =>
-    _StacDecorationImage(
+_$StacDecorationImageImpl _$$StacDecorationImageImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacDecorationImageImpl(
       src: json['src'] as String,
       fit: $enumDecodeNullable(_$BoxFitEnumMap, json['fit']),
       imageType: $enumDecodeNullable(
@@ -35,8 +36,8 @@ _StacDecorationImage _$StacDecorationImageFromJson(Map<String, dynamic> json) =>
       isAntiAlias: json['isAntiAlias'] as bool? ?? false,
     );
 
-Map<String, dynamic> _$StacDecorationImageToJson(
-        _StacDecorationImage instance) =>
+Map<String, dynamic> _$$StacDecorationImageImplToJson(
+        _$StacDecorationImageImpl instance) =>
     <String, dynamic>{
       'src': instance.src,
       'fit': _$BoxFitEnumMap[instance.fit],

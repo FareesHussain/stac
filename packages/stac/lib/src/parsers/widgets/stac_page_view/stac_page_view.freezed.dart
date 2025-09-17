@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,97 +9,43 @@ part of 'stac_page_view.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacPageView {
-  Axis get scrollDirection;
-  bool get reverse;
-  StacScrollPhysics? get physics;
-  bool get pageSnapping;
-  Map<String, dynamic>? get onPageChanged;
-  DragStartBehavior get dragStartBehavior;
-  bool get allowImplicitScrolling;
-  String? get restorationId;
-  Clip get clipBehavior;
-  bool get padEnds;
-  int get initialPage;
-  dynamic get keepPage;
-  StacDouble get viewportFraction;
-  List<Map<String, dynamic>> get children;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacPageView
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacPageViewCopyWith<StacPageView> get copyWith =>
-      _$StacPageViewCopyWithImpl<StacPageView>(
-          this as StacPageView, _$identity);
-
-  /// Serializes this StacPageView to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacPageView &&
-            (identical(other.scrollDirection, scrollDirection) ||
-                other.scrollDirection == scrollDirection) &&
-            (identical(other.reverse, reverse) || other.reverse == reverse) &&
-            (identical(other.physics, physics) || other.physics == physics) &&
-            (identical(other.pageSnapping, pageSnapping) ||
-                other.pageSnapping == pageSnapping) &&
-            const DeepCollectionEquality()
-                .equals(other.onPageChanged, onPageChanged) &&
-            (identical(other.dragStartBehavior, dragStartBehavior) ||
-                other.dragStartBehavior == dragStartBehavior) &&
-            (identical(other.allowImplicitScrolling, allowImplicitScrolling) ||
-                other.allowImplicitScrolling == allowImplicitScrolling) &&
-            (identical(other.restorationId, restorationId) ||
-                other.restorationId == restorationId) &&
-            (identical(other.clipBehavior, clipBehavior) ||
-                other.clipBehavior == clipBehavior) &&
-            (identical(other.padEnds, padEnds) || other.padEnds == padEnds) &&
-            (identical(other.initialPage, initialPage) ||
-                other.initialPage == initialPage) &&
-            const DeepCollectionEquality().equals(other.keepPage, keepPage) &&
-            (identical(other.viewportFraction, viewportFraction) ||
-                other.viewportFraction == viewportFraction) &&
-            const DeepCollectionEquality().equals(other.children, children));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      scrollDirection,
-      reverse,
-      physics,
-      pageSnapping,
-      const DeepCollectionEquality().hash(onPageChanged),
-      dragStartBehavior,
-      allowImplicitScrolling,
-      restorationId,
-      clipBehavior,
-      padEnds,
-      initialPage,
-      const DeepCollectionEquality().hash(keepPage),
-      viewportFraction,
-      const DeepCollectionEquality().hash(children));
-
-  @override
-  String toString() {
-    return 'StacPageView(scrollDirection: $scrollDirection, reverse: $reverse, physics: $physics, pageSnapping: $pageSnapping, onPageChanged: $onPageChanged, dragStartBehavior: $dragStartBehavior, allowImplicitScrolling: $allowImplicitScrolling, restorationId: $restorationId, clipBehavior: $clipBehavior, padEnds: $padEnds, initialPage: $initialPage, keepPage: $keepPage, viewportFraction: $viewportFraction, children: $children)';
-  }
+StacPageView _$StacPageViewFromJson(Map<String, dynamic> json) {
+  return _StacPageView.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacPageViewCopyWith<$Res> {
+mixin _$StacPageView {
+  Axis get scrollDirection => throw _privateConstructorUsedError;
+  bool get reverse => throw _privateConstructorUsedError;
+  StacScrollPhysics? get physics => throw _privateConstructorUsedError;
+  bool get pageSnapping => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get onPageChanged => throw _privateConstructorUsedError;
+  DragStartBehavior get dragStartBehavior => throw _privateConstructorUsedError;
+  bool get allowImplicitScrolling => throw _privateConstructorUsedError;
+  String? get restorationId => throw _privateConstructorUsedError;
+  Clip get clipBehavior => throw _privateConstructorUsedError;
+  bool get padEnds => throw _privateConstructorUsedError;
+  int get initialPage => throw _privateConstructorUsedError;
+  dynamic get keepPage => throw _privateConstructorUsedError;
+  StacDouble get viewportFraction => throw _privateConstructorUsedError;
+  List<Map<String, dynamic>> get children => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacPageViewCopyWith<StacPageView> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacPageViewCopyWith<$Res> {
   factory $StacPageViewCopyWith(
-          StacPageView value, $Res Function(StacPageView) _then) =
-      _$StacPageViewCopyWithImpl;
+          StacPageView value, $Res Function(StacPageView) then) =
+      _$StacPageViewCopyWithImpl<$Res, StacPageView>;
   @useResult
   $Res call(
       {Axis scrollDirection,
@@ -120,14 +65,15 @@ abstract mixin class $StacPageViewCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacPageViewCopyWithImpl<$Res> implements $StacPageViewCopyWith<$Res> {
-  _$StacPageViewCopyWithImpl(this._self, this._then);
+class _$StacPageViewCopyWithImpl<$Res, $Val extends StacPageView>
+    implements $StacPageViewCopyWith<$Res> {
+  _$StacPageViewCopyWithImpl(this._value, this._then);
 
-  final StacPageView _self;
-  final $Res Function(StacPageView) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacPageView
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -146,61 +92,170 @@ class _$StacPageViewCopyWithImpl<$Res> implements $StacPageViewCopyWith<$Res> {
     Object? viewportFraction = null,
     Object? children = null,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       scrollDirection: null == scrollDirection
-          ? _self.scrollDirection
+          ? _value.scrollDirection
           : scrollDirection // ignore: cast_nullable_to_non_nullable
               as Axis,
       reverse: null == reverse
-          ? _self.reverse
+          ? _value.reverse
           : reverse // ignore: cast_nullable_to_non_nullable
               as bool,
       physics: freezed == physics
-          ? _self.physics
+          ? _value.physics
           : physics // ignore: cast_nullable_to_non_nullable
               as StacScrollPhysics?,
       pageSnapping: null == pageSnapping
-          ? _self.pageSnapping
+          ? _value.pageSnapping
           : pageSnapping // ignore: cast_nullable_to_non_nullable
               as bool,
       onPageChanged: freezed == onPageChanged
-          ? _self.onPageChanged
+          ? _value.onPageChanged
           : onPageChanged // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       dragStartBehavior: null == dragStartBehavior
-          ? _self.dragStartBehavior
+          ? _value.dragStartBehavior
           : dragStartBehavior // ignore: cast_nullable_to_non_nullable
               as DragStartBehavior,
       allowImplicitScrolling: null == allowImplicitScrolling
-          ? _self.allowImplicitScrolling
+          ? _value.allowImplicitScrolling
           : allowImplicitScrolling // ignore: cast_nullable_to_non_nullable
               as bool,
       restorationId: freezed == restorationId
-          ? _self.restorationId
+          ? _value.restorationId
           : restorationId // ignore: cast_nullable_to_non_nullable
               as String?,
       clipBehavior: null == clipBehavior
-          ? _self.clipBehavior
+          ? _value.clipBehavior
           : clipBehavior // ignore: cast_nullable_to_non_nullable
               as Clip,
       padEnds: null == padEnds
-          ? _self.padEnds
+          ? _value.padEnds
           : padEnds // ignore: cast_nullable_to_non_nullable
               as bool,
       initialPage: null == initialPage
-          ? _self.initialPage
+          ? _value.initialPage
           : initialPage // ignore: cast_nullable_to_non_nullable
               as int,
       keepPage: freezed == keepPage
-          ? _self.keepPage
+          ? _value.keepPage
           : keepPage // ignore: cast_nullable_to_non_nullable
               as dynamic,
       viewportFraction: null == viewportFraction
-          ? _self.viewportFraction
+          ? _value.viewportFraction
           : viewportFraction // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       children: null == children
-          ? _self.children
+          ? _value.children
+          : children // ignore: cast_nullable_to_non_nullable
+              as List<Map<String, dynamic>>,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacPageViewImplCopyWith<$Res>
+    implements $StacPageViewCopyWith<$Res> {
+  factory _$$StacPageViewImplCopyWith(
+          _$StacPageViewImpl value, $Res Function(_$StacPageViewImpl) then) =
+      __$$StacPageViewImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {Axis scrollDirection,
+      bool reverse,
+      StacScrollPhysics? physics,
+      bool pageSnapping,
+      Map<String, dynamic>? onPageChanged,
+      DragStartBehavior dragStartBehavior,
+      bool allowImplicitScrolling,
+      String? restorationId,
+      Clip clipBehavior,
+      bool padEnds,
+      int initialPage,
+      dynamic keepPage,
+      StacDouble viewportFraction,
+      List<Map<String, dynamic>> children});
+}
+
+/// @nodoc
+class __$$StacPageViewImplCopyWithImpl<$Res>
+    extends _$StacPageViewCopyWithImpl<$Res, _$StacPageViewImpl>
+    implements _$$StacPageViewImplCopyWith<$Res> {
+  __$$StacPageViewImplCopyWithImpl(
+      _$StacPageViewImpl _value, $Res Function(_$StacPageViewImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? scrollDirection = null,
+    Object? reverse = null,
+    Object? physics = freezed,
+    Object? pageSnapping = null,
+    Object? onPageChanged = freezed,
+    Object? dragStartBehavior = null,
+    Object? allowImplicitScrolling = null,
+    Object? restorationId = freezed,
+    Object? clipBehavior = null,
+    Object? padEnds = null,
+    Object? initialPage = null,
+    Object? keepPage = freezed,
+    Object? viewportFraction = null,
+    Object? children = null,
+  }) {
+    return _then(_$StacPageViewImpl(
+      scrollDirection: null == scrollDirection
+          ? _value.scrollDirection
+          : scrollDirection // ignore: cast_nullable_to_non_nullable
+              as Axis,
+      reverse: null == reverse
+          ? _value.reverse
+          : reverse // ignore: cast_nullable_to_non_nullable
+              as bool,
+      physics: freezed == physics
+          ? _value.physics
+          : physics // ignore: cast_nullable_to_non_nullable
+              as StacScrollPhysics?,
+      pageSnapping: null == pageSnapping
+          ? _value.pageSnapping
+          : pageSnapping // ignore: cast_nullable_to_non_nullable
+              as bool,
+      onPageChanged: freezed == onPageChanged
+          ? _value._onPageChanged
+          : onPageChanged // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      dragStartBehavior: null == dragStartBehavior
+          ? _value.dragStartBehavior
+          : dragStartBehavior // ignore: cast_nullable_to_non_nullable
+              as DragStartBehavior,
+      allowImplicitScrolling: null == allowImplicitScrolling
+          ? _value.allowImplicitScrolling
+          : allowImplicitScrolling // ignore: cast_nullable_to_non_nullable
+              as bool,
+      restorationId: freezed == restorationId
+          ? _value.restorationId
+          : restorationId // ignore: cast_nullable_to_non_nullable
+              as String?,
+      clipBehavior: null == clipBehavior
+          ? _value.clipBehavior
+          : clipBehavior // ignore: cast_nullable_to_non_nullable
+              as Clip,
+      padEnds: null == padEnds
+          ? _value.padEnds
+          : padEnds // ignore: cast_nullable_to_non_nullable
+              as bool,
+      initialPage: null == initialPage
+          ? _value.initialPage
+          : initialPage // ignore: cast_nullable_to_non_nullable
+              as int,
+      keepPage: freezed == keepPage ? _value.keepPage! : keepPage,
+      viewportFraction: null == viewportFraction
+          ? _value.viewportFraction
+          : viewportFraction // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      children: null == children
+          ? _value._children
           : children // ignore: cast_nullable_to_non_nullable
               as List<Map<String, dynamic>>,
     ));
@@ -209,8 +264,8 @@ class _$StacPageViewCopyWithImpl<$Res> implements $StacPageViewCopyWith<$Res> {
 
 /// @nodoc
 @JsonSerializable()
-class _StacPageView implements StacPageView {
-  const _StacPageView(
+class _$StacPageViewImpl implements _StacPageView {
+  const _$StacPageViewImpl(
       {this.scrollDirection = Axis.horizontal,
       this.reverse = false,
       this.physics,
@@ -227,8 +282,9 @@ class _StacPageView implements StacPageView {
       final List<Map<String, dynamic>> children = const []})
       : _onPageChanged = onPageChanged,
         _children = children;
-  factory _StacPageView.fromJson(Map<String, dynamic> json) =>
-      _$StacPageViewFromJson(json);
+
+  factory _$StacPageViewImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacPageViewImplFromJson(json);
 
   @override
   @JsonKey()
@@ -283,26 +339,16 @@ class _StacPageView implements StacPageView {
     return EqualUnmodifiableListView(_children);
   }
 
-  /// Create a copy of StacPageView
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacPageViewCopyWith<_StacPageView> get copyWith =>
-      __$StacPageViewCopyWithImpl<_StacPageView>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacPageViewToJson(
-      this,
-    );
+  String toString() {
+    return 'StacPageView(scrollDirection: $scrollDirection, reverse: $reverse, physics: $physics, pageSnapping: $pageSnapping, onPageChanged: $onPageChanged, dragStartBehavior: $dragStartBehavior, allowImplicitScrolling: $allowImplicitScrolling, restorationId: $restorationId, clipBehavior: $clipBehavior, padEnds: $padEnds, initialPage: $initialPage, keepPage: $keepPage, viewportFraction: $viewportFraction, children: $children)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacPageView &&
+            other is _$StacPageViewImpl &&
             (identical(other.scrollDirection, scrollDirection) ||
                 other.scrollDirection == scrollDirection) &&
             (identical(other.reverse, reverse) || other.reverse == reverse) &&
@@ -328,7 +374,7 @@ class _StacPageView implements StacPageView {
             const DeepCollectionEquality().equals(other._children, _children));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -347,124 +393,70 @@ class _StacPageView implements StacPageView {
       viewportFraction,
       const DeepCollectionEquality().hash(_children));
 
-  @override
-  String toString() {
-    return 'StacPageView(scrollDirection: $scrollDirection, reverse: $reverse, physics: $physics, pageSnapping: $pageSnapping, onPageChanged: $onPageChanged, dragStartBehavior: $dragStartBehavior, allowImplicitScrolling: $allowImplicitScrolling, restorationId: $restorationId, clipBehavior: $clipBehavior, padEnds: $padEnds, initialPage: $initialPage, keepPage: $keepPage, viewportFraction: $viewportFraction, children: $children)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacPageViewCopyWith<$Res>
-    implements $StacPageViewCopyWith<$Res> {
-  factory _$StacPageViewCopyWith(
-          _StacPageView value, $Res Function(_StacPageView) _then) =
-      __$StacPageViewCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {Axis scrollDirection,
-      bool reverse,
-      StacScrollPhysics? physics,
-      bool pageSnapping,
-      Map<String, dynamic>? onPageChanged,
-      DragStartBehavior dragStartBehavior,
-      bool allowImplicitScrolling,
-      String? restorationId,
-      Clip clipBehavior,
-      bool padEnds,
-      int initialPage,
-      dynamic keepPage,
-      StacDouble viewportFraction,
-      List<Map<String, dynamic>> children});
-}
-
-/// @nodoc
-class __$StacPageViewCopyWithImpl<$Res>
-    implements _$StacPageViewCopyWith<$Res> {
-  __$StacPageViewCopyWithImpl(this._self, this._then);
-
-  final _StacPageView _self;
-  final $Res Function(_StacPageView) _then;
-
-  /// Create a copy of StacPageView
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? scrollDirection = null,
-    Object? reverse = null,
-    Object? physics = freezed,
-    Object? pageSnapping = null,
-    Object? onPageChanged = freezed,
-    Object? dragStartBehavior = null,
-    Object? allowImplicitScrolling = null,
-    Object? restorationId = freezed,
-    Object? clipBehavior = null,
-    Object? padEnds = null,
-    Object? initialPage = null,
-    Object? keepPage = freezed,
-    Object? viewportFraction = null,
-    Object? children = null,
-  }) {
-    return _then(_StacPageView(
-      scrollDirection: null == scrollDirection
-          ? _self.scrollDirection
-          : scrollDirection // ignore: cast_nullable_to_non_nullable
-              as Axis,
-      reverse: null == reverse
-          ? _self.reverse
-          : reverse // ignore: cast_nullable_to_non_nullable
-              as bool,
-      physics: freezed == physics
-          ? _self.physics
-          : physics // ignore: cast_nullable_to_non_nullable
-              as StacScrollPhysics?,
-      pageSnapping: null == pageSnapping
-          ? _self.pageSnapping
-          : pageSnapping // ignore: cast_nullable_to_non_nullable
-              as bool,
-      onPageChanged: freezed == onPageChanged
-          ? _self._onPageChanged
-          : onPageChanged // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      dragStartBehavior: null == dragStartBehavior
-          ? _self.dragStartBehavior
-          : dragStartBehavior // ignore: cast_nullable_to_non_nullable
-              as DragStartBehavior,
-      allowImplicitScrolling: null == allowImplicitScrolling
-          ? _self.allowImplicitScrolling
-          : allowImplicitScrolling // ignore: cast_nullable_to_non_nullable
-              as bool,
-      restorationId: freezed == restorationId
-          ? _self.restorationId
-          : restorationId // ignore: cast_nullable_to_non_nullable
-              as String?,
-      clipBehavior: null == clipBehavior
-          ? _self.clipBehavior
-          : clipBehavior // ignore: cast_nullable_to_non_nullable
-              as Clip,
-      padEnds: null == padEnds
-          ? _self.padEnds
-          : padEnds // ignore: cast_nullable_to_non_nullable
-              as bool,
-      initialPage: null == initialPage
-          ? _self.initialPage
-          : initialPage // ignore: cast_nullable_to_non_nullable
-              as int,
-      keepPage: freezed == keepPage
-          ? _self.keepPage
-          : keepPage // ignore: cast_nullable_to_non_nullable
-              as dynamic,
-      viewportFraction: null == viewportFraction
-          ? _self.viewportFraction
-          : viewportFraction // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      children: null == children
-          ? _self._children
-          : children // ignore: cast_nullable_to_non_nullable
-              as List<Map<String, dynamic>>,
-    ));
+  _$$StacPageViewImplCopyWith<_$StacPageViewImpl> get copyWith =>
+      __$$StacPageViewImplCopyWithImpl<_$StacPageViewImpl>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacPageViewImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacPageView implements StacPageView {
+  const factory _StacPageView(
+      {final Axis scrollDirection,
+      final bool reverse,
+      final StacScrollPhysics? physics,
+      final bool pageSnapping,
+      final Map<String, dynamic>? onPageChanged,
+      final DragStartBehavior dragStartBehavior,
+      final bool allowImplicitScrolling,
+      final String? restorationId,
+      final Clip clipBehavior,
+      final bool padEnds,
+      final int initialPage,
+      final dynamic keepPage,
+      final StacDouble viewportFraction,
+      final List<Map<String, dynamic>> children}) = _$StacPageViewImpl;
+
+  factory _StacPageView.fromJson(Map<String, dynamic> json) =
+      _$StacPageViewImpl.fromJson;
+
+  @override
+  Axis get scrollDirection;
+  @override
+  bool get reverse;
+  @override
+  StacScrollPhysics? get physics;
+  @override
+  bool get pageSnapping;
+  @override
+  Map<String, dynamic>? get onPageChanged;
+  @override
+  DragStartBehavior get dragStartBehavior;
+  @override
+  bool get allowImplicitScrolling;
+  @override
+  String? get restorationId;
+  @override
+  Clip get clipBehavior;
+  @override
+  bool get padEnds;
+  @override
+  int get initialPage;
+  @override
+  dynamic get keepPage;
+  @override
+  StacDouble get viewportFraction;
+  @override
+  List<Map<String, dynamic>> get children;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacPageViewImplCopyWith<_$StacPageViewImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

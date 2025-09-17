@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,77 +9,97 @@ part of 'stac_multi_action.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacMultiAction {
-  List<Map<String, dynamic>?>? get actions;
-  bool get sync;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacMultiAction
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacMultiActionCopyWith<StacMultiAction> get copyWith =>
-      _$StacMultiActionCopyWithImpl<StacMultiAction>(
-          this as StacMultiAction, _$identity);
-
-  /// Serializes this StacMultiAction to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacMultiAction &&
-            const DeepCollectionEquality().equals(other.actions, actions) &&
-            (identical(other.sync, sync) || other.sync == sync));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType, const DeepCollectionEquality().hash(actions), sync);
-
-  @override
-  String toString() {
-    return 'StacMultiAction(actions: $actions, sync: $sync)';
-  }
+StacMultiAction _$StacMultiActionFromJson(Map<String, dynamic> json) {
+  return _StacMultiAction.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacMultiActionCopyWith<$Res> {
+mixin _$StacMultiAction {
+  List<Map<String, dynamic>?>? get actions =>
+      throw _privateConstructorUsedError;
+  bool get sync => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacMultiActionCopyWith<StacMultiAction> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacMultiActionCopyWith<$Res> {
   factory $StacMultiActionCopyWith(
-          StacMultiAction value, $Res Function(StacMultiAction) _then) =
-      _$StacMultiActionCopyWithImpl;
+          StacMultiAction value, $Res Function(StacMultiAction) then) =
+      _$StacMultiActionCopyWithImpl<$Res, StacMultiAction>;
   @useResult
   $Res call({List<Map<String, dynamic>?>? actions, bool sync});
 }
 
 /// @nodoc
-class _$StacMultiActionCopyWithImpl<$Res>
+class _$StacMultiActionCopyWithImpl<$Res, $Val extends StacMultiAction>
     implements $StacMultiActionCopyWith<$Res> {
-  _$StacMultiActionCopyWithImpl(this._self, this._then);
+  _$StacMultiActionCopyWithImpl(this._value, this._then);
 
-  final StacMultiAction _self;
-  final $Res Function(StacMultiAction) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacMultiAction
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? actions = freezed,
     Object? sync = null,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       actions: freezed == actions
-          ? _self.actions
+          ? _value.actions
           : actions // ignore: cast_nullable_to_non_nullable
               as List<Map<String, dynamic>?>?,
       sync: null == sync
-          ? _self.sync
+          ? _value.sync
+          : sync // ignore: cast_nullable_to_non_nullable
+              as bool,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacMultiActionImplCopyWith<$Res>
+    implements $StacMultiActionCopyWith<$Res> {
+  factory _$$StacMultiActionImplCopyWith(_$StacMultiActionImpl value,
+          $Res Function(_$StacMultiActionImpl) then) =
+      __$$StacMultiActionImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call({List<Map<String, dynamic>?>? actions, bool sync});
+}
+
+/// @nodoc
+class __$$StacMultiActionImplCopyWithImpl<$Res>
+    extends _$StacMultiActionCopyWithImpl<$Res, _$StacMultiActionImpl>
+    implements _$$StacMultiActionImplCopyWith<$Res> {
+  __$$StacMultiActionImplCopyWithImpl(
+      _$StacMultiActionImpl _value, $Res Function(_$StacMultiActionImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? actions = freezed,
+    Object? sync = null,
+  }) {
+    return _then(_$StacMultiActionImpl(
+      actions: freezed == actions
+          ? _value._actions
+          : actions // ignore: cast_nullable_to_non_nullable
+              as List<Map<String, dynamic>?>?,
+      sync: null == sync
+          ? _value.sync
           : sync // ignore: cast_nullable_to_non_nullable
               as bool,
     ));
@@ -89,12 +108,13 @@ class _$StacMultiActionCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _StacMultiAction implements StacMultiAction {
-  const _StacMultiAction(
+class _$StacMultiActionImpl implements _StacMultiAction {
+  const _$StacMultiActionImpl(
       {required final List<Map<String, dynamic>?>? actions, this.sync = false})
       : _actions = actions;
-  factory _StacMultiAction.fromJson(Map<String, dynamic> json) =>
-      _$StacMultiActionFromJson(json);
+
+  factory _$StacMultiActionImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacMultiActionImplFromJson(json);
 
   final List<Map<String, dynamic>?>? _actions;
   @override
@@ -110,79 +130,54 @@ class _StacMultiAction implements StacMultiAction {
   @JsonKey()
   final bool sync;
 
-  /// Create a copy of StacMultiAction
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacMultiActionCopyWith<_StacMultiAction> get copyWith =>
-      __$StacMultiActionCopyWithImpl<_StacMultiAction>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacMultiActionToJson(
-      this,
-    );
+  String toString() {
+    return 'StacMultiAction(actions: $actions, sync: $sync)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacMultiAction &&
+            other is _$StacMultiActionImpl &&
             const DeepCollectionEquality().equals(other._actions, _actions) &&
             (identical(other.sync, sync) || other.sync == sync));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType, const DeepCollectionEquality().hash(_actions), sync);
 
-  @override
-  String toString() {
-    return 'StacMultiAction(actions: $actions, sync: $sync)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacMultiActionCopyWith<$Res>
-    implements $StacMultiActionCopyWith<$Res> {
-  factory _$StacMultiActionCopyWith(
-          _StacMultiAction value, $Res Function(_StacMultiAction) _then) =
-      __$StacMultiActionCopyWithImpl;
-  @override
-  @useResult
-  $Res call({List<Map<String, dynamic>?>? actions, bool sync});
-}
-
-/// @nodoc
-class __$StacMultiActionCopyWithImpl<$Res>
-    implements _$StacMultiActionCopyWith<$Res> {
-  __$StacMultiActionCopyWithImpl(this._self, this._then);
-
-  final _StacMultiAction _self;
-  final $Res Function(_StacMultiAction) _then;
-
-  /// Create a copy of StacMultiAction
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? actions = freezed,
-    Object? sync = null,
-  }) {
-    return _then(_StacMultiAction(
-      actions: freezed == actions
-          ? _self._actions
-          : actions // ignore: cast_nullable_to_non_nullable
-              as List<Map<String, dynamic>?>?,
-      sync: null == sync
-          ? _self.sync
-          : sync // ignore: cast_nullable_to_non_nullable
-              as bool,
-    ));
+  _$$StacMultiActionImplCopyWith<_$StacMultiActionImpl> get copyWith =>
+      __$$StacMultiActionImplCopyWithImpl<_$StacMultiActionImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacMultiActionImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacMultiAction implements StacMultiAction {
+  const factory _StacMultiAction(
+      {required final List<Map<String, dynamic>?>? actions,
+      final bool sync}) = _$StacMultiActionImpl;
+
+  factory _StacMultiAction.fromJson(Map<String, dynamic> json) =
+      _$StacMultiActionImpl.fromJson;
+
+  @override
+  List<Map<String, dynamic>?>? get actions;
+  @override
+  bool get sync;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacMultiActionImplCopyWith<_$StacMultiActionImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}
