@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,82 +9,41 @@ part of 'stac_single_child_scroll_view.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacSingleChildScrollView {
-  Axis get scrollDirection;
-  bool get reverse;
-  StacEdgeInsets? get padding;
-  bool? get primary;
-  StacScrollPhysics? get physics;
-  Map<String, dynamic>? get child;
-  DragStartBehavior get dragStartBehavior;
-  Clip get clipBehavior;
-  String? get restorationId;
-  ScrollViewKeyboardDismissBehavior get keyboardDismissBehavior;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacSingleChildScrollView
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacSingleChildScrollViewCopyWith<StacSingleChildScrollView> get copyWith =>
-      _$StacSingleChildScrollViewCopyWithImpl<StacSingleChildScrollView>(
-          this as StacSingleChildScrollView, _$identity);
-
-  /// Serializes this StacSingleChildScrollView to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacSingleChildScrollView &&
-            (identical(other.scrollDirection, scrollDirection) ||
-                other.scrollDirection == scrollDirection) &&
-            (identical(other.reverse, reverse) || other.reverse == reverse) &&
-            (identical(other.padding, padding) || other.padding == padding) &&
-            (identical(other.primary, primary) || other.primary == primary) &&
-            (identical(other.physics, physics) || other.physics == physics) &&
-            const DeepCollectionEquality().equals(other.child, child) &&
-            (identical(other.dragStartBehavior, dragStartBehavior) ||
-                other.dragStartBehavior == dragStartBehavior) &&
-            (identical(other.clipBehavior, clipBehavior) ||
-                other.clipBehavior == clipBehavior) &&
-            (identical(other.restorationId, restorationId) ||
-                other.restorationId == restorationId) &&
-            (identical(
-                    other.keyboardDismissBehavior, keyboardDismissBehavior) ||
-                other.keyboardDismissBehavior == keyboardDismissBehavior));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      scrollDirection,
-      reverse,
-      padding,
-      primary,
-      physics,
-      const DeepCollectionEquality().hash(child),
-      dragStartBehavior,
-      clipBehavior,
-      restorationId,
-      keyboardDismissBehavior);
-
-  @override
-  String toString() {
-    return 'StacSingleChildScrollView(scrollDirection: $scrollDirection, reverse: $reverse, padding: $padding, primary: $primary, physics: $physics, child: $child, dragStartBehavior: $dragStartBehavior, clipBehavior: $clipBehavior, restorationId: $restorationId, keyboardDismissBehavior: $keyboardDismissBehavior)';
-  }
+StacSingleChildScrollView _$StacSingleChildScrollViewFromJson(
+    Map<String, dynamic> json) {
+  return _StacSingleChildScrollView.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacSingleChildScrollViewCopyWith<$Res> {
+mixin _$StacSingleChildScrollView {
+  Axis get scrollDirection => throw _privateConstructorUsedError;
+  bool get reverse => throw _privateConstructorUsedError;
+  StacEdgeInsets? get padding => throw _privateConstructorUsedError;
+  bool? get primary => throw _privateConstructorUsedError;
+  StacScrollPhysics? get physics => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get child => throw _privateConstructorUsedError;
+  DragStartBehavior get dragStartBehavior => throw _privateConstructorUsedError;
+  Clip get clipBehavior => throw _privateConstructorUsedError;
+  String? get restorationId => throw _privateConstructorUsedError;
+  ScrollViewKeyboardDismissBehavior get keyboardDismissBehavior =>
+      throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacSingleChildScrollViewCopyWith<StacSingleChildScrollView> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacSingleChildScrollViewCopyWith<$Res> {
   factory $StacSingleChildScrollViewCopyWith(StacSingleChildScrollView value,
-          $Res Function(StacSingleChildScrollView) _then) =
-      _$StacSingleChildScrollViewCopyWithImpl;
+          $Res Function(StacSingleChildScrollView) then) =
+      _$StacSingleChildScrollViewCopyWithImpl<$Res, StacSingleChildScrollView>;
   @useResult
   $Res call(
       {Axis scrollDirection,
@@ -103,15 +61,16 @@ abstract mixin class $StacSingleChildScrollViewCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacSingleChildScrollViewCopyWithImpl<$Res>
+class _$StacSingleChildScrollViewCopyWithImpl<$Res,
+        $Val extends StacSingleChildScrollView>
     implements $StacSingleChildScrollViewCopyWith<$Res> {
-  _$StacSingleChildScrollViewCopyWithImpl(this._self, this._then);
+  _$StacSingleChildScrollViewCopyWithImpl(this._value, this._then);
 
-  final StacSingleChildScrollView _self;
-  final $Res Function(StacSingleChildScrollView) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacSingleChildScrollView
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -126,69 +85,161 @@ class _$StacSingleChildScrollViewCopyWithImpl<$Res>
     Object? restorationId = freezed,
     Object? keyboardDismissBehavior = null,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       scrollDirection: null == scrollDirection
-          ? _self.scrollDirection
+          ? _value.scrollDirection
           : scrollDirection // ignore: cast_nullable_to_non_nullable
               as Axis,
       reverse: null == reverse
-          ? _self.reverse
+          ? _value.reverse
           : reverse // ignore: cast_nullable_to_non_nullable
               as bool,
       padding: freezed == padding
-          ? _self.padding
+          ? _value.padding
           : padding // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets?,
       primary: freezed == primary
-          ? _self.primary
+          ? _value.primary
           : primary // ignore: cast_nullable_to_non_nullable
               as bool?,
       physics: freezed == physics
-          ? _self.physics
+          ? _value.physics
           : physics // ignore: cast_nullable_to_non_nullable
               as StacScrollPhysics?,
       child: freezed == child
-          ? _self.child
+          ? _value.child
           : child // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       dragStartBehavior: null == dragStartBehavior
-          ? _self.dragStartBehavior
+          ? _value.dragStartBehavior
           : dragStartBehavior // ignore: cast_nullable_to_non_nullable
               as DragStartBehavior,
       clipBehavior: null == clipBehavior
-          ? _self.clipBehavior
+          ? _value.clipBehavior
           : clipBehavior // ignore: cast_nullable_to_non_nullable
               as Clip,
       restorationId: freezed == restorationId
-          ? _self.restorationId
+          ? _value.restorationId
           : restorationId // ignore: cast_nullable_to_non_nullable
               as String?,
       keyboardDismissBehavior: null == keyboardDismissBehavior
-          ? _self.keyboardDismissBehavior
+          ? _value.keyboardDismissBehavior
           : keyboardDismissBehavior // ignore: cast_nullable_to_non_nullable
               as ScrollViewKeyboardDismissBehavior,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacSingleChildScrollView
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacEdgeInsetsCopyWith<$Res>? get padding {
-    if (_self.padding == null) {
+    if (_value.padding == null) {
       return null;
     }
 
-    return $StacEdgeInsetsCopyWith<$Res>(_self.padding!, (value) {
-      return _then(_self.copyWith(padding: value));
+    return $StacEdgeInsetsCopyWith<$Res>(_value.padding!, (value) {
+      return _then(_value.copyWith(padding: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacSingleChildScrollViewImplCopyWith<$Res>
+    implements $StacSingleChildScrollViewCopyWith<$Res> {
+  factory _$$StacSingleChildScrollViewImplCopyWith(
+          _$StacSingleChildScrollViewImpl value,
+          $Res Function(_$StacSingleChildScrollViewImpl) then) =
+      __$$StacSingleChildScrollViewImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {Axis scrollDirection,
+      bool reverse,
+      StacEdgeInsets? padding,
+      bool? primary,
+      StacScrollPhysics? physics,
+      Map<String, dynamic>? child,
+      DragStartBehavior dragStartBehavior,
+      Clip clipBehavior,
+      String? restorationId,
+      ScrollViewKeyboardDismissBehavior keyboardDismissBehavior});
+
+  @override
+  $StacEdgeInsetsCopyWith<$Res>? get padding;
+}
+
+/// @nodoc
+class __$$StacSingleChildScrollViewImplCopyWithImpl<$Res>
+    extends _$StacSingleChildScrollViewCopyWithImpl<$Res,
+        _$StacSingleChildScrollViewImpl>
+    implements _$$StacSingleChildScrollViewImplCopyWith<$Res> {
+  __$$StacSingleChildScrollViewImplCopyWithImpl(
+      _$StacSingleChildScrollViewImpl _value,
+      $Res Function(_$StacSingleChildScrollViewImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? scrollDirection = null,
+    Object? reverse = null,
+    Object? padding = freezed,
+    Object? primary = freezed,
+    Object? physics = freezed,
+    Object? child = freezed,
+    Object? dragStartBehavior = null,
+    Object? clipBehavior = null,
+    Object? restorationId = freezed,
+    Object? keyboardDismissBehavior = null,
+  }) {
+    return _then(_$StacSingleChildScrollViewImpl(
+      scrollDirection: null == scrollDirection
+          ? _value.scrollDirection
+          : scrollDirection // ignore: cast_nullable_to_non_nullable
+              as Axis,
+      reverse: null == reverse
+          ? _value.reverse
+          : reverse // ignore: cast_nullable_to_non_nullable
+              as bool,
+      padding: freezed == padding
+          ? _value.padding
+          : padding // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets?,
+      primary: freezed == primary
+          ? _value.primary
+          : primary // ignore: cast_nullable_to_non_nullable
+              as bool?,
+      physics: freezed == physics
+          ? _value.physics
+          : physics // ignore: cast_nullable_to_non_nullable
+              as StacScrollPhysics?,
+      child: freezed == child
+          ? _value._child
+          : child // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      dragStartBehavior: null == dragStartBehavior
+          ? _value.dragStartBehavior
+          : dragStartBehavior // ignore: cast_nullable_to_non_nullable
+              as DragStartBehavior,
+      clipBehavior: null == clipBehavior
+          ? _value.clipBehavior
+          : clipBehavior // ignore: cast_nullable_to_non_nullable
+              as Clip,
+      restorationId: freezed == restorationId
+          ? _value.restorationId
+          : restorationId // ignore: cast_nullable_to_non_nullable
+              as String?,
+      keyboardDismissBehavior: null == keyboardDismissBehavior
+          ? _value.keyboardDismissBehavior
+          : keyboardDismissBehavior // ignore: cast_nullable_to_non_nullable
+              as ScrollViewKeyboardDismissBehavior,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacSingleChildScrollView implements StacSingleChildScrollView {
-  const _StacSingleChildScrollView(
+class _$StacSingleChildScrollViewImpl implements _StacSingleChildScrollView {
+  const _$StacSingleChildScrollViewImpl(
       {this.scrollDirection = Axis.vertical,
       this.reverse = false,
       this.padding,
@@ -200,8 +251,9 @@ class _StacSingleChildScrollView implements StacSingleChildScrollView {
       this.restorationId,
       this.keyboardDismissBehavior = ScrollViewKeyboardDismissBehavior.manual})
       : _child = child;
-  factory _StacSingleChildScrollView.fromJson(Map<String, dynamic> json) =>
-      _$StacSingleChildScrollViewFromJson(json);
+
+  factory _$StacSingleChildScrollViewImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacSingleChildScrollViewImplFromJson(json);
 
   @override
   @JsonKey()
@@ -237,28 +289,16 @@ class _StacSingleChildScrollView implements StacSingleChildScrollView {
   @JsonKey()
   final ScrollViewKeyboardDismissBehavior keyboardDismissBehavior;
 
-  /// Create a copy of StacSingleChildScrollView
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacSingleChildScrollViewCopyWith<_StacSingleChildScrollView>
-      get copyWith =>
-          __$StacSingleChildScrollViewCopyWithImpl<_StacSingleChildScrollView>(
-              this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacSingleChildScrollViewToJson(
-      this,
-    );
+  String toString() {
+    return 'StacSingleChildScrollView(scrollDirection: $scrollDirection, reverse: $reverse, padding: $padding, primary: $primary, physics: $physics, child: $child, dragStartBehavior: $dragStartBehavior, clipBehavior: $clipBehavior, restorationId: $restorationId, keyboardDismissBehavior: $keyboardDismissBehavior)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacSingleChildScrollView &&
+            other is _$StacSingleChildScrollViewImpl &&
             (identical(other.scrollDirection, scrollDirection) ||
                 other.scrollDirection == scrollDirection) &&
             (identical(other.reverse, reverse) || other.reverse == reverse) &&
@@ -277,7 +317,7 @@ class _StacSingleChildScrollView implements StacSingleChildScrollView {
                 other.keyboardDismissBehavior == keyboardDismissBehavior));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -292,117 +332,60 @@ class _StacSingleChildScrollView implements StacSingleChildScrollView {
       restorationId,
       keyboardDismissBehavior);
 
-  @override
-  String toString() {
-    return 'StacSingleChildScrollView(scrollDirection: $scrollDirection, reverse: $reverse, padding: $padding, primary: $primary, physics: $physics, child: $child, dragStartBehavior: $dragStartBehavior, clipBehavior: $clipBehavior, restorationId: $restorationId, keyboardDismissBehavior: $keyboardDismissBehavior)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacSingleChildScrollViewCopyWith<$Res>
-    implements $StacSingleChildScrollViewCopyWith<$Res> {
-  factory _$StacSingleChildScrollViewCopyWith(_StacSingleChildScrollView value,
-          $Res Function(_StacSingleChildScrollView) _then) =
-      __$StacSingleChildScrollViewCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {Axis scrollDirection,
-      bool reverse,
-      StacEdgeInsets? padding,
-      bool? primary,
-      StacScrollPhysics? physics,
-      Map<String, dynamic>? child,
-      DragStartBehavior dragStartBehavior,
-      Clip clipBehavior,
-      String? restorationId,
-      ScrollViewKeyboardDismissBehavior keyboardDismissBehavior});
-
-  @override
-  $StacEdgeInsetsCopyWith<$Res>? get padding;
-}
-
-/// @nodoc
-class __$StacSingleChildScrollViewCopyWithImpl<$Res>
-    implements _$StacSingleChildScrollViewCopyWith<$Res> {
-  __$StacSingleChildScrollViewCopyWithImpl(this._self, this._then);
-
-  final _StacSingleChildScrollView _self;
-  final $Res Function(_StacSingleChildScrollView) _then;
-
-  /// Create a copy of StacSingleChildScrollView
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? scrollDirection = null,
-    Object? reverse = null,
-    Object? padding = freezed,
-    Object? primary = freezed,
-    Object? physics = freezed,
-    Object? child = freezed,
-    Object? dragStartBehavior = null,
-    Object? clipBehavior = null,
-    Object? restorationId = freezed,
-    Object? keyboardDismissBehavior = null,
-  }) {
-    return _then(_StacSingleChildScrollView(
-      scrollDirection: null == scrollDirection
-          ? _self.scrollDirection
-          : scrollDirection // ignore: cast_nullable_to_non_nullable
-              as Axis,
-      reverse: null == reverse
-          ? _self.reverse
-          : reverse // ignore: cast_nullable_to_non_nullable
-              as bool,
-      padding: freezed == padding
-          ? _self.padding
-          : padding // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets?,
-      primary: freezed == primary
-          ? _self.primary
-          : primary // ignore: cast_nullable_to_non_nullable
-              as bool?,
-      physics: freezed == physics
-          ? _self.physics
-          : physics // ignore: cast_nullable_to_non_nullable
-              as StacScrollPhysics?,
-      child: freezed == child
-          ? _self._child
-          : child // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      dragStartBehavior: null == dragStartBehavior
-          ? _self.dragStartBehavior
-          : dragStartBehavior // ignore: cast_nullable_to_non_nullable
-              as DragStartBehavior,
-      clipBehavior: null == clipBehavior
-          ? _self.clipBehavior
-          : clipBehavior // ignore: cast_nullable_to_non_nullable
-              as Clip,
-      restorationId: freezed == restorationId
-          ? _self.restorationId
-          : restorationId // ignore: cast_nullable_to_non_nullable
-              as String?,
-      keyboardDismissBehavior: null == keyboardDismissBehavior
-          ? _self.keyboardDismissBehavior
-          : keyboardDismissBehavior // ignore: cast_nullable_to_non_nullable
-              as ScrollViewKeyboardDismissBehavior,
-    ));
-  }
+  _$$StacSingleChildScrollViewImplCopyWith<_$StacSingleChildScrollViewImpl>
+      get copyWith => __$$StacSingleChildScrollViewImplCopyWithImpl<
+          _$StacSingleChildScrollViewImpl>(this, _$identity);
 
-  /// Create a copy of StacSingleChildScrollView
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @pragma('vm:prefer-inline')
-  $StacEdgeInsetsCopyWith<$Res>? get padding {
-    if (_self.padding == null) {
-      return null;
-    }
-
-    return $StacEdgeInsetsCopyWith<$Res>(_self.padding!, (value) {
-      return _then(_self.copyWith(padding: value));
-    });
+  Map<String, dynamic> toJson() {
+    return _$$StacSingleChildScrollViewImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacSingleChildScrollView implements StacSingleChildScrollView {
+  const factory _StacSingleChildScrollView(
+          {final Axis scrollDirection,
+          final bool reverse,
+          final StacEdgeInsets? padding,
+          final bool? primary,
+          final StacScrollPhysics? physics,
+          final Map<String, dynamic>? child,
+          final DragStartBehavior dragStartBehavior,
+          final Clip clipBehavior,
+          final String? restorationId,
+          final ScrollViewKeyboardDismissBehavior keyboardDismissBehavior}) =
+      _$StacSingleChildScrollViewImpl;
+
+  factory _StacSingleChildScrollView.fromJson(Map<String, dynamic> json) =
+      _$StacSingleChildScrollViewImpl.fromJson;
+
+  @override
+  Axis get scrollDirection;
+  @override
+  bool get reverse;
+  @override
+  StacEdgeInsets? get padding;
+  @override
+  bool? get primary;
+  @override
+  StacScrollPhysics? get physics;
+  @override
+  Map<String, dynamic>? get child;
+  @override
+  DragStartBehavior get dragStartBehavior;
+  @override
+  Clip get clipBehavior;
+  @override
+  String? get restorationId;
+  @override
+  ScrollViewKeyboardDismissBehavior get keyboardDismissBehavior;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacSingleChildScrollViewImplCopyWith<_$StacSingleChildScrollViewImpl>
+      get copyWith => throw _privateConstructorUsedError;
+}

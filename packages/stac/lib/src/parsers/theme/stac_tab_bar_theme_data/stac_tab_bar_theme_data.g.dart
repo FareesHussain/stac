@@ -6,8 +6,9 @@ part of 'stac_tab_bar_theme_data.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacTabBarThemeData _$StacTabBarThemeDataFromJson(Map<String, dynamic> json) =>
-    _StacTabBarThemeData(
+_$StacTabBarThemeDataImpl _$$StacTabBarThemeDataImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacTabBarThemeDataImpl(
       indicator: json['indicator'] == null
           ? null
           : StacBoxDecoration.fromJson(
@@ -30,8 +31,8 @@ _StacTabBarThemeData _$StacTabBarThemeDataFromJson(Map<String, dynamic> json) =>
       overlayColor: json['overlayColor'] as String?,
     );
 
-Map<String, dynamic> _$StacTabBarThemeDataToJson(
-        _StacTabBarThemeData instance) =>
+Map<String, dynamic> _$$StacTabBarThemeDataImplToJson(
+        _$StacTabBarThemeDataImpl instance) =>
     <String, dynamic>{
       'indicator': instance.indicator,
       'indicatorColor': instance.indicatorColor,

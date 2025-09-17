@@ -6,7 +6,8 @@ part of 'stac_divider.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacDivider _$StacDividerFromJson(Map<String, dynamic> json) => _StacDivider(
+_$StacDividerImpl _$$StacDividerImplFromJson(Map<String, dynamic> json) =>
+    _$StacDividerImpl(
       thickness: json['thickness'] == null
           ? null
           : StacDouble.fromJson(json['thickness']),
@@ -15,7 +16,7 @@ _StacDivider _$StacDividerFromJson(Map<String, dynamic> json) => _StacDivider(
       color: json['color'] as String?,
     );
 
-Map<String, dynamic> _$StacDividerToJson(_StacDivider instance) =>
+Map<String, dynamic> _$$StacDividerImplToJson(_$StacDividerImpl instance) =>
     <String, dynamic>{
       'thickness': instance.thickness,
       'height': instance.height,

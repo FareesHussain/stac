@@ -6,7 +6,8 @@ part of 'stac_theme.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacTheme _$StacThemeFromJson(Map<String, dynamic> json) => _StacTheme(
+_$StacThemeImpl _$$StacThemeImplFromJson(Map<String, dynamic> json) =>
+    _$StacThemeImpl(
       applyElevationOverlayColor: json['applyElevationOverlayColor'] as bool?,
       inputDecorationTheme: json['inputDecorationTheme'] == null
           ? null
@@ -176,7 +177,7 @@ _StacTheme _$StacThemeFromJson(Map<String, dynamic> json) => _StacTheme(
               json['textButtonTheme'] as Map<String, dynamic>),
     );
 
-Map<String, dynamic> _$StacThemeToJson(_StacTheme instance) =>
+Map<String, dynamic> _$$StacThemeImplToJson(_$StacThemeImpl instance) =>
     <String, dynamic>{
       'applyElevationOverlayColor': instance.applyElevationOverlayColor,
       'inputDecorationTheme': instance.inputDecorationTheme,

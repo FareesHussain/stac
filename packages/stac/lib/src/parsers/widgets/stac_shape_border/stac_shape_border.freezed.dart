@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,78 +9,96 @@ part of 'stac_shape_border.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacShapeBorder {
-  StacShapeBorderType get borderType;
-  Map<String, dynamic> get data;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacShapeBorder
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacShapeBorderCopyWith<StacShapeBorder> get copyWith =>
-      _$StacShapeBorderCopyWithImpl<StacShapeBorder>(
-          this as StacShapeBorder, _$identity);
-
-  /// Serializes this StacShapeBorder to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacShapeBorder &&
-            (identical(other.borderType, borderType) ||
-                other.borderType == borderType) &&
-            const DeepCollectionEquality().equals(other.data, data));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType, borderType, const DeepCollectionEquality().hash(data));
-
-  @override
-  String toString() {
-    return 'StacShapeBorder(borderType: $borderType, data: $data)';
-  }
+StacShapeBorder _$StacShapeBorderFromJson(Map<String, dynamic> json) {
+  return _StacShapeBorder.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacShapeBorderCopyWith<$Res> {
+mixin _$StacShapeBorder {
+  StacShapeBorderType get borderType => throw _privateConstructorUsedError;
+  Map<String, dynamic> get data => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacShapeBorderCopyWith<StacShapeBorder> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacShapeBorderCopyWith<$Res> {
   factory $StacShapeBorderCopyWith(
-          StacShapeBorder value, $Res Function(StacShapeBorder) _then) =
-      _$StacShapeBorderCopyWithImpl;
+          StacShapeBorder value, $Res Function(StacShapeBorder) then) =
+      _$StacShapeBorderCopyWithImpl<$Res, StacShapeBorder>;
   @useResult
   $Res call({StacShapeBorderType borderType, Map<String, dynamic> data});
 }
 
 /// @nodoc
-class _$StacShapeBorderCopyWithImpl<$Res>
+class _$StacShapeBorderCopyWithImpl<$Res, $Val extends StacShapeBorder>
     implements $StacShapeBorderCopyWith<$Res> {
-  _$StacShapeBorderCopyWithImpl(this._self, this._then);
+  _$StacShapeBorderCopyWithImpl(this._value, this._then);
 
-  final StacShapeBorder _self;
-  final $Res Function(StacShapeBorder) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacShapeBorder
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? borderType = null,
     Object? data = null,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       borderType: null == borderType
-          ? _self.borderType
+          ? _value.borderType
           : borderType // ignore: cast_nullable_to_non_nullable
               as StacShapeBorderType,
       data: null == data
-          ? _self.data
+          ? _value.data
+          : data // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacShapeBorderImplCopyWith<$Res>
+    implements $StacShapeBorderCopyWith<$Res> {
+  factory _$$StacShapeBorderImplCopyWith(_$StacShapeBorderImpl value,
+          $Res Function(_$StacShapeBorderImpl) then) =
+      __$$StacShapeBorderImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call({StacShapeBorderType borderType, Map<String, dynamic> data});
+}
+
+/// @nodoc
+class __$$StacShapeBorderImplCopyWithImpl<$Res>
+    extends _$StacShapeBorderCopyWithImpl<$Res, _$StacShapeBorderImpl>
+    implements _$$StacShapeBorderImplCopyWith<$Res> {
+  __$$StacShapeBorderImplCopyWithImpl(
+      _$StacShapeBorderImpl _value, $Res Function(_$StacShapeBorderImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? borderType = null,
+    Object? data = null,
+  }) {
+    return _then(_$StacShapeBorderImpl(
+      borderType: null == borderType
+          ? _value.borderType
+          : borderType // ignore: cast_nullable_to_non_nullable
+              as StacShapeBorderType,
+      data: null == data
+          ? _value._data
           : data // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>,
     ));
@@ -90,12 +107,13 @@ class _$StacShapeBorderCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _StacShapeBorder implements StacShapeBorder {
-  const _StacShapeBorder(
+class _$StacShapeBorderImpl implements _StacShapeBorder {
+  const _$StacShapeBorderImpl(
       {required this.borderType, required final Map<String, dynamic> data})
       : _data = data;
-  factory _StacShapeBorder.fromJson(Map<String, dynamic> json) =>
-      _$StacShapeBorderFromJson(json);
+
+  factory _$StacShapeBorderImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacShapeBorderImplFromJson(json);
 
   @override
   final StacShapeBorderType borderType;
@@ -107,80 +125,55 @@ class _StacShapeBorder implements StacShapeBorder {
     return EqualUnmodifiableMapView(_data);
   }
 
-  /// Create a copy of StacShapeBorder
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacShapeBorderCopyWith<_StacShapeBorder> get copyWith =>
-      __$StacShapeBorderCopyWithImpl<_StacShapeBorder>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacShapeBorderToJson(
-      this,
-    );
+  String toString() {
+    return 'StacShapeBorder(borderType: $borderType, data: $data)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacShapeBorder &&
+            other is _$StacShapeBorderImpl &&
             (identical(other.borderType, borderType) ||
                 other.borderType == borderType) &&
             const DeepCollectionEquality().equals(other._data, _data));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType, borderType, const DeepCollectionEquality().hash(_data));
 
-  @override
-  String toString() {
-    return 'StacShapeBorder(borderType: $borderType, data: $data)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacShapeBorderCopyWith<$Res>
-    implements $StacShapeBorderCopyWith<$Res> {
-  factory _$StacShapeBorderCopyWith(
-          _StacShapeBorder value, $Res Function(_StacShapeBorder) _then) =
-      __$StacShapeBorderCopyWithImpl;
-  @override
-  @useResult
-  $Res call({StacShapeBorderType borderType, Map<String, dynamic> data});
-}
-
-/// @nodoc
-class __$StacShapeBorderCopyWithImpl<$Res>
-    implements _$StacShapeBorderCopyWith<$Res> {
-  __$StacShapeBorderCopyWithImpl(this._self, this._then);
-
-  final _StacShapeBorder _self;
-  final $Res Function(_StacShapeBorder) _then;
-
-  /// Create a copy of StacShapeBorder
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? borderType = null,
-    Object? data = null,
-  }) {
-    return _then(_StacShapeBorder(
-      borderType: null == borderType
-          ? _self.borderType
-          : borderType // ignore: cast_nullable_to_non_nullable
-              as StacShapeBorderType,
-      data: null == data
-          ? _self._data
-          : data // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>,
-    ));
+  _$$StacShapeBorderImplCopyWith<_$StacShapeBorderImpl> get copyWith =>
+      __$$StacShapeBorderImplCopyWithImpl<_$StacShapeBorderImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacShapeBorderImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacShapeBorder implements StacShapeBorder {
+  const factory _StacShapeBorder(
+      {required final StacShapeBorderType borderType,
+      required final Map<String, dynamic> data}) = _$StacShapeBorderImpl;
+
+  factory _StacShapeBorder.fromJson(Map<String, dynamic> json) =
+      _$StacShapeBorderImpl.fromJson;
+
+  @override
+  StacShapeBorderType get borderType;
+  @override
+  Map<String, dynamic> get data;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacShapeBorderImplCopyWith<_$StacShapeBorderImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

@@ -6,7 +6,8 @@ part of 'stac_row.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacRow _$StacRowFromJson(Map<String, dynamic> json) => _StacRow(
+_$StacRowImpl _$$StacRowImplFromJson(Map<String, dynamic> json) =>
+    _$StacRowImpl(
       mainAxisAlignment: $enumDecodeNullable(
               _$MainAxisAlignmentEnumMap, json['mainAxisAlignment']) ??
           MainAxisAlignment.start,
@@ -30,7 +31,8 @@ _StacRow _$StacRowFromJson(Map<String, dynamic> json) => _StacRow(
           const [],
     );
 
-Map<String, dynamic> _$StacRowToJson(_StacRow instance) => <String, dynamic>{
+Map<String, dynamic> _$$StacRowImplToJson(_$StacRowImpl instance) =>
+    <String, dynamic>{
       'mainAxisAlignment':
           _$MainAxisAlignmentEnumMap[instance.mainAxisAlignment]!,
       'crossAxisAlignment':

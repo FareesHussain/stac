@@ -6,9 +6,9 @@ part of 'stac_fractionally_sized_box.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacFractionallySizedBox _$StacFractionallySizedBoxFromJson(
+_$StacFractionallySizedBoxImpl _$$StacFractionallySizedBoxImplFromJson(
         Map<String, dynamic> json) =>
-    _StacFractionallySizedBox(
+    _$StacFractionallySizedBoxImpl(
       alignment: $enumDecodeNullable(_$StacAlignmentEnumMap, json['alignment']),
       widthFactor: json['widthFactor'] == null
           ? null
@@ -19,8 +19,8 @@ _StacFractionallySizedBox _$StacFractionallySizedBoxFromJson(
       child: json['child'] as Map<String, dynamic>?,
     );
 
-Map<String, dynamic> _$StacFractionallySizedBoxToJson(
-        _StacFractionallySizedBox instance) =>
+Map<String, dynamic> _$$StacFractionallySizedBoxImplToJson(
+        _$StacFractionallySizedBoxImpl instance) =>
     <String, dynamic>{
       'alignment': _$StacAlignmentEnumMap[instance.alignment],
       'widthFactor': instance.widthFactor,

@@ -6,13 +6,14 @@ part of 'stac_colored_box.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacColoredBox _$StacColoredBoxFromJson(Map<String, dynamic> json) =>
-    _StacColoredBox(
+_$StacColoredBoxImpl _$$StacColoredBoxImplFromJson(Map<String, dynamic> json) =>
+    _$StacColoredBoxImpl(
       color: json['color'] as String,
       child: json['child'] as Map<String, dynamic>?,
     );
 
-Map<String, dynamic> _$StacColoredBoxToJson(_StacColoredBox instance) =>
+Map<String, dynamic> _$$StacColoredBoxImplToJson(
+        _$StacColoredBoxImpl instance) =>
     <String, dynamic>{
       'color': instance.color,
       'child': instance.child,

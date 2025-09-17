@@ -6,8 +6,8 @@ part of 'stac_positioned.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacPositioned _$StacPositionedFromJson(Map<String, dynamic> json) =>
-    _StacPositioned(
+_$StacPositionedImpl _$$StacPositionedImplFromJson(Map<String, dynamic> json) =>
+    _$StacPositionedImpl(
       positionedType: $enumDecodeNullable(
           _$StacPositionedTypeEnumMap, json['positionedType']),
       left: json['left'] == null ? null : StacDouble.fromJson(json['left']),
@@ -29,7 +29,8 @@ _StacPositioned _$StacPositionedFromJson(Map<String, dynamic> json) =>
       child: json['child'] as Map<String, dynamic>?,
     );
 
-Map<String, dynamic> _$StacPositionedToJson(_StacPositioned instance) =>
+Map<String, dynamic> _$$StacPositionedImplToJson(
+        _$StacPositionedImpl instance) =>
     <String, dynamic>{
       'positionedType': _$StacPositionedTypeEnumMap[instance.positionedType],
       'left': instance.left,

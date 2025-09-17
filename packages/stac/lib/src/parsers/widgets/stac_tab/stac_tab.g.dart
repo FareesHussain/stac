@@ -6,7 +6,8 @@ part of 'stac_tab.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacTab _$StacTabFromJson(Map<String, dynamic> json) => _StacTab(
+_$StacTabImpl _$$StacTabImplFromJson(Map<String, dynamic> json) =>
+    _$StacTabImpl(
       text: json['text'] as String?,
       icon: json['icon'] as Map<String, dynamic>?,
       iconMargin: json['iconMargin'] == null
@@ -17,7 +18,8 @@ _StacTab _$StacTabFromJson(Map<String, dynamic> json) => _StacTab(
       child: json['child'] as Map<String, dynamic>?,
     );
 
-Map<String, dynamic> _$StacTabToJson(_StacTab instance) => <String, dynamic>{
+Map<String, dynamic> _$$StacTabImplToJson(_$StacTabImpl instance) =>
+    <String, dynamic>{
       'text': instance.text,
       'icon': instance.icon,
       'iconMargin': instance.iconMargin,

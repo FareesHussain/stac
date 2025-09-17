@@ -6,9 +6,9 @@ part of 'stac_bottom_navigation_bar_item.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacBottomNavigationBarItem _$StacBottomNavigationBarItemFromJson(
+_$StacBottomNavigationBarItemImpl _$$StacBottomNavigationBarItemImplFromJson(
         Map<String, dynamic> json) =>
-    _StacBottomNavigationBarItem(
+    _$StacBottomNavigationBarItemImpl(
       icon: json['icon'] as Map<String, dynamic>,
       label: json['label'] as String,
       activeIcon: json['activeIcon'] as Map<String, dynamic>?,
@@ -16,8 +16,8 @@ _StacBottomNavigationBarItem _$StacBottomNavigationBarItemFromJson(
       tooltip: json['tooltip'] as String?,
     );
 
-Map<String, dynamic> _$StacBottomNavigationBarItemToJson(
-        _StacBottomNavigationBarItem instance) =>
+Map<String, dynamic> _$$StacBottomNavigationBarItemImplToJson(
+        _$StacBottomNavigationBarItemImpl instance) =>
     <String, dynamic>{
       'icon': instance.icon,
       'label': instance.label,

@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,60 +9,35 @@ part of 'stac_image.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacImage {
-  String get src;
-  StacAlignment get alignment;
-  StacImageType get imageType;
-  String? get color;
-  StacDouble? get width;
-  StacDouble? get height;
-  BoxFit? get fit;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacImage
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacImageCopyWith<StacImage> get copyWith =>
-      _$StacImageCopyWithImpl<StacImage>(this as StacImage, _$identity);
-
-  /// Serializes this StacImage to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacImage &&
-            (identical(other.src, src) || other.src == src) &&
-            (identical(other.alignment, alignment) ||
-                other.alignment == alignment) &&
-            (identical(other.imageType, imageType) ||
-                other.imageType == imageType) &&
-            (identical(other.color, color) || other.color == color) &&
-            (identical(other.width, width) || other.width == width) &&
-            (identical(other.height, height) || other.height == height) &&
-            (identical(other.fit, fit) || other.fit == fit));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType, src, alignment, imageType, color, width, height, fit);
-
-  @override
-  String toString() {
-    return 'StacImage(src: $src, alignment: $alignment, imageType: $imageType, color: $color, width: $width, height: $height, fit: $fit)';
-  }
+StacImage _$StacImageFromJson(Map<String, dynamic> json) {
+  return _StacImage.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacImageCopyWith<$Res> {
-  factory $StacImageCopyWith(StacImage value, $Res Function(StacImage) _then) =
-      _$StacImageCopyWithImpl;
+mixin _$StacImage {
+  String get src => throw _privateConstructorUsedError;
+  StacAlignment get alignment => throw _privateConstructorUsedError;
+  StacImageType get imageType => throw _privateConstructorUsedError;
+  String? get color => throw _privateConstructorUsedError;
+  StacDouble? get width => throw _privateConstructorUsedError;
+  StacDouble? get height => throw _privateConstructorUsedError;
+  BoxFit? get fit => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacImageCopyWith<StacImage> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacImageCopyWith<$Res> {
+  factory $StacImageCopyWith(StacImage value, $Res Function(StacImage) then) =
+      _$StacImageCopyWithImpl<$Res, StacImage>;
   @useResult
   $Res call(
       {String src,
@@ -76,14 +50,15 @@ abstract mixin class $StacImageCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacImageCopyWithImpl<$Res> implements $StacImageCopyWith<$Res> {
-  _$StacImageCopyWithImpl(this._self, this._then);
+class _$StacImageCopyWithImpl<$Res, $Val extends StacImage>
+    implements $StacImageCopyWith<$Res> {
+  _$StacImageCopyWithImpl(this._value, this._then);
 
-  final StacImage _self;
-  final $Res Function(StacImage) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacImage
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -95,33 +70,103 @@ class _$StacImageCopyWithImpl<$Res> implements $StacImageCopyWith<$Res> {
     Object? height = freezed,
     Object? fit = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       src: null == src
-          ? _self.src
+          ? _value.src
           : src // ignore: cast_nullable_to_non_nullable
               as String,
       alignment: null == alignment
-          ? _self.alignment
+          ? _value.alignment
           : alignment // ignore: cast_nullable_to_non_nullable
               as StacAlignment,
       imageType: null == imageType
-          ? _self.imageType
+          ? _value.imageType
           : imageType // ignore: cast_nullable_to_non_nullable
               as StacImageType,
       color: freezed == color
-          ? _self.color
+          ? _value.color
           : color // ignore: cast_nullable_to_non_nullable
               as String?,
       width: freezed == width
-          ? _self.width
+          ? _value.width
           : width // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       height: freezed == height
-          ? _self.height
+          ? _value.height
           : height // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       fit: freezed == fit
-          ? _self.fit
+          ? _value.fit
+          : fit // ignore: cast_nullable_to_non_nullable
+              as BoxFit?,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacImageImplCopyWith<$Res>
+    implements $StacImageCopyWith<$Res> {
+  factory _$$StacImageImplCopyWith(
+          _$StacImageImpl value, $Res Function(_$StacImageImpl) then) =
+      __$$StacImageImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {String src,
+      StacAlignment alignment,
+      StacImageType imageType,
+      String? color,
+      StacDouble? width,
+      StacDouble? height,
+      BoxFit? fit});
+}
+
+/// @nodoc
+class __$$StacImageImplCopyWithImpl<$Res>
+    extends _$StacImageCopyWithImpl<$Res, _$StacImageImpl>
+    implements _$$StacImageImplCopyWith<$Res> {
+  __$$StacImageImplCopyWithImpl(
+      _$StacImageImpl _value, $Res Function(_$StacImageImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? src = null,
+    Object? alignment = null,
+    Object? imageType = null,
+    Object? color = freezed,
+    Object? width = freezed,
+    Object? height = freezed,
+    Object? fit = freezed,
+  }) {
+    return _then(_$StacImageImpl(
+      src: null == src
+          ? _value.src
+          : src // ignore: cast_nullable_to_non_nullable
+              as String,
+      alignment: null == alignment
+          ? _value.alignment
+          : alignment // ignore: cast_nullable_to_non_nullable
+              as StacAlignment,
+      imageType: null == imageType
+          ? _value.imageType
+          : imageType // ignore: cast_nullable_to_non_nullable
+              as StacImageType,
+      color: freezed == color
+          ? _value.color
+          : color // ignore: cast_nullable_to_non_nullable
+              as String?,
+      width: freezed == width
+          ? _value.width
+          : width // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      height: freezed == height
+          ? _value.height
+          : height // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      fit: freezed == fit
+          ? _value.fit
           : fit // ignore: cast_nullable_to_non_nullable
               as BoxFit?,
     ));
@@ -130,8 +175,8 @@ class _$StacImageCopyWithImpl<$Res> implements $StacImageCopyWith<$Res> {
 
 /// @nodoc
 @JsonSerializable()
-class _StacImage implements StacImage {
-  const _StacImage(
+class _$StacImageImpl implements _StacImage {
+  const _$StacImageImpl(
       {required this.src,
       this.alignment = StacAlignment.center,
       this.imageType = StacImageType.network,
@@ -139,8 +184,9 @@ class _StacImage implements StacImage {
       this.width,
       this.height,
       this.fit});
-  factory _StacImage.fromJson(Map<String, dynamic> json) =>
-      _$StacImageFromJson(json);
+
+  factory _$StacImageImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacImageImplFromJson(json);
 
   @override
   final String src;
@@ -159,26 +205,16 @@ class _StacImage implements StacImage {
   @override
   final BoxFit? fit;
 
-  /// Create a copy of StacImage
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacImageCopyWith<_StacImage> get copyWith =>
-      __$StacImageCopyWithImpl<_StacImage>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacImageToJson(
-      this,
-    );
+  String toString() {
+    return 'StacImage(src: $src, alignment: $alignment, imageType: $imageType, color: $color, width: $width, height: $height, fit: $fit)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacImage &&
+            other is _$StacImageImpl &&
             (identical(other.src, src) || other.src == src) &&
             (identical(other.alignment, alignment) ||
                 other.alignment == alignment) &&
@@ -190,86 +226,54 @@ class _StacImage implements StacImage {
             (identical(other.fit, fit) || other.fit == fit));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType, src, alignment, imageType, color, width, height, fit);
 
-  @override
-  String toString() {
-    return 'StacImage(src: $src, alignment: $alignment, imageType: $imageType, color: $color, width: $width, height: $height, fit: $fit)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacImageCopyWith<$Res>
-    implements $StacImageCopyWith<$Res> {
-  factory _$StacImageCopyWith(
-          _StacImage value, $Res Function(_StacImage) _then) =
-      __$StacImageCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {String src,
-      StacAlignment alignment,
-      StacImageType imageType,
-      String? color,
-      StacDouble? width,
-      StacDouble? height,
-      BoxFit? fit});
-}
-
-/// @nodoc
-class __$StacImageCopyWithImpl<$Res> implements _$StacImageCopyWith<$Res> {
-  __$StacImageCopyWithImpl(this._self, this._then);
-
-  final _StacImage _self;
-  final $Res Function(_StacImage) _then;
-
-  /// Create a copy of StacImage
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? src = null,
-    Object? alignment = null,
-    Object? imageType = null,
-    Object? color = freezed,
-    Object? width = freezed,
-    Object? height = freezed,
-    Object? fit = freezed,
-  }) {
-    return _then(_StacImage(
-      src: null == src
-          ? _self.src
-          : src // ignore: cast_nullable_to_non_nullable
-              as String,
-      alignment: null == alignment
-          ? _self.alignment
-          : alignment // ignore: cast_nullable_to_non_nullable
-              as StacAlignment,
-      imageType: null == imageType
-          ? _self.imageType
-          : imageType // ignore: cast_nullable_to_non_nullable
-              as StacImageType,
-      color: freezed == color
-          ? _self.color
-          : color // ignore: cast_nullable_to_non_nullable
-              as String?,
-      width: freezed == width
-          ? _self.width
-          : width // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      height: freezed == height
-          ? _self.height
-          : height // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      fit: freezed == fit
-          ? _self.fit
-          : fit // ignore: cast_nullable_to_non_nullable
-              as BoxFit?,
-    ));
+  _$$StacImageImplCopyWith<_$StacImageImpl> get copyWith =>
+      __$$StacImageImplCopyWithImpl<_$StacImageImpl>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacImageImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacImage implements StacImage {
+  const factory _StacImage(
+      {required final String src,
+      final StacAlignment alignment,
+      final StacImageType imageType,
+      final String? color,
+      final StacDouble? width,
+      final StacDouble? height,
+      final BoxFit? fit}) = _$StacImageImpl;
+
+  factory _StacImage.fromJson(Map<String, dynamic> json) =
+      _$StacImageImpl.fromJson;
+
+  @override
+  String get src;
+  @override
+  StacAlignment get alignment;
+  @override
+  StacImageType get imageType;
+  @override
+  String? get color;
+  @override
+  StacDouble? get width;
+  @override
+  StacDouble? get height;
+  @override
+  BoxFit? get fit;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacImageImplCopyWith<_$StacImageImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

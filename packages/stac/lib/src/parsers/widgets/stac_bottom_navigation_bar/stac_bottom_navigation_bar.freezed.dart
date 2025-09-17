@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,110 +9,49 @@ part of 'stac_bottom_navigation_bar.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacBottomNavigationBar {
-  List<StacBottomNavigationBarItem> get items;
-  StacDouble? get elevation;
-  BottomNavigationBarType? get bottomNavigationBarType;
-  String? get fixedColor;
-  String? get backgroundColor;
-  StacDouble get iconSize;
-  String? get selectedItemColor;
-  String? get unselectedItemColor;
-  StacDouble get selectedFontSize;
-  StacDouble get unselectedFontSize;
-  StacTextStyle? get selectedLabelStyle;
-  StacTextStyle? get unselectedLabelStyle;
-  bool? get showSelectedLabels;
-  bool? get showUnselectedLabels;
-  bool? get enableFeedback;
-  BottomNavigationBarLandscapeLayout? get landscapeLayout;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacBottomNavigationBar
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacBottomNavigationBarCopyWith<StacBottomNavigationBar> get copyWith =>
-      _$StacBottomNavigationBarCopyWithImpl<StacBottomNavigationBar>(
-          this as StacBottomNavigationBar, _$identity);
-
-  /// Serializes this StacBottomNavigationBar to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacBottomNavigationBar &&
-            const DeepCollectionEquality().equals(other.items, items) &&
-            (identical(other.elevation, elevation) ||
-                other.elevation == elevation) &&
-            (identical(
-                    other.bottomNavigationBarType, bottomNavigationBarType) ||
-                other.bottomNavigationBarType == bottomNavigationBarType) &&
-            (identical(other.fixedColor, fixedColor) ||
-                other.fixedColor == fixedColor) &&
-            (identical(other.backgroundColor, backgroundColor) ||
-                other.backgroundColor == backgroundColor) &&
-            (identical(other.iconSize, iconSize) ||
-                other.iconSize == iconSize) &&
-            (identical(other.selectedItemColor, selectedItemColor) ||
-                other.selectedItemColor == selectedItemColor) &&
-            (identical(other.unselectedItemColor, unselectedItemColor) ||
-                other.unselectedItemColor == unselectedItemColor) &&
-            (identical(other.selectedFontSize, selectedFontSize) ||
-                other.selectedFontSize == selectedFontSize) &&
-            (identical(other.unselectedFontSize, unselectedFontSize) ||
-                other.unselectedFontSize == unselectedFontSize) &&
-            (identical(other.selectedLabelStyle, selectedLabelStyle) ||
-                other.selectedLabelStyle == selectedLabelStyle) &&
-            (identical(other.unselectedLabelStyle, unselectedLabelStyle) ||
-                other.unselectedLabelStyle == unselectedLabelStyle) &&
-            (identical(other.showSelectedLabels, showSelectedLabels) ||
-                other.showSelectedLabels == showSelectedLabels) &&
-            (identical(other.showUnselectedLabels, showUnselectedLabels) ||
-                other.showUnselectedLabels == showUnselectedLabels) &&
-            (identical(other.enableFeedback, enableFeedback) ||
-                other.enableFeedback == enableFeedback) &&
-            (identical(other.landscapeLayout, landscapeLayout) ||
-                other.landscapeLayout == landscapeLayout));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      const DeepCollectionEquality().hash(items),
-      elevation,
-      bottomNavigationBarType,
-      fixedColor,
-      backgroundColor,
-      iconSize,
-      selectedItemColor,
-      unselectedItemColor,
-      selectedFontSize,
-      unselectedFontSize,
-      selectedLabelStyle,
-      unselectedLabelStyle,
-      showSelectedLabels,
-      showUnselectedLabels,
-      enableFeedback,
-      landscapeLayout);
-
-  @override
-  String toString() {
-    return 'StacBottomNavigationBar(items: $items, elevation: $elevation, bottomNavigationBarType: $bottomNavigationBarType, fixedColor: $fixedColor, backgroundColor: $backgroundColor, iconSize: $iconSize, selectedItemColor: $selectedItemColor, unselectedItemColor: $unselectedItemColor, selectedFontSize: $selectedFontSize, unselectedFontSize: $unselectedFontSize, selectedLabelStyle: $selectedLabelStyle, unselectedLabelStyle: $unselectedLabelStyle, showSelectedLabels: $showSelectedLabels, showUnselectedLabels: $showUnselectedLabels, enableFeedback: $enableFeedback, landscapeLayout: $landscapeLayout)';
-  }
+StacBottomNavigationBar _$StacBottomNavigationBarFromJson(
+    Map<String, dynamic> json) {
+  return _StacBottomNavigationBar.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacBottomNavigationBarCopyWith<$Res> {
+mixin _$StacBottomNavigationBar {
+  List<StacBottomNavigationBarItem> get items =>
+      throw _privateConstructorUsedError;
+  StacDouble? get elevation => throw _privateConstructorUsedError;
+  BottomNavigationBarType? get bottomNavigationBarType =>
+      throw _privateConstructorUsedError;
+  String? get fixedColor => throw _privateConstructorUsedError;
+  String? get backgroundColor => throw _privateConstructorUsedError;
+  StacDouble get iconSize => throw _privateConstructorUsedError;
+  String? get selectedItemColor => throw _privateConstructorUsedError;
+  String? get unselectedItemColor => throw _privateConstructorUsedError;
+  StacDouble get selectedFontSize => throw _privateConstructorUsedError;
+  StacDouble get unselectedFontSize => throw _privateConstructorUsedError;
+  StacTextStyle? get selectedLabelStyle => throw _privateConstructorUsedError;
+  StacTextStyle? get unselectedLabelStyle => throw _privateConstructorUsedError;
+  bool? get showSelectedLabels => throw _privateConstructorUsedError;
+  bool? get showUnselectedLabels => throw _privateConstructorUsedError;
+  bool? get enableFeedback => throw _privateConstructorUsedError;
+  BottomNavigationBarLandscapeLayout? get landscapeLayout =>
+      throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacBottomNavigationBarCopyWith<StacBottomNavigationBar> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacBottomNavigationBarCopyWith<$Res> {
   factory $StacBottomNavigationBarCopyWith(StacBottomNavigationBar value,
-          $Res Function(StacBottomNavigationBar) _then) =
-      _$StacBottomNavigationBarCopyWithImpl;
+          $Res Function(StacBottomNavigationBar) then) =
+      _$StacBottomNavigationBarCopyWithImpl<$Res, StacBottomNavigationBar>;
   @useResult
   $Res call(
       {List<StacBottomNavigationBarItem> items,
@@ -138,15 +76,16 @@ abstract mixin class $StacBottomNavigationBarCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacBottomNavigationBarCopyWithImpl<$Res>
+class _$StacBottomNavigationBarCopyWithImpl<$Res,
+        $Val extends StacBottomNavigationBar>
     implements $StacBottomNavigationBarCopyWith<$Res> {
-  _$StacBottomNavigationBarCopyWithImpl(this._self, this._then);
+  _$StacBottomNavigationBarCopyWithImpl(this._value, this._then);
 
-  final StacBottomNavigationBar _self;
-  final $Res Function(StacBottomNavigationBar) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacBottomNavigationBar
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -167,107 +106,235 @@ class _$StacBottomNavigationBarCopyWithImpl<$Res>
     Object? enableFeedback = freezed,
     Object? landscapeLayout = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       items: null == items
-          ? _self.items
+          ? _value.items
           : items // ignore: cast_nullable_to_non_nullable
               as List<StacBottomNavigationBarItem>,
       elevation: freezed == elevation
-          ? _self.elevation
+          ? _value.elevation
           : elevation // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       bottomNavigationBarType: freezed == bottomNavigationBarType
-          ? _self.bottomNavigationBarType
+          ? _value.bottomNavigationBarType
           : bottomNavigationBarType // ignore: cast_nullable_to_non_nullable
               as BottomNavigationBarType?,
       fixedColor: freezed == fixedColor
-          ? _self.fixedColor
+          ? _value.fixedColor
           : fixedColor // ignore: cast_nullable_to_non_nullable
               as String?,
       backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
+          ? _value.backgroundColor
           : backgroundColor // ignore: cast_nullable_to_non_nullable
               as String?,
       iconSize: null == iconSize
-          ? _self.iconSize
+          ? _value.iconSize
           : iconSize // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       selectedItemColor: freezed == selectedItemColor
-          ? _self.selectedItemColor
+          ? _value.selectedItemColor
           : selectedItemColor // ignore: cast_nullable_to_non_nullable
               as String?,
       unselectedItemColor: freezed == unselectedItemColor
-          ? _self.unselectedItemColor
+          ? _value.unselectedItemColor
           : unselectedItemColor // ignore: cast_nullable_to_non_nullable
               as String?,
       selectedFontSize: null == selectedFontSize
-          ? _self.selectedFontSize
+          ? _value.selectedFontSize
           : selectedFontSize // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       unselectedFontSize: null == unselectedFontSize
-          ? _self.unselectedFontSize
+          ? _value.unselectedFontSize
           : unselectedFontSize // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       selectedLabelStyle: freezed == selectedLabelStyle
-          ? _self.selectedLabelStyle
+          ? _value.selectedLabelStyle
           : selectedLabelStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       unselectedLabelStyle: freezed == unselectedLabelStyle
-          ? _self.unselectedLabelStyle
+          ? _value.unselectedLabelStyle
           : unselectedLabelStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       showSelectedLabels: freezed == showSelectedLabels
-          ? _self.showSelectedLabels
+          ? _value.showSelectedLabels
           : showSelectedLabels // ignore: cast_nullable_to_non_nullable
               as bool?,
       showUnselectedLabels: freezed == showUnselectedLabels
-          ? _self.showUnselectedLabels
+          ? _value.showUnselectedLabels
           : showUnselectedLabels // ignore: cast_nullable_to_non_nullable
               as bool?,
       enableFeedback: freezed == enableFeedback
-          ? _self.enableFeedback
+          ? _value.enableFeedback
           : enableFeedback // ignore: cast_nullable_to_non_nullable
               as bool?,
       landscapeLayout: freezed == landscapeLayout
-          ? _self.landscapeLayout
+          ? _value.landscapeLayout
           : landscapeLayout // ignore: cast_nullable_to_non_nullable
               as BottomNavigationBarLandscapeLayout?,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacBottomNavigationBar
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacTextStyleCopyWith<$Res>? get selectedLabelStyle {
-    if (_self.selectedLabelStyle == null) {
+    if (_value.selectedLabelStyle == null) {
       return null;
     }
 
-    return $StacTextStyleCopyWith<$Res>(_self.selectedLabelStyle!, (value) {
-      return _then(_self.copyWith(selectedLabelStyle: value));
+    return $StacTextStyleCopyWith<$Res>(_value.selectedLabelStyle!, (value) {
+      return _then(_value.copyWith(selectedLabelStyle: value) as $Val);
     });
   }
 
-  /// Create a copy of StacBottomNavigationBar
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacTextStyleCopyWith<$Res>? get unselectedLabelStyle {
-    if (_self.unselectedLabelStyle == null) {
+    if (_value.unselectedLabelStyle == null) {
       return null;
     }
 
-    return $StacTextStyleCopyWith<$Res>(_self.unselectedLabelStyle!, (value) {
-      return _then(_self.copyWith(unselectedLabelStyle: value));
+    return $StacTextStyleCopyWith<$Res>(_value.unselectedLabelStyle!, (value) {
+      return _then(_value.copyWith(unselectedLabelStyle: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacBottomNavigationBarImplCopyWith<$Res>
+    implements $StacBottomNavigationBarCopyWith<$Res> {
+  factory _$$StacBottomNavigationBarImplCopyWith(
+          _$StacBottomNavigationBarImpl value,
+          $Res Function(_$StacBottomNavigationBarImpl) then) =
+      __$$StacBottomNavigationBarImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {List<StacBottomNavigationBarItem> items,
+      StacDouble? elevation,
+      BottomNavigationBarType? bottomNavigationBarType,
+      String? fixedColor,
+      String? backgroundColor,
+      StacDouble iconSize,
+      String? selectedItemColor,
+      String? unselectedItemColor,
+      StacDouble selectedFontSize,
+      StacDouble unselectedFontSize,
+      StacTextStyle? selectedLabelStyle,
+      StacTextStyle? unselectedLabelStyle,
+      bool? showSelectedLabels,
+      bool? showUnselectedLabels,
+      bool? enableFeedback,
+      BottomNavigationBarLandscapeLayout? landscapeLayout});
+
+  @override
+  $StacTextStyleCopyWith<$Res>? get selectedLabelStyle;
+  @override
+  $StacTextStyleCopyWith<$Res>? get unselectedLabelStyle;
+}
+
+/// @nodoc
+class __$$StacBottomNavigationBarImplCopyWithImpl<$Res>
+    extends _$StacBottomNavigationBarCopyWithImpl<$Res,
+        _$StacBottomNavigationBarImpl>
+    implements _$$StacBottomNavigationBarImplCopyWith<$Res> {
+  __$$StacBottomNavigationBarImplCopyWithImpl(
+      _$StacBottomNavigationBarImpl _value,
+      $Res Function(_$StacBottomNavigationBarImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? items = null,
+    Object? elevation = freezed,
+    Object? bottomNavigationBarType = freezed,
+    Object? fixedColor = freezed,
+    Object? backgroundColor = freezed,
+    Object? iconSize = null,
+    Object? selectedItemColor = freezed,
+    Object? unselectedItemColor = freezed,
+    Object? selectedFontSize = null,
+    Object? unselectedFontSize = null,
+    Object? selectedLabelStyle = freezed,
+    Object? unselectedLabelStyle = freezed,
+    Object? showSelectedLabels = freezed,
+    Object? showUnselectedLabels = freezed,
+    Object? enableFeedback = freezed,
+    Object? landscapeLayout = freezed,
+  }) {
+    return _then(_$StacBottomNavigationBarImpl(
+      items: null == items
+          ? _value._items
+          : items // ignore: cast_nullable_to_non_nullable
+              as List<StacBottomNavigationBarItem>,
+      elevation: freezed == elevation
+          ? _value.elevation
+          : elevation // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      bottomNavigationBarType: freezed == bottomNavigationBarType
+          ? _value.bottomNavigationBarType
+          : bottomNavigationBarType // ignore: cast_nullable_to_non_nullable
+              as BottomNavigationBarType?,
+      fixedColor: freezed == fixedColor
+          ? _value.fixedColor
+          : fixedColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      backgroundColor: freezed == backgroundColor
+          ? _value.backgroundColor
+          : backgroundColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      iconSize: null == iconSize
+          ? _value.iconSize
+          : iconSize // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      selectedItemColor: freezed == selectedItemColor
+          ? _value.selectedItemColor
+          : selectedItemColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      unselectedItemColor: freezed == unselectedItemColor
+          ? _value.unselectedItemColor
+          : unselectedItemColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      selectedFontSize: null == selectedFontSize
+          ? _value.selectedFontSize
+          : selectedFontSize // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      unselectedFontSize: null == unselectedFontSize
+          ? _value.unselectedFontSize
+          : unselectedFontSize // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      selectedLabelStyle: freezed == selectedLabelStyle
+          ? _value.selectedLabelStyle
+          : selectedLabelStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      unselectedLabelStyle: freezed == unselectedLabelStyle
+          ? _value.unselectedLabelStyle
+          : unselectedLabelStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      showSelectedLabels: freezed == showSelectedLabels
+          ? _value.showSelectedLabels
+          : showSelectedLabels // ignore: cast_nullable_to_non_nullable
+              as bool?,
+      showUnselectedLabels: freezed == showUnselectedLabels
+          ? _value.showUnselectedLabels
+          : showUnselectedLabels // ignore: cast_nullable_to_non_nullable
+              as bool?,
+      enableFeedback: freezed == enableFeedback
+          ? _value.enableFeedback
+          : enableFeedback // ignore: cast_nullable_to_non_nullable
+              as bool?,
+      landscapeLayout: freezed == landscapeLayout
+          ? _value.landscapeLayout
+          : landscapeLayout // ignore: cast_nullable_to_non_nullable
+              as BottomNavigationBarLandscapeLayout?,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacBottomNavigationBar implements StacBottomNavigationBar {
-  const _StacBottomNavigationBar(
+class _$StacBottomNavigationBarImpl implements _StacBottomNavigationBar {
+  const _$StacBottomNavigationBarImpl(
       {required final List<StacBottomNavigationBarItem> items,
       this.elevation,
       this.bottomNavigationBarType,
@@ -285,8 +352,9 @@ class _StacBottomNavigationBar implements StacBottomNavigationBar {
       this.enableFeedback,
       this.landscapeLayout})
       : _items = items;
-  factory _StacBottomNavigationBar.fromJson(Map<String, dynamic> json) =>
-      _$StacBottomNavigationBarFromJson(json);
+
+  factory _$StacBottomNavigationBarImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacBottomNavigationBarImplFromJson(json);
 
   final List<StacBottomNavigationBarItem> _items;
   @override
@@ -330,27 +398,16 @@ class _StacBottomNavigationBar implements StacBottomNavigationBar {
   @override
   final BottomNavigationBarLandscapeLayout? landscapeLayout;
 
-  /// Create a copy of StacBottomNavigationBar
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacBottomNavigationBarCopyWith<_StacBottomNavigationBar> get copyWith =>
-      __$StacBottomNavigationBarCopyWithImpl<_StacBottomNavigationBar>(
-          this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacBottomNavigationBarToJson(
-      this,
-    );
+  String toString() {
+    return 'StacBottomNavigationBar(items: $items, elevation: $elevation, bottomNavigationBarType: $bottomNavigationBarType, fixedColor: $fixedColor, backgroundColor: $backgroundColor, iconSize: $iconSize, selectedItemColor: $selectedItemColor, unselectedItemColor: $unselectedItemColor, selectedFontSize: $selectedFontSize, unselectedFontSize: $unselectedFontSize, selectedLabelStyle: $selectedLabelStyle, unselectedLabelStyle: $unselectedLabelStyle, showSelectedLabels: $showSelectedLabels, showUnselectedLabels: $showUnselectedLabels, enableFeedback: $enableFeedback, landscapeLayout: $landscapeLayout)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacBottomNavigationBar &&
+            other is _$StacBottomNavigationBarImpl &&
             const DeepCollectionEquality().equals(other._items, _items) &&
             (identical(other.elevation, elevation) ||
                 other.elevation == elevation) &&
@@ -385,7 +442,7 @@ class _StacBottomNavigationBar implements StacBottomNavigationBar {
                 other.landscapeLayout == landscapeLayout));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -406,169 +463,78 @@ class _StacBottomNavigationBar implements StacBottomNavigationBar {
       enableFeedback,
       landscapeLayout);
 
+  @JsonKey(ignore: true)
   @override
-  String toString() {
-    return 'StacBottomNavigationBar(items: $items, elevation: $elevation, bottomNavigationBarType: $bottomNavigationBarType, fixedColor: $fixedColor, backgroundColor: $backgroundColor, iconSize: $iconSize, selectedItemColor: $selectedItemColor, unselectedItemColor: $unselectedItemColor, selectedFontSize: $selectedFontSize, unselectedFontSize: $unselectedFontSize, selectedLabelStyle: $selectedLabelStyle, unselectedLabelStyle: $unselectedLabelStyle, showSelectedLabels: $showSelectedLabels, showUnselectedLabels: $showUnselectedLabels, enableFeedback: $enableFeedback, landscapeLayout: $landscapeLayout)';
+  @pragma('vm:prefer-inline')
+  _$$StacBottomNavigationBarImplCopyWith<_$StacBottomNavigationBarImpl>
+      get copyWith => __$$StacBottomNavigationBarImplCopyWithImpl<
+          _$StacBottomNavigationBarImpl>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacBottomNavigationBarImplToJson(
+      this,
+    );
   }
 }
 
-/// @nodoc
-abstract mixin class _$StacBottomNavigationBarCopyWith<$Res>
-    implements $StacBottomNavigationBarCopyWith<$Res> {
-  factory _$StacBottomNavigationBarCopyWith(_StacBottomNavigationBar value,
-          $Res Function(_StacBottomNavigationBar) _then) =
-      __$StacBottomNavigationBarCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {List<StacBottomNavigationBarItem> items,
-      StacDouble? elevation,
-      BottomNavigationBarType? bottomNavigationBarType,
-      String? fixedColor,
-      String? backgroundColor,
-      StacDouble iconSize,
-      String? selectedItemColor,
-      String? unselectedItemColor,
-      StacDouble selectedFontSize,
-      StacDouble unselectedFontSize,
-      StacTextStyle? selectedLabelStyle,
-      StacTextStyle? unselectedLabelStyle,
-      bool? showSelectedLabels,
-      bool? showUnselectedLabels,
-      bool? enableFeedback,
-      BottomNavigationBarLandscapeLayout? landscapeLayout});
+abstract class _StacBottomNavigationBar implements StacBottomNavigationBar {
+  const factory _StacBottomNavigationBar(
+          {required final List<StacBottomNavigationBarItem> items,
+          final StacDouble? elevation,
+          final BottomNavigationBarType? bottomNavigationBarType,
+          final String? fixedColor,
+          final String? backgroundColor,
+          final StacDouble iconSize,
+          final String? selectedItemColor,
+          final String? unselectedItemColor,
+          final StacDouble selectedFontSize,
+          final StacDouble unselectedFontSize,
+          final StacTextStyle? selectedLabelStyle,
+          final StacTextStyle? unselectedLabelStyle,
+          final bool? showSelectedLabels,
+          final bool? showUnselectedLabels,
+          final bool? enableFeedback,
+          final BottomNavigationBarLandscapeLayout? landscapeLayout}) =
+      _$StacBottomNavigationBarImpl;
+
+  factory _StacBottomNavigationBar.fromJson(Map<String, dynamic> json) =
+      _$StacBottomNavigationBarImpl.fromJson;
 
   @override
-  $StacTextStyleCopyWith<$Res>? get selectedLabelStyle;
+  List<StacBottomNavigationBarItem> get items;
   @override
-  $StacTextStyleCopyWith<$Res>? get unselectedLabelStyle;
+  StacDouble? get elevation;
+  @override
+  BottomNavigationBarType? get bottomNavigationBarType;
+  @override
+  String? get fixedColor;
+  @override
+  String? get backgroundColor;
+  @override
+  StacDouble get iconSize;
+  @override
+  String? get selectedItemColor;
+  @override
+  String? get unselectedItemColor;
+  @override
+  StacDouble get selectedFontSize;
+  @override
+  StacDouble get unselectedFontSize;
+  @override
+  StacTextStyle? get selectedLabelStyle;
+  @override
+  StacTextStyle? get unselectedLabelStyle;
+  @override
+  bool? get showSelectedLabels;
+  @override
+  bool? get showUnselectedLabels;
+  @override
+  bool? get enableFeedback;
+  @override
+  BottomNavigationBarLandscapeLayout? get landscapeLayout;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacBottomNavigationBarImplCopyWith<_$StacBottomNavigationBarImpl>
+      get copyWith => throw _privateConstructorUsedError;
 }
-
-/// @nodoc
-class __$StacBottomNavigationBarCopyWithImpl<$Res>
-    implements _$StacBottomNavigationBarCopyWith<$Res> {
-  __$StacBottomNavigationBarCopyWithImpl(this._self, this._then);
-
-  final _StacBottomNavigationBar _self;
-  final $Res Function(_StacBottomNavigationBar) _then;
-
-  /// Create a copy of StacBottomNavigationBar
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $Res call({
-    Object? items = null,
-    Object? elevation = freezed,
-    Object? bottomNavigationBarType = freezed,
-    Object? fixedColor = freezed,
-    Object? backgroundColor = freezed,
-    Object? iconSize = null,
-    Object? selectedItemColor = freezed,
-    Object? unselectedItemColor = freezed,
-    Object? selectedFontSize = null,
-    Object? unselectedFontSize = null,
-    Object? selectedLabelStyle = freezed,
-    Object? unselectedLabelStyle = freezed,
-    Object? showSelectedLabels = freezed,
-    Object? showUnselectedLabels = freezed,
-    Object? enableFeedback = freezed,
-    Object? landscapeLayout = freezed,
-  }) {
-    return _then(_StacBottomNavigationBar(
-      items: null == items
-          ? _self._items
-          : items // ignore: cast_nullable_to_non_nullable
-              as List<StacBottomNavigationBarItem>,
-      elevation: freezed == elevation
-          ? _self.elevation
-          : elevation // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      bottomNavigationBarType: freezed == bottomNavigationBarType
-          ? _self.bottomNavigationBarType
-          : bottomNavigationBarType // ignore: cast_nullable_to_non_nullable
-              as BottomNavigationBarType?,
-      fixedColor: freezed == fixedColor
-          ? _self.fixedColor
-          : fixedColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
-          : backgroundColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      iconSize: null == iconSize
-          ? _self.iconSize
-          : iconSize // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      selectedItemColor: freezed == selectedItemColor
-          ? _self.selectedItemColor
-          : selectedItemColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      unselectedItemColor: freezed == unselectedItemColor
-          ? _self.unselectedItemColor
-          : unselectedItemColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      selectedFontSize: null == selectedFontSize
-          ? _self.selectedFontSize
-          : selectedFontSize // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      unselectedFontSize: null == unselectedFontSize
-          ? _self.unselectedFontSize
-          : unselectedFontSize // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      selectedLabelStyle: freezed == selectedLabelStyle
-          ? _self.selectedLabelStyle
-          : selectedLabelStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      unselectedLabelStyle: freezed == unselectedLabelStyle
-          ? _self.unselectedLabelStyle
-          : unselectedLabelStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      showSelectedLabels: freezed == showSelectedLabels
-          ? _self.showSelectedLabels
-          : showSelectedLabels // ignore: cast_nullable_to_non_nullable
-              as bool?,
-      showUnselectedLabels: freezed == showUnselectedLabels
-          ? _self.showUnselectedLabels
-          : showUnselectedLabels // ignore: cast_nullable_to_non_nullable
-              as bool?,
-      enableFeedback: freezed == enableFeedback
-          ? _self.enableFeedback
-          : enableFeedback // ignore: cast_nullable_to_non_nullable
-              as bool?,
-      landscapeLayout: freezed == landscapeLayout
-          ? _self.landscapeLayout
-          : landscapeLayout // ignore: cast_nullable_to_non_nullable
-              as BottomNavigationBarLandscapeLayout?,
-    ));
-  }
-
-  /// Create a copy of StacBottomNavigationBar
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get selectedLabelStyle {
-    if (_self.selectedLabelStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_self.selectedLabelStyle!, (value) {
-      return _then(_self.copyWith(selectedLabelStyle: value));
-    });
-  }
-
-  /// Create a copy of StacBottomNavigationBar
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get unselectedLabelStyle {
-    if (_self.unselectedLabelStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_self.unselectedLabelStyle!, (value) {
-      return _then(_self.copyWith(unselectedLabelStyle: value));
-    });
-  }
-}
-
-// dart format on

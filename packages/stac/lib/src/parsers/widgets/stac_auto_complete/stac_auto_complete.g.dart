@@ -6,8 +6,9 @@ part of 'stac_auto_complete.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacAutoComplete _$StacAutoCompleteFromJson(Map<String, dynamic> json) =>
-    _StacAutoComplete(
+_$StacAutoCompleteImpl _$$StacAutoCompleteImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacAutoCompleteImpl(
       options:
           (json['options'] as List<dynamic>).map((e) => e as String).toList(),
       onSelected: json['onSelected'] as Map<String, dynamic>?,
@@ -21,7 +22,8 @@ _StacAutoComplete _$StacAutoCompleteFromJson(Map<String, dynamic> json) =>
       initialValue: json['initialValue'] as String?,
     );
 
-Map<String, dynamic> _$StacAutoCompleteToJson(_StacAutoComplete instance) =>
+Map<String, dynamic> _$$StacAutoCompleteImplToJson(
+        _$StacAutoCompleteImpl instance) =>
     <String, dynamic>{
       'options': instance.options,
       'onSelected': instance.onSelected,

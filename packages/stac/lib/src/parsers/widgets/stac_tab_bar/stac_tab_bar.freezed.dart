@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,129 +9,51 @@ part of 'stac_tab_bar.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacTabBar {
-  List<Map<String, dynamic>> get tabs;
-  int get initialIndex;
-  bool get isScrollable;
-  StacEdgeInsets? get padding;
-  String? get indicatorColor;
-  bool get automaticIndicatorColorAdjustment;
-  StacDouble get indicatorWeight;
-  StacEdgeInsets? get indicatorPadding;
-  StacBoxDecoration? get indicator;
-  TabBarIndicatorSize? get indicatorSize;
-  String? get labelColor;
-  StacTextStyle? get labelStyle;
-  StacEdgeInsets? get labelPadding;
-  String? get unselectedLabelColor;
-  StacTextStyle? get unselectedLabelStyle;
-  DragStartBehavior get dragStartBehavior;
-  bool? get enableFeedback;
-  StacScrollPhysics? get physics;
-  TabAlignment? get tabAlignment;
-  String? get dividerColor;
-  double? get dividerHeight;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacTabBar
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacTabBarCopyWith<StacTabBar> get copyWith =>
-      _$StacTabBarCopyWithImpl<StacTabBar>(this as StacTabBar, _$identity);
-
-  /// Serializes this StacTabBar to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacTabBar &&
-            const DeepCollectionEquality().equals(other.tabs, tabs) &&
-            (identical(other.initialIndex, initialIndex) ||
-                other.initialIndex == initialIndex) &&
-            (identical(other.isScrollable, isScrollable) ||
-                other.isScrollable == isScrollable) &&
-            (identical(other.padding, padding) || other.padding == padding) &&
-            (identical(other.indicatorColor, indicatorColor) ||
-                other.indicatorColor == indicatorColor) &&
-            (identical(other.automaticIndicatorColorAdjustment,
-                    automaticIndicatorColorAdjustment) ||
-                other.automaticIndicatorColorAdjustment ==
-                    automaticIndicatorColorAdjustment) &&
-            (identical(other.indicatorWeight, indicatorWeight) ||
-                other.indicatorWeight == indicatorWeight) &&
-            (identical(other.indicatorPadding, indicatorPadding) ||
-                other.indicatorPadding == indicatorPadding) &&
-            (identical(other.indicator, indicator) ||
-                other.indicator == indicator) &&
-            (identical(other.indicatorSize, indicatorSize) ||
-                other.indicatorSize == indicatorSize) &&
-            (identical(other.labelColor, labelColor) ||
-                other.labelColor == labelColor) &&
-            (identical(other.labelStyle, labelStyle) ||
-                other.labelStyle == labelStyle) &&
-            (identical(other.labelPadding, labelPadding) ||
-                other.labelPadding == labelPadding) &&
-            (identical(other.unselectedLabelColor, unselectedLabelColor) ||
-                other.unselectedLabelColor == unselectedLabelColor) &&
-            (identical(other.unselectedLabelStyle, unselectedLabelStyle) ||
-                other.unselectedLabelStyle == unselectedLabelStyle) &&
-            (identical(other.dragStartBehavior, dragStartBehavior) ||
-                other.dragStartBehavior == dragStartBehavior) &&
-            (identical(other.enableFeedback, enableFeedback) ||
-                other.enableFeedback == enableFeedback) &&
-            (identical(other.physics, physics) || other.physics == physics) &&
-            (identical(other.tabAlignment, tabAlignment) ||
-                other.tabAlignment == tabAlignment) &&
-            (identical(other.dividerColor, dividerColor) ||
-                other.dividerColor == dividerColor) &&
-            (identical(other.dividerHeight, dividerHeight) ||
-                other.dividerHeight == dividerHeight));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hashAll([
-        runtimeType,
-        const DeepCollectionEquality().hash(tabs),
-        initialIndex,
-        isScrollable,
-        padding,
-        indicatorColor,
-        automaticIndicatorColorAdjustment,
-        indicatorWeight,
-        indicatorPadding,
-        indicator,
-        indicatorSize,
-        labelColor,
-        labelStyle,
-        labelPadding,
-        unselectedLabelColor,
-        unselectedLabelStyle,
-        dragStartBehavior,
-        enableFeedback,
-        physics,
-        tabAlignment,
-        dividerColor,
-        dividerHeight
-      ]);
-
-  @override
-  String toString() {
-    return 'StacTabBar(tabs: $tabs, initialIndex: $initialIndex, isScrollable: $isScrollable, padding: $padding, indicatorColor: $indicatorColor, automaticIndicatorColorAdjustment: $automaticIndicatorColorAdjustment, indicatorWeight: $indicatorWeight, indicatorPadding: $indicatorPadding, indicator: $indicator, indicatorSize: $indicatorSize, labelColor: $labelColor, labelStyle: $labelStyle, labelPadding: $labelPadding, unselectedLabelColor: $unselectedLabelColor, unselectedLabelStyle: $unselectedLabelStyle, dragStartBehavior: $dragStartBehavior, enableFeedback: $enableFeedback, physics: $physics, tabAlignment: $tabAlignment, dividerColor: $dividerColor, dividerHeight: $dividerHeight)';
-  }
+StacTabBar _$StacTabBarFromJson(Map<String, dynamic> json) {
+  return _StacTabBar.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacTabBarCopyWith<$Res> {
+mixin _$StacTabBar {
+  List<Map<String, dynamic>> get tabs => throw _privateConstructorUsedError;
+  int get initialIndex => throw _privateConstructorUsedError;
+  bool get isScrollable => throw _privateConstructorUsedError;
+  StacEdgeInsets? get padding => throw _privateConstructorUsedError;
+  String? get indicatorColor => throw _privateConstructorUsedError;
+  bool get automaticIndicatorColorAdjustment =>
+      throw _privateConstructorUsedError;
+  StacDouble get indicatorWeight => throw _privateConstructorUsedError;
+  StacEdgeInsets? get indicatorPadding => throw _privateConstructorUsedError;
+  StacBoxDecoration? get indicator => throw _privateConstructorUsedError;
+  TabBarIndicatorSize? get indicatorSize => throw _privateConstructorUsedError;
+  String? get labelColor => throw _privateConstructorUsedError;
+  StacTextStyle? get labelStyle => throw _privateConstructorUsedError;
+  StacEdgeInsets? get labelPadding => throw _privateConstructorUsedError;
+  String? get unselectedLabelColor => throw _privateConstructorUsedError;
+  StacTextStyle? get unselectedLabelStyle => throw _privateConstructorUsedError;
+  DragStartBehavior get dragStartBehavior => throw _privateConstructorUsedError;
+  bool? get enableFeedback => throw _privateConstructorUsedError;
+  StacScrollPhysics? get physics => throw _privateConstructorUsedError;
+  TabAlignment? get tabAlignment => throw _privateConstructorUsedError;
+  String? get dividerColor => throw _privateConstructorUsedError;
+  double? get dividerHeight => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacTabBarCopyWith<StacTabBar> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacTabBarCopyWith<$Res> {
   factory $StacTabBarCopyWith(
-          StacTabBar value, $Res Function(StacTabBar) _then) =
-      _$StacTabBarCopyWithImpl;
+          StacTabBar value, $Res Function(StacTabBar) then) =
+      _$StacTabBarCopyWithImpl<$Res, StacTabBar>;
   @useResult
   $Res call(
       {List<Map<String, dynamic>> tabs,
@@ -166,14 +87,15 @@ abstract mixin class $StacTabBarCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacTabBarCopyWithImpl<$Res> implements $StacTabBarCopyWith<$Res> {
-  _$StacTabBarCopyWithImpl(this._self, this._then);
+class _$StacTabBarCopyWithImpl<$Res, $Val extends StacTabBar>
+    implements $StacTabBarCopyWith<$Res> {
+  _$StacTabBarCopyWithImpl(this._value, this._then);
 
-  final StacTabBar _self;
-  final $Res Function(StacTabBar) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacTabBar
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -199,184 +121,340 @@ class _$StacTabBarCopyWithImpl<$Res> implements $StacTabBarCopyWith<$Res> {
     Object? dividerColor = freezed,
     Object? dividerHeight = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       tabs: null == tabs
-          ? _self.tabs
+          ? _value.tabs
           : tabs // ignore: cast_nullable_to_non_nullable
               as List<Map<String, dynamic>>,
       initialIndex: null == initialIndex
-          ? _self.initialIndex
+          ? _value.initialIndex
           : initialIndex // ignore: cast_nullable_to_non_nullable
               as int,
       isScrollable: null == isScrollable
-          ? _self.isScrollable
+          ? _value.isScrollable
           : isScrollable // ignore: cast_nullable_to_non_nullable
               as bool,
       padding: freezed == padding
-          ? _self.padding
+          ? _value.padding
           : padding // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets?,
       indicatorColor: freezed == indicatorColor
-          ? _self.indicatorColor
+          ? _value.indicatorColor
           : indicatorColor // ignore: cast_nullable_to_non_nullable
               as String?,
       automaticIndicatorColorAdjustment: null ==
               automaticIndicatorColorAdjustment
-          ? _self.automaticIndicatorColorAdjustment
+          ? _value.automaticIndicatorColorAdjustment
           : automaticIndicatorColorAdjustment // ignore: cast_nullable_to_non_nullable
               as bool,
       indicatorWeight: null == indicatorWeight
-          ? _self.indicatorWeight
+          ? _value.indicatorWeight
           : indicatorWeight // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       indicatorPadding: freezed == indicatorPadding
-          ? _self.indicatorPadding
+          ? _value.indicatorPadding
           : indicatorPadding // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets?,
       indicator: freezed == indicator
-          ? _self.indicator
+          ? _value.indicator
           : indicator // ignore: cast_nullable_to_non_nullable
               as StacBoxDecoration?,
       indicatorSize: freezed == indicatorSize
-          ? _self.indicatorSize
+          ? _value.indicatorSize
           : indicatorSize // ignore: cast_nullable_to_non_nullable
               as TabBarIndicatorSize?,
       labelColor: freezed == labelColor
-          ? _self.labelColor
+          ? _value.labelColor
           : labelColor // ignore: cast_nullable_to_non_nullable
               as String?,
       labelStyle: freezed == labelStyle
-          ? _self.labelStyle
+          ? _value.labelStyle
           : labelStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       labelPadding: freezed == labelPadding
-          ? _self.labelPadding
+          ? _value.labelPadding
           : labelPadding // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets?,
       unselectedLabelColor: freezed == unselectedLabelColor
-          ? _self.unselectedLabelColor
+          ? _value.unselectedLabelColor
           : unselectedLabelColor // ignore: cast_nullable_to_non_nullable
               as String?,
       unselectedLabelStyle: freezed == unselectedLabelStyle
-          ? _self.unselectedLabelStyle
+          ? _value.unselectedLabelStyle
           : unselectedLabelStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       dragStartBehavior: null == dragStartBehavior
-          ? _self.dragStartBehavior
+          ? _value.dragStartBehavior
           : dragStartBehavior // ignore: cast_nullable_to_non_nullable
               as DragStartBehavior,
       enableFeedback: freezed == enableFeedback
-          ? _self.enableFeedback
+          ? _value.enableFeedback
           : enableFeedback // ignore: cast_nullable_to_non_nullable
               as bool?,
       physics: freezed == physics
-          ? _self.physics
+          ? _value.physics
           : physics // ignore: cast_nullable_to_non_nullable
               as StacScrollPhysics?,
       tabAlignment: freezed == tabAlignment
-          ? _self.tabAlignment
+          ? _value.tabAlignment
           : tabAlignment // ignore: cast_nullable_to_non_nullable
               as TabAlignment?,
       dividerColor: freezed == dividerColor
-          ? _self.dividerColor
+          ? _value.dividerColor
           : dividerColor // ignore: cast_nullable_to_non_nullable
               as String?,
       dividerHeight: freezed == dividerHeight
-          ? _self.dividerHeight
+          ? _value.dividerHeight
           : dividerHeight // ignore: cast_nullable_to_non_nullable
               as double?,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacTabBar
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacEdgeInsetsCopyWith<$Res>? get padding {
-    if (_self.padding == null) {
+    if (_value.padding == null) {
       return null;
     }
 
-    return $StacEdgeInsetsCopyWith<$Res>(_self.padding!, (value) {
-      return _then(_self.copyWith(padding: value));
+    return $StacEdgeInsetsCopyWith<$Res>(_value.padding!, (value) {
+      return _then(_value.copyWith(padding: value) as $Val);
     });
   }
 
-  /// Create a copy of StacTabBar
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacEdgeInsetsCopyWith<$Res>? get indicatorPadding {
-    if (_self.indicatorPadding == null) {
+    if (_value.indicatorPadding == null) {
       return null;
     }
 
-    return $StacEdgeInsetsCopyWith<$Res>(_self.indicatorPadding!, (value) {
-      return _then(_self.copyWith(indicatorPadding: value));
+    return $StacEdgeInsetsCopyWith<$Res>(_value.indicatorPadding!, (value) {
+      return _then(_value.copyWith(indicatorPadding: value) as $Val);
     });
   }
 
-  /// Create a copy of StacTabBar
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacBoxDecorationCopyWith<$Res>? get indicator {
-    if (_self.indicator == null) {
+    if (_value.indicator == null) {
       return null;
     }
 
-    return $StacBoxDecorationCopyWith<$Res>(_self.indicator!, (value) {
-      return _then(_self.copyWith(indicator: value));
+    return $StacBoxDecorationCopyWith<$Res>(_value.indicator!, (value) {
+      return _then(_value.copyWith(indicator: value) as $Val);
     });
   }
 
-  /// Create a copy of StacTabBar
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacTextStyleCopyWith<$Res>? get labelStyle {
-    if (_self.labelStyle == null) {
+    if (_value.labelStyle == null) {
       return null;
     }
 
-    return $StacTextStyleCopyWith<$Res>(_self.labelStyle!, (value) {
-      return _then(_self.copyWith(labelStyle: value));
+    return $StacTextStyleCopyWith<$Res>(_value.labelStyle!, (value) {
+      return _then(_value.copyWith(labelStyle: value) as $Val);
     });
   }
 
-  /// Create a copy of StacTabBar
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacEdgeInsetsCopyWith<$Res>? get labelPadding {
-    if (_self.labelPadding == null) {
+    if (_value.labelPadding == null) {
       return null;
     }
 
-    return $StacEdgeInsetsCopyWith<$Res>(_self.labelPadding!, (value) {
-      return _then(_self.copyWith(labelPadding: value));
+    return $StacEdgeInsetsCopyWith<$Res>(_value.labelPadding!, (value) {
+      return _then(_value.copyWith(labelPadding: value) as $Val);
     });
   }
 
-  /// Create a copy of StacTabBar
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacTextStyleCopyWith<$Res>? get unselectedLabelStyle {
-    if (_self.unselectedLabelStyle == null) {
+    if (_value.unselectedLabelStyle == null) {
       return null;
     }
 
-    return $StacTextStyleCopyWith<$Res>(_self.unselectedLabelStyle!, (value) {
-      return _then(_self.copyWith(unselectedLabelStyle: value));
+    return $StacTextStyleCopyWith<$Res>(_value.unselectedLabelStyle!, (value) {
+      return _then(_value.copyWith(unselectedLabelStyle: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacTabBarImplCopyWith<$Res>
+    implements $StacTabBarCopyWith<$Res> {
+  factory _$$StacTabBarImplCopyWith(
+          _$StacTabBarImpl value, $Res Function(_$StacTabBarImpl) then) =
+      __$$StacTabBarImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {List<Map<String, dynamic>> tabs,
+      int initialIndex,
+      bool isScrollable,
+      StacEdgeInsets? padding,
+      String? indicatorColor,
+      bool automaticIndicatorColorAdjustment,
+      StacDouble indicatorWeight,
+      StacEdgeInsets? indicatorPadding,
+      StacBoxDecoration? indicator,
+      TabBarIndicatorSize? indicatorSize,
+      String? labelColor,
+      StacTextStyle? labelStyle,
+      StacEdgeInsets? labelPadding,
+      String? unselectedLabelColor,
+      StacTextStyle? unselectedLabelStyle,
+      DragStartBehavior dragStartBehavior,
+      bool? enableFeedback,
+      StacScrollPhysics? physics,
+      TabAlignment? tabAlignment,
+      String? dividerColor,
+      double? dividerHeight});
+
+  @override
+  $StacEdgeInsetsCopyWith<$Res>? get padding;
+  @override
+  $StacEdgeInsetsCopyWith<$Res>? get indicatorPadding;
+  @override
+  $StacBoxDecorationCopyWith<$Res>? get indicator;
+  @override
+  $StacTextStyleCopyWith<$Res>? get labelStyle;
+  @override
+  $StacEdgeInsetsCopyWith<$Res>? get labelPadding;
+  @override
+  $StacTextStyleCopyWith<$Res>? get unselectedLabelStyle;
+}
+
+/// @nodoc
+class __$$StacTabBarImplCopyWithImpl<$Res>
+    extends _$StacTabBarCopyWithImpl<$Res, _$StacTabBarImpl>
+    implements _$$StacTabBarImplCopyWith<$Res> {
+  __$$StacTabBarImplCopyWithImpl(
+      _$StacTabBarImpl _value, $Res Function(_$StacTabBarImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? tabs = null,
+    Object? initialIndex = null,
+    Object? isScrollable = null,
+    Object? padding = freezed,
+    Object? indicatorColor = freezed,
+    Object? automaticIndicatorColorAdjustment = null,
+    Object? indicatorWeight = null,
+    Object? indicatorPadding = freezed,
+    Object? indicator = freezed,
+    Object? indicatorSize = freezed,
+    Object? labelColor = freezed,
+    Object? labelStyle = freezed,
+    Object? labelPadding = freezed,
+    Object? unselectedLabelColor = freezed,
+    Object? unselectedLabelStyle = freezed,
+    Object? dragStartBehavior = null,
+    Object? enableFeedback = freezed,
+    Object? physics = freezed,
+    Object? tabAlignment = freezed,
+    Object? dividerColor = freezed,
+    Object? dividerHeight = freezed,
+  }) {
+    return _then(_$StacTabBarImpl(
+      tabs: null == tabs
+          ? _value._tabs
+          : tabs // ignore: cast_nullable_to_non_nullable
+              as List<Map<String, dynamic>>,
+      initialIndex: null == initialIndex
+          ? _value.initialIndex
+          : initialIndex // ignore: cast_nullable_to_non_nullable
+              as int,
+      isScrollable: null == isScrollable
+          ? _value.isScrollable
+          : isScrollable // ignore: cast_nullable_to_non_nullable
+              as bool,
+      padding: freezed == padding
+          ? _value.padding
+          : padding // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets?,
+      indicatorColor: freezed == indicatorColor
+          ? _value.indicatorColor
+          : indicatorColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      automaticIndicatorColorAdjustment: null ==
+              automaticIndicatorColorAdjustment
+          ? _value.automaticIndicatorColorAdjustment
+          : automaticIndicatorColorAdjustment // ignore: cast_nullable_to_non_nullable
+              as bool,
+      indicatorWeight: null == indicatorWeight
+          ? _value.indicatorWeight
+          : indicatorWeight // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      indicatorPadding: freezed == indicatorPadding
+          ? _value.indicatorPadding
+          : indicatorPadding // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets?,
+      indicator: freezed == indicator
+          ? _value.indicator
+          : indicator // ignore: cast_nullable_to_non_nullable
+              as StacBoxDecoration?,
+      indicatorSize: freezed == indicatorSize
+          ? _value.indicatorSize
+          : indicatorSize // ignore: cast_nullable_to_non_nullable
+              as TabBarIndicatorSize?,
+      labelColor: freezed == labelColor
+          ? _value.labelColor
+          : labelColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      labelStyle: freezed == labelStyle
+          ? _value.labelStyle
+          : labelStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      labelPadding: freezed == labelPadding
+          ? _value.labelPadding
+          : labelPadding // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets?,
+      unselectedLabelColor: freezed == unselectedLabelColor
+          ? _value.unselectedLabelColor
+          : unselectedLabelColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      unselectedLabelStyle: freezed == unselectedLabelStyle
+          ? _value.unselectedLabelStyle
+          : unselectedLabelStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      dragStartBehavior: null == dragStartBehavior
+          ? _value.dragStartBehavior
+          : dragStartBehavior // ignore: cast_nullable_to_non_nullable
+              as DragStartBehavior,
+      enableFeedback: freezed == enableFeedback
+          ? _value.enableFeedback
+          : enableFeedback // ignore: cast_nullable_to_non_nullable
+              as bool?,
+      physics: freezed == physics
+          ? _value.physics
+          : physics // ignore: cast_nullable_to_non_nullable
+              as StacScrollPhysics?,
+      tabAlignment: freezed == tabAlignment
+          ? _value.tabAlignment
+          : tabAlignment // ignore: cast_nullable_to_non_nullable
+              as TabAlignment?,
+      dividerColor: freezed == dividerColor
+          ? _value.dividerColor
+          : dividerColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      dividerHeight: freezed == dividerHeight
+          ? _value.dividerHeight
+          : dividerHeight // ignore: cast_nullable_to_non_nullable
+              as double?,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacTabBar implements StacTabBar {
-  const _StacTabBar(
+class _$StacTabBarImpl implements _StacTabBar {
+  const _$StacTabBarImpl(
       {required final List<Map<String, dynamic>> tabs,
       this.initialIndex = 0,
       this.isScrollable = false,
@@ -399,8 +477,9 @@ class _StacTabBar implements StacTabBar {
       this.dividerColor,
       this.dividerHeight})
       : _tabs = tabs;
-  factory _StacTabBar.fromJson(Map<String, dynamic> json) =>
-      _$StacTabBarFromJson(json);
+
+  factory _$StacTabBarImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacTabBarImplFromJson(json);
 
   final List<Map<String, dynamic>> _tabs;
   @override
@@ -456,26 +535,16 @@ class _StacTabBar implements StacTabBar {
   @override
   final double? dividerHeight;
 
-  /// Create a copy of StacTabBar
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacTabBarCopyWith<_StacTabBar> get copyWith =>
-      __$StacTabBarCopyWithImpl<_StacTabBar>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacTabBarToJson(
-      this,
-    );
+  String toString() {
+    return 'StacTabBar(tabs: $tabs, initialIndex: $initialIndex, isScrollable: $isScrollable, padding: $padding, indicatorColor: $indicatorColor, automaticIndicatorColorAdjustment: $automaticIndicatorColorAdjustment, indicatorWeight: $indicatorWeight, indicatorPadding: $indicatorPadding, indicator: $indicator, indicatorSize: $indicatorSize, labelColor: $labelColor, labelStyle: $labelStyle, labelPadding: $labelPadding, unselectedLabelColor: $unselectedLabelColor, unselectedLabelStyle: $unselectedLabelStyle, dragStartBehavior: $dragStartBehavior, enableFeedback: $enableFeedback, physics: $physics, tabAlignment: $tabAlignment, dividerColor: $dividerColor, dividerHeight: $dividerHeight)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacTabBar &&
+            other is _$StacTabBarImpl &&
             const DeepCollectionEquality().equals(other._tabs, _tabs) &&
             (identical(other.initialIndex, initialIndex) ||
                 other.initialIndex == initialIndex) &&
@@ -519,7 +588,7 @@ class _StacTabBar implements StacTabBar {
                 other.dividerHeight == dividerHeight));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hashAll([
         runtimeType,
@@ -546,263 +615,91 @@ class _StacTabBar implements StacTabBar {
         dividerHeight
       ]);
 
+  @JsonKey(ignore: true)
   @override
-  String toString() {
-    return 'StacTabBar(tabs: $tabs, initialIndex: $initialIndex, isScrollable: $isScrollable, padding: $padding, indicatorColor: $indicatorColor, automaticIndicatorColorAdjustment: $automaticIndicatorColorAdjustment, indicatorWeight: $indicatorWeight, indicatorPadding: $indicatorPadding, indicator: $indicator, indicatorSize: $indicatorSize, labelColor: $labelColor, labelStyle: $labelStyle, labelPadding: $labelPadding, unselectedLabelColor: $unselectedLabelColor, unselectedLabelStyle: $unselectedLabelStyle, dragStartBehavior: $dragStartBehavior, enableFeedback: $enableFeedback, physics: $physics, tabAlignment: $tabAlignment, dividerColor: $dividerColor, dividerHeight: $dividerHeight)';
+  @pragma('vm:prefer-inline')
+  _$$StacTabBarImplCopyWith<_$StacTabBarImpl> get copyWith =>
+      __$$StacTabBarImplCopyWithImpl<_$StacTabBarImpl>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacTabBarImplToJson(
+      this,
+    );
   }
 }
 
-/// @nodoc
-abstract mixin class _$StacTabBarCopyWith<$Res>
-    implements $StacTabBarCopyWith<$Res> {
-  factory _$StacTabBarCopyWith(
-          _StacTabBar value, $Res Function(_StacTabBar) _then) =
-      __$StacTabBarCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {List<Map<String, dynamic>> tabs,
-      int initialIndex,
-      bool isScrollable,
-      StacEdgeInsets? padding,
-      String? indicatorColor,
-      bool automaticIndicatorColorAdjustment,
-      StacDouble indicatorWeight,
-      StacEdgeInsets? indicatorPadding,
-      StacBoxDecoration? indicator,
-      TabBarIndicatorSize? indicatorSize,
-      String? labelColor,
-      StacTextStyle? labelStyle,
-      StacEdgeInsets? labelPadding,
-      String? unselectedLabelColor,
-      StacTextStyle? unselectedLabelStyle,
-      DragStartBehavior dragStartBehavior,
-      bool? enableFeedback,
-      StacScrollPhysics? physics,
-      TabAlignment? tabAlignment,
-      String? dividerColor,
-      double? dividerHeight});
+abstract class _StacTabBar implements StacTabBar {
+  const factory _StacTabBar(
+      {required final List<Map<String, dynamic>> tabs,
+      final int initialIndex,
+      final bool isScrollable,
+      final StacEdgeInsets? padding,
+      final String? indicatorColor,
+      final bool automaticIndicatorColorAdjustment,
+      final StacDouble indicatorWeight,
+      final StacEdgeInsets? indicatorPadding,
+      final StacBoxDecoration? indicator,
+      final TabBarIndicatorSize? indicatorSize,
+      final String? labelColor,
+      final StacTextStyle? labelStyle,
+      final StacEdgeInsets? labelPadding,
+      final String? unselectedLabelColor,
+      final StacTextStyle? unselectedLabelStyle,
+      final DragStartBehavior dragStartBehavior,
+      final bool? enableFeedback,
+      final StacScrollPhysics? physics,
+      final TabAlignment? tabAlignment,
+      final String? dividerColor,
+      final double? dividerHeight}) = _$StacTabBarImpl;
+
+  factory _StacTabBar.fromJson(Map<String, dynamic> json) =
+      _$StacTabBarImpl.fromJson;
 
   @override
-  $StacEdgeInsetsCopyWith<$Res>? get padding;
+  List<Map<String, dynamic>> get tabs;
   @override
-  $StacEdgeInsetsCopyWith<$Res>? get indicatorPadding;
+  int get initialIndex;
   @override
-  $StacBoxDecorationCopyWith<$Res>? get indicator;
+  bool get isScrollable;
   @override
-  $StacTextStyleCopyWith<$Res>? get labelStyle;
+  StacEdgeInsets? get padding;
   @override
-  $StacEdgeInsetsCopyWith<$Res>? get labelPadding;
+  String? get indicatorColor;
   @override
-  $StacTextStyleCopyWith<$Res>? get unselectedLabelStyle;
+  bool get automaticIndicatorColorAdjustment;
+  @override
+  StacDouble get indicatorWeight;
+  @override
+  StacEdgeInsets? get indicatorPadding;
+  @override
+  StacBoxDecoration? get indicator;
+  @override
+  TabBarIndicatorSize? get indicatorSize;
+  @override
+  String? get labelColor;
+  @override
+  StacTextStyle? get labelStyle;
+  @override
+  StacEdgeInsets? get labelPadding;
+  @override
+  String? get unselectedLabelColor;
+  @override
+  StacTextStyle? get unselectedLabelStyle;
+  @override
+  DragStartBehavior get dragStartBehavior;
+  @override
+  bool? get enableFeedback;
+  @override
+  StacScrollPhysics? get physics;
+  @override
+  TabAlignment? get tabAlignment;
+  @override
+  String? get dividerColor;
+  @override
+  double? get dividerHeight;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacTabBarImplCopyWith<_$StacTabBarImpl> get copyWith =>
+      throw _privateConstructorUsedError;
 }
-
-/// @nodoc
-class __$StacTabBarCopyWithImpl<$Res> implements _$StacTabBarCopyWith<$Res> {
-  __$StacTabBarCopyWithImpl(this._self, this._then);
-
-  final _StacTabBar _self;
-  final $Res Function(_StacTabBar) _then;
-
-  /// Create a copy of StacTabBar
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $Res call({
-    Object? tabs = null,
-    Object? initialIndex = null,
-    Object? isScrollable = null,
-    Object? padding = freezed,
-    Object? indicatorColor = freezed,
-    Object? automaticIndicatorColorAdjustment = null,
-    Object? indicatorWeight = null,
-    Object? indicatorPadding = freezed,
-    Object? indicator = freezed,
-    Object? indicatorSize = freezed,
-    Object? labelColor = freezed,
-    Object? labelStyle = freezed,
-    Object? labelPadding = freezed,
-    Object? unselectedLabelColor = freezed,
-    Object? unselectedLabelStyle = freezed,
-    Object? dragStartBehavior = null,
-    Object? enableFeedback = freezed,
-    Object? physics = freezed,
-    Object? tabAlignment = freezed,
-    Object? dividerColor = freezed,
-    Object? dividerHeight = freezed,
-  }) {
-    return _then(_StacTabBar(
-      tabs: null == tabs
-          ? _self._tabs
-          : tabs // ignore: cast_nullable_to_non_nullable
-              as List<Map<String, dynamic>>,
-      initialIndex: null == initialIndex
-          ? _self.initialIndex
-          : initialIndex // ignore: cast_nullable_to_non_nullable
-              as int,
-      isScrollable: null == isScrollable
-          ? _self.isScrollable
-          : isScrollable // ignore: cast_nullable_to_non_nullable
-              as bool,
-      padding: freezed == padding
-          ? _self.padding
-          : padding // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets?,
-      indicatorColor: freezed == indicatorColor
-          ? _self.indicatorColor
-          : indicatorColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      automaticIndicatorColorAdjustment: null ==
-              automaticIndicatorColorAdjustment
-          ? _self.automaticIndicatorColorAdjustment
-          : automaticIndicatorColorAdjustment // ignore: cast_nullable_to_non_nullable
-              as bool,
-      indicatorWeight: null == indicatorWeight
-          ? _self.indicatorWeight
-          : indicatorWeight // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      indicatorPadding: freezed == indicatorPadding
-          ? _self.indicatorPadding
-          : indicatorPadding // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets?,
-      indicator: freezed == indicator
-          ? _self.indicator
-          : indicator // ignore: cast_nullable_to_non_nullable
-              as StacBoxDecoration?,
-      indicatorSize: freezed == indicatorSize
-          ? _self.indicatorSize
-          : indicatorSize // ignore: cast_nullable_to_non_nullable
-              as TabBarIndicatorSize?,
-      labelColor: freezed == labelColor
-          ? _self.labelColor
-          : labelColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      labelStyle: freezed == labelStyle
-          ? _self.labelStyle
-          : labelStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      labelPadding: freezed == labelPadding
-          ? _self.labelPadding
-          : labelPadding // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets?,
-      unselectedLabelColor: freezed == unselectedLabelColor
-          ? _self.unselectedLabelColor
-          : unselectedLabelColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      unselectedLabelStyle: freezed == unselectedLabelStyle
-          ? _self.unselectedLabelStyle
-          : unselectedLabelStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      dragStartBehavior: null == dragStartBehavior
-          ? _self.dragStartBehavior
-          : dragStartBehavior // ignore: cast_nullable_to_non_nullable
-              as DragStartBehavior,
-      enableFeedback: freezed == enableFeedback
-          ? _self.enableFeedback
-          : enableFeedback // ignore: cast_nullable_to_non_nullable
-              as bool?,
-      physics: freezed == physics
-          ? _self.physics
-          : physics // ignore: cast_nullable_to_non_nullable
-              as StacScrollPhysics?,
-      tabAlignment: freezed == tabAlignment
-          ? _self.tabAlignment
-          : tabAlignment // ignore: cast_nullable_to_non_nullable
-              as TabAlignment?,
-      dividerColor: freezed == dividerColor
-          ? _self.dividerColor
-          : dividerColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      dividerHeight: freezed == dividerHeight
-          ? _self.dividerHeight
-          : dividerHeight // ignore: cast_nullable_to_non_nullable
-              as double?,
-    ));
-  }
-
-  /// Create a copy of StacTabBar
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacEdgeInsetsCopyWith<$Res>? get padding {
-    if (_self.padding == null) {
-      return null;
-    }
-
-    return $StacEdgeInsetsCopyWith<$Res>(_self.padding!, (value) {
-      return _then(_self.copyWith(padding: value));
-    });
-  }
-
-  /// Create a copy of StacTabBar
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacEdgeInsetsCopyWith<$Res>? get indicatorPadding {
-    if (_self.indicatorPadding == null) {
-      return null;
-    }
-
-    return $StacEdgeInsetsCopyWith<$Res>(_self.indicatorPadding!, (value) {
-      return _then(_self.copyWith(indicatorPadding: value));
-    });
-  }
-
-  /// Create a copy of StacTabBar
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacBoxDecorationCopyWith<$Res>? get indicator {
-    if (_self.indicator == null) {
-      return null;
-    }
-
-    return $StacBoxDecorationCopyWith<$Res>(_self.indicator!, (value) {
-      return _then(_self.copyWith(indicator: value));
-    });
-  }
-
-  /// Create a copy of StacTabBar
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get labelStyle {
-    if (_self.labelStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_self.labelStyle!, (value) {
-      return _then(_self.copyWith(labelStyle: value));
-    });
-  }
-
-  /// Create a copy of StacTabBar
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacEdgeInsetsCopyWith<$Res>? get labelPadding {
-    if (_self.labelPadding == null) {
-      return null;
-    }
-
-    return $StacEdgeInsetsCopyWith<$Res>(_self.labelPadding!, (value) {
-      return _then(_self.copyWith(labelPadding: value));
-    });
-  }
-
-  /// Create a copy of StacTabBar
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get unselectedLabelStyle {
-    if (_self.unselectedLabelStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_self.unselectedLabelStyle!, (value) {
-      return _then(_self.copyWith(unselectedLabelStyle: value));
-    });
-  }
-}
-
-// dart format on

@@ -6,9 +6,9 @@ part of 'stac_floating_action_button.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacFloatingActionButton _$StacFloatingActionButtonFromJson(
+_$StacFloatingActionButtonImpl _$$StacFloatingActionButtonImplFromJson(
         Map<String, dynamic> json) =>
-    _StacFloatingActionButton(
+    _$StacFloatingActionButtonImpl(
       onPressed: json['onPressed'] as Map<String, dynamic>?,
       textStyle: json['textStyle'] == null
           ? null
@@ -50,8 +50,8 @@ _StacFloatingActionButton _$StacFloatingActionButtonFromJson(
       child: json['child'] as Map<String, dynamic>,
     );
 
-Map<String, dynamic> _$StacFloatingActionButtonToJson(
-        _StacFloatingActionButton instance) =>
+Map<String, dynamic> _$$StacFloatingActionButtonImplToJson(
+        _$StacFloatingActionButtonImpl instance) =>
     <String, dynamic>{
       'onPressed': instance.onPressed,
       'textStyle': instance.textStyle,

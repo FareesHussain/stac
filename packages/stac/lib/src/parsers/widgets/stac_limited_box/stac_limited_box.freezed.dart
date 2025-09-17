@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,69 +9,47 @@ part of 'stac_limited_box.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacLimitedBox {
-  StacDouble get maxHeight;
-  StacDouble get maxWidth;
-  Map<String, dynamic>? get child;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacLimitedBox
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacLimitedBoxCopyWith<StacLimitedBox> get copyWith =>
-      _$StacLimitedBoxCopyWithImpl<StacLimitedBox>(
-          this as StacLimitedBox, _$identity);
-
-  /// Serializes this StacLimitedBox to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacLimitedBox &&
-            (identical(other.maxHeight, maxHeight) ||
-                other.maxHeight == maxHeight) &&
-            (identical(other.maxWidth, maxWidth) ||
-                other.maxWidth == maxWidth) &&
-            const DeepCollectionEquality().equals(other.child, child));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(runtimeType, maxHeight, maxWidth,
-      const DeepCollectionEquality().hash(child));
-
-  @override
-  String toString() {
-    return 'StacLimitedBox(maxHeight: $maxHeight, maxWidth: $maxWidth, child: $child)';
-  }
+StacLimitedBox _$StacLimitedBoxFromJson(Map<String, dynamic> json) {
+  return _StacLimitedBox.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacLimitedBoxCopyWith<$Res> {
+mixin _$StacLimitedBox {
+  StacDouble get maxHeight => throw _privateConstructorUsedError;
+  StacDouble get maxWidth => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get child => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacLimitedBoxCopyWith<StacLimitedBox> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacLimitedBoxCopyWith<$Res> {
   factory $StacLimitedBoxCopyWith(
-          StacLimitedBox value, $Res Function(StacLimitedBox) _then) =
-      _$StacLimitedBoxCopyWithImpl;
+          StacLimitedBox value, $Res Function(StacLimitedBox) then) =
+      _$StacLimitedBoxCopyWithImpl<$Res, StacLimitedBox>;
   @useResult
   $Res call(
       {StacDouble maxHeight, StacDouble maxWidth, Map<String, dynamic>? child});
 }
 
 /// @nodoc
-class _$StacLimitedBoxCopyWithImpl<$Res>
+class _$StacLimitedBoxCopyWithImpl<$Res, $Val extends StacLimitedBox>
     implements $StacLimitedBoxCopyWith<$Res> {
-  _$StacLimitedBoxCopyWithImpl(this._self, this._then);
+  _$StacLimitedBoxCopyWithImpl(this._value, this._then);
 
-  final StacLimitedBox _self;
-  final $Res Function(StacLimitedBox) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacLimitedBox
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -80,17 +57,61 @@ class _$StacLimitedBoxCopyWithImpl<$Res>
     Object? maxWidth = null,
     Object? child = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       maxHeight: null == maxHeight
-          ? _self.maxHeight
+          ? _value.maxHeight
           : maxHeight // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       maxWidth: null == maxWidth
-          ? _self.maxWidth
+          ? _value.maxWidth
           : maxWidth // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       child: freezed == child
-          ? _self.child
+          ? _value.child
+          : child // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacLimitedBoxImplCopyWith<$Res>
+    implements $StacLimitedBoxCopyWith<$Res> {
+  factory _$$StacLimitedBoxImplCopyWith(_$StacLimitedBoxImpl value,
+          $Res Function(_$StacLimitedBoxImpl) then) =
+      __$$StacLimitedBoxImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {StacDouble maxHeight, StacDouble maxWidth, Map<String, dynamic>? child});
+}
+
+/// @nodoc
+class __$$StacLimitedBoxImplCopyWithImpl<$Res>
+    extends _$StacLimitedBoxCopyWithImpl<$Res, _$StacLimitedBoxImpl>
+    implements _$$StacLimitedBoxImplCopyWith<$Res> {
+  __$$StacLimitedBoxImplCopyWithImpl(
+      _$StacLimitedBoxImpl _value, $Res Function(_$StacLimitedBoxImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? maxHeight = null,
+    Object? maxWidth = null,
+    Object? child = freezed,
+  }) {
+    return _then(_$StacLimitedBoxImpl(
+      maxHeight: null == maxHeight
+          ? _value.maxHeight
+          : maxHeight // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      maxWidth: null == maxWidth
+          ? _value.maxWidth
+          : maxWidth // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      child: freezed == child
+          ? _value._child
           : child // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
     ));
@@ -99,14 +120,15 @@ class _$StacLimitedBoxCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _StacLimitedBox implements StacLimitedBox {
-  const _StacLimitedBox(
+class _$StacLimitedBoxImpl implements _StacLimitedBox {
+  const _$StacLimitedBoxImpl(
       {this.maxHeight = StacDouble.infinity,
       this.maxWidth = StacDouble.infinity,
       final Map<String, dynamic>? child})
       : _child = child;
-  factory _StacLimitedBox.fromJson(Map<String, dynamic> json) =>
-      _$StacLimitedBoxFromJson(json);
+
+  factory _$StacLimitedBoxImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacLimitedBoxImplFromJson(json);
 
   @override
   @JsonKey()
@@ -124,26 +146,16 @@ class _StacLimitedBox implements StacLimitedBox {
     return EqualUnmodifiableMapView(value);
   }
 
-  /// Create a copy of StacLimitedBox
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacLimitedBoxCopyWith<_StacLimitedBox> get copyWith =>
-      __$StacLimitedBoxCopyWithImpl<_StacLimitedBox>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacLimitedBoxToJson(
-      this,
-    );
+  String toString() {
+    return 'StacLimitedBox(maxHeight: $maxHeight, maxWidth: $maxWidth, child: $child)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacLimitedBox &&
+            other is _$StacLimitedBoxImpl &&
             (identical(other.maxHeight, maxHeight) ||
                 other.maxHeight == maxHeight) &&
             (identical(other.maxWidth, maxWidth) ||
@@ -151,61 +163,43 @@ class _StacLimitedBox implements StacLimitedBox {
             const DeepCollectionEquality().equals(other._child, _child));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(runtimeType, maxHeight, maxWidth,
       const DeepCollectionEquality().hash(_child));
 
-  @override
-  String toString() {
-    return 'StacLimitedBox(maxHeight: $maxHeight, maxWidth: $maxWidth, child: $child)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacLimitedBoxCopyWith<$Res>
-    implements $StacLimitedBoxCopyWith<$Res> {
-  factory _$StacLimitedBoxCopyWith(
-          _StacLimitedBox value, $Res Function(_StacLimitedBox) _then) =
-      __$StacLimitedBoxCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {StacDouble maxHeight, StacDouble maxWidth, Map<String, dynamic>? child});
-}
-
-/// @nodoc
-class __$StacLimitedBoxCopyWithImpl<$Res>
-    implements _$StacLimitedBoxCopyWith<$Res> {
-  __$StacLimitedBoxCopyWithImpl(this._self, this._then);
-
-  final _StacLimitedBox _self;
-  final $Res Function(_StacLimitedBox) _then;
-
-  /// Create a copy of StacLimitedBox
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? maxHeight = null,
-    Object? maxWidth = null,
-    Object? child = freezed,
-  }) {
-    return _then(_StacLimitedBox(
-      maxHeight: null == maxHeight
-          ? _self.maxHeight
-          : maxHeight // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      maxWidth: null == maxWidth
-          ? _self.maxWidth
-          : maxWidth // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      child: freezed == child
-          ? _self._child
-          : child // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-    ));
+  _$$StacLimitedBoxImplCopyWith<_$StacLimitedBoxImpl> get copyWith =>
+      __$$StacLimitedBoxImplCopyWithImpl<_$StacLimitedBoxImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacLimitedBoxImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacLimitedBox implements StacLimitedBox {
+  const factory _StacLimitedBox(
+      {final StacDouble maxHeight,
+      final StacDouble maxWidth,
+      final Map<String, dynamic>? child}) = _$StacLimitedBoxImpl;
+
+  factory _StacLimitedBox.fromJson(Map<String, dynamic> json) =
+      _$StacLimitedBoxImpl.fromJson;
+
+  @override
+  StacDouble get maxHeight;
+  @override
+  StacDouble get maxWidth;
+  @override
+  Map<String, dynamic>? get child;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacLimitedBoxImplCopyWith<_$StacLimitedBoxImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

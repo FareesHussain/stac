@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,55 +9,32 @@ part of 'stac_align.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacAlign {
-  StacAlignmentDirectional get alignment;
-  StacDouble? get widthFactor;
-  StacDouble? get heightFactor;
-  Map<String, dynamic>? get child;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacAlign
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacAlignCopyWith<StacAlign> get copyWith =>
-      _$StacAlignCopyWithImpl<StacAlign>(this as StacAlign, _$identity);
-
-  /// Serializes this StacAlign to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacAlign &&
-            (identical(other.alignment, alignment) ||
-                other.alignment == alignment) &&
-            (identical(other.widthFactor, widthFactor) ||
-                other.widthFactor == widthFactor) &&
-            (identical(other.heightFactor, heightFactor) ||
-                other.heightFactor == heightFactor) &&
-            const DeepCollectionEquality().equals(other.child, child));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(runtimeType, alignment, widthFactor,
-      heightFactor, const DeepCollectionEquality().hash(child));
-
-  @override
-  String toString() {
-    return 'StacAlign(alignment: $alignment, widthFactor: $widthFactor, heightFactor: $heightFactor, child: $child)';
-  }
+StacAlign _$StacAlignFromJson(Map<String, dynamic> json) {
+  return _StacAlign.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacAlignCopyWith<$Res> {
-  factory $StacAlignCopyWith(StacAlign value, $Res Function(StacAlign) _then) =
-      _$StacAlignCopyWithImpl;
+mixin _$StacAlign {
+  StacAlignmentDirectional get alignment => throw _privateConstructorUsedError;
+  StacDouble? get widthFactor => throw _privateConstructorUsedError;
+  StacDouble? get heightFactor => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get child => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacAlignCopyWith<StacAlign> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacAlignCopyWith<$Res> {
+  factory $StacAlignCopyWith(StacAlign value, $Res Function(StacAlign) then) =
+      _$StacAlignCopyWithImpl<$Res, StacAlign>;
   @useResult
   $Res call(
       {StacAlignmentDirectional alignment,
@@ -68,14 +44,15 @@ abstract mixin class $StacAlignCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacAlignCopyWithImpl<$Res> implements $StacAlignCopyWith<$Res> {
-  _$StacAlignCopyWithImpl(this._self, this._then);
+class _$StacAlignCopyWithImpl<$Res, $Val extends StacAlign>
+    implements $StacAlignCopyWith<$Res> {
+  _$StacAlignCopyWithImpl(this._value, this._then);
 
-  final StacAlign _self;
-  final $Res Function(StacAlign) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacAlign
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -84,21 +61,73 @@ class _$StacAlignCopyWithImpl<$Res> implements $StacAlignCopyWith<$Res> {
     Object? heightFactor = freezed,
     Object? child = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       alignment: null == alignment
-          ? _self.alignment
+          ? _value.alignment
           : alignment // ignore: cast_nullable_to_non_nullable
               as StacAlignmentDirectional,
       widthFactor: freezed == widthFactor
-          ? _self.widthFactor
+          ? _value.widthFactor
           : widthFactor // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       heightFactor: freezed == heightFactor
-          ? _self.heightFactor
+          ? _value.heightFactor
           : heightFactor // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       child: freezed == child
-          ? _self.child
+          ? _value.child
+          : child // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacAlignImplCopyWith<$Res>
+    implements $StacAlignCopyWith<$Res> {
+  factory _$$StacAlignImplCopyWith(
+          _$StacAlignImpl value, $Res Function(_$StacAlignImpl) then) =
+      __$$StacAlignImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {StacAlignmentDirectional alignment,
+      StacDouble? widthFactor,
+      StacDouble? heightFactor,
+      Map<String, dynamic>? child});
+}
+
+/// @nodoc
+class __$$StacAlignImplCopyWithImpl<$Res>
+    extends _$StacAlignCopyWithImpl<$Res, _$StacAlignImpl>
+    implements _$$StacAlignImplCopyWith<$Res> {
+  __$$StacAlignImplCopyWithImpl(
+      _$StacAlignImpl _value, $Res Function(_$StacAlignImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? alignment = null,
+    Object? widthFactor = freezed,
+    Object? heightFactor = freezed,
+    Object? child = freezed,
+  }) {
+    return _then(_$StacAlignImpl(
+      alignment: null == alignment
+          ? _value.alignment
+          : alignment // ignore: cast_nullable_to_non_nullable
+              as StacAlignmentDirectional,
+      widthFactor: freezed == widthFactor
+          ? _value.widthFactor
+          : widthFactor // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      heightFactor: freezed == heightFactor
+          ? _value.heightFactor
+          : heightFactor // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      child: freezed == child
+          ? _value._child
           : child // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
     ));
@@ -107,15 +136,16 @@ class _$StacAlignCopyWithImpl<$Res> implements $StacAlignCopyWith<$Res> {
 
 /// @nodoc
 @JsonSerializable()
-class _StacAlign implements StacAlign {
-  const _StacAlign(
+class _$StacAlignImpl implements _StacAlign {
+  const _$StacAlignImpl(
       {this.alignment = StacAlignmentDirectional.center,
       this.widthFactor,
       this.heightFactor,
       final Map<String, dynamic>? child})
       : _child = child;
-  factory _StacAlign.fromJson(Map<String, dynamic> json) =>
-      _$StacAlignFromJson(json);
+
+  factory _$StacAlignImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacAlignImplFromJson(json);
 
   @override
   @JsonKey()
@@ -134,26 +164,16 @@ class _StacAlign implements StacAlign {
     return EqualUnmodifiableMapView(value);
   }
 
-  /// Create a copy of StacAlign
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacAlignCopyWith<_StacAlign> get copyWith =>
-      __$StacAlignCopyWithImpl<_StacAlign>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacAlignToJson(
-      this,
-    );
+  String toString() {
+    return 'StacAlign(alignment: $alignment, widthFactor: $widthFactor, heightFactor: $heightFactor, child: $child)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacAlign &&
+            other is _$StacAlignImpl &&
             (identical(other.alignment, alignment) ||
                 other.alignment == alignment) &&
             (identical(other.widthFactor, widthFactor) ||
@@ -163,68 +183,45 @@ class _StacAlign implements StacAlign {
             const DeepCollectionEquality().equals(other._child, _child));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(runtimeType, alignment, widthFactor,
       heightFactor, const DeepCollectionEquality().hash(_child));
 
-  @override
-  String toString() {
-    return 'StacAlign(alignment: $alignment, widthFactor: $widthFactor, heightFactor: $heightFactor, child: $child)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacAlignCopyWith<$Res>
-    implements $StacAlignCopyWith<$Res> {
-  factory _$StacAlignCopyWith(
-          _StacAlign value, $Res Function(_StacAlign) _then) =
-      __$StacAlignCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {StacAlignmentDirectional alignment,
-      StacDouble? widthFactor,
-      StacDouble? heightFactor,
-      Map<String, dynamic>? child});
-}
-
-/// @nodoc
-class __$StacAlignCopyWithImpl<$Res> implements _$StacAlignCopyWith<$Res> {
-  __$StacAlignCopyWithImpl(this._self, this._then);
-
-  final _StacAlign _self;
-  final $Res Function(_StacAlign) _then;
-
-  /// Create a copy of StacAlign
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? alignment = null,
-    Object? widthFactor = freezed,
-    Object? heightFactor = freezed,
-    Object? child = freezed,
-  }) {
-    return _then(_StacAlign(
-      alignment: null == alignment
-          ? _self.alignment
-          : alignment // ignore: cast_nullable_to_non_nullable
-              as StacAlignmentDirectional,
-      widthFactor: freezed == widthFactor
-          ? _self.widthFactor
-          : widthFactor // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      heightFactor: freezed == heightFactor
-          ? _self.heightFactor
-          : heightFactor // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      child: freezed == child
-          ? _self._child
-          : child // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-    ));
+  _$$StacAlignImplCopyWith<_$StacAlignImpl> get copyWith =>
+      __$$StacAlignImplCopyWithImpl<_$StacAlignImpl>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacAlignImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacAlign implements StacAlign {
+  const factory _StacAlign(
+      {final StacAlignmentDirectional alignment,
+      final StacDouble? widthFactor,
+      final StacDouble? heightFactor,
+      final Map<String, dynamic>? child}) = _$StacAlignImpl;
+
+  factory _StacAlign.fromJson(Map<String, dynamic> json) =
+      _$StacAlignImpl.fromJson;
+
+  @override
+  StacAlignmentDirectional get alignment;
+  @override
+  StacDouble? get widthFactor;
+  @override
+  StacDouble? get heightFactor;
+  @override
+  Map<String, dynamic>? get child;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacAlignImplCopyWith<_$StacAlignImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

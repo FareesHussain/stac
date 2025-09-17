@@ -6,7 +6,8 @@ part of 'stac_app_bar.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacAppBar _$StacAppBarFromJson(Map<String, dynamic> json) => _StacAppBar(
+_$StacAppBarImpl _$$StacAppBarImplFromJson(Map<String, dynamic> json) =>
+    _$StacAppBarImpl(
       leading: json['leading'] as Map<String, dynamic>?,
       title: json['title'] as Map<String, dynamic>?,
       titleTextStyle: json['titleTextStyle'] == null
@@ -49,7 +50,7 @@ _StacAppBar _$StacAppBarFromJson(Map<String, dynamic> json) => _StacAppBar(
           : StacDouble.fromJson(json['scrolledUnderElevation']),
     );
 
-Map<String, dynamic> _$StacAppBarToJson(_StacAppBar instance) =>
+Map<String, dynamic> _$$StacAppBarImplToJson(_$StacAppBarImpl instance) =>
     <String, dynamic>{
       'leading': instance.leading,
       'title': instance.title,

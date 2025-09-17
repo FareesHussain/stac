@@ -6,8 +6,8 @@ part of 'stac_tab_bar_view.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacTabBarView _$StacTabBarViewFromJson(Map<String, dynamic> json) =>
-    _StacTabBarView(
+_$StacTabBarViewImpl _$$StacTabBarViewImplFromJson(Map<String, dynamic> json) =>
+    _$StacTabBarViewImpl(
       children: (json['children'] as List<dynamic>)
           .map((e) => e as Map<String, dynamic>)
           .toList(),
@@ -23,7 +23,8 @@ _StacTabBarView _$StacTabBarViewFromJson(Map<String, dynamic> json) =>
           Clip.hardEdge,
     );
 
-Map<String, dynamic> _$StacTabBarViewToJson(_StacTabBarView instance) =>
+Map<String, dynamic> _$$StacTabBarViewImplToJson(
+        _$StacTabBarViewImpl instance) =>
     <String, dynamic>{
       'children': instance.children,
       'initialIndex': instance.initialIndex,

@@ -6,7 +6,8 @@ part of 'stac_chip.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacChip _$StacChipFromJson(Map<String, dynamic> json) => _StacChip(
+_$StacChipImpl _$$StacChipImplFromJson(Map<String, dynamic> json) =>
+    _$StacChipImpl(
       avatar: json['avatar'] as Map<String, dynamic>?,
       label: json['label'] as Map<String, dynamic>,
       labelStyle: json['labelStyle'] == null
@@ -59,7 +60,8 @@ _StacChip _$StacChipFromJson(Map<String, dynamic> json) => _StacChip(
               json['deleteIconBoxConstraints'] as Map<String, dynamic>),
     );
 
-Map<String, dynamic> _$StacChipToJson(_StacChip instance) => <String, dynamic>{
+Map<String, dynamic> _$$StacChipImplToJson(_$StacChipImpl instance) =>
+    <String, dynamic>{
       'avatar': instance.avatar,
       'label': instance.label,
       'labelStyle': instance.labelStyle,

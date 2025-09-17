@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,8 +9,11 @@ part of 'stac_dropdown_menu_entry.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
+
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
+
 StacDropdownMenuEntry _$StacDropdownMenuEntryFromJson(
     Map<String, dynamic> json) {
   return _StacBDropdownMenuEntry.fromJson(json);
@@ -19,65 +21,25 @@ StacDropdownMenuEntry _$StacDropdownMenuEntryFromJson(
 
 /// @nodoc
 mixin _$StacDropdownMenuEntry {
-  dynamic get value;
-  String get label;
-  Map<String, dynamic>? get labelWidget;
-  Map<String, dynamic>? get leadingIcon;
-  Map<String, dynamic>? get trailingIcon;
-  bool get enabled;
-  StacButtonStyle? get style;
+  dynamic get value => throw _privateConstructorUsedError;
+  String get label => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get labelWidget => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get leadingIcon => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get trailingIcon => throw _privateConstructorUsedError;
+  bool get enabled => throw _privateConstructorUsedError;
+  StacButtonStyle? get style => throw _privateConstructorUsedError;
 
-  /// Create a copy of StacDropdownMenuEntry
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
   $StacDropdownMenuEntryCopyWith<StacDropdownMenuEntry> get copyWith =>
-      _$StacDropdownMenuEntryCopyWithImpl<StacDropdownMenuEntry>(
-          this as StacDropdownMenuEntry, _$identity);
-
-  /// Serializes this StacDropdownMenuEntry to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacDropdownMenuEntry &&
-            const DeepCollectionEquality().equals(other.value, value) &&
-            (identical(other.label, label) || other.label == label) &&
-            const DeepCollectionEquality()
-                .equals(other.labelWidget, labelWidget) &&
-            const DeepCollectionEquality()
-                .equals(other.leadingIcon, leadingIcon) &&
-            const DeepCollectionEquality()
-                .equals(other.trailingIcon, trailingIcon) &&
-            (identical(other.enabled, enabled) || other.enabled == enabled) &&
-            (identical(other.style, style) || other.style == style));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      const DeepCollectionEquality().hash(value),
-      label,
-      const DeepCollectionEquality().hash(labelWidget),
-      const DeepCollectionEquality().hash(leadingIcon),
-      const DeepCollectionEquality().hash(trailingIcon),
-      enabled,
-      style);
-
-  @override
-  String toString() {
-    return 'StacDropdownMenuEntry(value: $value, label: $label, labelWidget: $labelWidget, leadingIcon: $leadingIcon, trailingIcon: $trailingIcon, enabled: $enabled, style: $style)';
-  }
+      throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract mixin class $StacDropdownMenuEntryCopyWith<$Res> {
+abstract class $StacDropdownMenuEntryCopyWith<$Res> {
   factory $StacDropdownMenuEntryCopyWith(StacDropdownMenuEntry value,
-          $Res Function(StacDropdownMenuEntry) _then) =
-      _$StacDropdownMenuEntryCopyWithImpl;
+          $Res Function(StacDropdownMenuEntry) then) =
+      _$StacDropdownMenuEntryCopyWithImpl<$Res, StacDropdownMenuEntry>;
   @useResult
   $Res call(
       {dynamic value,
@@ -92,15 +54,16 @@ abstract mixin class $StacDropdownMenuEntryCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacDropdownMenuEntryCopyWithImpl<$Res>
+class _$StacDropdownMenuEntryCopyWithImpl<$Res,
+        $Val extends StacDropdownMenuEntry>
     implements $StacDropdownMenuEntryCopyWith<$Res> {
-  _$StacDropdownMenuEntryCopyWithImpl(this._self, this._then);
+  _$StacDropdownMenuEntryCopyWithImpl(this._value, this._then);
 
-  final StacDropdownMenuEntry _self;
-  final $Res Function(StacDropdownMenuEntry) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacDropdownMenuEntry
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -112,57 +75,131 @@ class _$StacDropdownMenuEntryCopyWithImpl<$Res>
     Object? enabled = null,
     Object? style = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       value: freezed == value
-          ? _self.value
+          ? _value.value
           : value // ignore: cast_nullable_to_non_nullable
               as dynamic,
       label: null == label
-          ? _self.label
+          ? _value.label
           : label // ignore: cast_nullable_to_non_nullable
               as String,
       labelWidget: freezed == labelWidget
-          ? _self.labelWidget
+          ? _value.labelWidget
           : labelWidget // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       leadingIcon: freezed == leadingIcon
-          ? _self.leadingIcon
+          ? _value.leadingIcon
           : leadingIcon // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       trailingIcon: freezed == trailingIcon
-          ? _self.trailingIcon
+          ? _value.trailingIcon
           : trailingIcon // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       enabled: null == enabled
-          ? _self.enabled
+          ? _value.enabled
           : enabled // ignore: cast_nullable_to_non_nullable
               as bool,
       style: freezed == style
-          ? _self.style
+          ? _value.style
           : style // ignore: cast_nullable_to_non_nullable
               as StacButtonStyle?,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacDropdownMenuEntry
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacButtonStyleCopyWith<$Res>? get style {
-    if (_self.style == null) {
+    if (_value.style == null) {
       return null;
     }
 
-    return $StacButtonStyleCopyWith<$Res>(_self.style!, (value) {
-      return _then(_self.copyWith(style: value));
+    return $StacButtonStyleCopyWith<$Res>(_value.style!, (value) {
+      return _then(_value.copyWith(style: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacBDropdownMenuEntryImplCopyWith<$Res>
+    implements $StacDropdownMenuEntryCopyWith<$Res> {
+  factory _$$StacBDropdownMenuEntryImplCopyWith(
+          _$StacBDropdownMenuEntryImpl value,
+          $Res Function(_$StacBDropdownMenuEntryImpl) then) =
+      __$$StacBDropdownMenuEntryImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {dynamic value,
+      String label,
+      Map<String, dynamic>? labelWidget,
+      Map<String, dynamic>? leadingIcon,
+      Map<String, dynamic>? trailingIcon,
+      bool enabled,
+      StacButtonStyle? style});
+
+  @override
+  $StacButtonStyleCopyWith<$Res>? get style;
+}
+
+/// @nodoc
+class __$$StacBDropdownMenuEntryImplCopyWithImpl<$Res>
+    extends _$StacDropdownMenuEntryCopyWithImpl<$Res,
+        _$StacBDropdownMenuEntryImpl>
+    implements _$$StacBDropdownMenuEntryImplCopyWith<$Res> {
+  __$$StacBDropdownMenuEntryImplCopyWithImpl(
+      _$StacBDropdownMenuEntryImpl _value,
+      $Res Function(_$StacBDropdownMenuEntryImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? value = freezed,
+    Object? label = null,
+    Object? labelWidget = freezed,
+    Object? leadingIcon = freezed,
+    Object? trailingIcon = freezed,
+    Object? enabled = null,
+    Object? style = freezed,
+  }) {
+    return _then(_$StacBDropdownMenuEntryImpl(
+      value: freezed == value
+          ? _value.value
+          : value // ignore: cast_nullable_to_non_nullable
+              as dynamic,
+      label: null == label
+          ? _value.label
+          : label // ignore: cast_nullable_to_non_nullable
+              as String,
+      labelWidget: freezed == labelWidget
+          ? _value._labelWidget
+          : labelWidget // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      leadingIcon: freezed == leadingIcon
+          ? _value._leadingIcon
+          : leadingIcon // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      trailingIcon: freezed == trailingIcon
+          ? _value._trailingIcon
+          : trailingIcon // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      enabled: null == enabled
+          ? _value.enabled
+          : enabled // ignore: cast_nullable_to_non_nullable
+              as bool,
+      style: freezed == style
+          ? _value.style
+          : style // ignore: cast_nullable_to_non_nullable
+              as StacButtonStyle?,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacBDropdownMenuEntry implements StacDropdownMenuEntry {
-  const _StacBDropdownMenuEntry(
+class _$StacBDropdownMenuEntryImpl implements _StacBDropdownMenuEntry {
+  const _$StacBDropdownMenuEntryImpl(
       {this.value,
       this.label = "",
       final Map<String, dynamic>? labelWidget,
@@ -173,8 +210,9 @@ class _StacBDropdownMenuEntry implements StacDropdownMenuEntry {
       : _labelWidget = labelWidget,
         _leadingIcon = leadingIcon,
         _trailingIcon = trailingIcon;
-  factory _StacBDropdownMenuEntry.fromJson(Map<String, dynamic> json) =>
-      _$StacBDropdownMenuEntryFromJson(json);
+
+  factory _$StacBDropdownMenuEntryImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacBDropdownMenuEntryImplFromJson(json);
 
   @override
   final dynamic value;
@@ -217,27 +255,16 @@ class _StacBDropdownMenuEntry implements StacDropdownMenuEntry {
   @override
   final StacButtonStyle? style;
 
-  /// Create a copy of StacDropdownMenuEntry
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacBDropdownMenuEntryCopyWith<_StacBDropdownMenuEntry> get copyWith =>
-      __$StacBDropdownMenuEntryCopyWithImpl<_StacBDropdownMenuEntry>(
-          this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacBDropdownMenuEntryToJson(
-      this,
-    );
+  String toString() {
+    return 'StacDropdownMenuEntry(value: $value, label: $label, labelWidget: $labelWidget, leadingIcon: $leadingIcon, trailingIcon: $trailingIcon, enabled: $enabled, style: $style)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacBDropdownMenuEntry &&
+            other is _$StacBDropdownMenuEntryImpl &&
             const DeepCollectionEquality().equals(other.value, value) &&
             (identical(other.label, label) || other.label == label) &&
             const DeepCollectionEquality()
@@ -250,7 +277,7 @@ class _StacBDropdownMenuEntry implements StacDropdownMenuEntry {
             (identical(other.style, style) || other.style == style));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -262,99 +289,50 @@ class _StacBDropdownMenuEntry implements StacDropdownMenuEntry {
       enabled,
       style);
 
-  @override
-  String toString() {
-    return 'StacDropdownMenuEntry(value: $value, label: $label, labelWidget: $labelWidget, leadingIcon: $leadingIcon, trailingIcon: $trailingIcon, enabled: $enabled, style: $style)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacBDropdownMenuEntryCopyWith<$Res>
-    implements $StacDropdownMenuEntryCopyWith<$Res> {
-  factory _$StacBDropdownMenuEntryCopyWith(_StacBDropdownMenuEntry value,
-          $Res Function(_StacBDropdownMenuEntry) _then) =
-      __$StacBDropdownMenuEntryCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {dynamic value,
-      String label,
-      Map<String, dynamic>? labelWidget,
-      Map<String, dynamic>? leadingIcon,
-      Map<String, dynamic>? trailingIcon,
-      bool enabled,
-      StacButtonStyle? style});
-
-  @override
-  $StacButtonStyleCopyWith<$Res>? get style;
-}
-
-/// @nodoc
-class __$StacBDropdownMenuEntryCopyWithImpl<$Res>
-    implements _$StacBDropdownMenuEntryCopyWith<$Res> {
-  __$StacBDropdownMenuEntryCopyWithImpl(this._self, this._then);
-
-  final _StacBDropdownMenuEntry _self;
-  final $Res Function(_StacBDropdownMenuEntry) _then;
-
-  /// Create a copy of StacDropdownMenuEntry
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? value = freezed,
-    Object? label = null,
-    Object? labelWidget = freezed,
-    Object? leadingIcon = freezed,
-    Object? trailingIcon = freezed,
-    Object? enabled = null,
-    Object? style = freezed,
-  }) {
-    return _then(_StacBDropdownMenuEntry(
-      value: freezed == value
-          ? _self.value
-          : value // ignore: cast_nullable_to_non_nullable
-              as dynamic,
-      label: null == label
-          ? _self.label
-          : label // ignore: cast_nullable_to_non_nullable
-              as String,
-      labelWidget: freezed == labelWidget
-          ? _self._labelWidget
-          : labelWidget // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      leadingIcon: freezed == leadingIcon
-          ? _self._leadingIcon
-          : leadingIcon // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      trailingIcon: freezed == trailingIcon
-          ? _self._trailingIcon
-          : trailingIcon // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      enabled: null == enabled
-          ? _self.enabled
-          : enabled // ignore: cast_nullable_to_non_nullable
-              as bool,
-      style: freezed == style
-          ? _self.style
-          : style // ignore: cast_nullable_to_non_nullable
-              as StacButtonStyle?,
-    ));
-  }
+  _$$StacBDropdownMenuEntryImplCopyWith<_$StacBDropdownMenuEntryImpl>
+      get copyWith => __$$StacBDropdownMenuEntryImplCopyWithImpl<
+          _$StacBDropdownMenuEntryImpl>(this, _$identity);
 
-  /// Create a copy of StacDropdownMenuEntry
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @pragma('vm:prefer-inline')
-  $StacButtonStyleCopyWith<$Res>? get style {
-    if (_self.style == null) {
-      return null;
-    }
-
-    return $StacButtonStyleCopyWith<$Res>(_self.style!, (value) {
-      return _then(_self.copyWith(style: value));
-    });
+  Map<String, dynamic> toJson() {
+    return _$$StacBDropdownMenuEntryImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacBDropdownMenuEntry implements StacDropdownMenuEntry {
+  const factory _StacBDropdownMenuEntry(
+      {final dynamic value,
+      final String label,
+      final Map<String, dynamic>? labelWidget,
+      final Map<String, dynamic>? leadingIcon,
+      final Map<String, dynamic>? trailingIcon,
+      final bool enabled,
+      final StacButtonStyle? style}) = _$StacBDropdownMenuEntryImpl;
+
+  factory _StacBDropdownMenuEntry.fromJson(Map<String, dynamic> json) =
+      _$StacBDropdownMenuEntryImpl.fromJson;
+
+  @override
+  dynamic get value;
+  @override
+  String get label;
+  @override
+  Map<String, dynamic>? get labelWidget;
+  @override
+  Map<String, dynamic>? get leadingIcon;
+  @override
+  Map<String, dynamic>? get trailingIcon;
+  @override
+  bool get enabled;
+  @override
+  StacButtonStyle? get style;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacBDropdownMenuEntryImplCopyWith<_$StacBDropdownMenuEntryImpl>
+      get copyWith => throw _privateConstructorUsedError;
+}

@@ -6,13 +6,13 @@ part of 'stac_expanded.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacExpanded _$StacExpandedFromJson(Map<String, dynamic> json) =>
-    _StacExpanded(
+_$StacExpandedImpl _$$StacExpandedImplFromJson(Map<String, dynamic> json) =>
+    _$StacExpandedImpl(
       flex: (json['flex'] as num?)?.toInt() ?? 1,
       child: json['child'] as Map<String, dynamic>?,
     );
 
-Map<String, dynamic> _$StacExpandedToJson(_StacExpanded instance) =>
+Map<String, dynamic> _$$StacExpandedImplToJson(_$StacExpandedImpl instance) =>
     <String, dynamic>{
       'flex': instance.flex,
       'child': instance.child,
