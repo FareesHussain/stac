@@ -6,9 +6,9 @@ part of 'stac_system_ui_overlay_style.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacSystemUIOverlayStyle _$StacSystemUIOverlayStyleFromJson(
+_$StacSystemUIOverlayStyleImpl _$$StacSystemUIOverlayStyleImplFromJson(
         Map<String, dynamic> json) =>
-    _StacSystemUIOverlayStyle(
+    _$StacSystemUIOverlayStyleImpl(
       systemNavigationBarColor: json['systemNavigationBarColor'] as String?,
       systemNavigationBarDividerColor:
           json['systemNavigationBarDividerColor'] as String?,
@@ -25,8 +25,8 @@ _StacSystemUIOverlayStyle _$StacSystemUIOverlayStyleFromJson(
           json['systemStatusBarContrastEnforced'] as bool?,
     );
 
-Map<String, dynamic> _$StacSystemUIOverlayStyleToJson(
-        _StacSystemUIOverlayStyle instance) =>
+Map<String, dynamic> _$$StacSystemUIOverlayStyleImplToJson(
+        _$StacSystemUIOverlayStyleImpl instance) =>
     <String, dynamic>{
       'systemNavigationBarColor': instance.systemNavigationBarColor,
       'systemNavigationBarDividerColor':

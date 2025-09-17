@@ -6,9 +6,9 @@ part of 'stac_bottom_nav_bar_theme.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacBottomNavBarThemeData _$StacBottomNavBarThemeDataFromJson(
+_$StacBottomNavBarThemeDataImpl _$$StacBottomNavBarThemeDataImplFromJson(
         Map<String, dynamic> json) =>
-    _StacBottomNavBarThemeData(
+    _$StacBottomNavBarThemeDataImpl(
       backgroundColor: json['backgroundColor'] as String?,
       elevation: (json['elevation'] as num?)?.toDouble(),
       selectedIconTheme: json['selectedIconTheme'] == null
@@ -35,8 +35,8 @@ _StacBottomNavBarThemeData _$StacBottomNavBarThemeDataFromJson(
           _$BottomNavigationBarLandscapeLayoutEnumMap, json['landscapeLayout']),
     );
 
-Map<String, dynamic> _$StacBottomNavBarThemeDataToJson(
-        _StacBottomNavBarThemeData instance) =>
+Map<String, dynamic> _$$StacBottomNavBarThemeDataImplToJson(
+        _$StacBottomNavBarThemeDataImpl instance) =>
     <String, dynamic>{
       'backgroundColor': instance.backgroundColor,
       'elevation': instance.elevation,

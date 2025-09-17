@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,70 +9,35 @@ part of 'stac_row.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacRow {
-  MainAxisAlignment get mainAxisAlignment;
-  CrossAxisAlignment get crossAxisAlignment;
-  MainAxisSize get mainAxisSize;
-  TextDirection? get textDirection;
-  VerticalDirection get verticalDirection;
-  StacDouble get spacing;
-  List<Map<String, dynamic>> get children;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacRow
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacRowCopyWith<StacRow> get copyWith =>
-      _$StacRowCopyWithImpl<StacRow>(this as StacRow, _$identity);
-
-  /// Serializes this StacRow to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacRow &&
-            (identical(other.mainAxisAlignment, mainAxisAlignment) ||
-                other.mainAxisAlignment == mainAxisAlignment) &&
-            (identical(other.crossAxisAlignment, crossAxisAlignment) ||
-                other.crossAxisAlignment == crossAxisAlignment) &&
-            (identical(other.mainAxisSize, mainAxisSize) ||
-                other.mainAxisSize == mainAxisSize) &&
-            (identical(other.textDirection, textDirection) ||
-                other.textDirection == textDirection) &&
-            (identical(other.verticalDirection, verticalDirection) ||
-                other.verticalDirection == verticalDirection) &&
-            (identical(other.spacing, spacing) || other.spacing == spacing) &&
-            const DeepCollectionEquality().equals(other.children, children));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      mainAxisAlignment,
-      crossAxisAlignment,
-      mainAxisSize,
-      textDirection,
-      verticalDirection,
-      spacing,
-      const DeepCollectionEquality().hash(children));
-
-  @override
-  String toString() {
-    return 'StacRow(mainAxisAlignment: $mainAxisAlignment, crossAxisAlignment: $crossAxisAlignment, mainAxisSize: $mainAxisSize, textDirection: $textDirection, verticalDirection: $verticalDirection, spacing: $spacing, children: $children)';
-  }
+StacRow _$StacRowFromJson(Map<String, dynamic> json) {
+  return _StacRow.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacRowCopyWith<$Res> {
-  factory $StacRowCopyWith(StacRow value, $Res Function(StacRow) _then) =
-      _$StacRowCopyWithImpl;
+mixin _$StacRow {
+  MainAxisAlignment get mainAxisAlignment => throw _privateConstructorUsedError;
+  CrossAxisAlignment get crossAxisAlignment =>
+      throw _privateConstructorUsedError;
+  MainAxisSize get mainAxisSize => throw _privateConstructorUsedError;
+  TextDirection? get textDirection => throw _privateConstructorUsedError;
+  VerticalDirection get verticalDirection => throw _privateConstructorUsedError;
+  StacDouble get spacing => throw _privateConstructorUsedError;
+  List<Map<String, dynamic>> get children => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacRowCopyWith<StacRow> get copyWith => throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacRowCopyWith<$Res> {
+  factory $StacRowCopyWith(StacRow value, $Res Function(StacRow) then) =
+      _$StacRowCopyWithImpl<$Res, StacRow>;
   @useResult
   $Res call(
       {MainAxisAlignment mainAxisAlignment,
@@ -86,14 +50,15 @@ abstract mixin class $StacRowCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacRowCopyWithImpl<$Res> implements $StacRowCopyWith<$Res> {
-  _$StacRowCopyWithImpl(this._self, this._then);
+class _$StacRowCopyWithImpl<$Res, $Val extends StacRow>
+    implements $StacRowCopyWith<$Res> {
+  _$StacRowCopyWithImpl(this._value, this._then);
 
-  final StacRow _self;
-  final $Res Function(StacRow) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacRow
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -105,33 +70,102 @@ class _$StacRowCopyWithImpl<$Res> implements $StacRowCopyWith<$Res> {
     Object? spacing = null,
     Object? children = null,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       mainAxisAlignment: null == mainAxisAlignment
-          ? _self.mainAxisAlignment
+          ? _value.mainAxisAlignment
           : mainAxisAlignment // ignore: cast_nullable_to_non_nullable
               as MainAxisAlignment,
       crossAxisAlignment: null == crossAxisAlignment
-          ? _self.crossAxisAlignment
+          ? _value.crossAxisAlignment
           : crossAxisAlignment // ignore: cast_nullable_to_non_nullable
               as CrossAxisAlignment,
       mainAxisSize: null == mainAxisSize
-          ? _self.mainAxisSize
+          ? _value.mainAxisSize
           : mainAxisSize // ignore: cast_nullable_to_non_nullable
               as MainAxisSize,
       textDirection: freezed == textDirection
-          ? _self.textDirection
+          ? _value.textDirection
           : textDirection // ignore: cast_nullable_to_non_nullable
               as TextDirection?,
       verticalDirection: null == verticalDirection
-          ? _self.verticalDirection
+          ? _value.verticalDirection
           : verticalDirection // ignore: cast_nullable_to_non_nullable
               as VerticalDirection,
       spacing: null == spacing
-          ? _self.spacing
+          ? _value.spacing
           : spacing // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       children: null == children
-          ? _self.children
+          ? _value.children
+          : children // ignore: cast_nullable_to_non_nullable
+              as List<Map<String, dynamic>>,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacRowImplCopyWith<$Res> implements $StacRowCopyWith<$Res> {
+  factory _$$StacRowImplCopyWith(
+          _$StacRowImpl value, $Res Function(_$StacRowImpl) then) =
+      __$$StacRowImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {MainAxisAlignment mainAxisAlignment,
+      CrossAxisAlignment crossAxisAlignment,
+      MainAxisSize mainAxisSize,
+      TextDirection? textDirection,
+      VerticalDirection verticalDirection,
+      StacDouble spacing,
+      List<Map<String, dynamic>> children});
+}
+
+/// @nodoc
+class __$$StacRowImplCopyWithImpl<$Res>
+    extends _$StacRowCopyWithImpl<$Res, _$StacRowImpl>
+    implements _$$StacRowImplCopyWith<$Res> {
+  __$$StacRowImplCopyWithImpl(
+      _$StacRowImpl _value, $Res Function(_$StacRowImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? mainAxisAlignment = null,
+    Object? crossAxisAlignment = null,
+    Object? mainAxisSize = null,
+    Object? textDirection = freezed,
+    Object? verticalDirection = null,
+    Object? spacing = null,
+    Object? children = null,
+  }) {
+    return _then(_$StacRowImpl(
+      mainAxisAlignment: null == mainAxisAlignment
+          ? _value.mainAxisAlignment
+          : mainAxisAlignment // ignore: cast_nullable_to_non_nullable
+              as MainAxisAlignment,
+      crossAxisAlignment: null == crossAxisAlignment
+          ? _value.crossAxisAlignment
+          : crossAxisAlignment // ignore: cast_nullable_to_non_nullable
+              as CrossAxisAlignment,
+      mainAxisSize: null == mainAxisSize
+          ? _value.mainAxisSize
+          : mainAxisSize // ignore: cast_nullable_to_non_nullable
+              as MainAxisSize,
+      textDirection: freezed == textDirection
+          ? _value.textDirection
+          : textDirection // ignore: cast_nullable_to_non_nullable
+              as TextDirection?,
+      verticalDirection: null == verticalDirection
+          ? _value.verticalDirection
+          : verticalDirection // ignore: cast_nullable_to_non_nullable
+              as VerticalDirection,
+      spacing: null == spacing
+          ? _value.spacing
+          : spacing // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      children: null == children
+          ? _value._children
           : children // ignore: cast_nullable_to_non_nullable
               as List<Map<String, dynamic>>,
     ));
@@ -140,8 +174,8 @@ class _$StacRowCopyWithImpl<$Res> implements $StacRowCopyWith<$Res> {
 
 /// @nodoc
 @JsonSerializable()
-class _StacRow implements StacRow {
-  const _StacRow(
+class _$StacRowImpl implements _StacRow {
+  const _$StacRowImpl(
       {this.mainAxisAlignment = MainAxisAlignment.start,
       this.crossAxisAlignment = CrossAxisAlignment.center,
       this.mainAxisSize = MainAxisSize.max,
@@ -150,8 +184,9 @@ class _StacRow implements StacRow {
       this.spacing = StacDouble.zero,
       final List<Map<String, dynamic>> children = const []})
       : _children = children;
-  factory _StacRow.fromJson(Map<String, dynamic> json) =>
-      _$StacRowFromJson(json);
+
+  factory _$StacRowImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacRowImplFromJson(json);
 
   @override
   @JsonKey()
@@ -179,26 +214,16 @@ class _StacRow implements StacRow {
     return EqualUnmodifiableListView(_children);
   }
 
-  /// Create a copy of StacRow
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacRowCopyWith<_StacRow> get copyWith =>
-      __$StacRowCopyWithImpl<_StacRow>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacRowToJson(
-      this,
-    );
+  String toString() {
+    return 'StacRow(mainAxisAlignment: $mainAxisAlignment, crossAxisAlignment: $crossAxisAlignment, mainAxisSize: $mainAxisSize, textDirection: $textDirection, verticalDirection: $verticalDirection, spacing: $spacing, children: $children)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacRow &&
+            other is _$StacRowImpl &&
             (identical(other.mainAxisAlignment, mainAxisAlignment) ||
                 other.mainAxisAlignment == mainAxisAlignment) &&
             (identical(other.crossAxisAlignment, crossAxisAlignment) ||
@@ -213,7 +238,7 @@ class _StacRow implements StacRow {
             const DeepCollectionEquality().equals(other._children, _children));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -225,79 +250,48 @@ class _StacRow implements StacRow {
       spacing,
       const DeepCollectionEquality().hash(_children));
 
-  @override
-  String toString() {
-    return 'StacRow(mainAxisAlignment: $mainAxisAlignment, crossAxisAlignment: $crossAxisAlignment, mainAxisSize: $mainAxisSize, textDirection: $textDirection, verticalDirection: $verticalDirection, spacing: $spacing, children: $children)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacRowCopyWith<$Res> implements $StacRowCopyWith<$Res> {
-  factory _$StacRowCopyWith(_StacRow value, $Res Function(_StacRow) _then) =
-      __$StacRowCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {MainAxisAlignment mainAxisAlignment,
-      CrossAxisAlignment crossAxisAlignment,
-      MainAxisSize mainAxisSize,
-      TextDirection? textDirection,
-      VerticalDirection verticalDirection,
-      StacDouble spacing,
-      List<Map<String, dynamic>> children});
-}
-
-/// @nodoc
-class __$StacRowCopyWithImpl<$Res> implements _$StacRowCopyWith<$Res> {
-  __$StacRowCopyWithImpl(this._self, this._then);
-
-  final _StacRow _self;
-  final $Res Function(_StacRow) _then;
-
-  /// Create a copy of StacRow
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? mainAxisAlignment = null,
-    Object? crossAxisAlignment = null,
-    Object? mainAxisSize = null,
-    Object? textDirection = freezed,
-    Object? verticalDirection = null,
-    Object? spacing = null,
-    Object? children = null,
-  }) {
-    return _then(_StacRow(
-      mainAxisAlignment: null == mainAxisAlignment
-          ? _self.mainAxisAlignment
-          : mainAxisAlignment // ignore: cast_nullable_to_non_nullable
-              as MainAxisAlignment,
-      crossAxisAlignment: null == crossAxisAlignment
-          ? _self.crossAxisAlignment
-          : crossAxisAlignment // ignore: cast_nullable_to_non_nullable
-              as CrossAxisAlignment,
-      mainAxisSize: null == mainAxisSize
-          ? _self.mainAxisSize
-          : mainAxisSize // ignore: cast_nullable_to_non_nullable
-              as MainAxisSize,
-      textDirection: freezed == textDirection
-          ? _self.textDirection
-          : textDirection // ignore: cast_nullable_to_non_nullable
-              as TextDirection?,
-      verticalDirection: null == verticalDirection
-          ? _self.verticalDirection
-          : verticalDirection // ignore: cast_nullable_to_non_nullable
-              as VerticalDirection,
-      spacing: null == spacing
-          ? _self.spacing
-          : spacing // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      children: null == children
-          ? _self._children
-          : children // ignore: cast_nullable_to_non_nullable
-              as List<Map<String, dynamic>>,
-    ));
+  _$$StacRowImplCopyWith<_$StacRowImpl> get copyWith =>
+      __$$StacRowImplCopyWithImpl<_$StacRowImpl>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacRowImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacRow implements StacRow {
+  const factory _StacRow(
+      {final MainAxisAlignment mainAxisAlignment,
+      final CrossAxisAlignment crossAxisAlignment,
+      final MainAxisSize mainAxisSize,
+      final TextDirection? textDirection,
+      final VerticalDirection verticalDirection,
+      final StacDouble spacing,
+      final List<Map<String, dynamic>> children}) = _$StacRowImpl;
+
+  factory _StacRow.fromJson(Map<String, dynamic> json) = _$StacRowImpl.fromJson;
+
+  @override
+  MainAxisAlignment get mainAxisAlignment;
+  @override
+  CrossAxisAlignment get crossAxisAlignment;
+  @override
+  MainAxisSize get mainAxisSize;
+  @override
+  TextDirection? get textDirection;
+  @override
+  VerticalDirection get verticalDirection;
+  @override
+  StacDouble get spacing;
+  @override
+  List<Map<String, dynamic>> get children;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacRowImplCopyWith<_$StacRowImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

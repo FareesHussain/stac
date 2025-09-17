@@ -6,8 +6,9 @@ part of 'stac_badge_theme_data.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacBadgeThemeData _$StacBadgeThemeDataFromJson(Map<String, dynamic> json) =>
-    _StacBadgeThemeData(
+_$StacBadgeThemeDataImpl _$$StacBadgeThemeDataImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacBadgeThemeDataImpl(
       backgroundColor: json['backgroundColor'] as String?,
       textColor: json['textColor'] as String?,
       smallSize: (json['smallSize'] as num?)?.toDouble(),
@@ -27,7 +28,8 @@ _StacBadgeThemeData _$StacBadgeThemeDataFromJson(Map<String, dynamic> json) =>
           : StacOffset.fromJson(json['offset'] as Map<String, dynamic>),
     );
 
-Map<String, dynamic> _$StacBadgeThemeDataToJson(_StacBadgeThemeData instance) =>
+Map<String, dynamic> _$$StacBadgeThemeDataImplToJson(
+        _$StacBadgeThemeDataImpl instance) =>
     <String, dynamic>{
       'backgroundColor': instance.backgroundColor,
       'textColor': instance.textColor,

@@ -6,8 +6,8 @@ part of 'stac_grid_view.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacGridView _$StacGridViewFromJson(Map<String, dynamic> json) =>
-    _StacGridView(
+_$StacGridViewImpl _$$StacGridViewImplFromJson(Map<String, dynamic> json) =>
+    _$StacGridViewImpl(
       scrollDirection:
           $enumDecodeNullable(_$AxisEnumMap, json['scrollDirection']) ??
               Axis.vertical,
@@ -54,7 +54,7 @@ _StacGridView _$StacGridViewFromJson(Map<String, dynamic> json) =>
           Clip.hardEdge,
     );
 
-Map<String, dynamic> _$StacGridViewToJson(_StacGridView instance) =>
+Map<String, dynamic> _$$StacGridViewImplToJson(_$StacGridViewImpl instance) =>
     <String, dynamic>{
       'scrollDirection': _$AxisEnumMap[instance.scrollDirection]!,
       'reverse': instance.reverse,

@@ -6,15 +6,17 @@ part of 'stac_box_constraints.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacBoxConstraints _$StacBoxConstraintsFromJson(Map<String, dynamic> json) =>
-    _StacBoxConstraints(
+_$StacBoxConstraintsImpl _$$StacBoxConstraintsImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacBoxConstraintsImpl(
       minWidth: StacDouble.fromJson(json['minWidth']),
       maxWidth: StacDouble.fromJson(json['maxWidth']),
       minHeight: StacDouble.fromJson(json['minHeight']),
       maxHeight: StacDouble.fromJson(json['maxHeight']),
     );
 
-Map<String, dynamic> _$StacBoxConstraintsToJson(_StacBoxConstraints instance) =>
+Map<String, dynamic> _$$StacBoxConstraintsImplToJson(
+        _$StacBoxConstraintsImpl instance) =>
     <String, dynamic>{
       'minWidth': instance.minWidth,
       'maxWidth': instance.maxWidth,

@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,135 +9,53 @@ part of 'stac_list_tile.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacListTile {
-  Map<String, dynamic>? get onTap;
-  Map<String, dynamic>? get onLongPress;
-  Map<String, dynamic>? get leading;
-  Map<String, dynamic>? get title;
-  Map<String, dynamic>? get subtitle;
-  Map<String, dynamic>? get trailing;
-  bool get isThreeLine;
-  bool? get dense;
-  ListTileStyle? get style;
-  String? get selectedColor;
-  String? get iconColor;
-  String? get textColor;
-  StacEdgeInsets? get contentPadding;
-  bool get enabled;
-  bool get selected;
-  String? get focusColor;
-  String? get hoverColor;
-  bool get autofocus;
-  String? get tileColor;
-  String? get selectedTileColor;
-  bool? get enableFeedback;
-  StacDouble? get horizontalTitleGap;
-  StacDouble? get minVerticalPadding;
-  StacDouble? get minLeadingWidth;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacListTile
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacListTileCopyWith<StacListTile> get copyWith =>
-      _$StacListTileCopyWithImpl<StacListTile>(
-          this as StacListTile, _$identity);
-
-  /// Serializes this StacListTile to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacListTile &&
-            const DeepCollectionEquality().equals(other.onTap, onTap) &&
-            const DeepCollectionEquality()
-                .equals(other.onLongPress, onLongPress) &&
-            const DeepCollectionEquality().equals(other.leading, leading) &&
-            const DeepCollectionEquality().equals(other.title, title) &&
-            const DeepCollectionEquality().equals(other.subtitle, subtitle) &&
-            const DeepCollectionEquality().equals(other.trailing, trailing) &&
-            (identical(other.isThreeLine, isThreeLine) ||
-                other.isThreeLine == isThreeLine) &&
-            (identical(other.dense, dense) || other.dense == dense) &&
-            (identical(other.style, style) || other.style == style) &&
-            (identical(other.selectedColor, selectedColor) ||
-                other.selectedColor == selectedColor) &&
-            (identical(other.iconColor, iconColor) ||
-                other.iconColor == iconColor) &&
-            (identical(other.textColor, textColor) ||
-                other.textColor == textColor) &&
-            (identical(other.contentPadding, contentPadding) ||
-                other.contentPadding == contentPadding) &&
-            (identical(other.enabled, enabled) || other.enabled == enabled) &&
-            (identical(other.selected, selected) ||
-                other.selected == selected) &&
-            (identical(other.focusColor, focusColor) ||
-                other.focusColor == focusColor) &&
-            (identical(other.hoverColor, hoverColor) ||
-                other.hoverColor == hoverColor) &&
-            (identical(other.autofocus, autofocus) ||
-                other.autofocus == autofocus) &&
-            (identical(other.tileColor, tileColor) ||
-                other.tileColor == tileColor) &&
-            (identical(other.selectedTileColor, selectedTileColor) ||
-                other.selectedTileColor == selectedTileColor) &&
-            (identical(other.enableFeedback, enableFeedback) ||
-                other.enableFeedback == enableFeedback) &&
-            (identical(other.horizontalTitleGap, horizontalTitleGap) ||
-                other.horizontalTitleGap == horizontalTitleGap) &&
-            (identical(other.minVerticalPadding, minVerticalPadding) ||
-                other.minVerticalPadding == minVerticalPadding) &&
-            (identical(other.minLeadingWidth, minLeadingWidth) ||
-                other.minLeadingWidth == minLeadingWidth));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hashAll([
-        runtimeType,
-        const DeepCollectionEquality().hash(onTap),
-        const DeepCollectionEquality().hash(onLongPress),
-        const DeepCollectionEquality().hash(leading),
-        const DeepCollectionEquality().hash(title),
-        const DeepCollectionEquality().hash(subtitle),
-        const DeepCollectionEquality().hash(trailing),
-        isThreeLine,
-        dense,
-        style,
-        selectedColor,
-        iconColor,
-        textColor,
-        contentPadding,
-        enabled,
-        selected,
-        focusColor,
-        hoverColor,
-        autofocus,
-        tileColor,
-        selectedTileColor,
-        enableFeedback,
-        horizontalTitleGap,
-        minVerticalPadding,
-        minLeadingWidth
-      ]);
-
-  @override
-  String toString() {
-    return 'StacListTile(onTap: $onTap, onLongPress: $onLongPress, leading: $leading, title: $title, subtitle: $subtitle, trailing: $trailing, isThreeLine: $isThreeLine, dense: $dense, style: $style, selectedColor: $selectedColor, iconColor: $iconColor, textColor: $textColor, contentPadding: $contentPadding, enabled: $enabled, selected: $selected, focusColor: $focusColor, hoverColor: $hoverColor, autofocus: $autofocus, tileColor: $tileColor, selectedTileColor: $selectedTileColor, enableFeedback: $enableFeedback, horizontalTitleGap: $horizontalTitleGap, minVerticalPadding: $minVerticalPadding, minLeadingWidth: $minLeadingWidth)';
-  }
+StacListTile _$StacListTileFromJson(Map<String, dynamic> json) {
+  return _StacListTile.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacListTileCopyWith<$Res> {
+mixin _$StacListTile {
+  Map<String, dynamic>? get onTap => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get onLongPress => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get leading => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get title => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get subtitle => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get trailing => throw _privateConstructorUsedError;
+  bool get isThreeLine => throw _privateConstructorUsedError;
+  bool? get dense => throw _privateConstructorUsedError;
+  ListTileStyle? get style => throw _privateConstructorUsedError;
+  String? get selectedColor => throw _privateConstructorUsedError;
+  String? get iconColor => throw _privateConstructorUsedError;
+  String? get textColor => throw _privateConstructorUsedError;
+  StacEdgeInsets? get contentPadding => throw _privateConstructorUsedError;
+  bool get enabled => throw _privateConstructorUsedError;
+  bool get selected => throw _privateConstructorUsedError;
+  String? get focusColor => throw _privateConstructorUsedError;
+  String? get hoverColor => throw _privateConstructorUsedError;
+  bool get autofocus => throw _privateConstructorUsedError;
+  String? get tileColor => throw _privateConstructorUsedError;
+  String? get selectedTileColor => throw _privateConstructorUsedError;
+  bool? get enableFeedback => throw _privateConstructorUsedError;
+  StacDouble? get horizontalTitleGap => throw _privateConstructorUsedError;
+  StacDouble? get minVerticalPadding => throw _privateConstructorUsedError;
+  StacDouble? get minLeadingWidth => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacListTileCopyWith<StacListTile> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacListTileCopyWith<$Res> {
   factory $StacListTileCopyWith(
-          StacListTile value, $Res Function(StacListTile) _then) =
-      _$StacListTileCopyWithImpl;
+          StacListTile value, $Res Function(StacListTile) then) =
+      _$StacListTileCopyWithImpl<$Res, StacListTile>;
   @useResult
   $Res call(
       {Map<String, dynamic>? onTap,
@@ -170,14 +87,15 @@ abstract mixin class $StacListTileCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacListTileCopyWithImpl<$Res> implements $StacListTileCopyWith<$Res> {
-  _$StacListTileCopyWithImpl(this._self, this._then);
+class _$StacListTileCopyWithImpl<$Res, $Val extends StacListTile>
+    implements $StacListTileCopyWith<$Res> {
+  _$StacListTileCopyWithImpl(this._value, this._then);
 
-  final StacListTile _self;
-  final $Res Function(StacListTile) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacListTile
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -206,125 +124,298 @@ class _$StacListTileCopyWithImpl<$Res> implements $StacListTileCopyWith<$Res> {
     Object? minVerticalPadding = freezed,
     Object? minLeadingWidth = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       onTap: freezed == onTap
-          ? _self.onTap
+          ? _value.onTap
           : onTap // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onLongPress: freezed == onLongPress
-          ? _self.onLongPress
+          ? _value.onLongPress
           : onLongPress // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       leading: freezed == leading
-          ? _self.leading
+          ? _value.leading
           : leading // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       title: freezed == title
-          ? _self.title
+          ? _value.title
           : title // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       subtitle: freezed == subtitle
-          ? _self.subtitle
+          ? _value.subtitle
           : subtitle // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       trailing: freezed == trailing
-          ? _self.trailing
+          ? _value.trailing
           : trailing // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       isThreeLine: null == isThreeLine
-          ? _self.isThreeLine
+          ? _value.isThreeLine
           : isThreeLine // ignore: cast_nullable_to_non_nullable
               as bool,
       dense: freezed == dense
-          ? _self.dense
+          ? _value.dense
           : dense // ignore: cast_nullable_to_non_nullable
               as bool?,
       style: freezed == style
-          ? _self.style
+          ? _value.style
           : style // ignore: cast_nullable_to_non_nullable
               as ListTileStyle?,
       selectedColor: freezed == selectedColor
-          ? _self.selectedColor
+          ? _value.selectedColor
           : selectedColor // ignore: cast_nullable_to_non_nullable
               as String?,
       iconColor: freezed == iconColor
-          ? _self.iconColor
+          ? _value.iconColor
           : iconColor // ignore: cast_nullable_to_non_nullable
               as String?,
       textColor: freezed == textColor
-          ? _self.textColor
+          ? _value.textColor
           : textColor // ignore: cast_nullable_to_non_nullable
               as String?,
       contentPadding: freezed == contentPadding
-          ? _self.contentPadding
+          ? _value.contentPadding
           : contentPadding // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets?,
       enabled: null == enabled
-          ? _self.enabled
+          ? _value.enabled
           : enabled // ignore: cast_nullable_to_non_nullable
               as bool,
       selected: null == selected
-          ? _self.selected
+          ? _value.selected
           : selected // ignore: cast_nullable_to_non_nullable
               as bool,
       focusColor: freezed == focusColor
-          ? _self.focusColor
+          ? _value.focusColor
           : focusColor // ignore: cast_nullable_to_non_nullable
               as String?,
       hoverColor: freezed == hoverColor
-          ? _self.hoverColor
+          ? _value.hoverColor
           : hoverColor // ignore: cast_nullable_to_non_nullable
               as String?,
       autofocus: null == autofocus
-          ? _self.autofocus
+          ? _value.autofocus
           : autofocus // ignore: cast_nullable_to_non_nullable
               as bool,
       tileColor: freezed == tileColor
-          ? _self.tileColor
+          ? _value.tileColor
           : tileColor // ignore: cast_nullable_to_non_nullable
               as String?,
       selectedTileColor: freezed == selectedTileColor
-          ? _self.selectedTileColor
+          ? _value.selectedTileColor
           : selectedTileColor // ignore: cast_nullable_to_non_nullable
               as String?,
       enableFeedback: freezed == enableFeedback
-          ? _self.enableFeedback
+          ? _value.enableFeedback
           : enableFeedback // ignore: cast_nullable_to_non_nullable
               as bool?,
       horizontalTitleGap: freezed == horizontalTitleGap
-          ? _self.horizontalTitleGap
+          ? _value.horizontalTitleGap
           : horizontalTitleGap // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       minVerticalPadding: freezed == minVerticalPadding
-          ? _self.minVerticalPadding
+          ? _value.minVerticalPadding
           : minVerticalPadding // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       minLeadingWidth: freezed == minLeadingWidth
-          ? _self.minLeadingWidth
+          ? _value.minLeadingWidth
           : minLeadingWidth // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacListTile
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacEdgeInsetsCopyWith<$Res>? get contentPadding {
-    if (_self.contentPadding == null) {
+    if (_value.contentPadding == null) {
       return null;
     }
 
-    return $StacEdgeInsetsCopyWith<$Res>(_self.contentPadding!, (value) {
-      return _then(_self.copyWith(contentPadding: value));
+    return $StacEdgeInsetsCopyWith<$Res>(_value.contentPadding!, (value) {
+      return _then(_value.copyWith(contentPadding: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacListTileImplCopyWith<$Res>
+    implements $StacListTileCopyWith<$Res> {
+  factory _$$StacListTileImplCopyWith(
+          _$StacListTileImpl value, $Res Function(_$StacListTileImpl) then) =
+      __$$StacListTileImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {Map<String, dynamic>? onTap,
+      Map<String, dynamic>? onLongPress,
+      Map<String, dynamic>? leading,
+      Map<String, dynamic>? title,
+      Map<String, dynamic>? subtitle,
+      Map<String, dynamic>? trailing,
+      bool isThreeLine,
+      bool? dense,
+      ListTileStyle? style,
+      String? selectedColor,
+      String? iconColor,
+      String? textColor,
+      StacEdgeInsets? contentPadding,
+      bool enabled,
+      bool selected,
+      String? focusColor,
+      String? hoverColor,
+      bool autofocus,
+      String? tileColor,
+      String? selectedTileColor,
+      bool? enableFeedback,
+      StacDouble? horizontalTitleGap,
+      StacDouble? minVerticalPadding,
+      StacDouble? minLeadingWidth});
+
+  @override
+  $StacEdgeInsetsCopyWith<$Res>? get contentPadding;
+}
+
+/// @nodoc
+class __$$StacListTileImplCopyWithImpl<$Res>
+    extends _$StacListTileCopyWithImpl<$Res, _$StacListTileImpl>
+    implements _$$StacListTileImplCopyWith<$Res> {
+  __$$StacListTileImplCopyWithImpl(
+      _$StacListTileImpl _value, $Res Function(_$StacListTileImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? onTap = freezed,
+    Object? onLongPress = freezed,
+    Object? leading = freezed,
+    Object? title = freezed,
+    Object? subtitle = freezed,
+    Object? trailing = freezed,
+    Object? isThreeLine = null,
+    Object? dense = freezed,
+    Object? style = freezed,
+    Object? selectedColor = freezed,
+    Object? iconColor = freezed,
+    Object? textColor = freezed,
+    Object? contentPadding = freezed,
+    Object? enabled = null,
+    Object? selected = null,
+    Object? focusColor = freezed,
+    Object? hoverColor = freezed,
+    Object? autofocus = null,
+    Object? tileColor = freezed,
+    Object? selectedTileColor = freezed,
+    Object? enableFeedback = freezed,
+    Object? horizontalTitleGap = freezed,
+    Object? minVerticalPadding = freezed,
+    Object? minLeadingWidth = freezed,
+  }) {
+    return _then(_$StacListTileImpl(
+      onTap: freezed == onTap
+          ? _value._onTap
+          : onTap // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onLongPress: freezed == onLongPress
+          ? _value._onLongPress
+          : onLongPress // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      leading: freezed == leading
+          ? _value._leading
+          : leading // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      title: freezed == title
+          ? _value._title
+          : title // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      subtitle: freezed == subtitle
+          ? _value._subtitle
+          : subtitle // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      trailing: freezed == trailing
+          ? _value._trailing
+          : trailing // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      isThreeLine: null == isThreeLine
+          ? _value.isThreeLine
+          : isThreeLine // ignore: cast_nullable_to_non_nullable
+              as bool,
+      dense: freezed == dense
+          ? _value.dense
+          : dense // ignore: cast_nullable_to_non_nullable
+              as bool?,
+      style: freezed == style
+          ? _value.style
+          : style // ignore: cast_nullable_to_non_nullable
+              as ListTileStyle?,
+      selectedColor: freezed == selectedColor
+          ? _value.selectedColor
+          : selectedColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      iconColor: freezed == iconColor
+          ? _value.iconColor
+          : iconColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      textColor: freezed == textColor
+          ? _value.textColor
+          : textColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      contentPadding: freezed == contentPadding
+          ? _value.contentPadding
+          : contentPadding // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets?,
+      enabled: null == enabled
+          ? _value.enabled
+          : enabled // ignore: cast_nullable_to_non_nullable
+              as bool,
+      selected: null == selected
+          ? _value.selected
+          : selected // ignore: cast_nullable_to_non_nullable
+              as bool,
+      focusColor: freezed == focusColor
+          ? _value.focusColor
+          : focusColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      hoverColor: freezed == hoverColor
+          ? _value.hoverColor
+          : hoverColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      autofocus: null == autofocus
+          ? _value.autofocus
+          : autofocus // ignore: cast_nullable_to_non_nullable
+              as bool,
+      tileColor: freezed == tileColor
+          ? _value.tileColor
+          : tileColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      selectedTileColor: freezed == selectedTileColor
+          ? _value.selectedTileColor
+          : selectedTileColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      enableFeedback: freezed == enableFeedback
+          ? _value.enableFeedback
+          : enableFeedback // ignore: cast_nullable_to_non_nullable
+              as bool?,
+      horizontalTitleGap: freezed == horizontalTitleGap
+          ? _value.horizontalTitleGap
+          : horizontalTitleGap // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      minVerticalPadding: freezed == minVerticalPadding
+          ? _value.minVerticalPadding
+          : minVerticalPadding // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      minLeadingWidth: freezed == minLeadingWidth
+          ? _value.minLeadingWidth
+          : minLeadingWidth // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacListTile implements StacListTile {
-  const _StacListTile(
+class _$StacListTileImpl implements _StacListTile {
+  const _$StacListTileImpl(
       {final Map<String, dynamic>? onTap,
       final Map<String, dynamic>? onLongPress,
       final Map<String, dynamic>? leading,
@@ -355,8 +446,9 @@ class _StacListTile implements StacListTile {
         _title = title,
         _subtitle = subtitle,
         _trailing = trailing;
-  factory _StacListTile.fromJson(Map<String, dynamic> json) =>
-      _$StacListTileFromJson(json);
+
+  factory _$StacListTileImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacListTileImplFromJson(json);
 
   final Map<String, dynamic>? _onTap;
   @override
@@ -459,26 +551,16 @@ class _StacListTile implements StacListTile {
   @override
   final StacDouble? minLeadingWidth;
 
-  /// Create a copy of StacListTile
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacListTileCopyWith<_StacListTile> get copyWith =>
-      __$StacListTileCopyWithImpl<_StacListTile>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacListTileToJson(
-      this,
-    );
+  String toString() {
+    return 'StacListTile(onTap: $onTap, onLongPress: $onLongPress, leading: $leading, title: $title, subtitle: $subtitle, trailing: $trailing, isThreeLine: $isThreeLine, dense: $dense, style: $style, selectedColor: $selectedColor, iconColor: $iconColor, textColor: $textColor, contentPadding: $contentPadding, enabled: $enabled, selected: $selected, focusColor: $focusColor, hoverColor: $hoverColor, autofocus: $autofocus, tileColor: $tileColor, selectedTileColor: $selectedTileColor, enableFeedback: $enableFeedback, horizontalTitleGap: $horizontalTitleGap, minVerticalPadding: $minVerticalPadding, minLeadingWidth: $minLeadingWidth)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacListTile &&
+            other is _$StacListTileImpl &&
             const DeepCollectionEquality().equals(other._onTap, _onTap) &&
             const DeepCollectionEquality()
                 .equals(other._onLongPress, _onLongPress) &&
@@ -521,7 +603,7 @@ class _StacListTile implements StacListTile {
                 other.minLeadingWidth == minLeadingWidth));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hashAll([
         runtimeType,
@@ -551,201 +633,100 @@ class _StacListTile implements StacListTile {
         minLeadingWidth
       ]);
 
-  @override
-  String toString() {
-    return 'StacListTile(onTap: $onTap, onLongPress: $onLongPress, leading: $leading, title: $title, subtitle: $subtitle, trailing: $trailing, isThreeLine: $isThreeLine, dense: $dense, style: $style, selectedColor: $selectedColor, iconColor: $iconColor, textColor: $textColor, contentPadding: $contentPadding, enabled: $enabled, selected: $selected, focusColor: $focusColor, hoverColor: $hoverColor, autofocus: $autofocus, tileColor: $tileColor, selectedTileColor: $selectedTileColor, enableFeedback: $enableFeedback, horizontalTitleGap: $horizontalTitleGap, minVerticalPadding: $minVerticalPadding, minLeadingWidth: $minLeadingWidth)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacListTileCopyWith<$Res>
-    implements $StacListTileCopyWith<$Res> {
-  factory _$StacListTileCopyWith(
-          _StacListTile value, $Res Function(_StacListTile) _then) =
-      __$StacListTileCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {Map<String, dynamic>? onTap,
-      Map<String, dynamic>? onLongPress,
-      Map<String, dynamic>? leading,
-      Map<String, dynamic>? title,
-      Map<String, dynamic>? subtitle,
-      Map<String, dynamic>? trailing,
-      bool isThreeLine,
-      bool? dense,
-      ListTileStyle? style,
-      String? selectedColor,
-      String? iconColor,
-      String? textColor,
-      StacEdgeInsets? contentPadding,
-      bool enabled,
-      bool selected,
-      String? focusColor,
-      String? hoverColor,
-      bool autofocus,
-      String? tileColor,
-      String? selectedTileColor,
-      bool? enableFeedback,
-      StacDouble? horizontalTitleGap,
-      StacDouble? minVerticalPadding,
-      StacDouble? minLeadingWidth});
-
-  @override
-  $StacEdgeInsetsCopyWith<$Res>? get contentPadding;
-}
-
-/// @nodoc
-class __$StacListTileCopyWithImpl<$Res>
-    implements _$StacListTileCopyWith<$Res> {
-  __$StacListTileCopyWithImpl(this._self, this._then);
-
-  final _StacListTile _self;
-  final $Res Function(_StacListTile) _then;
-
-  /// Create a copy of StacListTile
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? onTap = freezed,
-    Object? onLongPress = freezed,
-    Object? leading = freezed,
-    Object? title = freezed,
-    Object? subtitle = freezed,
-    Object? trailing = freezed,
-    Object? isThreeLine = null,
-    Object? dense = freezed,
-    Object? style = freezed,
-    Object? selectedColor = freezed,
-    Object? iconColor = freezed,
-    Object? textColor = freezed,
-    Object? contentPadding = freezed,
-    Object? enabled = null,
-    Object? selected = null,
-    Object? focusColor = freezed,
-    Object? hoverColor = freezed,
-    Object? autofocus = null,
-    Object? tileColor = freezed,
-    Object? selectedTileColor = freezed,
-    Object? enableFeedback = freezed,
-    Object? horizontalTitleGap = freezed,
-    Object? minVerticalPadding = freezed,
-    Object? minLeadingWidth = freezed,
-  }) {
-    return _then(_StacListTile(
-      onTap: freezed == onTap
-          ? _self._onTap
-          : onTap // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onLongPress: freezed == onLongPress
-          ? _self._onLongPress
-          : onLongPress // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      leading: freezed == leading
-          ? _self._leading
-          : leading // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      title: freezed == title
-          ? _self._title
-          : title // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      subtitle: freezed == subtitle
-          ? _self._subtitle
-          : subtitle // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      trailing: freezed == trailing
-          ? _self._trailing
-          : trailing // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      isThreeLine: null == isThreeLine
-          ? _self.isThreeLine
-          : isThreeLine // ignore: cast_nullable_to_non_nullable
-              as bool,
-      dense: freezed == dense
-          ? _self.dense
-          : dense // ignore: cast_nullable_to_non_nullable
-              as bool?,
-      style: freezed == style
-          ? _self.style
-          : style // ignore: cast_nullable_to_non_nullable
-              as ListTileStyle?,
-      selectedColor: freezed == selectedColor
-          ? _self.selectedColor
-          : selectedColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      iconColor: freezed == iconColor
-          ? _self.iconColor
-          : iconColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      textColor: freezed == textColor
-          ? _self.textColor
-          : textColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      contentPadding: freezed == contentPadding
-          ? _self.contentPadding
-          : contentPadding // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets?,
-      enabled: null == enabled
-          ? _self.enabled
-          : enabled // ignore: cast_nullable_to_non_nullable
-              as bool,
-      selected: null == selected
-          ? _self.selected
-          : selected // ignore: cast_nullable_to_non_nullable
-              as bool,
-      focusColor: freezed == focusColor
-          ? _self.focusColor
-          : focusColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      hoverColor: freezed == hoverColor
-          ? _self.hoverColor
-          : hoverColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      autofocus: null == autofocus
-          ? _self.autofocus
-          : autofocus // ignore: cast_nullable_to_non_nullable
-              as bool,
-      tileColor: freezed == tileColor
-          ? _self.tileColor
-          : tileColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      selectedTileColor: freezed == selectedTileColor
-          ? _self.selectedTileColor
-          : selectedTileColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      enableFeedback: freezed == enableFeedback
-          ? _self.enableFeedback
-          : enableFeedback // ignore: cast_nullable_to_non_nullable
-              as bool?,
-      horizontalTitleGap: freezed == horizontalTitleGap
-          ? _self.horizontalTitleGap
-          : horizontalTitleGap // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      minVerticalPadding: freezed == minVerticalPadding
-          ? _self.minVerticalPadding
-          : minVerticalPadding // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      minLeadingWidth: freezed == minLeadingWidth
-          ? _self.minLeadingWidth
-          : minLeadingWidth // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-    ));
-  }
+  _$$StacListTileImplCopyWith<_$StacListTileImpl> get copyWith =>
+      __$$StacListTileImplCopyWithImpl<_$StacListTileImpl>(this, _$identity);
 
-  /// Create a copy of StacListTile
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @pragma('vm:prefer-inline')
-  $StacEdgeInsetsCopyWith<$Res>? get contentPadding {
-    if (_self.contentPadding == null) {
-      return null;
-    }
-
-    return $StacEdgeInsetsCopyWith<$Res>(_self.contentPadding!, (value) {
-      return _then(_self.copyWith(contentPadding: value));
-    });
+  Map<String, dynamic> toJson() {
+    return _$$StacListTileImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacListTile implements StacListTile {
+  const factory _StacListTile(
+      {final Map<String, dynamic>? onTap,
+      final Map<String, dynamic>? onLongPress,
+      final Map<String, dynamic>? leading,
+      final Map<String, dynamic>? title,
+      final Map<String, dynamic>? subtitle,
+      final Map<String, dynamic>? trailing,
+      final bool isThreeLine,
+      final bool? dense,
+      final ListTileStyle? style,
+      final String? selectedColor,
+      final String? iconColor,
+      final String? textColor,
+      final StacEdgeInsets? contentPadding,
+      final bool enabled,
+      final bool selected,
+      final String? focusColor,
+      final String? hoverColor,
+      final bool autofocus,
+      final String? tileColor,
+      final String? selectedTileColor,
+      final bool? enableFeedback,
+      final StacDouble? horizontalTitleGap,
+      final StacDouble? minVerticalPadding,
+      final StacDouble? minLeadingWidth}) = _$StacListTileImpl;
+
+  factory _StacListTile.fromJson(Map<String, dynamic> json) =
+      _$StacListTileImpl.fromJson;
+
+  @override
+  Map<String, dynamic>? get onTap;
+  @override
+  Map<String, dynamic>? get onLongPress;
+  @override
+  Map<String, dynamic>? get leading;
+  @override
+  Map<String, dynamic>? get title;
+  @override
+  Map<String, dynamic>? get subtitle;
+  @override
+  Map<String, dynamic>? get trailing;
+  @override
+  bool get isThreeLine;
+  @override
+  bool? get dense;
+  @override
+  ListTileStyle? get style;
+  @override
+  String? get selectedColor;
+  @override
+  String? get iconColor;
+  @override
+  String? get textColor;
+  @override
+  StacEdgeInsets? get contentPadding;
+  @override
+  bool get enabled;
+  @override
+  bool get selected;
+  @override
+  String? get focusColor;
+  @override
+  String? get hoverColor;
+  @override
+  bool get autofocus;
+  @override
+  String? get tileColor;
+  @override
+  String? get selectedTileColor;
+  @override
+  bool? get enableFeedback;
+  @override
+  StacDouble? get horizontalTitleGap;
+  @override
+  StacDouble? get minVerticalPadding;
+  @override
+  StacDouble? get minLeadingWidth;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacListTileImplCopyWith<_$StacListTileImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

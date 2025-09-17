@@ -6,8 +6,9 @@ part of 'stac_dialog_theme.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacDialogTheme _$StacDialogThemeFromJson(Map<String, dynamic> json) =>
-    _StacDialogTheme(
+_$StacDialogThemeImpl _$$StacDialogThemeImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacDialogThemeImpl(
       backgroundColor: json['backgroundColor'] as String?,
       elevation: (json['elevation'] as num?)?.toDouble(),
       shadowColor: json['shadowColor'] as String?,
@@ -31,7 +32,8 @@ _StacDialogTheme _$StacDialogThemeFromJson(Map<String, dynamic> json) =>
       iconColor: json['iconColor'] as String?,
     );
 
-Map<String, dynamic> _$StacDialogThemeToJson(_StacDialogTheme instance) =>
+Map<String, dynamic> _$$StacDialogThemeImplToJson(
+        _$StacDialogThemeImpl instance) =>
     <String, dynamic>{
       'backgroundColor': instance.backgroundColor,
       'elevation': instance.elevation,

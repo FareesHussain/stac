@@ -6,15 +6,15 @@ part of 'stac_form_validator.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacFormFieldValidator _$StacFormFieldValidatorFromJson(
+_$StacFormFieldValidatorImpl _$$StacFormFieldValidatorImplFromJson(
         Map<String, dynamic> json) =>
-    _StacFormFieldValidator(
+    _$StacFormFieldValidatorImpl(
       rule: json['rule'] as String,
       message: json['message'] as String?,
     );
 
-Map<String, dynamic> _$StacFormFieldValidatorToJson(
-        _StacFormFieldValidator instance) =>
+Map<String, dynamic> _$$StacFormFieldValidatorImplToJson(
+        _$StacFormFieldValidatorImpl instance) =>
     <String, dynamic>{
       'rule': instance.rule,
       'message': instance.message,

@@ -6,8 +6,9 @@ part of 'stac_icon_theme_data.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacIconThemeData _$StacIconThemeDataFromJson(Map<String, dynamic> json) =>
-    _StacIconThemeData(
+_$StacIconThemeDataImpl _$$StacIconThemeDataImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacIconThemeDataImpl(
       size: (json['size'] as num?)?.toDouble(),
       fill: (json['fill'] as num?)?.toDouble(),
       weight: (json['weight'] as num?)?.toDouble(),
@@ -20,7 +21,8 @@ _StacIconThemeData _$StacIconThemeDataFromJson(Map<String, dynamic> json) =>
           .toList(),
     );
 
-Map<String, dynamic> _$StacIconThemeDataToJson(_StacIconThemeData instance) =>
+Map<String, dynamic> _$$StacIconThemeDataImplToJson(
+        _$StacIconThemeDataImpl instance) =>
     <String, dynamic>{
       'size': instance.size,
       'fill': instance.fill,

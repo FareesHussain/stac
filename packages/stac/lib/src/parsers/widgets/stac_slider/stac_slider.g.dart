@@ -6,7 +6,8 @@ part of 'stac_slider.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacSlider _$StacSliderFromJson(Map<String, dynamic> json) => _StacSlider(
+_$StacSliderImpl _$$StacSliderImplFromJson(Map<String, dynamic> json) =>
+    _$StacSliderImpl(
       id: json['id'] as String?,
       sliderType:
           $enumDecodeNullable(_$StacSliderTypeEnumMap, json['sliderType']) ??
@@ -38,7 +39,7 @@ _StacSlider _$StacSliderFromJson(Map<String, dynamic> json) => _StacSlider(
           _$SliderInteractionEnumMap, json['allowedInteraction']),
     );
 
-Map<String, dynamic> _$StacSliderToJson(_StacSlider instance) =>
+Map<String, dynamic> _$$StacSliderImplToJson(_$StacSliderImpl instance) =>
     <String, dynamic>{
       'id': instance.id,
       'sliderType': _$StacSliderTypeEnumMap[instance.sliderType]!,

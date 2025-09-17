@@ -6,8 +6,8 @@ part of 'stac_clip_rrect.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacClipRRect _$StacClipRRectFromJson(Map<String, dynamic> json) =>
-    _StacClipRRect(
+_$StacClipRRectImpl _$$StacClipRRectImplFromJson(Map<String, dynamic> json) =>
+    _$StacClipRRectImpl(
       borderRadius: json['borderRadius'] == null
           ? const StacBorderRadius()
           : StacBorderRadius.fromJson(json['borderRadius']),
@@ -16,7 +16,7 @@ _StacClipRRect _$StacClipRRectFromJson(Map<String, dynamic> json) =>
       child: json['child'] as Map<String, dynamic>?,
     );
 
-Map<String, dynamic> _$StacClipRRectToJson(_StacClipRRect instance) =>
+Map<String, dynamic> _$$StacClipRRectImplToJson(_$StacClipRRectImpl instance) =>
     <String, dynamic>{
       'borderRadius': instance.borderRadius,
       'clipBehavior': _$ClipEnumMap[instance.clipBehavior]!,

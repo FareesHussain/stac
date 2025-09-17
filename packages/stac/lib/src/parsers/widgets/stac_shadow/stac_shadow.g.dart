@@ -6,7 +6,8 @@ part of 'stac_shadow.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacShadow _$StacShadowFromJson(Map<String, dynamic> json) => _StacShadow(
+_$StacShadowImpl _$$StacShadowImplFromJson(Map<String, dynamic> json) =>
+    _$StacShadowImpl(
       color: json['color'] as String? ?? '#000000',
       offset: json['offset'] == null
           ? const StacOffset(dx: StacDouble.zero, dy: StacDouble.zero)
@@ -16,7 +17,7 @@ _StacShadow _$StacShadowFromJson(Map<String, dynamic> json) => _StacShadow(
           : StacDouble.fromJson(json['blurRadius']),
     );
 
-Map<String, dynamic> _$StacShadowToJson(_StacShadow instance) =>
+Map<String, dynamic> _$$StacShadowImplToJson(_$StacShadowImpl instance) =>
     <String, dynamic>{
       'color': instance.color,
       'offset': instance.offset,

@@ -6,8 +6,8 @@ part of 'stac_edge_insets.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacEdgeInsets _$StacEdgeInsetsFromJson(Map<String, dynamic> json) =>
-    _StacEdgeInsets(
+_$StacEdgeInsetsImpl _$$StacEdgeInsetsImplFromJson(Map<String, dynamic> json) =>
+    _$StacEdgeInsetsImpl(
       left: json['left'] == null ? null : StacDouble.fromJson(json['left']),
       top: json['top'] == null ? null : StacDouble.fromJson(json['top']),
       right: json['right'] == null ? null : StacDouble.fromJson(json['right']),
@@ -15,7 +15,8 @@ _StacEdgeInsets _$StacEdgeInsetsFromJson(Map<String, dynamic> json) =>
           json['bottom'] == null ? null : StacDouble.fromJson(json['bottom']),
     );
 
-Map<String, dynamic> _$StacEdgeInsetsToJson(_StacEdgeInsets instance) =>
+Map<String, dynamic> _$$StacEdgeInsetsImplToJson(
+        _$StacEdgeInsetsImpl instance) =>
     <String, dynamic>{
       'left': instance.left,
       'top': instance.top,

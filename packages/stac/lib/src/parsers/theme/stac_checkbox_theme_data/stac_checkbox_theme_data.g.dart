@@ -6,9 +6,9 @@ part of 'stac_checkbox_theme_data.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacCheckboxThemeData _$StacCheckboxThemeDataFromJson(
+_$StacCheckboxThemeDataImpl _$$StacCheckboxThemeDataImplFromJson(
         Map<String, dynamic> json) =>
-    _StacCheckboxThemeData(
+    _$StacCheckboxThemeDataImpl(
       mouseCursor:
           $enumDecodeNullable(_$StacMouseCursorEnumMap, json['mouseCursor']),
       fillColor: json['fillColor'] as String?,
@@ -30,8 +30,8 @@ _StacCheckboxThemeData _$StacCheckboxThemeDataFromJson(
           : StacBorderSide.fromJson(json['side'] as Map<String, dynamic>),
     );
 
-Map<String, dynamic> _$StacCheckboxThemeDataToJson(
-        _StacCheckboxThemeData instance) =>
+Map<String, dynamic> _$$StacCheckboxThemeDataImplToJson(
+        _$StacCheckboxThemeDataImpl instance) =>
     <String, dynamic>{
       'mouseCursor': _$StacMouseCursorEnumMap[instance.mouseCursor],
       'fillColor': instance.fillColor,

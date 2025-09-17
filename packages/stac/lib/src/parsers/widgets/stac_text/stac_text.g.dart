@@ -6,7 +6,8 @@ part of 'stac_text.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacText _$StacTextFromJson(Map<String, dynamic> json) => _StacText(
+_$StacTextImpl _$$StacTextImplFromJson(Map<String, dynamic> json) =>
+    _$StacTextImpl(
       data: json['data'] as String,
       children: (json['children'] as List<dynamic>?)
               ?.map((e) => StacTextSpan.fromJson(e as Map<String, dynamic>))
@@ -32,7 +33,8 @@ _StacText _$StacTextFromJson(Map<String, dynamic> json) => _StacText(
           : StacTextStyle.fromJson(json['copyWithStyle']),
     );
 
-Map<String, dynamic> _$StacTextToJson(_StacText instance) => <String, dynamic>{
+Map<String, dynamic> _$$StacTextImplToJson(_$StacTextImpl instance) =>
+    <String, dynamic>{
       'data': instance.data,
       'children': instance.children,
       'style': instance.style,
@@ -74,8 +76,8 @@ const _$TextWidthBasisEnumMap = {
   TextWidthBasis.longestLine: 'longestLine',
 };
 
-_StacTextSpan _$StacTextSpanFromJson(Map<String, dynamic> json) =>
-    _StacTextSpan(
+_$StacTextSpanImpl _$$StacTextSpanImplFromJson(Map<String, dynamic> json) =>
+    _$StacTextSpanImpl(
       data: json['data'] as String?,
       style:
           json['style'] == null ? null : StacTextStyle.fromJson(json['style']),
@@ -85,7 +87,7 @@ _StacTextSpan _$StacTextSpanFromJson(Map<String, dynamic> json) =>
       onTap: json['onTap'] as Map<String, dynamic>?,
     );
 
-Map<String, dynamic> _$StacTextSpanToJson(_StacTextSpan instance) =>
+Map<String, dynamic> _$$StacTextSpanImplToJson(_$StacTextSpanImpl instance) =>
     <String, dynamic>{
       'data': instance.data,
       'style': instance.style,

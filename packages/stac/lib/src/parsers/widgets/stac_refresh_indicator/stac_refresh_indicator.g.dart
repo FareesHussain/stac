@@ -6,9 +6,9 @@ part of 'stac_refresh_indicator.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacRefreshIndicator _$StacRefreshIndicatorFromJson(
+_$StacRefreshIndicatorImpl _$$StacRefreshIndicatorImplFromJson(
         Map<String, dynamic> json) =>
-    _StacRefreshIndicator(
+    _$StacRefreshIndicatorImpl(
       child: json['child'] as Map<String, dynamic>?,
       displacement: json['displacement'] == null
           ? const StacDouble(40)
@@ -29,8 +29,8 @@ _StacRefreshIndicator _$StacRefreshIndicatorFromJson(
           RefreshIndicatorTriggerMode.onEdge,
     );
 
-Map<String, dynamic> _$StacRefreshIndicatorToJson(
-        _StacRefreshIndicator instance) =>
+Map<String, dynamic> _$$StacRefreshIndicatorImplToJson(
+        _$StacRefreshIndicatorImpl instance) =>
     <String, dynamic>{
       'child': instance.child,
       'displacement': instance.displacement,

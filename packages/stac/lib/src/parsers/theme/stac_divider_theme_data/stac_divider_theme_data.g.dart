@@ -6,9 +6,9 @@ part of 'stac_divider_theme_data.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacDividerThemeData _$StacDividerThemeDataFromJson(
+_$StacDividerThemeDataImpl _$$StacDividerThemeDataImplFromJson(
         Map<String, dynamic> json) =>
-    _StacDividerThemeData(
+    _$StacDividerThemeDataImpl(
       color: json['color'] as String?,
       space: (json['space'] as num?)?.toDouble(),
       thickness: (json['thickness'] as num?)?.toDouble(),
@@ -16,8 +16,8 @@ _StacDividerThemeData _$StacDividerThemeDataFromJson(
       endIndent: (json['endIndent'] as num?)?.toDouble(),
     );
 
-Map<String, dynamic> _$StacDividerThemeDataToJson(
-        _StacDividerThemeData instance) =>
+Map<String, dynamic> _$$StacDividerThemeDataImplToJson(
+        _$StacDividerThemeDataImpl instance) =>
     <String, dynamic>{
       'color': instance.color,
       'space': instance.space,

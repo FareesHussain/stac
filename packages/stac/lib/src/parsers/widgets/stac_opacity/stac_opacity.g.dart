@@ -6,12 +6,13 @@ part of 'stac_opacity.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacOpacity _$StacOpacityFromJson(Map<String, dynamic> json) => _StacOpacity(
+_$StacOpacityImpl _$$StacOpacityImplFromJson(Map<String, dynamic> json) =>
+    _$StacOpacityImpl(
       opacity: StacDouble.fromJson(json['opacity']),
       child: json['child'] as Map<String, dynamic>,
     );
 
-Map<String, dynamic> _$StacOpacityToJson(_StacOpacity instance) =>
+Map<String, dynamic> _$$StacOpacityImplToJson(_$StacOpacityImpl instance) =>
     <String, dynamic>{
       'opacity': instance.opacity,
       'child': instance.child,

@@ -6,15 +6,15 @@ part of 'stac_alignment_geometry.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacAlignmentGeometry _$StacAlignmentGeometryFromJson(
+_$StacAlignmentGeometryImpl _$$StacAlignmentGeometryImplFromJson(
         Map<String, dynamic> json) =>
-    _StacAlignmentGeometry(
+    _$StacAlignmentGeometryImpl(
       dx: StacDouble.fromJson(json['dx']),
       dy: StacDouble.fromJson(json['dy']),
     );
 
-Map<String, dynamic> _$StacAlignmentGeometryToJson(
-        _StacAlignmentGeometry instance) =>
+Map<String, dynamic> _$$StacAlignmentGeometryImplToJson(
+        _$StacAlignmentGeometryImpl instance) =>
     <String, dynamic>{
       'dx': instance.dx,
       'dy': instance.dy,

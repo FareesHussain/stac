@@ -6,7 +6,8 @@ part of 'stac_drawer.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacDrawer _$StacDrawerFromJson(Map<String, dynamic> json) => _StacDrawer(
+_$StacDrawerImpl _$$StacDrawerImplFromJson(Map<String, dynamic> json) =>
+    _$StacDrawerImpl(
       backgroundColor: json['backgroundColor'] as String?,
       elevation: json['elevation'] == null
           ? null
@@ -22,7 +23,7 @@ _StacDrawer _$StacDrawerFromJson(Map<String, dynamic> json) => _StacDrawer(
       clipBehavior: $enumDecodeNullable(_$ClipEnumMap, json['clipBehavior']),
     );
 
-Map<String, dynamic> _$StacDrawerToJson(_StacDrawer instance) =>
+Map<String, dynamic> _$$StacDrawerImplToJson(_$StacDrawerImpl instance) =>
     <String, dynamic>{
       'backgroundColor': instance.backgroundColor,
       'elevation': instance.elevation,

@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,64 +9,46 @@ part of 'stac_divider.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacDivider {
-  StacDouble? get thickness;
-  StacDouble? get height;
-  String? get color;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacDivider
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacDividerCopyWith<StacDivider> get copyWith =>
-      _$StacDividerCopyWithImpl<StacDivider>(this as StacDivider, _$identity);
-
-  /// Serializes this StacDivider to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacDivider &&
-            (identical(other.thickness, thickness) ||
-                other.thickness == thickness) &&
-            (identical(other.height, height) || other.height == height) &&
-            (identical(other.color, color) || other.color == color));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(runtimeType, thickness, height, color);
-
-  @override
-  String toString() {
-    return 'StacDivider(thickness: $thickness, height: $height, color: $color)';
-  }
+StacDivider _$StacDividerFromJson(Map<String, dynamic> json) {
+  return _StacDivider.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacDividerCopyWith<$Res> {
+mixin _$StacDivider {
+  StacDouble? get thickness => throw _privateConstructorUsedError;
+  StacDouble? get height => throw _privateConstructorUsedError;
+  String? get color => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacDividerCopyWith<StacDivider> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacDividerCopyWith<$Res> {
   factory $StacDividerCopyWith(
-          StacDivider value, $Res Function(StacDivider) _then) =
-      _$StacDividerCopyWithImpl;
+          StacDivider value, $Res Function(StacDivider) then) =
+      _$StacDividerCopyWithImpl<$Res, StacDivider>;
   @useResult
   $Res call({StacDouble? thickness, StacDouble? height, String? color});
 }
 
 /// @nodoc
-class _$StacDividerCopyWithImpl<$Res> implements $StacDividerCopyWith<$Res> {
-  _$StacDividerCopyWithImpl(this._self, this._then);
+class _$StacDividerCopyWithImpl<$Res, $Val extends StacDivider>
+    implements $StacDividerCopyWith<$Res> {
+  _$StacDividerCopyWithImpl(this._value, this._then);
 
-  final StacDivider _self;
-  final $Res Function(StacDivider) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacDivider
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -75,17 +56,60 @@ class _$StacDividerCopyWithImpl<$Res> implements $StacDividerCopyWith<$Res> {
     Object? height = freezed,
     Object? color = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       thickness: freezed == thickness
-          ? _self.thickness
+          ? _value.thickness
           : thickness // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       height: freezed == height
-          ? _self.height
+          ? _value.height
           : height // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       color: freezed == color
-          ? _self.color
+          ? _value.color
+          : color // ignore: cast_nullable_to_non_nullable
+              as String?,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacDividerImplCopyWith<$Res>
+    implements $StacDividerCopyWith<$Res> {
+  factory _$$StacDividerImplCopyWith(
+          _$StacDividerImpl value, $Res Function(_$StacDividerImpl) then) =
+      __$$StacDividerImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call({StacDouble? thickness, StacDouble? height, String? color});
+}
+
+/// @nodoc
+class __$$StacDividerImplCopyWithImpl<$Res>
+    extends _$StacDividerCopyWithImpl<$Res, _$StacDividerImpl>
+    implements _$$StacDividerImplCopyWith<$Res> {
+  __$$StacDividerImplCopyWithImpl(
+      _$StacDividerImpl _value, $Res Function(_$StacDividerImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? thickness = freezed,
+    Object? height = freezed,
+    Object? color = freezed,
+  }) {
+    return _then(_$StacDividerImpl(
+      thickness: freezed == thickness
+          ? _value.thickness
+          : thickness // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      height: freezed == height
+          ? _value.height
+          : height // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      color: freezed == color
+          ? _value.color
           : color // ignore: cast_nullable_to_non_nullable
               as String?,
     ));
@@ -94,10 +118,11 @@ class _$StacDividerCopyWithImpl<$Res> implements $StacDividerCopyWith<$Res> {
 
 /// @nodoc
 @JsonSerializable()
-class _StacDivider implements StacDivider {
-  const _StacDivider({this.thickness, this.height, this.color});
-  factory _StacDivider.fromJson(Map<String, dynamic> json) =>
-      _$StacDividerFromJson(json);
+class _$StacDividerImpl implements _StacDivider {
+  const _$StacDividerImpl({this.thickness, this.height, this.color});
+
+  factory _$StacDividerImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacDividerImplFromJson(json);
 
   @override
   final StacDouble? thickness;
@@ -106,84 +131,57 @@ class _StacDivider implements StacDivider {
   @override
   final String? color;
 
-  /// Create a copy of StacDivider
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacDividerCopyWith<_StacDivider> get copyWith =>
-      __$StacDividerCopyWithImpl<_StacDivider>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacDividerToJson(
-      this,
-    );
+  String toString() {
+    return 'StacDivider(thickness: $thickness, height: $height, color: $color)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacDivider &&
+            other is _$StacDividerImpl &&
             (identical(other.thickness, thickness) ||
                 other.thickness == thickness) &&
             (identical(other.height, height) || other.height == height) &&
             (identical(other.color, color) || other.color == color));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(runtimeType, thickness, height, color);
 
-  @override
-  String toString() {
-    return 'StacDivider(thickness: $thickness, height: $height, color: $color)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacDividerCopyWith<$Res>
-    implements $StacDividerCopyWith<$Res> {
-  factory _$StacDividerCopyWith(
-          _StacDivider value, $Res Function(_StacDivider) _then) =
-      __$StacDividerCopyWithImpl;
-  @override
-  @useResult
-  $Res call({StacDouble? thickness, StacDouble? height, String? color});
-}
-
-/// @nodoc
-class __$StacDividerCopyWithImpl<$Res> implements _$StacDividerCopyWith<$Res> {
-  __$StacDividerCopyWithImpl(this._self, this._then);
-
-  final _StacDivider _self;
-  final $Res Function(_StacDivider) _then;
-
-  /// Create a copy of StacDivider
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? thickness = freezed,
-    Object? height = freezed,
-    Object? color = freezed,
-  }) {
-    return _then(_StacDivider(
-      thickness: freezed == thickness
-          ? _self.thickness
-          : thickness // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      height: freezed == height
-          ? _self.height
-          : height // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      color: freezed == color
-          ? _self.color
-          : color // ignore: cast_nullable_to_non_nullable
-              as String?,
-    ));
+  _$$StacDividerImplCopyWith<_$StacDividerImpl> get copyWith =>
+      __$$StacDividerImplCopyWithImpl<_$StacDividerImpl>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacDividerImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacDivider implements StacDivider {
+  const factory _StacDivider(
+      {final StacDouble? thickness,
+      final StacDouble? height,
+      final String? color}) = _$StacDividerImpl;
+
+  factory _StacDivider.fromJson(Map<String, dynamic> json) =
+      _$StacDividerImpl.fromJson;
+
+  @override
+  StacDouble? get thickness;
+  @override
+  StacDouble? get height;
+  @override
+  String? get color;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacDividerImplCopyWith<_$StacDividerImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

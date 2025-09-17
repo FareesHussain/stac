@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,67 +9,39 @@ part of 'stac_linear_progress_indicator.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacLinearProgressIndicator {
-  StacDouble? get value;
-  String? get backgroundColor;
-  String? get color;
-  StacDouble? get minHeight;
-  String? get semanticsLabel;
-  String? get semanticsValue;
-  StacBorderRadius get borderRadius;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacLinearProgressIndicator
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacLinearProgressIndicatorCopyWith<StacLinearProgressIndicator>
-      get copyWith => _$StacLinearProgressIndicatorCopyWithImpl<
-              StacLinearProgressIndicator>(
-          this as StacLinearProgressIndicator, _$identity);
-
-  /// Serializes this StacLinearProgressIndicator to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacLinearProgressIndicator &&
-            (identical(other.value, value) || other.value == value) &&
-            (identical(other.backgroundColor, backgroundColor) ||
-                other.backgroundColor == backgroundColor) &&
-            (identical(other.color, color) || other.color == color) &&
-            (identical(other.minHeight, minHeight) ||
-                other.minHeight == minHeight) &&
-            (identical(other.semanticsLabel, semanticsLabel) ||
-                other.semanticsLabel == semanticsLabel) &&
-            (identical(other.semanticsValue, semanticsValue) ||
-                other.semanticsValue == semanticsValue) &&
-            (identical(other.borderRadius, borderRadius) ||
-                other.borderRadius == borderRadius));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(runtimeType, value, backgroundColor, color,
-      minHeight, semanticsLabel, semanticsValue, borderRadius);
-
-  @override
-  String toString() {
-    return 'StacLinearProgressIndicator(value: $value, backgroundColor: $backgroundColor, color: $color, minHeight: $minHeight, semanticsLabel: $semanticsLabel, semanticsValue: $semanticsValue, borderRadius: $borderRadius)';
-  }
+StacLinearProgressIndicator _$StacLinearProgressIndicatorFromJson(
+    Map<String, dynamic> json) {
+  return _StacLinearProgressIndicator.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacLinearProgressIndicatorCopyWith<$Res> {
+mixin _$StacLinearProgressIndicator {
+  StacDouble? get value => throw _privateConstructorUsedError;
+  String? get backgroundColor => throw _privateConstructorUsedError;
+  String? get color => throw _privateConstructorUsedError;
+  StacDouble? get minHeight => throw _privateConstructorUsedError;
+  String? get semanticsLabel => throw _privateConstructorUsedError;
+  String? get semanticsValue => throw _privateConstructorUsedError;
+  StacBorderRadius get borderRadius => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacLinearProgressIndicatorCopyWith<StacLinearProgressIndicator>
+      get copyWith => throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacLinearProgressIndicatorCopyWith<$Res> {
   factory $StacLinearProgressIndicatorCopyWith(
           StacLinearProgressIndicator value,
-          $Res Function(StacLinearProgressIndicator) _then) =
-      _$StacLinearProgressIndicatorCopyWithImpl;
+          $Res Function(StacLinearProgressIndicator) then) =
+      _$StacLinearProgressIndicatorCopyWithImpl<$Res,
+          StacLinearProgressIndicator>;
   @useResult
   $Res call(
       {StacDouble? value,
@@ -85,15 +56,16 @@ abstract mixin class $StacLinearProgressIndicatorCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacLinearProgressIndicatorCopyWithImpl<$Res>
+class _$StacLinearProgressIndicatorCopyWithImpl<$Res,
+        $Val extends StacLinearProgressIndicator>
     implements $StacLinearProgressIndicatorCopyWith<$Res> {
-  _$StacLinearProgressIndicatorCopyWithImpl(this._self, this._then);
+  _$StacLinearProgressIndicatorCopyWithImpl(this._value, this._then);
 
-  final StacLinearProgressIndicator _self;
-  final $Res Function(StacLinearProgressIndicator) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacLinearProgressIndicator
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -105,53 +77,128 @@ class _$StacLinearProgressIndicatorCopyWithImpl<$Res>
     Object? semanticsValue = freezed,
     Object? borderRadius = null,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       value: freezed == value
-          ? _self.value
+          ? _value.value
           : value // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
+          ? _value.backgroundColor
           : backgroundColor // ignore: cast_nullable_to_non_nullable
               as String?,
       color: freezed == color
-          ? _self.color
+          ? _value.color
           : color // ignore: cast_nullable_to_non_nullable
               as String?,
       minHeight: freezed == minHeight
-          ? _self.minHeight
+          ? _value.minHeight
           : minHeight // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       semanticsLabel: freezed == semanticsLabel
-          ? _self.semanticsLabel
+          ? _value.semanticsLabel
           : semanticsLabel // ignore: cast_nullable_to_non_nullable
               as String?,
       semanticsValue: freezed == semanticsValue
-          ? _self.semanticsValue
+          ? _value.semanticsValue
           : semanticsValue // ignore: cast_nullable_to_non_nullable
               as String?,
       borderRadius: null == borderRadius
-          ? _self.borderRadius
+          ? _value.borderRadius
           : borderRadius // ignore: cast_nullable_to_non_nullable
               as StacBorderRadius,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacLinearProgressIndicator
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacBorderRadiusCopyWith<$Res> get borderRadius {
-    return $StacBorderRadiusCopyWith<$Res>(_self.borderRadius, (value) {
-      return _then(_self.copyWith(borderRadius: value));
+    return $StacBorderRadiusCopyWith<$Res>(_value.borderRadius, (value) {
+      return _then(_value.copyWith(borderRadius: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacLinearProgressIndicatorImplCopyWith<$Res>
+    implements $StacLinearProgressIndicatorCopyWith<$Res> {
+  factory _$$StacLinearProgressIndicatorImplCopyWith(
+          _$StacLinearProgressIndicatorImpl value,
+          $Res Function(_$StacLinearProgressIndicatorImpl) then) =
+      __$$StacLinearProgressIndicatorImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {StacDouble? value,
+      String? backgroundColor,
+      String? color,
+      StacDouble? minHeight,
+      String? semanticsLabel,
+      String? semanticsValue,
+      StacBorderRadius borderRadius});
+
+  @override
+  $StacBorderRadiusCopyWith<$Res> get borderRadius;
+}
+
+/// @nodoc
+class __$$StacLinearProgressIndicatorImplCopyWithImpl<$Res>
+    extends _$StacLinearProgressIndicatorCopyWithImpl<$Res,
+        _$StacLinearProgressIndicatorImpl>
+    implements _$$StacLinearProgressIndicatorImplCopyWith<$Res> {
+  __$$StacLinearProgressIndicatorImplCopyWithImpl(
+      _$StacLinearProgressIndicatorImpl _value,
+      $Res Function(_$StacLinearProgressIndicatorImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? value = freezed,
+    Object? backgroundColor = freezed,
+    Object? color = freezed,
+    Object? minHeight = freezed,
+    Object? semanticsLabel = freezed,
+    Object? semanticsValue = freezed,
+    Object? borderRadius = null,
+  }) {
+    return _then(_$StacLinearProgressIndicatorImpl(
+      value: freezed == value
+          ? _value.value
+          : value // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      backgroundColor: freezed == backgroundColor
+          ? _value.backgroundColor
+          : backgroundColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      color: freezed == color
+          ? _value.color
+          : color // ignore: cast_nullable_to_non_nullable
+              as String?,
+      minHeight: freezed == minHeight
+          ? _value.minHeight
+          : minHeight // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      semanticsLabel: freezed == semanticsLabel
+          ? _value.semanticsLabel
+          : semanticsLabel // ignore: cast_nullable_to_non_nullable
+              as String?,
+      semanticsValue: freezed == semanticsValue
+          ? _value.semanticsValue
+          : semanticsValue // ignore: cast_nullable_to_non_nullable
+              as String?,
+      borderRadius: null == borderRadius
+          ? _value.borderRadius
+          : borderRadius // ignore: cast_nullable_to_non_nullable
+              as StacBorderRadius,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacLinearProgressIndicator implements StacLinearProgressIndicator {
-  const _StacLinearProgressIndicator(
+class _$StacLinearProgressIndicatorImpl
+    implements _StacLinearProgressIndicator {
+  const _$StacLinearProgressIndicatorImpl(
       {this.value,
       this.backgroundColor,
       this.color,
@@ -159,8 +206,10 @@ class _StacLinearProgressIndicator implements StacLinearProgressIndicator {
       this.semanticsLabel,
       this.semanticsValue,
       this.borderRadius = const StacBorderRadius()});
-  factory _StacLinearProgressIndicator.fromJson(Map<String, dynamic> json) =>
-      _$StacLinearProgressIndicatorFromJson(json);
+
+  factory _$StacLinearProgressIndicatorImpl.fromJson(
+          Map<String, dynamic> json) =>
+      _$$StacLinearProgressIndicatorImplFromJson(json);
 
   @override
   final StacDouble? value;
@@ -178,27 +227,16 @@ class _StacLinearProgressIndicator implements StacLinearProgressIndicator {
   @JsonKey()
   final StacBorderRadius borderRadius;
 
-  /// Create a copy of StacLinearProgressIndicator
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacLinearProgressIndicatorCopyWith<_StacLinearProgressIndicator>
-      get copyWith => __$StacLinearProgressIndicatorCopyWithImpl<
-          _StacLinearProgressIndicator>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacLinearProgressIndicatorToJson(
-      this,
-    );
+  String toString() {
+    return 'StacLinearProgressIndicator(value: $value, backgroundColor: $backgroundColor, color: $color, minHeight: $minHeight, semanticsLabel: $semanticsLabel, semanticsValue: $semanticsValue, borderRadius: $borderRadius)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacLinearProgressIndicator &&
+            other is _$StacLinearProgressIndicatorImpl &&
             (identical(other.value, value) || other.value == value) &&
             (identical(other.backgroundColor, backgroundColor) ||
                 other.backgroundColor == backgroundColor) &&
@@ -213,101 +251,56 @@ class _StacLinearProgressIndicator implements StacLinearProgressIndicator {
                 other.borderRadius == borderRadius));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(runtimeType, value, backgroundColor, color,
       minHeight, semanticsLabel, semanticsValue, borderRadius);
 
-  @override
-  String toString() {
-    return 'StacLinearProgressIndicator(value: $value, backgroundColor: $backgroundColor, color: $color, minHeight: $minHeight, semanticsLabel: $semanticsLabel, semanticsValue: $semanticsValue, borderRadius: $borderRadius)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacLinearProgressIndicatorCopyWith<$Res>
-    implements $StacLinearProgressIndicatorCopyWith<$Res> {
-  factory _$StacLinearProgressIndicatorCopyWith(
-          _StacLinearProgressIndicator value,
-          $Res Function(_StacLinearProgressIndicator) _then) =
-      __$StacLinearProgressIndicatorCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {StacDouble? value,
-      String? backgroundColor,
-      String? color,
-      StacDouble? minHeight,
-      String? semanticsLabel,
-      String? semanticsValue,
-      StacBorderRadius borderRadius});
-
-  @override
-  $StacBorderRadiusCopyWith<$Res> get borderRadius;
-}
-
-/// @nodoc
-class __$StacLinearProgressIndicatorCopyWithImpl<$Res>
-    implements _$StacLinearProgressIndicatorCopyWith<$Res> {
-  __$StacLinearProgressIndicatorCopyWithImpl(this._self, this._then);
-
-  final _StacLinearProgressIndicator _self;
-  final $Res Function(_StacLinearProgressIndicator) _then;
-
-  /// Create a copy of StacLinearProgressIndicator
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? value = freezed,
-    Object? backgroundColor = freezed,
-    Object? color = freezed,
-    Object? minHeight = freezed,
-    Object? semanticsLabel = freezed,
-    Object? semanticsValue = freezed,
-    Object? borderRadius = null,
-  }) {
-    return _then(_StacLinearProgressIndicator(
-      value: freezed == value
-          ? _self.value
-          : value // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
-          : backgroundColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      color: freezed == color
-          ? _self.color
-          : color // ignore: cast_nullable_to_non_nullable
-              as String?,
-      minHeight: freezed == minHeight
-          ? _self.minHeight
-          : minHeight // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      semanticsLabel: freezed == semanticsLabel
-          ? _self.semanticsLabel
-          : semanticsLabel // ignore: cast_nullable_to_non_nullable
-              as String?,
-      semanticsValue: freezed == semanticsValue
-          ? _self.semanticsValue
-          : semanticsValue // ignore: cast_nullable_to_non_nullable
-              as String?,
-      borderRadius: null == borderRadius
-          ? _self.borderRadius
-          : borderRadius // ignore: cast_nullable_to_non_nullable
-              as StacBorderRadius,
-    ));
-  }
+  _$$StacLinearProgressIndicatorImplCopyWith<_$StacLinearProgressIndicatorImpl>
+      get copyWith => __$$StacLinearProgressIndicatorImplCopyWithImpl<
+          _$StacLinearProgressIndicatorImpl>(this, _$identity);
 
-  /// Create a copy of StacLinearProgressIndicator
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @pragma('vm:prefer-inline')
-  $StacBorderRadiusCopyWith<$Res> get borderRadius {
-    return $StacBorderRadiusCopyWith<$Res>(_self.borderRadius, (value) {
-      return _then(_self.copyWith(borderRadius: value));
-    });
+  Map<String, dynamic> toJson() {
+    return _$$StacLinearProgressIndicatorImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacLinearProgressIndicator
+    implements StacLinearProgressIndicator {
+  const factory _StacLinearProgressIndicator(
+      {final StacDouble? value,
+      final String? backgroundColor,
+      final String? color,
+      final StacDouble? minHeight,
+      final String? semanticsLabel,
+      final String? semanticsValue,
+      final StacBorderRadius borderRadius}) = _$StacLinearProgressIndicatorImpl;
+
+  factory _StacLinearProgressIndicator.fromJson(Map<String, dynamic> json) =
+      _$StacLinearProgressIndicatorImpl.fromJson;
+
+  @override
+  StacDouble? get value;
+  @override
+  String? get backgroundColor;
+  @override
+  String? get color;
+  @override
+  StacDouble? get minHeight;
+  @override
+  String? get semanticsLabel;
+  @override
+  String? get semanticsValue;
+  @override
+  StacBorderRadius get borderRadius;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacLinearProgressIndicatorImplCopyWith<_$StacLinearProgressIndicatorImpl>
+      get copyWith => throw _privateConstructorUsedError;
+}

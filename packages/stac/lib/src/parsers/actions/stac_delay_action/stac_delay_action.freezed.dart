@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,70 +9,85 @@ part of 'stac_delay_action.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacDelayAction {
-  int get milliseconds;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacDelayAction
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacDelayActionCopyWith<StacDelayAction> get copyWith =>
-      _$StacDelayActionCopyWithImpl<StacDelayAction>(
-          this as StacDelayAction, _$identity);
-
-  /// Serializes this StacDelayAction to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacDelayAction &&
-            (identical(other.milliseconds, milliseconds) ||
-                other.milliseconds == milliseconds));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(runtimeType, milliseconds);
-
-  @override
-  String toString() {
-    return 'StacDelayAction(milliseconds: $milliseconds)';
-  }
+StacDelayAction _$StacDelayActionFromJson(Map<String, dynamic> json) {
+  return _StacDelayAction.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacDelayActionCopyWith<$Res> {
+mixin _$StacDelayAction {
+  int get milliseconds => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacDelayActionCopyWith<StacDelayAction> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacDelayActionCopyWith<$Res> {
   factory $StacDelayActionCopyWith(
-          StacDelayAction value, $Res Function(StacDelayAction) _then) =
-      _$StacDelayActionCopyWithImpl;
+          StacDelayAction value, $Res Function(StacDelayAction) then) =
+      _$StacDelayActionCopyWithImpl<$Res, StacDelayAction>;
   @useResult
   $Res call({int milliseconds});
 }
 
 /// @nodoc
-class _$StacDelayActionCopyWithImpl<$Res>
+class _$StacDelayActionCopyWithImpl<$Res, $Val extends StacDelayAction>
     implements $StacDelayActionCopyWith<$Res> {
-  _$StacDelayActionCopyWithImpl(this._self, this._then);
+  _$StacDelayActionCopyWithImpl(this._value, this._then);
 
-  final StacDelayAction _self;
-  final $Res Function(StacDelayAction) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacDelayAction
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? milliseconds = null,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       milliseconds: null == milliseconds
-          ? _self.milliseconds
+          ? _value.milliseconds
+          : milliseconds // ignore: cast_nullable_to_non_nullable
+              as int,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacDelayActionImplCopyWith<$Res>
+    implements $StacDelayActionCopyWith<$Res> {
+  factory _$$StacDelayActionImplCopyWith(_$StacDelayActionImpl value,
+          $Res Function(_$StacDelayActionImpl) then) =
+      __$$StacDelayActionImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call({int milliseconds});
+}
+
+/// @nodoc
+class __$$StacDelayActionImplCopyWithImpl<$Res>
+    extends _$StacDelayActionCopyWithImpl<$Res, _$StacDelayActionImpl>
+    implements _$$StacDelayActionImplCopyWith<$Res> {
+  __$$StacDelayActionImplCopyWithImpl(
+      _$StacDelayActionImpl _value, $Res Function(_$StacDelayActionImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? milliseconds = null,
+  }) {
+    return _then(_$StacDelayActionImpl(
+      milliseconds: null == milliseconds
+          ? _value.milliseconds
           : milliseconds // ignore: cast_nullable_to_non_nullable
               as int,
     ));
@@ -82,82 +96,60 @@ class _$StacDelayActionCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _StacDelayAction implements StacDelayAction {
-  const _StacDelayAction({this.milliseconds = 1000});
-  factory _StacDelayAction.fromJson(Map<String, dynamic> json) =>
-      _$StacDelayActionFromJson(json);
+class _$StacDelayActionImpl implements _StacDelayAction {
+  const _$StacDelayActionImpl({this.milliseconds = 1000});
+
+  factory _$StacDelayActionImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacDelayActionImplFromJson(json);
 
   @override
   @JsonKey()
   final int milliseconds;
 
-  /// Create a copy of StacDelayAction
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacDelayActionCopyWith<_StacDelayAction> get copyWith =>
-      __$StacDelayActionCopyWithImpl<_StacDelayAction>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacDelayActionToJson(
-      this,
-    );
+  String toString() {
+    return 'StacDelayAction(milliseconds: $milliseconds)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacDelayAction &&
+            other is _$StacDelayActionImpl &&
             (identical(other.milliseconds, milliseconds) ||
                 other.milliseconds == milliseconds));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(runtimeType, milliseconds);
 
-  @override
-  String toString() {
-    return 'StacDelayAction(milliseconds: $milliseconds)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacDelayActionCopyWith<$Res>
-    implements $StacDelayActionCopyWith<$Res> {
-  factory _$StacDelayActionCopyWith(
-          _StacDelayAction value, $Res Function(_StacDelayAction) _then) =
-      __$StacDelayActionCopyWithImpl;
-  @override
-  @useResult
-  $Res call({int milliseconds});
-}
-
-/// @nodoc
-class __$StacDelayActionCopyWithImpl<$Res>
-    implements _$StacDelayActionCopyWith<$Res> {
-  __$StacDelayActionCopyWithImpl(this._self, this._then);
-
-  final _StacDelayAction _self;
-  final $Res Function(_StacDelayAction) _then;
-
-  /// Create a copy of StacDelayAction
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? milliseconds = null,
-  }) {
-    return _then(_StacDelayAction(
-      milliseconds: null == milliseconds
-          ? _self.milliseconds
-          : milliseconds // ignore: cast_nullable_to_non_nullable
-              as int,
-    ));
+  _$$StacDelayActionImplCopyWith<_$StacDelayActionImpl> get copyWith =>
+      __$$StacDelayActionImplCopyWithImpl<_$StacDelayActionImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacDelayActionImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacDelayAction implements StacDelayAction {
+  const factory _StacDelayAction({final int milliseconds}) =
+      _$StacDelayActionImpl;
+
+  factory _StacDelayAction.fromJson(Map<String, dynamic> json) =
+      _$StacDelayActionImpl.fromJson;
+
+  @override
+  int get milliseconds;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacDelayActionImplCopyWith<_$StacDelayActionImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

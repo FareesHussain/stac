@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,102 +9,45 @@ part of 'stac_check_box.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacCheckBox {
-  String? get id;
-  bool? get value;
-  bool get tristate;
-  Map<String, dynamic>? get onChanged;
-  StacMouseCursor? get mouseCursor;
-  String? get activeColor;
-  StacMaterialColor? get fillColor;
-  String? get checkColor;
-  String? get focusColor;
-  String? get hoverColor;
-  StacMaterialColor? get overlayColor;
-  StacDouble? get splashRadius;
-  MaterialTapTargetSize? get materialTapTargetSize;
-  bool get autofocus;
-  bool get isError;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacCheckBox
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacCheckBoxCopyWith<StacCheckBox> get copyWith =>
-      _$StacCheckBoxCopyWithImpl<StacCheckBox>(
-          this as StacCheckBox, _$identity);
-
-  /// Serializes this StacCheckBox to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacCheckBox &&
-            (identical(other.id, id) || other.id == id) &&
-            (identical(other.value, value) || other.value == value) &&
-            (identical(other.tristate, tristate) ||
-                other.tristate == tristate) &&
-            const DeepCollectionEquality().equals(other.onChanged, onChanged) &&
-            (identical(other.mouseCursor, mouseCursor) ||
-                other.mouseCursor == mouseCursor) &&
-            (identical(other.activeColor, activeColor) ||
-                other.activeColor == activeColor) &&
-            (identical(other.fillColor, fillColor) ||
-                other.fillColor == fillColor) &&
-            (identical(other.checkColor, checkColor) ||
-                other.checkColor == checkColor) &&
-            (identical(other.focusColor, focusColor) ||
-                other.focusColor == focusColor) &&
-            (identical(other.hoverColor, hoverColor) ||
-                other.hoverColor == hoverColor) &&
-            (identical(other.overlayColor, overlayColor) ||
-                other.overlayColor == overlayColor) &&
-            (identical(other.splashRadius, splashRadius) ||
-                other.splashRadius == splashRadius) &&
-            (identical(other.materialTapTargetSize, materialTapTargetSize) ||
-                other.materialTapTargetSize == materialTapTargetSize) &&
-            (identical(other.autofocus, autofocus) ||
-                other.autofocus == autofocus) &&
-            (identical(other.isError, isError) || other.isError == isError));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      id,
-      value,
-      tristate,
-      const DeepCollectionEquality().hash(onChanged),
-      mouseCursor,
-      activeColor,
-      fillColor,
-      checkColor,
-      focusColor,
-      hoverColor,
-      overlayColor,
-      splashRadius,
-      materialTapTargetSize,
-      autofocus,
-      isError);
-
-  @override
-  String toString() {
-    return 'StacCheckBox(id: $id, value: $value, tristate: $tristate, onChanged: $onChanged, mouseCursor: $mouseCursor, activeColor: $activeColor, fillColor: $fillColor, checkColor: $checkColor, focusColor: $focusColor, hoverColor: $hoverColor, overlayColor: $overlayColor, splashRadius: $splashRadius, materialTapTargetSize: $materialTapTargetSize, autofocus: $autofocus, isError: $isError)';
-  }
+StacCheckBox _$StacCheckBoxFromJson(Map<String, dynamic> json) {
+  return _StacCheckBox.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacCheckBoxCopyWith<$Res> {
+mixin _$StacCheckBox {
+  String? get id => throw _privateConstructorUsedError;
+  bool? get value => throw _privateConstructorUsedError;
+  bool get tristate => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get onChanged => throw _privateConstructorUsedError;
+  StacMouseCursor? get mouseCursor => throw _privateConstructorUsedError;
+  String? get activeColor => throw _privateConstructorUsedError;
+  StacMaterialColor? get fillColor => throw _privateConstructorUsedError;
+  String? get checkColor => throw _privateConstructorUsedError;
+  String? get focusColor => throw _privateConstructorUsedError;
+  String? get hoverColor => throw _privateConstructorUsedError;
+  StacMaterialColor? get overlayColor => throw _privateConstructorUsedError;
+  StacDouble? get splashRadius => throw _privateConstructorUsedError;
+  MaterialTapTargetSize? get materialTapTargetSize =>
+      throw _privateConstructorUsedError;
+  bool get autofocus => throw _privateConstructorUsedError;
+  bool get isError => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacCheckBoxCopyWith<StacCheckBox> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacCheckBoxCopyWith<$Res> {
   factory $StacCheckBoxCopyWith(
-          StacCheckBox value, $Res Function(StacCheckBox) _then) =
-      _$StacCheckBoxCopyWithImpl;
+          StacCheckBox value, $Res Function(StacCheckBox) then) =
+      _$StacCheckBoxCopyWithImpl<$Res, StacCheckBox>;
   @useResult
   $Res call(
       {String? id,
@@ -129,14 +71,15 @@ abstract mixin class $StacCheckBoxCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacCheckBoxCopyWithImpl<$Res> implements $StacCheckBoxCopyWith<$Res> {
-  _$StacCheckBoxCopyWithImpl(this._self, this._then);
+class _$StacCheckBoxCopyWithImpl<$Res, $Val extends StacCheckBox>
+    implements $StacCheckBoxCopyWith<$Res> {
+  _$StacCheckBoxCopyWithImpl(this._value, this._then);
 
-  final StacCheckBox _self;
-  final $Res Function(StacCheckBox) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacCheckBox
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -156,103 +99,222 @@ class _$StacCheckBoxCopyWithImpl<$Res> implements $StacCheckBoxCopyWith<$Res> {
     Object? autofocus = null,
     Object? isError = null,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       id: freezed == id
-          ? _self.id
+          ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
               as String?,
       value: freezed == value
-          ? _self.value
+          ? _value.value
           : value // ignore: cast_nullable_to_non_nullable
               as bool?,
       tristate: null == tristate
-          ? _self.tristate
+          ? _value.tristate
           : tristate // ignore: cast_nullable_to_non_nullable
               as bool,
       onChanged: freezed == onChanged
-          ? _self.onChanged
+          ? _value.onChanged
           : onChanged // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       mouseCursor: freezed == mouseCursor
-          ? _self.mouseCursor
+          ? _value.mouseCursor
           : mouseCursor // ignore: cast_nullable_to_non_nullable
               as StacMouseCursor?,
       activeColor: freezed == activeColor
-          ? _self.activeColor
+          ? _value.activeColor
           : activeColor // ignore: cast_nullable_to_non_nullable
               as String?,
       fillColor: freezed == fillColor
-          ? _self.fillColor
+          ? _value.fillColor
           : fillColor // ignore: cast_nullable_to_non_nullable
               as StacMaterialColor?,
       checkColor: freezed == checkColor
-          ? _self.checkColor
+          ? _value.checkColor
           : checkColor // ignore: cast_nullable_to_non_nullable
               as String?,
       focusColor: freezed == focusColor
-          ? _self.focusColor
+          ? _value.focusColor
           : focusColor // ignore: cast_nullable_to_non_nullable
               as String?,
       hoverColor: freezed == hoverColor
-          ? _self.hoverColor
+          ? _value.hoverColor
           : hoverColor // ignore: cast_nullable_to_non_nullable
               as String?,
       overlayColor: freezed == overlayColor
-          ? _self.overlayColor
+          ? _value.overlayColor
           : overlayColor // ignore: cast_nullable_to_non_nullable
               as StacMaterialColor?,
       splashRadius: freezed == splashRadius
-          ? _self.splashRadius
+          ? _value.splashRadius
           : splashRadius // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       materialTapTargetSize: freezed == materialTapTargetSize
-          ? _self.materialTapTargetSize
+          ? _value.materialTapTargetSize
           : materialTapTargetSize // ignore: cast_nullable_to_non_nullable
               as MaterialTapTargetSize?,
       autofocus: null == autofocus
-          ? _self.autofocus
+          ? _value.autofocus
           : autofocus // ignore: cast_nullable_to_non_nullable
               as bool,
       isError: null == isError
-          ? _self.isError
+          ? _value.isError
           : isError // ignore: cast_nullable_to_non_nullable
               as bool,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacCheckBox
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacMaterialColorCopyWith<$Res>? get fillColor {
-    if (_self.fillColor == null) {
+    if (_value.fillColor == null) {
       return null;
     }
 
-    return $StacMaterialColorCopyWith<$Res>(_self.fillColor!, (value) {
-      return _then(_self.copyWith(fillColor: value));
+    return $StacMaterialColorCopyWith<$Res>(_value.fillColor!, (value) {
+      return _then(_value.copyWith(fillColor: value) as $Val);
     });
   }
 
-  /// Create a copy of StacCheckBox
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacMaterialColorCopyWith<$Res>? get overlayColor {
-    if (_self.overlayColor == null) {
+    if (_value.overlayColor == null) {
       return null;
     }
 
-    return $StacMaterialColorCopyWith<$Res>(_self.overlayColor!, (value) {
-      return _then(_self.copyWith(overlayColor: value));
+    return $StacMaterialColorCopyWith<$Res>(_value.overlayColor!, (value) {
+      return _then(_value.copyWith(overlayColor: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacCheckBoxImplCopyWith<$Res>
+    implements $StacCheckBoxCopyWith<$Res> {
+  factory _$$StacCheckBoxImplCopyWith(
+          _$StacCheckBoxImpl value, $Res Function(_$StacCheckBoxImpl) then) =
+      __$$StacCheckBoxImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {String? id,
+      bool? value,
+      bool tristate,
+      Map<String, dynamic>? onChanged,
+      StacMouseCursor? mouseCursor,
+      String? activeColor,
+      StacMaterialColor? fillColor,
+      String? checkColor,
+      String? focusColor,
+      String? hoverColor,
+      StacMaterialColor? overlayColor,
+      StacDouble? splashRadius,
+      MaterialTapTargetSize? materialTapTargetSize,
+      bool autofocus,
+      bool isError});
+
+  @override
+  $StacMaterialColorCopyWith<$Res>? get fillColor;
+  @override
+  $StacMaterialColorCopyWith<$Res>? get overlayColor;
+}
+
+/// @nodoc
+class __$$StacCheckBoxImplCopyWithImpl<$Res>
+    extends _$StacCheckBoxCopyWithImpl<$Res, _$StacCheckBoxImpl>
+    implements _$$StacCheckBoxImplCopyWith<$Res> {
+  __$$StacCheckBoxImplCopyWithImpl(
+      _$StacCheckBoxImpl _value, $Res Function(_$StacCheckBoxImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? id = freezed,
+    Object? value = freezed,
+    Object? tristate = null,
+    Object? onChanged = freezed,
+    Object? mouseCursor = freezed,
+    Object? activeColor = freezed,
+    Object? fillColor = freezed,
+    Object? checkColor = freezed,
+    Object? focusColor = freezed,
+    Object? hoverColor = freezed,
+    Object? overlayColor = freezed,
+    Object? splashRadius = freezed,
+    Object? materialTapTargetSize = freezed,
+    Object? autofocus = null,
+    Object? isError = null,
+  }) {
+    return _then(_$StacCheckBoxImpl(
+      id: freezed == id
+          ? _value.id
+          : id // ignore: cast_nullable_to_non_nullable
+              as String?,
+      value: freezed == value
+          ? _value.value
+          : value // ignore: cast_nullable_to_non_nullable
+              as bool?,
+      tristate: null == tristate
+          ? _value.tristate
+          : tristate // ignore: cast_nullable_to_non_nullable
+              as bool,
+      onChanged: freezed == onChanged
+          ? _value._onChanged
+          : onChanged // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      mouseCursor: freezed == mouseCursor
+          ? _value.mouseCursor
+          : mouseCursor // ignore: cast_nullable_to_non_nullable
+              as StacMouseCursor?,
+      activeColor: freezed == activeColor
+          ? _value.activeColor
+          : activeColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      fillColor: freezed == fillColor
+          ? _value.fillColor
+          : fillColor // ignore: cast_nullable_to_non_nullable
+              as StacMaterialColor?,
+      checkColor: freezed == checkColor
+          ? _value.checkColor
+          : checkColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      focusColor: freezed == focusColor
+          ? _value.focusColor
+          : focusColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      hoverColor: freezed == hoverColor
+          ? _value.hoverColor
+          : hoverColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      overlayColor: freezed == overlayColor
+          ? _value.overlayColor
+          : overlayColor // ignore: cast_nullable_to_non_nullable
+              as StacMaterialColor?,
+      splashRadius: freezed == splashRadius
+          ? _value.splashRadius
+          : splashRadius // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      materialTapTargetSize: freezed == materialTapTargetSize
+          ? _value.materialTapTargetSize
+          : materialTapTargetSize // ignore: cast_nullable_to_non_nullable
+              as MaterialTapTargetSize?,
+      autofocus: null == autofocus
+          ? _value.autofocus
+          : autofocus // ignore: cast_nullable_to_non_nullable
+              as bool,
+      isError: null == isError
+          ? _value.isError
+          : isError // ignore: cast_nullable_to_non_nullable
+              as bool,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacCheckBox implements StacCheckBox {
-  const _StacCheckBox(
+class _$StacCheckBoxImpl implements _StacCheckBox {
+  const _$StacCheckBoxImpl(
       {this.id,
       this.value,
       this.tristate = false,
@@ -269,8 +331,9 @@ class _StacCheckBox implements StacCheckBox {
       this.autofocus = false,
       this.isError = false})
       : _onChanged = onChanged;
-  factory _StacCheckBox.fromJson(Map<String, dynamic> json) =>
-      _$StacCheckBoxFromJson(json);
+
+  factory _$StacCheckBoxImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacCheckBoxImplFromJson(json);
 
   @override
   final String? id;
@@ -314,26 +377,16 @@ class _StacCheckBox implements StacCheckBox {
   @JsonKey()
   final bool isError;
 
-  /// Create a copy of StacCheckBox
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacCheckBoxCopyWith<_StacCheckBox> get copyWith =>
-      __$StacCheckBoxCopyWithImpl<_StacCheckBox>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacCheckBoxToJson(
-      this,
-    );
+  String toString() {
+    return 'StacCheckBox(id: $id, value: $value, tristate: $tristate, onChanged: $onChanged, mouseCursor: $mouseCursor, activeColor: $activeColor, fillColor: $fillColor, checkColor: $checkColor, focusColor: $focusColor, hoverColor: $hoverColor, overlayColor: $overlayColor, splashRadius: $splashRadius, materialTapTargetSize: $materialTapTargetSize, autofocus: $autofocus, isError: $isError)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacCheckBox &&
+            other is _$StacCheckBoxImpl &&
             (identical(other.id, id) || other.id == id) &&
             (identical(other.value, value) || other.value == value) &&
             (identical(other.tristate, tristate) ||
@@ -363,7 +416,7 @@ class _StacCheckBox implements StacCheckBox {
             (identical(other.isError, isError) || other.isError == isError));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -383,163 +436,73 @@ class _StacCheckBox implements StacCheckBox {
       autofocus,
       isError);
 
+  @JsonKey(ignore: true)
   @override
-  String toString() {
-    return 'StacCheckBox(id: $id, value: $value, tristate: $tristate, onChanged: $onChanged, mouseCursor: $mouseCursor, activeColor: $activeColor, fillColor: $fillColor, checkColor: $checkColor, focusColor: $focusColor, hoverColor: $hoverColor, overlayColor: $overlayColor, splashRadius: $splashRadius, materialTapTargetSize: $materialTapTargetSize, autofocus: $autofocus, isError: $isError)';
+  @pragma('vm:prefer-inline')
+  _$$StacCheckBoxImplCopyWith<_$StacCheckBoxImpl> get copyWith =>
+      __$$StacCheckBoxImplCopyWithImpl<_$StacCheckBoxImpl>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacCheckBoxImplToJson(
+      this,
+    );
   }
 }
 
-/// @nodoc
-abstract mixin class _$StacCheckBoxCopyWith<$Res>
-    implements $StacCheckBoxCopyWith<$Res> {
-  factory _$StacCheckBoxCopyWith(
-          _StacCheckBox value, $Res Function(_StacCheckBox) _then) =
-      __$StacCheckBoxCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {String? id,
-      bool? value,
-      bool tristate,
-      Map<String, dynamic>? onChanged,
-      StacMouseCursor? mouseCursor,
-      String? activeColor,
-      StacMaterialColor? fillColor,
-      String? checkColor,
-      String? focusColor,
-      String? hoverColor,
-      StacMaterialColor? overlayColor,
-      StacDouble? splashRadius,
-      MaterialTapTargetSize? materialTapTargetSize,
-      bool autofocus,
-      bool isError});
+abstract class _StacCheckBox implements StacCheckBox {
+  const factory _StacCheckBox(
+      {final String? id,
+      final bool? value,
+      final bool tristate,
+      final Map<String, dynamic>? onChanged,
+      final StacMouseCursor? mouseCursor,
+      final String? activeColor,
+      final StacMaterialColor? fillColor,
+      final String? checkColor,
+      final String? focusColor,
+      final String? hoverColor,
+      final StacMaterialColor? overlayColor,
+      final StacDouble? splashRadius,
+      final MaterialTapTargetSize? materialTapTargetSize,
+      final bool autofocus,
+      final bool isError}) = _$StacCheckBoxImpl;
+
+  factory _StacCheckBox.fromJson(Map<String, dynamic> json) =
+      _$StacCheckBoxImpl.fromJson;
 
   @override
-  $StacMaterialColorCopyWith<$Res>? get fillColor;
+  String? get id;
   @override
-  $StacMaterialColorCopyWith<$Res>? get overlayColor;
+  bool? get value;
+  @override
+  bool get tristate;
+  @override
+  Map<String, dynamic>? get onChanged;
+  @override
+  StacMouseCursor? get mouseCursor;
+  @override
+  String? get activeColor;
+  @override
+  StacMaterialColor? get fillColor;
+  @override
+  String? get checkColor;
+  @override
+  String? get focusColor;
+  @override
+  String? get hoverColor;
+  @override
+  StacMaterialColor? get overlayColor;
+  @override
+  StacDouble? get splashRadius;
+  @override
+  MaterialTapTargetSize? get materialTapTargetSize;
+  @override
+  bool get autofocus;
+  @override
+  bool get isError;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacCheckBoxImplCopyWith<_$StacCheckBoxImpl> get copyWith =>
+      throw _privateConstructorUsedError;
 }
-
-/// @nodoc
-class __$StacCheckBoxCopyWithImpl<$Res>
-    implements _$StacCheckBoxCopyWith<$Res> {
-  __$StacCheckBoxCopyWithImpl(this._self, this._then);
-
-  final _StacCheckBox _self;
-  final $Res Function(_StacCheckBox) _then;
-
-  /// Create a copy of StacCheckBox
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $Res call({
-    Object? id = freezed,
-    Object? value = freezed,
-    Object? tristate = null,
-    Object? onChanged = freezed,
-    Object? mouseCursor = freezed,
-    Object? activeColor = freezed,
-    Object? fillColor = freezed,
-    Object? checkColor = freezed,
-    Object? focusColor = freezed,
-    Object? hoverColor = freezed,
-    Object? overlayColor = freezed,
-    Object? splashRadius = freezed,
-    Object? materialTapTargetSize = freezed,
-    Object? autofocus = null,
-    Object? isError = null,
-  }) {
-    return _then(_StacCheckBox(
-      id: freezed == id
-          ? _self.id
-          : id // ignore: cast_nullable_to_non_nullable
-              as String?,
-      value: freezed == value
-          ? _self.value
-          : value // ignore: cast_nullable_to_non_nullable
-              as bool?,
-      tristate: null == tristate
-          ? _self.tristate
-          : tristate // ignore: cast_nullable_to_non_nullable
-              as bool,
-      onChanged: freezed == onChanged
-          ? _self._onChanged
-          : onChanged // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      mouseCursor: freezed == mouseCursor
-          ? _self.mouseCursor
-          : mouseCursor // ignore: cast_nullable_to_non_nullable
-              as StacMouseCursor?,
-      activeColor: freezed == activeColor
-          ? _self.activeColor
-          : activeColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      fillColor: freezed == fillColor
-          ? _self.fillColor
-          : fillColor // ignore: cast_nullable_to_non_nullable
-              as StacMaterialColor?,
-      checkColor: freezed == checkColor
-          ? _self.checkColor
-          : checkColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      focusColor: freezed == focusColor
-          ? _self.focusColor
-          : focusColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      hoverColor: freezed == hoverColor
-          ? _self.hoverColor
-          : hoverColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      overlayColor: freezed == overlayColor
-          ? _self.overlayColor
-          : overlayColor // ignore: cast_nullable_to_non_nullable
-              as StacMaterialColor?,
-      splashRadius: freezed == splashRadius
-          ? _self.splashRadius
-          : splashRadius // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      materialTapTargetSize: freezed == materialTapTargetSize
-          ? _self.materialTapTargetSize
-          : materialTapTargetSize // ignore: cast_nullable_to_non_nullable
-              as MaterialTapTargetSize?,
-      autofocus: null == autofocus
-          ? _self.autofocus
-          : autofocus // ignore: cast_nullable_to_non_nullable
-              as bool,
-      isError: null == isError
-          ? _self.isError
-          : isError // ignore: cast_nullable_to_non_nullable
-              as bool,
-    ));
-  }
-
-  /// Create a copy of StacCheckBox
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacMaterialColorCopyWith<$Res>? get fillColor {
-    if (_self.fillColor == null) {
-      return null;
-    }
-
-    return $StacMaterialColorCopyWith<$Res>(_self.fillColor!, (value) {
-      return _then(_self.copyWith(fillColor: value));
-    });
-  }
-
-  /// Create a copy of StacCheckBox
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacMaterialColorCopyWith<$Res>? get overlayColor {
-    if (_self.overlayColor == null) {
-      return null;
-    }
-
-    return $StacMaterialColorCopyWith<$Res>(_self.overlayColor!, (value) {
-      return _then(_self.copyWith(overlayColor: value));
-    });
-  }
-}
-
-// dart format on

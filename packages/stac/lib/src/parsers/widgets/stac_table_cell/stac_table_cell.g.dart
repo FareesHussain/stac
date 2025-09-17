@@ -6,14 +6,14 @@ part of 'stac_table_cell.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacTableCell _$StacTableCellFromJson(Map<String, dynamic> json) =>
-    _StacTableCell(
+_$StacTableCellImpl _$$StacTableCellImplFromJson(Map<String, dynamic> json) =>
+    _$StacTableCellImpl(
       verticalAlignment: $enumDecodeNullable(
           _$TableCellVerticalAlignmentEnumMap, json['verticalAlignment']),
       child: json['child'] as Map<String, dynamic>?,
     );
 
-Map<String, dynamic> _$StacTableCellToJson(_StacTableCell instance) =>
+Map<String, dynamic> _$$StacTableCellImplToJson(_$StacTableCellImpl instance) =>
     <String, dynamic>{
       'verticalAlignment':
           _$TableCellVerticalAlignmentEnumMap[instance.verticalAlignment],

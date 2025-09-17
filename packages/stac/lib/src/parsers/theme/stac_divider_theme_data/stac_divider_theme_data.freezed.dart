@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,58 +9,34 @@ part of 'stac_divider_theme_data.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacDividerThemeData {
-  String? get color;
-  double? get space;
-  double? get thickness;
-  double? get indent;
-  double? get endIndent;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacDividerThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacDividerThemeDataCopyWith<StacDividerThemeData> get copyWith =>
-      _$StacDividerThemeDataCopyWithImpl<StacDividerThemeData>(
-          this as StacDividerThemeData, _$identity);
-
-  /// Serializes this StacDividerThemeData to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacDividerThemeData &&
-            (identical(other.color, color) || other.color == color) &&
-            (identical(other.space, space) || other.space == space) &&
-            (identical(other.thickness, thickness) ||
-                other.thickness == thickness) &&
-            (identical(other.indent, indent) || other.indent == indent) &&
-            (identical(other.endIndent, endIndent) ||
-                other.endIndent == endIndent));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode =>
-      Object.hash(runtimeType, color, space, thickness, indent, endIndent);
-
-  @override
-  String toString() {
-    return 'StacDividerThemeData(color: $color, space: $space, thickness: $thickness, indent: $indent, endIndent: $endIndent)';
-  }
+StacDividerThemeData _$StacDividerThemeDataFromJson(Map<String, dynamic> json) {
+  return _StacDividerThemeData.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacDividerThemeDataCopyWith<$Res> {
+mixin _$StacDividerThemeData {
+  String? get color => throw _privateConstructorUsedError;
+  double? get space => throw _privateConstructorUsedError;
+  double? get thickness => throw _privateConstructorUsedError;
+  double? get indent => throw _privateConstructorUsedError;
+  double? get endIndent => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacDividerThemeDataCopyWith<StacDividerThemeData> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacDividerThemeDataCopyWith<$Res> {
   factory $StacDividerThemeDataCopyWith(StacDividerThemeData value,
-          $Res Function(StacDividerThemeData) _then) =
-      _$StacDividerThemeDataCopyWithImpl;
+          $Res Function(StacDividerThemeData) then) =
+      _$StacDividerThemeDataCopyWithImpl<$Res, StacDividerThemeData>;
   @useResult
   $Res call(
       {String? color,
@@ -72,15 +47,16 @@ abstract mixin class $StacDividerThemeDataCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacDividerThemeDataCopyWithImpl<$Res>
+class _$StacDividerThemeDataCopyWithImpl<$Res,
+        $Val extends StacDividerThemeData>
     implements $StacDividerThemeDataCopyWith<$Res> {
-  _$StacDividerThemeDataCopyWithImpl(this._self, this._then);
+  _$StacDividerThemeDataCopyWithImpl(this._value, this._then);
 
-  final StacDividerThemeData _self;
-  final $Res Function(StacDividerThemeData) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacDividerThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -90,25 +66,83 @@ class _$StacDividerThemeDataCopyWithImpl<$Res>
     Object? indent = freezed,
     Object? endIndent = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       color: freezed == color
-          ? _self.color
+          ? _value.color
           : color // ignore: cast_nullable_to_non_nullable
               as String?,
       space: freezed == space
-          ? _self.space
+          ? _value.space
           : space // ignore: cast_nullable_to_non_nullable
               as double?,
       thickness: freezed == thickness
-          ? _self.thickness
+          ? _value.thickness
           : thickness // ignore: cast_nullable_to_non_nullable
               as double?,
       indent: freezed == indent
-          ? _self.indent
+          ? _value.indent
           : indent // ignore: cast_nullable_to_non_nullable
               as double?,
       endIndent: freezed == endIndent
-          ? _self.endIndent
+          ? _value.endIndent
+          : endIndent // ignore: cast_nullable_to_non_nullable
+              as double?,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacDividerThemeDataImplCopyWith<$Res>
+    implements $StacDividerThemeDataCopyWith<$Res> {
+  factory _$$StacDividerThemeDataImplCopyWith(_$StacDividerThemeDataImpl value,
+          $Res Function(_$StacDividerThemeDataImpl) then) =
+      __$$StacDividerThemeDataImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {String? color,
+      double? space,
+      double? thickness,
+      double? indent,
+      double? endIndent});
+}
+
+/// @nodoc
+class __$$StacDividerThemeDataImplCopyWithImpl<$Res>
+    extends _$StacDividerThemeDataCopyWithImpl<$Res, _$StacDividerThemeDataImpl>
+    implements _$$StacDividerThemeDataImplCopyWith<$Res> {
+  __$$StacDividerThemeDataImplCopyWithImpl(_$StacDividerThemeDataImpl _value,
+      $Res Function(_$StacDividerThemeDataImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? color = freezed,
+    Object? space = freezed,
+    Object? thickness = freezed,
+    Object? indent = freezed,
+    Object? endIndent = freezed,
+  }) {
+    return _then(_$StacDividerThemeDataImpl(
+      color: freezed == color
+          ? _value.color
+          : color // ignore: cast_nullable_to_non_nullable
+              as String?,
+      space: freezed == space
+          ? _value.space
+          : space // ignore: cast_nullable_to_non_nullable
+              as double?,
+      thickness: freezed == thickness
+          ? _value.thickness
+          : thickness // ignore: cast_nullable_to_non_nullable
+              as double?,
+      indent: freezed == indent
+          ? _value.indent
+          : indent // ignore: cast_nullable_to_non_nullable
+              as double?,
+      endIndent: freezed == endIndent
+          ? _value.endIndent
           : endIndent // ignore: cast_nullable_to_non_nullable
               as double?,
     ));
@@ -117,11 +151,12 @@ class _$StacDividerThemeDataCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _StacDividerThemeData implements StacDividerThemeData {
-  const _StacDividerThemeData(
+class _$StacDividerThemeDataImpl implements _StacDividerThemeData {
+  const _$StacDividerThemeDataImpl(
       {this.color, this.space, this.thickness, this.indent, this.endIndent});
-  factory _StacDividerThemeData.fromJson(Map<String, dynamic> json) =>
-      _$StacDividerThemeDataFromJson(json);
+
+  factory _$StacDividerThemeDataImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacDividerThemeDataImplFromJson(json);
 
   @override
   final String? color;
@@ -134,27 +169,16 @@ class _StacDividerThemeData implements StacDividerThemeData {
   @override
   final double? endIndent;
 
-  /// Create a copy of StacDividerThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacDividerThemeDataCopyWith<_StacDividerThemeData> get copyWith =>
-      __$StacDividerThemeDataCopyWithImpl<_StacDividerThemeData>(
-          this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacDividerThemeDataToJson(
-      this,
-    );
+  String toString() {
+    return 'StacDividerThemeData(color: $color, space: $space, thickness: $thickness, indent: $indent, endIndent: $endIndent)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacDividerThemeData &&
+            other is _$StacDividerThemeDataImpl &&
             (identical(other.color, color) || other.color == color) &&
             (identical(other.space, space) || other.space == space) &&
             (identical(other.thickness, thickness) ||
@@ -164,75 +188,50 @@ class _StacDividerThemeData implements StacDividerThemeData {
                 other.endIndent == endIndent));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode =>
       Object.hash(runtimeType, color, space, thickness, indent, endIndent);
 
-  @override
-  String toString() {
-    return 'StacDividerThemeData(color: $color, space: $space, thickness: $thickness, indent: $indent, endIndent: $endIndent)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacDividerThemeDataCopyWith<$Res>
-    implements $StacDividerThemeDataCopyWith<$Res> {
-  factory _$StacDividerThemeDataCopyWith(_StacDividerThemeData value,
-          $Res Function(_StacDividerThemeData) _then) =
-      __$StacDividerThemeDataCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {String? color,
-      double? space,
-      double? thickness,
-      double? indent,
-      double? endIndent});
-}
-
-/// @nodoc
-class __$StacDividerThemeDataCopyWithImpl<$Res>
-    implements _$StacDividerThemeDataCopyWith<$Res> {
-  __$StacDividerThemeDataCopyWithImpl(this._self, this._then);
-
-  final _StacDividerThemeData _self;
-  final $Res Function(_StacDividerThemeData) _then;
-
-  /// Create a copy of StacDividerThemeData
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? color = freezed,
-    Object? space = freezed,
-    Object? thickness = freezed,
-    Object? indent = freezed,
-    Object? endIndent = freezed,
-  }) {
-    return _then(_StacDividerThemeData(
-      color: freezed == color
-          ? _self.color
-          : color // ignore: cast_nullable_to_non_nullable
-              as String?,
-      space: freezed == space
-          ? _self.space
-          : space // ignore: cast_nullable_to_non_nullable
-              as double?,
-      thickness: freezed == thickness
-          ? _self.thickness
-          : thickness // ignore: cast_nullable_to_non_nullable
-              as double?,
-      indent: freezed == indent
-          ? _self.indent
-          : indent // ignore: cast_nullable_to_non_nullable
-              as double?,
-      endIndent: freezed == endIndent
-          ? _self.endIndent
-          : endIndent // ignore: cast_nullable_to_non_nullable
-              as double?,
-    ));
+  _$$StacDividerThemeDataImplCopyWith<_$StacDividerThemeDataImpl>
+      get copyWith =>
+          __$$StacDividerThemeDataImplCopyWithImpl<_$StacDividerThemeDataImpl>(
+              this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacDividerThemeDataImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacDividerThemeData implements StacDividerThemeData {
+  const factory _StacDividerThemeData(
+      {final String? color,
+      final double? space,
+      final double? thickness,
+      final double? indent,
+      final double? endIndent}) = _$StacDividerThemeDataImpl;
+
+  factory _StacDividerThemeData.fromJson(Map<String, dynamic> json) =
+      _$StacDividerThemeDataImpl.fromJson;
+
+  @override
+  String? get color;
+  @override
+  double? get space;
+  @override
+  double? get thickness;
+  @override
+  double? get indent;
+  @override
+  double? get endIndent;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacDividerThemeDataImplCopyWith<_$StacDividerThemeDataImpl>
+      get copyWith => throw _privateConstructorUsedError;
+}

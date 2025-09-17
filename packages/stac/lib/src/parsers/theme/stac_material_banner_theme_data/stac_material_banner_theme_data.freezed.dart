@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,79 +9,40 @@ part of 'stac_material_banner_theme_data.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacMaterialBannerThemeData {
-  String? get backgroundColor;
-  String? get surfaceTintColor;
-  String? get shadowColor;
-  String? get dividerColor;
-  StacTextStyle? get contentTextStyle;
-  double? get elevation;
-  StacEdgeInsets? get padding;
-  StacEdgeInsets? get leadingPadding;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacMaterialBannerThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacMaterialBannerThemeDataCopyWith<StacMaterialBannerThemeData>
-      get copyWith => _$StacMaterialBannerThemeDataCopyWithImpl<
-              StacMaterialBannerThemeData>(
-          this as StacMaterialBannerThemeData, _$identity);
-
-  /// Serializes this StacMaterialBannerThemeData to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacMaterialBannerThemeData &&
-            (identical(other.backgroundColor, backgroundColor) ||
-                other.backgroundColor == backgroundColor) &&
-            (identical(other.surfaceTintColor, surfaceTintColor) ||
-                other.surfaceTintColor == surfaceTintColor) &&
-            (identical(other.shadowColor, shadowColor) ||
-                other.shadowColor == shadowColor) &&
-            (identical(other.dividerColor, dividerColor) ||
-                other.dividerColor == dividerColor) &&
-            (identical(other.contentTextStyle, contentTextStyle) ||
-                other.contentTextStyle == contentTextStyle) &&
-            (identical(other.elevation, elevation) ||
-                other.elevation == elevation) &&
-            (identical(other.padding, padding) || other.padding == padding) &&
-            (identical(other.leadingPadding, leadingPadding) ||
-                other.leadingPadding == leadingPadding));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      backgroundColor,
-      surfaceTintColor,
-      shadowColor,
-      dividerColor,
-      contentTextStyle,
-      elevation,
-      padding,
-      leadingPadding);
-
-  @override
-  String toString() {
-    return 'StacMaterialBannerThemeData(backgroundColor: $backgroundColor, surfaceTintColor: $surfaceTintColor, shadowColor: $shadowColor, dividerColor: $dividerColor, contentTextStyle: $contentTextStyle, elevation: $elevation, padding: $padding, leadingPadding: $leadingPadding)';
-  }
+StacMaterialBannerThemeData _$StacMaterialBannerThemeDataFromJson(
+    Map<String, dynamic> json) {
+  return _StacMaterialBannerThemeData.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacMaterialBannerThemeDataCopyWith<$Res> {
+mixin _$StacMaterialBannerThemeData {
+  String? get backgroundColor => throw _privateConstructorUsedError;
+  String? get surfaceTintColor => throw _privateConstructorUsedError;
+  String? get shadowColor => throw _privateConstructorUsedError;
+  String? get dividerColor => throw _privateConstructorUsedError;
+  StacTextStyle? get contentTextStyle => throw _privateConstructorUsedError;
+  double? get elevation => throw _privateConstructorUsedError;
+  StacEdgeInsets? get padding => throw _privateConstructorUsedError;
+  StacEdgeInsets? get leadingPadding => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacMaterialBannerThemeDataCopyWith<StacMaterialBannerThemeData>
+      get copyWith => throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacMaterialBannerThemeDataCopyWith<$Res> {
   factory $StacMaterialBannerThemeDataCopyWith(
           StacMaterialBannerThemeData value,
-          $Res Function(StacMaterialBannerThemeData) _then) =
-      _$StacMaterialBannerThemeDataCopyWithImpl;
+          $Res Function(StacMaterialBannerThemeData) then) =
+      _$StacMaterialBannerThemeDataCopyWithImpl<$Res,
+          StacMaterialBannerThemeData>;
   @useResult
   $Res call(
       {String? backgroundColor,
@@ -100,15 +60,16 @@ abstract mixin class $StacMaterialBannerThemeDataCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacMaterialBannerThemeDataCopyWithImpl<$Res>
+class _$StacMaterialBannerThemeDataCopyWithImpl<$Res,
+        $Val extends StacMaterialBannerThemeData>
     implements $StacMaterialBannerThemeDataCopyWith<$Res> {
-  _$StacMaterialBannerThemeDataCopyWithImpl(this._self, this._then);
+  _$StacMaterialBannerThemeDataCopyWithImpl(this._value, this._then);
 
-  final StacMaterialBannerThemeData _self;
-  final $Res Function(StacMaterialBannerThemeData) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacMaterialBannerThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -121,89 +82,170 @@ class _$StacMaterialBannerThemeDataCopyWithImpl<$Res>
     Object? padding = freezed,
     Object? leadingPadding = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
+          ? _value.backgroundColor
           : backgroundColor // ignore: cast_nullable_to_non_nullable
               as String?,
       surfaceTintColor: freezed == surfaceTintColor
-          ? _self.surfaceTintColor
+          ? _value.surfaceTintColor
           : surfaceTintColor // ignore: cast_nullable_to_non_nullable
               as String?,
       shadowColor: freezed == shadowColor
-          ? _self.shadowColor
+          ? _value.shadowColor
           : shadowColor // ignore: cast_nullable_to_non_nullable
               as String?,
       dividerColor: freezed == dividerColor
-          ? _self.dividerColor
+          ? _value.dividerColor
           : dividerColor // ignore: cast_nullable_to_non_nullable
               as String?,
       contentTextStyle: freezed == contentTextStyle
-          ? _self.contentTextStyle
+          ? _value.contentTextStyle
           : contentTextStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       elevation: freezed == elevation
-          ? _self.elevation
+          ? _value.elevation
           : elevation // ignore: cast_nullable_to_non_nullable
               as double?,
       padding: freezed == padding
-          ? _self.padding
+          ? _value.padding
           : padding // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets?,
       leadingPadding: freezed == leadingPadding
-          ? _self.leadingPadding
+          ? _value.leadingPadding
           : leadingPadding // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets?,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacMaterialBannerThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacTextStyleCopyWith<$Res>? get contentTextStyle {
-    if (_self.contentTextStyle == null) {
+    if (_value.contentTextStyle == null) {
       return null;
     }
 
-    return $StacTextStyleCopyWith<$Res>(_self.contentTextStyle!, (value) {
-      return _then(_self.copyWith(contentTextStyle: value));
+    return $StacTextStyleCopyWith<$Res>(_value.contentTextStyle!, (value) {
+      return _then(_value.copyWith(contentTextStyle: value) as $Val);
     });
   }
 
-  /// Create a copy of StacMaterialBannerThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacEdgeInsetsCopyWith<$Res>? get padding {
-    if (_self.padding == null) {
+    if (_value.padding == null) {
       return null;
     }
 
-    return $StacEdgeInsetsCopyWith<$Res>(_self.padding!, (value) {
-      return _then(_self.copyWith(padding: value));
+    return $StacEdgeInsetsCopyWith<$Res>(_value.padding!, (value) {
+      return _then(_value.copyWith(padding: value) as $Val);
     });
   }
 
-  /// Create a copy of StacMaterialBannerThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacEdgeInsetsCopyWith<$Res>? get leadingPadding {
-    if (_self.leadingPadding == null) {
+    if (_value.leadingPadding == null) {
       return null;
     }
 
-    return $StacEdgeInsetsCopyWith<$Res>(_self.leadingPadding!, (value) {
-      return _then(_self.copyWith(leadingPadding: value));
+    return $StacEdgeInsetsCopyWith<$Res>(_value.leadingPadding!, (value) {
+      return _then(_value.copyWith(leadingPadding: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacMaterialBannerThemeDataImplCopyWith<$Res>
+    implements $StacMaterialBannerThemeDataCopyWith<$Res> {
+  factory _$$StacMaterialBannerThemeDataImplCopyWith(
+          _$StacMaterialBannerThemeDataImpl value,
+          $Res Function(_$StacMaterialBannerThemeDataImpl) then) =
+      __$$StacMaterialBannerThemeDataImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {String? backgroundColor,
+      String? surfaceTintColor,
+      String? shadowColor,
+      String? dividerColor,
+      StacTextStyle? contentTextStyle,
+      double? elevation,
+      StacEdgeInsets? padding,
+      StacEdgeInsets? leadingPadding});
+
+  @override
+  $StacTextStyleCopyWith<$Res>? get contentTextStyle;
+  @override
+  $StacEdgeInsetsCopyWith<$Res>? get padding;
+  @override
+  $StacEdgeInsetsCopyWith<$Res>? get leadingPadding;
+}
+
+/// @nodoc
+class __$$StacMaterialBannerThemeDataImplCopyWithImpl<$Res>
+    extends _$StacMaterialBannerThemeDataCopyWithImpl<$Res,
+        _$StacMaterialBannerThemeDataImpl>
+    implements _$$StacMaterialBannerThemeDataImplCopyWith<$Res> {
+  __$$StacMaterialBannerThemeDataImplCopyWithImpl(
+      _$StacMaterialBannerThemeDataImpl _value,
+      $Res Function(_$StacMaterialBannerThemeDataImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? backgroundColor = freezed,
+    Object? surfaceTintColor = freezed,
+    Object? shadowColor = freezed,
+    Object? dividerColor = freezed,
+    Object? contentTextStyle = freezed,
+    Object? elevation = freezed,
+    Object? padding = freezed,
+    Object? leadingPadding = freezed,
+  }) {
+    return _then(_$StacMaterialBannerThemeDataImpl(
+      backgroundColor: freezed == backgroundColor
+          ? _value.backgroundColor
+          : backgroundColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      surfaceTintColor: freezed == surfaceTintColor
+          ? _value.surfaceTintColor
+          : surfaceTintColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      shadowColor: freezed == shadowColor
+          ? _value.shadowColor
+          : shadowColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      dividerColor: freezed == dividerColor
+          ? _value.dividerColor
+          : dividerColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      contentTextStyle: freezed == contentTextStyle
+          ? _value.contentTextStyle
+          : contentTextStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      elevation: freezed == elevation
+          ? _value.elevation
+          : elevation // ignore: cast_nullable_to_non_nullable
+              as double?,
+      padding: freezed == padding
+          ? _value.padding
+          : padding // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets?,
+      leadingPadding: freezed == leadingPadding
+          ? _value.leadingPadding
+          : leadingPadding // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets?,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacMaterialBannerThemeData implements StacMaterialBannerThemeData {
-  const _StacMaterialBannerThemeData(
+class _$StacMaterialBannerThemeDataImpl
+    implements _StacMaterialBannerThemeData {
+  const _$StacMaterialBannerThemeDataImpl(
       {this.backgroundColor,
       this.surfaceTintColor,
       this.shadowColor,
@@ -212,8 +254,10 @@ class _StacMaterialBannerThemeData implements StacMaterialBannerThemeData {
       this.elevation,
       this.padding,
       this.leadingPadding});
-  factory _StacMaterialBannerThemeData.fromJson(Map<String, dynamic> json) =>
-      _$StacMaterialBannerThemeDataFromJson(json);
+
+  factory _$StacMaterialBannerThemeDataImpl.fromJson(
+          Map<String, dynamic> json) =>
+      _$$StacMaterialBannerThemeDataImplFromJson(json);
 
   @override
   final String? backgroundColor;
@@ -232,27 +276,16 @@ class _StacMaterialBannerThemeData implements StacMaterialBannerThemeData {
   @override
   final StacEdgeInsets? leadingPadding;
 
-  /// Create a copy of StacMaterialBannerThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacMaterialBannerThemeDataCopyWith<_StacMaterialBannerThemeData>
-      get copyWith => __$StacMaterialBannerThemeDataCopyWithImpl<
-          _StacMaterialBannerThemeData>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacMaterialBannerThemeDataToJson(
-      this,
-    );
+  String toString() {
+    return 'StacMaterialBannerThemeData(backgroundColor: $backgroundColor, surfaceTintColor: $surfaceTintColor, shadowColor: $shadowColor, dividerColor: $dividerColor, contentTextStyle: $contentTextStyle, elevation: $elevation, padding: $padding, leadingPadding: $leadingPadding)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacMaterialBannerThemeData &&
+            other is _$StacMaterialBannerThemeDataImpl &&
             (identical(other.backgroundColor, backgroundColor) ||
                 other.backgroundColor == backgroundColor) &&
             (identical(other.surfaceTintColor, surfaceTintColor) ||
@@ -270,7 +303,7 @@ class _StacMaterialBannerThemeData implements StacMaterialBannerThemeData {
                 other.leadingPadding == leadingPadding));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -283,138 +316,55 @@ class _StacMaterialBannerThemeData implements StacMaterialBannerThemeData {
       padding,
       leadingPadding);
 
+  @JsonKey(ignore: true)
   @override
-  String toString() {
-    return 'StacMaterialBannerThemeData(backgroundColor: $backgroundColor, surfaceTintColor: $surfaceTintColor, shadowColor: $shadowColor, dividerColor: $dividerColor, contentTextStyle: $contentTextStyle, elevation: $elevation, padding: $padding, leadingPadding: $leadingPadding)';
+  @pragma('vm:prefer-inline')
+  _$$StacMaterialBannerThemeDataImplCopyWith<_$StacMaterialBannerThemeDataImpl>
+      get copyWith => __$$StacMaterialBannerThemeDataImplCopyWithImpl<
+          _$StacMaterialBannerThemeDataImpl>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacMaterialBannerThemeDataImplToJson(
+      this,
+    );
   }
 }
 
-/// @nodoc
-abstract mixin class _$StacMaterialBannerThemeDataCopyWith<$Res>
-    implements $StacMaterialBannerThemeDataCopyWith<$Res> {
-  factory _$StacMaterialBannerThemeDataCopyWith(
-          _StacMaterialBannerThemeData value,
-          $Res Function(_StacMaterialBannerThemeData) _then) =
-      __$StacMaterialBannerThemeDataCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {String? backgroundColor,
-      String? surfaceTintColor,
-      String? shadowColor,
-      String? dividerColor,
-      StacTextStyle? contentTextStyle,
-      double? elevation,
-      StacEdgeInsets? padding,
-      StacEdgeInsets? leadingPadding});
+abstract class _StacMaterialBannerThemeData
+    implements StacMaterialBannerThemeData {
+  const factory _StacMaterialBannerThemeData(
+          {final String? backgroundColor,
+          final String? surfaceTintColor,
+          final String? shadowColor,
+          final String? dividerColor,
+          final StacTextStyle? contentTextStyle,
+          final double? elevation,
+          final StacEdgeInsets? padding,
+          final StacEdgeInsets? leadingPadding}) =
+      _$StacMaterialBannerThemeDataImpl;
+
+  factory _StacMaterialBannerThemeData.fromJson(Map<String, dynamic> json) =
+      _$StacMaterialBannerThemeDataImpl.fromJson;
 
   @override
-  $StacTextStyleCopyWith<$Res>? get contentTextStyle;
+  String? get backgroundColor;
   @override
-  $StacEdgeInsetsCopyWith<$Res>? get padding;
+  String? get surfaceTintColor;
   @override
-  $StacEdgeInsetsCopyWith<$Res>? get leadingPadding;
+  String? get shadowColor;
+  @override
+  String? get dividerColor;
+  @override
+  StacTextStyle? get contentTextStyle;
+  @override
+  double? get elevation;
+  @override
+  StacEdgeInsets? get padding;
+  @override
+  StacEdgeInsets? get leadingPadding;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacMaterialBannerThemeDataImplCopyWith<_$StacMaterialBannerThemeDataImpl>
+      get copyWith => throw _privateConstructorUsedError;
 }
-
-/// @nodoc
-class __$StacMaterialBannerThemeDataCopyWithImpl<$Res>
-    implements _$StacMaterialBannerThemeDataCopyWith<$Res> {
-  __$StacMaterialBannerThemeDataCopyWithImpl(this._self, this._then);
-
-  final _StacMaterialBannerThemeData _self;
-  final $Res Function(_StacMaterialBannerThemeData) _then;
-
-  /// Create a copy of StacMaterialBannerThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $Res call({
-    Object? backgroundColor = freezed,
-    Object? surfaceTintColor = freezed,
-    Object? shadowColor = freezed,
-    Object? dividerColor = freezed,
-    Object? contentTextStyle = freezed,
-    Object? elevation = freezed,
-    Object? padding = freezed,
-    Object? leadingPadding = freezed,
-  }) {
-    return _then(_StacMaterialBannerThemeData(
-      backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
-          : backgroundColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      surfaceTintColor: freezed == surfaceTintColor
-          ? _self.surfaceTintColor
-          : surfaceTintColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      shadowColor: freezed == shadowColor
-          ? _self.shadowColor
-          : shadowColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      dividerColor: freezed == dividerColor
-          ? _self.dividerColor
-          : dividerColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      contentTextStyle: freezed == contentTextStyle
-          ? _self.contentTextStyle
-          : contentTextStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      elevation: freezed == elevation
-          ? _self.elevation
-          : elevation // ignore: cast_nullable_to_non_nullable
-              as double?,
-      padding: freezed == padding
-          ? _self.padding
-          : padding // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets?,
-      leadingPadding: freezed == leadingPadding
-          ? _self.leadingPadding
-          : leadingPadding // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets?,
-    ));
-  }
-
-  /// Create a copy of StacMaterialBannerThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get contentTextStyle {
-    if (_self.contentTextStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_self.contentTextStyle!, (value) {
-      return _then(_self.copyWith(contentTextStyle: value));
-    });
-  }
-
-  /// Create a copy of StacMaterialBannerThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacEdgeInsetsCopyWith<$Res>? get padding {
-    if (_self.padding == null) {
-      return null;
-    }
-
-    return $StacEdgeInsetsCopyWith<$Res>(_self.padding!, (value) {
-      return _then(_self.copyWith(padding: value));
-    });
-  }
-
-  /// Create a copy of StacMaterialBannerThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacEdgeInsetsCopyWith<$Res>? get leadingPadding {
-    if (_self.leadingPadding == null) {
-      return null;
-    }
-
-    return $StacEdgeInsetsCopyWith<$Res>(_self.leadingPadding!, (value) {
-      return _then(_self.copyWith(leadingPadding: value));
-    });
-  }
-}
-
-// dart format on

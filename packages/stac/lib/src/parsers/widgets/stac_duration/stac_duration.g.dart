@@ -6,8 +6,8 @@ part of 'stac_duration.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacDuration _$StacDurationFromJson(Map<String, dynamic> json) =>
-    _StacDuration(
+_$StacDurationImpl _$$StacDurationImplFromJson(Map<String, dynamic> json) =>
+    _$StacDurationImpl(
       days: (json['days'] as num?)?.toInt() ?? 0,
       hours: (json['hours'] as num?)?.toInt() ?? 0,
       minutes: (json['minutes'] as num?)?.toInt() ?? 0,
@@ -16,7 +16,7 @@ _StacDuration _$StacDurationFromJson(Map<String, dynamic> json) =>
       microseconds: (json['microseconds'] as num?)?.toInt() ?? 0,
     );
 
-Map<String, dynamic> _$StacDurationToJson(_StacDuration instance) =>
+Map<String, dynamic> _$$StacDurationImplToJson(_$StacDurationImpl instance) =>
     <String, dynamic>{
       'days': instance.days,
       'hours': instance.hours,

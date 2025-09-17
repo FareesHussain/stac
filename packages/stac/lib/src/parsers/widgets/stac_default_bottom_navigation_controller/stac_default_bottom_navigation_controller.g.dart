@@ -6,17 +6,17 @@ part of 'stac_default_bottom_navigation_controller.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacDefaultBottomNavigationController
-    _$StacDefaultBottomNavigationControllerFromJson(
+_$StacDefaultBottomNavigationControllerImpl
+    _$$StacDefaultBottomNavigationControllerImplFromJson(
             Map<String, dynamic> json) =>
-        _StacDefaultBottomNavigationController(
+        _$StacDefaultBottomNavigationControllerImpl(
           length: (json['length'] as num).toInt(),
           initialIndex: (json['initialIndex'] as num?)?.toInt(),
           child: json['child'] as Map<String, dynamic>,
         );
 
-Map<String, dynamic> _$StacDefaultBottomNavigationControllerToJson(
-        _StacDefaultBottomNavigationController instance) =>
+Map<String, dynamic> _$$StacDefaultBottomNavigationControllerImplToJson(
+        _$StacDefaultBottomNavigationControllerImpl instance) =>
     <String, dynamic>{
       'length': instance.length,
       'initialIndex': instance.initialIndex,

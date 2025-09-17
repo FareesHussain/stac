@@ -6,13 +6,15 @@ part of 'stac_input_formatter.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacInputFormatter _$StacInputFormatterFromJson(Map<String, dynamic> json) =>
-    _StacInputFormatter(
+_$StacInputFormatterImpl _$$StacInputFormatterImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacInputFormatterImpl(
       type: $enumDecode(_$InputFormatterTypeEnumMap, json['type']),
       rule: json['rule'] as String?,
     );
 
-Map<String, dynamic> _$StacInputFormatterToJson(_StacInputFormatter instance) =>
+Map<String, dynamic> _$$StacInputFormatterImplToJson(
+        _$StacInputFormatterImpl instance) =>
     <String, dynamic>{
       'type': _$InputFormatterTypeEnumMap[instance.type]!,
       'rule': instance.rule,

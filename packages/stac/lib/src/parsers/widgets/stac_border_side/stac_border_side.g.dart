@@ -6,8 +6,8 @@ part of 'stac_border_side.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacBorderSide _$StacBorderSideFromJson(Map<String, dynamic> json) =>
-    _StacBorderSide(
+_$StacBorderSideImpl _$$StacBorderSideImplFromJson(Map<String, dynamic> json) =>
+    _$StacBorderSideImpl(
       color: json['color'] as String?,
       width: json['width'] == null
           ? const StacDouble(1.0)
@@ -20,7 +20,8 @@ _StacBorderSide _$StacBorderSideFromJson(Map<String, dynamic> json) =>
               BorderStyle.solid,
     );
 
-Map<String, dynamic> _$StacBorderSideToJson(_StacBorderSide instance) =>
+Map<String, dynamic> _$$StacBorderSideImplToJson(
+        _$StacBorderSideImpl instance) =>
     <String, dynamic>{
       'color': instance.color,
       'width': instance.width,

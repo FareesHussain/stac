@@ -6,9 +6,9 @@ part of 'stac_dropdown_menu_entry.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacBDropdownMenuEntry _$StacBDropdownMenuEntryFromJson(
+_$StacBDropdownMenuEntryImpl _$$StacBDropdownMenuEntryImplFromJson(
         Map<String, dynamic> json) =>
-    _StacBDropdownMenuEntry(
+    _$StacBDropdownMenuEntryImpl(
       value: json['value'],
       label: json['label'] as String? ?? "",
       labelWidget: json['labelWidget'] as Map<String, dynamic>?,
@@ -20,8 +20,8 @@ _StacBDropdownMenuEntry _$StacBDropdownMenuEntryFromJson(
           : StacButtonStyle.fromJson(json['style'] as Map<String, dynamic>),
     );
 
-Map<String, dynamic> _$StacBDropdownMenuEntryToJson(
-        _StacBDropdownMenuEntry instance) =>
+Map<String, dynamic> _$$StacBDropdownMenuEntryImplToJson(
+        _$StacBDropdownMenuEntryImpl instance) =>
     <String, dynamic>{
       'value': instance.value,
       'label': instance.label,

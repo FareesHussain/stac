@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,80 +9,38 @@ part of 'stac_drawer_theme_data.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacDrawerThemeData {
-  String? get backgroundColor;
-  String? get scrimColor;
-  double? get elevation;
-  String? get shadowColor;
-  String? get surfaceTintColor;
-  StacShapeBorder? get shape;
-  StacShapeBorder? get endShape;
-  double? get width;
-  Clip? get clipBehavior;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacDrawerThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacDrawerThemeDataCopyWith<StacDrawerThemeData> get copyWith =>
-      _$StacDrawerThemeDataCopyWithImpl<StacDrawerThemeData>(
-          this as StacDrawerThemeData, _$identity);
-
-  /// Serializes this StacDrawerThemeData to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacDrawerThemeData &&
-            (identical(other.backgroundColor, backgroundColor) ||
-                other.backgroundColor == backgroundColor) &&
-            (identical(other.scrimColor, scrimColor) ||
-                other.scrimColor == scrimColor) &&
-            (identical(other.elevation, elevation) ||
-                other.elevation == elevation) &&
-            (identical(other.shadowColor, shadowColor) ||
-                other.shadowColor == shadowColor) &&
-            (identical(other.surfaceTintColor, surfaceTintColor) ||
-                other.surfaceTintColor == surfaceTintColor) &&
-            (identical(other.shape, shape) || other.shape == shape) &&
-            (identical(other.endShape, endShape) ||
-                other.endShape == endShape) &&
-            (identical(other.width, width) || other.width == width) &&
-            (identical(other.clipBehavior, clipBehavior) ||
-                other.clipBehavior == clipBehavior));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      backgroundColor,
-      scrimColor,
-      elevation,
-      shadowColor,
-      surfaceTintColor,
-      shape,
-      endShape,
-      width,
-      clipBehavior);
-
-  @override
-  String toString() {
-    return 'StacDrawerThemeData(backgroundColor: $backgroundColor, scrimColor: $scrimColor, elevation: $elevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, shape: $shape, endShape: $endShape, width: $width, clipBehavior: $clipBehavior)';
-  }
+StacDrawerThemeData _$StacDrawerThemeDataFromJson(Map<String, dynamic> json) {
+  return _StacDrawerThemeData.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacDrawerThemeDataCopyWith<$Res> {
+mixin _$StacDrawerThemeData {
+  String? get backgroundColor => throw _privateConstructorUsedError;
+  String? get scrimColor => throw _privateConstructorUsedError;
+  double? get elevation => throw _privateConstructorUsedError;
+  String? get shadowColor => throw _privateConstructorUsedError;
+  String? get surfaceTintColor => throw _privateConstructorUsedError;
+  StacShapeBorder? get shape => throw _privateConstructorUsedError;
+  StacShapeBorder? get endShape => throw _privateConstructorUsedError;
+  double? get width => throw _privateConstructorUsedError;
+  Clip? get clipBehavior => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacDrawerThemeDataCopyWith<StacDrawerThemeData> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacDrawerThemeDataCopyWith<$Res> {
   factory $StacDrawerThemeDataCopyWith(
-          StacDrawerThemeData value, $Res Function(StacDrawerThemeData) _then) =
-      _$StacDrawerThemeDataCopyWithImpl;
+          StacDrawerThemeData value, $Res Function(StacDrawerThemeData) then) =
+      _$StacDrawerThemeDataCopyWithImpl<$Res, StacDrawerThemeData>;
   @useResult
   $Res call(
       {String? backgroundColor,
@@ -101,15 +58,15 @@ abstract mixin class $StacDrawerThemeDataCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacDrawerThemeDataCopyWithImpl<$Res>
+class _$StacDrawerThemeDataCopyWithImpl<$Res, $Val extends StacDrawerThemeData>
     implements $StacDrawerThemeDataCopyWith<$Res> {
-  _$StacDrawerThemeDataCopyWithImpl(this._self, this._then);
+  _$StacDrawerThemeDataCopyWithImpl(this._value, this._then);
 
-  final StacDrawerThemeData _self;
-  final $Res Function(StacDrawerThemeData) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacDrawerThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -123,79 +80,162 @@ class _$StacDrawerThemeDataCopyWithImpl<$Res>
     Object? width = freezed,
     Object? clipBehavior = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
+          ? _value.backgroundColor
           : backgroundColor // ignore: cast_nullable_to_non_nullable
               as String?,
       scrimColor: freezed == scrimColor
-          ? _self.scrimColor
+          ? _value.scrimColor
           : scrimColor // ignore: cast_nullable_to_non_nullable
               as String?,
       elevation: freezed == elevation
-          ? _self.elevation
+          ? _value.elevation
           : elevation // ignore: cast_nullable_to_non_nullable
               as double?,
       shadowColor: freezed == shadowColor
-          ? _self.shadowColor
+          ? _value.shadowColor
           : shadowColor // ignore: cast_nullable_to_non_nullable
               as String?,
       surfaceTintColor: freezed == surfaceTintColor
-          ? _self.surfaceTintColor
+          ? _value.surfaceTintColor
           : surfaceTintColor // ignore: cast_nullable_to_non_nullable
               as String?,
       shape: freezed == shape
-          ? _self.shape
+          ? _value.shape
           : shape // ignore: cast_nullable_to_non_nullable
               as StacShapeBorder?,
       endShape: freezed == endShape
-          ? _self.endShape
+          ? _value.endShape
           : endShape // ignore: cast_nullable_to_non_nullable
               as StacShapeBorder?,
       width: freezed == width
-          ? _self.width
+          ? _value.width
           : width // ignore: cast_nullable_to_non_nullable
               as double?,
       clipBehavior: freezed == clipBehavior
-          ? _self.clipBehavior
+          ? _value.clipBehavior
           : clipBehavior // ignore: cast_nullable_to_non_nullable
               as Clip?,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacDrawerThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacShapeBorderCopyWith<$Res>? get shape {
-    if (_self.shape == null) {
+    if (_value.shape == null) {
       return null;
     }
 
-    return $StacShapeBorderCopyWith<$Res>(_self.shape!, (value) {
-      return _then(_self.copyWith(shape: value));
+    return $StacShapeBorderCopyWith<$Res>(_value.shape!, (value) {
+      return _then(_value.copyWith(shape: value) as $Val);
     });
   }
 
-  /// Create a copy of StacDrawerThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacShapeBorderCopyWith<$Res>? get endShape {
-    if (_self.endShape == null) {
+    if (_value.endShape == null) {
       return null;
     }
 
-    return $StacShapeBorderCopyWith<$Res>(_self.endShape!, (value) {
-      return _then(_self.copyWith(endShape: value));
+    return $StacShapeBorderCopyWith<$Res>(_value.endShape!, (value) {
+      return _then(_value.copyWith(endShape: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacDrawerThemeDataImplCopyWith<$Res>
+    implements $StacDrawerThemeDataCopyWith<$Res> {
+  factory _$$StacDrawerThemeDataImplCopyWith(_$StacDrawerThemeDataImpl value,
+          $Res Function(_$StacDrawerThemeDataImpl) then) =
+      __$$StacDrawerThemeDataImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {String? backgroundColor,
+      String? scrimColor,
+      double? elevation,
+      String? shadowColor,
+      String? surfaceTintColor,
+      StacShapeBorder? shape,
+      StacShapeBorder? endShape,
+      double? width,
+      Clip? clipBehavior});
+
+  @override
+  $StacShapeBorderCopyWith<$Res>? get shape;
+  @override
+  $StacShapeBorderCopyWith<$Res>? get endShape;
+}
+
+/// @nodoc
+class __$$StacDrawerThemeDataImplCopyWithImpl<$Res>
+    extends _$StacDrawerThemeDataCopyWithImpl<$Res, _$StacDrawerThemeDataImpl>
+    implements _$$StacDrawerThemeDataImplCopyWith<$Res> {
+  __$$StacDrawerThemeDataImplCopyWithImpl(_$StacDrawerThemeDataImpl _value,
+      $Res Function(_$StacDrawerThemeDataImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? backgroundColor = freezed,
+    Object? scrimColor = freezed,
+    Object? elevation = freezed,
+    Object? shadowColor = freezed,
+    Object? surfaceTintColor = freezed,
+    Object? shape = freezed,
+    Object? endShape = freezed,
+    Object? width = freezed,
+    Object? clipBehavior = freezed,
+  }) {
+    return _then(_$StacDrawerThemeDataImpl(
+      backgroundColor: freezed == backgroundColor
+          ? _value.backgroundColor
+          : backgroundColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      scrimColor: freezed == scrimColor
+          ? _value.scrimColor
+          : scrimColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      elevation: freezed == elevation
+          ? _value.elevation
+          : elevation // ignore: cast_nullable_to_non_nullable
+              as double?,
+      shadowColor: freezed == shadowColor
+          ? _value.shadowColor
+          : shadowColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      surfaceTintColor: freezed == surfaceTintColor
+          ? _value.surfaceTintColor
+          : surfaceTintColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      shape: freezed == shape
+          ? _value.shape
+          : shape // ignore: cast_nullable_to_non_nullable
+              as StacShapeBorder?,
+      endShape: freezed == endShape
+          ? _value.endShape
+          : endShape // ignore: cast_nullable_to_non_nullable
+              as StacShapeBorder?,
+      width: freezed == width
+          ? _value.width
+          : width // ignore: cast_nullable_to_non_nullable
+              as double?,
+      clipBehavior: freezed == clipBehavior
+          ? _value.clipBehavior
+          : clipBehavior // ignore: cast_nullable_to_non_nullable
+              as Clip?,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacDrawerThemeData implements StacDrawerThemeData {
-  const _StacDrawerThemeData(
+class _$StacDrawerThemeDataImpl implements _StacDrawerThemeData {
+  const _$StacDrawerThemeDataImpl(
       {this.backgroundColor,
       this.scrimColor,
       this.elevation,
@@ -205,8 +245,9 @@ class _StacDrawerThemeData implements StacDrawerThemeData {
       this.endShape,
       this.width,
       this.clipBehavior});
-  factory _StacDrawerThemeData.fromJson(Map<String, dynamic> json) =>
-      _$StacDrawerThemeDataFromJson(json);
+
+  factory _$StacDrawerThemeDataImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacDrawerThemeDataImplFromJson(json);
 
   @override
   final String? backgroundColor;
@@ -227,27 +268,16 @@ class _StacDrawerThemeData implements StacDrawerThemeData {
   @override
   final Clip? clipBehavior;
 
-  /// Create a copy of StacDrawerThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacDrawerThemeDataCopyWith<_StacDrawerThemeData> get copyWith =>
-      __$StacDrawerThemeDataCopyWithImpl<_StacDrawerThemeData>(
-          this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacDrawerThemeDataToJson(
-      this,
-    );
+  String toString() {
+    return 'StacDrawerThemeData(backgroundColor: $backgroundColor, scrimColor: $scrimColor, elevation: $elevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, shape: $shape, endShape: $endShape, width: $width, clipBehavior: $clipBehavior)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacDrawerThemeData &&
+            other is _$StacDrawerThemeDataImpl &&
             (identical(other.backgroundColor, backgroundColor) ||
                 other.backgroundColor == backgroundColor) &&
             (identical(other.scrimColor, scrimColor) ||
@@ -266,7 +296,7 @@ class _StacDrawerThemeData implements StacDrawerThemeData {
                 other.clipBehavior == clipBehavior));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -280,127 +310,56 @@ class _StacDrawerThemeData implements StacDrawerThemeData {
       width,
       clipBehavior);
 
+  @JsonKey(ignore: true)
   @override
-  String toString() {
-    return 'StacDrawerThemeData(backgroundColor: $backgroundColor, scrimColor: $scrimColor, elevation: $elevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, shape: $shape, endShape: $endShape, width: $width, clipBehavior: $clipBehavior)';
+  @pragma('vm:prefer-inline')
+  _$$StacDrawerThemeDataImplCopyWith<_$StacDrawerThemeDataImpl> get copyWith =>
+      __$$StacDrawerThemeDataImplCopyWithImpl<_$StacDrawerThemeDataImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacDrawerThemeDataImplToJson(
+      this,
+    );
   }
 }
 
-/// @nodoc
-abstract mixin class _$StacDrawerThemeDataCopyWith<$Res>
-    implements $StacDrawerThemeDataCopyWith<$Res> {
-  factory _$StacDrawerThemeDataCopyWith(_StacDrawerThemeData value,
-          $Res Function(_StacDrawerThemeData) _then) =
-      __$StacDrawerThemeDataCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {String? backgroundColor,
-      String? scrimColor,
-      double? elevation,
-      String? shadowColor,
-      String? surfaceTintColor,
-      StacShapeBorder? shape,
-      StacShapeBorder? endShape,
-      double? width,
-      Clip? clipBehavior});
+abstract class _StacDrawerThemeData implements StacDrawerThemeData {
+  const factory _StacDrawerThemeData(
+      {final String? backgroundColor,
+      final String? scrimColor,
+      final double? elevation,
+      final String? shadowColor,
+      final String? surfaceTintColor,
+      final StacShapeBorder? shape,
+      final StacShapeBorder? endShape,
+      final double? width,
+      final Clip? clipBehavior}) = _$StacDrawerThemeDataImpl;
+
+  factory _StacDrawerThemeData.fromJson(Map<String, dynamic> json) =
+      _$StacDrawerThemeDataImpl.fromJson;
 
   @override
-  $StacShapeBorderCopyWith<$Res>? get shape;
+  String? get backgroundColor;
   @override
-  $StacShapeBorderCopyWith<$Res>? get endShape;
+  String? get scrimColor;
+  @override
+  double? get elevation;
+  @override
+  String? get shadowColor;
+  @override
+  String? get surfaceTintColor;
+  @override
+  StacShapeBorder? get shape;
+  @override
+  StacShapeBorder? get endShape;
+  @override
+  double? get width;
+  @override
+  Clip? get clipBehavior;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacDrawerThemeDataImplCopyWith<_$StacDrawerThemeDataImpl> get copyWith =>
+      throw _privateConstructorUsedError;
 }
-
-/// @nodoc
-class __$StacDrawerThemeDataCopyWithImpl<$Res>
-    implements _$StacDrawerThemeDataCopyWith<$Res> {
-  __$StacDrawerThemeDataCopyWithImpl(this._self, this._then);
-
-  final _StacDrawerThemeData _self;
-  final $Res Function(_StacDrawerThemeData) _then;
-
-  /// Create a copy of StacDrawerThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $Res call({
-    Object? backgroundColor = freezed,
-    Object? scrimColor = freezed,
-    Object? elevation = freezed,
-    Object? shadowColor = freezed,
-    Object? surfaceTintColor = freezed,
-    Object? shape = freezed,
-    Object? endShape = freezed,
-    Object? width = freezed,
-    Object? clipBehavior = freezed,
-  }) {
-    return _then(_StacDrawerThemeData(
-      backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
-          : backgroundColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      scrimColor: freezed == scrimColor
-          ? _self.scrimColor
-          : scrimColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      elevation: freezed == elevation
-          ? _self.elevation
-          : elevation // ignore: cast_nullable_to_non_nullable
-              as double?,
-      shadowColor: freezed == shadowColor
-          ? _self.shadowColor
-          : shadowColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      surfaceTintColor: freezed == surfaceTintColor
-          ? _self.surfaceTintColor
-          : surfaceTintColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      shape: freezed == shape
-          ? _self.shape
-          : shape // ignore: cast_nullable_to_non_nullable
-              as StacShapeBorder?,
-      endShape: freezed == endShape
-          ? _self.endShape
-          : endShape // ignore: cast_nullable_to_non_nullable
-              as StacShapeBorder?,
-      width: freezed == width
-          ? _self.width
-          : width // ignore: cast_nullable_to_non_nullable
-              as double?,
-      clipBehavior: freezed == clipBehavior
-          ? _self.clipBehavior
-          : clipBehavior // ignore: cast_nullable_to_non_nullable
-              as Clip?,
-    ));
-  }
-
-  /// Create a copy of StacDrawerThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacShapeBorderCopyWith<$Res>? get shape {
-    if (_self.shape == null) {
-      return null;
-    }
-
-    return $StacShapeBorderCopyWith<$Res>(_self.shape!, (value) {
-      return _then(_self.copyWith(shape: value));
-    });
-  }
-
-  /// Create a copy of StacDrawerThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacShapeBorderCopyWith<$Res>? get endShape {
-    if (_self.endShape == null) {
-      return null;
-    }
-
-    return $StacShapeBorderCopyWith<$Res>(_self.endShape!, (value) {
-      return _then(_self.copyWith(endShape: value));
-    });
-  }
-}
-
-// dart format on

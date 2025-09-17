@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,95 +9,113 @@ part of 'stac_set_value_action.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
+
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
+
+StacSetValueAction _$StacSetValueActionFromJson(Map<String, dynamic> json) {
+  return _StacSetValueAction.fromJson(json);
+}
 
 /// @nodoc
 mixin _$StacSetValueAction {
-  List<Map<String, dynamic>> get values;
-  StacAction? get action;
+  List<Map<String, dynamic>> get values => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get action => throw _privateConstructorUsedError;
 
-  /// Create a copy of StacSetValueAction
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
   $StacSetValueActionCopyWith<StacSetValueAction> get copyWith =>
-      _$StacSetValueActionCopyWithImpl<StacSetValueAction>(
-          this as StacSetValueAction, _$identity);
-
-  /// Serializes this StacSetValueAction to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacSetValueAction &&
-            const DeepCollectionEquality().equals(other.values, values) &&
-            const DeepCollectionEquality().equals(other.action, action));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      const DeepCollectionEquality().hash(values),
-      const DeepCollectionEquality().hash(action));
-
-  @override
-  String toString() {
-    return 'StacSetValueAction(values: $values, action: $action)';
-  }
+      throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract mixin class $StacSetValueActionCopyWith<$Res> {
+abstract class $StacSetValueActionCopyWith<$Res> {
   factory $StacSetValueActionCopyWith(
-          StacSetValueAction value, $Res Function(StacSetValueAction) _then) =
-      _$StacSetValueActionCopyWithImpl;
+          StacSetValueAction value, $Res Function(StacSetValueAction) then) =
+      _$StacSetValueActionCopyWithImpl<$Res, StacSetValueAction>;
   @useResult
-  $Res call({List<Map<String, dynamic>> values, StacAction? action});
+  $Res call({List<Map<String, dynamic>> values, Map<String, dynamic>? action});
 }
 
 /// @nodoc
-class _$StacSetValueActionCopyWithImpl<$Res>
+class _$StacSetValueActionCopyWithImpl<$Res, $Val extends StacSetValueAction>
     implements $StacSetValueActionCopyWith<$Res> {
-  _$StacSetValueActionCopyWithImpl(this._self, this._then);
+  _$StacSetValueActionCopyWithImpl(this._value, this._then);
 
-  final StacSetValueAction _self;
-  final $Res Function(StacSetValueAction) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacSetValueAction
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? values = null,
     Object? action = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       values: null == values
-          ? _self.values
+          ? _value.values
           : values // ignore: cast_nullable_to_non_nullable
               as List<Map<String, dynamic>>,
       action: freezed == action
-          ? _self.action
+          ? _value.action
           : action // ignore: cast_nullable_to_non_nullable
-              as StacAction?,
+              as Map<String, dynamic>?,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacSetValueActionImplCopyWith<$Res>
+    implements $StacSetValueActionCopyWith<$Res> {
+  factory _$$StacSetValueActionImplCopyWith(_$StacSetValueActionImpl value,
+          $Res Function(_$StacSetValueActionImpl) then) =
+      __$$StacSetValueActionImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call({List<Map<String, dynamic>> values, Map<String, dynamic>? action});
+}
+
+/// @nodoc
+class __$$StacSetValueActionImplCopyWithImpl<$Res>
+    extends _$StacSetValueActionCopyWithImpl<$Res, _$StacSetValueActionImpl>
+    implements _$$StacSetValueActionImplCopyWith<$Res> {
+  __$$StacSetValueActionImplCopyWithImpl(_$StacSetValueActionImpl _value,
+      $Res Function(_$StacSetValueActionImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? values = null,
+    Object? action = freezed,
+  }) {
+    return _then(_$StacSetValueActionImpl(
+      values: null == values
+          ? _value._values
+          : values // ignore: cast_nullable_to_non_nullable
+              as List<Map<String, dynamic>>,
+      action: freezed == action
+          ? _value._action
+          : action // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
     ));
   }
 }
 
 /// @nodoc
 @JsonSerializable()
-class _StacSetValueAction implements StacSetValueAction {
-  const _StacSetValueAction(
+class _$StacSetValueActionImpl implements _StacSetValueAction {
+  const _$StacSetValueActionImpl(
       {final List<Map<String, dynamic>> values = const [],
-      final StacAction? action})
+      final Map<String, dynamic>? action})
       : _values = values,
         _action = action;
-  factory _StacSetValueAction.fromJson(Map<String, dynamic> json) =>
-      _$StacSetValueActionFromJson(json);
+
+  factory _$StacSetValueActionImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacSetValueActionImplFromJson(json);
 
   final List<Map<String, dynamic>> _values;
   @override
@@ -109,9 +126,9 @@ class _StacSetValueAction implements StacSetValueAction {
     return EqualUnmodifiableListView(_values);
   }
 
-  final StacAction? _action;
+  final Map<String, dynamic>? _action;
   @override
-  StacAction? get action {
+  Map<String, dynamic>? get action {
     final value = _action;
     if (value == null) return null;
     if (_action is EqualUnmodifiableMapView) return _action;
@@ -119,81 +136,56 @@ class _StacSetValueAction implements StacSetValueAction {
     return EqualUnmodifiableMapView(value);
   }
 
-  /// Create a copy of StacSetValueAction
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacSetValueActionCopyWith<_StacSetValueAction> get copyWith =>
-      __$StacSetValueActionCopyWithImpl<_StacSetValueAction>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacSetValueActionToJson(
-      this,
-    );
+  String toString() {
+    return 'StacSetValueAction(values: $values, action: $action)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacSetValueAction &&
+            other is _$StacSetValueActionImpl &&
             const DeepCollectionEquality().equals(other._values, _values) &&
             const DeepCollectionEquality().equals(other._action, _action));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
       const DeepCollectionEquality().hash(_values),
       const DeepCollectionEquality().hash(_action));
 
-  @override
-  String toString() {
-    return 'StacSetValueAction(values: $values, action: $action)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacSetValueActionCopyWith<$Res>
-    implements $StacSetValueActionCopyWith<$Res> {
-  factory _$StacSetValueActionCopyWith(
-          _StacSetValueAction value, $Res Function(_StacSetValueAction) _then) =
-      __$StacSetValueActionCopyWithImpl;
-  @override
-  @useResult
-  $Res call({List<Map<String, dynamic>> values, StacAction? action});
-}
-
-/// @nodoc
-class __$StacSetValueActionCopyWithImpl<$Res>
-    implements _$StacSetValueActionCopyWith<$Res> {
-  __$StacSetValueActionCopyWithImpl(this._self, this._then);
-
-  final _StacSetValueAction _self;
-  final $Res Function(_StacSetValueAction) _then;
-
-  /// Create a copy of StacSetValueAction
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? values = null,
-    Object? action = freezed,
-  }) {
-    return _then(_StacSetValueAction(
-      values: null == values
-          ? _self._values
-          : values // ignore: cast_nullable_to_non_nullable
-              as List<Map<String, dynamic>>,
-      action: freezed == action
-          ? _self._action
-          : action // ignore: cast_nullable_to_non_nullable
-              as StacAction?,
-    ));
+  _$$StacSetValueActionImplCopyWith<_$StacSetValueActionImpl> get copyWith =>
+      __$$StacSetValueActionImplCopyWithImpl<_$StacSetValueActionImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacSetValueActionImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacSetValueAction implements StacSetValueAction {
+  const factory _StacSetValueAction(
+      {final List<Map<String, dynamic>> values,
+      final Map<String, dynamic>? action}) = _$StacSetValueActionImpl;
+
+  factory _StacSetValueAction.fromJson(Map<String, dynamic> json) =
+      _$StacSetValueActionImpl.fromJson;
+
+  @override
+  List<Map<String, dynamic>> get values;
+  @override
+  Map<String, dynamic>? get action;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacSetValueActionImplCopyWith<_$StacSetValueActionImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

@@ -6,8 +6,9 @@ part of 'stac_image_filter.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacImageFilter _$StacImageFilterFromJson(Map<String, dynamic> json) =>
-    _StacImageFilter(
+_$StacImageFilterImpl _$$StacImageFilterImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacImageFilterImpl(
       type: $enumDecode(_$StacImageFilterTypeEnumMap, json['type']),
       sigmaX: json['sigmaX'] == null
           ? const StacDouble(0.0)
@@ -29,7 +30,8 @@ _StacImageFilter _$StacImageFilterFromJson(Map<String, dynamic> json) =>
           : StacImageFilter.fromJson(json['outer'] as Map<String, dynamic>),
     );
 
-Map<String, dynamic> _$StacImageFilterToJson(_StacImageFilter instance) =>
+Map<String, dynamic> _$$StacImageFilterImplToJson(
+        _$StacImageFilterImpl instance) =>
     <String, dynamic>{
       'type': _$StacImageFilterTypeEnumMap[instance.type]!,
       'sigmaX': instance.sigmaX,

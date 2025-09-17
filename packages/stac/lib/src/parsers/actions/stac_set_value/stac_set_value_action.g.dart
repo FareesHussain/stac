@@ -6,8 +6,9 @@ part of 'stac_set_value_action.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacSetValueAction _$StacSetValueActionFromJson(Map<String, dynamic> json) =>
-    _StacSetValueAction(
+_$StacSetValueActionImpl _$$StacSetValueActionImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacSetValueActionImpl(
       values: (json['values'] as List<dynamic>?)
               ?.map((e) => e as Map<String, dynamic>)
               .toList() ??
@@ -15,7 +16,8 @@ _StacSetValueAction _$StacSetValueActionFromJson(Map<String, dynamic> json) =>
       action: json['action'] as Map<String, dynamic>?,
     );
 
-Map<String, dynamic> _$StacSetValueActionToJson(_StacSetValueAction instance) =>
+Map<String, dynamic> _$$StacSetValueActionImplToJson(
+        _$StacSetValueActionImpl instance) =>
     <String, dynamic>{
       'values': instance.values,
       'action': instance.action,

@@ -6,9 +6,9 @@ part of 'stac_bottom_sheet_theme.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacBottomSheetThemeData _$StacBottomSheetThemeDataFromJson(
+_$StacBottomSheetThemeDataImpl _$$StacBottomSheetThemeDataImplFromJson(
         Map<String, dynamic> json) =>
-    _StacBottomSheetThemeData(
+    _$StacBottomSheetThemeDataImpl(
       backgroundColor: json['backgroundColor'] as String?,
       surfaceTintColor: json['surfaceTintColor'] as String?,
       elevation: (json['elevation'] as num?)?.toDouble(),
@@ -31,8 +31,8 @@ _StacBottomSheetThemeData _$StacBottomSheetThemeDataFromJson(
               json['constraints'] as Map<String, dynamic>),
     );
 
-Map<String, dynamic> _$StacBottomSheetThemeDataToJson(
-        _StacBottomSheetThemeData instance) =>
+Map<String, dynamic> _$$StacBottomSheetThemeDataImplToJson(
+        _$StacBottomSheetThemeDataImpl instance) =>
     <String, dynamic>{
       'backgroundColor': instance.backgroundColor,
       'surfaceTintColor': instance.surfaceTintColor,

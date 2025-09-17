@@ -6,9 +6,9 @@ part of 'stac_scrollbar_theme_data.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacScrollbarThemeData _$StacScrollbarThemeDataFromJson(
+_$StacScrollbarThemeDataImpl _$$StacScrollbarThemeDataImplFromJson(
         Map<String, dynamic> json) =>
-    _StacScrollbarThemeData(
+    _$StacScrollbarThemeDataImpl(
       thumbVisibility: json['thumbVisibility'] as bool?,
       thickness: (json['thickness'] as num?)?.toDouble(),
       trackVisibility: json['trackVisibility'] as bool?,
@@ -22,8 +22,8 @@ _StacScrollbarThemeData _$StacScrollbarThemeDataFromJson(
       interactive: json['interactive'] as bool?,
     );
 
-Map<String, dynamic> _$StacScrollbarThemeDataToJson(
-        _StacScrollbarThemeData instance) =>
+Map<String, dynamic> _$$StacScrollbarThemeDataImplToJson(
+        _$StacScrollbarThemeDataImpl instance) =>
     <String, dynamic>{
       'thumbVisibility': instance.thumbVisibility,
       'thickness': instance.thickness,

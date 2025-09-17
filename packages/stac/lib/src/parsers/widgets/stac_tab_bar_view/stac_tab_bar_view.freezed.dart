@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,68 +9,35 @@ part of 'stac_tab_bar_view.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacTabBarView {
-  List<Map<String, dynamic>> get children;
-  int get initialIndex;
-  DragStartBehavior get dragStartBehavior;
-  StacScrollPhysics? get physics;
-  StacDouble get viewportFraction;
-  Clip get clipBehavior;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacTabBarView
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacTabBarViewCopyWith<StacTabBarView> get copyWith =>
-      _$StacTabBarViewCopyWithImpl<StacTabBarView>(
-          this as StacTabBarView, _$identity);
-
-  /// Serializes this StacTabBarView to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacTabBarView &&
-            const DeepCollectionEquality().equals(other.children, children) &&
-            (identical(other.initialIndex, initialIndex) ||
-                other.initialIndex == initialIndex) &&
-            (identical(other.dragStartBehavior, dragStartBehavior) ||
-                other.dragStartBehavior == dragStartBehavior) &&
-            (identical(other.physics, physics) || other.physics == physics) &&
-            (identical(other.viewportFraction, viewportFraction) ||
-                other.viewportFraction == viewportFraction) &&
-            (identical(other.clipBehavior, clipBehavior) ||
-                other.clipBehavior == clipBehavior));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      const DeepCollectionEquality().hash(children),
-      initialIndex,
-      dragStartBehavior,
-      physics,
-      viewportFraction,
-      clipBehavior);
-
-  @override
-  String toString() {
-    return 'StacTabBarView(children: $children, initialIndex: $initialIndex, dragStartBehavior: $dragStartBehavior, physics: $physics, viewportFraction: $viewportFraction, clipBehavior: $clipBehavior)';
-  }
+StacTabBarView _$StacTabBarViewFromJson(Map<String, dynamic> json) {
+  return _StacTabBarView.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacTabBarViewCopyWith<$Res> {
+mixin _$StacTabBarView {
+  List<Map<String, dynamic>> get children => throw _privateConstructorUsedError;
+  int get initialIndex => throw _privateConstructorUsedError;
+  DragStartBehavior get dragStartBehavior => throw _privateConstructorUsedError;
+  StacScrollPhysics? get physics => throw _privateConstructorUsedError;
+  StacDouble get viewportFraction => throw _privateConstructorUsedError;
+  Clip get clipBehavior => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacTabBarViewCopyWith<StacTabBarView> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacTabBarViewCopyWith<$Res> {
   factory $StacTabBarViewCopyWith(
-          StacTabBarView value, $Res Function(StacTabBarView) _then) =
-      _$StacTabBarViewCopyWithImpl;
+          StacTabBarView value, $Res Function(StacTabBarView) then) =
+      _$StacTabBarViewCopyWithImpl<$Res, StacTabBarView>;
   @useResult
   $Res call(
       {List<Map<String, dynamic>> children,
@@ -83,15 +49,15 @@ abstract mixin class $StacTabBarViewCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacTabBarViewCopyWithImpl<$Res>
+class _$StacTabBarViewCopyWithImpl<$Res, $Val extends StacTabBarView>
     implements $StacTabBarViewCopyWith<$Res> {
-  _$StacTabBarViewCopyWithImpl(this._self, this._then);
+  _$StacTabBarViewCopyWithImpl(this._value, this._then);
 
-  final StacTabBarView _self;
-  final $Res Function(StacTabBarView) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacTabBarView
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -102,29 +68,93 @@ class _$StacTabBarViewCopyWithImpl<$Res>
     Object? viewportFraction = null,
     Object? clipBehavior = null,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       children: null == children
-          ? _self.children
+          ? _value.children
           : children // ignore: cast_nullable_to_non_nullable
               as List<Map<String, dynamic>>,
       initialIndex: null == initialIndex
-          ? _self.initialIndex
+          ? _value.initialIndex
           : initialIndex // ignore: cast_nullable_to_non_nullable
               as int,
       dragStartBehavior: null == dragStartBehavior
-          ? _self.dragStartBehavior
+          ? _value.dragStartBehavior
           : dragStartBehavior // ignore: cast_nullable_to_non_nullable
               as DragStartBehavior,
       physics: freezed == physics
-          ? _self.physics
+          ? _value.physics
           : physics // ignore: cast_nullable_to_non_nullable
               as StacScrollPhysics?,
       viewportFraction: null == viewportFraction
-          ? _self.viewportFraction
+          ? _value.viewportFraction
           : viewportFraction // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       clipBehavior: null == clipBehavior
-          ? _self.clipBehavior
+          ? _value.clipBehavior
+          : clipBehavior // ignore: cast_nullable_to_non_nullable
+              as Clip,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacTabBarViewImplCopyWith<$Res>
+    implements $StacTabBarViewCopyWith<$Res> {
+  factory _$$StacTabBarViewImplCopyWith(_$StacTabBarViewImpl value,
+          $Res Function(_$StacTabBarViewImpl) then) =
+      __$$StacTabBarViewImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {List<Map<String, dynamic>> children,
+      int initialIndex,
+      DragStartBehavior dragStartBehavior,
+      StacScrollPhysics? physics,
+      StacDouble viewportFraction,
+      Clip clipBehavior});
+}
+
+/// @nodoc
+class __$$StacTabBarViewImplCopyWithImpl<$Res>
+    extends _$StacTabBarViewCopyWithImpl<$Res, _$StacTabBarViewImpl>
+    implements _$$StacTabBarViewImplCopyWith<$Res> {
+  __$$StacTabBarViewImplCopyWithImpl(
+      _$StacTabBarViewImpl _value, $Res Function(_$StacTabBarViewImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? children = null,
+    Object? initialIndex = null,
+    Object? dragStartBehavior = null,
+    Object? physics = freezed,
+    Object? viewportFraction = null,
+    Object? clipBehavior = null,
+  }) {
+    return _then(_$StacTabBarViewImpl(
+      children: null == children
+          ? _value._children
+          : children // ignore: cast_nullable_to_non_nullable
+              as List<Map<String, dynamic>>,
+      initialIndex: null == initialIndex
+          ? _value.initialIndex
+          : initialIndex // ignore: cast_nullable_to_non_nullable
+              as int,
+      dragStartBehavior: null == dragStartBehavior
+          ? _value.dragStartBehavior
+          : dragStartBehavior // ignore: cast_nullable_to_non_nullable
+              as DragStartBehavior,
+      physics: freezed == physics
+          ? _value.physics
+          : physics // ignore: cast_nullable_to_non_nullable
+              as StacScrollPhysics?,
+      viewportFraction: null == viewportFraction
+          ? _value.viewportFraction
+          : viewportFraction // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      clipBehavior: null == clipBehavior
+          ? _value.clipBehavior
           : clipBehavior // ignore: cast_nullable_to_non_nullable
               as Clip,
     ));
@@ -133,8 +163,8 @@ class _$StacTabBarViewCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _StacTabBarView implements StacTabBarView {
-  const _StacTabBarView(
+class _$StacTabBarViewImpl implements _StacTabBarView {
+  const _$StacTabBarViewImpl(
       {required final List<Map<String, dynamic>> children,
       this.initialIndex = 0,
       this.dragStartBehavior = DragStartBehavior.start,
@@ -142,8 +172,9 @@ class _StacTabBarView implements StacTabBarView {
       this.viewportFraction = const StacDouble(1.0),
       this.clipBehavior = Clip.hardEdge})
       : _children = children;
-  factory _StacTabBarView.fromJson(Map<String, dynamic> json) =>
-      _$StacTabBarViewFromJson(json);
+
+  factory _$StacTabBarViewImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacTabBarViewImplFromJson(json);
 
   final List<Map<String, dynamic>> _children;
   @override
@@ -168,26 +199,16 @@ class _StacTabBarView implements StacTabBarView {
   @JsonKey()
   final Clip clipBehavior;
 
-  /// Create a copy of StacTabBarView
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacTabBarViewCopyWith<_StacTabBarView> get copyWith =>
-      __$StacTabBarViewCopyWithImpl<_StacTabBarView>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacTabBarViewToJson(
-      this,
-    );
+  String toString() {
+    return 'StacTabBarView(children: $children, initialIndex: $initialIndex, dragStartBehavior: $dragStartBehavior, physics: $physics, viewportFraction: $viewportFraction, clipBehavior: $clipBehavior)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacTabBarView &&
+            other is _$StacTabBarViewImpl &&
             const DeepCollectionEquality().equals(other._children, _children) &&
             (identical(other.initialIndex, initialIndex) ||
                 other.initialIndex == initialIndex) &&
@@ -200,7 +221,7 @@ class _StacTabBarView implements StacTabBarView {
                 other.clipBehavior == clipBehavior));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -211,76 +232,47 @@ class _StacTabBarView implements StacTabBarView {
       viewportFraction,
       clipBehavior);
 
-  @override
-  String toString() {
-    return 'StacTabBarView(children: $children, initialIndex: $initialIndex, dragStartBehavior: $dragStartBehavior, physics: $physics, viewportFraction: $viewportFraction, clipBehavior: $clipBehavior)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacTabBarViewCopyWith<$Res>
-    implements $StacTabBarViewCopyWith<$Res> {
-  factory _$StacTabBarViewCopyWith(
-          _StacTabBarView value, $Res Function(_StacTabBarView) _then) =
-      __$StacTabBarViewCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {List<Map<String, dynamic>> children,
-      int initialIndex,
-      DragStartBehavior dragStartBehavior,
-      StacScrollPhysics? physics,
-      StacDouble viewportFraction,
-      Clip clipBehavior});
-}
-
-/// @nodoc
-class __$StacTabBarViewCopyWithImpl<$Res>
-    implements _$StacTabBarViewCopyWith<$Res> {
-  __$StacTabBarViewCopyWithImpl(this._self, this._then);
-
-  final _StacTabBarView _self;
-  final $Res Function(_StacTabBarView) _then;
-
-  /// Create a copy of StacTabBarView
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? children = null,
-    Object? initialIndex = null,
-    Object? dragStartBehavior = null,
-    Object? physics = freezed,
-    Object? viewportFraction = null,
-    Object? clipBehavior = null,
-  }) {
-    return _then(_StacTabBarView(
-      children: null == children
-          ? _self._children
-          : children // ignore: cast_nullable_to_non_nullable
-              as List<Map<String, dynamic>>,
-      initialIndex: null == initialIndex
-          ? _self.initialIndex
-          : initialIndex // ignore: cast_nullable_to_non_nullable
-              as int,
-      dragStartBehavior: null == dragStartBehavior
-          ? _self.dragStartBehavior
-          : dragStartBehavior // ignore: cast_nullable_to_non_nullable
-              as DragStartBehavior,
-      physics: freezed == physics
-          ? _self.physics
-          : physics // ignore: cast_nullable_to_non_nullable
-              as StacScrollPhysics?,
-      viewportFraction: null == viewportFraction
-          ? _self.viewportFraction
-          : viewportFraction // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      clipBehavior: null == clipBehavior
-          ? _self.clipBehavior
-          : clipBehavior // ignore: cast_nullable_to_non_nullable
-              as Clip,
-    ));
+  _$$StacTabBarViewImplCopyWith<_$StacTabBarViewImpl> get copyWith =>
+      __$$StacTabBarViewImplCopyWithImpl<_$StacTabBarViewImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacTabBarViewImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacTabBarView implements StacTabBarView {
+  const factory _StacTabBarView(
+      {required final List<Map<String, dynamic>> children,
+      final int initialIndex,
+      final DragStartBehavior dragStartBehavior,
+      final StacScrollPhysics? physics,
+      final StacDouble viewportFraction,
+      final Clip clipBehavior}) = _$StacTabBarViewImpl;
+
+  factory _StacTabBarView.fromJson(Map<String, dynamic> json) =
+      _$StacTabBarViewImpl.fromJson;
+
+  @override
+  List<Map<String, dynamic>> get children;
+  @override
+  int get initialIndex;
+  @override
+  DragStartBehavior get dragStartBehavior;
+  @override
+  StacScrollPhysics? get physics;
+  @override
+  StacDouble get viewportFraction;
+  @override
+  Clip get clipBehavior;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacTabBarViewImplCopyWith<_$StacTabBarViewImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

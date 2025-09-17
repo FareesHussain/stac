@@ -6,8 +6,9 @@ part of 'stac_snack_bar_action.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacSnackBarAction _$StacSnackBarActionFromJson(Map<String, dynamic> json) =>
-    _StacSnackBarAction(
+_$StacSnackBarActionImpl _$$StacSnackBarActionImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacSnackBarActionImpl(
       textColor: json['textColor'] as String?,
       disabledTextColor: json['disabledTextColor'] as String?,
       backgroundColor: json['backgroundColor'] as String?,
@@ -16,7 +17,8 @@ _StacSnackBarAction _$StacSnackBarActionFromJson(Map<String, dynamic> json) =>
       onPressed: json['onPressed'] as Map<String, dynamic>,
     );
 
-Map<String, dynamic> _$StacSnackBarActionToJson(_StacSnackBarAction instance) =>
+Map<String, dynamic> _$$StacSnackBarActionImplToJson(
+        _$StacSnackBarActionImpl instance) =>
     <String, dynamic>{
       'textColor': instance.textColor,
       'disabledTextColor': instance.disabledTextColor,

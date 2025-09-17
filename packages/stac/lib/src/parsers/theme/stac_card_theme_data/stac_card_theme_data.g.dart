@@ -6,8 +6,9 @@ part of 'stac_card_theme_data.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacCardThemeData _$StacCardThemeDataFromJson(Map<String, dynamic> json) =>
-    _StacCardThemeData(
+_$StacCardThemeDataImpl _$$StacCardThemeDataImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacCardThemeDataImpl(
       clipBehavior: $enumDecodeNullable(_$ClipEnumMap, json['clipBehavior']),
       color: json['color'] as String?,
       shadowColor: json['shadowColor'] as String?,
@@ -21,7 +22,8 @@ _StacCardThemeData _$StacCardThemeDataFromJson(Map<String, dynamic> json) =>
           : StacBorder.fromJson(json['shape'] as Map<String, dynamic>),
     );
 
-Map<String, dynamic> _$StacCardThemeDataToJson(_StacCardThemeData instance) =>
+Map<String, dynamic> _$$StacCardThemeDataImplToJson(
+        _$StacCardThemeDataImpl instance) =>
     <String, dynamic>{
       'clipBehavior': _$ClipEnumMap[instance.clipBehavior],
       'color': instance.color,

@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,74 +9,96 @@ part of 'stac_offset.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacOffset {
-  StacDouble get dx;
-  StacDouble get dy;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacOffset
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacOffsetCopyWith<StacOffset> get copyWith =>
-      _$StacOffsetCopyWithImpl<StacOffset>(this as StacOffset, _$identity);
-
-  /// Serializes this StacOffset to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacOffset &&
-            (identical(other.dx, dx) || other.dx == dx) &&
-            (identical(other.dy, dy) || other.dy == dy));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(runtimeType, dx, dy);
-
-  @override
-  String toString() {
-    return 'StacOffset(dx: $dx, dy: $dy)';
-  }
+StacOffset _$StacOffsetFromJson(Map<String, dynamic> json) {
+  return _StacOffset.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacOffsetCopyWith<$Res> {
+mixin _$StacOffset {
+  StacDouble get dx => throw _privateConstructorUsedError;
+  StacDouble get dy => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacOffsetCopyWith<StacOffset> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacOffsetCopyWith<$Res> {
   factory $StacOffsetCopyWith(
-          StacOffset value, $Res Function(StacOffset) _then) =
-      _$StacOffsetCopyWithImpl;
+          StacOffset value, $Res Function(StacOffset) then) =
+      _$StacOffsetCopyWithImpl<$Res, StacOffset>;
   @useResult
   $Res call({StacDouble dx, StacDouble dy});
 }
 
 /// @nodoc
-class _$StacOffsetCopyWithImpl<$Res> implements $StacOffsetCopyWith<$Res> {
-  _$StacOffsetCopyWithImpl(this._self, this._then);
+class _$StacOffsetCopyWithImpl<$Res, $Val extends StacOffset>
+    implements $StacOffsetCopyWith<$Res> {
+  _$StacOffsetCopyWithImpl(this._value, this._then);
 
-  final StacOffset _self;
-  final $Res Function(StacOffset) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacOffset
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? dx = null,
     Object? dy = null,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       dx: null == dx
-          ? _self.dx
+          ? _value.dx
           : dx // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       dy: null == dy
-          ? _self.dy
+          ? _value.dy
+          : dy // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacOffsetImplCopyWith<$Res>
+    implements $StacOffsetCopyWith<$Res> {
+  factory _$$StacOffsetImplCopyWith(
+          _$StacOffsetImpl value, $Res Function(_$StacOffsetImpl) then) =
+      __$$StacOffsetImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call({StacDouble dx, StacDouble dy});
+}
+
+/// @nodoc
+class __$$StacOffsetImplCopyWithImpl<$Res>
+    extends _$StacOffsetCopyWithImpl<$Res, _$StacOffsetImpl>
+    implements _$$StacOffsetImplCopyWith<$Res> {
+  __$$StacOffsetImplCopyWithImpl(
+      _$StacOffsetImpl _value, $Res Function(_$StacOffsetImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? dx = null,
+    Object? dy = null,
+  }) {
+    return _then(_$StacOffsetImpl(
+      dx: null == dx
+          ? _value.dx
+          : dx // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      dy: null == dy
+          ? _value.dy
           : dy // ignore: cast_nullable_to_non_nullable
               as StacDouble,
     ));
@@ -86,87 +107,63 @@ class _$StacOffsetCopyWithImpl<$Res> implements $StacOffsetCopyWith<$Res> {
 
 /// @nodoc
 @JsonSerializable()
-class _StacOffset implements StacOffset {
-  const _StacOffset({required this.dx, required this.dy});
-  factory _StacOffset.fromJson(Map<String, dynamic> json) =>
-      _$StacOffsetFromJson(json);
+class _$StacOffsetImpl implements _StacOffset {
+  const _$StacOffsetImpl({required this.dx, required this.dy});
+
+  factory _$StacOffsetImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacOffsetImplFromJson(json);
 
   @override
   final StacDouble dx;
   @override
   final StacDouble dy;
 
-  /// Create a copy of StacOffset
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacOffsetCopyWith<_StacOffset> get copyWith =>
-      __$StacOffsetCopyWithImpl<_StacOffset>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacOffsetToJson(
-      this,
-    );
+  String toString() {
+    return 'StacOffset(dx: $dx, dy: $dy)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacOffset &&
+            other is _$StacOffsetImpl &&
             (identical(other.dx, dx) || other.dx == dx) &&
             (identical(other.dy, dy) || other.dy == dy));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(runtimeType, dx, dy);
 
-  @override
-  String toString() {
-    return 'StacOffset(dx: $dx, dy: $dy)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacOffsetCopyWith<$Res>
-    implements $StacOffsetCopyWith<$Res> {
-  factory _$StacOffsetCopyWith(
-          _StacOffset value, $Res Function(_StacOffset) _then) =
-      __$StacOffsetCopyWithImpl;
-  @override
-  @useResult
-  $Res call({StacDouble dx, StacDouble dy});
-}
-
-/// @nodoc
-class __$StacOffsetCopyWithImpl<$Res> implements _$StacOffsetCopyWith<$Res> {
-  __$StacOffsetCopyWithImpl(this._self, this._then);
-
-  final _StacOffset _self;
-  final $Res Function(_StacOffset) _then;
-
-  /// Create a copy of StacOffset
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? dx = null,
-    Object? dy = null,
-  }) {
-    return _then(_StacOffset(
-      dx: null == dx
-          ? _self.dx
-          : dx // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      dy: null == dy
-          ? _self.dy
-          : dy // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-    ));
+  _$$StacOffsetImplCopyWith<_$StacOffsetImpl> get copyWith =>
+      __$$StacOffsetImplCopyWithImpl<_$StacOffsetImpl>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacOffsetImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacOffset implements StacOffset {
+  const factory _StacOffset(
+      {required final StacDouble dx,
+      required final StacDouble dy}) = _$StacOffsetImpl;
+
+  factory _StacOffset.fromJson(Map<String, dynamic> json) =
+      _$StacOffsetImpl.fromJson;
+
+  @override
+  StacDouble get dx;
+  @override
+  StacDouble get dy;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacOffsetImplCopyWith<_$StacOffsetImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

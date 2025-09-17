@@ -6,9 +6,9 @@ part of 'stac_modal_bottom_sheet_action.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacModalBottomSheetAction _$StacModalBottomSheetActionFromJson(
+_$StacModalBottomSheetActionImpl _$$StacModalBottomSheetActionImplFromJson(
         Map<String, dynamic> json) =>
-    _StacModalBottomSheetAction(
+    _$StacModalBottomSheetActionImpl(
       widget: json['widget'] as Map<String, dynamic>?,
       request: json['request'] == null
           ? null
@@ -34,8 +34,8 @@ _StacModalBottomSheetAction _$StacModalBottomSheetActionFromJson(
       useSafeArea: json['useSafeArea'] as bool? ?? false,
     );
 
-Map<String, dynamic> _$StacModalBottomSheetActionToJson(
-        _StacModalBottomSheetAction instance) =>
+Map<String, dynamic> _$$StacModalBottomSheetActionImplToJson(
+        _$StacModalBottomSheetActionImpl instance) =>
     <String, dynamic>{
       'widget': instance.widget,
       'request': instance.request,

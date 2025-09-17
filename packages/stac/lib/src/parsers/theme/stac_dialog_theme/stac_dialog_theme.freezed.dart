@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,85 +9,39 @@ part of 'stac_dialog_theme.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacDialogTheme {
-  String? get backgroundColor;
-  double? get elevation;
-  String? get shadowColor;
-  String? get surfaceTintColor;
-  StacBorder? get shape;
-  StacAlignmentGeometry? get alignment;
-  StacTextStyle? get titleTextStyle;
-  StacTextStyle? get contentTextStyle;
-  StacEdgeInsets? get actionsPadding;
-  String? get iconColor;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacDialogTheme
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacDialogThemeCopyWith<StacDialogTheme> get copyWith =>
-      _$StacDialogThemeCopyWithImpl<StacDialogTheme>(
-          this as StacDialogTheme, _$identity);
-
-  /// Serializes this StacDialogTheme to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacDialogTheme &&
-            (identical(other.backgroundColor, backgroundColor) ||
-                other.backgroundColor == backgroundColor) &&
-            (identical(other.elevation, elevation) ||
-                other.elevation == elevation) &&
-            (identical(other.shadowColor, shadowColor) ||
-                other.shadowColor == shadowColor) &&
-            (identical(other.surfaceTintColor, surfaceTintColor) ||
-                other.surfaceTintColor == surfaceTintColor) &&
-            (identical(other.shape, shape) || other.shape == shape) &&
-            (identical(other.alignment, alignment) ||
-                other.alignment == alignment) &&
-            (identical(other.titleTextStyle, titleTextStyle) ||
-                other.titleTextStyle == titleTextStyle) &&
-            (identical(other.contentTextStyle, contentTextStyle) ||
-                other.contentTextStyle == contentTextStyle) &&
-            (identical(other.actionsPadding, actionsPadding) ||
-                other.actionsPadding == actionsPadding) &&
-            (identical(other.iconColor, iconColor) ||
-                other.iconColor == iconColor));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      backgroundColor,
-      elevation,
-      shadowColor,
-      surfaceTintColor,
-      shape,
-      alignment,
-      titleTextStyle,
-      contentTextStyle,
-      actionsPadding,
-      iconColor);
-
-  @override
-  String toString() {
-    return 'StacDialogTheme(backgroundColor: $backgroundColor, elevation: $elevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, shape: $shape, alignment: $alignment, titleTextStyle: $titleTextStyle, contentTextStyle: $contentTextStyle, actionsPadding: $actionsPadding, iconColor: $iconColor)';
-  }
+StacDialogTheme _$StacDialogThemeFromJson(Map<String, dynamic> json) {
+  return _StacDialogTheme.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacDialogThemeCopyWith<$Res> {
+mixin _$StacDialogTheme {
+  String? get backgroundColor => throw _privateConstructorUsedError;
+  double? get elevation => throw _privateConstructorUsedError;
+  String? get shadowColor => throw _privateConstructorUsedError;
+  String? get surfaceTintColor => throw _privateConstructorUsedError;
+  StacBorder? get shape => throw _privateConstructorUsedError;
+  StacAlignmentGeometry? get alignment => throw _privateConstructorUsedError;
+  StacTextStyle? get titleTextStyle => throw _privateConstructorUsedError;
+  StacTextStyle? get contentTextStyle => throw _privateConstructorUsedError;
+  StacEdgeInsets? get actionsPadding => throw _privateConstructorUsedError;
+  String? get iconColor => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacDialogThemeCopyWith<StacDialogTheme> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacDialogThemeCopyWith<$Res> {
   factory $StacDialogThemeCopyWith(
-          StacDialogTheme value, $Res Function(StacDialogTheme) _then) =
-      _$StacDialogThemeCopyWithImpl;
+          StacDialogTheme value, $Res Function(StacDialogTheme) then) =
+      _$StacDialogThemeCopyWithImpl<$Res, StacDialogTheme>;
   @useResult
   $Res call(
       {String? backgroundColor,
@@ -110,15 +63,15 @@ abstract mixin class $StacDialogThemeCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacDialogThemeCopyWithImpl<$Res>
+class _$StacDialogThemeCopyWithImpl<$Res, $Val extends StacDialogTheme>
     implements $StacDialogThemeCopyWith<$Res> {
-  _$StacDialogThemeCopyWithImpl(this._self, this._then);
+  _$StacDialogThemeCopyWithImpl(this._value, this._then);
 
-  final StacDialogTheme _self;
-  final $Res Function(StacDialogTheme) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacDialogTheme
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -133,125 +86,214 @@ class _$StacDialogThemeCopyWithImpl<$Res>
     Object? actionsPadding = freezed,
     Object? iconColor = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
+          ? _value.backgroundColor
           : backgroundColor // ignore: cast_nullable_to_non_nullable
               as String?,
       elevation: freezed == elevation
-          ? _self.elevation
+          ? _value.elevation
           : elevation // ignore: cast_nullable_to_non_nullable
               as double?,
       shadowColor: freezed == shadowColor
-          ? _self.shadowColor
+          ? _value.shadowColor
           : shadowColor // ignore: cast_nullable_to_non_nullable
               as String?,
       surfaceTintColor: freezed == surfaceTintColor
-          ? _self.surfaceTintColor
+          ? _value.surfaceTintColor
           : surfaceTintColor // ignore: cast_nullable_to_non_nullable
               as String?,
       shape: freezed == shape
-          ? _self.shape
+          ? _value.shape
           : shape // ignore: cast_nullable_to_non_nullable
               as StacBorder?,
       alignment: freezed == alignment
-          ? _self.alignment
+          ? _value.alignment
           : alignment // ignore: cast_nullable_to_non_nullable
               as StacAlignmentGeometry?,
       titleTextStyle: freezed == titleTextStyle
-          ? _self.titleTextStyle
+          ? _value.titleTextStyle
           : titleTextStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       contentTextStyle: freezed == contentTextStyle
-          ? _self.contentTextStyle
+          ? _value.contentTextStyle
           : contentTextStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       actionsPadding: freezed == actionsPadding
-          ? _self.actionsPadding
+          ? _value.actionsPadding
           : actionsPadding // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets?,
       iconColor: freezed == iconColor
-          ? _self.iconColor
+          ? _value.iconColor
           : iconColor // ignore: cast_nullable_to_non_nullable
               as String?,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacDialogTheme
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacBorderCopyWith<$Res>? get shape {
-    if (_self.shape == null) {
+    if (_value.shape == null) {
       return null;
     }
 
-    return $StacBorderCopyWith<$Res>(_self.shape!, (value) {
-      return _then(_self.copyWith(shape: value));
+    return $StacBorderCopyWith<$Res>(_value.shape!, (value) {
+      return _then(_value.copyWith(shape: value) as $Val);
     });
   }
 
-  /// Create a copy of StacDialogTheme
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacAlignmentGeometryCopyWith<$Res>? get alignment {
-    if (_self.alignment == null) {
+    if (_value.alignment == null) {
       return null;
     }
 
-    return $StacAlignmentGeometryCopyWith<$Res>(_self.alignment!, (value) {
-      return _then(_self.copyWith(alignment: value));
+    return $StacAlignmentGeometryCopyWith<$Res>(_value.alignment!, (value) {
+      return _then(_value.copyWith(alignment: value) as $Val);
     });
   }
 
-  /// Create a copy of StacDialogTheme
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacTextStyleCopyWith<$Res>? get titleTextStyle {
-    if (_self.titleTextStyle == null) {
+    if (_value.titleTextStyle == null) {
       return null;
     }
 
-    return $StacTextStyleCopyWith<$Res>(_self.titleTextStyle!, (value) {
-      return _then(_self.copyWith(titleTextStyle: value));
+    return $StacTextStyleCopyWith<$Res>(_value.titleTextStyle!, (value) {
+      return _then(_value.copyWith(titleTextStyle: value) as $Val);
     });
   }
 
-  /// Create a copy of StacDialogTheme
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacTextStyleCopyWith<$Res>? get contentTextStyle {
-    if (_self.contentTextStyle == null) {
+    if (_value.contentTextStyle == null) {
       return null;
     }
 
-    return $StacTextStyleCopyWith<$Res>(_self.contentTextStyle!, (value) {
-      return _then(_self.copyWith(contentTextStyle: value));
+    return $StacTextStyleCopyWith<$Res>(_value.contentTextStyle!, (value) {
+      return _then(_value.copyWith(contentTextStyle: value) as $Val);
     });
   }
 
-  /// Create a copy of StacDialogTheme
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacEdgeInsetsCopyWith<$Res>? get actionsPadding {
-    if (_self.actionsPadding == null) {
+    if (_value.actionsPadding == null) {
       return null;
     }
 
-    return $StacEdgeInsetsCopyWith<$Res>(_self.actionsPadding!, (value) {
-      return _then(_self.copyWith(actionsPadding: value));
+    return $StacEdgeInsetsCopyWith<$Res>(_value.actionsPadding!, (value) {
+      return _then(_value.copyWith(actionsPadding: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacDialogThemeImplCopyWith<$Res>
+    implements $StacDialogThemeCopyWith<$Res> {
+  factory _$$StacDialogThemeImplCopyWith(_$StacDialogThemeImpl value,
+          $Res Function(_$StacDialogThemeImpl) then) =
+      __$$StacDialogThemeImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {String? backgroundColor,
+      double? elevation,
+      String? shadowColor,
+      String? surfaceTintColor,
+      StacBorder? shape,
+      StacAlignmentGeometry? alignment,
+      StacTextStyle? titleTextStyle,
+      StacTextStyle? contentTextStyle,
+      StacEdgeInsets? actionsPadding,
+      String? iconColor});
+
+  @override
+  $StacBorderCopyWith<$Res>? get shape;
+  @override
+  $StacAlignmentGeometryCopyWith<$Res>? get alignment;
+  @override
+  $StacTextStyleCopyWith<$Res>? get titleTextStyle;
+  @override
+  $StacTextStyleCopyWith<$Res>? get contentTextStyle;
+  @override
+  $StacEdgeInsetsCopyWith<$Res>? get actionsPadding;
+}
+
+/// @nodoc
+class __$$StacDialogThemeImplCopyWithImpl<$Res>
+    extends _$StacDialogThemeCopyWithImpl<$Res, _$StacDialogThemeImpl>
+    implements _$$StacDialogThemeImplCopyWith<$Res> {
+  __$$StacDialogThemeImplCopyWithImpl(
+      _$StacDialogThemeImpl _value, $Res Function(_$StacDialogThemeImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? backgroundColor = freezed,
+    Object? elevation = freezed,
+    Object? shadowColor = freezed,
+    Object? surfaceTintColor = freezed,
+    Object? shape = freezed,
+    Object? alignment = freezed,
+    Object? titleTextStyle = freezed,
+    Object? contentTextStyle = freezed,
+    Object? actionsPadding = freezed,
+    Object? iconColor = freezed,
+  }) {
+    return _then(_$StacDialogThemeImpl(
+      backgroundColor: freezed == backgroundColor
+          ? _value.backgroundColor
+          : backgroundColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      elevation: freezed == elevation
+          ? _value.elevation
+          : elevation // ignore: cast_nullable_to_non_nullable
+              as double?,
+      shadowColor: freezed == shadowColor
+          ? _value.shadowColor
+          : shadowColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      surfaceTintColor: freezed == surfaceTintColor
+          ? _value.surfaceTintColor
+          : surfaceTintColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      shape: freezed == shape
+          ? _value.shape
+          : shape // ignore: cast_nullable_to_non_nullable
+              as StacBorder?,
+      alignment: freezed == alignment
+          ? _value.alignment
+          : alignment // ignore: cast_nullable_to_non_nullable
+              as StacAlignmentGeometry?,
+      titleTextStyle: freezed == titleTextStyle
+          ? _value.titleTextStyle
+          : titleTextStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      contentTextStyle: freezed == contentTextStyle
+          ? _value.contentTextStyle
+          : contentTextStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      actionsPadding: freezed == actionsPadding
+          ? _value.actionsPadding
+          : actionsPadding // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets?,
+      iconColor: freezed == iconColor
+          ? _value.iconColor
+          : iconColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacDialogTheme implements StacDialogTheme {
-  const _StacDialogTheme(
+class _$StacDialogThemeImpl implements _StacDialogTheme {
+  const _$StacDialogThemeImpl(
       {this.backgroundColor,
       this.elevation,
       this.shadowColor,
@@ -262,8 +304,9 @@ class _StacDialogTheme implements StacDialogTheme {
       this.contentTextStyle,
       this.actionsPadding,
       this.iconColor});
-  factory _StacDialogTheme.fromJson(Map<String, dynamic> json) =>
-      _$StacDialogThemeFromJson(json);
+
+  factory _$StacDialogThemeImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacDialogThemeImplFromJson(json);
 
   @override
   final String? backgroundColor;
@@ -286,26 +329,16 @@ class _StacDialogTheme implements StacDialogTheme {
   @override
   final String? iconColor;
 
-  /// Create a copy of StacDialogTheme
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacDialogThemeCopyWith<_StacDialogTheme> get copyWith =>
-      __$StacDialogThemeCopyWithImpl<_StacDialogTheme>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacDialogThemeToJson(
-      this,
-    );
+  String toString() {
+    return 'StacDialogTheme(backgroundColor: $backgroundColor, elevation: $elevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, shape: $shape, alignment: $alignment, titleTextStyle: $titleTextStyle, contentTextStyle: $contentTextStyle, actionsPadding: $actionsPadding, iconColor: $iconColor)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacDialogTheme &&
+            other is _$StacDialogThemeImpl &&
             (identical(other.backgroundColor, backgroundColor) ||
                 other.backgroundColor == backgroundColor) &&
             (identical(other.elevation, elevation) ||
@@ -327,7 +360,7 @@ class _StacDialogTheme implements StacDialogTheme {
                 other.iconColor == iconColor));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -342,181 +375,59 @@ class _StacDialogTheme implements StacDialogTheme {
       actionsPadding,
       iconColor);
 
+  @JsonKey(ignore: true)
   @override
-  String toString() {
-    return 'StacDialogTheme(backgroundColor: $backgroundColor, elevation: $elevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, shape: $shape, alignment: $alignment, titleTextStyle: $titleTextStyle, contentTextStyle: $contentTextStyle, actionsPadding: $actionsPadding, iconColor: $iconColor)';
+  @pragma('vm:prefer-inline')
+  _$$StacDialogThemeImplCopyWith<_$StacDialogThemeImpl> get copyWith =>
+      __$$StacDialogThemeImplCopyWithImpl<_$StacDialogThemeImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacDialogThemeImplToJson(
+      this,
+    );
   }
 }
 
-/// @nodoc
-abstract mixin class _$StacDialogThemeCopyWith<$Res>
-    implements $StacDialogThemeCopyWith<$Res> {
-  factory _$StacDialogThemeCopyWith(
-          _StacDialogTheme value, $Res Function(_StacDialogTheme) _then) =
-      __$StacDialogThemeCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {String? backgroundColor,
-      double? elevation,
-      String? shadowColor,
-      String? surfaceTintColor,
-      StacBorder? shape,
-      StacAlignmentGeometry? alignment,
-      StacTextStyle? titleTextStyle,
-      StacTextStyle? contentTextStyle,
-      StacEdgeInsets? actionsPadding,
-      String? iconColor});
+abstract class _StacDialogTheme implements StacDialogTheme {
+  const factory _StacDialogTheme(
+      {final String? backgroundColor,
+      final double? elevation,
+      final String? shadowColor,
+      final String? surfaceTintColor,
+      final StacBorder? shape,
+      final StacAlignmentGeometry? alignment,
+      final StacTextStyle? titleTextStyle,
+      final StacTextStyle? contentTextStyle,
+      final StacEdgeInsets? actionsPadding,
+      final String? iconColor}) = _$StacDialogThemeImpl;
+
+  factory _StacDialogTheme.fromJson(Map<String, dynamic> json) =
+      _$StacDialogThemeImpl.fromJson;
 
   @override
-  $StacBorderCopyWith<$Res>? get shape;
+  String? get backgroundColor;
   @override
-  $StacAlignmentGeometryCopyWith<$Res>? get alignment;
+  double? get elevation;
   @override
-  $StacTextStyleCopyWith<$Res>? get titleTextStyle;
+  String? get shadowColor;
   @override
-  $StacTextStyleCopyWith<$Res>? get contentTextStyle;
+  String? get surfaceTintColor;
   @override
-  $StacEdgeInsetsCopyWith<$Res>? get actionsPadding;
+  StacBorder? get shape;
+  @override
+  StacAlignmentGeometry? get alignment;
+  @override
+  StacTextStyle? get titleTextStyle;
+  @override
+  StacTextStyle? get contentTextStyle;
+  @override
+  StacEdgeInsets? get actionsPadding;
+  @override
+  String? get iconColor;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacDialogThemeImplCopyWith<_$StacDialogThemeImpl> get copyWith =>
+      throw _privateConstructorUsedError;
 }
-
-/// @nodoc
-class __$StacDialogThemeCopyWithImpl<$Res>
-    implements _$StacDialogThemeCopyWith<$Res> {
-  __$StacDialogThemeCopyWithImpl(this._self, this._then);
-
-  final _StacDialogTheme _self;
-  final $Res Function(_StacDialogTheme) _then;
-
-  /// Create a copy of StacDialogTheme
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $Res call({
-    Object? backgroundColor = freezed,
-    Object? elevation = freezed,
-    Object? shadowColor = freezed,
-    Object? surfaceTintColor = freezed,
-    Object? shape = freezed,
-    Object? alignment = freezed,
-    Object? titleTextStyle = freezed,
-    Object? contentTextStyle = freezed,
-    Object? actionsPadding = freezed,
-    Object? iconColor = freezed,
-  }) {
-    return _then(_StacDialogTheme(
-      backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
-          : backgroundColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      elevation: freezed == elevation
-          ? _self.elevation
-          : elevation // ignore: cast_nullable_to_non_nullable
-              as double?,
-      shadowColor: freezed == shadowColor
-          ? _self.shadowColor
-          : shadowColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      surfaceTintColor: freezed == surfaceTintColor
-          ? _self.surfaceTintColor
-          : surfaceTintColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      shape: freezed == shape
-          ? _self.shape
-          : shape // ignore: cast_nullable_to_non_nullable
-              as StacBorder?,
-      alignment: freezed == alignment
-          ? _self.alignment
-          : alignment // ignore: cast_nullable_to_non_nullable
-              as StacAlignmentGeometry?,
-      titleTextStyle: freezed == titleTextStyle
-          ? _self.titleTextStyle
-          : titleTextStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      contentTextStyle: freezed == contentTextStyle
-          ? _self.contentTextStyle
-          : contentTextStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      actionsPadding: freezed == actionsPadding
-          ? _self.actionsPadding
-          : actionsPadding // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets?,
-      iconColor: freezed == iconColor
-          ? _self.iconColor
-          : iconColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-    ));
-  }
-
-  /// Create a copy of StacDialogTheme
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacBorderCopyWith<$Res>? get shape {
-    if (_self.shape == null) {
-      return null;
-    }
-
-    return $StacBorderCopyWith<$Res>(_self.shape!, (value) {
-      return _then(_self.copyWith(shape: value));
-    });
-  }
-
-  /// Create a copy of StacDialogTheme
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacAlignmentGeometryCopyWith<$Res>? get alignment {
-    if (_self.alignment == null) {
-      return null;
-    }
-
-    return $StacAlignmentGeometryCopyWith<$Res>(_self.alignment!, (value) {
-      return _then(_self.copyWith(alignment: value));
-    });
-  }
-
-  /// Create a copy of StacDialogTheme
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get titleTextStyle {
-    if (_self.titleTextStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_self.titleTextStyle!, (value) {
-      return _then(_self.copyWith(titleTextStyle: value));
-    });
-  }
-
-  /// Create a copy of StacDialogTheme
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get contentTextStyle {
-    if (_self.contentTextStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_self.contentTextStyle!, (value) {
-      return _then(_self.copyWith(contentTextStyle: value));
-    });
-  }
-
-  /// Create a copy of StacDialogTheme
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacEdgeInsetsCopyWith<$Res>? get actionsPadding {
-    if (_self.actionsPadding == null) {
-      return null;
-    }
-
-    return $StacEdgeInsetsCopyWith<$Res>(_self.actionsPadding!, (value) {
-      return _then(_self.copyWith(actionsPadding: value));
-    });
-  }
-}
-
-// dart format on

@@ -6,15 +6,17 @@ part of 'stac_multi_action.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacMultiAction _$StacMultiActionFromJson(Map<String, dynamic> json) =>
-    _StacMultiAction(
+_$StacMultiActionImpl _$$StacMultiActionImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacMultiActionImpl(
       actions: (json['actions'] as List<dynamic>?)
           ?.map((e) => e as Map<String, dynamic>?)
           .toList(),
       sync: json['sync'] as bool? ?? false,
     );
 
-Map<String, dynamic> _$StacMultiActionToJson(_StacMultiAction instance) =>
+Map<String, dynamic> _$$StacMultiActionImplToJson(
+        _$StacMultiActionImpl instance) =>
     <String, dynamic>{
       'actions': instance.actions,
       'sync': instance.sync,

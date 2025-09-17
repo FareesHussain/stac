@@ -6,9 +6,9 @@ part of 'stac_material_banner_theme_data.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacMaterialBannerThemeData _$StacMaterialBannerThemeDataFromJson(
+_$StacMaterialBannerThemeDataImpl _$$StacMaterialBannerThemeDataImplFromJson(
         Map<String, dynamic> json) =>
-    _StacMaterialBannerThemeData(
+    _$StacMaterialBannerThemeDataImpl(
       backgroundColor: json['backgroundColor'] as String?,
       surfaceTintColor: json['surfaceTintColor'] as String?,
       shadowColor: json['shadowColor'] as String?,
@@ -25,8 +25,8 @@ _StacMaterialBannerThemeData _$StacMaterialBannerThemeDataFromJson(
           : StacEdgeInsets.fromJson(json['leadingPadding']),
     );
 
-Map<String, dynamic> _$StacMaterialBannerThemeDataToJson(
-        _StacMaterialBannerThemeData instance) =>
+Map<String, dynamic> _$$StacMaterialBannerThemeDataImplToJson(
+        _$StacMaterialBannerThemeDataImpl instance) =>
     <String, dynamic>{
       'backgroundColor': instance.backgroundColor,
       'surfaceTintColor': instance.surfaceTintColor,

@@ -6,7 +6,8 @@ part of 'stac_rect.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacRect _$StacRectFromJson(Map<String, dynamic> json) => _StacRect(
+_$StacRectImpl _$$StacRectImplFromJson(Map<String, dynamic> json) =>
+    _$StacRectImpl(
       rectType: $enumDecode(_$StacRectTypeEnumMap, json['rectType']),
       center: json['center'] == null
           ? null
@@ -29,7 +30,8 @@ _StacRect _$StacRectFromJson(Map<String, dynamic> json) => _StacRect(
           json['radius'] == null ? null : StacDouble.fromJson(json['radius']),
     );
 
-Map<String, dynamic> _$StacRectToJson(_StacRect instance) => <String, dynamic>{
+Map<String, dynamic> _$$StacRectImplToJson(_$StacRectImpl instance) =>
+    <String, dynamic>{
       'rectType': _$StacRectTypeEnumMap[instance.rectType]!,
       'center': instance.center,
       'a': instance.a,

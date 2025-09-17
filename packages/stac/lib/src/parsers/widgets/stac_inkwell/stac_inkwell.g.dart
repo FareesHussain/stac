@@ -6,7 +6,8 @@ part of 'stac_inkwell.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacInkWell _$StacInkWellFromJson(Map<String, dynamic> json) => _StacInkWell(
+_$StacInkWellImpl _$$StacInkWellImplFromJson(Map<String, dynamic> json) =>
+    _$StacInkWellImpl(
       child: json['child'] as Map<String, dynamic>?,
       onTap: json['onTap'] as Map<String, dynamic>?,
       onDoubleTap: json['onDoubleTap'] as Map<String, dynamic>?,
@@ -50,7 +51,7 @@ _StacInkWell _$StacInkWellFromJson(Map<String, dynamic> json) => _StacInkWell(
               json['hoverDuration'] as Map<String, dynamic>),
     );
 
-Map<String, dynamic> _$StacInkWellToJson(_StacInkWell instance) =>
+Map<String, dynamic> _$$StacInkWellImplToJson(_$StacInkWellImpl instance) =>
     <String, dynamic>{
       'child': instance.child,
       'onTap': instance.onTap,

@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,68 +9,37 @@ part of 'stac_badge_theme_data.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacBadgeThemeData {
-  String? get backgroundColor;
-  String? get textColor;
-  double? get smallSize;
-  double? get largeSize;
-  StacTextStyle? get textStyle;
-  StacEdgeInsets? get padding;
-  StacAlignmentGeometry? get alignment;
-  StacOffset? get offset;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacBadgeThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacBadgeThemeDataCopyWith<StacBadgeThemeData> get copyWith =>
-      _$StacBadgeThemeDataCopyWithImpl<StacBadgeThemeData>(
-          this as StacBadgeThemeData, _$identity);
-
-  /// Serializes this StacBadgeThemeData to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacBadgeThemeData &&
-            (identical(other.backgroundColor, backgroundColor) ||
-                other.backgroundColor == backgroundColor) &&
-            (identical(other.textColor, textColor) ||
-                other.textColor == textColor) &&
-            (identical(other.smallSize, smallSize) ||
-                other.smallSize == smallSize) &&
-            (identical(other.largeSize, largeSize) ||
-                other.largeSize == largeSize) &&
-            (identical(other.textStyle, textStyle) ||
-                other.textStyle == textStyle) &&
-            (identical(other.padding, padding) || other.padding == padding) &&
-            (identical(other.alignment, alignment) ||
-                other.alignment == alignment) &&
-            (identical(other.offset, offset) || other.offset == offset));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(runtimeType, backgroundColor, textColor,
-      smallSize, largeSize, textStyle, padding, alignment, offset);
-
-  @override
-  String toString() {
-    return 'StacBadgeThemeData(backgroundColor: $backgroundColor, textColor: $textColor, smallSize: $smallSize, largeSize: $largeSize, textStyle: $textStyle, padding: $padding, alignment: $alignment, offset: $offset)';
-  }
+StacBadgeThemeData _$StacBadgeThemeDataFromJson(Map<String, dynamic> json) {
+  return _StacBadgeThemeData.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacBadgeThemeDataCopyWith<$Res> {
+mixin _$StacBadgeThemeData {
+  String? get backgroundColor => throw _privateConstructorUsedError;
+  String? get textColor => throw _privateConstructorUsedError;
+  double? get smallSize => throw _privateConstructorUsedError;
+  double? get largeSize => throw _privateConstructorUsedError;
+  StacTextStyle? get textStyle => throw _privateConstructorUsedError;
+  StacEdgeInsets? get padding => throw _privateConstructorUsedError;
+  StacAlignmentGeometry? get alignment => throw _privateConstructorUsedError;
+  StacOffset? get offset => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacBadgeThemeDataCopyWith<StacBadgeThemeData> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacBadgeThemeDataCopyWith<$Res> {
   factory $StacBadgeThemeDataCopyWith(
-          StacBadgeThemeData value, $Res Function(StacBadgeThemeData) _then) =
-      _$StacBadgeThemeDataCopyWithImpl;
+          StacBadgeThemeData value, $Res Function(StacBadgeThemeData) then) =
+      _$StacBadgeThemeDataCopyWithImpl<$Res, StacBadgeThemeData>;
   @useResult
   $Res call(
       {String? backgroundColor,
@@ -90,15 +58,15 @@ abstract mixin class $StacBadgeThemeDataCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacBadgeThemeDataCopyWithImpl<$Res>
+class _$StacBadgeThemeDataCopyWithImpl<$Res, $Val extends StacBadgeThemeData>
     implements $StacBadgeThemeDataCopyWith<$Res> {
-  _$StacBadgeThemeDataCopyWithImpl(this._self, this._then);
+  _$StacBadgeThemeDataCopyWithImpl(this._value, this._then);
 
-  final StacBadgeThemeData _self;
-  final $Res Function(StacBadgeThemeData) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacBadgeThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -111,103 +79,180 @@ class _$StacBadgeThemeDataCopyWithImpl<$Res>
     Object? alignment = freezed,
     Object? offset = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
+          ? _value.backgroundColor
           : backgroundColor // ignore: cast_nullable_to_non_nullable
               as String?,
       textColor: freezed == textColor
-          ? _self.textColor
+          ? _value.textColor
           : textColor // ignore: cast_nullable_to_non_nullable
               as String?,
       smallSize: freezed == smallSize
-          ? _self.smallSize
+          ? _value.smallSize
           : smallSize // ignore: cast_nullable_to_non_nullable
               as double?,
       largeSize: freezed == largeSize
-          ? _self.largeSize
+          ? _value.largeSize
           : largeSize // ignore: cast_nullable_to_non_nullable
               as double?,
       textStyle: freezed == textStyle
-          ? _self.textStyle
+          ? _value.textStyle
           : textStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       padding: freezed == padding
-          ? _self.padding
+          ? _value.padding
           : padding // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets?,
       alignment: freezed == alignment
-          ? _self.alignment
+          ? _value.alignment
           : alignment // ignore: cast_nullable_to_non_nullable
               as StacAlignmentGeometry?,
       offset: freezed == offset
-          ? _self.offset
+          ? _value.offset
           : offset // ignore: cast_nullable_to_non_nullable
               as StacOffset?,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacBadgeThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacTextStyleCopyWith<$Res>? get textStyle {
-    if (_self.textStyle == null) {
+    if (_value.textStyle == null) {
       return null;
     }
 
-    return $StacTextStyleCopyWith<$Res>(_self.textStyle!, (value) {
-      return _then(_self.copyWith(textStyle: value));
+    return $StacTextStyleCopyWith<$Res>(_value.textStyle!, (value) {
+      return _then(_value.copyWith(textStyle: value) as $Val);
     });
   }
 
-  /// Create a copy of StacBadgeThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacEdgeInsetsCopyWith<$Res>? get padding {
-    if (_self.padding == null) {
+    if (_value.padding == null) {
       return null;
     }
 
-    return $StacEdgeInsetsCopyWith<$Res>(_self.padding!, (value) {
-      return _then(_self.copyWith(padding: value));
+    return $StacEdgeInsetsCopyWith<$Res>(_value.padding!, (value) {
+      return _then(_value.copyWith(padding: value) as $Val);
     });
   }
 
-  /// Create a copy of StacBadgeThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacAlignmentGeometryCopyWith<$Res>? get alignment {
-    if (_self.alignment == null) {
+    if (_value.alignment == null) {
       return null;
     }
 
-    return $StacAlignmentGeometryCopyWith<$Res>(_self.alignment!, (value) {
-      return _then(_self.copyWith(alignment: value));
+    return $StacAlignmentGeometryCopyWith<$Res>(_value.alignment!, (value) {
+      return _then(_value.copyWith(alignment: value) as $Val);
     });
   }
 
-  /// Create a copy of StacBadgeThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacOffsetCopyWith<$Res>? get offset {
-    if (_self.offset == null) {
+    if (_value.offset == null) {
       return null;
     }
 
-    return $StacOffsetCopyWith<$Res>(_self.offset!, (value) {
-      return _then(_self.copyWith(offset: value));
+    return $StacOffsetCopyWith<$Res>(_value.offset!, (value) {
+      return _then(_value.copyWith(offset: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacBadgeThemeDataImplCopyWith<$Res>
+    implements $StacBadgeThemeDataCopyWith<$Res> {
+  factory _$$StacBadgeThemeDataImplCopyWith(_$StacBadgeThemeDataImpl value,
+          $Res Function(_$StacBadgeThemeDataImpl) then) =
+      __$$StacBadgeThemeDataImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {String? backgroundColor,
+      String? textColor,
+      double? smallSize,
+      double? largeSize,
+      StacTextStyle? textStyle,
+      StacEdgeInsets? padding,
+      StacAlignmentGeometry? alignment,
+      StacOffset? offset});
+
+  @override
+  $StacTextStyleCopyWith<$Res>? get textStyle;
+  @override
+  $StacEdgeInsetsCopyWith<$Res>? get padding;
+  @override
+  $StacAlignmentGeometryCopyWith<$Res>? get alignment;
+  @override
+  $StacOffsetCopyWith<$Res>? get offset;
+}
+
+/// @nodoc
+class __$$StacBadgeThemeDataImplCopyWithImpl<$Res>
+    extends _$StacBadgeThemeDataCopyWithImpl<$Res, _$StacBadgeThemeDataImpl>
+    implements _$$StacBadgeThemeDataImplCopyWith<$Res> {
+  __$$StacBadgeThemeDataImplCopyWithImpl(_$StacBadgeThemeDataImpl _value,
+      $Res Function(_$StacBadgeThemeDataImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? backgroundColor = freezed,
+    Object? textColor = freezed,
+    Object? smallSize = freezed,
+    Object? largeSize = freezed,
+    Object? textStyle = freezed,
+    Object? padding = freezed,
+    Object? alignment = freezed,
+    Object? offset = freezed,
+  }) {
+    return _then(_$StacBadgeThemeDataImpl(
+      backgroundColor: freezed == backgroundColor
+          ? _value.backgroundColor
+          : backgroundColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      textColor: freezed == textColor
+          ? _value.textColor
+          : textColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      smallSize: freezed == smallSize
+          ? _value.smallSize
+          : smallSize // ignore: cast_nullable_to_non_nullable
+              as double?,
+      largeSize: freezed == largeSize
+          ? _value.largeSize
+          : largeSize // ignore: cast_nullable_to_non_nullable
+              as double?,
+      textStyle: freezed == textStyle
+          ? _value.textStyle
+          : textStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      padding: freezed == padding
+          ? _value.padding
+          : padding // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets?,
+      alignment: freezed == alignment
+          ? _value.alignment
+          : alignment // ignore: cast_nullable_to_non_nullable
+              as StacAlignmentGeometry?,
+      offset: freezed == offset
+          ? _value.offset
+          : offset // ignore: cast_nullable_to_non_nullable
+              as StacOffset?,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacBadgeThemeData implements StacBadgeThemeData {
-  const _StacBadgeThemeData(
+class _$StacBadgeThemeDataImpl implements _StacBadgeThemeData {
+  const _$StacBadgeThemeDataImpl(
       {this.backgroundColor,
       this.textColor,
       this.smallSize,
@@ -216,8 +261,9 @@ class _StacBadgeThemeData implements StacBadgeThemeData {
       this.padding,
       this.alignment,
       this.offset});
-  factory _StacBadgeThemeData.fromJson(Map<String, dynamic> json) =>
-      _$StacBadgeThemeDataFromJson(json);
+
+  factory _$StacBadgeThemeDataImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacBadgeThemeDataImplFromJson(json);
 
   @override
   final String? backgroundColor;
@@ -236,26 +282,16 @@ class _StacBadgeThemeData implements StacBadgeThemeData {
   @override
   final StacOffset? offset;
 
-  /// Create a copy of StacBadgeThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacBadgeThemeDataCopyWith<_StacBadgeThemeData> get copyWith =>
-      __$StacBadgeThemeDataCopyWithImpl<_StacBadgeThemeData>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacBadgeThemeDataToJson(
-      this,
-    );
+  String toString() {
+    return 'StacBadgeThemeData(backgroundColor: $backgroundColor, textColor: $textColor, smallSize: $smallSize, largeSize: $largeSize, textStyle: $textStyle, padding: $padding, alignment: $alignment, offset: $offset)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacBadgeThemeData &&
+            other is _$StacBadgeThemeDataImpl &&
             (identical(other.backgroundColor, backgroundColor) ||
                 other.backgroundColor == backgroundColor) &&
             (identical(other.textColor, textColor) ||
@@ -272,158 +308,58 @@ class _StacBadgeThemeData implements StacBadgeThemeData {
             (identical(other.offset, offset) || other.offset == offset));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(runtimeType, backgroundColor, textColor,
       smallSize, largeSize, textStyle, padding, alignment, offset);
 
+  @JsonKey(ignore: true)
   @override
-  String toString() {
-    return 'StacBadgeThemeData(backgroundColor: $backgroundColor, textColor: $textColor, smallSize: $smallSize, largeSize: $largeSize, textStyle: $textStyle, padding: $padding, alignment: $alignment, offset: $offset)';
+  @pragma('vm:prefer-inline')
+  _$$StacBadgeThemeDataImplCopyWith<_$StacBadgeThemeDataImpl> get copyWith =>
+      __$$StacBadgeThemeDataImplCopyWithImpl<_$StacBadgeThemeDataImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacBadgeThemeDataImplToJson(
+      this,
+    );
   }
 }
 
-/// @nodoc
-abstract mixin class _$StacBadgeThemeDataCopyWith<$Res>
-    implements $StacBadgeThemeDataCopyWith<$Res> {
-  factory _$StacBadgeThemeDataCopyWith(
-          _StacBadgeThemeData value, $Res Function(_StacBadgeThemeData) _then) =
-      __$StacBadgeThemeDataCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {String? backgroundColor,
-      String? textColor,
-      double? smallSize,
-      double? largeSize,
-      StacTextStyle? textStyle,
-      StacEdgeInsets? padding,
-      StacAlignmentGeometry? alignment,
-      StacOffset? offset});
+abstract class _StacBadgeThemeData implements StacBadgeThemeData {
+  const factory _StacBadgeThemeData(
+      {final String? backgroundColor,
+      final String? textColor,
+      final double? smallSize,
+      final double? largeSize,
+      final StacTextStyle? textStyle,
+      final StacEdgeInsets? padding,
+      final StacAlignmentGeometry? alignment,
+      final StacOffset? offset}) = _$StacBadgeThemeDataImpl;
+
+  factory _StacBadgeThemeData.fromJson(Map<String, dynamic> json) =
+      _$StacBadgeThemeDataImpl.fromJson;
 
   @override
-  $StacTextStyleCopyWith<$Res>? get textStyle;
+  String? get backgroundColor;
   @override
-  $StacEdgeInsetsCopyWith<$Res>? get padding;
+  String? get textColor;
   @override
-  $StacAlignmentGeometryCopyWith<$Res>? get alignment;
+  double? get smallSize;
   @override
-  $StacOffsetCopyWith<$Res>? get offset;
+  double? get largeSize;
+  @override
+  StacTextStyle? get textStyle;
+  @override
+  StacEdgeInsets? get padding;
+  @override
+  StacAlignmentGeometry? get alignment;
+  @override
+  StacOffset? get offset;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacBadgeThemeDataImplCopyWith<_$StacBadgeThemeDataImpl> get copyWith =>
+      throw _privateConstructorUsedError;
 }
-
-/// @nodoc
-class __$StacBadgeThemeDataCopyWithImpl<$Res>
-    implements _$StacBadgeThemeDataCopyWith<$Res> {
-  __$StacBadgeThemeDataCopyWithImpl(this._self, this._then);
-
-  final _StacBadgeThemeData _self;
-  final $Res Function(_StacBadgeThemeData) _then;
-
-  /// Create a copy of StacBadgeThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $Res call({
-    Object? backgroundColor = freezed,
-    Object? textColor = freezed,
-    Object? smallSize = freezed,
-    Object? largeSize = freezed,
-    Object? textStyle = freezed,
-    Object? padding = freezed,
-    Object? alignment = freezed,
-    Object? offset = freezed,
-  }) {
-    return _then(_StacBadgeThemeData(
-      backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
-          : backgroundColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      textColor: freezed == textColor
-          ? _self.textColor
-          : textColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      smallSize: freezed == smallSize
-          ? _self.smallSize
-          : smallSize // ignore: cast_nullable_to_non_nullable
-              as double?,
-      largeSize: freezed == largeSize
-          ? _self.largeSize
-          : largeSize // ignore: cast_nullable_to_non_nullable
-              as double?,
-      textStyle: freezed == textStyle
-          ? _self.textStyle
-          : textStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      padding: freezed == padding
-          ? _self.padding
-          : padding // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets?,
-      alignment: freezed == alignment
-          ? _self.alignment
-          : alignment // ignore: cast_nullable_to_non_nullable
-              as StacAlignmentGeometry?,
-      offset: freezed == offset
-          ? _self.offset
-          : offset // ignore: cast_nullable_to_non_nullable
-              as StacOffset?,
-    ));
-  }
-
-  /// Create a copy of StacBadgeThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get textStyle {
-    if (_self.textStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_self.textStyle!, (value) {
-      return _then(_self.copyWith(textStyle: value));
-    });
-  }
-
-  /// Create a copy of StacBadgeThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacEdgeInsetsCopyWith<$Res>? get padding {
-    if (_self.padding == null) {
-      return null;
-    }
-
-    return $StacEdgeInsetsCopyWith<$Res>(_self.padding!, (value) {
-      return _then(_self.copyWith(padding: value));
-    });
-  }
-
-  /// Create a copy of StacBadgeThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacAlignmentGeometryCopyWith<$Res>? get alignment {
-    if (_self.alignment == null) {
-      return null;
-    }
-
-    return $StacAlignmentGeometryCopyWith<$Res>(_self.alignment!, (value) {
-      return _then(_self.copyWith(alignment: value));
-    });
-  }
-
-  /// Create a copy of StacBadgeThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacOffsetCopyWith<$Res>? get offset {
-    if (_self.offset == null) {
-      return null;
-    }
-
-    return $StacOffsetCopyWith<$Res>(_self.offset!, (value) {
-      return _then(_self.copyWith(offset: value));
-    });
-  }
-}
-
-// dart format on

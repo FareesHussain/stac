@@ -6,8 +6,9 @@ part of 'stac_drawer_theme_data.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacDrawerThemeData _$StacDrawerThemeDataFromJson(Map<String, dynamic> json) =>
-    _StacDrawerThemeData(
+_$StacDrawerThemeDataImpl _$$StacDrawerThemeDataImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacDrawerThemeDataImpl(
       backgroundColor: json['backgroundColor'] as String?,
       scrimColor: json['scrimColor'] as String?,
       elevation: (json['elevation'] as num?)?.toDouble(),
@@ -23,8 +24,8 @@ _StacDrawerThemeData _$StacDrawerThemeDataFromJson(Map<String, dynamic> json) =>
       clipBehavior: $enumDecodeNullable(_$ClipEnumMap, json['clipBehavior']),
     );
 
-Map<String, dynamic> _$StacDrawerThemeDataToJson(
-        _StacDrawerThemeData instance) =>
+Map<String, dynamic> _$$StacDrawerThemeDataImplToJson(
+        _$StacDrawerThemeDataImpl instance) =>
     <String, dynamic>{
       'backgroundColor': instance.backgroundColor,
       'scrimColor': instance.scrimColor,

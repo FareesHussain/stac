@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,66 +9,47 @@ part of 'stac_sized_box.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacSizedBox {
-  StacDouble? get width;
-  StacDouble? get height;
-  Map<String, dynamic>? get child;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacSizedBox
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacSizedBoxCopyWith<StacSizedBox> get copyWith =>
-      _$StacSizedBoxCopyWithImpl<StacSizedBox>(
-          this as StacSizedBox, _$identity);
-
-  /// Serializes this StacSizedBox to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacSizedBox &&
-            (identical(other.width, width) || other.width == width) &&
-            (identical(other.height, height) || other.height == height) &&
-            const DeepCollectionEquality().equals(other.child, child));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType, width, height, const DeepCollectionEquality().hash(child));
-
-  @override
-  String toString() {
-    return 'StacSizedBox(width: $width, height: $height, child: $child)';
-  }
+StacSizedBox _$StacSizedBoxFromJson(Map<String, dynamic> json) {
+  return _StacSizedBox.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacSizedBoxCopyWith<$Res> {
+mixin _$StacSizedBox {
+  StacDouble? get width => throw _privateConstructorUsedError;
+  StacDouble? get height => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get child => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacSizedBoxCopyWith<StacSizedBox> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacSizedBoxCopyWith<$Res> {
   factory $StacSizedBoxCopyWith(
-          StacSizedBox value, $Res Function(StacSizedBox) _then) =
-      _$StacSizedBoxCopyWithImpl;
+          StacSizedBox value, $Res Function(StacSizedBox) then) =
+      _$StacSizedBoxCopyWithImpl<$Res, StacSizedBox>;
   @useResult
   $Res call(
       {StacDouble? width, StacDouble? height, Map<String, dynamic>? child});
 }
 
 /// @nodoc
-class _$StacSizedBoxCopyWithImpl<$Res> implements $StacSizedBoxCopyWith<$Res> {
-  _$StacSizedBoxCopyWithImpl(this._self, this._then);
+class _$StacSizedBoxCopyWithImpl<$Res, $Val extends StacSizedBox>
+    implements $StacSizedBoxCopyWith<$Res> {
+  _$StacSizedBoxCopyWithImpl(this._value, this._then);
 
-  final StacSizedBox _self;
-  final $Res Function(StacSizedBox) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacSizedBox
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -77,17 +57,61 @@ class _$StacSizedBoxCopyWithImpl<$Res> implements $StacSizedBoxCopyWith<$Res> {
     Object? height = freezed,
     Object? child = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       width: freezed == width
-          ? _self.width
+          ? _value.width
           : width // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       height: freezed == height
-          ? _self.height
+          ? _value.height
           : height // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       child: freezed == child
-          ? _self.child
+          ? _value.child
+          : child // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacSizedBoxImplCopyWith<$Res>
+    implements $StacSizedBoxCopyWith<$Res> {
+  factory _$$StacSizedBoxImplCopyWith(
+          _$StacSizedBoxImpl value, $Res Function(_$StacSizedBoxImpl) then) =
+      __$$StacSizedBoxImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {StacDouble? width, StacDouble? height, Map<String, dynamic>? child});
+}
+
+/// @nodoc
+class __$$StacSizedBoxImplCopyWithImpl<$Res>
+    extends _$StacSizedBoxCopyWithImpl<$Res, _$StacSizedBoxImpl>
+    implements _$$StacSizedBoxImplCopyWith<$Res> {
+  __$$StacSizedBoxImplCopyWithImpl(
+      _$StacSizedBoxImpl _value, $Res Function(_$StacSizedBoxImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? width = freezed,
+    Object? height = freezed,
+    Object? child = freezed,
+  }) {
+    return _then(_$StacSizedBoxImpl(
+      width: freezed == width
+          ? _value.width
+          : width // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      height: freezed == height
+          ? _value.height
+          : height // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      child: freezed == child
+          ? _value._child
           : child // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
     ));
@@ -96,12 +120,13 @@ class _$StacSizedBoxCopyWithImpl<$Res> implements $StacSizedBoxCopyWith<$Res> {
 
 /// @nodoc
 @JsonSerializable()
-class _StacSizedBox implements StacSizedBox {
-  const _StacSizedBox(
+class _$StacSizedBoxImpl implements _StacSizedBox {
+  const _$StacSizedBoxImpl(
       {this.width, this.height, final Map<String, dynamic>? child})
       : _child = child;
-  factory _StacSizedBox.fromJson(Map<String, dynamic> json) =>
-      _$StacSizedBoxFromJson(json);
+
+  factory _$StacSizedBoxImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacSizedBoxImplFromJson(json);
 
   @override
   final StacDouble? width;
@@ -117,86 +142,57 @@ class _StacSizedBox implements StacSizedBox {
     return EqualUnmodifiableMapView(value);
   }
 
-  /// Create a copy of StacSizedBox
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacSizedBoxCopyWith<_StacSizedBox> get copyWith =>
-      __$StacSizedBoxCopyWithImpl<_StacSizedBox>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacSizedBoxToJson(
-      this,
-    );
+  String toString() {
+    return 'StacSizedBox(width: $width, height: $height, child: $child)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacSizedBox &&
+            other is _$StacSizedBoxImpl &&
             (identical(other.width, width) || other.width == width) &&
             (identical(other.height, height) || other.height == height) &&
             const DeepCollectionEquality().equals(other._child, _child));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType, width, height, const DeepCollectionEquality().hash(_child));
 
-  @override
-  String toString() {
-    return 'StacSizedBox(width: $width, height: $height, child: $child)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacSizedBoxCopyWith<$Res>
-    implements $StacSizedBoxCopyWith<$Res> {
-  factory _$StacSizedBoxCopyWith(
-          _StacSizedBox value, $Res Function(_StacSizedBox) _then) =
-      __$StacSizedBoxCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {StacDouble? width, StacDouble? height, Map<String, dynamic>? child});
-}
-
-/// @nodoc
-class __$StacSizedBoxCopyWithImpl<$Res>
-    implements _$StacSizedBoxCopyWith<$Res> {
-  __$StacSizedBoxCopyWithImpl(this._self, this._then);
-
-  final _StacSizedBox _self;
-  final $Res Function(_StacSizedBox) _then;
-
-  /// Create a copy of StacSizedBox
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? width = freezed,
-    Object? height = freezed,
-    Object? child = freezed,
-  }) {
-    return _then(_StacSizedBox(
-      width: freezed == width
-          ? _self.width
-          : width // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      height: freezed == height
-          ? _self.height
-          : height // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      child: freezed == child
-          ? _self._child
-          : child // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-    ));
+  _$$StacSizedBoxImplCopyWith<_$StacSizedBoxImpl> get copyWith =>
+      __$$StacSizedBoxImplCopyWithImpl<_$StacSizedBoxImpl>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacSizedBoxImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacSizedBox implements StacSizedBox {
+  const factory _StacSizedBox(
+      {final StacDouble? width,
+      final StacDouble? height,
+      final Map<String, dynamic>? child}) = _$StacSizedBoxImpl;
+
+  factory _StacSizedBox.fromJson(Map<String, dynamic> json) =
+      _$StacSizedBoxImpl.fromJson;
+
+  @override
+  StacDouble? get width;
+  @override
+  StacDouble? get height;
+  @override
+  Map<String, dynamic>? get child;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacSizedBoxImplCopyWith<_$StacSizedBoxImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

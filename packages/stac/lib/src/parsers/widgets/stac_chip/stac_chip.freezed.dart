@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,133 +9,54 @@ part of 'stac_chip.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacChip {
-  Map<String, dynamic>? get avatar;
-  Map<String, dynamic> get label;
-  StacTextStyle? get labelStyle;
-  StacEdgeInsets? get labelPadding;
-  Map<String, dynamic>? get deleteIcon;
-  Map<String, dynamic>? get onDeleted;
-  String? get deleteIconColor;
-  String? get deleteButtonTooltipMessage;
-  StacBorderSide? get side;
-  StacRoundedRectangleBorder? get shape;
-  Clip get clipBehavior;
-  bool get autofocus;
-  String? get color;
-  String? get backgroundColor;
-  StacEdgeInsets? get padding;
-  StacVisualDensity? get visualDensity;
-  MaterialTapTargetSize? get materialTapTargetSize;
-  StacDouble? get elevation;
-  String? get shadowColor;
-  String? get surfaceTintColor;
-  StacIconThemeData? get iconTheme;
-  StacBoxConstraints? get avatarBoxConstraints;
-  StacBoxConstraints? get deleteIconBoxConstraints;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacChip
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacChipCopyWith<StacChip> get copyWith =>
-      _$StacChipCopyWithImpl<StacChip>(this as StacChip, _$identity);
-
-  /// Serializes this StacChip to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacChip &&
-            const DeepCollectionEquality().equals(other.avatar, avatar) &&
-            const DeepCollectionEquality().equals(other.label, label) &&
-            (identical(other.labelStyle, labelStyle) ||
-                other.labelStyle == labelStyle) &&
-            (identical(other.labelPadding, labelPadding) ||
-                other.labelPadding == labelPadding) &&
-            const DeepCollectionEquality()
-                .equals(other.deleteIcon, deleteIcon) &&
-            const DeepCollectionEquality().equals(other.onDeleted, onDeleted) &&
-            (identical(other.deleteIconColor, deleteIconColor) ||
-                other.deleteIconColor == deleteIconColor) &&
-            (identical(other.deleteButtonTooltipMessage,
-                    deleteButtonTooltipMessage) ||
-                other.deleteButtonTooltipMessage ==
-                    deleteButtonTooltipMessage) &&
-            (identical(other.side, side) || other.side == side) &&
-            (identical(other.shape, shape) || other.shape == shape) &&
-            (identical(other.clipBehavior, clipBehavior) ||
-                other.clipBehavior == clipBehavior) &&
-            (identical(other.autofocus, autofocus) ||
-                other.autofocus == autofocus) &&
-            (identical(other.color, color) || other.color == color) &&
-            (identical(other.backgroundColor, backgroundColor) ||
-                other.backgroundColor == backgroundColor) &&
-            (identical(other.padding, padding) || other.padding == padding) &&
-            (identical(other.visualDensity, visualDensity) ||
-                other.visualDensity == visualDensity) &&
-            (identical(other.materialTapTargetSize, materialTapTargetSize) ||
-                other.materialTapTargetSize == materialTapTargetSize) &&
-            (identical(other.elevation, elevation) ||
-                other.elevation == elevation) &&
-            (identical(other.shadowColor, shadowColor) ||
-                other.shadowColor == shadowColor) &&
-            (identical(other.surfaceTintColor, surfaceTintColor) ||
-                other.surfaceTintColor == surfaceTintColor) &&
-            (identical(other.iconTheme, iconTheme) ||
-                other.iconTheme == iconTheme) &&
-            (identical(other.avatarBoxConstraints, avatarBoxConstraints) ||
-                other.avatarBoxConstraints == avatarBoxConstraints) &&
-            (identical(
-                    other.deleteIconBoxConstraints, deleteIconBoxConstraints) ||
-                other.deleteIconBoxConstraints == deleteIconBoxConstraints));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hashAll([
-        runtimeType,
-        const DeepCollectionEquality().hash(avatar),
-        const DeepCollectionEquality().hash(label),
-        labelStyle,
-        labelPadding,
-        const DeepCollectionEquality().hash(deleteIcon),
-        const DeepCollectionEquality().hash(onDeleted),
-        deleteIconColor,
-        deleteButtonTooltipMessage,
-        side,
-        shape,
-        clipBehavior,
-        autofocus,
-        color,
-        backgroundColor,
-        padding,
-        visualDensity,
-        materialTapTargetSize,
-        elevation,
-        shadowColor,
-        surfaceTintColor,
-        iconTheme,
-        avatarBoxConstraints,
-        deleteIconBoxConstraints
-      ]);
-
-  @override
-  String toString() {
-    return 'StacChip(avatar: $avatar, label: $label, labelStyle: $labelStyle, labelPadding: $labelPadding, deleteIcon: $deleteIcon, onDeleted: $onDeleted, deleteIconColor: $deleteIconColor, deleteButtonTooltipMessage: $deleteButtonTooltipMessage, side: $side, shape: $shape, clipBehavior: $clipBehavior, autofocus: $autofocus, color: $color, backgroundColor: $backgroundColor, padding: $padding, visualDensity: $visualDensity, materialTapTargetSize: $materialTapTargetSize, elevation: $elevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, iconTheme: $iconTheme, avatarBoxConstraints: $avatarBoxConstraints, deleteIconBoxConstraints: $deleteIconBoxConstraints)';
-  }
+StacChip _$StacChipFromJson(Map<String, dynamic> json) {
+  return _StacChip.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacChipCopyWith<$Res> {
-  factory $StacChipCopyWith(StacChip value, $Res Function(StacChip) _then) =
-      _$StacChipCopyWithImpl;
+mixin _$StacChip {
+  Map<String, dynamic>? get avatar => throw _privateConstructorUsedError;
+  Map<String, dynamic> get label => throw _privateConstructorUsedError;
+  StacTextStyle? get labelStyle => throw _privateConstructorUsedError;
+  StacEdgeInsets? get labelPadding => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get deleteIcon => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get onDeleted => throw _privateConstructorUsedError;
+  String? get deleteIconColor => throw _privateConstructorUsedError;
+  String? get deleteButtonTooltipMessage => throw _privateConstructorUsedError;
+  StacBorderSide? get side => throw _privateConstructorUsedError;
+  StacRoundedRectangleBorder? get shape => throw _privateConstructorUsedError;
+  Clip get clipBehavior => throw _privateConstructorUsedError;
+  bool get autofocus => throw _privateConstructorUsedError;
+  String? get color => throw _privateConstructorUsedError;
+  String? get backgroundColor => throw _privateConstructorUsedError;
+  StacEdgeInsets? get padding => throw _privateConstructorUsedError;
+  StacVisualDensity? get visualDensity => throw _privateConstructorUsedError;
+  MaterialTapTargetSize? get materialTapTargetSize =>
+      throw _privateConstructorUsedError;
+  StacDouble? get elevation => throw _privateConstructorUsedError;
+  String? get shadowColor => throw _privateConstructorUsedError;
+  String? get surfaceTintColor => throw _privateConstructorUsedError;
+  StacIconThemeData? get iconTheme => throw _privateConstructorUsedError;
+  StacBoxConstraints? get avatarBoxConstraints =>
+      throw _privateConstructorUsedError;
+  StacBoxConstraints? get deleteIconBoxConstraints =>
+      throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacChipCopyWith<StacChip> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacChipCopyWith<$Res> {
+  factory $StacChipCopyWith(StacChip value, $Res Function(StacChip) then) =
+      _$StacChipCopyWithImpl<$Res, StacChip>;
   @useResult
   $Res call(
       {Map<String, dynamic>? avatar,
@@ -175,14 +95,15 @@ abstract mixin class $StacChipCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacChipCopyWithImpl<$Res> implements $StacChipCopyWith<$Res> {
-  _$StacChipCopyWithImpl(this._self, this._then);
+class _$StacChipCopyWithImpl<$Res, $Val extends StacChip>
+    implements $StacChipCopyWith<$Res> {
+  _$StacChipCopyWithImpl(this._value, this._then);
 
-  final StacChip _self;
-  final $Res Function(StacChip) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacChip
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -210,235 +131,402 @@ class _$StacChipCopyWithImpl<$Res> implements $StacChipCopyWith<$Res> {
     Object? avatarBoxConstraints = freezed,
     Object? deleteIconBoxConstraints = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       avatar: freezed == avatar
-          ? _self.avatar
+          ? _value.avatar
           : avatar // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       label: null == label
-          ? _self.label
+          ? _value.label
           : label // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>,
       labelStyle: freezed == labelStyle
-          ? _self.labelStyle
+          ? _value.labelStyle
           : labelStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       labelPadding: freezed == labelPadding
-          ? _self.labelPadding
+          ? _value.labelPadding
           : labelPadding // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets?,
       deleteIcon: freezed == deleteIcon
-          ? _self.deleteIcon
+          ? _value.deleteIcon
           : deleteIcon // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onDeleted: freezed == onDeleted
-          ? _self.onDeleted
+          ? _value.onDeleted
           : onDeleted // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       deleteIconColor: freezed == deleteIconColor
-          ? _self.deleteIconColor
+          ? _value.deleteIconColor
           : deleteIconColor // ignore: cast_nullable_to_non_nullable
               as String?,
       deleteButtonTooltipMessage: freezed == deleteButtonTooltipMessage
-          ? _self.deleteButtonTooltipMessage
+          ? _value.deleteButtonTooltipMessage
           : deleteButtonTooltipMessage // ignore: cast_nullable_to_non_nullable
               as String?,
       side: freezed == side
-          ? _self.side
+          ? _value.side
           : side // ignore: cast_nullable_to_non_nullable
               as StacBorderSide?,
       shape: freezed == shape
-          ? _self.shape
+          ? _value.shape
           : shape // ignore: cast_nullable_to_non_nullable
               as StacRoundedRectangleBorder?,
       clipBehavior: null == clipBehavior
-          ? _self.clipBehavior
+          ? _value.clipBehavior
           : clipBehavior // ignore: cast_nullable_to_non_nullable
               as Clip,
       autofocus: null == autofocus
-          ? _self.autofocus
+          ? _value.autofocus
           : autofocus // ignore: cast_nullable_to_non_nullable
               as bool,
       color: freezed == color
-          ? _self.color
+          ? _value.color
           : color // ignore: cast_nullable_to_non_nullable
               as String?,
       backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
+          ? _value.backgroundColor
           : backgroundColor // ignore: cast_nullable_to_non_nullable
               as String?,
       padding: freezed == padding
-          ? _self.padding
+          ? _value.padding
           : padding // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets?,
       visualDensity: freezed == visualDensity
-          ? _self.visualDensity
+          ? _value.visualDensity
           : visualDensity // ignore: cast_nullable_to_non_nullable
               as StacVisualDensity?,
       materialTapTargetSize: freezed == materialTapTargetSize
-          ? _self.materialTapTargetSize
+          ? _value.materialTapTargetSize
           : materialTapTargetSize // ignore: cast_nullable_to_non_nullable
               as MaterialTapTargetSize?,
       elevation: freezed == elevation
-          ? _self.elevation
+          ? _value.elevation
           : elevation // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       shadowColor: freezed == shadowColor
-          ? _self.shadowColor
+          ? _value.shadowColor
           : shadowColor // ignore: cast_nullable_to_non_nullable
               as String?,
       surfaceTintColor: freezed == surfaceTintColor
-          ? _self.surfaceTintColor
+          ? _value.surfaceTintColor
           : surfaceTintColor // ignore: cast_nullable_to_non_nullable
               as String?,
       iconTheme: freezed == iconTheme
-          ? _self.iconTheme
+          ? _value.iconTheme
           : iconTheme // ignore: cast_nullable_to_non_nullable
               as StacIconThemeData?,
       avatarBoxConstraints: freezed == avatarBoxConstraints
-          ? _self.avatarBoxConstraints
+          ? _value.avatarBoxConstraints
           : avatarBoxConstraints // ignore: cast_nullable_to_non_nullable
               as StacBoxConstraints?,
       deleteIconBoxConstraints: freezed == deleteIconBoxConstraints
-          ? _self.deleteIconBoxConstraints
+          ? _value.deleteIconBoxConstraints
           : deleteIconBoxConstraints // ignore: cast_nullable_to_non_nullable
               as StacBoxConstraints?,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacChip
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacTextStyleCopyWith<$Res>? get labelStyle {
-    if (_self.labelStyle == null) {
+    if (_value.labelStyle == null) {
       return null;
     }
 
-    return $StacTextStyleCopyWith<$Res>(_self.labelStyle!, (value) {
-      return _then(_self.copyWith(labelStyle: value));
+    return $StacTextStyleCopyWith<$Res>(_value.labelStyle!, (value) {
+      return _then(_value.copyWith(labelStyle: value) as $Val);
     });
   }
 
-  /// Create a copy of StacChip
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacEdgeInsetsCopyWith<$Res>? get labelPadding {
-    if (_self.labelPadding == null) {
+    if (_value.labelPadding == null) {
       return null;
     }
 
-    return $StacEdgeInsetsCopyWith<$Res>(_self.labelPadding!, (value) {
-      return _then(_self.copyWith(labelPadding: value));
+    return $StacEdgeInsetsCopyWith<$Res>(_value.labelPadding!, (value) {
+      return _then(_value.copyWith(labelPadding: value) as $Val);
     });
   }
 
-  /// Create a copy of StacChip
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacBorderSideCopyWith<$Res>? get side {
-    if (_self.side == null) {
+    if (_value.side == null) {
       return null;
     }
 
-    return $StacBorderSideCopyWith<$Res>(_self.side!, (value) {
-      return _then(_self.copyWith(side: value));
+    return $StacBorderSideCopyWith<$Res>(_value.side!, (value) {
+      return _then(_value.copyWith(side: value) as $Val);
     });
   }
 
-  /// Create a copy of StacChip
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacRoundedRectangleBorderCopyWith<$Res>? get shape {
-    if (_self.shape == null) {
+    if (_value.shape == null) {
       return null;
     }
 
-    return $StacRoundedRectangleBorderCopyWith<$Res>(_self.shape!, (value) {
-      return _then(_self.copyWith(shape: value));
+    return $StacRoundedRectangleBorderCopyWith<$Res>(_value.shape!, (value) {
+      return _then(_value.copyWith(shape: value) as $Val);
     });
   }
 
-  /// Create a copy of StacChip
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacEdgeInsetsCopyWith<$Res>? get padding {
-    if (_self.padding == null) {
+    if (_value.padding == null) {
       return null;
     }
 
-    return $StacEdgeInsetsCopyWith<$Res>(_self.padding!, (value) {
-      return _then(_self.copyWith(padding: value));
+    return $StacEdgeInsetsCopyWith<$Res>(_value.padding!, (value) {
+      return _then(_value.copyWith(padding: value) as $Val);
     });
   }
 
-  /// Create a copy of StacChip
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacVisualDensityCopyWith<$Res>? get visualDensity {
-    if (_self.visualDensity == null) {
+    if (_value.visualDensity == null) {
       return null;
     }
 
-    return $StacVisualDensityCopyWith<$Res>(_self.visualDensity!, (value) {
-      return _then(_self.copyWith(visualDensity: value));
+    return $StacVisualDensityCopyWith<$Res>(_value.visualDensity!, (value) {
+      return _then(_value.copyWith(visualDensity: value) as $Val);
     });
   }
 
-  /// Create a copy of StacChip
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacIconThemeDataCopyWith<$Res>? get iconTheme {
-    if (_self.iconTheme == null) {
+    if (_value.iconTheme == null) {
       return null;
     }
 
-    return $StacIconThemeDataCopyWith<$Res>(_self.iconTheme!, (value) {
-      return _then(_self.copyWith(iconTheme: value));
+    return $StacIconThemeDataCopyWith<$Res>(_value.iconTheme!, (value) {
+      return _then(_value.copyWith(iconTheme: value) as $Val);
     });
   }
 
-  /// Create a copy of StacChip
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacBoxConstraintsCopyWith<$Res>? get avatarBoxConstraints {
-    if (_self.avatarBoxConstraints == null) {
+    if (_value.avatarBoxConstraints == null) {
       return null;
     }
 
-    return $StacBoxConstraintsCopyWith<$Res>(_self.avatarBoxConstraints!,
+    return $StacBoxConstraintsCopyWith<$Res>(_value.avatarBoxConstraints!,
         (value) {
-      return _then(_self.copyWith(avatarBoxConstraints: value));
+      return _then(_value.copyWith(avatarBoxConstraints: value) as $Val);
     });
   }
 
-  /// Create a copy of StacChip
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacBoxConstraintsCopyWith<$Res>? get deleteIconBoxConstraints {
-    if (_self.deleteIconBoxConstraints == null) {
+    if (_value.deleteIconBoxConstraints == null) {
       return null;
     }
 
-    return $StacBoxConstraintsCopyWith<$Res>(_self.deleteIconBoxConstraints!,
+    return $StacBoxConstraintsCopyWith<$Res>(_value.deleteIconBoxConstraints!,
         (value) {
-      return _then(_self.copyWith(deleteIconBoxConstraints: value));
+      return _then(_value.copyWith(deleteIconBoxConstraints: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacChipImplCopyWith<$Res>
+    implements $StacChipCopyWith<$Res> {
+  factory _$$StacChipImplCopyWith(
+          _$StacChipImpl value, $Res Function(_$StacChipImpl) then) =
+      __$$StacChipImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {Map<String, dynamic>? avatar,
+      Map<String, dynamic> label,
+      StacTextStyle? labelStyle,
+      StacEdgeInsets? labelPadding,
+      Map<String, dynamic>? deleteIcon,
+      Map<String, dynamic>? onDeleted,
+      String? deleteIconColor,
+      String? deleteButtonTooltipMessage,
+      StacBorderSide? side,
+      StacRoundedRectangleBorder? shape,
+      Clip clipBehavior,
+      bool autofocus,
+      String? color,
+      String? backgroundColor,
+      StacEdgeInsets? padding,
+      StacVisualDensity? visualDensity,
+      MaterialTapTargetSize? materialTapTargetSize,
+      StacDouble? elevation,
+      String? shadowColor,
+      String? surfaceTintColor,
+      StacIconThemeData? iconTheme,
+      StacBoxConstraints? avatarBoxConstraints,
+      StacBoxConstraints? deleteIconBoxConstraints});
+
+  @override
+  $StacTextStyleCopyWith<$Res>? get labelStyle;
+  @override
+  $StacEdgeInsetsCopyWith<$Res>? get labelPadding;
+  @override
+  $StacBorderSideCopyWith<$Res>? get side;
+  @override
+  $StacRoundedRectangleBorderCopyWith<$Res>? get shape;
+  @override
+  $StacEdgeInsetsCopyWith<$Res>? get padding;
+  @override
+  $StacVisualDensityCopyWith<$Res>? get visualDensity;
+  @override
+  $StacIconThemeDataCopyWith<$Res>? get iconTheme;
+  @override
+  $StacBoxConstraintsCopyWith<$Res>? get avatarBoxConstraints;
+  @override
+  $StacBoxConstraintsCopyWith<$Res>? get deleteIconBoxConstraints;
+}
+
+/// @nodoc
+class __$$StacChipImplCopyWithImpl<$Res>
+    extends _$StacChipCopyWithImpl<$Res, _$StacChipImpl>
+    implements _$$StacChipImplCopyWith<$Res> {
+  __$$StacChipImplCopyWithImpl(
+      _$StacChipImpl _value, $Res Function(_$StacChipImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? avatar = freezed,
+    Object? label = null,
+    Object? labelStyle = freezed,
+    Object? labelPadding = freezed,
+    Object? deleteIcon = freezed,
+    Object? onDeleted = freezed,
+    Object? deleteIconColor = freezed,
+    Object? deleteButtonTooltipMessage = freezed,
+    Object? side = freezed,
+    Object? shape = freezed,
+    Object? clipBehavior = null,
+    Object? autofocus = null,
+    Object? color = freezed,
+    Object? backgroundColor = freezed,
+    Object? padding = freezed,
+    Object? visualDensity = freezed,
+    Object? materialTapTargetSize = freezed,
+    Object? elevation = freezed,
+    Object? shadowColor = freezed,
+    Object? surfaceTintColor = freezed,
+    Object? iconTheme = freezed,
+    Object? avatarBoxConstraints = freezed,
+    Object? deleteIconBoxConstraints = freezed,
+  }) {
+    return _then(_$StacChipImpl(
+      avatar: freezed == avatar
+          ? _value._avatar
+          : avatar // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      label: null == label
+          ? _value._label
+          : label // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>,
+      labelStyle: freezed == labelStyle
+          ? _value.labelStyle
+          : labelStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      labelPadding: freezed == labelPadding
+          ? _value.labelPadding
+          : labelPadding // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets?,
+      deleteIcon: freezed == deleteIcon
+          ? _value._deleteIcon
+          : deleteIcon // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onDeleted: freezed == onDeleted
+          ? _value._onDeleted
+          : onDeleted // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      deleteIconColor: freezed == deleteIconColor
+          ? _value.deleteIconColor
+          : deleteIconColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      deleteButtonTooltipMessage: freezed == deleteButtonTooltipMessage
+          ? _value.deleteButtonTooltipMessage
+          : deleteButtonTooltipMessage // ignore: cast_nullable_to_non_nullable
+              as String?,
+      side: freezed == side
+          ? _value.side
+          : side // ignore: cast_nullable_to_non_nullable
+              as StacBorderSide?,
+      shape: freezed == shape
+          ? _value.shape
+          : shape // ignore: cast_nullable_to_non_nullable
+              as StacRoundedRectangleBorder?,
+      clipBehavior: null == clipBehavior
+          ? _value.clipBehavior
+          : clipBehavior // ignore: cast_nullable_to_non_nullable
+              as Clip,
+      autofocus: null == autofocus
+          ? _value.autofocus
+          : autofocus // ignore: cast_nullable_to_non_nullable
+              as bool,
+      color: freezed == color
+          ? _value.color
+          : color // ignore: cast_nullable_to_non_nullable
+              as String?,
+      backgroundColor: freezed == backgroundColor
+          ? _value.backgroundColor
+          : backgroundColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      padding: freezed == padding
+          ? _value.padding
+          : padding // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets?,
+      visualDensity: freezed == visualDensity
+          ? _value.visualDensity
+          : visualDensity // ignore: cast_nullable_to_non_nullable
+              as StacVisualDensity?,
+      materialTapTargetSize: freezed == materialTapTargetSize
+          ? _value.materialTapTargetSize
+          : materialTapTargetSize // ignore: cast_nullable_to_non_nullable
+              as MaterialTapTargetSize?,
+      elevation: freezed == elevation
+          ? _value.elevation
+          : elevation // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      shadowColor: freezed == shadowColor
+          ? _value.shadowColor
+          : shadowColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      surfaceTintColor: freezed == surfaceTintColor
+          ? _value.surfaceTintColor
+          : surfaceTintColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      iconTheme: freezed == iconTheme
+          ? _value.iconTheme
+          : iconTheme // ignore: cast_nullable_to_non_nullable
+              as StacIconThemeData?,
+      avatarBoxConstraints: freezed == avatarBoxConstraints
+          ? _value.avatarBoxConstraints
+          : avatarBoxConstraints // ignore: cast_nullable_to_non_nullable
+              as StacBoxConstraints?,
+      deleteIconBoxConstraints: freezed == deleteIconBoxConstraints
+          ? _value.deleteIconBoxConstraints
+          : deleteIconBoxConstraints // ignore: cast_nullable_to_non_nullable
+              as StacBoxConstraints?,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacChip implements StacChip {
-  const _StacChip(
+class _$StacChipImpl implements _StacChip {
+  const _$StacChipImpl(
       {final Map<String, dynamic>? avatar,
       required final Map<String, dynamic> label,
       this.labelStyle,
@@ -466,8 +554,9 @@ class _StacChip implements StacChip {
         _label = label,
         _deleteIcon = deleteIcon,
         _onDeleted = onDeleted;
-  factory _StacChip.fromJson(Map<String, dynamic> json) =>
-      _$StacChipFromJson(json);
+
+  factory _$StacChipImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacChipImplFromJson(json);
 
   final Map<String, dynamic>? _avatar;
   @override
@@ -548,26 +637,16 @@ class _StacChip implements StacChip {
   @override
   final StacBoxConstraints? deleteIconBoxConstraints;
 
-  /// Create a copy of StacChip
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacChipCopyWith<_StacChip> get copyWith =>
-      __$StacChipCopyWithImpl<_StacChip>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacChipToJson(
-      this,
-    );
+  String toString() {
+    return 'StacChip(avatar: $avatar, label: $label, labelStyle: $labelStyle, labelPadding: $labelPadding, deleteIcon: $deleteIcon, onDeleted: $onDeleted, deleteIconColor: $deleteIconColor, deleteButtonTooltipMessage: $deleteButtonTooltipMessage, side: $side, shape: $shape, clipBehavior: $clipBehavior, autofocus: $autofocus, color: $color, backgroundColor: $backgroundColor, padding: $padding, visualDensity: $visualDensity, materialTapTargetSize: $materialTapTargetSize, elevation: $elevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, iconTheme: $iconTheme, avatarBoxConstraints: $avatarBoxConstraints, deleteIconBoxConstraints: $deleteIconBoxConstraints)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacChip &&
+            other is _$StacChipImpl &&
             const DeepCollectionEquality().equals(other._avatar, _avatar) &&
             const DeepCollectionEquality().equals(other._label, _label) &&
             (identical(other.labelStyle, labelStyle) ||
@@ -613,7 +692,7 @@ class _StacChip implements StacChip {
                 other.deleteIconBoxConstraints == deleteIconBoxConstraints));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hashAll([
         runtimeType,
@@ -642,323 +721,97 @@ class _StacChip implements StacChip {
         deleteIconBoxConstraints
       ]);
 
+  @JsonKey(ignore: true)
   @override
-  String toString() {
-    return 'StacChip(avatar: $avatar, label: $label, labelStyle: $labelStyle, labelPadding: $labelPadding, deleteIcon: $deleteIcon, onDeleted: $onDeleted, deleteIconColor: $deleteIconColor, deleteButtonTooltipMessage: $deleteButtonTooltipMessage, side: $side, shape: $shape, clipBehavior: $clipBehavior, autofocus: $autofocus, color: $color, backgroundColor: $backgroundColor, padding: $padding, visualDensity: $visualDensity, materialTapTargetSize: $materialTapTargetSize, elevation: $elevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, iconTheme: $iconTheme, avatarBoxConstraints: $avatarBoxConstraints, deleteIconBoxConstraints: $deleteIconBoxConstraints)';
+  @pragma('vm:prefer-inline')
+  _$$StacChipImplCopyWith<_$StacChipImpl> get copyWith =>
+      __$$StacChipImplCopyWithImpl<_$StacChipImpl>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacChipImplToJson(
+      this,
+    );
   }
 }
 
-/// @nodoc
-abstract mixin class _$StacChipCopyWith<$Res>
-    implements $StacChipCopyWith<$Res> {
-  factory _$StacChipCopyWith(_StacChip value, $Res Function(_StacChip) _then) =
-      __$StacChipCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {Map<String, dynamic>? avatar,
-      Map<String, dynamic> label,
-      StacTextStyle? labelStyle,
-      StacEdgeInsets? labelPadding,
-      Map<String, dynamic>? deleteIcon,
-      Map<String, dynamic>? onDeleted,
-      String? deleteIconColor,
-      String? deleteButtonTooltipMessage,
-      StacBorderSide? side,
-      StacRoundedRectangleBorder? shape,
-      Clip clipBehavior,
-      bool autofocus,
-      String? color,
-      String? backgroundColor,
-      StacEdgeInsets? padding,
-      StacVisualDensity? visualDensity,
-      MaterialTapTargetSize? materialTapTargetSize,
-      StacDouble? elevation,
-      String? shadowColor,
-      String? surfaceTintColor,
-      StacIconThemeData? iconTheme,
-      StacBoxConstraints? avatarBoxConstraints,
-      StacBoxConstraints? deleteIconBoxConstraints});
+abstract class _StacChip implements StacChip {
+  const factory _StacChip(
+      {final Map<String, dynamic>? avatar,
+      required final Map<String, dynamic> label,
+      final StacTextStyle? labelStyle,
+      final StacEdgeInsets? labelPadding,
+      final Map<String, dynamic>? deleteIcon,
+      final Map<String, dynamic>? onDeleted,
+      final String? deleteIconColor,
+      final String? deleteButtonTooltipMessage,
+      final StacBorderSide? side,
+      final StacRoundedRectangleBorder? shape,
+      final Clip clipBehavior,
+      final bool autofocus,
+      final String? color,
+      final String? backgroundColor,
+      final StacEdgeInsets? padding,
+      final StacVisualDensity? visualDensity,
+      final MaterialTapTargetSize? materialTapTargetSize,
+      final StacDouble? elevation,
+      final String? shadowColor,
+      final String? surfaceTintColor,
+      final StacIconThemeData? iconTheme,
+      final StacBoxConstraints? avatarBoxConstraints,
+      final StacBoxConstraints? deleteIconBoxConstraints}) = _$StacChipImpl;
+
+  factory _StacChip.fromJson(Map<String, dynamic> json) =
+      _$StacChipImpl.fromJson;
 
   @override
-  $StacTextStyleCopyWith<$Res>? get labelStyle;
+  Map<String, dynamic>? get avatar;
   @override
-  $StacEdgeInsetsCopyWith<$Res>? get labelPadding;
+  Map<String, dynamic> get label;
   @override
-  $StacBorderSideCopyWith<$Res>? get side;
+  StacTextStyle? get labelStyle;
   @override
-  $StacRoundedRectangleBorderCopyWith<$Res>? get shape;
+  StacEdgeInsets? get labelPadding;
   @override
-  $StacEdgeInsetsCopyWith<$Res>? get padding;
+  Map<String, dynamic>? get deleteIcon;
   @override
-  $StacVisualDensityCopyWith<$Res>? get visualDensity;
+  Map<String, dynamic>? get onDeleted;
   @override
-  $StacIconThemeDataCopyWith<$Res>? get iconTheme;
+  String? get deleteIconColor;
   @override
-  $StacBoxConstraintsCopyWith<$Res>? get avatarBoxConstraints;
+  String? get deleteButtonTooltipMessage;
   @override
-  $StacBoxConstraintsCopyWith<$Res>? get deleteIconBoxConstraints;
+  StacBorderSide? get side;
+  @override
+  StacRoundedRectangleBorder? get shape;
+  @override
+  Clip get clipBehavior;
+  @override
+  bool get autofocus;
+  @override
+  String? get color;
+  @override
+  String? get backgroundColor;
+  @override
+  StacEdgeInsets? get padding;
+  @override
+  StacVisualDensity? get visualDensity;
+  @override
+  MaterialTapTargetSize? get materialTapTargetSize;
+  @override
+  StacDouble? get elevation;
+  @override
+  String? get shadowColor;
+  @override
+  String? get surfaceTintColor;
+  @override
+  StacIconThemeData? get iconTheme;
+  @override
+  StacBoxConstraints? get avatarBoxConstraints;
+  @override
+  StacBoxConstraints? get deleteIconBoxConstraints;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacChipImplCopyWith<_$StacChipImpl> get copyWith =>
+      throw _privateConstructorUsedError;
 }
-
-/// @nodoc
-class __$StacChipCopyWithImpl<$Res> implements _$StacChipCopyWith<$Res> {
-  __$StacChipCopyWithImpl(this._self, this._then);
-
-  final _StacChip _self;
-  final $Res Function(_StacChip) _then;
-
-  /// Create a copy of StacChip
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $Res call({
-    Object? avatar = freezed,
-    Object? label = null,
-    Object? labelStyle = freezed,
-    Object? labelPadding = freezed,
-    Object? deleteIcon = freezed,
-    Object? onDeleted = freezed,
-    Object? deleteIconColor = freezed,
-    Object? deleteButtonTooltipMessage = freezed,
-    Object? side = freezed,
-    Object? shape = freezed,
-    Object? clipBehavior = null,
-    Object? autofocus = null,
-    Object? color = freezed,
-    Object? backgroundColor = freezed,
-    Object? padding = freezed,
-    Object? visualDensity = freezed,
-    Object? materialTapTargetSize = freezed,
-    Object? elevation = freezed,
-    Object? shadowColor = freezed,
-    Object? surfaceTintColor = freezed,
-    Object? iconTheme = freezed,
-    Object? avatarBoxConstraints = freezed,
-    Object? deleteIconBoxConstraints = freezed,
-  }) {
-    return _then(_StacChip(
-      avatar: freezed == avatar
-          ? _self._avatar
-          : avatar // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      label: null == label
-          ? _self._label
-          : label // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>,
-      labelStyle: freezed == labelStyle
-          ? _self.labelStyle
-          : labelStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      labelPadding: freezed == labelPadding
-          ? _self.labelPadding
-          : labelPadding // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets?,
-      deleteIcon: freezed == deleteIcon
-          ? _self._deleteIcon
-          : deleteIcon // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onDeleted: freezed == onDeleted
-          ? _self._onDeleted
-          : onDeleted // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      deleteIconColor: freezed == deleteIconColor
-          ? _self.deleteIconColor
-          : deleteIconColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      deleteButtonTooltipMessage: freezed == deleteButtonTooltipMessage
-          ? _self.deleteButtonTooltipMessage
-          : deleteButtonTooltipMessage // ignore: cast_nullable_to_non_nullable
-              as String?,
-      side: freezed == side
-          ? _self.side
-          : side // ignore: cast_nullable_to_non_nullable
-              as StacBorderSide?,
-      shape: freezed == shape
-          ? _self.shape
-          : shape // ignore: cast_nullable_to_non_nullable
-              as StacRoundedRectangleBorder?,
-      clipBehavior: null == clipBehavior
-          ? _self.clipBehavior
-          : clipBehavior // ignore: cast_nullable_to_non_nullable
-              as Clip,
-      autofocus: null == autofocus
-          ? _self.autofocus
-          : autofocus // ignore: cast_nullable_to_non_nullable
-              as bool,
-      color: freezed == color
-          ? _self.color
-          : color // ignore: cast_nullable_to_non_nullable
-              as String?,
-      backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
-          : backgroundColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      padding: freezed == padding
-          ? _self.padding
-          : padding // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets?,
-      visualDensity: freezed == visualDensity
-          ? _self.visualDensity
-          : visualDensity // ignore: cast_nullable_to_non_nullable
-              as StacVisualDensity?,
-      materialTapTargetSize: freezed == materialTapTargetSize
-          ? _self.materialTapTargetSize
-          : materialTapTargetSize // ignore: cast_nullable_to_non_nullable
-              as MaterialTapTargetSize?,
-      elevation: freezed == elevation
-          ? _self.elevation
-          : elevation // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      shadowColor: freezed == shadowColor
-          ? _self.shadowColor
-          : shadowColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      surfaceTintColor: freezed == surfaceTintColor
-          ? _self.surfaceTintColor
-          : surfaceTintColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      iconTheme: freezed == iconTheme
-          ? _self.iconTheme
-          : iconTheme // ignore: cast_nullable_to_non_nullable
-              as StacIconThemeData?,
-      avatarBoxConstraints: freezed == avatarBoxConstraints
-          ? _self.avatarBoxConstraints
-          : avatarBoxConstraints // ignore: cast_nullable_to_non_nullable
-              as StacBoxConstraints?,
-      deleteIconBoxConstraints: freezed == deleteIconBoxConstraints
-          ? _self.deleteIconBoxConstraints
-          : deleteIconBoxConstraints // ignore: cast_nullable_to_non_nullable
-              as StacBoxConstraints?,
-    ));
-  }
-
-  /// Create a copy of StacChip
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get labelStyle {
-    if (_self.labelStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_self.labelStyle!, (value) {
-      return _then(_self.copyWith(labelStyle: value));
-    });
-  }
-
-  /// Create a copy of StacChip
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacEdgeInsetsCopyWith<$Res>? get labelPadding {
-    if (_self.labelPadding == null) {
-      return null;
-    }
-
-    return $StacEdgeInsetsCopyWith<$Res>(_self.labelPadding!, (value) {
-      return _then(_self.copyWith(labelPadding: value));
-    });
-  }
-
-  /// Create a copy of StacChip
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacBorderSideCopyWith<$Res>? get side {
-    if (_self.side == null) {
-      return null;
-    }
-
-    return $StacBorderSideCopyWith<$Res>(_self.side!, (value) {
-      return _then(_self.copyWith(side: value));
-    });
-  }
-
-  /// Create a copy of StacChip
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacRoundedRectangleBorderCopyWith<$Res>? get shape {
-    if (_self.shape == null) {
-      return null;
-    }
-
-    return $StacRoundedRectangleBorderCopyWith<$Res>(_self.shape!, (value) {
-      return _then(_self.copyWith(shape: value));
-    });
-  }
-
-  /// Create a copy of StacChip
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacEdgeInsetsCopyWith<$Res>? get padding {
-    if (_self.padding == null) {
-      return null;
-    }
-
-    return $StacEdgeInsetsCopyWith<$Res>(_self.padding!, (value) {
-      return _then(_self.copyWith(padding: value));
-    });
-  }
-
-  /// Create a copy of StacChip
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacVisualDensityCopyWith<$Res>? get visualDensity {
-    if (_self.visualDensity == null) {
-      return null;
-    }
-
-    return $StacVisualDensityCopyWith<$Res>(_self.visualDensity!, (value) {
-      return _then(_self.copyWith(visualDensity: value));
-    });
-  }
-
-  /// Create a copy of StacChip
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacIconThemeDataCopyWith<$Res>? get iconTheme {
-    if (_self.iconTheme == null) {
-      return null;
-    }
-
-    return $StacIconThemeDataCopyWith<$Res>(_self.iconTheme!, (value) {
-      return _then(_self.copyWith(iconTheme: value));
-    });
-  }
-
-  /// Create a copy of StacChip
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacBoxConstraintsCopyWith<$Res>? get avatarBoxConstraints {
-    if (_self.avatarBoxConstraints == null) {
-      return null;
-    }
-
-    return $StacBoxConstraintsCopyWith<$Res>(_self.avatarBoxConstraints!,
-        (value) {
-      return _then(_self.copyWith(avatarBoxConstraints: value));
-    });
-  }
-
-  /// Create a copy of StacChip
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacBoxConstraintsCopyWith<$Res>? get deleteIconBoxConstraints {
-    if (_self.deleteIconBoxConstraints == null) {
-      return null;
-    }
-
-    return $StacBoxConstraintsCopyWith<$Res>(_self.deleteIconBoxConstraints!,
-        (value) {
-      return _then(_self.copyWith(deleteIconBoxConstraints: value));
-    });
-  }
-}
-
-// dart format on

@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,58 +9,34 @@ part of 'stac_vertical_divider.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacVerticalDivider {
-  StacDouble? get width;
-  StacDouble? get thickness;
-  StacDouble? get indent;
-  StacDouble? get endIndent;
-  String? get color;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacVerticalDivider
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacVerticalDividerCopyWith<StacVerticalDivider> get copyWith =>
-      _$StacVerticalDividerCopyWithImpl<StacVerticalDivider>(
-          this as StacVerticalDivider, _$identity);
-
-  /// Serializes this StacVerticalDivider to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacVerticalDivider &&
-            (identical(other.width, width) || other.width == width) &&
-            (identical(other.thickness, thickness) ||
-                other.thickness == thickness) &&
-            (identical(other.indent, indent) || other.indent == indent) &&
-            (identical(other.endIndent, endIndent) ||
-                other.endIndent == endIndent) &&
-            (identical(other.color, color) || other.color == color));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode =>
-      Object.hash(runtimeType, width, thickness, indent, endIndent, color);
-
-  @override
-  String toString() {
-    return 'StacVerticalDivider(width: $width, thickness: $thickness, indent: $indent, endIndent: $endIndent, color: $color)';
-  }
+StacVerticalDivider _$StacVerticalDividerFromJson(Map<String, dynamic> json) {
+  return _StacVerticalDivider.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacVerticalDividerCopyWith<$Res> {
+mixin _$StacVerticalDivider {
+  StacDouble? get width => throw _privateConstructorUsedError;
+  StacDouble? get thickness => throw _privateConstructorUsedError;
+  StacDouble? get indent => throw _privateConstructorUsedError;
+  StacDouble? get endIndent => throw _privateConstructorUsedError;
+  String? get color => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacVerticalDividerCopyWith<StacVerticalDivider> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacVerticalDividerCopyWith<$Res> {
   factory $StacVerticalDividerCopyWith(
-          StacVerticalDivider value, $Res Function(StacVerticalDivider) _then) =
-      _$StacVerticalDividerCopyWithImpl;
+          StacVerticalDivider value, $Res Function(StacVerticalDivider) then) =
+      _$StacVerticalDividerCopyWithImpl<$Res, StacVerticalDivider>;
   @useResult
   $Res call(
       {StacDouble? width,
@@ -72,15 +47,15 @@ abstract mixin class $StacVerticalDividerCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacVerticalDividerCopyWithImpl<$Res>
+class _$StacVerticalDividerCopyWithImpl<$Res, $Val extends StacVerticalDivider>
     implements $StacVerticalDividerCopyWith<$Res> {
-  _$StacVerticalDividerCopyWithImpl(this._self, this._then);
+  _$StacVerticalDividerCopyWithImpl(this._value, this._then);
 
-  final StacVerticalDivider _self;
-  final $Res Function(StacVerticalDivider) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacVerticalDivider
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -90,25 +65,83 @@ class _$StacVerticalDividerCopyWithImpl<$Res>
     Object? endIndent = freezed,
     Object? color = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       width: freezed == width
-          ? _self.width
+          ? _value.width
           : width // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       thickness: freezed == thickness
-          ? _self.thickness
+          ? _value.thickness
           : thickness // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       indent: freezed == indent
-          ? _self.indent
+          ? _value.indent
           : indent // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       endIndent: freezed == endIndent
-          ? _self.endIndent
+          ? _value.endIndent
           : endIndent // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       color: freezed == color
-          ? _self.color
+          ? _value.color
+          : color // ignore: cast_nullable_to_non_nullable
+              as String?,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacVerticalDividerImplCopyWith<$Res>
+    implements $StacVerticalDividerCopyWith<$Res> {
+  factory _$$StacVerticalDividerImplCopyWith(_$StacVerticalDividerImpl value,
+          $Res Function(_$StacVerticalDividerImpl) then) =
+      __$$StacVerticalDividerImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {StacDouble? width,
+      StacDouble? thickness,
+      StacDouble? indent,
+      StacDouble? endIndent,
+      String? color});
+}
+
+/// @nodoc
+class __$$StacVerticalDividerImplCopyWithImpl<$Res>
+    extends _$StacVerticalDividerCopyWithImpl<$Res, _$StacVerticalDividerImpl>
+    implements _$$StacVerticalDividerImplCopyWith<$Res> {
+  __$$StacVerticalDividerImplCopyWithImpl(_$StacVerticalDividerImpl _value,
+      $Res Function(_$StacVerticalDividerImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? width = freezed,
+    Object? thickness = freezed,
+    Object? indent = freezed,
+    Object? endIndent = freezed,
+    Object? color = freezed,
+  }) {
+    return _then(_$StacVerticalDividerImpl(
+      width: freezed == width
+          ? _value.width
+          : width // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      thickness: freezed == thickness
+          ? _value.thickness
+          : thickness // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      indent: freezed == indent
+          ? _value.indent
+          : indent // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      endIndent: freezed == endIndent
+          ? _value.endIndent
+          : endIndent // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      color: freezed == color
+          ? _value.color
           : color // ignore: cast_nullable_to_non_nullable
               as String?,
     ));
@@ -117,11 +150,12 @@ class _$StacVerticalDividerCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _StacVerticalDivider implements StacVerticalDivider {
-  const _StacVerticalDivider(
+class _$StacVerticalDividerImpl implements _StacVerticalDivider {
+  const _$StacVerticalDividerImpl(
       {this.width, this.thickness, this.indent, this.endIndent, this.color});
-  factory _StacVerticalDivider.fromJson(Map<String, dynamic> json) =>
-      _$StacVerticalDividerFromJson(json);
+
+  factory _$StacVerticalDividerImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacVerticalDividerImplFromJson(json);
 
   @override
   final StacDouble? width;
@@ -134,27 +168,16 @@ class _StacVerticalDivider implements StacVerticalDivider {
   @override
   final String? color;
 
-  /// Create a copy of StacVerticalDivider
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacVerticalDividerCopyWith<_StacVerticalDivider> get copyWith =>
-      __$StacVerticalDividerCopyWithImpl<_StacVerticalDivider>(
-          this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacVerticalDividerToJson(
-      this,
-    );
+  String toString() {
+    return 'StacVerticalDivider(width: $width, thickness: $thickness, indent: $indent, endIndent: $endIndent, color: $color)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacVerticalDivider &&
+            other is _$StacVerticalDividerImpl &&
             (identical(other.width, width) || other.width == width) &&
             (identical(other.thickness, thickness) ||
                 other.thickness == thickness) &&
@@ -164,75 +187,49 @@ class _StacVerticalDivider implements StacVerticalDivider {
             (identical(other.color, color) || other.color == color));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode =>
       Object.hash(runtimeType, width, thickness, indent, endIndent, color);
 
-  @override
-  String toString() {
-    return 'StacVerticalDivider(width: $width, thickness: $thickness, indent: $indent, endIndent: $endIndent, color: $color)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacVerticalDividerCopyWith<$Res>
-    implements $StacVerticalDividerCopyWith<$Res> {
-  factory _$StacVerticalDividerCopyWith(_StacVerticalDivider value,
-          $Res Function(_StacVerticalDivider) _then) =
-      __$StacVerticalDividerCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {StacDouble? width,
-      StacDouble? thickness,
-      StacDouble? indent,
-      StacDouble? endIndent,
-      String? color});
-}
-
-/// @nodoc
-class __$StacVerticalDividerCopyWithImpl<$Res>
-    implements _$StacVerticalDividerCopyWith<$Res> {
-  __$StacVerticalDividerCopyWithImpl(this._self, this._then);
-
-  final _StacVerticalDivider _self;
-  final $Res Function(_StacVerticalDivider) _then;
-
-  /// Create a copy of StacVerticalDivider
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? width = freezed,
-    Object? thickness = freezed,
-    Object? indent = freezed,
-    Object? endIndent = freezed,
-    Object? color = freezed,
-  }) {
-    return _then(_StacVerticalDivider(
-      width: freezed == width
-          ? _self.width
-          : width // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      thickness: freezed == thickness
-          ? _self.thickness
-          : thickness // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      indent: freezed == indent
-          ? _self.indent
-          : indent // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      endIndent: freezed == endIndent
-          ? _self.endIndent
-          : endIndent // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      color: freezed == color
-          ? _self.color
-          : color // ignore: cast_nullable_to_non_nullable
-              as String?,
-    ));
+  _$$StacVerticalDividerImplCopyWith<_$StacVerticalDividerImpl> get copyWith =>
+      __$$StacVerticalDividerImplCopyWithImpl<_$StacVerticalDividerImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacVerticalDividerImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacVerticalDivider implements StacVerticalDivider {
+  const factory _StacVerticalDivider(
+      {final StacDouble? width,
+      final StacDouble? thickness,
+      final StacDouble? indent,
+      final StacDouble? endIndent,
+      final String? color}) = _$StacVerticalDividerImpl;
+
+  factory _StacVerticalDivider.fromJson(Map<String, dynamic> json) =
+      _$StacVerticalDividerImpl.fromJson;
+
+  @override
+  StacDouble? get width;
+  @override
+  StacDouble? get thickness;
+  @override
+  StacDouble? get indent;
+  @override
+  StacDouble? get endIndent;
+  @override
+  String? get color;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacVerticalDividerImplCopyWith<_$StacVerticalDividerImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

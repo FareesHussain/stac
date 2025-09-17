@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,77 +9,96 @@ part of 'stac_clip_oval.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacClipOval {
-  Clip get clipBehavior;
-  Map<String, dynamic>? get child;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacClipOval
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacClipOvalCopyWith<StacClipOval> get copyWith =>
-      _$StacClipOvalCopyWithImpl<StacClipOval>(
-          this as StacClipOval, _$identity);
-
-  /// Serializes this StacClipOval to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacClipOval &&
-            (identical(other.clipBehavior, clipBehavior) ||
-                other.clipBehavior == clipBehavior) &&
-            const DeepCollectionEquality().equals(other.child, child));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType, clipBehavior, const DeepCollectionEquality().hash(child));
-
-  @override
-  String toString() {
-    return 'StacClipOval(clipBehavior: $clipBehavior, child: $child)';
-  }
+StacClipOval _$StacClipOvalFromJson(Map<String, dynamic> json) {
+  return _StacClipOval.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacClipOvalCopyWith<$Res> {
+mixin _$StacClipOval {
+  Clip get clipBehavior => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get child => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacClipOvalCopyWith<StacClipOval> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacClipOvalCopyWith<$Res> {
   factory $StacClipOvalCopyWith(
-          StacClipOval value, $Res Function(StacClipOval) _then) =
-      _$StacClipOvalCopyWithImpl;
+          StacClipOval value, $Res Function(StacClipOval) then) =
+      _$StacClipOvalCopyWithImpl<$Res, StacClipOval>;
   @useResult
   $Res call({Clip clipBehavior, Map<String, dynamic>? child});
 }
 
 /// @nodoc
-class _$StacClipOvalCopyWithImpl<$Res> implements $StacClipOvalCopyWith<$Res> {
-  _$StacClipOvalCopyWithImpl(this._self, this._then);
+class _$StacClipOvalCopyWithImpl<$Res, $Val extends StacClipOval>
+    implements $StacClipOvalCopyWith<$Res> {
+  _$StacClipOvalCopyWithImpl(this._value, this._then);
 
-  final StacClipOval _self;
-  final $Res Function(StacClipOval) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacClipOval
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? clipBehavior = null,
     Object? child = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       clipBehavior: null == clipBehavior
-          ? _self.clipBehavior
+          ? _value.clipBehavior
           : clipBehavior // ignore: cast_nullable_to_non_nullable
               as Clip,
       child: freezed == child
-          ? _self.child
+          ? _value.child
+          : child // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacClipOvalImplCopyWith<$Res>
+    implements $StacClipOvalCopyWith<$Res> {
+  factory _$$StacClipOvalImplCopyWith(
+          _$StacClipOvalImpl value, $Res Function(_$StacClipOvalImpl) then) =
+      __$$StacClipOvalImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call({Clip clipBehavior, Map<String, dynamic>? child});
+}
+
+/// @nodoc
+class __$$StacClipOvalImplCopyWithImpl<$Res>
+    extends _$StacClipOvalCopyWithImpl<$Res, _$StacClipOvalImpl>
+    implements _$$StacClipOvalImplCopyWith<$Res> {
+  __$$StacClipOvalImplCopyWithImpl(
+      _$StacClipOvalImpl _value, $Res Function(_$StacClipOvalImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? clipBehavior = null,
+    Object? child = freezed,
+  }) {
+    return _then(_$StacClipOvalImpl(
+      clipBehavior: null == clipBehavior
+          ? _value.clipBehavior
+          : clipBehavior // ignore: cast_nullable_to_non_nullable
+              as Clip,
+      child: freezed == child
+          ? _value._child
           : child // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
     ));
@@ -89,12 +107,13 @@ class _$StacClipOvalCopyWithImpl<$Res> implements $StacClipOvalCopyWith<$Res> {
 
 /// @nodoc
 @JsonSerializable()
-class _StacClipOval implements StacClipOval {
-  const _StacClipOval(
+class _$StacClipOvalImpl implements _StacClipOval {
+  const _$StacClipOvalImpl(
       {this.clipBehavior = Clip.antiAlias, final Map<String, dynamic>? child})
       : _child = child;
-  factory _StacClipOval.fromJson(Map<String, dynamic> json) =>
-      _$StacClipOvalFromJson(json);
+
+  factory _$StacClipOvalImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacClipOvalImplFromJson(json);
 
   @override
   @JsonKey()
@@ -109,80 +128,54 @@ class _StacClipOval implements StacClipOval {
     return EqualUnmodifiableMapView(value);
   }
 
-  /// Create a copy of StacClipOval
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacClipOvalCopyWith<_StacClipOval> get copyWith =>
-      __$StacClipOvalCopyWithImpl<_StacClipOval>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacClipOvalToJson(
-      this,
-    );
+  String toString() {
+    return 'StacClipOval(clipBehavior: $clipBehavior, child: $child)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacClipOval &&
+            other is _$StacClipOvalImpl &&
             (identical(other.clipBehavior, clipBehavior) ||
                 other.clipBehavior == clipBehavior) &&
             const DeepCollectionEquality().equals(other._child, _child));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType, clipBehavior, const DeepCollectionEquality().hash(_child));
 
-  @override
-  String toString() {
-    return 'StacClipOval(clipBehavior: $clipBehavior, child: $child)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacClipOvalCopyWith<$Res>
-    implements $StacClipOvalCopyWith<$Res> {
-  factory _$StacClipOvalCopyWith(
-          _StacClipOval value, $Res Function(_StacClipOval) _then) =
-      __$StacClipOvalCopyWithImpl;
-  @override
-  @useResult
-  $Res call({Clip clipBehavior, Map<String, dynamic>? child});
-}
-
-/// @nodoc
-class __$StacClipOvalCopyWithImpl<$Res>
-    implements _$StacClipOvalCopyWith<$Res> {
-  __$StacClipOvalCopyWithImpl(this._self, this._then);
-
-  final _StacClipOval _self;
-  final $Res Function(_StacClipOval) _then;
-
-  /// Create a copy of StacClipOval
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? clipBehavior = null,
-    Object? child = freezed,
-  }) {
-    return _then(_StacClipOval(
-      clipBehavior: null == clipBehavior
-          ? _self.clipBehavior
-          : clipBehavior // ignore: cast_nullable_to_non_nullable
-              as Clip,
-      child: freezed == child
-          ? _self._child
-          : child // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-    ));
+  _$$StacClipOvalImplCopyWith<_$StacClipOvalImpl> get copyWith =>
+      __$$StacClipOvalImplCopyWithImpl<_$StacClipOvalImpl>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacClipOvalImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacClipOval implements StacClipOval {
+  const factory _StacClipOval(
+      {final Clip clipBehavior,
+      final Map<String, dynamic>? child}) = _$StacClipOvalImpl;
+
+  factory _StacClipOval.fromJson(Map<String, dynamic> json) =
+      _$StacClipOvalImpl.fromJson;
+
+  @override
+  Clip get clipBehavior;
+  @override
+  Map<String, dynamic>? get child;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacClipOvalImplCopyWith<_$StacClipOvalImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,76 +9,100 @@ part of 'stac_alignment_geometry.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacAlignmentGeometry {
-  StacDouble get dx;
-  StacDouble get dy;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacAlignmentGeometry
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacAlignmentGeometryCopyWith<StacAlignmentGeometry> get copyWith =>
-      _$StacAlignmentGeometryCopyWithImpl<StacAlignmentGeometry>(
-          this as StacAlignmentGeometry, _$identity);
-
-  /// Serializes this StacAlignmentGeometry to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacAlignmentGeometry &&
-            (identical(other.dx, dx) || other.dx == dx) &&
-            (identical(other.dy, dy) || other.dy == dy));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(runtimeType, dx, dy);
-
-  @override
-  String toString() {
-    return 'StacAlignmentGeometry(dx: $dx, dy: $dy)';
-  }
+StacAlignmentGeometry _$StacAlignmentGeometryFromJson(
+    Map<String, dynamic> json) {
+  return _StacAlignmentGeometry.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacAlignmentGeometryCopyWith<$Res> {
+mixin _$StacAlignmentGeometry {
+  StacDouble get dx => throw _privateConstructorUsedError;
+  StacDouble get dy => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacAlignmentGeometryCopyWith<StacAlignmentGeometry> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacAlignmentGeometryCopyWith<$Res> {
   factory $StacAlignmentGeometryCopyWith(StacAlignmentGeometry value,
-          $Res Function(StacAlignmentGeometry) _then) =
-      _$StacAlignmentGeometryCopyWithImpl;
+          $Res Function(StacAlignmentGeometry) then) =
+      _$StacAlignmentGeometryCopyWithImpl<$Res, StacAlignmentGeometry>;
   @useResult
   $Res call({StacDouble dx, StacDouble dy});
 }
 
 /// @nodoc
-class _$StacAlignmentGeometryCopyWithImpl<$Res>
+class _$StacAlignmentGeometryCopyWithImpl<$Res,
+        $Val extends StacAlignmentGeometry>
     implements $StacAlignmentGeometryCopyWith<$Res> {
-  _$StacAlignmentGeometryCopyWithImpl(this._self, this._then);
+  _$StacAlignmentGeometryCopyWithImpl(this._value, this._then);
 
-  final StacAlignmentGeometry _self;
-  final $Res Function(StacAlignmentGeometry) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacAlignmentGeometry
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? dx = null,
     Object? dy = null,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       dx: null == dx
-          ? _self.dx
+          ? _value.dx
           : dx // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       dy: null == dy
-          ? _self.dy
+          ? _value.dy
+          : dy // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacAlignmentGeometryImplCopyWith<$Res>
+    implements $StacAlignmentGeometryCopyWith<$Res> {
+  factory _$$StacAlignmentGeometryImplCopyWith(
+          _$StacAlignmentGeometryImpl value,
+          $Res Function(_$StacAlignmentGeometryImpl) then) =
+      __$$StacAlignmentGeometryImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call({StacDouble dx, StacDouble dy});
+}
+
+/// @nodoc
+class __$$StacAlignmentGeometryImplCopyWithImpl<$Res>
+    extends _$StacAlignmentGeometryCopyWithImpl<$Res,
+        _$StacAlignmentGeometryImpl>
+    implements _$$StacAlignmentGeometryImplCopyWith<$Res> {
+  __$$StacAlignmentGeometryImplCopyWithImpl(_$StacAlignmentGeometryImpl _value,
+      $Res Function(_$StacAlignmentGeometryImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? dx = null,
+    Object? dy = null,
+  }) {
+    return _then(_$StacAlignmentGeometryImpl(
+      dx: null == dx
+          ? _value.dx
+          : dx // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      dy: null == dy
+          ? _value.dy
           : dy // ignore: cast_nullable_to_non_nullable
               as StacDouble,
     ));
@@ -88,89 +111,64 @@ class _$StacAlignmentGeometryCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _StacAlignmentGeometry implements StacAlignmentGeometry {
-  const _StacAlignmentGeometry({required this.dx, required this.dy});
-  factory _StacAlignmentGeometry.fromJson(Map<String, dynamic> json) =>
-      _$StacAlignmentGeometryFromJson(json);
+class _$StacAlignmentGeometryImpl implements _StacAlignmentGeometry {
+  const _$StacAlignmentGeometryImpl({required this.dx, required this.dy});
+
+  factory _$StacAlignmentGeometryImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacAlignmentGeometryImplFromJson(json);
 
   @override
   final StacDouble dx;
   @override
   final StacDouble dy;
 
-  /// Create a copy of StacAlignmentGeometry
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacAlignmentGeometryCopyWith<_StacAlignmentGeometry> get copyWith =>
-      __$StacAlignmentGeometryCopyWithImpl<_StacAlignmentGeometry>(
-          this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacAlignmentGeometryToJson(
-      this,
-    );
+  String toString() {
+    return 'StacAlignmentGeometry(dx: $dx, dy: $dy)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacAlignmentGeometry &&
+            other is _$StacAlignmentGeometryImpl &&
             (identical(other.dx, dx) || other.dx == dx) &&
             (identical(other.dy, dy) || other.dy == dy));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(runtimeType, dx, dy);
 
-  @override
-  String toString() {
-    return 'StacAlignmentGeometry(dx: $dx, dy: $dy)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacAlignmentGeometryCopyWith<$Res>
-    implements $StacAlignmentGeometryCopyWith<$Res> {
-  factory _$StacAlignmentGeometryCopyWith(_StacAlignmentGeometry value,
-          $Res Function(_StacAlignmentGeometry) _then) =
-      __$StacAlignmentGeometryCopyWithImpl;
-  @override
-  @useResult
-  $Res call({StacDouble dx, StacDouble dy});
-}
-
-/// @nodoc
-class __$StacAlignmentGeometryCopyWithImpl<$Res>
-    implements _$StacAlignmentGeometryCopyWith<$Res> {
-  __$StacAlignmentGeometryCopyWithImpl(this._self, this._then);
-
-  final _StacAlignmentGeometry _self;
-  final $Res Function(_StacAlignmentGeometry) _then;
-
-  /// Create a copy of StacAlignmentGeometry
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? dx = null,
-    Object? dy = null,
-  }) {
-    return _then(_StacAlignmentGeometry(
-      dx: null == dx
-          ? _self.dx
-          : dx // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      dy: null == dy
-          ? _self.dy
-          : dy // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-    ));
+  _$$StacAlignmentGeometryImplCopyWith<_$StacAlignmentGeometryImpl>
+      get copyWith => __$$StacAlignmentGeometryImplCopyWithImpl<
+          _$StacAlignmentGeometryImpl>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacAlignmentGeometryImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacAlignmentGeometry implements StacAlignmentGeometry {
+  const factory _StacAlignmentGeometry(
+      {required final StacDouble dx,
+      required final StacDouble dy}) = _$StacAlignmentGeometryImpl;
+
+  factory _StacAlignmentGeometry.fromJson(Map<String, dynamic> json) =
+      _$StacAlignmentGeometryImpl.fromJson;
+
+  @override
+  StacDouble get dx;
+  @override
+  StacDouble get dy;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacAlignmentGeometryImplCopyWith<_$StacAlignmentGeometryImpl>
+      get copyWith => throw _privateConstructorUsedError;
+}

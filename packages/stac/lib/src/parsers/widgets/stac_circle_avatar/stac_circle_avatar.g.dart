@@ -6,8 +6,9 @@ part of 'stac_circle_avatar.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacCircleAvatar _$StacCircleAvatarFromJson(Map<String, dynamic> json) =>
-    _StacCircleAvatar(
+_$StacCircleAvatarImpl _$$StacCircleAvatarImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacCircleAvatarImpl(
       child: json['child'] as Map<String, dynamic>?,
       backgroundColor: json['backgroundColor'] as String?,
       backgroundImage: json['backgroundImage'] as String?,
@@ -27,7 +28,8 @@ _StacCircleAvatar _$StacCircleAvatarFromJson(Map<String, dynamic> json) =>
           : StacDouble.fromJson(json['maxRadius']),
     );
 
-Map<String, dynamic> _$StacCircleAvatarToJson(_StacCircleAvatar instance) =>
+Map<String, dynamic> _$$StacCircleAvatarImplToJson(
+        _$StacCircleAvatarImpl instance) =>
     <String, dynamic>{
       'child': instance.child,
       'backgroundColor': instance.backgroundColor,

@@ -6,8 +6,9 @@ part of 'stac_gesture_detector.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacGestureDetector _$StacGestureDetectorFromJson(Map<String, dynamic> json) =>
-    _StacGestureDetector(
+_$StacGestureDetectorImpl _$$StacGestureDetectorImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacGestureDetectorImpl(
       child: json['child'] as Map<String, dynamic>?,
       onTapDown: json['onTapDown'] as Map<String, dynamic>?,
       onTapUp: json['onTapUp'] as Map<String, dynamic>?,
@@ -85,8 +86,8 @@ _StacGestureDetector _$StacGestureDetectorFromJson(Map<String, dynamic> json) =>
           DragStartBehavior.start,
     );
 
-Map<String, dynamic> _$StacGestureDetectorToJson(
-        _StacGestureDetector instance) =>
+Map<String, dynamic> _$$StacGestureDetectorImplToJson(
+        _$StacGestureDetectorImpl instance) =>
     <String, dynamic>{
       'child': instance.child,
       'onTapDown': instance.onTapDown,

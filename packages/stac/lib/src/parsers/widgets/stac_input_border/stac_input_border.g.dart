@@ -6,8 +6,9 @@ part of 'stac_input_border.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacInputBorder _$StacInputBorderFromJson(Map<String, dynamic> json) =>
-    _StacInputBorder(
+_$StacInputBorderImpl _$$StacInputBorderImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacInputBorderImpl(
       type: $enumDecodeNullable(_$StacInputBorderTypeEnumMap, json['type']) ??
           StacInputBorderType.underlineInputBorder,
       borderRadius: json['borderRadius'] == null
@@ -23,7 +24,8 @@ _StacInputBorder _$StacInputBorderFromJson(Map<String, dynamic> json) =>
           : StacGradient.fromJson(json['gradient'] as Map<String, dynamic>),
     );
 
-Map<String, dynamic> _$StacInputBorderToJson(_StacInputBorder instance) =>
+Map<String, dynamic> _$$StacInputBorderImplToJson(
+        _$StacInputBorderImpl instance) =>
     <String, dynamic>{
       'type': _$StacInputBorderTypeEnumMap[instance.type]!,
       'borderRadius': instance.borderRadius,

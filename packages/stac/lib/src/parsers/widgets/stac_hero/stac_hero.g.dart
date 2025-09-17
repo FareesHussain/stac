@@ -6,7 +6,8 @@ part of 'stac_hero.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacHero _$StacHeroFromJson(Map<String, dynamic> json) => _StacHero(
+_$StacHeroImpl _$$StacHeroImplFromJson(Map<String, dynamic> json) =>
+    _$StacHeroImpl(
       tag: json['tag'] as Object,
       child: json['child'] as Map<String, dynamic>,
       createRectTween: json['createRectTween'] == null
@@ -20,7 +21,8 @@ _StacHero _$StacHeroFromJson(Map<String, dynamic> json) => _StacHero(
           json['transitionOnUserGestures'] as bool? ?? false,
     );
 
-Map<String, dynamic> _$StacHeroToJson(_StacHero instance) => <String, dynamic>{
+Map<String, dynamic> _$$StacHeroImplToJson(_$StacHeroImpl instance) =>
+    <String, dynamic>{
       'tag': instance.tag,
       'child': instance.child,
       'createRectTween': instance.createRectTween,

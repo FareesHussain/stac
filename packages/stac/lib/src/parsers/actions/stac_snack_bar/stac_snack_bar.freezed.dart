@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,108 +9,46 @@ part of 'stac_snack_bar.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacSnackBar {
-  Map<String, dynamic> get content;
-  String? get backgroundColor;
-  double? get elevation;
-  StacEdgeInsets? get margin;
-  StacEdgeInsets? get padding;
-  double? get width;
-  StacShapeBorder? get shape;
-  HitTestBehavior? get hitTestBehavior;
-  SnackBarBehavior? get behavior;
-  StacSnackBarAction? get action;
-  double? get actionOverflowThreshold;
-  bool? get showCloseIcon;
-  String? get closeIconColor;
-  StacDuration get duration;
-  Map<String, dynamic>? get onVisible;
-  DismissDirection? get dismissDirection;
-  Clip get clipBehavior;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacSnackBar
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacSnackBarCopyWith<StacSnackBar> get copyWith =>
-      _$StacSnackBarCopyWithImpl<StacSnackBar>(
-          this as StacSnackBar, _$identity);
-
-  /// Serializes this StacSnackBar to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacSnackBar &&
-            const DeepCollectionEquality().equals(other.content, content) &&
-            (identical(other.backgroundColor, backgroundColor) ||
-                other.backgroundColor == backgroundColor) &&
-            (identical(other.elevation, elevation) ||
-                other.elevation == elevation) &&
-            (identical(other.margin, margin) || other.margin == margin) &&
-            (identical(other.padding, padding) || other.padding == padding) &&
-            (identical(other.width, width) || other.width == width) &&
-            (identical(other.shape, shape) || other.shape == shape) &&
-            (identical(other.hitTestBehavior, hitTestBehavior) ||
-                other.hitTestBehavior == hitTestBehavior) &&
-            (identical(other.behavior, behavior) ||
-                other.behavior == behavior) &&
-            (identical(other.action, action) || other.action == action) &&
-            (identical(
-                    other.actionOverflowThreshold, actionOverflowThreshold) ||
-                other.actionOverflowThreshold == actionOverflowThreshold) &&
-            (identical(other.showCloseIcon, showCloseIcon) ||
-                other.showCloseIcon == showCloseIcon) &&
-            (identical(other.closeIconColor, closeIconColor) ||
-                other.closeIconColor == closeIconColor) &&
-            (identical(other.duration, duration) ||
-                other.duration == duration) &&
-            const DeepCollectionEquality().equals(other.onVisible, onVisible) &&
-            (identical(other.dismissDirection, dismissDirection) ||
-                other.dismissDirection == dismissDirection) &&
-            (identical(other.clipBehavior, clipBehavior) ||
-                other.clipBehavior == clipBehavior));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      const DeepCollectionEquality().hash(content),
-      backgroundColor,
-      elevation,
-      margin,
-      padding,
-      width,
-      shape,
-      hitTestBehavior,
-      behavior,
-      action,
-      actionOverflowThreshold,
-      showCloseIcon,
-      closeIconColor,
-      duration,
-      const DeepCollectionEquality().hash(onVisible),
-      dismissDirection,
-      clipBehavior);
-
-  @override
-  String toString() {
-    return 'StacSnackBar(content: $content, backgroundColor: $backgroundColor, elevation: $elevation, margin: $margin, padding: $padding, width: $width, shape: $shape, hitTestBehavior: $hitTestBehavior, behavior: $behavior, action: $action, actionOverflowThreshold: $actionOverflowThreshold, showCloseIcon: $showCloseIcon, closeIconColor: $closeIconColor, duration: $duration, onVisible: $onVisible, dismissDirection: $dismissDirection, clipBehavior: $clipBehavior)';
-  }
+StacSnackBar _$StacSnackBarFromJson(Map<String, dynamic> json) {
+  return _StacSnackBar.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacSnackBarCopyWith<$Res> {
+mixin _$StacSnackBar {
+  Map<String, dynamic> get content => throw _privateConstructorUsedError;
+  String? get backgroundColor => throw _privateConstructorUsedError;
+  double? get elevation => throw _privateConstructorUsedError;
+  StacEdgeInsets? get margin => throw _privateConstructorUsedError;
+  StacEdgeInsets? get padding => throw _privateConstructorUsedError;
+  double? get width => throw _privateConstructorUsedError;
+  StacShapeBorder? get shape => throw _privateConstructorUsedError;
+  HitTestBehavior? get hitTestBehavior => throw _privateConstructorUsedError;
+  SnackBarBehavior? get behavior => throw _privateConstructorUsedError;
+  StacSnackBarAction? get action => throw _privateConstructorUsedError;
+  double? get actionOverflowThreshold => throw _privateConstructorUsedError;
+  bool? get showCloseIcon => throw _privateConstructorUsedError;
+  String? get closeIconColor => throw _privateConstructorUsedError;
+  StacDuration get duration => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get onVisible => throw _privateConstructorUsedError;
+  DismissDirection? get dismissDirection => throw _privateConstructorUsedError;
+  Clip get clipBehavior => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacSnackBarCopyWith<StacSnackBar> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacSnackBarCopyWith<$Res> {
   factory $StacSnackBarCopyWith(
-          StacSnackBar value, $Res Function(StacSnackBar) _then) =
-      _$StacSnackBarCopyWithImpl;
+          StacSnackBar value, $Res Function(StacSnackBar) then) =
+      _$StacSnackBarCopyWithImpl<$Res, StacSnackBar>;
   @useResult
   $Res call(
       {Map<String, dynamic> content,
@@ -140,14 +77,15 @@ abstract mixin class $StacSnackBarCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacSnackBarCopyWithImpl<$Res> implements $StacSnackBarCopyWith<$Res> {
-  _$StacSnackBarCopyWithImpl(this._self, this._then);
+class _$StacSnackBarCopyWithImpl<$Res, $Val extends StacSnackBar>
+    implements $StacSnackBarCopyWith<$Res> {
+  _$StacSnackBarCopyWithImpl(this._value, this._then);
 
-  final StacSnackBar _self;
-  final $Res Function(StacSnackBar) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacSnackBar
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -169,149 +107,280 @@ class _$StacSnackBarCopyWithImpl<$Res> implements $StacSnackBarCopyWith<$Res> {
     Object? dismissDirection = freezed,
     Object? clipBehavior = null,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       content: null == content
-          ? _self.content
+          ? _value.content
           : content // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>,
       backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
+          ? _value.backgroundColor
           : backgroundColor // ignore: cast_nullable_to_non_nullable
               as String?,
       elevation: freezed == elevation
-          ? _self.elevation
+          ? _value.elevation
           : elevation // ignore: cast_nullable_to_non_nullable
               as double?,
       margin: freezed == margin
-          ? _self.margin
+          ? _value.margin
           : margin // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets?,
       padding: freezed == padding
-          ? _self.padding
+          ? _value.padding
           : padding // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets?,
       width: freezed == width
-          ? _self.width
+          ? _value.width
           : width // ignore: cast_nullable_to_non_nullable
               as double?,
       shape: freezed == shape
-          ? _self.shape
+          ? _value.shape
           : shape // ignore: cast_nullable_to_non_nullable
               as StacShapeBorder?,
       hitTestBehavior: freezed == hitTestBehavior
-          ? _self.hitTestBehavior
+          ? _value.hitTestBehavior
           : hitTestBehavior // ignore: cast_nullable_to_non_nullable
               as HitTestBehavior?,
       behavior: freezed == behavior
-          ? _self.behavior
+          ? _value.behavior
           : behavior // ignore: cast_nullable_to_non_nullable
               as SnackBarBehavior?,
       action: freezed == action
-          ? _self.action
+          ? _value.action
           : action // ignore: cast_nullable_to_non_nullable
               as StacSnackBarAction?,
       actionOverflowThreshold: freezed == actionOverflowThreshold
-          ? _self.actionOverflowThreshold
+          ? _value.actionOverflowThreshold
           : actionOverflowThreshold // ignore: cast_nullable_to_non_nullable
               as double?,
       showCloseIcon: freezed == showCloseIcon
-          ? _self.showCloseIcon
+          ? _value.showCloseIcon
           : showCloseIcon // ignore: cast_nullable_to_non_nullable
               as bool?,
       closeIconColor: freezed == closeIconColor
-          ? _self.closeIconColor
+          ? _value.closeIconColor
           : closeIconColor // ignore: cast_nullable_to_non_nullable
               as String?,
       duration: null == duration
-          ? _self.duration
+          ? _value.duration
           : duration // ignore: cast_nullable_to_non_nullable
               as StacDuration,
       onVisible: freezed == onVisible
-          ? _self.onVisible
+          ? _value.onVisible
           : onVisible // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       dismissDirection: freezed == dismissDirection
-          ? _self.dismissDirection
+          ? _value.dismissDirection
           : dismissDirection // ignore: cast_nullable_to_non_nullable
               as DismissDirection?,
       clipBehavior: null == clipBehavior
-          ? _self.clipBehavior
+          ? _value.clipBehavior
           : clipBehavior // ignore: cast_nullable_to_non_nullable
               as Clip,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacSnackBar
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacEdgeInsetsCopyWith<$Res>? get margin {
-    if (_self.margin == null) {
+    if (_value.margin == null) {
       return null;
     }
 
-    return $StacEdgeInsetsCopyWith<$Res>(_self.margin!, (value) {
-      return _then(_self.copyWith(margin: value));
+    return $StacEdgeInsetsCopyWith<$Res>(_value.margin!, (value) {
+      return _then(_value.copyWith(margin: value) as $Val);
     });
   }
 
-  /// Create a copy of StacSnackBar
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacEdgeInsetsCopyWith<$Res>? get padding {
-    if (_self.padding == null) {
+    if (_value.padding == null) {
       return null;
     }
 
-    return $StacEdgeInsetsCopyWith<$Res>(_self.padding!, (value) {
-      return _then(_self.copyWith(padding: value));
+    return $StacEdgeInsetsCopyWith<$Res>(_value.padding!, (value) {
+      return _then(_value.copyWith(padding: value) as $Val);
     });
   }
 
-  /// Create a copy of StacSnackBar
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacShapeBorderCopyWith<$Res>? get shape {
-    if (_self.shape == null) {
+    if (_value.shape == null) {
       return null;
     }
 
-    return $StacShapeBorderCopyWith<$Res>(_self.shape!, (value) {
-      return _then(_self.copyWith(shape: value));
+    return $StacShapeBorderCopyWith<$Res>(_value.shape!, (value) {
+      return _then(_value.copyWith(shape: value) as $Val);
     });
   }
 
-  /// Create a copy of StacSnackBar
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacSnackBarActionCopyWith<$Res>? get action {
-    if (_self.action == null) {
+    if (_value.action == null) {
       return null;
     }
 
-    return $StacSnackBarActionCopyWith<$Res>(_self.action!, (value) {
-      return _then(_self.copyWith(action: value));
+    return $StacSnackBarActionCopyWith<$Res>(_value.action!, (value) {
+      return _then(_value.copyWith(action: value) as $Val);
     });
   }
 
-  /// Create a copy of StacSnackBar
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacDurationCopyWith<$Res> get duration {
-    return $StacDurationCopyWith<$Res>(_self.duration, (value) {
-      return _then(_self.copyWith(duration: value));
+    return $StacDurationCopyWith<$Res>(_value.duration, (value) {
+      return _then(_value.copyWith(duration: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacSnackBarImplCopyWith<$Res>
+    implements $StacSnackBarCopyWith<$Res> {
+  factory _$$StacSnackBarImplCopyWith(
+          _$StacSnackBarImpl value, $Res Function(_$StacSnackBarImpl) then) =
+      __$$StacSnackBarImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {Map<String, dynamic> content,
+      String? backgroundColor,
+      double? elevation,
+      StacEdgeInsets? margin,
+      StacEdgeInsets? padding,
+      double? width,
+      StacShapeBorder? shape,
+      HitTestBehavior? hitTestBehavior,
+      SnackBarBehavior? behavior,
+      StacSnackBarAction? action,
+      double? actionOverflowThreshold,
+      bool? showCloseIcon,
+      String? closeIconColor,
+      StacDuration duration,
+      Map<String, dynamic>? onVisible,
+      DismissDirection? dismissDirection,
+      Clip clipBehavior});
+
+  @override
+  $StacEdgeInsetsCopyWith<$Res>? get margin;
+  @override
+  $StacEdgeInsetsCopyWith<$Res>? get padding;
+  @override
+  $StacShapeBorderCopyWith<$Res>? get shape;
+  @override
+  $StacSnackBarActionCopyWith<$Res>? get action;
+  @override
+  $StacDurationCopyWith<$Res> get duration;
+}
+
+/// @nodoc
+class __$$StacSnackBarImplCopyWithImpl<$Res>
+    extends _$StacSnackBarCopyWithImpl<$Res, _$StacSnackBarImpl>
+    implements _$$StacSnackBarImplCopyWith<$Res> {
+  __$$StacSnackBarImplCopyWithImpl(
+      _$StacSnackBarImpl _value, $Res Function(_$StacSnackBarImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? content = null,
+    Object? backgroundColor = freezed,
+    Object? elevation = freezed,
+    Object? margin = freezed,
+    Object? padding = freezed,
+    Object? width = freezed,
+    Object? shape = freezed,
+    Object? hitTestBehavior = freezed,
+    Object? behavior = freezed,
+    Object? action = freezed,
+    Object? actionOverflowThreshold = freezed,
+    Object? showCloseIcon = freezed,
+    Object? closeIconColor = freezed,
+    Object? duration = null,
+    Object? onVisible = freezed,
+    Object? dismissDirection = freezed,
+    Object? clipBehavior = null,
+  }) {
+    return _then(_$StacSnackBarImpl(
+      content: null == content
+          ? _value._content
+          : content // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>,
+      backgroundColor: freezed == backgroundColor
+          ? _value.backgroundColor
+          : backgroundColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      elevation: freezed == elevation
+          ? _value.elevation
+          : elevation // ignore: cast_nullable_to_non_nullable
+              as double?,
+      margin: freezed == margin
+          ? _value.margin
+          : margin // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets?,
+      padding: freezed == padding
+          ? _value.padding
+          : padding // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets?,
+      width: freezed == width
+          ? _value.width
+          : width // ignore: cast_nullable_to_non_nullable
+              as double?,
+      shape: freezed == shape
+          ? _value.shape
+          : shape // ignore: cast_nullable_to_non_nullable
+              as StacShapeBorder?,
+      hitTestBehavior: freezed == hitTestBehavior
+          ? _value.hitTestBehavior
+          : hitTestBehavior // ignore: cast_nullable_to_non_nullable
+              as HitTestBehavior?,
+      behavior: freezed == behavior
+          ? _value.behavior
+          : behavior // ignore: cast_nullable_to_non_nullable
+              as SnackBarBehavior?,
+      action: freezed == action
+          ? _value.action
+          : action // ignore: cast_nullable_to_non_nullable
+              as StacSnackBarAction?,
+      actionOverflowThreshold: freezed == actionOverflowThreshold
+          ? _value.actionOverflowThreshold
+          : actionOverflowThreshold // ignore: cast_nullable_to_non_nullable
+              as double?,
+      showCloseIcon: freezed == showCloseIcon
+          ? _value.showCloseIcon
+          : showCloseIcon // ignore: cast_nullable_to_non_nullable
+              as bool?,
+      closeIconColor: freezed == closeIconColor
+          ? _value.closeIconColor
+          : closeIconColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      duration: null == duration
+          ? _value.duration
+          : duration // ignore: cast_nullable_to_non_nullable
+              as StacDuration,
+      onVisible: freezed == onVisible
+          ? _value._onVisible
+          : onVisible // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      dismissDirection: freezed == dismissDirection
+          ? _value.dismissDirection
+          : dismissDirection // ignore: cast_nullable_to_non_nullable
+              as DismissDirection?,
+      clipBehavior: null == clipBehavior
+          ? _value.clipBehavior
+          : clipBehavior // ignore: cast_nullable_to_non_nullable
+              as Clip,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacSnackBar implements StacSnackBar {
-  const _StacSnackBar(
+class _$StacSnackBarImpl implements _StacSnackBar {
+  const _$StacSnackBarImpl(
       {required final Map<String, dynamic> content,
       this.backgroundColor,
       this.elevation,
@@ -331,8 +400,9 @@ class _StacSnackBar implements StacSnackBar {
       this.clipBehavior = Clip.hardEdge})
       : _content = content,
         _onVisible = onVisible;
-  factory _StacSnackBar.fromJson(Map<String, dynamic> json) =>
-      _$StacSnackBarFromJson(json);
+
+  factory _$StacSnackBarImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacSnackBarImplFromJson(json);
 
   final Map<String, dynamic> _content;
   @override
@@ -385,26 +455,16 @@ class _StacSnackBar implements StacSnackBar {
   @JsonKey()
   final Clip clipBehavior;
 
-  /// Create a copy of StacSnackBar
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacSnackBarCopyWith<_StacSnackBar> get copyWith =>
-      __$StacSnackBarCopyWithImpl<_StacSnackBar>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacSnackBarToJson(
-      this,
-    );
+  String toString() {
+    return 'StacSnackBar(content: $content, backgroundColor: $backgroundColor, elevation: $elevation, margin: $margin, padding: $padding, width: $width, shape: $shape, hitTestBehavior: $hitTestBehavior, behavior: $behavior, action: $action, actionOverflowThreshold: $actionOverflowThreshold, showCloseIcon: $showCloseIcon, closeIconColor: $closeIconColor, duration: $duration, onVisible: $onVisible, dismissDirection: $dismissDirection, clipBehavior: $clipBehavior)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacSnackBar &&
+            other is _$StacSnackBarImpl &&
             const DeepCollectionEquality().equals(other._content, _content) &&
             (identical(other.backgroundColor, backgroundColor) ||
                 other.backgroundColor == backgroundColor) &&
@@ -436,7 +496,7 @@ class _StacSnackBar implements StacSnackBar {
                 other.clipBehavior == clipBehavior));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -458,219 +518,79 @@ class _StacSnackBar implements StacSnackBar {
       dismissDirection,
       clipBehavior);
 
+  @JsonKey(ignore: true)
   @override
-  String toString() {
-    return 'StacSnackBar(content: $content, backgroundColor: $backgroundColor, elevation: $elevation, margin: $margin, padding: $padding, width: $width, shape: $shape, hitTestBehavior: $hitTestBehavior, behavior: $behavior, action: $action, actionOverflowThreshold: $actionOverflowThreshold, showCloseIcon: $showCloseIcon, closeIconColor: $closeIconColor, duration: $duration, onVisible: $onVisible, dismissDirection: $dismissDirection, clipBehavior: $clipBehavior)';
+  @pragma('vm:prefer-inline')
+  _$$StacSnackBarImplCopyWith<_$StacSnackBarImpl> get copyWith =>
+      __$$StacSnackBarImplCopyWithImpl<_$StacSnackBarImpl>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacSnackBarImplToJson(
+      this,
+    );
   }
 }
 
-/// @nodoc
-abstract mixin class _$StacSnackBarCopyWith<$Res>
-    implements $StacSnackBarCopyWith<$Res> {
-  factory _$StacSnackBarCopyWith(
-          _StacSnackBar value, $Res Function(_StacSnackBar) _then) =
-      __$StacSnackBarCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {Map<String, dynamic> content,
-      String? backgroundColor,
-      double? elevation,
-      StacEdgeInsets? margin,
-      StacEdgeInsets? padding,
-      double? width,
-      StacShapeBorder? shape,
-      HitTestBehavior? hitTestBehavior,
-      SnackBarBehavior? behavior,
-      StacSnackBarAction? action,
-      double? actionOverflowThreshold,
-      bool? showCloseIcon,
-      String? closeIconColor,
-      StacDuration duration,
-      Map<String, dynamic>? onVisible,
-      DismissDirection? dismissDirection,
-      Clip clipBehavior});
+abstract class _StacSnackBar implements StacSnackBar {
+  const factory _StacSnackBar(
+      {required final Map<String, dynamic> content,
+      final String? backgroundColor,
+      final double? elevation,
+      final StacEdgeInsets? margin,
+      final StacEdgeInsets? padding,
+      final double? width,
+      final StacShapeBorder? shape,
+      final HitTestBehavior? hitTestBehavior,
+      final SnackBarBehavior? behavior,
+      final StacSnackBarAction? action,
+      final double? actionOverflowThreshold,
+      final bool? showCloseIcon,
+      final String? closeIconColor,
+      final StacDuration duration,
+      final Map<String, dynamic>? onVisible,
+      final DismissDirection? dismissDirection,
+      final Clip clipBehavior}) = _$StacSnackBarImpl;
+
+  factory _StacSnackBar.fromJson(Map<String, dynamic> json) =
+      _$StacSnackBarImpl.fromJson;
 
   @override
-  $StacEdgeInsetsCopyWith<$Res>? get margin;
+  Map<String, dynamic> get content;
   @override
-  $StacEdgeInsetsCopyWith<$Res>? get padding;
+  String? get backgroundColor;
   @override
-  $StacShapeBorderCopyWith<$Res>? get shape;
+  double? get elevation;
   @override
-  $StacSnackBarActionCopyWith<$Res>? get action;
+  StacEdgeInsets? get margin;
   @override
-  $StacDurationCopyWith<$Res> get duration;
+  StacEdgeInsets? get padding;
+  @override
+  double? get width;
+  @override
+  StacShapeBorder? get shape;
+  @override
+  HitTestBehavior? get hitTestBehavior;
+  @override
+  SnackBarBehavior? get behavior;
+  @override
+  StacSnackBarAction? get action;
+  @override
+  double? get actionOverflowThreshold;
+  @override
+  bool? get showCloseIcon;
+  @override
+  String? get closeIconColor;
+  @override
+  StacDuration get duration;
+  @override
+  Map<String, dynamic>? get onVisible;
+  @override
+  DismissDirection? get dismissDirection;
+  @override
+  Clip get clipBehavior;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacSnackBarImplCopyWith<_$StacSnackBarImpl> get copyWith =>
+      throw _privateConstructorUsedError;
 }
-
-/// @nodoc
-class __$StacSnackBarCopyWithImpl<$Res>
-    implements _$StacSnackBarCopyWith<$Res> {
-  __$StacSnackBarCopyWithImpl(this._self, this._then);
-
-  final _StacSnackBar _self;
-  final $Res Function(_StacSnackBar) _then;
-
-  /// Create a copy of StacSnackBar
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $Res call({
-    Object? content = null,
-    Object? backgroundColor = freezed,
-    Object? elevation = freezed,
-    Object? margin = freezed,
-    Object? padding = freezed,
-    Object? width = freezed,
-    Object? shape = freezed,
-    Object? hitTestBehavior = freezed,
-    Object? behavior = freezed,
-    Object? action = freezed,
-    Object? actionOverflowThreshold = freezed,
-    Object? showCloseIcon = freezed,
-    Object? closeIconColor = freezed,
-    Object? duration = null,
-    Object? onVisible = freezed,
-    Object? dismissDirection = freezed,
-    Object? clipBehavior = null,
-  }) {
-    return _then(_StacSnackBar(
-      content: null == content
-          ? _self._content
-          : content // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>,
-      backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
-          : backgroundColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      elevation: freezed == elevation
-          ? _self.elevation
-          : elevation // ignore: cast_nullable_to_non_nullable
-              as double?,
-      margin: freezed == margin
-          ? _self.margin
-          : margin // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets?,
-      padding: freezed == padding
-          ? _self.padding
-          : padding // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets?,
-      width: freezed == width
-          ? _self.width
-          : width // ignore: cast_nullable_to_non_nullable
-              as double?,
-      shape: freezed == shape
-          ? _self.shape
-          : shape // ignore: cast_nullable_to_non_nullable
-              as StacShapeBorder?,
-      hitTestBehavior: freezed == hitTestBehavior
-          ? _self.hitTestBehavior
-          : hitTestBehavior // ignore: cast_nullable_to_non_nullable
-              as HitTestBehavior?,
-      behavior: freezed == behavior
-          ? _self.behavior
-          : behavior // ignore: cast_nullable_to_non_nullable
-              as SnackBarBehavior?,
-      action: freezed == action
-          ? _self.action
-          : action // ignore: cast_nullable_to_non_nullable
-              as StacSnackBarAction?,
-      actionOverflowThreshold: freezed == actionOverflowThreshold
-          ? _self.actionOverflowThreshold
-          : actionOverflowThreshold // ignore: cast_nullable_to_non_nullable
-              as double?,
-      showCloseIcon: freezed == showCloseIcon
-          ? _self.showCloseIcon
-          : showCloseIcon // ignore: cast_nullable_to_non_nullable
-              as bool?,
-      closeIconColor: freezed == closeIconColor
-          ? _self.closeIconColor
-          : closeIconColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      duration: null == duration
-          ? _self.duration
-          : duration // ignore: cast_nullable_to_non_nullable
-              as StacDuration,
-      onVisible: freezed == onVisible
-          ? _self._onVisible
-          : onVisible // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      dismissDirection: freezed == dismissDirection
-          ? _self.dismissDirection
-          : dismissDirection // ignore: cast_nullable_to_non_nullable
-              as DismissDirection?,
-      clipBehavior: null == clipBehavior
-          ? _self.clipBehavior
-          : clipBehavior // ignore: cast_nullable_to_non_nullable
-              as Clip,
-    ));
-  }
-
-  /// Create a copy of StacSnackBar
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacEdgeInsetsCopyWith<$Res>? get margin {
-    if (_self.margin == null) {
-      return null;
-    }
-
-    return $StacEdgeInsetsCopyWith<$Res>(_self.margin!, (value) {
-      return _then(_self.copyWith(margin: value));
-    });
-  }
-
-  /// Create a copy of StacSnackBar
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacEdgeInsetsCopyWith<$Res>? get padding {
-    if (_self.padding == null) {
-      return null;
-    }
-
-    return $StacEdgeInsetsCopyWith<$Res>(_self.padding!, (value) {
-      return _then(_self.copyWith(padding: value));
-    });
-  }
-
-  /// Create a copy of StacSnackBar
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacShapeBorderCopyWith<$Res>? get shape {
-    if (_self.shape == null) {
-      return null;
-    }
-
-    return $StacShapeBorderCopyWith<$Res>(_self.shape!, (value) {
-      return _then(_self.copyWith(shape: value));
-    });
-  }
-
-  /// Create a copy of StacSnackBar
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacSnackBarActionCopyWith<$Res>? get action {
-    if (_self.action == null) {
-      return null;
-    }
-
-    return $StacSnackBarActionCopyWith<$Res>(_self.action!, (value) {
-      return _then(_self.copyWith(action: value));
-    });
-  }
-
-  /// Create a copy of StacSnackBar
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacDurationCopyWith<$Res> get duration {
-    return $StacDurationCopyWith<$Res>(_self.duration, (value) {
-      return _then(_self.copyWith(duration: value));
-    });
-  }
-}
-
-// dart format on

@@ -6,9 +6,9 @@ part of 'stac_input_decoration_theme.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacInputDecorationTheme _$StacInputDecorationThemeFromJson(
+_$StacInputDecorationThemeImpl _$$StacInputDecorationThemeImplFromJson(
         Map<String, dynamic> json) =>
-    _StacInputDecorationTheme(
+    _$StacInputDecorationThemeImpl(
       labelStyle: json['labelStyle'] == null
           ? null
           : StacTextStyle.fromJson(json['labelStyle']),
@@ -89,8 +89,8 @@ _StacInputDecorationTheme _$StacInputDecorationThemeFromJson(
               json['constraints'] as Map<String, dynamic>),
     );
 
-Map<String, dynamic> _$StacInputDecorationThemeToJson(
-        _StacInputDecorationTheme instance) =>
+Map<String, dynamic> _$$StacInputDecorationThemeImplToJson(
+        _$StacInputDecorationThemeImpl instance) =>
     <String, dynamic>{
       'labelStyle': instance.labelStyle,
       'floatingLabelStyle': instance.floatingLabelStyle,

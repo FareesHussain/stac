@@ -6,9 +6,9 @@ part of 'stac_list_tile_theme_data.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacListTileThemeData _$StacListTileThemeDataFromJson(
+_$StacListTileThemeDataImpl _$$StacListTileThemeDataImplFromJson(
         Map<String, dynamic> json) =>
-    _StacListTileThemeData(
+    _$StacListTileThemeDataImpl(
       dense: json['dense'] as bool?,
       shape: json['shape'] == null
           ? null
@@ -46,8 +46,8 @@ _StacListTileThemeData _$StacListTileThemeDataFromJson(
           .toList(),
     );
 
-Map<String, dynamic> _$StacListTileThemeDataToJson(
-        _StacListTileThemeData instance) =>
+Map<String, dynamic> _$$StacListTileThemeDataImplToJson(
+        _$StacListTileThemeDataImpl instance) =>
     <String, dynamic>{
       'dense': instance.dense,
       'shape': instance.shape,

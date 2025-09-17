@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,69 +9,37 @@ part of 'stac_network_request.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacNetworkRequest {
-  String get url;
-  Method get method;
-  Map<String, dynamic>? get queryParameters;
-  Map<String, dynamic>? get headers;
-  String? get contentType;
-  dynamic get body;
-  List<StacNetworkResult> get results;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacNetworkRequest
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacNetworkRequestCopyWith<StacNetworkRequest> get copyWith =>
-      _$StacNetworkRequestCopyWithImpl<StacNetworkRequest>(
-          this as StacNetworkRequest, _$identity);
-
-  /// Serializes this StacNetworkRequest to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacNetworkRequest &&
-            (identical(other.url, url) || other.url == url) &&
-            (identical(other.method, method) || other.method == method) &&
-            const DeepCollectionEquality()
-                .equals(other.queryParameters, queryParameters) &&
-            const DeepCollectionEquality().equals(other.headers, headers) &&
-            (identical(other.contentType, contentType) ||
-                other.contentType == contentType) &&
-            const DeepCollectionEquality().equals(other.body, body) &&
-            const DeepCollectionEquality().equals(other.results, results));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      url,
-      method,
-      const DeepCollectionEquality().hash(queryParameters),
-      const DeepCollectionEquality().hash(headers),
-      contentType,
-      const DeepCollectionEquality().hash(body),
-      const DeepCollectionEquality().hash(results));
-
-  @override
-  String toString() {
-    return 'StacNetworkRequest(url: $url, method: $method, queryParameters: $queryParameters, headers: $headers, contentType: $contentType, body: $body, results: $results)';
-  }
+StacNetworkRequest _$StacNetworkRequestFromJson(Map<String, dynamic> json) {
+  return _StacNetworkRequest.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacNetworkRequestCopyWith<$Res> {
+mixin _$StacNetworkRequest {
+  String get url => throw _privateConstructorUsedError;
+  Method get method => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get queryParameters =>
+      throw _privateConstructorUsedError;
+  Map<String, dynamic>? get headers => throw _privateConstructorUsedError;
+  String? get contentType => throw _privateConstructorUsedError;
+  dynamic get body => throw _privateConstructorUsedError;
+  List<StacNetworkResult> get results => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacNetworkRequestCopyWith<StacNetworkRequest> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacNetworkRequestCopyWith<$Res> {
   factory $StacNetworkRequestCopyWith(
-          StacNetworkRequest value, $Res Function(StacNetworkRequest) _then) =
-      _$StacNetworkRequestCopyWithImpl;
+          StacNetworkRequest value, $Res Function(StacNetworkRequest) then) =
+      _$StacNetworkRequestCopyWithImpl<$Res, StacNetworkRequest>;
   @useResult
   $Res call(
       {String url,
@@ -85,15 +52,15 @@ abstract mixin class $StacNetworkRequestCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacNetworkRequestCopyWithImpl<$Res>
+class _$StacNetworkRequestCopyWithImpl<$Res, $Val extends StacNetworkRequest>
     implements $StacNetworkRequestCopyWith<$Res> {
-  _$StacNetworkRequestCopyWithImpl(this._self, this._then);
+  _$StacNetworkRequestCopyWithImpl(this._value, this._then);
 
-  final StacNetworkRequest _self;
-  final $Res Function(StacNetworkRequest) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacNetworkRequest
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -105,33 +72,103 @@ class _$StacNetworkRequestCopyWithImpl<$Res>
     Object? body = freezed,
     Object? results = null,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       url: null == url
-          ? _self.url
+          ? _value.url
           : url // ignore: cast_nullable_to_non_nullable
               as String,
       method: null == method
-          ? _self.method
+          ? _value.method
           : method // ignore: cast_nullable_to_non_nullable
               as Method,
       queryParameters: freezed == queryParameters
-          ? _self.queryParameters
+          ? _value.queryParameters
           : queryParameters // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       headers: freezed == headers
-          ? _self.headers
+          ? _value.headers
           : headers // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       contentType: freezed == contentType
-          ? _self.contentType
+          ? _value.contentType
           : contentType // ignore: cast_nullable_to_non_nullable
               as String?,
       body: freezed == body
-          ? _self.body
+          ? _value.body
           : body // ignore: cast_nullable_to_non_nullable
               as dynamic,
       results: null == results
-          ? _self.results
+          ? _value.results
+          : results // ignore: cast_nullable_to_non_nullable
+              as List<StacNetworkResult>,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacNetworkRequestImplCopyWith<$Res>
+    implements $StacNetworkRequestCopyWith<$Res> {
+  factory _$$StacNetworkRequestImplCopyWith(_$StacNetworkRequestImpl value,
+          $Res Function(_$StacNetworkRequestImpl) then) =
+      __$$StacNetworkRequestImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {String url,
+      Method method,
+      Map<String, dynamic>? queryParameters,
+      Map<String, dynamic>? headers,
+      String? contentType,
+      dynamic body,
+      List<StacNetworkResult> results});
+}
+
+/// @nodoc
+class __$$StacNetworkRequestImplCopyWithImpl<$Res>
+    extends _$StacNetworkRequestCopyWithImpl<$Res, _$StacNetworkRequestImpl>
+    implements _$$StacNetworkRequestImplCopyWith<$Res> {
+  __$$StacNetworkRequestImplCopyWithImpl(_$StacNetworkRequestImpl _value,
+      $Res Function(_$StacNetworkRequestImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? url = null,
+    Object? method = null,
+    Object? queryParameters = freezed,
+    Object? headers = freezed,
+    Object? contentType = freezed,
+    Object? body = freezed,
+    Object? results = null,
+  }) {
+    return _then(_$StacNetworkRequestImpl(
+      url: null == url
+          ? _value.url
+          : url // ignore: cast_nullable_to_non_nullable
+              as String,
+      method: null == method
+          ? _value.method
+          : method // ignore: cast_nullable_to_non_nullable
+              as Method,
+      queryParameters: freezed == queryParameters
+          ? _value._queryParameters
+          : queryParameters // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      headers: freezed == headers
+          ? _value._headers
+          : headers // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      contentType: freezed == contentType
+          ? _value.contentType
+          : contentType // ignore: cast_nullable_to_non_nullable
+              as String?,
+      body: freezed == body
+          ? _value.body
+          : body // ignore: cast_nullable_to_non_nullable
+              as dynamic,
+      results: null == results
+          ? _value._results
           : results // ignore: cast_nullable_to_non_nullable
               as List<StacNetworkResult>,
     ));
@@ -140,8 +177,8 @@ class _$StacNetworkRequestCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _StacNetworkRequest implements StacNetworkRequest {
-  const _StacNetworkRequest(
+class _$StacNetworkRequestImpl implements _StacNetworkRequest {
+  const _$StacNetworkRequestImpl(
       {required this.url,
       this.method = Method.get,
       final Map<String, dynamic>? queryParameters,
@@ -152,8 +189,9 @@ class _StacNetworkRequest implements StacNetworkRequest {
       : _queryParameters = queryParameters,
         _headers = headers,
         _results = results;
-  factory _StacNetworkRequest.fromJson(Map<String, dynamic> json) =>
-      _$StacNetworkRequestFromJson(json);
+
+  factory _$StacNetworkRequestImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacNetworkRequestImplFromJson(json);
 
   @override
   final String url;
@@ -193,26 +231,16 @@ class _StacNetworkRequest implements StacNetworkRequest {
     return EqualUnmodifiableListView(_results);
   }
 
-  /// Create a copy of StacNetworkRequest
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacNetworkRequestCopyWith<_StacNetworkRequest> get copyWith =>
-      __$StacNetworkRequestCopyWithImpl<_StacNetworkRequest>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacNetworkRequestToJson(
-      this,
-    );
+  String toString() {
+    return 'StacNetworkRequest(url: $url, method: $method, queryParameters: $queryParameters, headers: $headers, contentType: $contentType, body: $body, results: $results)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacNetworkRequest &&
+            other is _$StacNetworkRequestImpl &&
             (identical(other.url, url) || other.url == url) &&
             (identical(other.method, method) || other.method == method) &&
             const DeepCollectionEquality()
@@ -224,7 +252,7 @@ class _StacNetworkRequest implements StacNetworkRequest {
             const DeepCollectionEquality().equals(other._results, _results));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -236,153 +264,139 @@ class _StacNetworkRequest implements StacNetworkRequest {
       const DeepCollectionEquality().hash(body),
       const DeepCollectionEquality().hash(_results));
 
-  @override
-  String toString() {
-    return 'StacNetworkRequest(url: $url, method: $method, queryParameters: $queryParameters, headers: $headers, contentType: $contentType, body: $body, results: $results)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacNetworkRequestCopyWith<$Res>
-    implements $StacNetworkRequestCopyWith<$Res> {
-  factory _$StacNetworkRequestCopyWith(
-          _StacNetworkRequest value, $Res Function(_StacNetworkRequest) _then) =
-      __$StacNetworkRequestCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {String url,
-      Method method,
-      Map<String, dynamic>? queryParameters,
-      Map<String, dynamic>? headers,
-      String? contentType,
-      dynamic body,
-      List<StacNetworkResult> results});
-}
-
-/// @nodoc
-class __$StacNetworkRequestCopyWithImpl<$Res>
-    implements _$StacNetworkRequestCopyWith<$Res> {
-  __$StacNetworkRequestCopyWithImpl(this._self, this._then);
-
-  final _StacNetworkRequest _self;
-  final $Res Function(_StacNetworkRequest) _then;
-
-  /// Create a copy of StacNetworkRequest
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? url = null,
-    Object? method = null,
-    Object? queryParameters = freezed,
-    Object? headers = freezed,
-    Object? contentType = freezed,
-    Object? body = freezed,
-    Object? results = null,
-  }) {
-    return _then(_StacNetworkRequest(
-      url: null == url
-          ? _self.url
-          : url // ignore: cast_nullable_to_non_nullable
-              as String,
-      method: null == method
-          ? _self.method
-          : method // ignore: cast_nullable_to_non_nullable
-              as Method,
-      queryParameters: freezed == queryParameters
-          ? _self._queryParameters
-          : queryParameters // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      headers: freezed == headers
-          ? _self._headers
-          : headers // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      contentType: freezed == contentType
-          ? _self.contentType
-          : contentType // ignore: cast_nullable_to_non_nullable
-              as String?,
-      body: freezed == body
-          ? _self.body
-          : body // ignore: cast_nullable_to_non_nullable
-              as dynamic,
-      results: null == results
-          ? _self._results
-          : results // ignore: cast_nullable_to_non_nullable
-              as List<StacNetworkResult>,
-    ));
+  _$$StacNetworkRequestImplCopyWith<_$StacNetworkRequestImpl> get copyWith =>
+      __$$StacNetworkRequestImplCopyWithImpl<_$StacNetworkRequestImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacNetworkRequestImplToJson(
+      this,
+    );
   }
+}
+
+abstract class _StacNetworkRequest implements StacNetworkRequest {
+  const factory _StacNetworkRequest(
+      {required final String url,
+      final Method method,
+      final Map<String, dynamic>? queryParameters,
+      final Map<String, dynamic>? headers,
+      final String? contentType,
+      final dynamic body,
+      final List<StacNetworkResult> results}) = _$StacNetworkRequestImpl;
+
+  factory _StacNetworkRequest.fromJson(Map<String, dynamic> json) =
+      _$StacNetworkRequestImpl.fromJson;
+
+  @override
+  String get url;
+  @override
+  Method get method;
+  @override
+  Map<String, dynamic>? get queryParameters;
+  @override
+  Map<String, dynamic>? get headers;
+  @override
+  String? get contentType;
+  @override
+  dynamic get body;
+  @override
+  List<StacNetworkResult> get results;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacNetworkRequestImplCopyWith<_$StacNetworkRequestImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+StacNetworkResult _$StacNetworkResultFromJson(Map<String, dynamic> json) {
+  return _StacNetworkResult.fromJson(json);
 }
 
 /// @nodoc
 mixin _$StacNetworkResult {
-  int get statusCode;
-  Map<String, dynamic> get action;
+  int get statusCode => throw _privateConstructorUsedError;
+  Map<String, dynamic> get action => throw _privateConstructorUsedError;
 
-  /// Create a copy of StacNetworkResult
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
   $StacNetworkResultCopyWith<StacNetworkResult> get copyWith =>
-      _$StacNetworkResultCopyWithImpl<StacNetworkResult>(
-          this as StacNetworkResult, _$identity);
-
-  /// Serializes this StacNetworkResult to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacNetworkResult &&
-            (identical(other.statusCode, statusCode) ||
-                other.statusCode == statusCode) &&
-            const DeepCollectionEquality().equals(other.action, action));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType, statusCode, const DeepCollectionEquality().hash(action));
-
-  @override
-  String toString() {
-    return 'StacNetworkResult(statusCode: $statusCode, action: $action)';
-  }
+      throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract mixin class $StacNetworkResultCopyWith<$Res> {
+abstract class $StacNetworkResultCopyWith<$Res> {
   factory $StacNetworkResultCopyWith(
-          StacNetworkResult value, $Res Function(StacNetworkResult) _then) =
-      _$StacNetworkResultCopyWithImpl;
+          StacNetworkResult value, $Res Function(StacNetworkResult) then) =
+      _$StacNetworkResultCopyWithImpl<$Res, StacNetworkResult>;
   @useResult
   $Res call({int statusCode, Map<String, dynamic> action});
 }
 
 /// @nodoc
-class _$StacNetworkResultCopyWithImpl<$Res>
+class _$StacNetworkResultCopyWithImpl<$Res, $Val extends StacNetworkResult>
     implements $StacNetworkResultCopyWith<$Res> {
-  _$StacNetworkResultCopyWithImpl(this._self, this._then);
+  _$StacNetworkResultCopyWithImpl(this._value, this._then);
 
-  final StacNetworkResult _self;
-  final $Res Function(StacNetworkResult) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacNetworkResult
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? statusCode = null,
     Object? action = null,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       statusCode: null == statusCode
-          ? _self.statusCode
+          ? _value.statusCode
           : statusCode // ignore: cast_nullable_to_non_nullable
               as int,
       action: null == action
-          ? _self.action
+          ? _value.action
+          : action // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacNetworkResultImplCopyWith<$Res>
+    implements $StacNetworkResultCopyWith<$Res> {
+  factory _$$StacNetworkResultImplCopyWith(_$StacNetworkResultImpl value,
+          $Res Function(_$StacNetworkResultImpl) then) =
+      __$$StacNetworkResultImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call({int statusCode, Map<String, dynamic> action});
+}
+
+/// @nodoc
+class __$$StacNetworkResultImplCopyWithImpl<$Res>
+    extends _$StacNetworkResultCopyWithImpl<$Res, _$StacNetworkResultImpl>
+    implements _$$StacNetworkResultImplCopyWith<$Res> {
+  __$$StacNetworkResultImplCopyWithImpl(_$StacNetworkResultImpl _value,
+      $Res Function(_$StacNetworkResultImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? statusCode = null,
+    Object? action = null,
+  }) {
+    return _then(_$StacNetworkResultImpl(
+      statusCode: null == statusCode
+          ? _value.statusCode
+          : statusCode // ignore: cast_nullable_to_non_nullable
+              as int,
+      action: null == action
+          ? _value._action
           : action // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>,
     ));
@@ -391,12 +405,13 @@ class _$StacNetworkResultCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _StacNetworkResult implements StacNetworkResult {
-  const _StacNetworkResult(
+class _$StacNetworkResultImpl implements _StacNetworkResult {
+  const _$StacNetworkResultImpl(
       {required this.statusCode, required final Map<String, dynamic> action})
       : _action = action;
-  factory _StacNetworkResult.fromJson(Map<String, dynamic> json) =>
-      _$StacNetworkResultFromJson(json);
+
+  factory _$StacNetworkResultImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacNetworkResultImplFromJson(json);
 
   @override
   final int statusCode;
@@ -408,80 +423,55 @@ class _StacNetworkResult implements StacNetworkResult {
     return EqualUnmodifiableMapView(_action);
   }
 
-  /// Create a copy of StacNetworkResult
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacNetworkResultCopyWith<_StacNetworkResult> get copyWith =>
-      __$StacNetworkResultCopyWithImpl<_StacNetworkResult>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacNetworkResultToJson(
-      this,
-    );
+  String toString() {
+    return 'StacNetworkResult(statusCode: $statusCode, action: $action)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacNetworkResult &&
+            other is _$StacNetworkResultImpl &&
             (identical(other.statusCode, statusCode) ||
                 other.statusCode == statusCode) &&
             const DeepCollectionEquality().equals(other._action, _action));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType, statusCode, const DeepCollectionEquality().hash(_action));
 
-  @override
-  String toString() {
-    return 'StacNetworkResult(statusCode: $statusCode, action: $action)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacNetworkResultCopyWith<$Res>
-    implements $StacNetworkResultCopyWith<$Res> {
-  factory _$StacNetworkResultCopyWith(
-          _StacNetworkResult value, $Res Function(_StacNetworkResult) _then) =
-      __$StacNetworkResultCopyWithImpl;
-  @override
-  @useResult
-  $Res call({int statusCode, Map<String, dynamic> action});
-}
-
-/// @nodoc
-class __$StacNetworkResultCopyWithImpl<$Res>
-    implements _$StacNetworkResultCopyWith<$Res> {
-  __$StacNetworkResultCopyWithImpl(this._self, this._then);
-
-  final _StacNetworkResult _self;
-  final $Res Function(_StacNetworkResult) _then;
-
-  /// Create a copy of StacNetworkResult
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? statusCode = null,
-    Object? action = null,
-  }) {
-    return _then(_StacNetworkResult(
-      statusCode: null == statusCode
-          ? _self.statusCode
-          : statusCode // ignore: cast_nullable_to_non_nullable
-              as int,
-      action: null == action
-          ? _self._action
-          : action // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>,
-    ));
+  _$$StacNetworkResultImplCopyWith<_$StacNetworkResultImpl> get copyWith =>
+      __$$StacNetworkResultImplCopyWithImpl<_$StacNetworkResultImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacNetworkResultImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacNetworkResult implements StacNetworkResult {
+  const factory _StacNetworkResult(
+      {required final int statusCode,
+      required final Map<String, dynamic> action}) = _$StacNetworkResultImpl;
+
+  factory _StacNetworkResult.fromJson(Map<String, dynamic> json) =
+      _$StacNetworkResultImpl.fromJson;
+
+  @override
+  int get statusCode;
+  @override
+  Map<String, dynamic> get action;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacNetworkResultImplCopyWith<_$StacNetworkResultImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

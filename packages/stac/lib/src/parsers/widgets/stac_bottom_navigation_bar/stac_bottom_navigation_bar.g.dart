@@ -6,9 +6,9 @@ part of 'stac_bottom_navigation_bar.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacBottomNavigationBar _$StacBottomNavigationBarFromJson(
+_$StacBottomNavigationBarImpl _$$StacBottomNavigationBarImplFromJson(
         Map<String, dynamic> json) =>
-    _StacBottomNavigationBar(
+    _$StacBottomNavigationBarImpl(
       items: (json['items'] as List<dynamic>)
           .map((e) =>
               StacBottomNavigationBarItem.fromJson(e as Map<String, dynamic>))
@@ -44,8 +44,8 @@ _StacBottomNavigationBar _$StacBottomNavigationBarFromJson(
           _$BottomNavigationBarLandscapeLayoutEnumMap, json['landscapeLayout']),
     );
 
-Map<String, dynamic> _$StacBottomNavigationBarToJson(
-        _StacBottomNavigationBar instance) =>
+Map<String, dynamic> _$$StacBottomNavigationBarImplToJson(
+        _$StacBottomNavigationBarImpl instance) =>
     <String, dynamic>{
       'items': instance.items,
       'elevation': instance.elevation,

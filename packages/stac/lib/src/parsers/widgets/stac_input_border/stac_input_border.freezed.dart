@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,61 +9,35 @@ part of 'stac_input_border.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacInputBorder {
-  StacInputBorderType get type;
-  StacBorderRadius? get borderRadius;
-  double get gapPadding;
-  StacDouble get width;
-  String? get color;
-  StacGradient? get gradient;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacInputBorder
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacInputBorderCopyWith<StacInputBorder> get copyWith =>
-      _$StacInputBorderCopyWithImpl<StacInputBorder>(
-          this as StacInputBorder, _$identity);
-
-  /// Serializes this StacInputBorder to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacInputBorder &&
-            (identical(other.type, type) || other.type == type) &&
-            (identical(other.borderRadius, borderRadius) ||
-                other.borderRadius == borderRadius) &&
-            (identical(other.gapPadding, gapPadding) ||
-                other.gapPadding == gapPadding) &&
-            (identical(other.width, width) || other.width == width) &&
-            (identical(other.color, color) || other.color == color) &&
-            (identical(other.gradient, gradient) ||
-                other.gradient == gradient));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType, type, borderRadius, gapPadding, width, color, gradient);
-
-  @override
-  String toString() {
-    return 'StacInputBorder(type: $type, borderRadius: $borderRadius, gapPadding: $gapPadding, width: $width, color: $color, gradient: $gradient)';
-  }
+StacInputBorder _$StacInputBorderFromJson(Map<String, dynamic> json) {
+  return _StacInputBorder.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacInputBorderCopyWith<$Res> {
+mixin _$StacInputBorder {
+  StacInputBorderType get type => throw _privateConstructorUsedError;
+  StacBorderRadius? get borderRadius => throw _privateConstructorUsedError;
+  double get gapPadding => throw _privateConstructorUsedError;
+  StacDouble get width => throw _privateConstructorUsedError;
+  String? get color => throw _privateConstructorUsedError;
+  StacGradient? get gradient => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacInputBorderCopyWith<StacInputBorder> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacInputBorderCopyWith<$Res> {
   factory $StacInputBorderCopyWith(
-          StacInputBorder value, $Res Function(StacInputBorder) _then) =
-      _$StacInputBorderCopyWithImpl;
+          StacInputBorder value, $Res Function(StacInputBorder) then) =
+      _$StacInputBorderCopyWithImpl<$Res, StacInputBorder>;
   @useResult
   $Res call(
       {StacInputBorderType type,
@@ -79,15 +52,15 @@ abstract mixin class $StacInputBorderCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacInputBorderCopyWithImpl<$Res>
+class _$StacInputBorderCopyWithImpl<$Res, $Val extends StacInputBorder>
     implements $StacInputBorderCopyWith<$Res> {
-  _$StacInputBorderCopyWithImpl(this._self, this._then);
+  _$StacInputBorderCopyWithImpl(this._value, this._then);
 
-  final StacInputBorder _self;
-  final $Res Function(StacInputBorder) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacInputBorder
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -98,75 +71,141 @@ class _$StacInputBorderCopyWithImpl<$Res>
     Object? color = freezed,
     Object? gradient = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       type: null == type
-          ? _self.type
+          ? _value.type
           : type // ignore: cast_nullable_to_non_nullable
               as StacInputBorderType,
       borderRadius: freezed == borderRadius
-          ? _self.borderRadius
+          ? _value.borderRadius
           : borderRadius // ignore: cast_nullable_to_non_nullable
               as StacBorderRadius?,
       gapPadding: null == gapPadding
-          ? _self.gapPadding
+          ? _value.gapPadding
           : gapPadding // ignore: cast_nullable_to_non_nullable
               as double,
       width: null == width
-          ? _self.width
+          ? _value.width
           : width // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       color: freezed == color
-          ? _self.color
+          ? _value.color
           : color // ignore: cast_nullable_to_non_nullable
               as String?,
       gradient: freezed == gradient
-          ? _self.gradient
+          ? _value.gradient
           : gradient // ignore: cast_nullable_to_non_nullable
               as StacGradient?,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacInputBorder
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacBorderRadiusCopyWith<$Res>? get borderRadius {
-    if (_self.borderRadius == null) {
+    if (_value.borderRadius == null) {
       return null;
     }
 
-    return $StacBorderRadiusCopyWith<$Res>(_self.borderRadius!, (value) {
-      return _then(_self.copyWith(borderRadius: value));
+    return $StacBorderRadiusCopyWith<$Res>(_value.borderRadius!, (value) {
+      return _then(_value.copyWith(borderRadius: value) as $Val);
     });
   }
 
-  /// Create a copy of StacInputBorder
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacGradientCopyWith<$Res>? get gradient {
-    if (_self.gradient == null) {
+    if (_value.gradient == null) {
       return null;
     }
 
-    return $StacGradientCopyWith<$Res>(_self.gradient!, (value) {
-      return _then(_self.copyWith(gradient: value));
+    return $StacGradientCopyWith<$Res>(_value.gradient!, (value) {
+      return _then(_value.copyWith(gradient: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacInputBorderImplCopyWith<$Res>
+    implements $StacInputBorderCopyWith<$Res> {
+  factory _$$StacInputBorderImplCopyWith(_$StacInputBorderImpl value,
+          $Res Function(_$StacInputBorderImpl) then) =
+      __$$StacInputBorderImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {StacInputBorderType type,
+      StacBorderRadius? borderRadius,
+      double gapPadding,
+      StacDouble width,
+      String? color,
+      StacGradient? gradient});
+
+  @override
+  $StacBorderRadiusCopyWith<$Res>? get borderRadius;
+  @override
+  $StacGradientCopyWith<$Res>? get gradient;
+}
+
+/// @nodoc
+class __$$StacInputBorderImplCopyWithImpl<$Res>
+    extends _$StacInputBorderCopyWithImpl<$Res, _$StacInputBorderImpl>
+    implements _$$StacInputBorderImplCopyWith<$Res> {
+  __$$StacInputBorderImplCopyWithImpl(
+      _$StacInputBorderImpl _value, $Res Function(_$StacInputBorderImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? type = null,
+    Object? borderRadius = freezed,
+    Object? gapPadding = null,
+    Object? width = null,
+    Object? color = freezed,
+    Object? gradient = freezed,
+  }) {
+    return _then(_$StacInputBorderImpl(
+      type: null == type
+          ? _value.type
+          : type // ignore: cast_nullable_to_non_nullable
+              as StacInputBorderType,
+      borderRadius: freezed == borderRadius
+          ? _value.borderRadius
+          : borderRadius // ignore: cast_nullable_to_non_nullable
+              as StacBorderRadius?,
+      gapPadding: null == gapPadding
+          ? _value.gapPadding
+          : gapPadding // ignore: cast_nullable_to_non_nullable
+              as double,
+      width: null == width
+          ? _value.width
+          : width // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      color: freezed == color
+          ? _value.color
+          : color // ignore: cast_nullable_to_non_nullable
+              as String?,
+      gradient: freezed == gradient
+          ? _value.gradient
+          : gradient // ignore: cast_nullable_to_non_nullable
+              as StacGradient?,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacInputBorder implements StacInputBorder {
-  const _StacInputBorder(
+class _$StacInputBorderImpl implements _StacInputBorder {
+  const _$StacInputBorderImpl(
       {this.type = StacInputBorderType.underlineInputBorder,
       this.borderRadius,
       this.gapPadding = 4.0,
       this.width = StacDouble.zero,
       this.color,
       this.gradient});
-  factory _StacInputBorder.fromJson(Map<String, dynamic> json) =>
-      _$StacInputBorderFromJson(json);
+
+  factory _$StacInputBorderImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacInputBorderImplFromJson(json);
 
   @override
   @JsonKey()
@@ -184,26 +223,16 @@ class _StacInputBorder implements StacInputBorder {
   @override
   final StacGradient? gradient;
 
-  /// Create a copy of StacInputBorder
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacInputBorderCopyWith<_StacInputBorder> get copyWith =>
-      __$StacInputBorderCopyWithImpl<_StacInputBorder>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacInputBorderToJson(
-      this,
-    );
+  String toString() {
+    return 'StacInputBorder(type: $type, borderRadius: $borderRadius, gapPadding: $gapPadding, width: $width, color: $color, gradient: $gradient)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacInputBorder &&
+            other is _$StacInputBorderImpl &&
             (identical(other.type, type) || other.type == type) &&
             (identical(other.borderRadius, borderRadius) ||
                 other.borderRadius == borderRadius) &&
@@ -215,114 +244,52 @@ class _StacInputBorder implements StacInputBorder {
                 other.gradient == gradient));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType, type, borderRadius, gapPadding, width, color, gradient);
 
+  @JsonKey(ignore: true)
   @override
-  String toString() {
-    return 'StacInputBorder(type: $type, borderRadius: $borderRadius, gapPadding: $gapPadding, width: $width, color: $color, gradient: $gradient)';
+  @pragma('vm:prefer-inline')
+  _$$StacInputBorderImplCopyWith<_$StacInputBorderImpl> get copyWith =>
+      __$$StacInputBorderImplCopyWithImpl<_$StacInputBorderImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacInputBorderImplToJson(
+      this,
+    );
   }
 }
 
-/// @nodoc
-abstract mixin class _$StacInputBorderCopyWith<$Res>
-    implements $StacInputBorderCopyWith<$Res> {
-  factory _$StacInputBorderCopyWith(
-          _StacInputBorder value, $Res Function(_StacInputBorder) _then) =
-      __$StacInputBorderCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {StacInputBorderType type,
-      StacBorderRadius? borderRadius,
-      double gapPadding,
-      StacDouble width,
-      String? color,
-      StacGradient? gradient});
+abstract class _StacInputBorder implements StacInputBorder {
+  const factory _StacInputBorder(
+      {final StacInputBorderType type,
+      final StacBorderRadius? borderRadius,
+      final double gapPadding,
+      final StacDouble width,
+      final String? color,
+      final StacGradient? gradient}) = _$StacInputBorderImpl;
+
+  factory _StacInputBorder.fromJson(Map<String, dynamic> json) =
+      _$StacInputBorderImpl.fromJson;
 
   @override
-  $StacBorderRadiusCopyWith<$Res>? get borderRadius;
+  StacInputBorderType get type;
   @override
-  $StacGradientCopyWith<$Res>? get gradient;
+  StacBorderRadius? get borderRadius;
+  @override
+  double get gapPadding;
+  @override
+  StacDouble get width;
+  @override
+  String? get color;
+  @override
+  StacGradient? get gradient;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacInputBorderImplCopyWith<_$StacInputBorderImpl> get copyWith =>
+      throw _privateConstructorUsedError;
 }
-
-/// @nodoc
-class __$StacInputBorderCopyWithImpl<$Res>
-    implements _$StacInputBorderCopyWith<$Res> {
-  __$StacInputBorderCopyWithImpl(this._self, this._then);
-
-  final _StacInputBorder _self;
-  final $Res Function(_StacInputBorder) _then;
-
-  /// Create a copy of StacInputBorder
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $Res call({
-    Object? type = null,
-    Object? borderRadius = freezed,
-    Object? gapPadding = null,
-    Object? width = null,
-    Object? color = freezed,
-    Object? gradient = freezed,
-  }) {
-    return _then(_StacInputBorder(
-      type: null == type
-          ? _self.type
-          : type // ignore: cast_nullable_to_non_nullable
-              as StacInputBorderType,
-      borderRadius: freezed == borderRadius
-          ? _self.borderRadius
-          : borderRadius // ignore: cast_nullable_to_non_nullable
-              as StacBorderRadius?,
-      gapPadding: null == gapPadding
-          ? _self.gapPadding
-          : gapPadding // ignore: cast_nullable_to_non_nullable
-              as double,
-      width: null == width
-          ? _self.width
-          : width // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      color: freezed == color
-          ? _self.color
-          : color // ignore: cast_nullable_to_non_nullable
-              as String?,
-      gradient: freezed == gradient
-          ? _self.gradient
-          : gradient // ignore: cast_nullable_to_non_nullable
-              as StacGradient?,
-    ));
-  }
-
-  /// Create a copy of StacInputBorder
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacBorderRadiusCopyWith<$Res>? get borderRadius {
-    if (_self.borderRadius == null) {
-      return null;
-    }
-
-    return $StacBorderRadiusCopyWith<$Res>(_self.borderRadius!, (value) {
-      return _then(_self.copyWith(borderRadius: value));
-    });
-  }
-
-  /// Create a copy of StacInputBorder
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacGradientCopyWith<$Res>? get gradient {
-    if (_self.gradient == null) {
-      return null;
-    }
-
-    return $StacGradientCopyWith<$Res>(_self.gradient!, (value) {
-      return _then(_self.copyWith(gradient: value));
-    });
-  }
-}
-
-// dart format on

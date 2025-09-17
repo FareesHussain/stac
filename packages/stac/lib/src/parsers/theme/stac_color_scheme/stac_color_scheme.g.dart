@@ -6,8 +6,9 @@ part of 'stac_color_scheme.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacColorScheme _$StacColorSchemeFromJson(Map<String, dynamic> json) =>
-    _StacColorScheme(
+_$StacColorSchemeImpl _$$StacColorSchemeImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacColorSchemeImpl(
       brightness: $enumDecode(_$BrightnessEnumMap, json['brightness']),
       primary: json['primary'] as String,
       onPrimary: json['onPrimary'] as String,
@@ -57,7 +58,8 @@ _StacColorScheme _$StacColorSchemeFromJson(Map<String, dynamic> json) =>
       surfaceTint: json['surfaceTint'] as String?,
     );
 
-Map<String, dynamic> _$StacColorSchemeToJson(_StacColorScheme instance) =>
+Map<String, dynamic> _$$StacColorSchemeImplToJson(
+        _$StacColorSchemeImpl instance) =>
     <String, dynamic>{
       'brightness': _$BrightnessEnumMap[instance.brightness]!,
       'primary': instance.primary,

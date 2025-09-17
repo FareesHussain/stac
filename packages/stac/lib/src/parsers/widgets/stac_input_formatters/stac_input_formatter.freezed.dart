@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,76 +9,96 @@ part of 'stac_input_formatter.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacInputFormatter {
-  InputFormatterType get type;
-  String? get rule;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacInputFormatter
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacInputFormatterCopyWith<StacInputFormatter> get copyWith =>
-      _$StacInputFormatterCopyWithImpl<StacInputFormatter>(
-          this as StacInputFormatter, _$identity);
-
-  /// Serializes this StacInputFormatter to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacInputFormatter &&
-            (identical(other.type, type) || other.type == type) &&
-            (identical(other.rule, rule) || other.rule == rule));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(runtimeType, type, rule);
-
-  @override
-  String toString() {
-    return 'StacInputFormatter(type: $type, rule: $rule)';
-  }
+StacInputFormatter _$StacInputFormatterFromJson(Map<String, dynamic> json) {
+  return _StacInputFormatter.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacInputFormatterCopyWith<$Res> {
+mixin _$StacInputFormatter {
+  InputFormatterType get type => throw _privateConstructorUsedError;
+  String? get rule => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacInputFormatterCopyWith<StacInputFormatter> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacInputFormatterCopyWith<$Res> {
   factory $StacInputFormatterCopyWith(
-          StacInputFormatter value, $Res Function(StacInputFormatter) _then) =
-      _$StacInputFormatterCopyWithImpl;
+          StacInputFormatter value, $Res Function(StacInputFormatter) then) =
+      _$StacInputFormatterCopyWithImpl<$Res, StacInputFormatter>;
   @useResult
   $Res call({InputFormatterType type, String? rule});
 }
 
 /// @nodoc
-class _$StacInputFormatterCopyWithImpl<$Res>
+class _$StacInputFormatterCopyWithImpl<$Res, $Val extends StacInputFormatter>
     implements $StacInputFormatterCopyWith<$Res> {
-  _$StacInputFormatterCopyWithImpl(this._self, this._then);
+  _$StacInputFormatterCopyWithImpl(this._value, this._then);
 
-  final StacInputFormatter _self;
-  final $Res Function(StacInputFormatter) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacInputFormatter
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? type = null,
     Object? rule = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       type: null == type
-          ? _self.type
+          ? _value.type
           : type // ignore: cast_nullable_to_non_nullable
               as InputFormatterType,
       rule: freezed == rule
-          ? _self.rule
+          ? _value.rule
+          : rule // ignore: cast_nullable_to_non_nullable
+              as String?,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacInputFormatterImplCopyWith<$Res>
+    implements $StacInputFormatterCopyWith<$Res> {
+  factory _$$StacInputFormatterImplCopyWith(_$StacInputFormatterImpl value,
+          $Res Function(_$StacInputFormatterImpl) then) =
+      __$$StacInputFormatterImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call({InputFormatterType type, String? rule});
+}
+
+/// @nodoc
+class __$$StacInputFormatterImplCopyWithImpl<$Res>
+    extends _$StacInputFormatterCopyWithImpl<$Res, _$StacInputFormatterImpl>
+    implements _$$StacInputFormatterImplCopyWith<$Res> {
+  __$$StacInputFormatterImplCopyWithImpl(_$StacInputFormatterImpl _value,
+      $Res Function(_$StacInputFormatterImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? type = null,
+    Object? rule = freezed,
+  }) {
+    return _then(_$StacInputFormatterImpl(
+      type: null == type
+          ? _value.type
+          : type // ignore: cast_nullable_to_non_nullable
+              as InputFormatterType,
+      rule: freezed == rule
+          ? _value.rule
           : rule // ignore: cast_nullable_to_non_nullable
               as String?,
     ));
@@ -88,88 +107,64 @@ class _$StacInputFormatterCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _StacInputFormatter implements StacInputFormatter {
-  const _StacInputFormatter({required this.type, this.rule});
-  factory _StacInputFormatter.fromJson(Map<String, dynamic> json) =>
-      _$StacInputFormatterFromJson(json);
+class _$StacInputFormatterImpl implements _StacInputFormatter {
+  const _$StacInputFormatterImpl({required this.type, this.rule});
+
+  factory _$StacInputFormatterImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacInputFormatterImplFromJson(json);
 
   @override
   final InputFormatterType type;
   @override
   final String? rule;
 
-  /// Create a copy of StacInputFormatter
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacInputFormatterCopyWith<_StacInputFormatter> get copyWith =>
-      __$StacInputFormatterCopyWithImpl<_StacInputFormatter>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacInputFormatterToJson(
-      this,
-    );
+  String toString() {
+    return 'StacInputFormatter(type: $type, rule: $rule)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacInputFormatter &&
+            other is _$StacInputFormatterImpl &&
             (identical(other.type, type) || other.type == type) &&
             (identical(other.rule, rule) || other.rule == rule));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(runtimeType, type, rule);
 
-  @override
-  String toString() {
-    return 'StacInputFormatter(type: $type, rule: $rule)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacInputFormatterCopyWith<$Res>
-    implements $StacInputFormatterCopyWith<$Res> {
-  factory _$StacInputFormatterCopyWith(
-          _StacInputFormatter value, $Res Function(_StacInputFormatter) _then) =
-      __$StacInputFormatterCopyWithImpl;
-  @override
-  @useResult
-  $Res call({InputFormatterType type, String? rule});
-}
-
-/// @nodoc
-class __$StacInputFormatterCopyWithImpl<$Res>
-    implements _$StacInputFormatterCopyWith<$Res> {
-  __$StacInputFormatterCopyWithImpl(this._self, this._then);
-
-  final _StacInputFormatter _self;
-  final $Res Function(_StacInputFormatter) _then;
-
-  /// Create a copy of StacInputFormatter
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? type = null,
-    Object? rule = freezed,
-  }) {
-    return _then(_StacInputFormatter(
-      type: null == type
-          ? _self.type
-          : type // ignore: cast_nullable_to_non_nullable
-              as InputFormatterType,
-      rule: freezed == rule
-          ? _self.rule
-          : rule // ignore: cast_nullable_to_non_nullable
-              as String?,
-    ));
+  _$$StacInputFormatterImplCopyWith<_$StacInputFormatterImpl> get copyWith =>
+      __$$StacInputFormatterImplCopyWithImpl<_$StacInputFormatterImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacInputFormatterImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacInputFormatter implements StacInputFormatter {
+  const factory _StacInputFormatter(
+      {required final InputFormatterType type,
+      final String? rule}) = _$StacInputFormatterImpl;
+
+  factory _StacInputFormatter.fromJson(Map<String, dynamic> json) =
+      _$StacInputFormatterImpl.fromJson;
+
+  @override
+  InputFormatterType get type;
+  @override
+  String? get rule;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacInputFormatterImplCopyWith<_$StacInputFormatterImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

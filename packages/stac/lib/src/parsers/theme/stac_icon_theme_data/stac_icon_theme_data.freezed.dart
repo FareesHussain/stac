@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,71 +9,37 @@ part of 'stac_icon_theme_data.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacIconThemeData {
-  double? get size;
-  double? get fill;
-  double? get weight;
-  double? get grade;
-  double? get opticalSize;
-  String? get color;
-  double? get opacity;
-  List<StacShadow>? get shadows;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacIconThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacIconThemeDataCopyWith<StacIconThemeData> get copyWith =>
-      _$StacIconThemeDataCopyWithImpl<StacIconThemeData>(
-          this as StacIconThemeData, _$identity);
-
-  /// Serializes this StacIconThemeData to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacIconThemeData &&
-            (identical(other.size, size) || other.size == size) &&
-            (identical(other.fill, fill) || other.fill == fill) &&
-            (identical(other.weight, weight) || other.weight == weight) &&
-            (identical(other.grade, grade) || other.grade == grade) &&
-            (identical(other.opticalSize, opticalSize) ||
-                other.opticalSize == opticalSize) &&
-            (identical(other.color, color) || other.color == color) &&
-            (identical(other.opacity, opacity) || other.opacity == opacity) &&
-            const DeepCollectionEquality().equals(other.shadows, shadows));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      size,
-      fill,
-      weight,
-      grade,
-      opticalSize,
-      color,
-      opacity,
-      const DeepCollectionEquality().hash(shadows));
-
-  @override
-  String toString() {
-    return 'StacIconThemeData(size: $size, fill: $fill, weight: $weight, grade: $grade, opticalSize: $opticalSize, color: $color, opacity: $opacity, shadows: $shadows)';
-  }
+StacIconThemeData _$StacIconThemeDataFromJson(Map<String, dynamic> json) {
+  return _StacIconThemeData.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacIconThemeDataCopyWith<$Res> {
+mixin _$StacIconThemeData {
+  double? get size => throw _privateConstructorUsedError;
+  double? get fill => throw _privateConstructorUsedError;
+  double? get weight => throw _privateConstructorUsedError;
+  double? get grade => throw _privateConstructorUsedError;
+  double? get opticalSize => throw _privateConstructorUsedError;
+  String? get color => throw _privateConstructorUsedError;
+  double? get opacity => throw _privateConstructorUsedError;
+  List<StacShadow>? get shadows => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacIconThemeDataCopyWith<StacIconThemeData> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacIconThemeDataCopyWith<$Res> {
   factory $StacIconThemeDataCopyWith(
-          StacIconThemeData value, $Res Function(StacIconThemeData) _then) =
-      _$StacIconThemeDataCopyWithImpl;
+          StacIconThemeData value, $Res Function(StacIconThemeData) then) =
+      _$StacIconThemeDataCopyWithImpl<$Res, StacIconThemeData>;
   @useResult
   $Res call(
       {double? size,
@@ -88,15 +53,15 @@ abstract mixin class $StacIconThemeDataCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacIconThemeDataCopyWithImpl<$Res>
+class _$StacIconThemeDataCopyWithImpl<$Res, $Val extends StacIconThemeData>
     implements $StacIconThemeDataCopyWith<$Res> {
-  _$StacIconThemeDataCopyWithImpl(this._self, this._then);
+  _$StacIconThemeDataCopyWithImpl(this._value, this._then);
 
-  final StacIconThemeData _self;
-  final $Res Function(StacIconThemeData) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacIconThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -109,37 +74,113 @@ class _$StacIconThemeDataCopyWithImpl<$Res>
     Object? opacity = freezed,
     Object? shadows = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       size: freezed == size
-          ? _self.size
+          ? _value.size
           : size // ignore: cast_nullable_to_non_nullable
               as double?,
       fill: freezed == fill
-          ? _self.fill
+          ? _value.fill
           : fill // ignore: cast_nullable_to_non_nullable
               as double?,
       weight: freezed == weight
-          ? _self.weight
+          ? _value.weight
           : weight // ignore: cast_nullable_to_non_nullable
               as double?,
       grade: freezed == grade
-          ? _self.grade
+          ? _value.grade
           : grade // ignore: cast_nullable_to_non_nullable
               as double?,
       opticalSize: freezed == opticalSize
-          ? _self.opticalSize
+          ? _value.opticalSize
           : opticalSize // ignore: cast_nullable_to_non_nullable
               as double?,
       color: freezed == color
-          ? _self.color
+          ? _value.color
           : color // ignore: cast_nullable_to_non_nullable
               as String?,
       opacity: freezed == opacity
-          ? _self.opacity
+          ? _value.opacity
           : opacity // ignore: cast_nullable_to_non_nullable
               as double?,
       shadows: freezed == shadows
-          ? _self.shadows
+          ? _value.shadows
+          : shadows // ignore: cast_nullable_to_non_nullable
+              as List<StacShadow>?,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacIconThemeDataImplCopyWith<$Res>
+    implements $StacIconThemeDataCopyWith<$Res> {
+  factory _$$StacIconThemeDataImplCopyWith(_$StacIconThemeDataImpl value,
+          $Res Function(_$StacIconThemeDataImpl) then) =
+      __$$StacIconThemeDataImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {double? size,
+      double? fill,
+      double? weight,
+      double? grade,
+      double? opticalSize,
+      String? color,
+      double? opacity,
+      List<StacShadow>? shadows});
+}
+
+/// @nodoc
+class __$$StacIconThemeDataImplCopyWithImpl<$Res>
+    extends _$StacIconThemeDataCopyWithImpl<$Res, _$StacIconThemeDataImpl>
+    implements _$$StacIconThemeDataImplCopyWith<$Res> {
+  __$$StacIconThemeDataImplCopyWithImpl(_$StacIconThemeDataImpl _value,
+      $Res Function(_$StacIconThemeDataImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? size = freezed,
+    Object? fill = freezed,
+    Object? weight = freezed,
+    Object? grade = freezed,
+    Object? opticalSize = freezed,
+    Object? color = freezed,
+    Object? opacity = freezed,
+    Object? shadows = freezed,
+  }) {
+    return _then(_$StacIconThemeDataImpl(
+      size: freezed == size
+          ? _value.size
+          : size // ignore: cast_nullable_to_non_nullable
+              as double?,
+      fill: freezed == fill
+          ? _value.fill
+          : fill // ignore: cast_nullable_to_non_nullable
+              as double?,
+      weight: freezed == weight
+          ? _value.weight
+          : weight // ignore: cast_nullable_to_non_nullable
+              as double?,
+      grade: freezed == grade
+          ? _value.grade
+          : grade // ignore: cast_nullable_to_non_nullable
+              as double?,
+      opticalSize: freezed == opticalSize
+          ? _value.opticalSize
+          : opticalSize // ignore: cast_nullable_to_non_nullable
+              as double?,
+      color: freezed == color
+          ? _value.color
+          : color // ignore: cast_nullable_to_non_nullable
+              as String?,
+      opacity: freezed == opacity
+          ? _value.opacity
+          : opacity // ignore: cast_nullable_to_non_nullable
+              as double?,
+      shadows: freezed == shadows
+          ? _value._shadows
           : shadows // ignore: cast_nullable_to_non_nullable
               as List<StacShadow>?,
     ));
@@ -148,8 +189,8 @@ class _$StacIconThemeDataCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _StacIconThemeData implements StacIconThemeData {
-  const _StacIconThemeData(
+class _$StacIconThemeDataImpl implements _StacIconThemeData {
+  const _$StacIconThemeDataImpl(
       {this.size,
       this.fill,
       this.weight,
@@ -159,8 +200,9 @@ class _StacIconThemeData implements StacIconThemeData {
       this.opacity,
       final List<StacShadow>? shadows})
       : _shadows = shadows;
-  factory _StacIconThemeData.fromJson(Map<String, dynamic> json) =>
-      _$StacIconThemeDataFromJson(json);
+
+  factory _$StacIconThemeDataImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacIconThemeDataImplFromJson(json);
 
   @override
   final double? size;
@@ -186,26 +228,16 @@ class _StacIconThemeData implements StacIconThemeData {
     return EqualUnmodifiableListView(value);
   }
 
-  /// Create a copy of StacIconThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacIconThemeDataCopyWith<_StacIconThemeData> get copyWith =>
-      __$StacIconThemeDataCopyWithImpl<_StacIconThemeData>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacIconThemeDataToJson(
-      this,
-    );
+  String toString() {
+    return 'StacIconThemeData(size: $size, fill: $fill, weight: $weight, grade: $grade, opticalSize: $opticalSize, color: $color, opacity: $opacity, shadows: $shadows)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacIconThemeData &&
+            other is _$StacIconThemeDataImpl &&
             (identical(other.size, size) || other.size == size) &&
             (identical(other.fill, fill) || other.fill == fill) &&
             (identical(other.weight, weight) || other.weight == weight) &&
@@ -217,7 +249,7 @@ class _StacIconThemeData implements StacIconThemeData {
             const DeepCollectionEquality().equals(other._shadows, _shadows));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -230,88 +262,53 @@ class _StacIconThemeData implements StacIconThemeData {
       opacity,
       const DeepCollectionEquality().hash(_shadows));
 
-  @override
-  String toString() {
-    return 'StacIconThemeData(size: $size, fill: $fill, weight: $weight, grade: $grade, opticalSize: $opticalSize, color: $color, opacity: $opacity, shadows: $shadows)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacIconThemeDataCopyWith<$Res>
-    implements $StacIconThemeDataCopyWith<$Res> {
-  factory _$StacIconThemeDataCopyWith(
-          _StacIconThemeData value, $Res Function(_StacIconThemeData) _then) =
-      __$StacIconThemeDataCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {double? size,
-      double? fill,
-      double? weight,
-      double? grade,
-      double? opticalSize,
-      String? color,
-      double? opacity,
-      List<StacShadow>? shadows});
-}
-
-/// @nodoc
-class __$StacIconThemeDataCopyWithImpl<$Res>
-    implements _$StacIconThemeDataCopyWith<$Res> {
-  __$StacIconThemeDataCopyWithImpl(this._self, this._then);
-
-  final _StacIconThemeData _self;
-  final $Res Function(_StacIconThemeData) _then;
-
-  /// Create a copy of StacIconThemeData
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? size = freezed,
-    Object? fill = freezed,
-    Object? weight = freezed,
-    Object? grade = freezed,
-    Object? opticalSize = freezed,
-    Object? color = freezed,
-    Object? opacity = freezed,
-    Object? shadows = freezed,
-  }) {
-    return _then(_StacIconThemeData(
-      size: freezed == size
-          ? _self.size
-          : size // ignore: cast_nullable_to_non_nullable
-              as double?,
-      fill: freezed == fill
-          ? _self.fill
-          : fill // ignore: cast_nullable_to_non_nullable
-              as double?,
-      weight: freezed == weight
-          ? _self.weight
-          : weight // ignore: cast_nullable_to_non_nullable
-              as double?,
-      grade: freezed == grade
-          ? _self.grade
-          : grade // ignore: cast_nullable_to_non_nullable
-              as double?,
-      opticalSize: freezed == opticalSize
-          ? _self.opticalSize
-          : opticalSize // ignore: cast_nullable_to_non_nullable
-              as double?,
-      color: freezed == color
-          ? _self.color
-          : color // ignore: cast_nullable_to_non_nullable
-              as String?,
-      opacity: freezed == opacity
-          ? _self.opacity
-          : opacity // ignore: cast_nullable_to_non_nullable
-              as double?,
-      shadows: freezed == shadows
-          ? _self._shadows
-          : shadows // ignore: cast_nullable_to_non_nullable
-              as List<StacShadow>?,
-    ));
+  _$$StacIconThemeDataImplCopyWith<_$StacIconThemeDataImpl> get copyWith =>
+      __$$StacIconThemeDataImplCopyWithImpl<_$StacIconThemeDataImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacIconThemeDataImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacIconThemeData implements StacIconThemeData {
+  const factory _StacIconThemeData(
+      {final double? size,
+      final double? fill,
+      final double? weight,
+      final double? grade,
+      final double? opticalSize,
+      final String? color,
+      final double? opacity,
+      final List<StacShadow>? shadows}) = _$StacIconThemeDataImpl;
+
+  factory _StacIconThemeData.fromJson(Map<String, dynamic> json) =
+      _$StacIconThemeDataImpl.fromJson;
+
+  @override
+  double? get size;
+  @override
+  double? get fill;
+  @override
+  double? get weight;
+  @override
+  double? get grade;
+  @override
+  double? get opticalSize;
+  @override
+  String? get color;
+  @override
+  double? get opacity;
+  @override
+  List<StacShadow>? get shadows;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacIconThemeDataImplCopyWith<_$StacIconThemeDataImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

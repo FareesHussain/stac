@@ -6,8 +6,9 @@ part of 'stac_network_request.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacNetworkRequest _$StacNetworkRequestFromJson(Map<String, dynamic> json) =>
-    _StacNetworkRequest(
+_$StacNetworkRequestImpl _$$StacNetworkRequestImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacNetworkRequestImpl(
       url: json['url'] as String,
       method:
           $enumDecodeNullable(_$MethodEnumMap, json['method']) ?? Method.get,
@@ -22,7 +23,8 @@ _StacNetworkRequest _$StacNetworkRequestFromJson(Map<String, dynamic> json) =>
           const [],
     );
 
-Map<String, dynamic> _$StacNetworkRequestToJson(_StacNetworkRequest instance) =>
+Map<String, dynamic> _$$StacNetworkRequestImplToJson(
+        _$StacNetworkRequestImpl instance) =>
     <String, dynamic>{
       'url': instance.url,
       'method': _$MethodEnumMap[instance.method]!,
@@ -40,13 +42,15 @@ const _$MethodEnumMap = {
   Method.delete: 'delete',
 };
 
-_StacNetworkResult _$StacNetworkResultFromJson(Map<String, dynamic> json) =>
-    _StacNetworkResult(
+_$StacNetworkResultImpl _$$StacNetworkResultImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacNetworkResultImpl(
       statusCode: (json['statusCode'] as num).toInt(),
       action: json['action'] as Map<String, dynamic>,
     );
 
-Map<String, dynamic> _$StacNetworkResultToJson(_StacNetworkResult instance) =>
+Map<String, dynamic> _$$StacNetworkResultImplToJson(
+        _$StacNetworkResultImpl instance) =>
     <String, dynamic>{
       'statusCode': instance.statusCode,
       'action': instance.action,

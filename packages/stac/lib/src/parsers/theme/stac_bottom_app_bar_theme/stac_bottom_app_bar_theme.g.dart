@@ -6,9 +6,9 @@ part of 'stac_bottom_app_bar_theme.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacBottomAppBarTheme _$StacBottomAppBarThemeFromJson(
+_$StacBottomAppBarThemeImpl _$$StacBottomAppBarThemeImplFromJson(
         Map<String, dynamic> json) =>
-    _StacBottomAppBarTheme(
+    _$StacBottomAppBarThemeImpl(
       color: json['color'] as String?,
       elevation: (json['elevation'] as num?)?.toDouble(),
       height: (json['height'] as num?)?.toDouble(),
@@ -19,8 +19,8 @@ _StacBottomAppBarTheme _$StacBottomAppBarThemeFromJson(
           : StacEdgeInsets.fromJson(json['padding']),
     );
 
-Map<String, dynamic> _$StacBottomAppBarThemeToJson(
-        _StacBottomAppBarTheme instance) =>
+Map<String, dynamic> _$$StacBottomAppBarThemeImplToJson(
+        _$StacBottomAppBarThemeImpl instance) =>
     <String, dynamic>{
       'color': instance.color,
       'elevation': instance.elevation,

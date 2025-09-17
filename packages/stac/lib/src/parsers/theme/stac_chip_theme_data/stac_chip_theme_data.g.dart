@@ -6,8 +6,9 @@ part of 'stac_chip_theme_data.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacChipThemeData _$StacChipThemeDataFromJson(Map<String, dynamic> json) =>
-    _StacChipThemeData(
+_$StacChipThemeDataImpl _$$StacChipThemeDataImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacChipThemeDataImpl(
       color: json['color'] as String?,
       backgroundColor: json['backgroundColor'] as String?,
       deleteIconColor: json['deleteIconColor'] as String?,
@@ -54,7 +55,8 @@ _StacChipThemeData _$StacChipThemeDataFromJson(Map<String, dynamic> json) =>
               json['deleteIconBoxConstraints'] as Map<String, dynamic>),
     );
 
-Map<String, dynamic> _$StacChipThemeDataToJson(_StacChipThemeData instance) =>
+Map<String, dynamic> _$$StacChipThemeDataImplToJson(
+        _$StacChipThemeDataImpl instance) =>
     <String, dynamic>{
       'color': instance.color,
       'backgroundColor': instance.backgroundColor,

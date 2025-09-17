@@ -6,8 +6,8 @@ part of 'stac_check_box.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacCheckBox _$StacCheckBoxFromJson(Map<String, dynamic> json) =>
-    _StacCheckBox(
+_$StacCheckBoxImpl _$$StacCheckBoxImplFromJson(Map<String, dynamic> json) =>
+    _$StacCheckBoxImpl(
       id: json['id'] as String?,
       value: json['value'] as bool?,
       tristate: json['tristate'] as bool? ?? false,
@@ -35,7 +35,7 @@ _StacCheckBox _$StacCheckBoxFromJson(Map<String, dynamic> json) =>
       isError: json['isError'] as bool? ?? false,
     );
 
-Map<String, dynamic> _$StacCheckBoxToJson(_StacCheckBox instance) =>
+Map<String, dynamic> _$$StacCheckBoxImplToJson(_$StacCheckBoxImpl instance) =>
     <String, dynamic>{
       'id': instance.id,
       'value': instance.value,

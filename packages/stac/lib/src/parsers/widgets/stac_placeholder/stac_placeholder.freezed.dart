@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,59 +9,34 @@ part of 'stac_placeholder.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacPlaceholder {
-  StacDouble get fallbackWidth;
-  StacDouble get fallbackHeight;
-  StacDouble get strokeWidth;
-  String get color;
-  Map<String, dynamic>? get child;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacPlaceholder
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacPlaceholderCopyWith<StacPlaceholder> get copyWith =>
-      _$StacPlaceholderCopyWithImpl<StacPlaceholder>(
-          this as StacPlaceholder, _$identity);
-
-  /// Serializes this StacPlaceholder to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacPlaceholder &&
-            (identical(other.fallbackWidth, fallbackWidth) ||
-                other.fallbackWidth == fallbackWidth) &&
-            (identical(other.fallbackHeight, fallbackHeight) ||
-                other.fallbackHeight == fallbackHeight) &&
-            (identical(other.strokeWidth, strokeWidth) ||
-                other.strokeWidth == strokeWidth) &&
-            (identical(other.color, color) || other.color == color) &&
-            const DeepCollectionEquality().equals(other.child, child));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(runtimeType, fallbackWidth, fallbackHeight,
-      strokeWidth, color, const DeepCollectionEquality().hash(child));
-
-  @override
-  String toString() {
-    return 'StacPlaceholder(fallbackWidth: $fallbackWidth, fallbackHeight: $fallbackHeight, strokeWidth: $strokeWidth, color: $color, child: $child)';
-  }
+StacPlaceholder _$StacPlaceholderFromJson(Map<String, dynamic> json) {
+  return _StacPlaceholder.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacPlaceholderCopyWith<$Res> {
+mixin _$StacPlaceholder {
+  StacDouble get fallbackWidth => throw _privateConstructorUsedError;
+  StacDouble get fallbackHeight => throw _privateConstructorUsedError;
+  StacDouble get strokeWidth => throw _privateConstructorUsedError;
+  String get color => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get child => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacPlaceholderCopyWith<StacPlaceholder> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacPlaceholderCopyWith<$Res> {
   factory $StacPlaceholderCopyWith(
-          StacPlaceholder value, $Res Function(StacPlaceholder) _then) =
-      _$StacPlaceholderCopyWithImpl;
+          StacPlaceholder value, $Res Function(StacPlaceholder) then) =
+      _$StacPlaceholderCopyWithImpl<$Res, StacPlaceholder>;
   @useResult
   $Res call(
       {StacDouble fallbackWidth,
@@ -73,15 +47,15 @@ abstract mixin class $StacPlaceholderCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacPlaceholderCopyWithImpl<$Res>
+class _$StacPlaceholderCopyWithImpl<$Res, $Val extends StacPlaceholder>
     implements $StacPlaceholderCopyWith<$Res> {
-  _$StacPlaceholderCopyWithImpl(this._self, this._then);
+  _$StacPlaceholderCopyWithImpl(this._value, this._then);
 
-  final StacPlaceholder _self;
-  final $Res Function(StacPlaceholder) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacPlaceholder
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -91,25 +65,83 @@ class _$StacPlaceholderCopyWithImpl<$Res>
     Object? color = null,
     Object? child = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       fallbackWidth: null == fallbackWidth
-          ? _self.fallbackWidth
+          ? _value.fallbackWidth
           : fallbackWidth // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       fallbackHeight: null == fallbackHeight
-          ? _self.fallbackHeight
+          ? _value.fallbackHeight
           : fallbackHeight // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       strokeWidth: null == strokeWidth
-          ? _self.strokeWidth
+          ? _value.strokeWidth
           : strokeWidth // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       color: null == color
-          ? _self.color
+          ? _value.color
           : color // ignore: cast_nullable_to_non_nullable
               as String,
       child: freezed == child
-          ? _self.child
+          ? _value.child
+          : child // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacPlaceholderImplCopyWith<$Res>
+    implements $StacPlaceholderCopyWith<$Res> {
+  factory _$$StacPlaceholderImplCopyWith(_$StacPlaceholderImpl value,
+          $Res Function(_$StacPlaceholderImpl) then) =
+      __$$StacPlaceholderImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {StacDouble fallbackWidth,
+      StacDouble fallbackHeight,
+      StacDouble strokeWidth,
+      String color,
+      Map<String, dynamic>? child});
+}
+
+/// @nodoc
+class __$$StacPlaceholderImplCopyWithImpl<$Res>
+    extends _$StacPlaceholderCopyWithImpl<$Res, _$StacPlaceholderImpl>
+    implements _$$StacPlaceholderImplCopyWith<$Res> {
+  __$$StacPlaceholderImplCopyWithImpl(
+      _$StacPlaceholderImpl _value, $Res Function(_$StacPlaceholderImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? fallbackWidth = null,
+    Object? fallbackHeight = null,
+    Object? strokeWidth = null,
+    Object? color = null,
+    Object? child = freezed,
+  }) {
+    return _then(_$StacPlaceholderImpl(
+      fallbackWidth: null == fallbackWidth
+          ? _value.fallbackWidth
+          : fallbackWidth // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      fallbackHeight: null == fallbackHeight
+          ? _value.fallbackHeight
+          : fallbackHeight // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      strokeWidth: null == strokeWidth
+          ? _value.strokeWidth
+          : strokeWidth // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      color: null == color
+          ? _value.color
+          : color // ignore: cast_nullable_to_non_nullable
+              as String,
+      child: freezed == child
+          ? _value._child
           : child // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
     ));
@@ -118,16 +150,17 @@ class _$StacPlaceholderCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _StacPlaceholder implements StacPlaceholder {
-  const _StacPlaceholder(
+class _$StacPlaceholderImpl implements _StacPlaceholder {
+  const _$StacPlaceholderImpl(
       {this.fallbackWidth = const StacDouble(2.0),
       this.fallbackHeight = const StacDouble(400.0),
       this.strokeWidth = const StacDouble(400.0),
       this.color = '#455A64',
       final Map<String, dynamic>? child})
       : _child = child;
-  factory _StacPlaceholder.fromJson(Map<String, dynamic> json) =>
-      _$StacPlaceholderFromJson(json);
+
+  factory _$StacPlaceholderImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacPlaceholderImplFromJson(json);
 
   @override
   @JsonKey()
@@ -151,26 +184,16 @@ class _StacPlaceholder implements StacPlaceholder {
     return EqualUnmodifiableMapView(value);
   }
 
-  /// Create a copy of StacPlaceholder
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacPlaceholderCopyWith<_StacPlaceholder> get copyWith =>
-      __$StacPlaceholderCopyWithImpl<_StacPlaceholder>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacPlaceholderToJson(
-      this,
-    );
+  String toString() {
+    return 'StacPlaceholder(fallbackWidth: $fallbackWidth, fallbackHeight: $fallbackHeight, strokeWidth: $strokeWidth, color: $color, child: $child)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacPlaceholder &&
+            other is _$StacPlaceholderImpl &&
             (identical(other.fallbackWidth, fallbackWidth) ||
                 other.fallbackWidth == fallbackWidth) &&
             (identical(other.fallbackHeight, fallbackHeight) ||
@@ -181,75 +204,49 @@ class _StacPlaceholder implements StacPlaceholder {
             const DeepCollectionEquality().equals(other._child, _child));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(runtimeType, fallbackWidth, fallbackHeight,
       strokeWidth, color, const DeepCollectionEquality().hash(_child));
 
-  @override
-  String toString() {
-    return 'StacPlaceholder(fallbackWidth: $fallbackWidth, fallbackHeight: $fallbackHeight, strokeWidth: $strokeWidth, color: $color, child: $child)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacPlaceholderCopyWith<$Res>
-    implements $StacPlaceholderCopyWith<$Res> {
-  factory _$StacPlaceholderCopyWith(
-          _StacPlaceholder value, $Res Function(_StacPlaceholder) _then) =
-      __$StacPlaceholderCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {StacDouble fallbackWidth,
-      StacDouble fallbackHeight,
-      StacDouble strokeWidth,
-      String color,
-      Map<String, dynamic>? child});
-}
-
-/// @nodoc
-class __$StacPlaceholderCopyWithImpl<$Res>
-    implements _$StacPlaceholderCopyWith<$Res> {
-  __$StacPlaceholderCopyWithImpl(this._self, this._then);
-
-  final _StacPlaceholder _self;
-  final $Res Function(_StacPlaceholder) _then;
-
-  /// Create a copy of StacPlaceholder
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? fallbackWidth = null,
-    Object? fallbackHeight = null,
-    Object? strokeWidth = null,
-    Object? color = null,
-    Object? child = freezed,
-  }) {
-    return _then(_StacPlaceholder(
-      fallbackWidth: null == fallbackWidth
-          ? _self.fallbackWidth
-          : fallbackWidth // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      fallbackHeight: null == fallbackHeight
-          ? _self.fallbackHeight
-          : fallbackHeight // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      strokeWidth: null == strokeWidth
-          ? _self.strokeWidth
-          : strokeWidth // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      color: null == color
-          ? _self.color
-          : color // ignore: cast_nullable_to_non_nullable
-              as String,
-      child: freezed == child
-          ? _self._child
-          : child // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-    ));
+  _$$StacPlaceholderImplCopyWith<_$StacPlaceholderImpl> get copyWith =>
+      __$$StacPlaceholderImplCopyWithImpl<_$StacPlaceholderImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacPlaceholderImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacPlaceholder implements StacPlaceholder {
+  const factory _StacPlaceholder(
+      {final StacDouble fallbackWidth,
+      final StacDouble fallbackHeight,
+      final StacDouble strokeWidth,
+      final String color,
+      final Map<String, dynamic>? child}) = _$StacPlaceholderImpl;
+
+  factory _StacPlaceholder.fromJson(Map<String, dynamic> json) =
+      _$StacPlaceholderImpl.fromJson;
+
+  @override
+  StacDouble get fallbackWidth;
+  @override
+  StacDouble get fallbackHeight;
+  @override
+  StacDouble get strokeWidth;
+  @override
+  String get color;
+  @override
+  Map<String, dynamic>? get child;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacPlaceholderImplCopyWith<_$StacPlaceholderImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

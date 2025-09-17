@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,88 +9,42 @@ part of 'stac_navigation_drawer_theme_data.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacNavigationDrawerThemeData {
-  double? get tileHeight;
-  String? get backgroundColor;
-  double? get elevation;
-  String? get shadowColor;
-  String? get surfaceTintColor;
-  String? get indicatorColor;
-  StacShapeBorder? get indicatorShape;
-  StacSize? get indicatorSize;
-  StacTextStyle? get labelTextStyle;
-  StacIconThemeData? get iconTheme;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacNavigationDrawerThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacNavigationDrawerThemeDataCopyWith<StacNavigationDrawerThemeData>
-      get copyWith => _$StacNavigationDrawerThemeDataCopyWithImpl<
-              StacNavigationDrawerThemeData>(
-          this as StacNavigationDrawerThemeData, _$identity);
-
-  /// Serializes this StacNavigationDrawerThemeData to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacNavigationDrawerThemeData &&
-            (identical(other.tileHeight, tileHeight) ||
-                other.tileHeight == tileHeight) &&
-            (identical(other.backgroundColor, backgroundColor) ||
-                other.backgroundColor == backgroundColor) &&
-            (identical(other.elevation, elevation) ||
-                other.elevation == elevation) &&
-            (identical(other.shadowColor, shadowColor) ||
-                other.shadowColor == shadowColor) &&
-            (identical(other.surfaceTintColor, surfaceTintColor) ||
-                other.surfaceTintColor == surfaceTintColor) &&
-            (identical(other.indicatorColor, indicatorColor) ||
-                other.indicatorColor == indicatorColor) &&
-            (identical(other.indicatorShape, indicatorShape) ||
-                other.indicatorShape == indicatorShape) &&
-            (identical(other.indicatorSize, indicatorSize) ||
-                other.indicatorSize == indicatorSize) &&
-            (identical(other.labelTextStyle, labelTextStyle) ||
-                other.labelTextStyle == labelTextStyle) &&
-            (identical(other.iconTheme, iconTheme) ||
-                other.iconTheme == iconTheme));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType,
-      tileHeight,
-      backgroundColor,
-      elevation,
-      shadowColor,
-      surfaceTintColor,
-      indicatorColor,
-      indicatorShape,
-      indicatorSize,
-      labelTextStyle,
-      iconTheme);
-
-  @override
-  String toString() {
-    return 'StacNavigationDrawerThemeData(tileHeight: $tileHeight, backgroundColor: $backgroundColor, elevation: $elevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, indicatorColor: $indicatorColor, indicatorShape: $indicatorShape, indicatorSize: $indicatorSize, labelTextStyle: $labelTextStyle, iconTheme: $iconTheme)';
-  }
+StacNavigationDrawerThemeData _$StacNavigationDrawerThemeDataFromJson(
+    Map<String, dynamic> json) {
+  return _StacNavigationDrawerThemeData.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacNavigationDrawerThemeDataCopyWith<$Res> {
+mixin _$StacNavigationDrawerThemeData {
+  double? get tileHeight => throw _privateConstructorUsedError;
+  String? get backgroundColor => throw _privateConstructorUsedError;
+  double? get elevation => throw _privateConstructorUsedError;
+  String? get shadowColor => throw _privateConstructorUsedError;
+  String? get surfaceTintColor => throw _privateConstructorUsedError;
+  String? get indicatorColor => throw _privateConstructorUsedError;
+  StacShapeBorder? get indicatorShape => throw _privateConstructorUsedError;
+  StacSize? get indicatorSize => throw _privateConstructorUsedError;
+  StacTextStyle? get labelTextStyle => throw _privateConstructorUsedError;
+  StacIconThemeData? get iconTheme => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacNavigationDrawerThemeDataCopyWith<StacNavigationDrawerThemeData>
+      get copyWith => throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacNavigationDrawerThemeDataCopyWith<$Res> {
   factory $StacNavigationDrawerThemeDataCopyWith(
           StacNavigationDrawerThemeData value,
-          $Res Function(StacNavigationDrawerThemeData) _then) =
-      _$StacNavigationDrawerThemeDataCopyWithImpl;
+          $Res Function(StacNavigationDrawerThemeData) then) =
+      _$StacNavigationDrawerThemeDataCopyWithImpl<$Res,
+          StacNavigationDrawerThemeData>;
   @useResult
   $Res call(
       {double? tileHeight,
@@ -112,15 +65,16 @@ abstract mixin class $StacNavigationDrawerThemeDataCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacNavigationDrawerThemeDataCopyWithImpl<$Res>
+class _$StacNavigationDrawerThemeDataCopyWithImpl<$Res,
+        $Val extends StacNavigationDrawerThemeData>
     implements $StacNavigationDrawerThemeDataCopyWith<$Res> {
-  _$StacNavigationDrawerThemeDataCopyWithImpl(this._self, this._then);
+  _$StacNavigationDrawerThemeDataCopyWithImpl(this._value, this._then);
 
-  final StacNavigationDrawerThemeData _self;
-  final $Res Function(StacNavigationDrawerThemeData) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacNavigationDrawerThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -135,111 +89,204 @@ class _$StacNavigationDrawerThemeDataCopyWithImpl<$Res>
     Object? labelTextStyle = freezed,
     Object? iconTheme = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       tileHeight: freezed == tileHeight
-          ? _self.tileHeight
+          ? _value.tileHeight
           : tileHeight // ignore: cast_nullable_to_non_nullable
               as double?,
       backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
+          ? _value.backgroundColor
           : backgroundColor // ignore: cast_nullable_to_non_nullable
               as String?,
       elevation: freezed == elevation
-          ? _self.elevation
+          ? _value.elevation
           : elevation // ignore: cast_nullable_to_non_nullable
               as double?,
       shadowColor: freezed == shadowColor
-          ? _self.shadowColor
+          ? _value.shadowColor
           : shadowColor // ignore: cast_nullable_to_non_nullable
               as String?,
       surfaceTintColor: freezed == surfaceTintColor
-          ? _self.surfaceTintColor
+          ? _value.surfaceTintColor
           : surfaceTintColor // ignore: cast_nullable_to_non_nullable
               as String?,
       indicatorColor: freezed == indicatorColor
-          ? _self.indicatorColor
+          ? _value.indicatorColor
           : indicatorColor // ignore: cast_nullable_to_non_nullable
               as String?,
       indicatorShape: freezed == indicatorShape
-          ? _self.indicatorShape
+          ? _value.indicatorShape
           : indicatorShape // ignore: cast_nullable_to_non_nullable
               as StacShapeBorder?,
       indicatorSize: freezed == indicatorSize
-          ? _self.indicatorSize
+          ? _value.indicatorSize
           : indicatorSize // ignore: cast_nullable_to_non_nullable
               as StacSize?,
       labelTextStyle: freezed == labelTextStyle
-          ? _self.labelTextStyle
+          ? _value.labelTextStyle
           : labelTextStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       iconTheme: freezed == iconTheme
-          ? _self.iconTheme
+          ? _value.iconTheme
           : iconTheme // ignore: cast_nullable_to_non_nullable
               as StacIconThemeData?,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacNavigationDrawerThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacShapeBorderCopyWith<$Res>? get indicatorShape {
-    if (_self.indicatorShape == null) {
+    if (_value.indicatorShape == null) {
       return null;
     }
 
-    return $StacShapeBorderCopyWith<$Res>(_self.indicatorShape!, (value) {
-      return _then(_self.copyWith(indicatorShape: value));
+    return $StacShapeBorderCopyWith<$Res>(_value.indicatorShape!, (value) {
+      return _then(_value.copyWith(indicatorShape: value) as $Val);
     });
   }
 
-  /// Create a copy of StacNavigationDrawerThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacSizeCopyWith<$Res>? get indicatorSize {
-    if (_self.indicatorSize == null) {
+    if (_value.indicatorSize == null) {
       return null;
     }
 
-    return $StacSizeCopyWith<$Res>(_self.indicatorSize!, (value) {
-      return _then(_self.copyWith(indicatorSize: value));
+    return $StacSizeCopyWith<$Res>(_value.indicatorSize!, (value) {
+      return _then(_value.copyWith(indicatorSize: value) as $Val);
     });
   }
 
-  /// Create a copy of StacNavigationDrawerThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacTextStyleCopyWith<$Res>? get labelTextStyle {
-    if (_self.labelTextStyle == null) {
+    if (_value.labelTextStyle == null) {
       return null;
     }
 
-    return $StacTextStyleCopyWith<$Res>(_self.labelTextStyle!, (value) {
-      return _then(_self.copyWith(labelTextStyle: value));
+    return $StacTextStyleCopyWith<$Res>(_value.labelTextStyle!, (value) {
+      return _then(_value.copyWith(labelTextStyle: value) as $Val);
     });
   }
 
-  /// Create a copy of StacNavigationDrawerThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacIconThemeDataCopyWith<$Res>? get iconTheme {
-    if (_self.iconTheme == null) {
+    if (_value.iconTheme == null) {
       return null;
     }
 
-    return $StacIconThemeDataCopyWith<$Res>(_self.iconTheme!, (value) {
-      return _then(_self.copyWith(iconTheme: value));
+    return $StacIconThemeDataCopyWith<$Res>(_value.iconTheme!, (value) {
+      return _then(_value.copyWith(iconTheme: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacNavigationDrawerThemeDataImplCopyWith<$Res>
+    implements $StacNavigationDrawerThemeDataCopyWith<$Res> {
+  factory _$$StacNavigationDrawerThemeDataImplCopyWith(
+          _$StacNavigationDrawerThemeDataImpl value,
+          $Res Function(_$StacNavigationDrawerThemeDataImpl) then) =
+      __$$StacNavigationDrawerThemeDataImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {double? tileHeight,
+      String? backgroundColor,
+      double? elevation,
+      String? shadowColor,
+      String? surfaceTintColor,
+      String? indicatorColor,
+      StacShapeBorder? indicatorShape,
+      StacSize? indicatorSize,
+      StacTextStyle? labelTextStyle,
+      StacIconThemeData? iconTheme});
+
+  @override
+  $StacShapeBorderCopyWith<$Res>? get indicatorShape;
+  @override
+  $StacSizeCopyWith<$Res>? get indicatorSize;
+  @override
+  $StacTextStyleCopyWith<$Res>? get labelTextStyle;
+  @override
+  $StacIconThemeDataCopyWith<$Res>? get iconTheme;
+}
+
+/// @nodoc
+class __$$StacNavigationDrawerThemeDataImplCopyWithImpl<$Res>
+    extends _$StacNavigationDrawerThemeDataCopyWithImpl<$Res,
+        _$StacNavigationDrawerThemeDataImpl>
+    implements _$$StacNavigationDrawerThemeDataImplCopyWith<$Res> {
+  __$$StacNavigationDrawerThemeDataImplCopyWithImpl(
+      _$StacNavigationDrawerThemeDataImpl _value,
+      $Res Function(_$StacNavigationDrawerThemeDataImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? tileHeight = freezed,
+    Object? backgroundColor = freezed,
+    Object? elevation = freezed,
+    Object? shadowColor = freezed,
+    Object? surfaceTintColor = freezed,
+    Object? indicatorColor = freezed,
+    Object? indicatorShape = freezed,
+    Object? indicatorSize = freezed,
+    Object? labelTextStyle = freezed,
+    Object? iconTheme = freezed,
+  }) {
+    return _then(_$StacNavigationDrawerThemeDataImpl(
+      tileHeight: freezed == tileHeight
+          ? _value.tileHeight
+          : tileHeight // ignore: cast_nullable_to_non_nullable
+              as double?,
+      backgroundColor: freezed == backgroundColor
+          ? _value.backgroundColor
+          : backgroundColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      elevation: freezed == elevation
+          ? _value.elevation
+          : elevation // ignore: cast_nullable_to_non_nullable
+              as double?,
+      shadowColor: freezed == shadowColor
+          ? _value.shadowColor
+          : shadowColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      surfaceTintColor: freezed == surfaceTintColor
+          ? _value.surfaceTintColor
+          : surfaceTintColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      indicatorColor: freezed == indicatorColor
+          ? _value.indicatorColor
+          : indicatorColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      indicatorShape: freezed == indicatorShape
+          ? _value.indicatorShape
+          : indicatorShape // ignore: cast_nullable_to_non_nullable
+              as StacShapeBorder?,
+      indicatorSize: freezed == indicatorSize
+          ? _value.indicatorSize
+          : indicatorSize // ignore: cast_nullable_to_non_nullable
+              as StacSize?,
+      labelTextStyle: freezed == labelTextStyle
+          ? _value.labelTextStyle
+          : labelTextStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      iconTheme: freezed == iconTheme
+          ? _value.iconTheme
+          : iconTheme // ignore: cast_nullable_to_non_nullable
+              as StacIconThemeData?,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacNavigationDrawerThemeData implements StacNavigationDrawerThemeData {
-  const _StacNavigationDrawerThemeData(
+class _$StacNavigationDrawerThemeDataImpl
+    implements _StacNavigationDrawerThemeData {
+  const _$StacNavigationDrawerThemeDataImpl(
       {this.tileHeight,
       this.backgroundColor,
       this.elevation,
@@ -250,8 +297,10 @@ class _StacNavigationDrawerThemeData implements StacNavigationDrawerThemeData {
       this.indicatorSize,
       this.labelTextStyle,
       this.iconTheme});
-  factory _StacNavigationDrawerThemeData.fromJson(Map<String, dynamic> json) =>
-      _$StacNavigationDrawerThemeDataFromJson(json);
+
+  factory _$StacNavigationDrawerThemeDataImpl.fromJson(
+          Map<String, dynamic> json) =>
+      _$$StacNavigationDrawerThemeDataImplFromJson(json);
 
   @override
   final double? tileHeight;
@@ -274,27 +323,16 @@ class _StacNavigationDrawerThemeData implements StacNavigationDrawerThemeData {
   @override
   final StacIconThemeData? iconTheme;
 
-  /// Create a copy of StacNavigationDrawerThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacNavigationDrawerThemeDataCopyWith<_StacNavigationDrawerThemeData>
-      get copyWith => __$StacNavigationDrawerThemeDataCopyWithImpl<
-          _StacNavigationDrawerThemeData>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacNavigationDrawerThemeDataToJson(
-      this,
-    );
+  String toString() {
+    return 'StacNavigationDrawerThemeData(tileHeight: $tileHeight, backgroundColor: $backgroundColor, elevation: $elevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, indicatorColor: $indicatorColor, indicatorShape: $indicatorShape, indicatorSize: $indicatorSize, labelTextStyle: $labelTextStyle, iconTheme: $iconTheme)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacNavigationDrawerThemeData &&
+            other is _$StacNavigationDrawerThemeDataImpl &&
             (identical(other.tileHeight, tileHeight) ||
                 other.tileHeight == tileHeight) &&
             (identical(other.backgroundColor, backgroundColor) ||
@@ -317,7 +355,7 @@ class _StacNavigationDrawerThemeData implements StacNavigationDrawerThemeData {
                 other.iconTheme == iconTheme));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -332,166 +370,63 @@ class _StacNavigationDrawerThemeData implements StacNavigationDrawerThemeData {
       labelTextStyle,
       iconTheme);
 
+  @JsonKey(ignore: true)
   @override
-  String toString() {
-    return 'StacNavigationDrawerThemeData(tileHeight: $tileHeight, backgroundColor: $backgroundColor, elevation: $elevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, indicatorColor: $indicatorColor, indicatorShape: $indicatorShape, indicatorSize: $indicatorSize, labelTextStyle: $labelTextStyle, iconTheme: $iconTheme)';
+  @pragma('vm:prefer-inline')
+  _$$StacNavigationDrawerThemeDataImplCopyWith<
+          _$StacNavigationDrawerThemeDataImpl>
+      get copyWith => __$$StacNavigationDrawerThemeDataImplCopyWithImpl<
+          _$StacNavigationDrawerThemeDataImpl>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacNavigationDrawerThemeDataImplToJson(
+      this,
+    );
   }
 }
 
-/// @nodoc
-abstract mixin class _$StacNavigationDrawerThemeDataCopyWith<$Res>
-    implements $StacNavigationDrawerThemeDataCopyWith<$Res> {
-  factory _$StacNavigationDrawerThemeDataCopyWith(
-          _StacNavigationDrawerThemeData value,
-          $Res Function(_StacNavigationDrawerThemeData) _then) =
-      __$StacNavigationDrawerThemeDataCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {double? tileHeight,
-      String? backgroundColor,
-      double? elevation,
-      String? shadowColor,
-      String? surfaceTintColor,
-      String? indicatorColor,
-      StacShapeBorder? indicatorShape,
-      StacSize? indicatorSize,
-      StacTextStyle? labelTextStyle,
-      StacIconThemeData? iconTheme});
+abstract class _StacNavigationDrawerThemeData
+    implements StacNavigationDrawerThemeData {
+  const factory _StacNavigationDrawerThemeData(
+          {final double? tileHeight,
+          final String? backgroundColor,
+          final double? elevation,
+          final String? shadowColor,
+          final String? surfaceTintColor,
+          final String? indicatorColor,
+          final StacShapeBorder? indicatorShape,
+          final StacSize? indicatorSize,
+          final StacTextStyle? labelTextStyle,
+          final StacIconThemeData? iconTheme}) =
+      _$StacNavigationDrawerThemeDataImpl;
+
+  factory _StacNavigationDrawerThemeData.fromJson(Map<String, dynamic> json) =
+      _$StacNavigationDrawerThemeDataImpl.fromJson;
 
   @override
-  $StacShapeBorderCopyWith<$Res>? get indicatorShape;
+  double? get tileHeight;
   @override
-  $StacSizeCopyWith<$Res>? get indicatorSize;
+  String? get backgroundColor;
   @override
-  $StacTextStyleCopyWith<$Res>? get labelTextStyle;
+  double? get elevation;
   @override
-  $StacIconThemeDataCopyWith<$Res>? get iconTheme;
+  String? get shadowColor;
+  @override
+  String? get surfaceTintColor;
+  @override
+  String? get indicatorColor;
+  @override
+  StacShapeBorder? get indicatorShape;
+  @override
+  StacSize? get indicatorSize;
+  @override
+  StacTextStyle? get labelTextStyle;
+  @override
+  StacIconThemeData? get iconTheme;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacNavigationDrawerThemeDataImplCopyWith<
+          _$StacNavigationDrawerThemeDataImpl>
+      get copyWith => throw _privateConstructorUsedError;
 }
-
-/// @nodoc
-class __$StacNavigationDrawerThemeDataCopyWithImpl<$Res>
-    implements _$StacNavigationDrawerThemeDataCopyWith<$Res> {
-  __$StacNavigationDrawerThemeDataCopyWithImpl(this._self, this._then);
-
-  final _StacNavigationDrawerThemeData _self;
-  final $Res Function(_StacNavigationDrawerThemeData) _then;
-
-  /// Create a copy of StacNavigationDrawerThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $Res call({
-    Object? tileHeight = freezed,
-    Object? backgroundColor = freezed,
-    Object? elevation = freezed,
-    Object? shadowColor = freezed,
-    Object? surfaceTintColor = freezed,
-    Object? indicatorColor = freezed,
-    Object? indicatorShape = freezed,
-    Object? indicatorSize = freezed,
-    Object? labelTextStyle = freezed,
-    Object? iconTheme = freezed,
-  }) {
-    return _then(_StacNavigationDrawerThemeData(
-      tileHeight: freezed == tileHeight
-          ? _self.tileHeight
-          : tileHeight // ignore: cast_nullable_to_non_nullable
-              as double?,
-      backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
-          : backgroundColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      elevation: freezed == elevation
-          ? _self.elevation
-          : elevation // ignore: cast_nullable_to_non_nullable
-              as double?,
-      shadowColor: freezed == shadowColor
-          ? _self.shadowColor
-          : shadowColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      surfaceTintColor: freezed == surfaceTintColor
-          ? _self.surfaceTintColor
-          : surfaceTintColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      indicatorColor: freezed == indicatorColor
-          ? _self.indicatorColor
-          : indicatorColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      indicatorShape: freezed == indicatorShape
-          ? _self.indicatorShape
-          : indicatorShape // ignore: cast_nullable_to_non_nullable
-              as StacShapeBorder?,
-      indicatorSize: freezed == indicatorSize
-          ? _self.indicatorSize
-          : indicatorSize // ignore: cast_nullable_to_non_nullable
-              as StacSize?,
-      labelTextStyle: freezed == labelTextStyle
-          ? _self.labelTextStyle
-          : labelTextStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      iconTheme: freezed == iconTheme
-          ? _self.iconTheme
-          : iconTheme // ignore: cast_nullable_to_non_nullable
-              as StacIconThemeData?,
-    ));
-  }
-
-  /// Create a copy of StacNavigationDrawerThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacShapeBorderCopyWith<$Res>? get indicatorShape {
-    if (_self.indicatorShape == null) {
-      return null;
-    }
-
-    return $StacShapeBorderCopyWith<$Res>(_self.indicatorShape!, (value) {
-      return _then(_self.copyWith(indicatorShape: value));
-    });
-  }
-
-  /// Create a copy of StacNavigationDrawerThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacSizeCopyWith<$Res>? get indicatorSize {
-    if (_self.indicatorSize == null) {
-      return null;
-    }
-
-    return $StacSizeCopyWith<$Res>(_self.indicatorSize!, (value) {
-      return _then(_self.copyWith(indicatorSize: value));
-    });
-  }
-
-  /// Create a copy of StacNavigationDrawerThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get labelTextStyle {
-    if (_self.labelTextStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_self.labelTextStyle!, (value) {
-      return _then(_self.copyWith(labelTextStyle: value));
-    });
-  }
-
-  /// Create a copy of StacNavigationDrawerThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacIconThemeDataCopyWith<$Res>? get iconTheme {
-    if (_self.iconTheme == null) {
-      return null;
-    }
-
-    return $StacIconThemeDataCopyWith<$Res>(_self.iconTheme!, (value) {
-      return _then(_self.copyWith(iconTheme: value));
-    });
-  }
-}
-
-// dart format on

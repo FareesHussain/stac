@@ -6,12 +6,14 @@ part of 'stac_get_form_value.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacGetFormValue _$StacGetFormValueFromJson(Map<String, dynamic> json) =>
-    _StacGetFormValue(
+_$StacGetFormValueImpl _$$StacGetFormValueImplFromJson(
+        Map<String, dynamic> json) =>
+    _$StacGetFormValueImpl(
       id: json['id'] as String,
     );
 
-Map<String, dynamic> _$StacGetFormValueToJson(_StacGetFormValue instance) =>
+Map<String, dynamic> _$$StacGetFormValueImplToJson(
+        _$StacGetFormValueImpl instance) =>
     <String, dynamic>{
       'id': instance.id,
     };

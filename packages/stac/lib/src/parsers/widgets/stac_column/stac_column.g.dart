@@ -6,7 +6,8 @@ part of 'stac_column.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacColumn _$StacColumnFromJson(Map<String, dynamic> json) => _StacColumn(
+_$StacColumnImpl _$$StacColumnImplFromJson(Map<String, dynamic> json) =>
+    _$StacColumnImpl(
       mainAxisAlignment: $enumDecodeNullable(
               _$MainAxisAlignmentEnumMap, json['mainAxisAlignment']) ??
           MainAxisAlignment.start,
@@ -30,7 +31,7 @@ _StacColumn _$StacColumnFromJson(Map<String, dynamic> json) => _StacColumn(
           const [],
     );
 
-Map<String, dynamic> _$StacColumnToJson(_StacColumn instance) =>
+Map<String, dynamic> _$$StacColumnImplToJson(_$StacColumnImpl instance) =>
     <String, dynamic>{
       'mainAxisAlignment':
           _$MainAxisAlignmentEnumMap[instance.mainAxisAlignment]!,

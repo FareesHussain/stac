@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,136 +9,54 @@ part of 'stac_chip_theme_data.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacChipThemeData {
-  String? get color;
-  String? get backgroundColor;
-  String? get deleteIconColor;
-  String? get disabledColor;
-  String? get selectedColor;
-  String? get secondarySelectedColor;
-  String? get shadowColor;
-  String? get surfaceTintColor;
-  String? get selectedShadowColor;
-  bool? get showCheckmark;
-  String? get checkmarkColor;
-  StacEdgeInsets? get labelPadding;
-  StacEdgeInsets? get padding;
-  StacBorderSide? get side;
-  StacShapeBorder? get shape;
-  StacTextStyle? get labelStyle;
-  StacTextStyle? get secondaryLabelStyle;
-  Brightness? get brightness;
-  double? get elevation;
-  double? get pressElevation;
-  StacIconThemeData? get iconTheme;
-  StacBoxConstraints? get avatarBoxConstraints;
-  StacBoxConstraints? get deleteIconBoxConstraints;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacChipThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacChipThemeDataCopyWith<StacChipThemeData> get copyWith =>
-      _$StacChipThemeDataCopyWithImpl<StacChipThemeData>(
-          this as StacChipThemeData, _$identity);
-
-  /// Serializes this StacChipThemeData to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacChipThemeData &&
-            (identical(other.color, color) || other.color == color) &&
-            (identical(other.backgroundColor, backgroundColor) ||
-                other.backgroundColor == backgroundColor) &&
-            (identical(other.deleteIconColor, deleteIconColor) ||
-                other.deleteIconColor == deleteIconColor) &&
-            (identical(other.disabledColor, disabledColor) ||
-                other.disabledColor == disabledColor) &&
-            (identical(other.selectedColor, selectedColor) ||
-                other.selectedColor == selectedColor) &&
-            (identical(other.secondarySelectedColor, secondarySelectedColor) ||
-                other.secondarySelectedColor == secondarySelectedColor) &&
-            (identical(other.shadowColor, shadowColor) ||
-                other.shadowColor == shadowColor) &&
-            (identical(other.surfaceTintColor, surfaceTintColor) ||
-                other.surfaceTintColor == surfaceTintColor) &&
-            (identical(other.selectedShadowColor, selectedShadowColor) ||
-                other.selectedShadowColor == selectedShadowColor) &&
-            (identical(other.showCheckmark, showCheckmark) ||
-                other.showCheckmark == showCheckmark) &&
-            (identical(other.checkmarkColor, checkmarkColor) ||
-                other.checkmarkColor == checkmarkColor) &&
-            (identical(other.labelPadding, labelPadding) ||
-                other.labelPadding == labelPadding) &&
-            (identical(other.padding, padding) || other.padding == padding) &&
-            (identical(other.side, side) || other.side == side) &&
-            (identical(other.shape, shape) || other.shape == shape) &&
-            (identical(other.labelStyle, labelStyle) ||
-                other.labelStyle == labelStyle) &&
-            (identical(other.secondaryLabelStyle, secondaryLabelStyle) ||
-                other.secondaryLabelStyle == secondaryLabelStyle) &&
-            (identical(other.brightness, brightness) ||
-                other.brightness == brightness) &&
-            (identical(other.elevation, elevation) ||
-                other.elevation == elevation) &&
-            (identical(other.pressElevation, pressElevation) ||
-                other.pressElevation == pressElevation) &&
-            (identical(other.iconTheme, iconTheme) ||
-                other.iconTheme == iconTheme) &&
-            (identical(other.avatarBoxConstraints, avatarBoxConstraints) ||
-                other.avatarBoxConstraints == avatarBoxConstraints) &&
-            (identical(
-                    other.deleteIconBoxConstraints, deleteIconBoxConstraints) ||
-                other.deleteIconBoxConstraints == deleteIconBoxConstraints));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hashAll([
-        runtimeType,
-        color,
-        backgroundColor,
-        deleteIconColor,
-        disabledColor,
-        selectedColor,
-        secondarySelectedColor,
-        shadowColor,
-        surfaceTintColor,
-        selectedShadowColor,
-        showCheckmark,
-        checkmarkColor,
-        labelPadding,
-        padding,
-        side,
-        shape,
-        labelStyle,
-        secondaryLabelStyle,
-        brightness,
-        elevation,
-        pressElevation,
-        iconTheme,
-        avatarBoxConstraints,
-        deleteIconBoxConstraints
-      ]);
-
-  @override
-  String toString() {
-    return 'StacChipThemeData(color: $color, backgroundColor: $backgroundColor, deleteIconColor: $deleteIconColor, disabledColor: $disabledColor, selectedColor: $selectedColor, secondarySelectedColor: $secondarySelectedColor, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, selectedShadowColor: $selectedShadowColor, showCheckmark: $showCheckmark, checkmarkColor: $checkmarkColor, labelPadding: $labelPadding, padding: $padding, side: $side, shape: $shape, labelStyle: $labelStyle, secondaryLabelStyle: $secondaryLabelStyle, brightness: $brightness, elevation: $elevation, pressElevation: $pressElevation, iconTheme: $iconTheme, avatarBoxConstraints: $avatarBoxConstraints, deleteIconBoxConstraints: $deleteIconBoxConstraints)';
-  }
+StacChipThemeData _$StacChipThemeDataFromJson(Map<String, dynamic> json) {
+  return _StacChipThemeData.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacChipThemeDataCopyWith<$Res> {
+mixin _$StacChipThemeData {
+  String? get color => throw _privateConstructorUsedError;
+  String? get backgroundColor => throw _privateConstructorUsedError;
+  String? get deleteIconColor => throw _privateConstructorUsedError;
+  String? get disabledColor => throw _privateConstructorUsedError;
+  String? get selectedColor => throw _privateConstructorUsedError;
+  String? get secondarySelectedColor => throw _privateConstructorUsedError;
+  String? get shadowColor => throw _privateConstructorUsedError;
+  String? get surfaceTintColor => throw _privateConstructorUsedError;
+  String? get selectedShadowColor => throw _privateConstructorUsedError;
+  bool? get showCheckmark => throw _privateConstructorUsedError;
+  String? get checkmarkColor => throw _privateConstructorUsedError;
+  StacEdgeInsets? get labelPadding => throw _privateConstructorUsedError;
+  StacEdgeInsets? get padding => throw _privateConstructorUsedError;
+  StacBorderSide? get side => throw _privateConstructorUsedError;
+  StacShapeBorder? get shape => throw _privateConstructorUsedError;
+  StacTextStyle? get labelStyle => throw _privateConstructorUsedError;
+  StacTextStyle? get secondaryLabelStyle => throw _privateConstructorUsedError;
+  Brightness? get brightness => throw _privateConstructorUsedError;
+  double? get elevation => throw _privateConstructorUsedError;
+  double? get pressElevation => throw _privateConstructorUsedError;
+  StacIconThemeData? get iconTheme => throw _privateConstructorUsedError;
+  StacBoxConstraints? get avatarBoxConstraints =>
+      throw _privateConstructorUsedError;
+  StacBoxConstraints? get deleteIconBoxConstraints =>
+      throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacChipThemeDataCopyWith<StacChipThemeData> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacChipThemeDataCopyWith<$Res> {
   factory $StacChipThemeDataCopyWith(
-          StacChipThemeData value, $Res Function(StacChipThemeData) _then) =
-      _$StacChipThemeDataCopyWithImpl;
+          StacChipThemeData value, $Res Function(StacChipThemeData) then) =
+      _$StacChipThemeDataCopyWithImpl<$Res, StacChipThemeData>;
   @useResult
   $Res call(
       {String? color,
@@ -178,15 +95,15 @@ abstract mixin class $StacChipThemeDataCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacChipThemeDataCopyWithImpl<$Res>
+class _$StacChipThemeDataCopyWithImpl<$Res, $Val extends StacChipThemeData>
     implements $StacChipThemeDataCopyWith<$Res> {
-  _$StacChipThemeDataCopyWithImpl(this._self, this._then);
+  _$StacChipThemeDataCopyWithImpl(this._value, this._then);
 
-  final StacChipThemeData _self;
-  final $Res Function(StacChipThemeData) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacChipThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -214,235 +131,402 @@ class _$StacChipThemeDataCopyWithImpl<$Res>
     Object? avatarBoxConstraints = freezed,
     Object? deleteIconBoxConstraints = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       color: freezed == color
-          ? _self.color
+          ? _value.color
           : color // ignore: cast_nullable_to_non_nullable
               as String?,
       backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
+          ? _value.backgroundColor
           : backgroundColor // ignore: cast_nullable_to_non_nullable
               as String?,
       deleteIconColor: freezed == deleteIconColor
-          ? _self.deleteIconColor
+          ? _value.deleteIconColor
           : deleteIconColor // ignore: cast_nullable_to_non_nullable
               as String?,
       disabledColor: freezed == disabledColor
-          ? _self.disabledColor
+          ? _value.disabledColor
           : disabledColor // ignore: cast_nullable_to_non_nullable
               as String?,
       selectedColor: freezed == selectedColor
-          ? _self.selectedColor
+          ? _value.selectedColor
           : selectedColor // ignore: cast_nullable_to_non_nullable
               as String?,
       secondarySelectedColor: freezed == secondarySelectedColor
-          ? _self.secondarySelectedColor
+          ? _value.secondarySelectedColor
           : secondarySelectedColor // ignore: cast_nullable_to_non_nullable
               as String?,
       shadowColor: freezed == shadowColor
-          ? _self.shadowColor
+          ? _value.shadowColor
           : shadowColor // ignore: cast_nullable_to_non_nullable
               as String?,
       surfaceTintColor: freezed == surfaceTintColor
-          ? _self.surfaceTintColor
+          ? _value.surfaceTintColor
           : surfaceTintColor // ignore: cast_nullable_to_non_nullable
               as String?,
       selectedShadowColor: freezed == selectedShadowColor
-          ? _self.selectedShadowColor
+          ? _value.selectedShadowColor
           : selectedShadowColor // ignore: cast_nullable_to_non_nullable
               as String?,
       showCheckmark: freezed == showCheckmark
-          ? _self.showCheckmark
+          ? _value.showCheckmark
           : showCheckmark // ignore: cast_nullable_to_non_nullable
               as bool?,
       checkmarkColor: freezed == checkmarkColor
-          ? _self.checkmarkColor
+          ? _value.checkmarkColor
           : checkmarkColor // ignore: cast_nullable_to_non_nullable
               as String?,
       labelPadding: freezed == labelPadding
-          ? _self.labelPadding
+          ? _value.labelPadding
           : labelPadding // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets?,
       padding: freezed == padding
-          ? _self.padding
+          ? _value.padding
           : padding // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets?,
       side: freezed == side
-          ? _self.side
+          ? _value.side
           : side // ignore: cast_nullable_to_non_nullable
               as StacBorderSide?,
       shape: freezed == shape
-          ? _self.shape
+          ? _value.shape
           : shape // ignore: cast_nullable_to_non_nullable
               as StacShapeBorder?,
       labelStyle: freezed == labelStyle
-          ? _self.labelStyle
+          ? _value.labelStyle
           : labelStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       secondaryLabelStyle: freezed == secondaryLabelStyle
-          ? _self.secondaryLabelStyle
+          ? _value.secondaryLabelStyle
           : secondaryLabelStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       brightness: freezed == brightness
-          ? _self.brightness
+          ? _value.brightness
           : brightness // ignore: cast_nullable_to_non_nullable
               as Brightness?,
       elevation: freezed == elevation
-          ? _self.elevation
+          ? _value.elevation
           : elevation // ignore: cast_nullable_to_non_nullable
               as double?,
       pressElevation: freezed == pressElevation
-          ? _self.pressElevation
+          ? _value.pressElevation
           : pressElevation // ignore: cast_nullable_to_non_nullable
               as double?,
       iconTheme: freezed == iconTheme
-          ? _self.iconTheme
+          ? _value.iconTheme
           : iconTheme // ignore: cast_nullable_to_non_nullable
               as StacIconThemeData?,
       avatarBoxConstraints: freezed == avatarBoxConstraints
-          ? _self.avatarBoxConstraints
+          ? _value.avatarBoxConstraints
           : avatarBoxConstraints // ignore: cast_nullable_to_non_nullable
               as StacBoxConstraints?,
       deleteIconBoxConstraints: freezed == deleteIconBoxConstraints
-          ? _self.deleteIconBoxConstraints
+          ? _value.deleteIconBoxConstraints
           : deleteIconBoxConstraints // ignore: cast_nullable_to_non_nullable
               as StacBoxConstraints?,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacChipThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacEdgeInsetsCopyWith<$Res>? get labelPadding {
-    if (_self.labelPadding == null) {
+    if (_value.labelPadding == null) {
       return null;
     }
 
-    return $StacEdgeInsetsCopyWith<$Res>(_self.labelPadding!, (value) {
-      return _then(_self.copyWith(labelPadding: value));
+    return $StacEdgeInsetsCopyWith<$Res>(_value.labelPadding!, (value) {
+      return _then(_value.copyWith(labelPadding: value) as $Val);
     });
   }
 
-  /// Create a copy of StacChipThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacEdgeInsetsCopyWith<$Res>? get padding {
-    if (_self.padding == null) {
+    if (_value.padding == null) {
       return null;
     }
 
-    return $StacEdgeInsetsCopyWith<$Res>(_self.padding!, (value) {
-      return _then(_self.copyWith(padding: value));
+    return $StacEdgeInsetsCopyWith<$Res>(_value.padding!, (value) {
+      return _then(_value.copyWith(padding: value) as $Val);
     });
   }
 
-  /// Create a copy of StacChipThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacBorderSideCopyWith<$Res>? get side {
-    if (_self.side == null) {
+    if (_value.side == null) {
       return null;
     }
 
-    return $StacBorderSideCopyWith<$Res>(_self.side!, (value) {
-      return _then(_self.copyWith(side: value));
+    return $StacBorderSideCopyWith<$Res>(_value.side!, (value) {
+      return _then(_value.copyWith(side: value) as $Val);
     });
   }
 
-  /// Create a copy of StacChipThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacShapeBorderCopyWith<$Res>? get shape {
-    if (_self.shape == null) {
+    if (_value.shape == null) {
       return null;
     }
 
-    return $StacShapeBorderCopyWith<$Res>(_self.shape!, (value) {
-      return _then(_self.copyWith(shape: value));
+    return $StacShapeBorderCopyWith<$Res>(_value.shape!, (value) {
+      return _then(_value.copyWith(shape: value) as $Val);
     });
   }
 
-  /// Create a copy of StacChipThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacTextStyleCopyWith<$Res>? get labelStyle {
-    if (_self.labelStyle == null) {
+    if (_value.labelStyle == null) {
       return null;
     }
 
-    return $StacTextStyleCopyWith<$Res>(_self.labelStyle!, (value) {
-      return _then(_self.copyWith(labelStyle: value));
+    return $StacTextStyleCopyWith<$Res>(_value.labelStyle!, (value) {
+      return _then(_value.copyWith(labelStyle: value) as $Val);
     });
   }
 
-  /// Create a copy of StacChipThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacTextStyleCopyWith<$Res>? get secondaryLabelStyle {
-    if (_self.secondaryLabelStyle == null) {
+    if (_value.secondaryLabelStyle == null) {
       return null;
     }
 
-    return $StacTextStyleCopyWith<$Res>(_self.secondaryLabelStyle!, (value) {
-      return _then(_self.copyWith(secondaryLabelStyle: value));
+    return $StacTextStyleCopyWith<$Res>(_value.secondaryLabelStyle!, (value) {
+      return _then(_value.copyWith(secondaryLabelStyle: value) as $Val);
     });
   }
 
-  /// Create a copy of StacChipThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacIconThemeDataCopyWith<$Res>? get iconTheme {
-    if (_self.iconTheme == null) {
+    if (_value.iconTheme == null) {
       return null;
     }
 
-    return $StacIconThemeDataCopyWith<$Res>(_self.iconTheme!, (value) {
-      return _then(_self.copyWith(iconTheme: value));
+    return $StacIconThemeDataCopyWith<$Res>(_value.iconTheme!, (value) {
+      return _then(_value.copyWith(iconTheme: value) as $Val);
     });
   }
 
-  /// Create a copy of StacChipThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacBoxConstraintsCopyWith<$Res>? get avatarBoxConstraints {
-    if (_self.avatarBoxConstraints == null) {
+    if (_value.avatarBoxConstraints == null) {
       return null;
     }
 
-    return $StacBoxConstraintsCopyWith<$Res>(_self.avatarBoxConstraints!,
+    return $StacBoxConstraintsCopyWith<$Res>(_value.avatarBoxConstraints!,
         (value) {
-      return _then(_self.copyWith(avatarBoxConstraints: value));
+      return _then(_value.copyWith(avatarBoxConstraints: value) as $Val);
     });
   }
 
-  /// Create a copy of StacChipThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacBoxConstraintsCopyWith<$Res>? get deleteIconBoxConstraints {
-    if (_self.deleteIconBoxConstraints == null) {
+    if (_value.deleteIconBoxConstraints == null) {
       return null;
     }
 
-    return $StacBoxConstraintsCopyWith<$Res>(_self.deleteIconBoxConstraints!,
+    return $StacBoxConstraintsCopyWith<$Res>(_value.deleteIconBoxConstraints!,
         (value) {
-      return _then(_self.copyWith(deleteIconBoxConstraints: value));
+      return _then(_value.copyWith(deleteIconBoxConstraints: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacChipThemeDataImplCopyWith<$Res>
+    implements $StacChipThemeDataCopyWith<$Res> {
+  factory _$$StacChipThemeDataImplCopyWith(_$StacChipThemeDataImpl value,
+          $Res Function(_$StacChipThemeDataImpl) then) =
+      __$$StacChipThemeDataImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {String? color,
+      String? backgroundColor,
+      String? deleteIconColor,
+      String? disabledColor,
+      String? selectedColor,
+      String? secondarySelectedColor,
+      String? shadowColor,
+      String? surfaceTintColor,
+      String? selectedShadowColor,
+      bool? showCheckmark,
+      String? checkmarkColor,
+      StacEdgeInsets? labelPadding,
+      StacEdgeInsets? padding,
+      StacBorderSide? side,
+      StacShapeBorder? shape,
+      StacTextStyle? labelStyle,
+      StacTextStyle? secondaryLabelStyle,
+      Brightness? brightness,
+      double? elevation,
+      double? pressElevation,
+      StacIconThemeData? iconTheme,
+      StacBoxConstraints? avatarBoxConstraints,
+      StacBoxConstraints? deleteIconBoxConstraints});
+
+  @override
+  $StacEdgeInsetsCopyWith<$Res>? get labelPadding;
+  @override
+  $StacEdgeInsetsCopyWith<$Res>? get padding;
+  @override
+  $StacBorderSideCopyWith<$Res>? get side;
+  @override
+  $StacShapeBorderCopyWith<$Res>? get shape;
+  @override
+  $StacTextStyleCopyWith<$Res>? get labelStyle;
+  @override
+  $StacTextStyleCopyWith<$Res>? get secondaryLabelStyle;
+  @override
+  $StacIconThemeDataCopyWith<$Res>? get iconTheme;
+  @override
+  $StacBoxConstraintsCopyWith<$Res>? get avatarBoxConstraints;
+  @override
+  $StacBoxConstraintsCopyWith<$Res>? get deleteIconBoxConstraints;
+}
+
+/// @nodoc
+class __$$StacChipThemeDataImplCopyWithImpl<$Res>
+    extends _$StacChipThemeDataCopyWithImpl<$Res, _$StacChipThemeDataImpl>
+    implements _$$StacChipThemeDataImplCopyWith<$Res> {
+  __$$StacChipThemeDataImplCopyWithImpl(_$StacChipThemeDataImpl _value,
+      $Res Function(_$StacChipThemeDataImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? color = freezed,
+    Object? backgroundColor = freezed,
+    Object? deleteIconColor = freezed,
+    Object? disabledColor = freezed,
+    Object? selectedColor = freezed,
+    Object? secondarySelectedColor = freezed,
+    Object? shadowColor = freezed,
+    Object? surfaceTintColor = freezed,
+    Object? selectedShadowColor = freezed,
+    Object? showCheckmark = freezed,
+    Object? checkmarkColor = freezed,
+    Object? labelPadding = freezed,
+    Object? padding = freezed,
+    Object? side = freezed,
+    Object? shape = freezed,
+    Object? labelStyle = freezed,
+    Object? secondaryLabelStyle = freezed,
+    Object? brightness = freezed,
+    Object? elevation = freezed,
+    Object? pressElevation = freezed,
+    Object? iconTheme = freezed,
+    Object? avatarBoxConstraints = freezed,
+    Object? deleteIconBoxConstraints = freezed,
+  }) {
+    return _then(_$StacChipThemeDataImpl(
+      color: freezed == color
+          ? _value.color
+          : color // ignore: cast_nullable_to_non_nullable
+              as String?,
+      backgroundColor: freezed == backgroundColor
+          ? _value.backgroundColor
+          : backgroundColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      deleteIconColor: freezed == deleteIconColor
+          ? _value.deleteIconColor
+          : deleteIconColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      disabledColor: freezed == disabledColor
+          ? _value.disabledColor
+          : disabledColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      selectedColor: freezed == selectedColor
+          ? _value.selectedColor
+          : selectedColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      secondarySelectedColor: freezed == secondarySelectedColor
+          ? _value.secondarySelectedColor
+          : secondarySelectedColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      shadowColor: freezed == shadowColor
+          ? _value.shadowColor
+          : shadowColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      surfaceTintColor: freezed == surfaceTintColor
+          ? _value.surfaceTintColor
+          : surfaceTintColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      selectedShadowColor: freezed == selectedShadowColor
+          ? _value.selectedShadowColor
+          : selectedShadowColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      showCheckmark: freezed == showCheckmark
+          ? _value.showCheckmark
+          : showCheckmark // ignore: cast_nullable_to_non_nullable
+              as bool?,
+      checkmarkColor: freezed == checkmarkColor
+          ? _value.checkmarkColor
+          : checkmarkColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      labelPadding: freezed == labelPadding
+          ? _value.labelPadding
+          : labelPadding // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets?,
+      padding: freezed == padding
+          ? _value.padding
+          : padding // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets?,
+      side: freezed == side
+          ? _value.side
+          : side // ignore: cast_nullable_to_non_nullable
+              as StacBorderSide?,
+      shape: freezed == shape
+          ? _value.shape
+          : shape // ignore: cast_nullable_to_non_nullable
+              as StacShapeBorder?,
+      labelStyle: freezed == labelStyle
+          ? _value.labelStyle
+          : labelStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      secondaryLabelStyle: freezed == secondaryLabelStyle
+          ? _value.secondaryLabelStyle
+          : secondaryLabelStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      brightness: freezed == brightness
+          ? _value.brightness
+          : brightness // ignore: cast_nullable_to_non_nullable
+              as Brightness?,
+      elevation: freezed == elevation
+          ? _value.elevation
+          : elevation // ignore: cast_nullable_to_non_nullable
+              as double?,
+      pressElevation: freezed == pressElevation
+          ? _value.pressElevation
+          : pressElevation // ignore: cast_nullable_to_non_nullable
+              as double?,
+      iconTheme: freezed == iconTheme
+          ? _value.iconTheme
+          : iconTheme // ignore: cast_nullable_to_non_nullable
+              as StacIconThemeData?,
+      avatarBoxConstraints: freezed == avatarBoxConstraints
+          ? _value.avatarBoxConstraints
+          : avatarBoxConstraints // ignore: cast_nullable_to_non_nullable
+              as StacBoxConstraints?,
+      deleteIconBoxConstraints: freezed == deleteIconBoxConstraints
+          ? _value.deleteIconBoxConstraints
+          : deleteIconBoxConstraints // ignore: cast_nullable_to_non_nullable
+              as StacBoxConstraints?,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacChipThemeData implements StacChipThemeData {
-  const _StacChipThemeData(
+class _$StacChipThemeDataImpl implements _StacChipThemeData {
+  const _$StacChipThemeDataImpl(
       {this.color,
       this.backgroundColor,
       this.deleteIconColor,
@@ -466,8 +550,9 @@ class _StacChipThemeData implements StacChipThemeData {
       this.iconTheme,
       this.avatarBoxConstraints,
       this.deleteIconBoxConstraints});
-  factory _StacChipThemeData.fromJson(Map<String, dynamic> json) =>
-      _$StacChipThemeDataFromJson(json);
+
+  factory _$StacChipThemeDataImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacChipThemeDataImplFromJson(json);
 
   @override
   final String? color;
@@ -516,26 +601,16 @@ class _StacChipThemeData implements StacChipThemeData {
   @override
   final StacBoxConstraints? deleteIconBoxConstraints;
 
-  /// Create a copy of StacChipThemeData
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacChipThemeDataCopyWith<_StacChipThemeData> get copyWith =>
-      __$StacChipThemeDataCopyWithImpl<_StacChipThemeData>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacChipThemeDataToJson(
-      this,
-    );
+  String toString() {
+    return 'StacChipThemeData(color: $color, backgroundColor: $backgroundColor, deleteIconColor: $deleteIconColor, disabledColor: $disabledColor, selectedColor: $selectedColor, secondarySelectedColor: $secondarySelectedColor, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, selectedShadowColor: $selectedShadowColor, showCheckmark: $showCheckmark, checkmarkColor: $checkmarkColor, labelPadding: $labelPadding, padding: $padding, side: $side, shape: $shape, labelStyle: $labelStyle, secondaryLabelStyle: $secondaryLabelStyle, brightness: $brightness, elevation: $elevation, pressElevation: $pressElevation, iconTheme: $iconTheme, avatarBoxConstraints: $avatarBoxConstraints, deleteIconBoxConstraints: $deleteIconBoxConstraints)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacChipThemeData &&
+            other is _$StacChipThemeDataImpl &&
             (identical(other.color, color) || other.color == color) &&
             (identical(other.backgroundColor, backgroundColor) ||
                 other.backgroundColor == backgroundColor) &&
@@ -581,7 +656,7 @@ class _StacChipThemeData implements StacChipThemeData {
                 other.deleteIconBoxConstraints == deleteIconBoxConstraints));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hashAll([
         runtimeType,
@@ -610,325 +685,99 @@ class _StacChipThemeData implements StacChipThemeData {
         deleteIconBoxConstraints
       ]);
 
+  @JsonKey(ignore: true)
   @override
-  String toString() {
-    return 'StacChipThemeData(color: $color, backgroundColor: $backgroundColor, deleteIconColor: $deleteIconColor, disabledColor: $disabledColor, selectedColor: $selectedColor, secondarySelectedColor: $secondarySelectedColor, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, selectedShadowColor: $selectedShadowColor, showCheckmark: $showCheckmark, checkmarkColor: $checkmarkColor, labelPadding: $labelPadding, padding: $padding, side: $side, shape: $shape, labelStyle: $labelStyle, secondaryLabelStyle: $secondaryLabelStyle, brightness: $brightness, elevation: $elevation, pressElevation: $pressElevation, iconTheme: $iconTheme, avatarBoxConstraints: $avatarBoxConstraints, deleteIconBoxConstraints: $deleteIconBoxConstraints)';
+  @pragma('vm:prefer-inline')
+  _$$StacChipThemeDataImplCopyWith<_$StacChipThemeDataImpl> get copyWith =>
+      __$$StacChipThemeDataImplCopyWithImpl<_$StacChipThemeDataImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacChipThemeDataImplToJson(
+      this,
+    );
   }
 }
 
-/// @nodoc
-abstract mixin class _$StacChipThemeDataCopyWith<$Res>
-    implements $StacChipThemeDataCopyWith<$Res> {
-  factory _$StacChipThemeDataCopyWith(
-          _StacChipThemeData value, $Res Function(_StacChipThemeData) _then) =
-      __$StacChipThemeDataCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {String? color,
-      String? backgroundColor,
-      String? deleteIconColor,
-      String? disabledColor,
-      String? selectedColor,
-      String? secondarySelectedColor,
-      String? shadowColor,
-      String? surfaceTintColor,
-      String? selectedShadowColor,
-      bool? showCheckmark,
-      String? checkmarkColor,
-      StacEdgeInsets? labelPadding,
-      StacEdgeInsets? padding,
-      StacBorderSide? side,
-      StacShapeBorder? shape,
-      StacTextStyle? labelStyle,
-      StacTextStyle? secondaryLabelStyle,
-      Brightness? brightness,
-      double? elevation,
-      double? pressElevation,
-      StacIconThemeData? iconTheme,
-      StacBoxConstraints? avatarBoxConstraints,
-      StacBoxConstraints? deleteIconBoxConstraints});
+abstract class _StacChipThemeData implements StacChipThemeData {
+  const factory _StacChipThemeData(
+          {final String? color,
+          final String? backgroundColor,
+          final String? deleteIconColor,
+          final String? disabledColor,
+          final String? selectedColor,
+          final String? secondarySelectedColor,
+          final String? shadowColor,
+          final String? surfaceTintColor,
+          final String? selectedShadowColor,
+          final bool? showCheckmark,
+          final String? checkmarkColor,
+          final StacEdgeInsets? labelPadding,
+          final StacEdgeInsets? padding,
+          final StacBorderSide? side,
+          final StacShapeBorder? shape,
+          final StacTextStyle? labelStyle,
+          final StacTextStyle? secondaryLabelStyle,
+          final Brightness? brightness,
+          final double? elevation,
+          final double? pressElevation,
+          final StacIconThemeData? iconTheme,
+          final StacBoxConstraints? avatarBoxConstraints,
+          final StacBoxConstraints? deleteIconBoxConstraints}) =
+      _$StacChipThemeDataImpl;
+
+  factory _StacChipThemeData.fromJson(Map<String, dynamic> json) =
+      _$StacChipThemeDataImpl.fromJson;
 
   @override
-  $StacEdgeInsetsCopyWith<$Res>? get labelPadding;
+  String? get color;
   @override
-  $StacEdgeInsetsCopyWith<$Res>? get padding;
+  String? get backgroundColor;
   @override
-  $StacBorderSideCopyWith<$Res>? get side;
+  String? get deleteIconColor;
   @override
-  $StacShapeBorderCopyWith<$Res>? get shape;
+  String? get disabledColor;
   @override
-  $StacTextStyleCopyWith<$Res>? get labelStyle;
+  String? get selectedColor;
   @override
-  $StacTextStyleCopyWith<$Res>? get secondaryLabelStyle;
+  String? get secondarySelectedColor;
   @override
-  $StacIconThemeDataCopyWith<$Res>? get iconTheme;
+  String? get shadowColor;
   @override
-  $StacBoxConstraintsCopyWith<$Res>? get avatarBoxConstraints;
+  String? get surfaceTintColor;
   @override
-  $StacBoxConstraintsCopyWith<$Res>? get deleteIconBoxConstraints;
+  String? get selectedShadowColor;
+  @override
+  bool? get showCheckmark;
+  @override
+  String? get checkmarkColor;
+  @override
+  StacEdgeInsets? get labelPadding;
+  @override
+  StacEdgeInsets? get padding;
+  @override
+  StacBorderSide? get side;
+  @override
+  StacShapeBorder? get shape;
+  @override
+  StacTextStyle? get labelStyle;
+  @override
+  StacTextStyle? get secondaryLabelStyle;
+  @override
+  Brightness? get brightness;
+  @override
+  double? get elevation;
+  @override
+  double? get pressElevation;
+  @override
+  StacIconThemeData? get iconTheme;
+  @override
+  StacBoxConstraints? get avatarBoxConstraints;
+  @override
+  StacBoxConstraints? get deleteIconBoxConstraints;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacChipThemeDataImplCopyWith<_$StacChipThemeDataImpl> get copyWith =>
+      throw _privateConstructorUsedError;
 }
-
-/// @nodoc
-class __$StacChipThemeDataCopyWithImpl<$Res>
-    implements _$StacChipThemeDataCopyWith<$Res> {
-  __$StacChipThemeDataCopyWithImpl(this._self, this._then);
-
-  final _StacChipThemeData _self;
-  final $Res Function(_StacChipThemeData) _then;
-
-  /// Create a copy of StacChipThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $Res call({
-    Object? color = freezed,
-    Object? backgroundColor = freezed,
-    Object? deleteIconColor = freezed,
-    Object? disabledColor = freezed,
-    Object? selectedColor = freezed,
-    Object? secondarySelectedColor = freezed,
-    Object? shadowColor = freezed,
-    Object? surfaceTintColor = freezed,
-    Object? selectedShadowColor = freezed,
-    Object? showCheckmark = freezed,
-    Object? checkmarkColor = freezed,
-    Object? labelPadding = freezed,
-    Object? padding = freezed,
-    Object? side = freezed,
-    Object? shape = freezed,
-    Object? labelStyle = freezed,
-    Object? secondaryLabelStyle = freezed,
-    Object? brightness = freezed,
-    Object? elevation = freezed,
-    Object? pressElevation = freezed,
-    Object? iconTheme = freezed,
-    Object? avatarBoxConstraints = freezed,
-    Object? deleteIconBoxConstraints = freezed,
-  }) {
-    return _then(_StacChipThemeData(
-      color: freezed == color
-          ? _self.color
-          : color // ignore: cast_nullable_to_non_nullable
-              as String?,
-      backgroundColor: freezed == backgroundColor
-          ? _self.backgroundColor
-          : backgroundColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      deleteIconColor: freezed == deleteIconColor
-          ? _self.deleteIconColor
-          : deleteIconColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      disabledColor: freezed == disabledColor
-          ? _self.disabledColor
-          : disabledColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      selectedColor: freezed == selectedColor
-          ? _self.selectedColor
-          : selectedColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      secondarySelectedColor: freezed == secondarySelectedColor
-          ? _self.secondarySelectedColor
-          : secondarySelectedColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      shadowColor: freezed == shadowColor
-          ? _self.shadowColor
-          : shadowColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      surfaceTintColor: freezed == surfaceTintColor
-          ? _self.surfaceTintColor
-          : surfaceTintColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      selectedShadowColor: freezed == selectedShadowColor
-          ? _self.selectedShadowColor
-          : selectedShadowColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      showCheckmark: freezed == showCheckmark
-          ? _self.showCheckmark
-          : showCheckmark // ignore: cast_nullable_to_non_nullable
-              as bool?,
-      checkmarkColor: freezed == checkmarkColor
-          ? _self.checkmarkColor
-          : checkmarkColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      labelPadding: freezed == labelPadding
-          ? _self.labelPadding
-          : labelPadding // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets?,
-      padding: freezed == padding
-          ? _self.padding
-          : padding // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets?,
-      side: freezed == side
-          ? _self.side
-          : side // ignore: cast_nullable_to_non_nullable
-              as StacBorderSide?,
-      shape: freezed == shape
-          ? _self.shape
-          : shape // ignore: cast_nullable_to_non_nullable
-              as StacShapeBorder?,
-      labelStyle: freezed == labelStyle
-          ? _self.labelStyle
-          : labelStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      secondaryLabelStyle: freezed == secondaryLabelStyle
-          ? _self.secondaryLabelStyle
-          : secondaryLabelStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      brightness: freezed == brightness
-          ? _self.brightness
-          : brightness // ignore: cast_nullable_to_non_nullable
-              as Brightness?,
-      elevation: freezed == elevation
-          ? _self.elevation
-          : elevation // ignore: cast_nullable_to_non_nullable
-              as double?,
-      pressElevation: freezed == pressElevation
-          ? _self.pressElevation
-          : pressElevation // ignore: cast_nullable_to_non_nullable
-              as double?,
-      iconTheme: freezed == iconTheme
-          ? _self.iconTheme
-          : iconTheme // ignore: cast_nullable_to_non_nullable
-              as StacIconThemeData?,
-      avatarBoxConstraints: freezed == avatarBoxConstraints
-          ? _self.avatarBoxConstraints
-          : avatarBoxConstraints // ignore: cast_nullable_to_non_nullable
-              as StacBoxConstraints?,
-      deleteIconBoxConstraints: freezed == deleteIconBoxConstraints
-          ? _self.deleteIconBoxConstraints
-          : deleteIconBoxConstraints // ignore: cast_nullable_to_non_nullable
-              as StacBoxConstraints?,
-    ));
-  }
-
-  /// Create a copy of StacChipThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacEdgeInsetsCopyWith<$Res>? get labelPadding {
-    if (_self.labelPadding == null) {
-      return null;
-    }
-
-    return $StacEdgeInsetsCopyWith<$Res>(_self.labelPadding!, (value) {
-      return _then(_self.copyWith(labelPadding: value));
-    });
-  }
-
-  /// Create a copy of StacChipThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacEdgeInsetsCopyWith<$Res>? get padding {
-    if (_self.padding == null) {
-      return null;
-    }
-
-    return $StacEdgeInsetsCopyWith<$Res>(_self.padding!, (value) {
-      return _then(_self.copyWith(padding: value));
-    });
-  }
-
-  /// Create a copy of StacChipThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacBorderSideCopyWith<$Res>? get side {
-    if (_self.side == null) {
-      return null;
-    }
-
-    return $StacBorderSideCopyWith<$Res>(_self.side!, (value) {
-      return _then(_self.copyWith(side: value));
-    });
-  }
-
-  /// Create a copy of StacChipThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacShapeBorderCopyWith<$Res>? get shape {
-    if (_self.shape == null) {
-      return null;
-    }
-
-    return $StacShapeBorderCopyWith<$Res>(_self.shape!, (value) {
-      return _then(_self.copyWith(shape: value));
-    });
-  }
-
-  /// Create a copy of StacChipThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get labelStyle {
-    if (_self.labelStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_self.labelStyle!, (value) {
-      return _then(_self.copyWith(labelStyle: value));
-    });
-  }
-
-  /// Create a copy of StacChipThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get secondaryLabelStyle {
-    if (_self.secondaryLabelStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_self.secondaryLabelStyle!, (value) {
-      return _then(_self.copyWith(secondaryLabelStyle: value));
-    });
-  }
-
-  /// Create a copy of StacChipThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacIconThemeDataCopyWith<$Res>? get iconTheme {
-    if (_self.iconTheme == null) {
-      return null;
-    }
-
-    return $StacIconThemeDataCopyWith<$Res>(_self.iconTheme!, (value) {
-      return _then(_self.copyWith(iconTheme: value));
-    });
-  }
-
-  /// Create a copy of StacChipThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacBoxConstraintsCopyWith<$Res>? get avatarBoxConstraints {
-    if (_self.avatarBoxConstraints == null) {
-      return null;
-    }
-
-    return $StacBoxConstraintsCopyWith<$Res>(_self.avatarBoxConstraints!,
-        (value) {
-      return _then(_self.copyWith(avatarBoxConstraints: value));
-    });
-  }
-
-  /// Create a copy of StacChipThemeData
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacBoxConstraintsCopyWith<$Res>? get deleteIconBoxConstraints {
-    if (_self.deleteIconBoxConstraints == null) {
-      return null;
-    }
-
-    return $StacBoxConstraintsCopyWith<$Res>(_self.deleteIconBoxConstraints!,
-        (value) {
-      return _then(_self.copyWith(deleteIconBoxConstraints: value));
-    });
-  }
-}
-
-// dart format on

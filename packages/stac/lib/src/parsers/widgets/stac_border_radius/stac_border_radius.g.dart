@@ -6,7 +6,8 @@ part of 'stac_border_radius.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacBorder _$StacBorderFromJson(Map<String, dynamic> json) => _StacBorder(
+_$StacBorderImpl _$$StacBorderImplFromJson(Map<String, dynamic> json) =>
+    _$StacBorderImpl(
       topLeft: json['topLeft'] == null
           ? StacDouble.zero
           : StacDouble.fromJson(json['topLeft']),
@@ -21,7 +22,7 @@ _StacBorder _$StacBorderFromJson(Map<String, dynamic> json) => _StacBorder(
           : StacDouble.fromJson(json['bottomRight']),
     );
 
-Map<String, dynamic> _$StacBorderToJson(_StacBorder instance) =>
+Map<String, dynamic> _$$StacBorderImplToJson(_$StacBorderImpl instance) =>
     <String, dynamic>{
       'topLeft': instance.topLeft,
       'topRight': instance.topRight,

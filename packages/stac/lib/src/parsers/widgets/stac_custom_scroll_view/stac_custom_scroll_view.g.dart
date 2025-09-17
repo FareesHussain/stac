@@ -6,9 +6,9 @@ part of 'stac_custom_scroll_view.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_StacCustomScrollView _$StacCustomScrollViewFromJson(
+_$StacCustomScrollViewImpl _$$StacCustomScrollViewImplFromJson(
         Map<String, dynamic> json) =>
-    _StacCustomScrollView(
+    _$StacCustomScrollViewImpl(
       slivers: (json['slivers'] as List<dynamic>?)
               ?.map((e) => e as Map<String, dynamic>)
               .toList() ??
@@ -42,8 +42,8 @@ _StacCustomScrollView _$StacCustomScrollViewFromJson(
           HitTestBehavior.opaque,
     );
 
-Map<String, dynamic> _$StacCustomScrollViewToJson(
-        _StacCustomScrollView instance) =>
+Map<String, dynamic> _$$StacCustomScrollViewImplToJson(
+        _$StacCustomScrollViewImpl instance) =>
     <String, dynamic>{
       'slivers': instance.slivers,
       'scrollDirection': _$AxisEnumMap[instance.scrollDirection]!,

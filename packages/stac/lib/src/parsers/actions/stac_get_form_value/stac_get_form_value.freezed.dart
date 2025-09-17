@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,69 +9,85 @@ part of 'stac_get_form_value.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacGetFormValue {
-  String get id;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacGetFormValue
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacGetFormValueCopyWith<StacGetFormValue> get copyWith =>
-      _$StacGetFormValueCopyWithImpl<StacGetFormValue>(
-          this as StacGetFormValue, _$identity);
-
-  /// Serializes this StacGetFormValue to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacGetFormValue &&
-            (identical(other.id, id) || other.id == id));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(runtimeType, id);
-
-  @override
-  String toString() {
-    return 'StacGetFormValue(id: $id)';
-  }
+StacGetFormValue _$StacGetFormValueFromJson(Map<String, dynamic> json) {
+  return _StacGetFormValue.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacGetFormValueCopyWith<$Res> {
+mixin _$StacGetFormValue {
+  String get id => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacGetFormValueCopyWith<StacGetFormValue> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacGetFormValueCopyWith<$Res> {
   factory $StacGetFormValueCopyWith(
-          StacGetFormValue value, $Res Function(StacGetFormValue) _then) =
-      _$StacGetFormValueCopyWithImpl;
+          StacGetFormValue value, $Res Function(StacGetFormValue) then) =
+      _$StacGetFormValueCopyWithImpl<$Res, StacGetFormValue>;
   @useResult
   $Res call({String id});
 }
 
 /// @nodoc
-class _$StacGetFormValueCopyWithImpl<$Res>
+class _$StacGetFormValueCopyWithImpl<$Res, $Val extends StacGetFormValue>
     implements $StacGetFormValueCopyWith<$Res> {
-  _$StacGetFormValueCopyWithImpl(this._self, this._then);
+  _$StacGetFormValueCopyWithImpl(this._value, this._then);
 
-  final StacGetFormValue _self;
-  final $Res Function(StacGetFormValue) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacGetFormValue
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? id = null,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       id: null == id
-          ? _self.id
+          ? _value.id
+          : id // ignore: cast_nullable_to_non_nullable
+              as String,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacGetFormValueImplCopyWith<$Res>
+    implements $StacGetFormValueCopyWith<$Res> {
+  factory _$$StacGetFormValueImplCopyWith(_$StacGetFormValueImpl value,
+          $Res Function(_$StacGetFormValueImpl) then) =
+      __$$StacGetFormValueImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call({String id});
+}
+
+/// @nodoc
+class __$$StacGetFormValueImplCopyWithImpl<$Res>
+    extends _$StacGetFormValueCopyWithImpl<$Res, _$StacGetFormValueImpl>
+    implements _$$StacGetFormValueImplCopyWith<$Res> {
+  __$$StacGetFormValueImplCopyWithImpl(_$StacGetFormValueImpl _value,
+      $Res Function(_$StacGetFormValueImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? id = null,
+  }) {
+    return _then(_$StacGetFormValueImpl(
+      id: null == id
+          ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
               as String,
     ));
@@ -81,80 +96,58 @@ class _$StacGetFormValueCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _StacGetFormValue implements StacGetFormValue {
-  const _StacGetFormValue({required this.id});
-  factory _StacGetFormValue.fromJson(Map<String, dynamic> json) =>
-      _$StacGetFormValueFromJson(json);
+class _$StacGetFormValueImpl implements _StacGetFormValue {
+  const _$StacGetFormValueImpl({required this.id});
+
+  factory _$StacGetFormValueImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacGetFormValueImplFromJson(json);
 
   @override
   final String id;
 
-  /// Create a copy of StacGetFormValue
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacGetFormValueCopyWith<_StacGetFormValue> get copyWith =>
-      __$StacGetFormValueCopyWithImpl<_StacGetFormValue>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacGetFormValueToJson(
-      this,
-    );
+  String toString() {
+    return 'StacGetFormValue(id: $id)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacGetFormValue &&
+            other is _$StacGetFormValueImpl &&
             (identical(other.id, id) || other.id == id));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(runtimeType, id);
 
-  @override
-  String toString() {
-    return 'StacGetFormValue(id: $id)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacGetFormValueCopyWith<$Res>
-    implements $StacGetFormValueCopyWith<$Res> {
-  factory _$StacGetFormValueCopyWith(
-          _StacGetFormValue value, $Res Function(_StacGetFormValue) _then) =
-      __$StacGetFormValueCopyWithImpl;
-  @override
-  @useResult
-  $Res call({String id});
-}
-
-/// @nodoc
-class __$StacGetFormValueCopyWithImpl<$Res>
-    implements _$StacGetFormValueCopyWith<$Res> {
-  __$StacGetFormValueCopyWithImpl(this._self, this._then);
-
-  final _StacGetFormValue _self;
-  final $Res Function(_StacGetFormValue) _then;
-
-  /// Create a copy of StacGetFormValue
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? id = null,
-  }) {
-    return _then(_StacGetFormValue(
-      id: null == id
-          ? _self.id
-          : id // ignore: cast_nullable_to_non_nullable
-              as String,
-    ));
+  _$$StacGetFormValueImplCopyWith<_$StacGetFormValueImpl> get copyWith =>
+      __$$StacGetFormValueImplCopyWithImpl<_$StacGetFormValueImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacGetFormValueImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacGetFormValue implements StacGetFormValue {
+  const factory _StacGetFormValue({required final String id}) =
+      _$StacGetFormValueImpl;
+
+  factory _StacGetFormValue.fromJson(Map<String, dynamic> json) =
+      _$StacGetFormValueImpl.fromJson;
+
+  @override
+  String get id;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacGetFormValueImplCopyWith<_$StacGetFormValueImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

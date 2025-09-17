@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,49 +9,31 @@ part of 'stac_padding.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacPadding {
-  StacEdgeInsets get padding;
-  Map<String, dynamic>? get child;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacPadding
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacPaddingCopyWith<StacPadding> get copyWith =>
-      _$StacPaddingCopyWithImpl<StacPadding>(this as StacPadding, _$identity);
-
-  /// Serializes this StacPadding to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacPadding &&
-            (identical(other.padding, padding) || other.padding == padding) &&
-            const DeepCollectionEquality().equals(other.child, child));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(
-      runtimeType, padding, const DeepCollectionEquality().hash(child));
-
-  @override
-  String toString() {
-    return 'StacPadding(padding: $padding, child: $child)';
-  }
+StacPadding _$StacPaddingFromJson(Map<String, dynamic> json) {
+  return _StacPadding.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacPaddingCopyWith<$Res> {
+mixin _$StacPadding {
+  StacEdgeInsets get padding => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get child => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacPaddingCopyWith<StacPadding> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacPaddingCopyWith<$Res> {
   factory $StacPaddingCopyWith(
-          StacPadding value, $Res Function(StacPadding) _then) =
-      _$StacPaddingCopyWithImpl;
+          StacPadding value, $Res Function(StacPadding) then) =
+      _$StacPaddingCopyWithImpl<$Res, StacPadding>;
   @useResult
   $Res call({StacEdgeInsets padding, Map<String, dynamic>? child});
 
@@ -60,50 +41,92 @@ abstract mixin class $StacPaddingCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacPaddingCopyWithImpl<$Res> implements $StacPaddingCopyWith<$Res> {
-  _$StacPaddingCopyWithImpl(this._self, this._then);
+class _$StacPaddingCopyWithImpl<$Res, $Val extends StacPadding>
+    implements $StacPaddingCopyWith<$Res> {
+  _$StacPaddingCopyWithImpl(this._value, this._then);
 
-  final StacPadding _self;
-  final $Res Function(StacPadding) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacPadding
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? padding = null,
     Object? child = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       padding: null == padding
-          ? _self.padding
+          ? _value.padding
           : padding // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets,
       child: freezed == child
-          ? _self.child
+          ? _value.child
           : child // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacPadding
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacEdgeInsetsCopyWith<$Res> get padding {
-    return $StacEdgeInsetsCopyWith<$Res>(_self.padding, (value) {
-      return _then(_self.copyWith(padding: value));
+    return $StacEdgeInsetsCopyWith<$Res>(_value.padding, (value) {
+      return _then(_value.copyWith(padding: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacPaddingImplCopyWith<$Res>
+    implements $StacPaddingCopyWith<$Res> {
+  factory _$$StacPaddingImplCopyWith(
+          _$StacPaddingImpl value, $Res Function(_$StacPaddingImpl) then) =
+      __$$StacPaddingImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call({StacEdgeInsets padding, Map<String, dynamic>? child});
+
+  @override
+  $StacEdgeInsetsCopyWith<$Res> get padding;
+}
+
+/// @nodoc
+class __$$StacPaddingImplCopyWithImpl<$Res>
+    extends _$StacPaddingCopyWithImpl<$Res, _$StacPaddingImpl>
+    implements _$$StacPaddingImplCopyWith<$Res> {
+  __$$StacPaddingImplCopyWithImpl(
+      _$StacPaddingImpl _value, $Res Function(_$StacPaddingImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? padding = null,
+    Object? child = freezed,
+  }) {
+    return _then(_$StacPaddingImpl(
+      padding: null == padding
+          ? _value.padding
+          : padding // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets,
+      child: freezed == child
+          ? _value._child
+          : child // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacPadding implements StacPadding {
-  const _StacPadding({required this.padding, final Map<String, dynamic>? child})
+class _$StacPaddingImpl implements _StacPadding {
+  const _$StacPaddingImpl(
+      {required this.padding, final Map<String, dynamic>? child})
       : _child = child;
-  factory _StacPadding.fromJson(Map<String, dynamic> json) =>
-      _$StacPaddingFromJson(json);
+
+  factory _$StacPaddingImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacPaddingImplFromJson(json);
 
   @override
   final StacEdgeInsets padding;
@@ -117,91 +140,53 @@ class _StacPadding implements StacPadding {
     return EqualUnmodifiableMapView(value);
   }
 
-  /// Create a copy of StacPadding
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacPaddingCopyWith<_StacPadding> get copyWith =>
-      __$StacPaddingCopyWithImpl<_StacPadding>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacPaddingToJson(
-      this,
-    );
+  String toString() {
+    return 'StacPadding(padding: $padding, child: $child)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacPadding &&
+            other is _$StacPaddingImpl &&
             (identical(other.padding, padding) || other.padding == padding) &&
             const DeepCollectionEquality().equals(other._child, _child));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType, padding, const DeepCollectionEquality().hash(_child));
 
-  @override
-  String toString() {
-    return 'StacPadding(padding: $padding, child: $child)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacPaddingCopyWith<$Res>
-    implements $StacPaddingCopyWith<$Res> {
-  factory _$StacPaddingCopyWith(
-          _StacPadding value, $Res Function(_StacPadding) _then) =
-      __$StacPaddingCopyWithImpl;
-  @override
-  @useResult
-  $Res call({StacEdgeInsets padding, Map<String, dynamic>? child});
-
-  @override
-  $StacEdgeInsetsCopyWith<$Res> get padding;
-}
-
-/// @nodoc
-class __$StacPaddingCopyWithImpl<$Res> implements _$StacPaddingCopyWith<$Res> {
-  __$StacPaddingCopyWithImpl(this._self, this._then);
-
-  final _StacPadding _self;
-  final $Res Function(_StacPadding) _then;
-
-  /// Create a copy of StacPadding
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? padding = null,
-    Object? child = freezed,
-  }) {
-    return _then(_StacPadding(
-      padding: null == padding
-          ? _self.padding
-          : padding // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets,
-      child: freezed == child
-          ? _self._child
-          : child // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-    ));
-  }
+  _$$StacPaddingImplCopyWith<_$StacPaddingImpl> get copyWith =>
+      __$$StacPaddingImplCopyWithImpl<_$StacPaddingImpl>(this, _$identity);
 
-  /// Create a copy of StacPadding
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @pragma('vm:prefer-inline')
-  $StacEdgeInsetsCopyWith<$Res> get padding {
-    return $StacEdgeInsetsCopyWith<$Res>(_self.padding, (value) {
-      return _then(_self.copyWith(padding: value));
-    });
+  Map<String, dynamic> toJson() {
+    return _$$StacPaddingImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacPadding implements StacPadding {
+  const factory _StacPadding(
+      {required final StacEdgeInsets padding,
+      final Map<String, dynamic>? child}) = _$StacPaddingImpl;
+
+  factory _StacPadding.fromJson(Map<String, dynamic> json) =
+      _$StacPaddingImpl.fromJson;
+
+  @override
+  StacEdgeInsets get padding;
+  @override
+  Map<String, dynamic>? get child;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacPaddingImplCopyWith<_$StacPaddingImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

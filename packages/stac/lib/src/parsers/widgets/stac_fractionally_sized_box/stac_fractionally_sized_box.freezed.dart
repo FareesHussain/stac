@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,57 +9,34 @@ part of 'stac_fractionally_sized_box.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacFractionallySizedBox {
-  StacAlignment? get alignment;
-  StacDouble? get widthFactor;
-  StacDouble? get heightFactor;
-  Map<String, dynamic>? get child;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacFractionallySizedBox
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacFractionallySizedBoxCopyWith<StacFractionallySizedBox> get copyWith =>
-      _$StacFractionallySizedBoxCopyWithImpl<StacFractionallySizedBox>(
-          this as StacFractionallySizedBox, _$identity);
-
-  /// Serializes this StacFractionallySizedBox to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacFractionallySizedBox &&
-            (identical(other.alignment, alignment) ||
-                other.alignment == alignment) &&
-            (identical(other.widthFactor, widthFactor) ||
-                other.widthFactor == widthFactor) &&
-            (identical(other.heightFactor, heightFactor) ||
-                other.heightFactor == heightFactor) &&
-            const DeepCollectionEquality().equals(other.child, child));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(runtimeType, alignment, widthFactor,
-      heightFactor, const DeepCollectionEquality().hash(child));
-
-  @override
-  String toString() {
-    return 'StacFractionallySizedBox(alignment: $alignment, widthFactor: $widthFactor, heightFactor: $heightFactor, child: $child)';
-  }
+StacFractionallySizedBox _$StacFractionallySizedBoxFromJson(
+    Map<String, dynamic> json) {
+  return _StacFractionallySizedBox.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacFractionallySizedBoxCopyWith<$Res> {
+mixin _$StacFractionallySizedBox {
+  StacAlignment? get alignment => throw _privateConstructorUsedError;
+  StacDouble? get widthFactor => throw _privateConstructorUsedError;
+  StacDouble? get heightFactor => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get child => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacFractionallySizedBoxCopyWith<StacFractionallySizedBox> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacFractionallySizedBoxCopyWith<$Res> {
   factory $StacFractionallySizedBoxCopyWith(StacFractionallySizedBox value,
-          $Res Function(StacFractionallySizedBox) _then) =
-      _$StacFractionallySizedBoxCopyWithImpl;
+          $Res Function(StacFractionallySizedBox) then) =
+      _$StacFractionallySizedBoxCopyWithImpl<$Res, StacFractionallySizedBox>;
   @useResult
   $Res call(
       {StacAlignment? alignment,
@@ -70,15 +46,16 @@ abstract mixin class $StacFractionallySizedBoxCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacFractionallySizedBoxCopyWithImpl<$Res>
+class _$StacFractionallySizedBoxCopyWithImpl<$Res,
+        $Val extends StacFractionallySizedBox>
     implements $StacFractionallySizedBoxCopyWith<$Res> {
-  _$StacFractionallySizedBoxCopyWithImpl(this._self, this._then);
+  _$StacFractionallySizedBoxCopyWithImpl(this._value, this._then);
 
-  final StacFractionallySizedBox _self;
-  final $Res Function(StacFractionallySizedBox) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacFractionallySizedBox
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -87,21 +64,76 @@ class _$StacFractionallySizedBoxCopyWithImpl<$Res>
     Object? heightFactor = freezed,
     Object? child = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       alignment: freezed == alignment
-          ? _self.alignment
+          ? _value.alignment
           : alignment // ignore: cast_nullable_to_non_nullable
               as StacAlignment?,
       widthFactor: freezed == widthFactor
-          ? _self.widthFactor
+          ? _value.widthFactor
           : widthFactor // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       heightFactor: freezed == heightFactor
-          ? _self.heightFactor
+          ? _value.heightFactor
           : heightFactor // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       child: freezed == child
-          ? _self.child
+          ? _value.child
+          : child // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$StacFractionallySizedBoxImplCopyWith<$Res>
+    implements $StacFractionallySizedBoxCopyWith<$Res> {
+  factory _$$StacFractionallySizedBoxImplCopyWith(
+          _$StacFractionallySizedBoxImpl value,
+          $Res Function(_$StacFractionallySizedBoxImpl) then) =
+      __$$StacFractionallySizedBoxImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {StacAlignment? alignment,
+      StacDouble? widthFactor,
+      StacDouble? heightFactor,
+      Map<String, dynamic>? child});
+}
+
+/// @nodoc
+class __$$StacFractionallySizedBoxImplCopyWithImpl<$Res>
+    extends _$StacFractionallySizedBoxCopyWithImpl<$Res,
+        _$StacFractionallySizedBoxImpl>
+    implements _$$StacFractionallySizedBoxImplCopyWith<$Res> {
+  __$$StacFractionallySizedBoxImplCopyWithImpl(
+      _$StacFractionallySizedBoxImpl _value,
+      $Res Function(_$StacFractionallySizedBoxImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? alignment = freezed,
+    Object? widthFactor = freezed,
+    Object? heightFactor = freezed,
+    Object? child = freezed,
+  }) {
+    return _then(_$StacFractionallySizedBoxImpl(
+      alignment: freezed == alignment
+          ? _value.alignment
+          : alignment // ignore: cast_nullable_to_non_nullable
+              as StacAlignment?,
+      widthFactor: freezed == widthFactor
+          ? _value.widthFactor
+          : widthFactor // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      heightFactor: freezed == heightFactor
+          ? _value.heightFactor
+          : heightFactor // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      child: freezed == child
+          ? _value._child
           : child // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
     ));
@@ -110,15 +142,16 @@ class _$StacFractionallySizedBoxCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _StacFractionallySizedBox implements StacFractionallySizedBox {
-  const _StacFractionallySizedBox(
+class _$StacFractionallySizedBoxImpl implements _StacFractionallySizedBox {
+  const _$StacFractionallySizedBoxImpl(
       {this.alignment,
       this.widthFactor,
       this.heightFactor,
       final Map<String, dynamic>? child})
       : _child = child;
-  factory _StacFractionallySizedBox.fromJson(Map<String, dynamic> json) =>
-      _$StacFractionallySizedBoxFromJson(json);
+
+  factory _$StacFractionallySizedBoxImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacFractionallySizedBoxImplFromJson(json);
 
   @override
   final StacAlignment? alignment;
@@ -136,27 +169,16 @@ class _StacFractionallySizedBox implements StacFractionallySizedBox {
     return EqualUnmodifiableMapView(value);
   }
 
-  /// Create a copy of StacFractionallySizedBox
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacFractionallySizedBoxCopyWith<_StacFractionallySizedBox> get copyWith =>
-      __$StacFractionallySizedBoxCopyWithImpl<_StacFractionallySizedBox>(
-          this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacFractionallySizedBoxToJson(
-      this,
-    );
+  String toString() {
+    return 'StacFractionallySizedBox(alignment: $alignment, widthFactor: $widthFactor, heightFactor: $heightFactor, child: $child)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacFractionallySizedBox &&
+            other is _$StacFractionallySizedBoxImpl &&
             (identical(other.alignment, alignment) ||
                 other.alignment == alignment) &&
             (identical(other.widthFactor, widthFactor) ||
@@ -166,69 +188,46 @@ class _StacFractionallySizedBox implements StacFractionallySizedBox {
             const DeepCollectionEquality().equals(other._child, _child));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(runtimeType, alignment, widthFactor,
       heightFactor, const DeepCollectionEquality().hash(_child));
 
-  @override
-  String toString() {
-    return 'StacFractionallySizedBox(alignment: $alignment, widthFactor: $widthFactor, heightFactor: $heightFactor, child: $child)';
-  }
-}
-
-/// @nodoc
-abstract mixin class _$StacFractionallySizedBoxCopyWith<$Res>
-    implements $StacFractionallySizedBoxCopyWith<$Res> {
-  factory _$StacFractionallySizedBoxCopyWith(_StacFractionallySizedBox value,
-          $Res Function(_StacFractionallySizedBox) _then) =
-      __$StacFractionallySizedBoxCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {StacAlignment? alignment,
-      StacDouble? widthFactor,
-      StacDouble? heightFactor,
-      Map<String, dynamic>? child});
-}
-
-/// @nodoc
-class __$StacFractionallySizedBoxCopyWithImpl<$Res>
-    implements _$StacFractionallySizedBoxCopyWith<$Res> {
-  __$StacFractionallySizedBoxCopyWithImpl(this._self, this._then);
-
-  final _StacFractionallySizedBox _self;
-  final $Res Function(_StacFractionallySizedBox) _then;
-
-  /// Create a copy of StacFractionallySizedBox
-  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  $Res call({
-    Object? alignment = freezed,
-    Object? widthFactor = freezed,
-    Object? heightFactor = freezed,
-    Object? child = freezed,
-  }) {
-    return _then(_StacFractionallySizedBox(
-      alignment: freezed == alignment
-          ? _self.alignment
-          : alignment // ignore: cast_nullable_to_non_nullable
-              as StacAlignment?,
-      widthFactor: freezed == widthFactor
-          ? _self.widthFactor
-          : widthFactor // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      heightFactor: freezed == heightFactor
-          ? _self.heightFactor
-          : heightFactor // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      child: freezed == child
-          ? _self._child
-          : child // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-    ));
+  _$$StacFractionallySizedBoxImplCopyWith<_$StacFractionallySizedBoxImpl>
+      get copyWith => __$$StacFractionallySizedBoxImplCopyWithImpl<
+          _$StacFractionallySizedBoxImpl>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacFractionallySizedBoxImplToJson(
+      this,
+    );
   }
 }
 
-// dart format on
+abstract class _StacFractionallySizedBox implements StacFractionallySizedBox {
+  const factory _StacFractionallySizedBox(
+      {final StacAlignment? alignment,
+      final StacDouble? widthFactor,
+      final StacDouble? heightFactor,
+      final Map<String, dynamic>? child}) = _$StacFractionallySizedBoxImpl;
+
+  factory _StacFractionallySizedBox.fromJson(Map<String, dynamic> json) =
+      _$StacFractionallySizedBoxImpl.fromJson;
+
+  @override
+  StacAlignment? get alignment;
+  @override
+  StacDouble? get widthFactor;
+  @override
+  StacDouble? get heightFactor;
+  @override
+  Map<String, dynamic>? get child;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacFractionallySizedBoxImplCopyWith<_$StacFractionallySizedBoxImpl>
+      get copyWith => throw _privateConstructorUsedError;
+}

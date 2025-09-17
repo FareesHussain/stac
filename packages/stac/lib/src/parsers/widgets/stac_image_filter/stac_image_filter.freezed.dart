@@ -1,4 +1,3 @@
-// dart format width=80
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
@@ -10,62 +9,37 @@ part of 'stac_image_filter.dart';
 // FreezedGenerator
 // **************************************************************************
 
-// dart format off
 T _$identity<T>(T value) => value;
 
-/// @nodoc
-mixin _$StacImageFilter {
-  StacImageFilterType get type;
-  StacDouble get sigmaX;
-  StacDouble? get sigmaY;
-  StacDouble get radiusX;
-  StacDouble? get radiusY;
-  List<StacDouble>? get matrix;
-  StacImageFilter? get inner;
-  StacImageFilter? get outer;
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
 
-  /// Create a copy of StacImageFilter
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $StacImageFilterCopyWith<StacImageFilter> get copyWith =>
-      _$StacImageFilterCopyWithImpl<StacImageFilter>(
-          this as StacImageFilter, _$identity);
-
-  /// Serializes this StacImageFilter to a JSON map.
-  Map<String, dynamic> toJson();
-
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType &&
-            other is StacImageFilter &&
-            (identical(other.type, type) || other.type == type) &&
-            (identical(other.sigmaX, sigmaX) || other.sigmaX == sigmaX) &&
-            (identical(other.sigmaY, sigmaY) || other.sigmaY == sigmaY) &&
-            (identical(other.radiusX, radiusX) || other.radiusX == radiusX) &&
-            (identical(other.radiusY, radiusY) || other.radiusY == radiusY) &&
-            const DeepCollectionEquality().equals(other.matrix, matrix) &&
-            (identical(other.inner, inner) || other.inner == inner) &&
-            (identical(other.outer, outer) || other.outer == outer));
-  }
-
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @override
-  int get hashCode => Object.hash(runtimeType, type, sigmaX, sigmaY, radiusX,
-      radiusY, const DeepCollectionEquality().hash(matrix), inner, outer);
-
-  @override
-  String toString() {
-    return 'StacImageFilter(type: $type, sigmaX: $sigmaX, sigmaY: $sigmaY, radiusX: $radiusX, radiusY: $radiusY, matrix: $matrix, inner: $inner, outer: $outer)';
-  }
+StacImageFilter _$StacImageFilterFromJson(Map<String, dynamic> json) {
+  return _StacImageFilter.fromJson(json);
 }
 
 /// @nodoc
-abstract mixin class $StacImageFilterCopyWith<$Res> {
+mixin _$StacImageFilter {
+  StacImageFilterType get type => throw _privateConstructorUsedError;
+  StacDouble get sigmaX => throw _privateConstructorUsedError;
+  StacDouble? get sigmaY => throw _privateConstructorUsedError;
+  StacDouble get radiusX => throw _privateConstructorUsedError;
+  StacDouble? get radiusY => throw _privateConstructorUsedError;
+  List<StacDouble>? get matrix => throw _privateConstructorUsedError;
+  StacImageFilter? get inner => throw _privateConstructorUsedError;
+  StacImageFilter? get outer => throw _privateConstructorUsedError;
+
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $StacImageFilterCopyWith<StacImageFilter> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $StacImageFilterCopyWith<$Res> {
   factory $StacImageFilterCopyWith(
-          StacImageFilter value, $Res Function(StacImageFilter) _then) =
-      _$StacImageFilterCopyWithImpl;
+          StacImageFilter value, $Res Function(StacImageFilter) then) =
+      _$StacImageFilterCopyWithImpl<$Res, StacImageFilter>;
   @useResult
   $Res call(
       {StacImageFilterType type,
@@ -82,15 +56,15 @@ abstract mixin class $StacImageFilterCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacImageFilterCopyWithImpl<$Res>
+class _$StacImageFilterCopyWithImpl<$Res, $Val extends StacImageFilter>
     implements $StacImageFilterCopyWith<$Res> {
-  _$StacImageFilterCopyWithImpl(this._self, this._then);
+  _$StacImageFilterCopyWithImpl(this._value, this._then);
 
-  final StacImageFilter _self;
-  final $Res Function(StacImageFilter) _then;
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
-  /// Create a copy of StacImageFilter
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -103,75 +77,152 @@ class _$StacImageFilterCopyWithImpl<$Res>
     Object? inner = freezed,
     Object? outer = freezed,
   }) {
-    return _then(_self.copyWith(
+    return _then(_value.copyWith(
       type: null == type
-          ? _self.type
+          ? _value.type
           : type // ignore: cast_nullable_to_non_nullable
               as StacImageFilterType,
       sigmaX: null == sigmaX
-          ? _self.sigmaX
+          ? _value.sigmaX
           : sigmaX // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       sigmaY: freezed == sigmaY
-          ? _self.sigmaY
+          ? _value.sigmaY
           : sigmaY // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       radiusX: null == radiusX
-          ? _self.radiusX
+          ? _value.radiusX
           : radiusX // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       radiusY: freezed == radiusY
-          ? _self.radiusY
+          ? _value.radiusY
           : radiusY // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       matrix: freezed == matrix
-          ? _self.matrix
+          ? _value.matrix
           : matrix // ignore: cast_nullable_to_non_nullable
               as List<StacDouble>?,
       inner: freezed == inner
-          ? _self.inner
+          ? _value.inner
           : inner // ignore: cast_nullable_to_non_nullable
               as StacImageFilter?,
       outer: freezed == outer
-          ? _self.outer
+          ? _value.outer
           : outer // ignore: cast_nullable_to_non_nullable
               as StacImageFilter?,
-    ));
+    ) as $Val);
   }
 
-  /// Create a copy of StacImageFilter
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacImageFilterCopyWith<$Res>? get inner {
-    if (_self.inner == null) {
+    if (_value.inner == null) {
       return null;
     }
 
-    return $StacImageFilterCopyWith<$Res>(_self.inner!, (value) {
-      return _then(_self.copyWith(inner: value));
+    return $StacImageFilterCopyWith<$Res>(_value.inner!, (value) {
+      return _then(_value.copyWith(inner: value) as $Val);
     });
   }
 
-  /// Create a copy of StacImageFilter
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacImageFilterCopyWith<$Res>? get outer {
-    if (_self.outer == null) {
+    if (_value.outer == null) {
       return null;
     }
 
-    return $StacImageFilterCopyWith<$Res>(_self.outer!, (value) {
-      return _then(_self.copyWith(outer: value));
+    return $StacImageFilterCopyWith<$Res>(_value.outer!, (value) {
+      return _then(_value.copyWith(outer: value) as $Val);
     });
   }
 }
 
 /// @nodoc
+abstract class _$$StacImageFilterImplCopyWith<$Res>
+    implements $StacImageFilterCopyWith<$Res> {
+  factory _$$StacImageFilterImplCopyWith(_$StacImageFilterImpl value,
+          $Res Function(_$StacImageFilterImpl) then) =
+      __$$StacImageFilterImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {StacImageFilterType type,
+      StacDouble sigmaX,
+      StacDouble? sigmaY,
+      StacDouble radiusX,
+      StacDouble? radiusY,
+      List<StacDouble>? matrix,
+      StacImageFilter? inner,
+      StacImageFilter? outer});
+
+  @override
+  $StacImageFilterCopyWith<$Res>? get inner;
+  @override
+  $StacImageFilterCopyWith<$Res>? get outer;
+}
+
+/// @nodoc
+class __$$StacImageFilterImplCopyWithImpl<$Res>
+    extends _$StacImageFilterCopyWithImpl<$Res, _$StacImageFilterImpl>
+    implements _$$StacImageFilterImplCopyWith<$Res> {
+  __$$StacImageFilterImplCopyWithImpl(
+      _$StacImageFilterImpl _value, $Res Function(_$StacImageFilterImpl) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? type = null,
+    Object? sigmaX = null,
+    Object? sigmaY = freezed,
+    Object? radiusX = null,
+    Object? radiusY = freezed,
+    Object? matrix = freezed,
+    Object? inner = freezed,
+    Object? outer = freezed,
+  }) {
+    return _then(_$StacImageFilterImpl(
+      type: null == type
+          ? _value.type
+          : type // ignore: cast_nullable_to_non_nullable
+              as StacImageFilterType,
+      sigmaX: null == sigmaX
+          ? _value.sigmaX
+          : sigmaX // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      sigmaY: freezed == sigmaY
+          ? _value.sigmaY
+          : sigmaY // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      radiusX: null == radiusX
+          ? _value.radiusX
+          : radiusX // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      radiusY: freezed == radiusY
+          ? _value.radiusY
+          : radiusY // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      matrix: freezed == matrix
+          ? _value._matrix
+          : matrix // ignore: cast_nullable_to_non_nullable
+              as List<StacDouble>?,
+      inner: freezed == inner
+          ? _value.inner
+          : inner // ignore: cast_nullable_to_non_nullable
+              as StacImageFilter?,
+      outer: freezed == outer
+          ? _value.outer
+          : outer // ignore: cast_nullable_to_non_nullable
+              as StacImageFilter?,
+    ));
+  }
+}
+
+/// @nodoc
 @JsonSerializable()
-class _StacImageFilter implements StacImageFilter {
-  const _StacImageFilter(
+class _$StacImageFilterImpl implements _StacImageFilter {
+  const _$StacImageFilterImpl(
       {required this.type,
       this.sigmaX = const StacDouble(0.0),
       this.sigmaY,
@@ -181,8 +232,9 @@ class _StacImageFilter implements StacImageFilter {
       this.inner,
       this.outer})
       : _matrix = matrix;
-  factory _StacImageFilter.fromJson(Map<String, dynamic> json) =>
-      _$StacImageFilterFromJson(json);
+
+  factory _$StacImageFilterImpl.fromJson(Map<String, dynamic> json) =>
+      _$$StacImageFilterImplFromJson(json);
 
   @override
   final StacImageFilterType type;
@@ -211,26 +263,16 @@ class _StacImageFilter implements StacImageFilter {
   @override
   final StacImageFilter? outer;
 
-  /// Create a copy of StacImageFilter
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  _$StacImageFilterCopyWith<_StacImageFilter> get copyWith =>
-      __$StacImageFilterCopyWithImpl<_StacImageFilter>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$StacImageFilterToJson(
-      this,
-    );
+  String toString() {
+    return 'StacImageFilter(type: $type, sigmaX: $sigmaX, sigmaY: $sigmaY, radiusX: $radiusX, radiusY: $radiusY, matrix: $matrix, inner: $inner, outer: $outer)';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _StacImageFilter &&
+            other is _$StacImageFilterImpl &&
             (identical(other.type, type) || other.type == type) &&
             (identical(other.sigmaX, sigmaX) || other.sigmaX == sigmaX) &&
             (identical(other.sigmaY, sigmaY) || other.sigmaY == sigmaY) &&
@@ -241,126 +283,58 @@ class _StacImageFilter implements StacImageFilter {
             (identical(other.outer, outer) || other.outer == outer));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(runtimeType, type, sigmaX, sigmaY, radiusX,
       radiusY, const DeepCollectionEquality().hash(_matrix), inner, outer);
 
+  @JsonKey(ignore: true)
   @override
-  String toString() {
-    return 'StacImageFilter(type: $type, sigmaX: $sigmaX, sigmaY: $sigmaY, radiusX: $radiusX, radiusY: $radiusY, matrix: $matrix, inner: $inner, outer: $outer)';
+  @pragma('vm:prefer-inline')
+  _$$StacImageFilterImplCopyWith<_$StacImageFilterImpl> get copyWith =>
+      __$$StacImageFilterImplCopyWithImpl<_$StacImageFilterImpl>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$StacImageFilterImplToJson(
+      this,
+    );
   }
 }
 
-/// @nodoc
-abstract mixin class _$StacImageFilterCopyWith<$Res>
-    implements $StacImageFilterCopyWith<$Res> {
-  factory _$StacImageFilterCopyWith(
-          _StacImageFilter value, $Res Function(_StacImageFilter) _then) =
-      __$StacImageFilterCopyWithImpl;
-  @override
-  @useResult
-  $Res call(
-      {StacImageFilterType type,
-      StacDouble sigmaX,
-      StacDouble? sigmaY,
-      StacDouble radiusX,
-      StacDouble? radiusY,
-      List<StacDouble>? matrix,
-      StacImageFilter? inner,
-      StacImageFilter? outer});
+abstract class _StacImageFilter implements StacImageFilter {
+  const factory _StacImageFilter(
+      {required final StacImageFilterType type,
+      final StacDouble sigmaX,
+      final StacDouble? sigmaY,
+      final StacDouble radiusX,
+      final StacDouble? radiusY,
+      final List<StacDouble>? matrix,
+      final StacImageFilter? inner,
+      final StacImageFilter? outer}) = _$StacImageFilterImpl;
+
+  factory _StacImageFilter.fromJson(Map<String, dynamic> json) =
+      _$StacImageFilterImpl.fromJson;
 
   @override
-  $StacImageFilterCopyWith<$Res>? get inner;
+  StacImageFilterType get type;
   @override
-  $StacImageFilterCopyWith<$Res>? get outer;
+  StacDouble get sigmaX;
+  @override
+  StacDouble? get sigmaY;
+  @override
+  StacDouble get radiusX;
+  @override
+  StacDouble? get radiusY;
+  @override
+  List<StacDouble>? get matrix;
+  @override
+  StacImageFilter? get inner;
+  @override
+  StacImageFilter? get outer;
+  @override
+  @JsonKey(ignore: true)
+  _$$StacImageFilterImplCopyWith<_$StacImageFilterImpl> get copyWith =>
+      throw _privateConstructorUsedError;
 }
-
-/// @nodoc
-class __$StacImageFilterCopyWithImpl<$Res>
-    implements _$StacImageFilterCopyWith<$Res> {
-  __$StacImageFilterCopyWithImpl(this._self, this._then);
-
-  final _StacImageFilter _self;
-  final $Res Function(_StacImageFilter) _then;
-
-  /// Create a copy of StacImageFilter
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $Res call({
-    Object? type = null,
-    Object? sigmaX = null,
-    Object? sigmaY = freezed,
-    Object? radiusX = null,
-    Object? radiusY = freezed,
-    Object? matrix = freezed,
-    Object? inner = freezed,
-    Object? outer = freezed,
-  }) {
-    return _then(_StacImageFilter(
-      type: null == type
-          ? _self.type
-          : type // ignore: cast_nullable_to_non_nullable
-              as StacImageFilterType,
-      sigmaX: null == sigmaX
-          ? _self.sigmaX
-          : sigmaX // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      sigmaY: freezed == sigmaY
-          ? _self.sigmaY
-          : sigmaY // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      radiusX: null == radiusX
-          ? _self.radiusX
-          : radiusX // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      radiusY: freezed == radiusY
-          ? _self.radiusY
-          : radiusY // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      matrix: freezed == matrix
-          ? _self._matrix
-          : matrix // ignore: cast_nullable_to_non_nullable
-              as List<StacDouble>?,
-      inner: freezed == inner
-          ? _self.inner
-          : inner // ignore: cast_nullable_to_non_nullable
-              as StacImageFilter?,
-      outer: freezed == outer
-          ? _self.outer
-          : outer // ignore: cast_nullable_to_non_nullable
-              as StacImageFilter?,
-    ));
-  }
-
-  /// Create a copy of StacImageFilter
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacImageFilterCopyWith<$Res>? get inner {
-    if (_self.inner == null) {
-      return null;
-    }
-
-    return $StacImageFilterCopyWith<$Res>(_self.inner!, (value) {
-      return _then(_self.copyWith(inner: value));
-    });
-  }
-
-  /// Create a copy of StacImageFilter
-  /// with the given fields replaced by the non-null parameter values.
-  @override
-  @pragma('vm:prefer-inline')
-  $StacImageFilterCopyWith<$Res>? get outer {
-    if (_self.outer == null) {
-      return null;
-    }
-
-    return $StacImageFilterCopyWith<$Res>(_self.outer!, (value) {
-      return _then(_self.copyWith(outer: value));
-    });
-  }
-}
-
-// dart format on
