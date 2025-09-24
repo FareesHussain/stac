@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,91 +9,66 @@ part of 'stac_sized_box.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
-StacSizedBox _$StacSizedBoxFromJson(Map<String, dynamic> json) {
-  return _StacSizedBox.fromJson(json);
-}
 
 /// @nodoc
 mixin _$StacSizedBox {
-  StacDouble? get width => throw _privateConstructorUsedError;
-  StacDouble? get height => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get child => throw _privateConstructorUsedError;
+  StacDouble? get width;
+  StacDouble? get height;
+  Map<String, dynamic>? get child;
 
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
-  $StacSizedBoxCopyWith<StacSizedBox> get copyWith =>
-      throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $StacSizedBoxCopyWith<$Res> {
-  factory $StacSizedBoxCopyWith(
-          StacSizedBox value, $Res Function(StacSizedBox) then) =
-      _$StacSizedBoxCopyWithImpl<$Res, StacSizedBox>;
-  @useResult
-  $Res call(
-      {StacDouble? width, StacDouble? height, Map<String, dynamic>? child});
-}
-
-/// @nodoc
-class _$StacSizedBoxCopyWithImpl<$Res, $Val extends StacSizedBox>
-    implements $StacSizedBoxCopyWith<$Res> {
-  _$StacSizedBoxCopyWithImpl(this._value, this._then);
-
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
-
+  /// Create a copy of StacSizedBox
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @pragma('vm:prefer-inline')
+  $StacSizedBoxCopyWith<StacSizedBox> get copyWith =>
+      _$StacSizedBoxCopyWithImpl<StacSizedBox>(
+          this as StacSizedBox, _$identity);
+
+  /// Serializes this StacSizedBox to a JSON map.
+  Map<String, dynamic> toJson();
+
   @override
-  $Res call({
-    Object? width = freezed,
-    Object? height = freezed,
-    Object? child = freezed,
-  }) {
-    return _then(_value.copyWith(
-      width: freezed == width
-          ? _value.width
-          : width // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      height: freezed == height
-          ? _value.height
-          : height // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      child: freezed == child
-          ? _value.child
-          : child // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-    ) as $Val);
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is StacSizedBox &&
+            (identical(other.width, width) || other.width == width) &&
+            (identical(other.height, height) || other.height == height) &&
+            const DeepCollectionEquality().equals(other.child, child));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(
+      runtimeType, width, height, const DeepCollectionEquality().hash(child));
+
+  @override
+  String toString() {
+    return 'StacSizedBox(width: $width, height: $height, child: $child)';
   }
 }
 
 /// @nodoc
-abstract class _$$StacSizedBoxImplCopyWith<$Res>
-    implements $StacSizedBoxCopyWith<$Res> {
-  factory _$$StacSizedBoxImplCopyWith(
-          _$StacSizedBoxImpl value, $Res Function(_$StacSizedBoxImpl) then) =
-      __$$StacSizedBoxImplCopyWithImpl<$Res>;
-  @override
+abstract mixin class $StacSizedBoxCopyWith<$Res> {
+  factory $StacSizedBoxCopyWith(
+          StacSizedBox value, $Res Function(StacSizedBox) _then) =
+      _$StacSizedBoxCopyWithImpl;
   @useResult
   $Res call(
       {StacDouble? width, StacDouble? height, Map<String, dynamic>? child});
 }
 
 /// @nodoc
-class __$$StacSizedBoxImplCopyWithImpl<$Res>
-    extends _$StacSizedBoxCopyWithImpl<$Res, _$StacSizedBoxImpl>
-    implements _$$StacSizedBoxImplCopyWith<$Res> {
-  __$$StacSizedBoxImplCopyWithImpl(
-      _$StacSizedBoxImpl _value, $Res Function(_$StacSizedBoxImpl) _then)
-      : super(_value, _then);
+class _$StacSizedBoxCopyWithImpl<$Res> implements $StacSizedBoxCopyWith<$Res> {
+  _$StacSizedBoxCopyWithImpl(this._self, this._then);
 
+  final StacSizedBox _self;
+  final $Res Function(StacSizedBox) _then;
+
+  /// Create a copy of StacSizedBox
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -101,32 +76,194 @@ class __$$StacSizedBoxImplCopyWithImpl<$Res>
     Object? height = freezed,
     Object? child = freezed,
   }) {
-    return _then(_$StacSizedBoxImpl(
+    return _then(_self.copyWith(
       width: freezed == width
-          ? _value.width
+          ? _self.width
           : width // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       height: freezed == height
-          ? _value.height
+          ? _self.height
           : height // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       child: freezed == child
-          ? _value._child
+          ? _self.child
           : child // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
     ));
   }
 }
 
+/// Adds pattern-matching-related methods to [StacSizedBox].
+extension StacSizedBoxPatterns on StacSizedBox {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_StacSizedBox value)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacSizedBox() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_StacSizedBox value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacSizedBox():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_StacSizedBox value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacSizedBox() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(
+            StacDouble? width, StacDouble? height, Map<String, dynamic>? child)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacSizedBox() when $default != null:
+        return $default(_that.width, _that.height, _that.child);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(
+            StacDouble? width, StacDouble? height, Map<String, dynamic>? child)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacSizedBox():
+        return $default(_that.width, _that.height, _that.child);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(
+            StacDouble? width, StacDouble? height, Map<String, dynamic>? child)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacSizedBox() when $default != null:
+        return $default(_that.width, _that.height, _that.child);
+      case _:
+        return null;
+    }
+  }
+}
+
 /// @nodoc
 @JsonSerializable()
-class _$StacSizedBoxImpl implements _StacSizedBox {
-  const _$StacSizedBoxImpl(
+class _StacSizedBox implements StacSizedBox {
+  const _StacSizedBox(
       {this.width, this.height, final Map<String, dynamic>? child})
       : _child = child;
-
-  factory _$StacSizedBoxImpl.fromJson(Map<String, dynamic> json) =>
-      _$$StacSizedBoxImplFromJson(json);
+  factory _StacSizedBox.fromJson(Map<String, dynamic> json) =>
+      _$StacSizedBoxFromJson(json);
 
   @override
   final StacDouble? width;
@@ -142,57 +279,86 @@ class _$StacSizedBoxImpl implements _StacSizedBox {
     return EqualUnmodifiableMapView(value);
   }
 
+  /// Create a copy of StacSizedBox
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'StacSizedBox(width: $width, height: $height, child: $child)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$StacSizedBoxCopyWith<_StacSizedBox> get copyWith =>
+      __$StacSizedBoxCopyWithImpl<_StacSizedBox>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$StacSizedBoxToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$StacSizedBoxImpl &&
+            other is _StacSizedBox &&
             (identical(other.width, width) || other.width == width) &&
             (identical(other.height, height) || other.height == height) &&
             const DeepCollectionEquality().equals(other._child, _child));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(
       runtimeType, width, height, const DeepCollectionEquality().hash(_child));
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$StacSizedBoxImplCopyWith<_$StacSizedBoxImpl> get copyWith =>
-      __$$StacSizedBoxImplCopyWithImpl<_$StacSizedBoxImpl>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$StacSizedBoxImplToJson(
-      this,
-    );
+  String toString() {
+    return 'StacSizedBox(width: $width, height: $height, child: $child)';
   }
 }
 
-abstract class _StacSizedBox implements StacSizedBox {
-  const factory _StacSizedBox(
-      {final StacDouble? width,
-      final StacDouble? height,
-      final Map<String, dynamic>? child}) = _$StacSizedBoxImpl;
-
-  factory _StacSizedBox.fromJson(Map<String, dynamic> json) =
-      _$StacSizedBoxImpl.fromJson;
-
+/// @nodoc
+abstract mixin class _$StacSizedBoxCopyWith<$Res>
+    implements $StacSizedBoxCopyWith<$Res> {
+  factory _$StacSizedBoxCopyWith(
+          _StacSizedBox value, $Res Function(_StacSizedBox) _then) =
+      __$StacSizedBoxCopyWithImpl;
   @override
-  StacDouble? get width;
-  @override
-  StacDouble? get height;
-  @override
-  Map<String, dynamic>? get child;
-  @override
-  @JsonKey(ignore: true)
-  _$$StacSizedBoxImplCopyWith<_$StacSizedBoxImpl> get copyWith =>
-      throw _privateConstructorUsedError;
+  @useResult
+  $Res call(
+      {StacDouble? width, StacDouble? height, Map<String, dynamic>? child});
 }
+
+/// @nodoc
+class __$StacSizedBoxCopyWithImpl<$Res>
+    implements _$StacSizedBoxCopyWith<$Res> {
+  __$StacSizedBoxCopyWithImpl(this._self, this._then);
+
+  final _StacSizedBox _self;
+  final $Res Function(_StacSizedBox) _then;
+
+  /// Create a copy of StacSizedBox
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? width = freezed,
+    Object? height = freezed,
+    Object? child = freezed,
+  }) {
+    return _then(_StacSizedBox(
+      width: freezed == width
+          ? _self.width
+          : width // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      height: freezed == height
+          ? _self.height
+          : height // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      child: freezed == child
+          ? _self._child
+          : child // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+    ));
+  }
+}
+
+// dart format on

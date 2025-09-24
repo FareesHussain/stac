@@ -6,9 +6,9 @@ part of 'stac_beveled_rectangle_border.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$StacBeveledRectangleBorderImpl _$$StacBeveledRectangleBorderImplFromJson(
+_StacBeveledRectangleBorder _$StacBeveledRectangleBorderFromJson(
         Map<String, dynamic> json) =>
-    _$StacBeveledRectangleBorderImpl(
+    _StacBeveledRectangleBorder(
       side: json['side'] == null
           ? StacBorderSide.none
           : StacBorderSide.fromJson(json['side'] as Map<String, dynamic>),
@@ -17,8 +17,8 @@ _$StacBeveledRectangleBorderImpl _$$StacBeveledRectangleBorderImplFromJson(
           : StacBorderRadius.fromJson(json['borderRadius']),
     );
 
-Map<String, dynamic> _$$StacBeveledRectangleBorderImplToJson(
-        _$StacBeveledRectangleBorderImpl instance) =>
+Map<String, dynamic> _$StacBeveledRectangleBorderToJson(
+        _StacBeveledRectangleBorder instance) =>
     <String, dynamic>{
       'side': instance.side,
       'borderRadius': instance.borderRadius,

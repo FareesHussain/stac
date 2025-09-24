@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,120 +9,70 @@ part of 'stac_circular_progress_indicator.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
-StacCircularProgressIndicator _$StacCircularProgressIndicatorFromJson(
-    Map<String, dynamic> json) {
-  return _StacCircularProgressIndicator.fromJson(json);
-}
 
 /// @nodoc
 mixin _$StacCircularProgressIndicator {
-  StacDouble? get value => throw _privateConstructorUsedError;
-  String? get backgroundColor => throw _privateConstructorUsedError;
-  String? get color => throw _privateConstructorUsedError;
-  StacDouble get strokeWidth => throw _privateConstructorUsedError;
-  StacDouble get strokeAlign => throw _privateConstructorUsedError;
-  String? get semanticsLabel => throw _privateConstructorUsedError;
-  String? get semanticsValue => throw _privateConstructorUsedError;
-  StrokeCap? get strokeCap => throw _privateConstructorUsedError;
+  StacDouble? get value;
+  String? get backgroundColor;
+  String? get color;
+  StacDouble get strokeWidth;
+  StacDouble get strokeAlign;
+  String? get semanticsLabel;
+  String? get semanticsValue;
+  StrokeCap? get strokeCap;
 
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
-  $StacCircularProgressIndicatorCopyWith<StacCircularProgressIndicator>
-      get copyWith => throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $StacCircularProgressIndicatorCopyWith<$Res> {
-  factory $StacCircularProgressIndicatorCopyWith(
-          StacCircularProgressIndicator value,
-          $Res Function(StacCircularProgressIndicator) then) =
-      _$StacCircularProgressIndicatorCopyWithImpl<$Res,
-          StacCircularProgressIndicator>;
-  @useResult
-  $Res call(
-      {StacDouble? value,
-      String? backgroundColor,
-      String? color,
-      StacDouble strokeWidth,
-      StacDouble strokeAlign,
-      String? semanticsLabel,
-      String? semanticsValue,
-      StrokeCap? strokeCap});
-}
-
-/// @nodoc
-class _$StacCircularProgressIndicatorCopyWithImpl<$Res,
-        $Val extends StacCircularProgressIndicator>
-    implements $StacCircularProgressIndicatorCopyWith<$Res> {
-  _$StacCircularProgressIndicatorCopyWithImpl(this._value, this._then);
-
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
-
+  /// Create a copy of StacCircularProgressIndicator
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @pragma('vm:prefer-inline')
+  $StacCircularProgressIndicatorCopyWith<StacCircularProgressIndicator>
+      get copyWith => _$StacCircularProgressIndicatorCopyWithImpl<
+              StacCircularProgressIndicator>(
+          this as StacCircularProgressIndicator, _$identity);
+
+  /// Serializes this StacCircularProgressIndicator to a JSON map.
+  Map<String, dynamic> toJson();
+
   @override
-  $Res call({
-    Object? value = freezed,
-    Object? backgroundColor = freezed,
-    Object? color = freezed,
-    Object? strokeWidth = null,
-    Object? strokeAlign = null,
-    Object? semanticsLabel = freezed,
-    Object? semanticsValue = freezed,
-    Object? strokeCap = freezed,
-  }) {
-    return _then(_value.copyWith(
-      value: freezed == value
-          ? _value.value
-          : value // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      backgroundColor: freezed == backgroundColor
-          ? _value.backgroundColor
-          : backgroundColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      color: freezed == color
-          ? _value.color
-          : color // ignore: cast_nullable_to_non_nullable
-              as String?,
-      strokeWidth: null == strokeWidth
-          ? _value.strokeWidth
-          : strokeWidth // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      strokeAlign: null == strokeAlign
-          ? _value.strokeAlign
-          : strokeAlign // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      semanticsLabel: freezed == semanticsLabel
-          ? _value.semanticsLabel
-          : semanticsLabel // ignore: cast_nullable_to_non_nullable
-              as String?,
-      semanticsValue: freezed == semanticsValue
-          ? _value.semanticsValue
-          : semanticsValue // ignore: cast_nullable_to_non_nullable
-              as String?,
-      strokeCap: freezed == strokeCap
-          ? _value.strokeCap
-          : strokeCap // ignore: cast_nullable_to_non_nullable
-              as StrokeCap?,
-    ) as $Val);
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is StacCircularProgressIndicator &&
+            (identical(other.value, value) || other.value == value) &&
+            (identical(other.backgroundColor, backgroundColor) ||
+                other.backgroundColor == backgroundColor) &&
+            (identical(other.color, color) || other.color == color) &&
+            (identical(other.strokeWidth, strokeWidth) ||
+                other.strokeWidth == strokeWidth) &&
+            (identical(other.strokeAlign, strokeAlign) ||
+                other.strokeAlign == strokeAlign) &&
+            (identical(other.semanticsLabel, semanticsLabel) ||
+                other.semanticsLabel == semanticsLabel) &&
+            (identical(other.semanticsValue, semanticsValue) ||
+                other.semanticsValue == semanticsValue) &&
+            (identical(other.strokeCap, strokeCap) ||
+                other.strokeCap == strokeCap));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(runtimeType, value, backgroundColor, color,
+      strokeWidth, strokeAlign, semanticsLabel, semanticsValue, strokeCap);
+
+  @override
+  String toString() {
+    return 'StacCircularProgressIndicator(value: $value, backgroundColor: $backgroundColor, color: $color, strokeWidth: $strokeWidth, strokeAlign: $strokeAlign, semanticsLabel: $semanticsLabel, semanticsValue: $semanticsValue, strokeCap: $strokeCap)';
   }
 }
 
 /// @nodoc
-abstract class _$$StacCircularProgressIndicatorImplCopyWith<$Res>
-    implements $StacCircularProgressIndicatorCopyWith<$Res> {
-  factory _$$StacCircularProgressIndicatorImplCopyWith(
-          _$StacCircularProgressIndicatorImpl value,
-          $Res Function(_$StacCircularProgressIndicatorImpl) then) =
-      __$$StacCircularProgressIndicatorImplCopyWithImpl<$Res>;
-  @override
+abstract mixin class $StacCircularProgressIndicatorCopyWith<$Res> {
+  factory $StacCircularProgressIndicatorCopyWith(
+          StacCircularProgressIndicator value,
+          $Res Function(StacCircularProgressIndicator) _then) =
+      _$StacCircularProgressIndicatorCopyWithImpl;
   @useResult
   $Res call(
       {StacDouble? value,
@@ -136,15 +86,15 @@ abstract class _$$StacCircularProgressIndicatorImplCopyWith<$Res>
 }
 
 /// @nodoc
-class __$$StacCircularProgressIndicatorImplCopyWithImpl<$Res>
-    extends _$StacCircularProgressIndicatorCopyWithImpl<$Res,
-        _$StacCircularProgressIndicatorImpl>
-    implements _$$StacCircularProgressIndicatorImplCopyWith<$Res> {
-  __$$StacCircularProgressIndicatorImplCopyWithImpl(
-      _$StacCircularProgressIndicatorImpl _value,
-      $Res Function(_$StacCircularProgressIndicatorImpl) _then)
-      : super(_value, _then);
+class _$StacCircularProgressIndicatorCopyWithImpl<$Res>
+    implements $StacCircularProgressIndicatorCopyWith<$Res> {
+  _$StacCircularProgressIndicatorCopyWithImpl(this._self, this._then);
 
+  final StacCircularProgressIndicator _self;
+  final $Res Function(StacCircularProgressIndicator) _then;
+
+  /// Create a copy of StacCircularProgressIndicator
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -157,48 +107,256 @@ class __$$StacCircularProgressIndicatorImplCopyWithImpl<$Res>
     Object? semanticsValue = freezed,
     Object? strokeCap = freezed,
   }) {
-    return _then(_$StacCircularProgressIndicatorImpl(
+    return _then(_self.copyWith(
       value: freezed == value
-          ? _value.value
+          ? _self.value
           : value // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       backgroundColor: freezed == backgroundColor
-          ? _value.backgroundColor
+          ? _self.backgroundColor
           : backgroundColor // ignore: cast_nullable_to_non_nullable
               as String?,
       color: freezed == color
-          ? _value.color
+          ? _self.color
           : color // ignore: cast_nullable_to_non_nullable
               as String?,
       strokeWidth: null == strokeWidth
-          ? _value.strokeWidth
+          ? _self.strokeWidth
           : strokeWidth // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       strokeAlign: null == strokeAlign
-          ? _value.strokeAlign
+          ? _self.strokeAlign
           : strokeAlign // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       semanticsLabel: freezed == semanticsLabel
-          ? _value.semanticsLabel
+          ? _self.semanticsLabel
           : semanticsLabel // ignore: cast_nullable_to_non_nullable
               as String?,
       semanticsValue: freezed == semanticsValue
-          ? _value.semanticsValue
+          ? _self.semanticsValue
           : semanticsValue // ignore: cast_nullable_to_non_nullable
               as String?,
       strokeCap: freezed == strokeCap
-          ? _value.strokeCap
+          ? _self.strokeCap
           : strokeCap // ignore: cast_nullable_to_non_nullable
               as StrokeCap?,
     ));
   }
 }
 
+/// Adds pattern-matching-related methods to [StacCircularProgressIndicator].
+extension StacCircularProgressIndicatorPatterns
+    on StacCircularProgressIndicator {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_StacCircularProgressIndicator value)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacCircularProgressIndicator() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_StacCircularProgressIndicator value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacCircularProgressIndicator():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_StacCircularProgressIndicator value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacCircularProgressIndicator() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(
+            StacDouble? value,
+            String? backgroundColor,
+            String? color,
+            StacDouble strokeWidth,
+            StacDouble strokeAlign,
+            String? semanticsLabel,
+            String? semanticsValue,
+            StrokeCap? strokeCap)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacCircularProgressIndicator() when $default != null:
+        return $default(
+            _that.value,
+            _that.backgroundColor,
+            _that.color,
+            _that.strokeWidth,
+            _that.strokeAlign,
+            _that.semanticsLabel,
+            _that.semanticsValue,
+            _that.strokeCap);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(
+            StacDouble? value,
+            String? backgroundColor,
+            String? color,
+            StacDouble strokeWidth,
+            StacDouble strokeAlign,
+            String? semanticsLabel,
+            String? semanticsValue,
+            StrokeCap? strokeCap)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacCircularProgressIndicator():
+        return $default(
+            _that.value,
+            _that.backgroundColor,
+            _that.color,
+            _that.strokeWidth,
+            _that.strokeAlign,
+            _that.semanticsLabel,
+            _that.semanticsValue,
+            _that.strokeCap);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(
+            StacDouble? value,
+            String? backgroundColor,
+            String? color,
+            StacDouble strokeWidth,
+            StacDouble strokeAlign,
+            String? semanticsLabel,
+            String? semanticsValue,
+            StrokeCap? strokeCap)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacCircularProgressIndicator() when $default != null:
+        return $default(
+            _that.value,
+            _that.backgroundColor,
+            _that.color,
+            _that.strokeWidth,
+            _that.strokeAlign,
+            _that.semanticsLabel,
+            _that.semanticsValue,
+            _that.strokeCap);
+      case _:
+        return null;
+    }
+  }
+}
+
 /// @nodoc
 @JsonSerializable()
-class _$StacCircularProgressIndicatorImpl
-    implements _StacCircularProgressIndicator {
-  const _$StacCircularProgressIndicatorImpl(
+class _StacCircularProgressIndicator implements StacCircularProgressIndicator {
+  const _StacCircularProgressIndicator(
       {this.value,
       this.backgroundColor,
       this.color,
@@ -207,10 +365,8 @@ class _$StacCircularProgressIndicatorImpl
       this.semanticsLabel,
       this.semanticsValue,
       this.strokeCap});
-
-  factory _$StacCircularProgressIndicatorImpl.fromJson(
-          Map<String, dynamic> json) =>
-      _$$StacCircularProgressIndicatorImplFromJson(json);
+  factory _StacCircularProgressIndicator.fromJson(Map<String, dynamic> json) =>
+      _$StacCircularProgressIndicatorFromJson(json);
 
   @override
   final StacDouble? value;
@@ -231,16 +387,27 @@ class _$StacCircularProgressIndicatorImpl
   @override
   final StrokeCap? strokeCap;
 
+  /// Create a copy of StacCircularProgressIndicator
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'StacCircularProgressIndicator(value: $value, backgroundColor: $backgroundColor, color: $color, strokeWidth: $strokeWidth, strokeAlign: $strokeAlign, semanticsLabel: $semanticsLabel, semanticsValue: $semanticsValue, strokeCap: $strokeCap)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$StacCircularProgressIndicatorCopyWith<_StacCircularProgressIndicator>
+      get copyWith => __$StacCircularProgressIndicatorCopyWithImpl<
+          _StacCircularProgressIndicator>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$StacCircularProgressIndicatorToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$StacCircularProgressIndicatorImpl &&
+            other is _StacCircularProgressIndicator &&
             (identical(other.value, value) || other.value == value) &&
             (identical(other.backgroundColor, backgroundColor) ||
                 other.backgroundColor == backgroundColor) &&
@@ -257,61 +424,94 @@ class _$StacCircularProgressIndicatorImpl
                 other.strokeCap == strokeCap));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(runtimeType, value, backgroundColor, color,
       strokeWidth, strokeAlign, semanticsLabel, semanticsValue, strokeCap);
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$StacCircularProgressIndicatorImplCopyWith<
-          _$StacCircularProgressIndicatorImpl>
-      get copyWith => __$$StacCircularProgressIndicatorImplCopyWithImpl<
-          _$StacCircularProgressIndicatorImpl>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$StacCircularProgressIndicatorImplToJson(
-      this,
-    );
+  String toString() {
+    return 'StacCircularProgressIndicator(value: $value, backgroundColor: $backgroundColor, color: $color, strokeWidth: $strokeWidth, strokeAlign: $strokeAlign, semanticsLabel: $semanticsLabel, semanticsValue: $semanticsValue, strokeCap: $strokeCap)';
   }
 }
 
-abstract class _StacCircularProgressIndicator
-    implements StacCircularProgressIndicator {
-  const factory _StacCircularProgressIndicator(
-      {final StacDouble? value,
-      final String? backgroundColor,
-      final String? color,
-      final StacDouble strokeWidth,
-      final StacDouble strokeAlign,
-      final String? semanticsLabel,
-      final String? semanticsValue,
-      final StrokeCap? strokeCap}) = _$StacCircularProgressIndicatorImpl;
-
-  factory _StacCircularProgressIndicator.fromJson(Map<String, dynamic> json) =
-      _$StacCircularProgressIndicatorImpl.fromJson;
-
+/// @nodoc
+abstract mixin class _$StacCircularProgressIndicatorCopyWith<$Res>
+    implements $StacCircularProgressIndicatorCopyWith<$Res> {
+  factory _$StacCircularProgressIndicatorCopyWith(
+          _StacCircularProgressIndicator value,
+          $Res Function(_StacCircularProgressIndicator) _then) =
+      __$StacCircularProgressIndicatorCopyWithImpl;
   @override
-  StacDouble? get value;
-  @override
-  String? get backgroundColor;
-  @override
-  String? get color;
-  @override
-  StacDouble get strokeWidth;
-  @override
-  StacDouble get strokeAlign;
-  @override
-  String? get semanticsLabel;
-  @override
-  String? get semanticsValue;
-  @override
-  StrokeCap? get strokeCap;
-  @override
-  @JsonKey(ignore: true)
-  _$$StacCircularProgressIndicatorImplCopyWith<
-          _$StacCircularProgressIndicatorImpl>
-      get copyWith => throw _privateConstructorUsedError;
+  @useResult
+  $Res call(
+      {StacDouble? value,
+      String? backgroundColor,
+      String? color,
+      StacDouble strokeWidth,
+      StacDouble strokeAlign,
+      String? semanticsLabel,
+      String? semanticsValue,
+      StrokeCap? strokeCap});
 }
+
+/// @nodoc
+class __$StacCircularProgressIndicatorCopyWithImpl<$Res>
+    implements _$StacCircularProgressIndicatorCopyWith<$Res> {
+  __$StacCircularProgressIndicatorCopyWithImpl(this._self, this._then);
+
+  final _StacCircularProgressIndicator _self;
+  final $Res Function(_StacCircularProgressIndicator) _then;
+
+  /// Create a copy of StacCircularProgressIndicator
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? value = freezed,
+    Object? backgroundColor = freezed,
+    Object? color = freezed,
+    Object? strokeWidth = null,
+    Object? strokeAlign = null,
+    Object? semanticsLabel = freezed,
+    Object? semanticsValue = freezed,
+    Object? strokeCap = freezed,
+  }) {
+    return _then(_StacCircularProgressIndicator(
+      value: freezed == value
+          ? _self.value
+          : value // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      backgroundColor: freezed == backgroundColor
+          ? _self.backgroundColor
+          : backgroundColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      color: freezed == color
+          ? _self.color
+          : color // ignore: cast_nullable_to_non_nullable
+              as String?,
+      strokeWidth: null == strokeWidth
+          ? _self.strokeWidth
+          : strokeWidth // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      strokeAlign: null == strokeAlign
+          ? _self.strokeAlign
+          : strokeAlign // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      semanticsLabel: freezed == semanticsLabel
+          ? _self.semanticsLabel
+          : semanticsLabel // ignore: cast_nullable_to_non_nullable
+              as String?,
+      semanticsValue: freezed == semanticsValue
+          ? _self.semanticsValue
+          : semanticsValue // ignore: cast_nullable_to_non_nullable
+              as String?,
+      strokeCap: freezed == strokeCap
+          ? _self.strokeCap
+          : strokeCap // ignore: cast_nullable_to_non_nullable
+              as StrokeCap?,
+    ));
+  }
+}
+
+// dart format on

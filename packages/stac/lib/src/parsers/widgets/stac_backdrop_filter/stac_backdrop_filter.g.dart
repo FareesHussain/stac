@@ -6,9 +6,8 @@ part of 'stac_backdrop_filter.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$StacBackdropFilterImpl _$$StacBackdropFilterImplFromJson(
-        Map<String, dynamic> json) =>
-    _$StacBackdropFilterImpl(
+_StacBackdropFilter _$StacBackdropFilterFromJson(Map<String, dynamic> json) =>
+    _StacBackdropFilter(
       filter: StacImageFilter.fromJson(json['filter'] as Map<String, dynamic>),
       child: json['child'] as Map<String, dynamic>?,
       enabled: json['enabled'] as bool? ?? true,
@@ -16,8 +15,7 @@ _$StacBackdropFilterImpl _$$StacBackdropFilterImplFromJson(
           BlendMode.srcOver,
     );
 
-Map<String, dynamic> _$$StacBackdropFilterImplToJson(
-        _$StacBackdropFilterImpl instance) =>
+Map<String, dynamic> _$StacBackdropFilterToJson(_StacBackdropFilter instance) =>
     <String, dynamic>{
       'filter': instance.filter,
       'child': instance.child,

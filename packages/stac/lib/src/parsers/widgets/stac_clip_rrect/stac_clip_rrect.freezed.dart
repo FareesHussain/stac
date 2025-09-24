@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,32 +9,54 @@ part of 'stac_clip_rrect.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
-StacClipRRect _$StacClipRRectFromJson(Map<String, dynamic> json) {
-  return _StacClipRRect.fromJson(json);
-}
 
 /// @nodoc
 mixin _$StacClipRRect {
-  StacBorderRadius get borderRadius => throw _privateConstructorUsedError;
-  Clip get clipBehavior => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get child => throw _privateConstructorUsedError;
+  StacBorderRadius get borderRadius;
+  Clip get clipBehavior;
+  Map<String, dynamic>? get child;
 
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
+  /// Create a copy of StacClipRRect
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
   $StacClipRRectCopyWith<StacClipRRect> get copyWith =>
-      throw _privateConstructorUsedError;
+      _$StacClipRRectCopyWithImpl<StacClipRRect>(
+          this as StacClipRRect, _$identity);
+
+  /// Serializes this StacClipRRect to a JSON map.
+  Map<String, dynamic> toJson();
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is StacClipRRect &&
+            (identical(other.borderRadius, borderRadius) ||
+                other.borderRadius == borderRadius) &&
+            (identical(other.clipBehavior, clipBehavior) ||
+                other.clipBehavior == clipBehavior) &&
+            const DeepCollectionEquality().equals(other.child, child));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(runtimeType, borderRadius, clipBehavior,
+      const DeepCollectionEquality().hash(child));
+
+  @override
+  String toString() {
+    return 'StacClipRRect(borderRadius: $borderRadius, clipBehavior: $clipBehavior, child: $child)';
+  }
 }
 
 /// @nodoc
-abstract class $StacClipRRectCopyWith<$Res> {
+abstract mixin class $StacClipRRectCopyWith<$Res> {
   factory $StacClipRRectCopyWith(
-          StacClipRRect value, $Res Function(StacClipRRect) then) =
-      _$StacClipRRectCopyWithImpl<$Res, StacClipRRect>;
+          StacClipRRect value, $Res Function(StacClipRRect) _then) =
+      _$StacClipRRectCopyWithImpl;
   @useResult
   $Res call(
       {StacBorderRadius borderRadius,
@@ -45,15 +67,15 @@ abstract class $StacClipRRectCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacClipRRectCopyWithImpl<$Res, $Val extends StacClipRRect>
+class _$StacClipRRectCopyWithImpl<$Res>
     implements $StacClipRRectCopyWith<$Res> {
-  _$StacClipRRectCopyWithImpl(this._value, this._then);
+  _$StacClipRRectCopyWithImpl(this._self, this._then);
 
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
+  final StacClipRRect _self;
+  final $Res Function(StacClipRRect) _then;
 
+  /// Create a copy of StacClipRRect
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -61,91 +83,206 @@ class _$StacClipRRectCopyWithImpl<$Res, $Val extends StacClipRRect>
     Object? clipBehavior = null,
     Object? child = freezed,
   }) {
-    return _then(_value.copyWith(
+    return _then(_self.copyWith(
       borderRadius: null == borderRadius
-          ? _value.borderRadius
+          ? _self.borderRadius
           : borderRadius // ignore: cast_nullable_to_non_nullable
               as StacBorderRadius,
       clipBehavior: null == clipBehavior
-          ? _value.clipBehavior
+          ? _self.clipBehavior
           : clipBehavior // ignore: cast_nullable_to_non_nullable
               as Clip,
       child: freezed == child
-          ? _value.child
+          ? _self.child
           : child // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
-    ) as $Val);
+    ));
   }
 
+  /// Create a copy of StacClipRRect
+  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacBorderRadiusCopyWith<$Res> get borderRadius {
-    return $StacBorderRadiusCopyWith<$Res>(_value.borderRadius, (value) {
-      return _then(_value.copyWith(borderRadius: value) as $Val);
+    return $StacBorderRadiusCopyWith<$Res>(_self.borderRadius, (value) {
+      return _then(_self.copyWith(borderRadius: value));
     });
   }
 }
 
-/// @nodoc
-abstract class _$$StacClipRRectImplCopyWith<$Res>
-    implements $StacClipRRectCopyWith<$Res> {
-  factory _$$StacClipRRectImplCopyWith(
-          _$StacClipRRectImpl value, $Res Function(_$StacClipRRectImpl) then) =
-      __$$StacClipRRectImplCopyWithImpl<$Res>;
-  @override
-  @useResult
-  $Res call(
-      {StacBorderRadius borderRadius,
-      Clip clipBehavior,
-      Map<String, dynamic>? child});
+/// Adds pattern-matching-related methods to [StacClipRRect].
+extension StacClipRRectPatterns on StacClipRRect {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
 
-  @override
-  $StacBorderRadiusCopyWith<$Res> get borderRadius;
-}
-
-/// @nodoc
-class __$$StacClipRRectImplCopyWithImpl<$Res>
-    extends _$StacClipRRectCopyWithImpl<$Res, _$StacClipRRectImpl>
-    implements _$$StacClipRRectImplCopyWith<$Res> {
-  __$$StacClipRRectImplCopyWithImpl(
-      _$StacClipRRectImpl _value, $Res Function(_$StacClipRRectImpl) _then)
-      : super(_value, _then);
-
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? borderRadius = null,
-    Object? clipBehavior = null,
-    Object? child = freezed,
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_StacClipRRect value)? $default, {
+    required TResult orElse(),
   }) {
-    return _then(_$StacClipRRectImpl(
-      borderRadius: null == borderRadius
-          ? _value.borderRadius
-          : borderRadius // ignore: cast_nullable_to_non_nullable
-              as StacBorderRadius,
-      clipBehavior: null == clipBehavior
-          ? _value.clipBehavior
-          : clipBehavior // ignore: cast_nullable_to_non_nullable
-              as Clip,
-      child: freezed == child
-          ? _value._child
-          : child // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-    ));
+    final _that = this;
+    switch (_that) {
+      case _StacClipRRect() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_StacClipRRect value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacClipRRect():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_StacClipRRect value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacClipRRect() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(StacBorderRadius borderRadius, Clip clipBehavior,
+            Map<String, dynamic>? child)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacClipRRect() when $default != null:
+        return $default(_that.borderRadius, _that.clipBehavior, _that.child);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(StacBorderRadius borderRadius, Clip clipBehavior,
+            Map<String, dynamic>? child)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacClipRRect():
+        return $default(_that.borderRadius, _that.clipBehavior, _that.child);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(StacBorderRadius borderRadius, Clip clipBehavior,
+            Map<String, dynamic>? child)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacClipRRect() when $default != null:
+        return $default(_that.borderRadius, _that.clipBehavior, _that.child);
+      case _:
+        return null;
+    }
   }
 }
 
 /// @nodoc
 @JsonSerializable()
-class _$StacClipRRectImpl implements _StacClipRRect {
-  const _$StacClipRRectImpl(
+class _StacClipRRect implements StacClipRRect {
+  const _StacClipRRect(
       {this.borderRadius = const StacBorderRadius(),
       this.clipBehavior = Clip.antiAlias,
       final Map<String, dynamic>? child})
       : _child = child;
-
-  factory _$StacClipRRectImpl.fromJson(Map<String, dynamic> json) =>
-      _$$StacClipRRectImplFromJson(json);
+  factory _StacClipRRect.fromJson(Map<String, dynamic> json) =>
+      _$StacClipRRectFromJson(json);
 
   @override
   @JsonKey()
@@ -163,16 +300,26 @@ class _$StacClipRRectImpl implements _StacClipRRect {
     return EqualUnmodifiableMapView(value);
   }
 
+  /// Create a copy of StacClipRRect
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'StacClipRRect(borderRadius: $borderRadius, clipBehavior: $clipBehavior, child: $child)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$StacClipRRectCopyWith<_StacClipRRect> get copyWith =>
+      __$StacClipRRectCopyWithImpl<_StacClipRRect>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$StacClipRRectToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$StacClipRRectImpl &&
+            other is _StacClipRRect &&
             (identical(other.borderRadius, borderRadius) ||
                 other.borderRadius == borderRadius) &&
             (identical(other.clipBehavior, clipBehavior) ||
@@ -180,42 +327,76 @@ class _$StacClipRRectImpl implements _StacClipRRect {
             const DeepCollectionEquality().equals(other._child, _child));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(runtimeType, borderRadius, clipBehavior,
       const DeepCollectionEquality().hash(_child));
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$StacClipRRectImplCopyWith<_$StacClipRRectImpl> get copyWith =>
-      __$$StacClipRRectImplCopyWithImpl<_$StacClipRRectImpl>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$StacClipRRectImplToJson(
-      this,
-    );
+  String toString() {
+    return 'StacClipRRect(borderRadius: $borderRadius, clipBehavior: $clipBehavior, child: $child)';
   }
 }
 
-abstract class _StacClipRRect implements StacClipRRect {
-  const factory _StacClipRRect(
-      {final StacBorderRadius borderRadius,
-      final Clip clipBehavior,
-      final Map<String, dynamic>? child}) = _$StacClipRRectImpl;
+/// @nodoc
+abstract mixin class _$StacClipRRectCopyWith<$Res>
+    implements $StacClipRRectCopyWith<$Res> {
+  factory _$StacClipRRectCopyWith(
+          _StacClipRRect value, $Res Function(_StacClipRRect) _then) =
+      __$StacClipRRectCopyWithImpl;
+  @override
+  @useResult
+  $Res call(
+      {StacBorderRadius borderRadius,
+      Clip clipBehavior,
+      Map<String, dynamic>? child});
 
-  factory _StacClipRRect.fromJson(Map<String, dynamic> json) =
-      _$StacClipRRectImpl.fromJson;
-
   @override
-  StacBorderRadius get borderRadius;
-  @override
-  Clip get clipBehavior;
-  @override
-  Map<String, dynamic>? get child;
-  @override
-  @JsonKey(ignore: true)
-  _$$StacClipRRectImplCopyWith<_$StacClipRRectImpl> get copyWith =>
-      throw _privateConstructorUsedError;
+  $StacBorderRadiusCopyWith<$Res> get borderRadius;
 }
+
+/// @nodoc
+class __$StacClipRRectCopyWithImpl<$Res>
+    implements _$StacClipRRectCopyWith<$Res> {
+  __$StacClipRRectCopyWithImpl(this._self, this._then);
+
+  final _StacClipRRect _self;
+  final $Res Function(_StacClipRRect) _then;
+
+  /// Create a copy of StacClipRRect
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? borderRadius = null,
+    Object? clipBehavior = null,
+    Object? child = freezed,
+  }) {
+    return _then(_StacClipRRect(
+      borderRadius: null == borderRadius
+          ? _self.borderRadius
+          : borderRadius // ignore: cast_nullable_to_non_nullable
+              as StacBorderRadius,
+      clipBehavior: null == clipBehavior
+          ? _self.clipBehavior
+          : clipBehavior // ignore: cast_nullable_to_non_nullable
+              as Clip,
+      child: freezed == child
+          ? _self._child
+          : child // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+    ));
+  }
+
+  /// Create a copy of StacClipRRect
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacBorderRadiusCopyWith<$Res> get borderRadius {
+    return $StacBorderRadiusCopyWith<$Res>(_self.borderRadius, (value) {
+      return _then(_self.copyWith(borderRadius: value));
+    });
+  }
+}
+
+// dart format on

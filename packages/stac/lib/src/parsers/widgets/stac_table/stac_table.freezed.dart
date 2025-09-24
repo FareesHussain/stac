@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,38 +9,71 @@ part of 'stac_table.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
-StacTable _$StacTableFromJson(Map<String, dynamic> json) {
-  return _StacTable.fromJson(json);
-}
 
 /// @nodoc
 mixin _$StacTable {
-  List<StacTableRow> get children => throw _privateConstructorUsedError;
-  Map<int, StacTableColumnWidth>? get columnWidths =>
-      throw _privateConstructorUsedError;
-  StacTableColumnWidth? get defaultColumnWidth =>
-      throw _privateConstructorUsedError;
-  TextDirection? get textDirection => throw _privateConstructorUsedError;
-  StacTableBorder? get border => throw _privateConstructorUsedError;
-  TableCellVerticalAlignment get defaultVerticalAlignment =>
-      throw _privateConstructorUsedError;
-  TextBaseline? get textBaseline => throw _privateConstructorUsedError;
+  List<StacTableRow> get children;
+  Map<int, StacTableColumnWidth>? get columnWidths;
+  StacTableColumnWidth? get defaultColumnWidth;
+  TextDirection? get textDirection;
+  StacTableBorder? get border;
+  TableCellVerticalAlignment get defaultVerticalAlignment;
+  TextBaseline? get textBaseline;
 
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
+  /// Create a copy of StacTable
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
   $StacTableCopyWith<StacTable> get copyWith =>
-      throw _privateConstructorUsedError;
+      _$StacTableCopyWithImpl<StacTable>(this as StacTable, _$identity);
+
+  /// Serializes this StacTable to a JSON map.
+  Map<String, dynamic> toJson();
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is StacTable &&
+            const DeepCollectionEquality().equals(other.children, children) &&
+            const DeepCollectionEquality()
+                .equals(other.columnWidths, columnWidths) &&
+            (identical(other.defaultColumnWidth, defaultColumnWidth) ||
+                other.defaultColumnWidth == defaultColumnWidth) &&
+            (identical(other.textDirection, textDirection) ||
+                other.textDirection == textDirection) &&
+            (identical(other.border, border) || other.border == border) &&
+            (identical(
+                    other.defaultVerticalAlignment, defaultVerticalAlignment) ||
+                other.defaultVerticalAlignment == defaultVerticalAlignment) &&
+            (identical(other.textBaseline, textBaseline) ||
+                other.textBaseline == textBaseline));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(children),
+      const DeepCollectionEquality().hash(columnWidths),
+      defaultColumnWidth,
+      textDirection,
+      border,
+      defaultVerticalAlignment,
+      textBaseline);
+
+  @override
+  String toString() {
+    return 'StacTable(children: $children, columnWidths: $columnWidths, defaultColumnWidth: $defaultColumnWidth, textDirection: $textDirection, border: $border, defaultVerticalAlignment: $defaultVerticalAlignment, textBaseline: $textBaseline)';
+  }
 }
 
 /// @nodoc
-abstract class $StacTableCopyWith<$Res> {
-  factory $StacTableCopyWith(StacTable value, $Res Function(StacTable) then) =
-      _$StacTableCopyWithImpl<$Res, StacTable>;
+abstract mixin class $StacTableCopyWith<$Res> {
+  factory $StacTableCopyWith(StacTable value, $Res Function(StacTable) _then) =
+      _$StacTableCopyWithImpl;
   @useResult
   $Res call(
       {List<StacTableRow> children,
@@ -56,15 +89,14 @@ abstract class $StacTableCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacTableCopyWithImpl<$Res, $Val extends StacTable>
-    implements $StacTableCopyWith<$Res> {
-  _$StacTableCopyWithImpl(this._value, this._then);
+class _$StacTableCopyWithImpl<$Res> implements $StacTableCopyWith<$Res> {
+  _$StacTableCopyWithImpl(this._self, this._then);
 
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
+  final StacTable _self;
+  final $Res Function(StacTable) _then;
 
+  /// Create a copy of StacTable
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -76,143 +108,274 @@ class _$StacTableCopyWithImpl<$Res, $Val extends StacTable>
     Object? defaultVerticalAlignment = null,
     Object? textBaseline = freezed,
   }) {
-    return _then(_value.copyWith(
+    return _then(_self.copyWith(
       children: null == children
-          ? _value.children
+          ? _self.children
           : children // ignore: cast_nullable_to_non_nullable
               as List<StacTableRow>,
       columnWidths: freezed == columnWidths
-          ? _value.columnWidths
+          ? _self.columnWidths
           : columnWidths // ignore: cast_nullable_to_non_nullable
               as Map<int, StacTableColumnWidth>?,
       defaultColumnWidth: freezed == defaultColumnWidth
-          ? _value.defaultColumnWidth
+          ? _self.defaultColumnWidth
           : defaultColumnWidth // ignore: cast_nullable_to_non_nullable
               as StacTableColumnWidth?,
       textDirection: freezed == textDirection
-          ? _value.textDirection
+          ? _self.textDirection
           : textDirection // ignore: cast_nullable_to_non_nullable
               as TextDirection?,
       border: freezed == border
-          ? _value.border
+          ? _self.border
           : border // ignore: cast_nullable_to_non_nullable
               as StacTableBorder?,
       defaultVerticalAlignment: null == defaultVerticalAlignment
-          ? _value.defaultVerticalAlignment
+          ? _self.defaultVerticalAlignment
           : defaultVerticalAlignment // ignore: cast_nullable_to_non_nullable
               as TableCellVerticalAlignment,
       textBaseline: freezed == textBaseline
-          ? _value.textBaseline
-          : textBaseline // ignore: cast_nullable_to_non_nullable
-              as TextBaseline?,
-    ) as $Val);
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTableColumnWidthCopyWith<$Res>? get defaultColumnWidth {
-    if (_value.defaultColumnWidth == null) {
-      return null;
-    }
-
-    return $StacTableColumnWidthCopyWith<$Res>(_value.defaultColumnWidth!,
-        (value) {
-      return _then(_value.copyWith(defaultColumnWidth: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTableBorderCopyWith<$Res>? get border {
-    if (_value.border == null) {
-      return null;
-    }
-
-    return $StacTableBorderCopyWith<$Res>(_value.border!, (value) {
-      return _then(_value.copyWith(border: value) as $Val);
-    });
-  }
-}
-
-/// @nodoc
-abstract class _$$StacTableImplCopyWith<$Res>
-    implements $StacTableCopyWith<$Res> {
-  factory _$$StacTableImplCopyWith(
-          _$StacTableImpl value, $Res Function(_$StacTableImpl) then) =
-      __$$StacTableImplCopyWithImpl<$Res>;
-  @override
-  @useResult
-  $Res call(
-      {List<StacTableRow> children,
-      Map<int, StacTableColumnWidth>? columnWidths,
-      StacTableColumnWidth? defaultColumnWidth,
-      TextDirection? textDirection,
-      StacTableBorder? border,
-      TableCellVerticalAlignment defaultVerticalAlignment,
-      TextBaseline? textBaseline});
-
-  @override
-  $StacTableColumnWidthCopyWith<$Res>? get defaultColumnWidth;
-  @override
-  $StacTableBorderCopyWith<$Res>? get border;
-}
-
-/// @nodoc
-class __$$StacTableImplCopyWithImpl<$Res>
-    extends _$StacTableCopyWithImpl<$Res, _$StacTableImpl>
-    implements _$$StacTableImplCopyWith<$Res> {
-  __$$StacTableImplCopyWithImpl(
-      _$StacTableImpl _value, $Res Function(_$StacTableImpl) _then)
-      : super(_value, _then);
-
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? children = null,
-    Object? columnWidths = freezed,
-    Object? defaultColumnWidth = freezed,
-    Object? textDirection = freezed,
-    Object? border = freezed,
-    Object? defaultVerticalAlignment = null,
-    Object? textBaseline = freezed,
-  }) {
-    return _then(_$StacTableImpl(
-      children: null == children
-          ? _value._children
-          : children // ignore: cast_nullable_to_non_nullable
-              as List<StacTableRow>,
-      columnWidths: freezed == columnWidths
-          ? _value._columnWidths
-          : columnWidths // ignore: cast_nullable_to_non_nullable
-              as Map<int, StacTableColumnWidth>?,
-      defaultColumnWidth: freezed == defaultColumnWidth
-          ? _value.defaultColumnWidth
-          : defaultColumnWidth // ignore: cast_nullable_to_non_nullable
-              as StacTableColumnWidth?,
-      textDirection: freezed == textDirection
-          ? _value.textDirection
-          : textDirection // ignore: cast_nullable_to_non_nullable
-              as TextDirection?,
-      border: freezed == border
-          ? _value.border
-          : border // ignore: cast_nullable_to_non_nullable
-              as StacTableBorder?,
-      defaultVerticalAlignment: null == defaultVerticalAlignment
-          ? _value.defaultVerticalAlignment
-          : defaultVerticalAlignment // ignore: cast_nullable_to_non_nullable
-              as TableCellVerticalAlignment,
-      textBaseline: freezed == textBaseline
-          ? _value.textBaseline
+          ? _self.textBaseline
           : textBaseline // ignore: cast_nullable_to_non_nullable
               as TextBaseline?,
     ));
+  }
+
+  /// Create a copy of StacTable
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTableColumnWidthCopyWith<$Res>? get defaultColumnWidth {
+    if (_self.defaultColumnWidth == null) {
+      return null;
+    }
+
+    return $StacTableColumnWidthCopyWith<$Res>(_self.defaultColumnWidth!,
+        (value) {
+      return _then(_self.copyWith(defaultColumnWidth: value));
+    });
+  }
+
+  /// Create a copy of StacTable
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTableBorderCopyWith<$Res>? get border {
+    if (_self.border == null) {
+      return null;
+    }
+
+    return $StacTableBorderCopyWith<$Res>(_self.border!, (value) {
+      return _then(_self.copyWith(border: value));
+    });
+  }
+}
+
+/// Adds pattern-matching-related methods to [StacTable].
+extension StacTablePatterns on StacTable {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_StacTable value)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacTable() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_StacTable value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacTable():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_StacTable value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacTable() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(
+            List<StacTableRow> children,
+            Map<int, StacTableColumnWidth>? columnWidths,
+            StacTableColumnWidth? defaultColumnWidth,
+            TextDirection? textDirection,
+            StacTableBorder? border,
+            TableCellVerticalAlignment defaultVerticalAlignment,
+            TextBaseline? textBaseline)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacTable() when $default != null:
+        return $default(
+            _that.children,
+            _that.columnWidths,
+            _that.defaultColumnWidth,
+            _that.textDirection,
+            _that.border,
+            _that.defaultVerticalAlignment,
+            _that.textBaseline);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(
+            List<StacTableRow> children,
+            Map<int, StacTableColumnWidth>? columnWidths,
+            StacTableColumnWidth? defaultColumnWidth,
+            TextDirection? textDirection,
+            StacTableBorder? border,
+            TableCellVerticalAlignment defaultVerticalAlignment,
+            TextBaseline? textBaseline)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacTable():
+        return $default(
+            _that.children,
+            _that.columnWidths,
+            _that.defaultColumnWidth,
+            _that.textDirection,
+            _that.border,
+            _that.defaultVerticalAlignment,
+            _that.textBaseline);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(
+            List<StacTableRow> children,
+            Map<int, StacTableColumnWidth>? columnWidths,
+            StacTableColumnWidth? defaultColumnWidth,
+            TextDirection? textDirection,
+            StacTableBorder? border,
+            TableCellVerticalAlignment defaultVerticalAlignment,
+            TextBaseline? textBaseline)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacTable() when $default != null:
+        return $default(
+            _that.children,
+            _that.columnWidths,
+            _that.defaultColumnWidth,
+            _that.textDirection,
+            _that.border,
+            _that.defaultVerticalAlignment,
+            _that.textBaseline);
+      case _:
+        return null;
+    }
   }
 }
 
 /// @nodoc
 @JsonSerializable()
-class _$StacTableImpl implements _StacTable {
-  const _$StacTableImpl(
+class _StacTable implements StacTable {
+  const _StacTable(
       {final List<StacTableRow> children = const [],
       final Map<int, StacTableColumnWidth>? columnWidths,
       this.defaultColumnWidth,
@@ -222,9 +385,8 @@ class _$StacTableImpl implements _StacTable {
       this.textBaseline})
       : _children = children,
         _columnWidths = columnWidths;
-
-  factory _$StacTableImpl.fromJson(Map<String, dynamic> json) =>
-      _$$StacTableImplFromJson(json);
+  factory _StacTable.fromJson(Map<String, dynamic> json) =>
+      _$StacTableFromJson(json);
 
   final List<StacTableRow> _children;
   @override
@@ -257,16 +419,26 @@ class _$StacTableImpl implements _StacTable {
   @override
   final TextBaseline? textBaseline;
 
+  /// Create a copy of StacTable
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'StacTable(children: $children, columnWidths: $columnWidths, defaultColumnWidth: $defaultColumnWidth, textDirection: $textDirection, border: $border, defaultVerticalAlignment: $defaultVerticalAlignment, textBaseline: $textBaseline)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$StacTableCopyWith<_StacTable> get copyWith =>
+      __$StacTableCopyWithImpl<_StacTable>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$StacTableToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$StacTableImpl &&
+            other is _StacTable &&
             const DeepCollectionEquality().equals(other._children, _children) &&
             const DeepCollectionEquality()
                 .equals(other._columnWidths, _columnWidths) &&
@@ -282,7 +454,7 @@ class _$StacTableImpl implements _StacTable {
                 other.textBaseline == textBaseline));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -294,172 +466,379 @@ class _$StacTableImpl implements _StacTable {
       defaultVerticalAlignment,
       textBaseline);
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$StacTableImplCopyWith<_$StacTableImpl> get copyWith =>
-      __$$StacTableImplCopyWithImpl<_$StacTableImpl>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$StacTableImplToJson(
-      this,
-    );
+  String toString() {
+    return 'StacTable(children: $children, columnWidths: $columnWidths, defaultColumnWidth: $defaultColumnWidth, textDirection: $textDirection, border: $border, defaultVerticalAlignment: $defaultVerticalAlignment, textBaseline: $textBaseline)';
   }
 }
 
-abstract class _StacTable implements StacTable {
-  const factory _StacTable(
-      {final List<StacTableRow> children,
-      final Map<int, StacTableColumnWidth>? columnWidths,
-      final StacTableColumnWidth? defaultColumnWidth,
-      final TextDirection? textDirection,
-      final StacTableBorder? border,
-      final TableCellVerticalAlignment defaultVerticalAlignment,
-      final TextBaseline? textBaseline}) = _$StacTableImpl;
-
-  factory _StacTable.fromJson(Map<String, dynamic> json) =
-      _$StacTableImpl.fromJson;
-
-  @override
-  List<StacTableRow> get children;
-  @override
-  Map<int, StacTableColumnWidth>? get columnWidths;
-  @override
-  StacTableColumnWidth? get defaultColumnWidth;
-  @override
-  TextDirection? get textDirection;
-  @override
-  StacTableBorder? get border;
-  @override
-  TableCellVerticalAlignment get defaultVerticalAlignment;
-  @override
-  TextBaseline? get textBaseline;
-  @override
-  @JsonKey(ignore: true)
-  _$$StacTableImplCopyWith<_$StacTableImpl> get copyWith =>
-      throw _privateConstructorUsedError;
-}
-
-StacTableRow _$StacTableRowFromJson(Map<String, dynamic> json) {
-  return _StacTableRow.fromJson(json);
-}
-
 /// @nodoc
-mixin _$StacTableRow {
-  StacBoxDecoration? get decoration => throw _privateConstructorUsedError;
-  List<Map<String, dynamic>> get children => throw _privateConstructorUsedError;
-
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
-  $StacTableRowCopyWith<StacTableRow> get copyWith =>
-      throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $StacTableRowCopyWith<$Res> {
-  factory $StacTableRowCopyWith(
-          StacTableRow value, $Res Function(StacTableRow) then) =
-      _$StacTableRowCopyWithImpl<$Res, StacTableRow>;
+abstract mixin class _$StacTableCopyWith<$Res>
+    implements $StacTableCopyWith<$Res> {
+  factory _$StacTableCopyWith(
+          _StacTable value, $Res Function(_StacTable) _then) =
+      __$StacTableCopyWithImpl;
+  @override
   @useResult
   $Res call(
-      {StacBoxDecoration? decoration, List<Map<String, dynamic>> children});
+      {List<StacTableRow> children,
+      Map<int, StacTableColumnWidth>? columnWidths,
+      StacTableColumnWidth? defaultColumnWidth,
+      TextDirection? textDirection,
+      StacTableBorder? border,
+      TableCellVerticalAlignment defaultVerticalAlignment,
+      TextBaseline? textBaseline});
 
-  $StacBoxDecorationCopyWith<$Res>? get decoration;
+  @override
+  $StacTableColumnWidthCopyWith<$Res>? get defaultColumnWidth;
+  @override
+  $StacTableBorderCopyWith<$Res>? get border;
 }
 
 /// @nodoc
-class _$StacTableRowCopyWithImpl<$Res, $Val extends StacTableRow>
-    implements $StacTableRowCopyWith<$Res> {
-  _$StacTableRowCopyWithImpl(this._value, this._then);
+class __$StacTableCopyWithImpl<$Res> implements _$StacTableCopyWith<$Res> {
+  __$StacTableCopyWithImpl(this._self, this._then);
 
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
+  final _StacTable _self;
+  final $Res Function(_StacTable) _then;
 
-  @pragma('vm:prefer-inline')
+  /// Create a copy of StacTable
+  /// with the given fields replaced by the non-null parameter values.
   @override
+  @pragma('vm:prefer-inline')
   $Res call({
-    Object? decoration = freezed,
     Object? children = null,
+    Object? columnWidths = freezed,
+    Object? defaultColumnWidth = freezed,
+    Object? textDirection = freezed,
+    Object? border = freezed,
+    Object? defaultVerticalAlignment = null,
+    Object? textBaseline = freezed,
   }) {
-    return _then(_value.copyWith(
-      decoration: freezed == decoration
-          ? _value.decoration
-          : decoration // ignore: cast_nullable_to_non_nullable
-              as StacBoxDecoration?,
+    return _then(_StacTable(
       children: null == children
-          ? _value.children
+          ? _self._children
           : children // ignore: cast_nullable_to_non_nullable
-              as List<Map<String, dynamic>>,
-    ) as $Val);
+              as List<StacTableRow>,
+      columnWidths: freezed == columnWidths
+          ? _self._columnWidths
+          : columnWidths // ignore: cast_nullable_to_non_nullable
+              as Map<int, StacTableColumnWidth>?,
+      defaultColumnWidth: freezed == defaultColumnWidth
+          ? _self.defaultColumnWidth
+          : defaultColumnWidth // ignore: cast_nullable_to_non_nullable
+              as StacTableColumnWidth?,
+      textDirection: freezed == textDirection
+          ? _self.textDirection
+          : textDirection // ignore: cast_nullable_to_non_nullable
+              as TextDirection?,
+      border: freezed == border
+          ? _self.border
+          : border // ignore: cast_nullable_to_non_nullable
+              as StacTableBorder?,
+      defaultVerticalAlignment: null == defaultVerticalAlignment
+          ? _self.defaultVerticalAlignment
+          : defaultVerticalAlignment // ignore: cast_nullable_to_non_nullable
+              as TableCellVerticalAlignment,
+      textBaseline: freezed == textBaseline
+          ? _self.textBaseline
+          : textBaseline // ignore: cast_nullable_to_non_nullable
+              as TextBaseline?,
+    ));
   }
 
+  /// Create a copy of StacTable
+  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
-  $StacBoxDecorationCopyWith<$Res>? get decoration {
-    if (_value.decoration == null) {
+  $StacTableColumnWidthCopyWith<$Res>? get defaultColumnWidth {
+    if (_self.defaultColumnWidth == null) {
       return null;
     }
 
-    return $StacBoxDecorationCopyWith<$Res>(_value.decoration!, (value) {
-      return _then(_value.copyWith(decoration: value) as $Val);
+    return $StacTableColumnWidthCopyWith<$Res>(_self.defaultColumnWidth!,
+        (value) {
+      return _then(_self.copyWith(defaultColumnWidth: value));
+    });
+  }
+
+  /// Create a copy of StacTable
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTableBorderCopyWith<$Res>? get border {
+    if (_self.border == null) {
+      return null;
+    }
+
+    return $StacTableBorderCopyWith<$Res>(_self.border!, (value) {
+      return _then(_self.copyWith(border: value));
     });
   }
 }
 
 /// @nodoc
-abstract class _$$StacTableRowImplCopyWith<$Res>
-    implements $StacTableRowCopyWith<$Res> {
-  factory _$$StacTableRowImplCopyWith(
-          _$StacTableRowImpl value, $Res Function(_$StacTableRowImpl) then) =
-      __$$StacTableRowImplCopyWithImpl<$Res>;
+mixin _$StacTableRow {
+  StacBoxDecoration? get decoration;
+  List<Map<String, dynamic>> get children;
+
+  /// Create a copy of StacTableRow
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  $StacTableRowCopyWith<StacTableRow> get copyWith =>
+      _$StacTableRowCopyWithImpl<StacTableRow>(
+          this as StacTableRow, _$identity);
+
+  /// Serializes this StacTableRow to a JSON map.
+  Map<String, dynamic> toJson();
+
   @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is StacTableRow &&
+            (identical(other.decoration, decoration) ||
+                other.decoration == decoration) &&
+            const DeepCollectionEquality().equals(other.children, children));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(
+      runtimeType, decoration, const DeepCollectionEquality().hash(children));
+
+  @override
+  String toString() {
+    return 'StacTableRow(decoration: $decoration, children: $children)';
+  }
+}
+
+/// @nodoc
+abstract mixin class $StacTableRowCopyWith<$Res> {
+  factory $StacTableRowCopyWith(
+          StacTableRow value, $Res Function(StacTableRow) _then) =
+      _$StacTableRowCopyWithImpl;
   @useResult
   $Res call(
       {StacBoxDecoration? decoration, List<Map<String, dynamic>> children});
 
-  @override
   $StacBoxDecorationCopyWith<$Res>? get decoration;
 }
 
 /// @nodoc
-class __$$StacTableRowImplCopyWithImpl<$Res>
-    extends _$StacTableRowCopyWithImpl<$Res, _$StacTableRowImpl>
-    implements _$$StacTableRowImplCopyWith<$Res> {
-  __$$StacTableRowImplCopyWithImpl(
-      _$StacTableRowImpl _value, $Res Function(_$StacTableRowImpl) _then)
-      : super(_value, _then);
+class _$StacTableRowCopyWithImpl<$Res> implements $StacTableRowCopyWith<$Res> {
+  _$StacTableRowCopyWithImpl(this._self, this._then);
 
+  final StacTableRow _self;
+  final $Res Function(StacTableRow) _then;
+
+  /// Create a copy of StacTableRow
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? decoration = freezed,
     Object? children = null,
   }) {
-    return _then(_$StacTableRowImpl(
+    return _then(_self.copyWith(
       decoration: freezed == decoration
-          ? _value.decoration
+          ? _self.decoration
           : decoration // ignore: cast_nullable_to_non_nullable
               as StacBoxDecoration?,
       children: null == children
-          ? _value._children
+          ? _self.children
           : children // ignore: cast_nullable_to_non_nullable
               as List<Map<String, dynamic>>,
     ));
+  }
+
+  /// Create a copy of StacTableRow
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacBoxDecorationCopyWith<$Res>? get decoration {
+    if (_self.decoration == null) {
+      return null;
+    }
+
+    return $StacBoxDecorationCopyWith<$Res>(_self.decoration!, (value) {
+      return _then(_self.copyWith(decoration: value));
+    });
+  }
+}
+
+/// Adds pattern-matching-related methods to [StacTableRow].
+extension StacTableRowPatterns on StacTableRow {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_StacTableRow value)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacTableRow() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_StacTableRow value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacTableRow():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_StacTableRow value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacTableRow() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(
+            StacBoxDecoration? decoration, List<Map<String, dynamic>> children)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacTableRow() when $default != null:
+        return $default(_that.decoration, _that.children);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(
+            StacBoxDecoration? decoration, List<Map<String, dynamic>> children)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacTableRow():
+        return $default(_that.decoration, _that.children);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(
+            StacBoxDecoration? decoration, List<Map<String, dynamic>> children)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacTableRow() when $default != null:
+        return $default(_that.decoration, _that.children);
+      case _:
+        return null;
+    }
   }
 }
 
 /// @nodoc
 @JsonSerializable()
-class _$StacTableRowImpl implements _StacTableRow {
-  const _$StacTableRowImpl(
+class _StacTableRow implements StacTableRow {
+  const _StacTableRow(
       {this.decoration, final List<Map<String, dynamic>> children = const []})
       : _children = children;
-
-  factory _$StacTableRowImpl.fromJson(Map<String, dynamic> json) =>
-      _$$StacTableRowImplFromJson(json);
+  factory _StacTableRow.fromJson(Map<String, dynamic> json) =>
+      _$StacTableRowFromJson(json);
 
   @override
   final StacBoxDecoration? decoration;
@@ -472,144 +851,146 @@ class _$StacTableRowImpl implements _StacTableRow {
     return EqualUnmodifiableListView(_children);
   }
 
+  /// Create a copy of StacTableRow
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'StacTableRow(decoration: $decoration, children: $children)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$StacTableRowCopyWith<_StacTableRow> get copyWith =>
+      __$StacTableRowCopyWithImpl<_StacTableRow>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$StacTableRowToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$StacTableRowImpl &&
+            other is _StacTableRow &&
             (identical(other.decoration, decoration) ||
                 other.decoration == decoration) &&
             const DeepCollectionEquality().equals(other._children, _children));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(
       runtimeType, decoration, const DeepCollectionEquality().hash(_children));
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$StacTableRowImplCopyWith<_$StacTableRowImpl> get copyWith =>
-      __$$StacTableRowImplCopyWithImpl<_$StacTableRowImpl>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$StacTableRowImplToJson(
-      this,
-    );
+  String toString() {
+    return 'StacTableRow(decoration: $decoration, children: $children)';
   }
 }
 
-abstract class _StacTableRow implements StacTableRow {
-  const factory _StacTableRow(
-      {final StacBoxDecoration? decoration,
-      final List<Map<String, dynamic>> children}) = _$StacTableRowImpl;
-
-  factory _StacTableRow.fromJson(Map<String, dynamic> json) =
-      _$StacTableRowImpl.fromJson;
-
-  @override
-  StacBoxDecoration? get decoration;
-  @override
-  List<Map<String, dynamic>> get children;
-  @override
-  @JsonKey(ignore: true)
-  _$$StacTableRowImplCopyWith<_$StacTableRowImpl> get copyWith =>
-      throw _privateConstructorUsedError;
-}
-
-StacTableBorder _$StacTableBorderFromJson(Map<String, dynamic> json) {
-  return _StacTableBorder.fromJson(json);
-}
-
 /// @nodoc
-mixin _$StacTableBorder {
-  String get color => throw _privateConstructorUsedError;
-  StacDouble get width => throw _privateConstructorUsedError;
-  BorderStyle get style => throw _privateConstructorUsedError;
-  StacBorderRadius get borderRadius => throw _privateConstructorUsedError;
-
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
-  $StacTableBorderCopyWith<StacTableBorder> get copyWith =>
-      throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $StacTableBorderCopyWith<$Res> {
-  factory $StacTableBorderCopyWith(
-          StacTableBorder value, $Res Function(StacTableBorder) then) =
-      _$StacTableBorderCopyWithImpl<$Res, StacTableBorder>;
+abstract mixin class _$StacTableRowCopyWith<$Res>
+    implements $StacTableRowCopyWith<$Res> {
+  factory _$StacTableRowCopyWith(
+          _StacTableRow value, $Res Function(_StacTableRow) _then) =
+      __$StacTableRowCopyWithImpl;
+  @override
   @useResult
   $Res call(
-      {String color,
-      StacDouble width,
-      BorderStyle style,
-      StacBorderRadius borderRadius});
+      {StacBoxDecoration? decoration, List<Map<String, dynamic>> children});
 
-  $StacBorderRadiusCopyWith<$Res> get borderRadius;
+  @override
+  $StacBoxDecorationCopyWith<$Res>? get decoration;
 }
 
 /// @nodoc
-class _$StacTableBorderCopyWithImpl<$Res, $Val extends StacTableBorder>
-    implements $StacTableBorderCopyWith<$Res> {
-  _$StacTableBorderCopyWithImpl(this._value, this._then);
+class __$StacTableRowCopyWithImpl<$Res>
+    implements _$StacTableRowCopyWith<$Res> {
+  __$StacTableRowCopyWithImpl(this._self, this._then);
 
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
+  final _StacTableRow _self;
+  final $Res Function(_StacTableRow) _then;
 
-  @pragma('vm:prefer-inline')
+  /// Create a copy of StacTableRow
+  /// with the given fields replaced by the non-null parameter values.
   @override
+  @pragma('vm:prefer-inline')
   $Res call({
-    Object? color = null,
-    Object? width = null,
-    Object? style = null,
-    Object? borderRadius = null,
+    Object? decoration = freezed,
+    Object? children = null,
   }) {
-    return _then(_value.copyWith(
-      color: null == color
-          ? _value.color
-          : color // ignore: cast_nullable_to_non_nullable
-              as String,
-      width: null == width
-          ? _value.width
-          : width // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      style: null == style
-          ? _value.style
-          : style // ignore: cast_nullable_to_non_nullable
-              as BorderStyle,
-      borderRadius: null == borderRadius
-          ? _value.borderRadius
-          : borderRadius // ignore: cast_nullable_to_non_nullable
-              as StacBorderRadius,
-    ) as $Val);
+    return _then(_StacTableRow(
+      decoration: freezed == decoration
+          ? _self.decoration
+          : decoration // ignore: cast_nullable_to_non_nullable
+              as StacBoxDecoration?,
+      children: null == children
+          ? _self._children
+          : children // ignore: cast_nullable_to_non_nullable
+              as List<Map<String, dynamic>>,
+    ));
   }
 
+  /// Create a copy of StacTableRow
+  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
-  $StacBorderRadiusCopyWith<$Res> get borderRadius {
-    return $StacBorderRadiusCopyWith<$Res>(_value.borderRadius, (value) {
-      return _then(_value.copyWith(borderRadius: value) as $Val);
+  $StacBoxDecorationCopyWith<$Res>? get decoration {
+    if (_self.decoration == null) {
+      return null;
+    }
+
+    return $StacBoxDecorationCopyWith<$Res>(_self.decoration!, (value) {
+      return _then(_self.copyWith(decoration: value));
     });
   }
 }
 
 /// @nodoc
-abstract class _$$StacTableBorderImplCopyWith<$Res>
-    implements $StacTableBorderCopyWith<$Res> {
-  factory _$$StacTableBorderImplCopyWith(_$StacTableBorderImpl value,
-          $Res Function(_$StacTableBorderImpl) then) =
-      __$$StacTableBorderImplCopyWithImpl<$Res>;
+mixin _$StacTableBorder {
+  String get color;
+  StacDouble get width;
+  BorderStyle get style;
+  StacBorderRadius get borderRadius;
+
+  /// Create a copy of StacTableBorder
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  $StacTableBorderCopyWith<StacTableBorder> get copyWith =>
+      _$StacTableBorderCopyWithImpl<StacTableBorder>(
+          this as StacTableBorder, _$identity);
+
+  /// Serializes this StacTableBorder to a JSON map.
+  Map<String, dynamic> toJson();
+
   @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is StacTableBorder &&
+            (identical(other.color, color) || other.color == color) &&
+            (identical(other.width, width) || other.width == width) &&
+            (identical(other.style, style) || other.style == style) &&
+            (identical(other.borderRadius, borderRadius) ||
+                other.borderRadius == borderRadius));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode =>
+      Object.hash(runtimeType, color, width, style, borderRadius);
+
+  @override
+  String toString() {
+    return 'StacTableBorder(color: $color, width: $width, style: $style, borderRadius: $borderRadius)';
+  }
+}
+
+/// @nodoc
+abstract mixin class $StacTableBorderCopyWith<$Res> {
+  factory $StacTableBorderCopyWith(
+          StacTableBorder value, $Res Function(StacTableBorder) _then) =
+      _$StacTableBorderCopyWithImpl;
   @useResult
   $Res call(
       {String color,
@@ -617,18 +998,19 @@ abstract class _$$StacTableBorderImplCopyWith<$Res>
       BorderStyle style,
       StacBorderRadius borderRadius});
 
-  @override
   $StacBorderRadiusCopyWith<$Res> get borderRadius;
 }
 
 /// @nodoc
-class __$$StacTableBorderImplCopyWithImpl<$Res>
-    extends _$StacTableBorderCopyWithImpl<$Res, _$StacTableBorderImpl>
-    implements _$$StacTableBorderImplCopyWith<$Res> {
-  __$$StacTableBorderImplCopyWithImpl(
-      _$StacTableBorderImpl _value, $Res Function(_$StacTableBorderImpl) _then)
-      : super(_value, _then);
+class _$StacTableBorderCopyWithImpl<$Res>
+    implements $StacTableBorderCopyWith<$Res> {
+  _$StacTableBorderCopyWithImpl(this._self, this._then);
 
+  final StacTableBorder _self;
+  final $Res Function(StacTableBorder) _then;
+
+  /// Create a copy of StacTableBorder
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -637,38 +1019,213 @@ class __$$StacTableBorderImplCopyWithImpl<$Res>
     Object? style = null,
     Object? borderRadius = null,
   }) {
-    return _then(_$StacTableBorderImpl(
+    return _then(_self.copyWith(
       color: null == color
-          ? _value.color
+          ? _self.color
           : color // ignore: cast_nullable_to_non_nullable
               as String,
       width: null == width
-          ? _value.width
+          ? _self.width
           : width // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       style: null == style
-          ? _value.style
+          ? _self.style
           : style // ignore: cast_nullable_to_non_nullable
               as BorderStyle,
       borderRadius: null == borderRadius
-          ? _value.borderRadius
+          ? _self.borderRadius
           : borderRadius // ignore: cast_nullable_to_non_nullable
               as StacBorderRadius,
     ));
+  }
+
+  /// Create a copy of StacTableBorder
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacBorderRadiusCopyWith<$Res> get borderRadius {
+    return $StacBorderRadiusCopyWith<$Res>(_self.borderRadius, (value) {
+      return _then(_self.copyWith(borderRadius: value));
+    });
+  }
+}
+
+/// Adds pattern-matching-related methods to [StacTableBorder].
+extension StacTableBorderPatterns on StacTableBorder {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_StacTableBorder value)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacTableBorder() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_StacTableBorder value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacTableBorder():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_StacTableBorder value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacTableBorder() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(String color, StacDouble width, BorderStyle style,
+            StacBorderRadius borderRadius)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacTableBorder() when $default != null:
+        return $default(
+            _that.color, _that.width, _that.style, _that.borderRadius);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(String color, StacDouble width, BorderStyle style,
+            StacBorderRadius borderRadius)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacTableBorder():
+        return $default(
+            _that.color, _that.width, _that.style, _that.borderRadius);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(String color, StacDouble width, BorderStyle style,
+            StacBorderRadius borderRadius)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacTableBorder() when $default != null:
+        return $default(
+            _that.color, _that.width, _that.style, _that.borderRadius);
+      case _:
+        return null;
+    }
   }
 }
 
 /// @nodoc
 @JsonSerializable()
-class _$StacTableBorderImpl implements _StacTableBorder {
-  const _$StacTableBorderImpl(
+class _StacTableBorder implements StacTableBorder {
+  const _StacTableBorder(
       {this.color = '#000000',
       this.width = const StacDouble(1.0),
       this.style = BorderStyle.solid,
       this.borderRadius = const StacBorderRadius()});
-
-  factory _$StacTableBorderImpl.fromJson(Map<String, dynamic> json) =>
-      _$$StacTableBorderImplFromJson(json);
+  factory _StacTableBorder.fromJson(Map<String, dynamic> json) =>
+      _$StacTableBorderFromJson(json);
 
   @override
   @JsonKey()
@@ -683,16 +1240,26 @@ class _$StacTableBorderImpl implements _StacTableBorder {
   @JsonKey()
   final StacBorderRadius borderRadius;
 
+  /// Create a copy of StacTableBorder
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'StacTableBorder(color: $color, width: $width, style: $style, borderRadius: $borderRadius)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$StacTableBorderCopyWith<_StacTableBorder> get copyWith =>
+      __$StacTableBorderCopyWithImpl<_StacTableBorder>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$StacTableBorderToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$StacTableBorderImpl &&
+            other is _StacTableBorder &&
             (identical(other.color, color) || other.color == color) &&
             (identical(other.width, width) || other.width == width) &&
             (identical(other.style, style) || other.style == style) &&
@@ -700,150 +1267,323 @@ class _$StacTableBorderImpl implements _StacTableBorder {
                 other.borderRadius == borderRadius));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode =>
       Object.hash(runtimeType, color, width, style, borderRadius);
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$StacTableBorderImplCopyWith<_$StacTableBorderImpl> get copyWith =>
-      __$$StacTableBorderImplCopyWithImpl<_$StacTableBorderImpl>(
-          this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$StacTableBorderImplToJson(
-      this,
-    );
+  String toString() {
+    return 'StacTableBorder(color: $color, width: $width, style: $style, borderRadius: $borderRadius)';
   }
 }
 
-abstract class _StacTableBorder implements StacTableBorder {
-  const factory _StacTableBorder(
-      {final String color,
-      final StacDouble width,
-      final BorderStyle style,
-      final StacBorderRadius borderRadius}) = _$StacTableBorderImpl;
+/// @nodoc
+abstract mixin class _$StacTableBorderCopyWith<$Res>
+    implements $StacTableBorderCopyWith<$Res> {
+  factory _$StacTableBorderCopyWith(
+          _StacTableBorder value, $Res Function(_StacTableBorder) _then) =
+      __$StacTableBorderCopyWithImpl;
+  @override
+  @useResult
+  $Res call(
+      {String color,
+      StacDouble width,
+      BorderStyle style,
+      StacBorderRadius borderRadius});
 
-  factory _StacTableBorder.fromJson(Map<String, dynamic> json) =
-      _$StacTableBorderImpl.fromJson;
-
   @override
-  String get color;
-  @override
-  StacDouble get width;
-  @override
-  BorderStyle get style;
-  @override
-  StacBorderRadius get borderRadius;
-  @override
-  @JsonKey(ignore: true)
-  _$$StacTableBorderImplCopyWith<_$StacTableBorderImpl> get copyWith =>
-      throw _privateConstructorUsedError;
+  $StacBorderRadiusCopyWith<$Res> get borderRadius;
 }
 
-StacTableColumnWidth _$StacTableColumnWidthFromJson(Map<String, dynamic> json) {
-  return _StacTableColumnWidth.fromJson(json);
+/// @nodoc
+class __$StacTableBorderCopyWithImpl<$Res>
+    implements _$StacTableBorderCopyWith<$Res> {
+  __$StacTableBorderCopyWithImpl(this._self, this._then);
+
+  final _StacTableBorder _self;
+  final $Res Function(_StacTableBorder) _then;
+
+  /// Create a copy of StacTableBorder
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? color = null,
+    Object? width = null,
+    Object? style = null,
+    Object? borderRadius = null,
+  }) {
+    return _then(_StacTableBorder(
+      color: null == color
+          ? _self.color
+          : color // ignore: cast_nullable_to_non_nullable
+              as String,
+      width: null == width
+          ? _self.width
+          : width // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      style: null == style
+          ? _self.style
+          : style // ignore: cast_nullable_to_non_nullable
+              as BorderStyle,
+      borderRadius: null == borderRadius
+          ? _self.borderRadius
+          : borderRadius // ignore: cast_nullable_to_non_nullable
+              as StacBorderRadius,
+    ));
+  }
+
+  /// Create a copy of StacTableBorder
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacBorderRadiusCopyWith<$Res> get borderRadius {
+    return $StacBorderRadiusCopyWith<$Res>(_self.borderRadius, (value) {
+      return _then(_self.copyWith(borderRadius: value));
+    });
+  }
 }
 
 /// @nodoc
 mixin _$StacTableColumnWidth {
-  StacTableColumnWidthType get type => throw _privateConstructorUsedError;
-  StacDouble? get value => throw _privateConstructorUsedError;
+  StacTableColumnWidthType get type;
+  StacDouble? get value;
 
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
-  $StacTableColumnWidthCopyWith<StacTableColumnWidth> get copyWith =>
-      throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $StacTableColumnWidthCopyWith<$Res> {
-  factory $StacTableColumnWidthCopyWith(StacTableColumnWidth value,
-          $Res Function(StacTableColumnWidth) then) =
-      _$StacTableColumnWidthCopyWithImpl<$Res, StacTableColumnWidth>;
-  @useResult
-  $Res call({StacTableColumnWidthType type, StacDouble? value});
-}
-
-/// @nodoc
-class _$StacTableColumnWidthCopyWithImpl<$Res,
-        $Val extends StacTableColumnWidth>
-    implements $StacTableColumnWidthCopyWith<$Res> {
-  _$StacTableColumnWidthCopyWithImpl(this._value, this._then);
-
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
-
+  /// Create a copy of StacTableColumnWidth
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @pragma('vm:prefer-inline')
+  $StacTableColumnWidthCopyWith<StacTableColumnWidth> get copyWith =>
+      _$StacTableColumnWidthCopyWithImpl<StacTableColumnWidth>(
+          this as StacTableColumnWidth, _$identity);
+
+  /// Serializes this StacTableColumnWidth to a JSON map.
+  Map<String, dynamic> toJson();
+
   @override
-  $Res call({
-    Object? type = null,
-    Object? value = freezed,
-  }) {
-    return _then(_value.copyWith(
-      type: null == type
-          ? _value.type
-          : type // ignore: cast_nullable_to_non_nullable
-              as StacTableColumnWidthType,
-      value: freezed == value
-          ? _value.value
-          : value // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-    ) as $Val);
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is StacTableColumnWidth &&
+            (identical(other.type, type) || other.type == type) &&
+            (identical(other.value, value) || other.value == value));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(runtimeType, type, value);
+
+  @override
+  String toString() {
+    return 'StacTableColumnWidth(type: $type, value: $value)';
   }
 }
 
 /// @nodoc
-abstract class _$$StacTableColumnWidthImplCopyWith<$Res>
-    implements $StacTableColumnWidthCopyWith<$Res> {
-  factory _$$StacTableColumnWidthImplCopyWith(_$StacTableColumnWidthImpl value,
-          $Res Function(_$StacTableColumnWidthImpl) then) =
-      __$$StacTableColumnWidthImplCopyWithImpl<$Res>;
-  @override
+abstract mixin class $StacTableColumnWidthCopyWith<$Res> {
+  factory $StacTableColumnWidthCopyWith(StacTableColumnWidth value,
+          $Res Function(StacTableColumnWidth) _then) =
+      _$StacTableColumnWidthCopyWithImpl;
   @useResult
   $Res call({StacTableColumnWidthType type, StacDouble? value});
 }
 
 /// @nodoc
-class __$$StacTableColumnWidthImplCopyWithImpl<$Res>
-    extends _$StacTableColumnWidthCopyWithImpl<$Res, _$StacTableColumnWidthImpl>
-    implements _$$StacTableColumnWidthImplCopyWith<$Res> {
-  __$$StacTableColumnWidthImplCopyWithImpl(_$StacTableColumnWidthImpl _value,
-      $Res Function(_$StacTableColumnWidthImpl) _then)
-      : super(_value, _then);
+class _$StacTableColumnWidthCopyWithImpl<$Res>
+    implements $StacTableColumnWidthCopyWith<$Res> {
+  _$StacTableColumnWidthCopyWithImpl(this._self, this._then);
 
+  final StacTableColumnWidth _self;
+  final $Res Function(StacTableColumnWidth) _then;
+
+  /// Create a copy of StacTableColumnWidth
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? type = null,
     Object? value = freezed,
   }) {
-    return _then(_$StacTableColumnWidthImpl(
+    return _then(_self.copyWith(
       type: null == type
-          ? _value.type
+          ? _self.type
           : type // ignore: cast_nullable_to_non_nullable
               as StacTableColumnWidthType,
       value: freezed == value
-          ? _value.value
+          ? _self.value
           : value // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
     ));
   }
 }
 
+/// Adds pattern-matching-related methods to [StacTableColumnWidth].
+extension StacTableColumnWidthPatterns on StacTableColumnWidth {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_StacTableColumnWidth value)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacTableColumnWidth() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_StacTableColumnWidth value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacTableColumnWidth():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_StacTableColumnWidth value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacTableColumnWidth() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(StacTableColumnWidthType type, StacDouble? value)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacTableColumnWidth() when $default != null:
+        return $default(_that.type, _that.value);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(StacTableColumnWidthType type, StacDouble? value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacTableColumnWidth():
+        return $default(_that.type, _that.value);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(StacTableColumnWidthType type, StacDouble? value)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacTableColumnWidth() when $default != null:
+        return $default(_that.type, _that.value);
+      case _:
+        return null;
+    }
+  }
+}
+
 /// @nodoc
 @JsonSerializable()
-class _$StacTableColumnWidthImpl implements _StacTableColumnWidth {
-  const _$StacTableColumnWidthImpl(
+class _StacTableColumnWidth implements StacTableColumnWidth {
+  const _StacTableColumnWidth(
       {this.type = StacTableColumnWidthType.flexColumnWidth, this.value});
-
-  factory _$StacTableColumnWidthImpl.fromJson(Map<String, dynamic> json) =>
-      _$$StacTableColumnWidthImplFromJson(json);
+  factory _StacTableColumnWidth.fromJson(Map<String, dynamic> json) =>
+      _$StacTableColumnWidthFromJson(json);
 
   @override
   @JsonKey()
@@ -851,54 +1591,79 @@ class _$StacTableColumnWidthImpl implements _StacTableColumnWidth {
   @override
   final StacDouble? value;
 
+  /// Create a copy of StacTableColumnWidth
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'StacTableColumnWidth(type: $type, value: $value)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$StacTableColumnWidthCopyWith<_StacTableColumnWidth> get copyWith =>
+      __$StacTableColumnWidthCopyWithImpl<_StacTableColumnWidth>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$StacTableColumnWidthToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$StacTableColumnWidthImpl &&
+            other is _StacTableColumnWidth &&
             (identical(other.type, type) || other.type == type) &&
             (identical(other.value, value) || other.value == value));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(runtimeType, type, value);
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$StacTableColumnWidthImplCopyWith<_$StacTableColumnWidthImpl>
-      get copyWith =>
-          __$$StacTableColumnWidthImplCopyWithImpl<_$StacTableColumnWidthImpl>(
-              this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$StacTableColumnWidthImplToJson(
-      this,
-    );
+  String toString() {
+    return 'StacTableColumnWidth(type: $type, value: $value)';
   }
 }
 
-abstract class _StacTableColumnWidth implements StacTableColumnWidth {
-  const factory _StacTableColumnWidth(
-      {final StacTableColumnWidthType type,
-      final StacDouble? value}) = _$StacTableColumnWidthImpl;
-
-  factory _StacTableColumnWidth.fromJson(Map<String, dynamic> json) =
-      _$StacTableColumnWidthImpl.fromJson;
-
+/// @nodoc
+abstract mixin class _$StacTableColumnWidthCopyWith<$Res>
+    implements $StacTableColumnWidthCopyWith<$Res> {
+  factory _$StacTableColumnWidthCopyWith(_StacTableColumnWidth value,
+          $Res Function(_StacTableColumnWidth) _then) =
+      __$StacTableColumnWidthCopyWithImpl;
   @override
-  StacTableColumnWidthType get type;
-  @override
-  StacDouble? get value;
-  @override
-  @JsonKey(ignore: true)
-  _$$StacTableColumnWidthImplCopyWith<_$StacTableColumnWidthImpl>
-      get copyWith => throw _privateConstructorUsedError;
+  @useResult
+  $Res call({StacTableColumnWidthType type, StacDouble? value});
 }
+
+/// @nodoc
+class __$StacTableColumnWidthCopyWithImpl<$Res>
+    implements _$StacTableColumnWidthCopyWith<$Res> {
+  __$StacTableColumnWidthCopyWithImpl(this._self, this._then);
+
+  final _StacTableColumnWidth _self;
+  final $Res Function(_StacTableColumnWidth) _then;
+
+  /// Create a copy of StacTableColumnWidth
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? type = null,
+    Object? value = freezed,
+  }) {
+    return _then(_StacTableColumnWidth(
+      type: null == type
+          ? _self.type
+          : type // ignore: cast_nullable_to_non_nullable
+              as StacTableColumnWidthType,
+      value: freezed == value
+          ? _self.value
+          : value // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+    ));
+  }
+}
+
+// dart format on

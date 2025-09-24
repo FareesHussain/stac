@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,65 +9,180 @@ part of 'stac_sliver_app_bar.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
-StacSliverAppBar _$StacSliverAppBarFromJson(Map<String, dynamic> json) {
-  return _StacSliverAppBar.fromJson(json);
-}
 
 /// @nodoc
 mixin _$StacSliverAppBar {
-  Map<String, dynamic>? get leading => throw _privateConstructorUsedError;
-  bool get automaticallyImplyLeading => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get title => throw _privateConstructorUsedError;
-  List<Map<String, dynamic>>? get actions => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get flexibleSpace => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get bottom => throw _privateConstructorUsedError;
-  StacDouble? get elevation => throw _privateConstructorUsedError;
-  StacDouble? get scrolledUnderElevation => throw _privateConstructorUsedError;
-  String? get shadowColor => throw _privateConstructorUsedError;
-  String? get surfaceTintColor => throw _privateConstructorUsedError;
-  bool get forceElevated => throw _privateConstructorUsedError;
-  String? get backgroundColor => throw _privateConstructorUsedError;
-  String? get foregroundColor => throw _privateConstructorUsedError;
-  StacIconThemeData? get iconTheme => throw _privateConstructorUsedError;
-  StacIconThemeData? get actionsIconTheme => throw _privateConstructorUsedError;
-  bool get primary => throw _privateConstructorUsedError;
-  bool? get centerTitle => throw _privateConstructorUsedError;
-  bool get excludeHeaderSemantics => throw _privateConstructorUsedError;
-  StacDouble? get titleSpacing => throw _privateConstructorUsedError;
-  StacDouble? get collapsedHeight => throw _privateConstructorUsedError;
-  StacDouble? get expandedHeight => throw _privateConstructorUsedError;
-  bool get floating => throw _privateConstructorUsedError;
-  bool get pinned => throw _privateConstructorUsedError;
-  bool get snap => throw _privateConstructorUsedError;
-  bool get stretch => throw _privateConstructorUsedError;
-  StacDouble get stretchTriggerOffset => throw _privateConstructorUsedError;
-  StacShapeBorder? get shape => throw _privateConstructorUsedError;
-  StacDouble get toolbarHeight => throw _privateConstructorUsedError;
-  StacDouble? get leadingWidth => throw _privateConstructorUsedError;
-  StacTextStyle? get toolbarTextStyle => throw _privateConstructorUsedError;
-  StacTextStyle? get titleTextStyle => throw _privateConstructorUsedError;
-  StacSystemUIOverlayStyle? get systemOverlayStyle =>
-      throw _privateConstructorUsedError;
-  bool get forceMaterialTransparency => throw _privateConstructorUsedError;
-  Clip? get clipBehavior => throw _privateConstructorUsedError;
-  StacEdgeInsets? get actionsPadding => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get leading;
+  bool get automaticallyImplyLeading;
+  Map<String, dynamic>? get title;
+  List<Map<String, dynamic>>? get actions;
+  Map<String, dynamic>? get flexibleSpace;
+  Map<String, dynamic>? get bottom;
+  StacDouble? get elevation;
+  StacDouble? get scrolledUnderElevation;
+  String? get shadowColor;
+  String? get surfaceTintColor;
+  bool get forceElevated;
+  String? get backgroundColor;
+  String? get foregroundColor;
+  StacIconThemeData? get iconTheme;
+  StacIconThemeData? get actionsIconTheme;
+  bool get primary;
+  bool? get centerTitle;
+  bool get excludeHeaderSemantics;
+  StacDouble? get titleSpacing;
+  StacDouble? get collapsedHeight;
+  StacDouble? get expandedHeight;
+  bool get floating;
+  bool get pinned;
+  bool get snap;
+  bool get stretch;
+  StacDouble get stretchTriggerOffset;
+  StacShapeBorder? get shape;
+  StacDouble get toolbarHeight;
+  StacDouble? get leadingWidth;
+  StacTextStyle? get toolbarTextStyle;
+  StacTextStyle? get titleTextStyle;
+  StacSystemUIOverlayStyle? get systemOverlayStyle;
+  bool get forceMaterialTransparency;
+  Clip? get clipBehavior;
+  StacEdgeInsets? get actionsPadding;
 
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
+  /// Create a copy of StacSliverAppBar
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
   $StacSliverAppBarCopyWith<StacSliverAppBar> get copyWith =>
-      throw _privateConstructorUsedError;
+      _$StacSliverAppBarCopyWithImpl<StacSliverAppBar>(
+          this as StacSliverAppBar, _$identity);
+
+  /// Serializes this StacSliverAppBar to a JSON map.
+  Map<String, dynamic> toJson();
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is StacSliverAppBar &&
+            const DeepCollectionEquality().equals(other.leading, leading) &&
+            (identical(other.automaticallyImplyLeading,
+                    automaticallyImplyLeading) ||
+                other.automaticallyImplyLeading == automaticallyImplyLeading) &&
+            const DeepCollectionEquality().equals(other.title, title) &&
+            const DeepCollectionEquality().equals(other.actions, actions) &&
+            const DeepCollectionEquality()
+                .equals(other.flexibleSpace, flexibleSpace) &&
+            const DeepCollectionEquality().equals(other.bottom, bottom) &&
+            (identical(other.elevation, elevation) ||
+                other.elevation == elevation) &&
+            (identical(other.scrolledUnderElevation, scrolledUnderElevation) ||
+                other.scrolledUnderElevation == scrolledUnderElevation) &&
+            (identical(other.shadowColor, shadowColor) ||
+                other.shadowColor == shadowColor) &&
+            (identical(other.surfaceTintColor, surfaceTintColor) ||
+                other.surfaceTintColor == surfaceTintColor) &&
+            (identical(other.forceElevated, forceElevated) ||
+                other.forceElevated == forceElevated) &&
+            (identical(other.backgroundColor, backgroundColor) ||
+                other.backgroundColor == backgroundColor) &&
+            (identical(other.foregroundColor, foregroundColor) ||
+                other.foregroundColor == foregroundColor) &&
+            (identical(other.iconTheme, iconTheme) ||
+                other.iconTheme == iconTheme) &&
+            (identical(other.actionsIconTheme, actionsIconTheme) ||
+                other.actionsIconTheme == actionsIconTheme) &&
+            (identical(other.primary, primary) || other.primary == primary) &&
+            (identical(other.centerTitle, centerTitle) ||
+                other.centerTitle == centerTitle) &&
+            (identical(other.excludeHeaderSemantics, excludeHeaderSemantics) ||
+                other.excludeHeaderSemantics == excludeHeaderSemantics) &&
+            (identical(other.titleSpacing, titleSpacing) ||
+                other.titleSpacing == titleSpacing) &&
+            (identical(other.collapsedHeight, collapsedHeight) ||
+                other.collapsedHeight == collapsedHeight) &&
+            (identical(other.expandedHeight, expandedHeight) ||
+                other.expandedHeight == expandedHeight) &&
+            (identical(other.floating, floating) ||
+                other.floating == floating) &&
+            (identical(other.pinned, pinned) || other.pinned == pinned) &&
+            (identical(other.snap, snap) || other.snap == snap) &&
+            (identical(other.stretch, stretch) || other.stretch == stretch) &&
+            (identical(other.stretchTriggerOffset, stretchTriggerOffset) ||
+                other.stretchTriggerOffset == stretchTriggerOffset) &&
+            (identical(other.shape, shape) || other.shape == shape) &&
+            (identical(other.toolbarHeight, toolbarHeight) ||
+                other.toolbarHeight == toolbarHeight) &&
+            (identical(other.leadingWidth, leadingWidth) ||
+                other.leadingWidth == leadingWidth) &&
+            (identical(other.toolbarTextStyle, toolbarTextStyle) ||
+                other.toolbarTextStyle == toolbarTextStyle) &&
+            (identical(other.titleTextStyle, titleTextStyle) ||
+                other.titleTextStyle == titleTextStyle) &&
+            (identical(other.systemOverlayStyle, systemOverlayStyle) ||
+                other.systemOverlayStyle == systemOverlayStyle) &&
+            (identical(other.forceMaterialTransparency,
+                    forceMaterialTransparency) ||
+                other.forceMaterialTransparency == forceMaterialTransparency) &&
+            (identical(other.clipBehavior, clipBehavior) ||
+                other.clipBehavior == clipBehavior) &&
+            (identical(other.actionsPadding, actionsPadding) ||
+                other.actionsPadding == actionsPadding));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hashAll([
+        runtimeType,
+        const DeepCollectionEquality().hash(leading),
+        automaticallyImplyLeading,
+        const DeepCollectionEquality().hash(title),
+        const DeepCollectionEquality().hash(actions),
+        const DeepCollectionEquality().hash(flexibleSpace),
+        const DeepCollectionEquality().hash(bottom),
+        elevation,
+        scrolledUnderElevation,
+        shadowColor,
+        surfaceTintColor,
+        forceElevated,
+        backgroundColor,
+        foregroundColor,
+        iconTheme,
+        actionsIconTheme,
+        primary,
+        centerTitle,
+        excludeHeaderSemantics,
+        titleSpacing,
+        collapsedHeight,
+        expandedHeight,
+        floating,
+        pinned,
+        snap,
+        stretch,
+        stretchTriggerOffset,
+        shape,
+        toolbarHeight,
+        leadingWidth,
+        toolbarTextStyle,
+        titleTextStyle,
+        systemOverlayStyle,
+        forceMaterialTransparency,
+        clipBehavior,
+        actionsPadding
+      ]);
+
+  @override
+  String toString() {
+    return 'StacSliverAppBar(leading: $leading, automaticallyImplyLeading: $automaticallyImplyLeading, title: $title, actions: $actions, flexibleSpace: $flexibleSpace, bottom: $bottom, elevation: $elevation, scrolledUnderElevation: $scrolledUnderElevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, forceElevated: $forceElevated, backgroundColor: $backgroundColor, foregroundColor: $foregroundColor, iconTheme: $iconTheme, actionsIconTheme: $actionsIconTheme, primary: $primary, centerTitle: $centerTitle, excludeHeaderSemantics: $excludeHeaderSemantics, titleSpacing: $titleSpacing, collapsedHeight: $collapsedHeight, expandedHeight: $expandedHeight, floating: $floating, pinned: $pinned, snap: $snap, stretch: $stretch, stretchTriggerOffset: $stretchTriggerOffset, shape: $shape, toolbarHeight: $toolbarHeight, leadingWidth: $leadingWidth, toolbarTextStyle: $toolbarTextStyle, titleTextStyle: $titleTextStyle, systemOverlayStyle: $systemOverlayStyle, forceMaterialTransparency: $forceMaterialTransparency, clipBehavior: $clipBehavior, actionsPadding: $actionsPadding)';
+  }
 }
 
 /// @nodoc
-abstract class $StacSliverAppBarCopyWith<$Res> {
+abstract mixin class $StacSliverAppBarCopyWith<$Res> {
   factory $StacSliverAppBarCopyWith(
-          StacSliverAppBar value, $Res Function(StacSliverAppBar) then) =
-      _$StacSliverAppBarCopyWithImpl<$Res, StacSliverAppBar>;
+          StacSliverAppBar value, $Res Function(StacSliverAppBar) _then) =
+      _$StacSliverAppBarCopyWithImpl;
   @useResult
   $Res call(
       {Map<String, dynamic>? leading,
@@ -116,15 +231,15 @@ abstract class $StacSliverAppBarCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacSliverAppBarCopyWithImpl<$Res, $Val extends StacSliverAppBar>
+class _$StacSliverAppBarCopyWithImpl<$Res>
     implements $StacSliverAppBarCopyWith<$Res> {
-  _$StacSliverAppBarCopyWithImpl(this._value, this._then);
+  _$StacSliverAppBarCopyWithImpl(this._self, this._then);
 
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
+  final StacSliverAppBar _self;
+  final $Res Function(StacSliverAppBar) _then;
 
+  /// Create a copy of StacSliverAppBar
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -164,493 +279,624 @@ class _$StacSliverAppBarCopyWithImpl<$Res, $Val extends StacSliverAppBar>
     Object? clipBehavior = freezed,
     Object? actionsPadding = freezed,
   }) {
-    return _then(_value.copyWith(
+    return _then(_self.copyWith(
       leading: freezed == leading
-          ? _value.leading
+          ? _self.leading
           : leading // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       automaticallyImplyLeading: null == automaticallyImplyLeading
-          ? _value.automaticallyImplyLeading
+          ? _self.automaticallyImplyLeading
           : automaticallyImplyLeading // ignore: cast_nullable_to_non_nullable
               as bool,
       title: freezed == title
-          ? _value.title
+          ? _self.title
           : title // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       actions: freezed == actions
-          ? _value.actions
+          ? _self.actions
           : actions // ignore: cast_nullable_to_non_nullable
               as List<Map<String, dynamic>>?,
       flexibleSpace: freezed == flexibleSpace
-          ? _value.flexibleSpace
+          ? _self.flexibleSpace
           : flexibleSpace // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       bottom: freezed == bottom
-          ? _value.bottom
+          ? _self.bottom
           : bottom // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       elevation: freezed == elevation
-          ? _value.elevation
+          ? _self.elevation
           : elevation // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       scrolledUnderElevation: freezed == scrolledUnderElevation
-          ? _value.scrolledUnderElevation
+          ? _self.scrolledUnderElevation
           : scrolledUnderElevation // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       shadowColor: freezed == shadowColor
-          ? _value.shadowColor
+          ? _self.shadowColor
           : shadowColor // ignore: cast_nullable_to_non_nullable
               as String?,
       surfaceTintColor: freezed == surfaceTintColor
-          ? _value.surfaceTintColor
+          ? _self.surfaceTintColor
           : surfaceTintColor // ignore: cast_nullable_to_non_nullable
               as String?,
       forceElevated: null == forceElevated
-          ? _value.forceElevated
+          ? _self.forceElevated
           : forceElevated // ignore: cast_nullable_to_non_nullable
               as bool,
       backgroundColor: freezed == backgroundColor
-          ? _value.backgroundColor
+          ? _self.backgroundColor
           : backgroundColor // ignore: cast_nullable_to_non_nullable
               as String?,
       foregroundColor: freezed == foregroundColor
-          ? _value.foregroundColor
+          ? _self.foregroundColor
           : foregroundColor // ignore: cast_nullable_to_non_nullable
               as String?,
       iconTheme: freezed == iconTheme
-          ? _value.iconTheme
+          ? _self.iconTheme
           : iconTheme // ignore: cast_nullable_to_non_nullable
               as StacIconThemeData?,
       actionsIconTheme: freezed == actionsIconTheme
-          ? _value.actionsIconTheme
+          ? _self.actionsIconTheme
           : actionsIconTheme // ignore: cast_nullable_to_non_nullable
               as StacIconThemeData?,
       primary: null == primary
-          ? _value.primary
+          ? _self.primary
           : primary // ignore: cast_nullable_to_non_nullable
               as bool,
       centerTitle: freezed == centerTitle
-          ? _value.centerTitle
+          ? _self.centerTitle
           : centerTitle // ignore: cast_nullable_to_non_nullable
               as bool?,
       excludeHeaderSemantics: null == excludeHeaderSemantics
-          ? _value.excludeHeaderSemantics
+          ? _self.excludeHeaderSemantics
           : excludeHeaderSemantics // ignore: cast_nullable_to_non_nullable
               as bool,
       titleSpacing: freezed == titleSpacing
-          ? _value.titleSpacing
+          ? _self.titleSpacing
           : titleSpacing // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       collapsedHeight: freezed == collapsedHeight
-          ? _value.collapsedHeight
+          ? _self.collapsedHeight
           : collapsedHeight // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       expandedHeight: freezed == expandedHeight
-          ? _value.expandedHeight
+          ? _self.expandedHeight
           : expandedHeight // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       floating: null == floating
-          ? _value.floating
+          ? _self.floating
           : floating // ignore: cast_nullable_to_non_nullable
               as bool,
       pinned: null == pinned
-          ? _value.pinned
+          ? _self.pinned
           : pinned // ignore: cast_nullable_to_non_nullable
               as bool,
       snap: null == snap
-          ? _value.snap
+          ? _self.snap
           : snap // ignore: cast_nullable_to_non_nullable
               as bool,
       stretch: null == stretch
-          ? _value.stretch
+          ? _self.stretch
           : stretch // ignore: cast_nullable_to_non_nullable
               as bool,
       stretchTriggerOffset: null == stretchTriggerOffset
-          ? _value.stretchTriggerOffset
+          ? _self.stretchTriggerOffset
           : stretchTriggerOffset // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       shape: freezed == shape
-          ? _value.shape
+          ? _self.shape
           : shape // ignore: cast_nullable_to_non_nullable
               as StacShapeBorder?,
       toolbarHeight: null == toolbarHeight
-          ? _value.toolbarHeight
+          ? _self.toolbarHeight
           : toolbarHeight // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       leadingWidth: freezed == leadingWidth
-          ? _value.leadingWidth
+          ? _self.leadingWidth
           : leadingWidth // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       toolbarTextStyle: freezed == toolbarTextStyle
-          ? _value.toolbarTextStyle
+          ? _self.toolbarTextStyle
           : toolbarTextStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       titleTextStyle: freezed == titleTextStyle
-          ? _value.titleTextStyle
+          ? _self.titleTextStyle
           : titleTextStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       systemOverlayStyle: freezed == systemOverlayStyle
-          ? _value.systemOverlayStyle
+          ? _self.systemOverlayStyle
           : systemOverlayStyle // ignore: cast_nullable_to_non_nullable
               as StacSystemUIOverlayStyle?,
       forceMaterialTransparency: null == forceMaterialTransparency
-          ? _value.forceMaterialTransparency
+          ? _self.forceMaterialTransparency
           : forceMaterialTransparency // ignore: cast_nullable_to_non_nullable
               as bool,
       clipBehavior: freezed == clipBehavior
-          ? _value.clipBehavior
+          ? _self.clipBehavior
           : clipBehavior // ignore: cast_nullable_to_non_nullable
               as Clip?,
       actionsPadding: freezed == actionsPadding
-          ? _value.actionsPadding
-          : actionsPadding // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets?,
-    ) as $Val);
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacIconThemeDataCopyWith<$Res>? get iconTheme {
-    if (_value.iconTheme == null) {
-      return null;
-    }
-
-    return $StacIconThemeDataCopyWith<$Res>(_value.iconTheme!, (value) {
-      return _then(_value.copyWith(iconTheme: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacIconThemeDataCopyWith<$Res>? get actionsIconTheme {
-    if (_value.actionsIconTheme == null) {
-      return null;
-    }
-
-    return $StacIconThemeDataCopyWith<$Res>(_value.actionsIconTheme!, (value) {
-      return _then(_value.copyWith(actionsIconTheme: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacShapeBorderCopyWith<$Res>? get shape {
-    if (_value.shape == null) {
-      return null;
-    }
-
-    return $StacShapeBorderCopyWith<$Res>(_value.shape!, (value) {
-      return _then(_value.copyWith(shape: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get toolbarTextStyle {
-    if (_value.toolbarTextStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_value.toolbarTextStyle!, (value) {
-      return _then(_value.copyWith(toolbarTextStyle: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get titleTextStyle {
-    if (_value.titleTextStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_value.titleTextStyle!, (value) {
-      return _then(_value.copyWith(titleTextStyle: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacSystemUIOverlayStyleCopyWith<$Res>? get systemOverlayStyle {
-    if (_value.systemOverlayStyle == null) {
-      return null;
-    }
-
-    return $StacSystemUIOverlayStyleCopyWith<$Res>(_value.systemOverlayStyle!,
-        (value) {
-      return _then(_value.copyWith(systemOverlayStyle: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacEdgeInsetsCopyWith<$Res>? get actionsPadding {
-    if (_value.actionsPadding == null) {
-      return null;
-    }
-
-    return $StacEdgeInsetsCopyWith<$Res>(_value.actionsPadding!, (value) {
-      return _then(_value.copyWith(actionsPadding: value) as $Val);
-    });
-  }
-}
-
-/// @nodoc
-abstract class _$$StacSliverAppBarImplCopyWith<$Res>
-    implements $StacSliverAppBarCopyWith<$Res> {
-  factory _$$StacSliverAppBarImplCopyWith(_$StacSliverAppBarImpl value,
-          $Res Function(_$StacSliverAppBarImpl) then) =
-      __$$StacSliverAppBarImplCopyWithImpl<$Res>;
-  @override
-  @useResult
-  $Res call(
-      {Map<String, dynamic>? leading,
-      bool automaticallyImplyLeading,
-      Map<String, dynamic>? title,
-      List<Map<String, dynamic>>? actions,
-      Map<String, dynamic>? flexibleSpace,
-      Map<String, dynamic>? bottom,
-      StacDouble? elevation,
-      StacDouble? scrolledUnderElevation,
-      String? shadowColor,
-      String? surfaceTintColor,
-      bool forceElevated,
-      String? backgroundColor,
-      String? foregroundColor,
-      StacIconThemeData? iconTheme,
-      StacIconThemeData? actionsIconTheme,
-      bool primary,
-      bool? centerTitle,
-      bool excludeHeaderSemantics,
-      StacDouble? titleSpacing,
-      StacDouble? collapsedHeight,
-      StacDouble? expandedHeight,
-      bool floating,
-      bool pinned,
-      bool snap,
-      bool stretch,
-      StacDouble stretchTriggerOffset,
-      StacShapeBorder? shape,
-      StacDouble toolbarHeight,
-      StacDouble? leadingWidth,
-      StacTextStyle? toolbarTextStyle,
-      StacTextStyle? titleTextStyle,
-      StacSystemUIOverlayStyle? systemOverlayStyle,
-      bool forceMaterialTransparency,
-      Clip? clipBehavior,
-      StacEdgeInsets? actionsPadding});
-
-  @override
-  $StacIconThemeDataCopyWith<$Res>? get iconTheme;
-  @override
-  $StacIconThemeDataCopyWith<$Res>? get actionsIconTheme;
-  @override
-  $StacShapeBorderCopyWith<$Res>? get shape;
-  @override
-  $StacTextStyleCopyWith<$Res>? get toolbarTextStyle;
-  @override
-  $StacTextStyleCopyWith<$Res>? get titleTextStyle;
-  @override
-  $StacSystemUIOverlayStyleCopyWith<$Res>? get systemOverlayStyle;
-  @override
-  $StacEdgeInsetsCopyWith<$Res>? get actionsPadding;
-}
-
-/// @nodoc
-class __$$StacSliverAppBarImplCopyWithImpl<$Res>
-    extends _$StacSliverAppBarCopyWithImpl<$Res, _$StacSliverAppBarImpl>
-    implements _$$StacSliverAppBarImplCopyWith<$Res> {
-  __$$StacSliverAppBarImplCopyWithImpl(_$StacSliverAppBarImpl _value,
-      $Res Function(_$StacSliverAppBarImpl) _then)
-      : super(_value, _then);
-
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? leading = freezed,
-    Object? automaticallyImplyLeading = null,
-    Object? title = freezed,
-    Object? actions = freezed,
-    Object? flexibleSpace = freezed,
-    Object? bottom = freezed,
-    Object? elevation = freezed,
-    Object? scrolledUnderElevation = freezed,
-    Object? shadowColor = freezed,
-    Object? surfaceTintColor = freezed,
-    Object? forceElevated = null,
-    Object? backgroundColor = freezed,
-    Object? foregroundColor = freezed,
-    Object? iconTheme = freezed,
-    Object? actionsIconTheme = freezed,
-    Object? primary = null,
-    Object? centerTitle = freezed,
-    Object? excludeHeaderSemantics = null,
-    Object? titleSpacing = freezed,
-    Object? collapsedHeight = freezed,
-    Object? expandedHeight = freezed,
-    Object? floating = null,
-    Object? pinned = null,
-    Object? snap = null,
-    Object? stretch = null,
-    Object? stretchTriggerOffset = null,
-    Object? shape = freezed,
-    Object? toolbarHeight = null,
-    Object? leadingWidth = freezed,
-    Object? toolbarTextStyle = freezed,
-    Object? titleTextStyle = freezed,
-    Object? systemOverlayStyle = freezed,
-    Object? forceMaterialTransparency = null,
-    Object? clipBehavior = freezed,
-    Object? actionsPadding = freezed,
-  }) {
-    return _then(_$StacSliverAppBarImpl(
-      leading: freezed == leading
-          ? _value._leading
-          : leading // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      automaticallyImplyLeading: null == automaticallyImplyLeading
-          ? _value.automaticallyImplyLeading
-          : automaticallyImplyLeading // ignore: cast_nullable_to_non_nullable
-              as bool,
-      title: freezed == title
-          ? _value._title
-          : title // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      actions: freezed == actions
-          ? _value._actions
-          : actions // ignore: cast_nullable_to_non_nullable
-              as List<Map<String, dynamic>>?,
-      flexibleSpace: freezed == flexibleSpace
-          ? _value._flexibleSpace
-          : flexibleSpace // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      bottom: freezed == bottom
-          ? _value._bottom
-          : bottom // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      elevation: freezed == elevation
-          ? _value.elevation
-          : elevation // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      scrolledUnderElevation: freezed == scrolledUnderElevation
-          ? _value.scrolledUnderElevation
-          : scrolledUnderElevation // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      shadowColor: freezed == shadowColor
-          ? _value.shadowColor
-          : shadowColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      surfaceTintColor: freezed == surfaceTintColor
-          ? _value.surfaceTintColor
-          : surfaceTintColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      forceElevated: null == forceElevated
-          ? _value.forceElevated
-          : forceElevated // ignore: cast_nullable_to_non_nullable
-              as bool,
-      backgroundColor: freezed == backgroundColor
-          ? _value.backgroundColor
-          : backgroundColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      foregroundColor: freezed == foregroundColor
-          ? _value.foregroundColor
-          : foregroundColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      iconTheme: freezed == iconTheme
-          ? _value.iconTheme
-          : iconTheme // ignore: cast_nullable_to_non_nullable
-              as StacIconThemeData?,
-      actionsIconTheme: freezed == actionsIconTheme
-          ? _value.actionsIconTheme
-          : actionsIconTheme // ignore: cast_nullable_to_non_nullable
-              as StacIconThemeData?,
-      primary: null == primary
-          ? _value.primary
-          : primary // ignore: cast_nullable_to_non_nullable
-              as bool,
-      centerTitle: freezed == centerTitle
-          ? _value.centerTitle
-          : centerTitle // ignore: cast_nullable_to_non_nullable
-              as bool?,
-      excludeHeaderSemantics: null == excludeHeaderSemantics
-          ? _value.excludeHeaderSemantics
-          : excludeHeaderSemantics // ignore: cast_nullable_to_non_nullable
-              as bool,
-      titleSpacing: freezed == titleSpacing
-          ? _value.titleSpacing
-          : titleSpacing // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      collapsedHeight: freezed == collapsedHeight
-          ? _value.collapsedHeight
-          : collapsedHeight // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      expandedHeight: freezed == expandedHeight
-          ? _value.expandedHeight
-          : expandedHeight // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      floating: null == floating
-          ? _value.floating
-          : floating // ignore: cast_nullable_to_non_nullable
-              as bool,
-      pinned: null == pinned
-          ? _value.pinned
-          : pinned // ignore: cast_nullable_to_non_nullable
-              as bool,
-      snap: null == snap
-          ? _value.snap
-          : snap // ignore: cast_nullable_to_non_nullable
-              as bool,
-      stretch: null == stretch
-          ? _value.stretch
-          : stretch // ignore: cast_nullable_to_non_nullable
-              as bool,
-      stretchTriggerOffset: null == stretchTriggerOffset
-          ? _value.stretchTriggerOffset
-          : stretchTriggerOffset // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      shape: freezed == shape
-          ? _value.shape
-          : shape // ignore: cast_nullable_to_non_nullable
-              as StacShapeBorder?,
-      toolbarHeight: null == toolbarHeight
-          ? _value.toolbarHeight
-          : toolbarHeight // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      leadingWidth: freezed == leadingWidth
-          ? _value.leadingWidth
-          : leadingWidth // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      toolbarTextStyle: freezed == toolbarTextStyle
-          ? _value.toolbarTextStyle
-          : toolbarTextStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      titleTextStyle: freezed == titleTextStyle
-          ? _value.titleTextStyle
-          : titleTextStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      systemOverlayStyle: freezed == systemOverlayStyle
-          ? _value.systemOverlayStyle
-          : systemOverlayStyle // ignore: cast_nullable_to_non_nullable
-              as StacSystemUIOverlayStyle?,
-      forceMaterialTransparency: null == forceMaterialTransparency
-          ? _value.forceMaterialTransparency
-          : forceMaterialTransparency // ignore: cast_nullable_to_non_nullable
-              as bool,
-      clipBehavior: freezed == clipBehavior
-          ? _value.clipBehavior
-          : clipBehavior // ignore: cast_nullable_to_non_nullable
-              as Clip?,
-      actionsPadding: freezed == actionsPadding
-          ? _value.actionsPadding
+          ? _self.actionsPadding
           : actionsPadding // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets?,
     ));
+  }
+
+  /// Create a copy of StacSliverAppBar
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacIconThemeDataCopyWith<$Res>? get iconTheme {
+    if (_self.iconTheme == null) {
+      return null;
+    }
+
+    return $StacIconThemeDataCopyWith<$Res>(_self.iconTheme!, (value) {
+      return _then(_self.copyWith(iconTheme: value));
+    });
+  }
+
+  /// Create a copy of StacSliverAppBar
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacIconThemeDataCopyWith<$Res>? get actionsIconTheme {
+    if (_self.actionsIconTheme == null) {
+      return null;
+    }
+
+    return $StacIconThemeDataCopyWith<$Res>(_self.actionsIconTheme!, (value) {
+      return _then(_self.copyWith(actionsIconTheme: value));
+    });
+  }
+
+  /// Create a copy of StacSliverAppBar
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacShapeBorderCopyWith<$Res>? get shape {
+    if (_self.shape == null) {
+      return null;
+    }
+
+    return $StacShapeBorderCopyWith<$Res>(_self.shape!, (value) {
+      return _then(_self.copyWith(shape: value));
+    });
+  }
+
+  /// Create a copy of StacSliverAppBar
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTextStyleCopyWith<$Res>? get toolbarTextStyle {
+    if (_self.toolbarTextStyle == null) {
+      return null;
+    }
+
+    return $StacTextStyleCopyWith<$Res>(_self.toolbarTextStyle!, (value) {
+      return _then(_self.copyWith(toolbarTextStyle: value));
+    });
+  }
+
+  /// Create a copy of StacSliverAppBar
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTextStyleCopyWith<$Res>? get titleTextStyle {
+    if (_self.titleTextStyle == null) {
+      return null;
+    }
+
+    return $StacTextStyleCopyWith<$Res>(_self.titleTextStyle!, (value) {
+      return _then(_self.copyWith(titleTextStyle: value));
+    });
+  }
+
+  /// Create a copy of StacSliverAppBar
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacSystemUIOverlayStyleCopyWith<$Res>? get systemOverlayStyle {
+    if (_self.systemOverlayStyle == null) {
+      return null;
+    }
+
+    return $StacSystemUIOverlayStyleCopyWith<$Res>(_self.systemOverlayStyle!,
+        (value) {
+      return _then(_self.copyWith(systemOverlayStyle: value));
+    });
+  }
+
+  /// Create a copy of StacSliverAppBar
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacEdgeInsetsCopyWith<$Res>? get actionsPadding {
+    if (_self.actionsPadding == null) {
+      return null;
+    }
+
+    return $StacEdgeInsetsCopyWith<$Res>(_self.actionsPadding!, (value) {
+      return _then(_self.copyWith(actionsPadding: value));
+    });
+  }
+}
+
+/// Adds pattern-matching-related methods to [StacSliverAppBar].
+extension StacSliverAppBarPatterns on StacSliverAppBar {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_StacSliverAppBar value)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacSliverAppBar() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_StacSliverAppBar value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacSliverAppBar():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_StacSliverAppBar value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacSliverAppBar() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(
+            Map<String, dynamic>? leading,
+            bool automaticallyImplyLeading,
+            Map<String, dynamic>? title,
+            List<Map<String, dynamic>>? actions,
+            Map<String, dynamic>? flexibleSpace,
+            Map<String, dynamic>? bottom,
+            StacDouble? elevation,
+            StacDouble? scrolledUnderElevation,
+            String? shadowColor,
+            String? surfaceTintColor,
+            bool forceElevated,
+            String? backgroundColor,
+            String? foregroundColor,
+            StacIconThemeData? iconTheme,
+            StacIconThemeData? actionsIconTheme,
+            bool primary,
+            bool? centerTitle,
+            bool excludeHeaderSemantics,
+            StacDouble? titleSpacing,
+            StacDouble? collapsedHeight,
+            StacDouble? expandedHeight,
+            bool floating,
+            bool pinned,
+            bool snap,
+            bool stretch,
+            StacDouble stretchTriggerOffset,
+            StacShapeBorder? shape,
+            StacDouble toolbarHeight,
+            StacDouble? leadingWidth,
+            StacTextStyle? toolbarTextStyle,
+            StacTextStyle? titleTextStyle,
+            StacSystemUIOverlayStyle? systemOverlayStyle,
+            bool forceMaterialTransparency,
+            Clip? clipBehavior,
+            StacEdgeInsets? actionsPadding)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacSliverAppBar() when $default != null:
+        return $default(
+            _that.leading,
+            _that.automaticallyImplyLeading,
+            _that.title,
+            _that.actions,
+            _that.flexibleSpace,
+            _that.bottom,
+            _that.elevation,
+            _that.scrolledUnderElevation,
+            _that.shadowColor,
+            _that.surfaceTintColor,
+            _that.forceElevated,
+            _that.backgroundColor,
+            _that.foregroundColor,
+            _that.iconTheme,
+            _that.actionsIconTheme,
+            _that.primary,
+            _that.centerTitle,
+            _that.excludeHeaderSemantics,
+            _that.titleSpacing,
+            _that.collapsedHeight,
+            _that.expandedHeight,
+            _that.floating,
+            _that.pinned,
+            _that.snap,
+            _that.stretch,
+            _that.stretchTriggerOffset,
+            _that.shape,
+            _that.toolbarHeight,
+            _that.leadingWidth,
+            _that.toolbarTextStyle,
+            _that.titleTextStyle,
+            _that.systemOverlayStyle,
+            _that.forceMaterialTransparency,
+            _that.clipBehavior,
+            _that.actionsPadding);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(
+            Map<String, dynamic>? leading,
+            bool automaticallyImplyLeading,
+            Map<String, dynamic>? title,
+            List<Map<String, dynamic>>? actions,
+            Map<String, dynamic>? flexibleSpace,
+            Map<String, dynamic>? bottom,
+            StacDouble? elevation,
+            StacDouble? scrolledUnderElevation,
+            String? shadowColor,
+            String? surfaceTintColor,
+            bool forceElevated,
+            String? backgroundColor,
+            String? foregroundColor,
+            StacIconThemeData? iconTheme,
+            StacIconThemeData? actionsIconTheme,
+            bool primary,
+            bool? centerTitle,
+            bool excludeHeaderSemantics,
+            StacDouble? titleSpacing,
+            StacDouble? collapsedHeight,
+            StacDouble? expandedHeight,
+            bool floating,
+            bool pinned,
+            bool snap,
+            bool stretch,
+            StacDouble stretchTriggerOffset,
+            StacShapeBorder? shape,
+            StacDouble toolbarHeight,
+            StacDouble? leadingWidth,
+            StacTextStyle? toolbarTextStyle,
+            StacTextStyle? titleTextStyle,
+            StacSystemUIOverlayStyle? systemOverlayStyle,
+            bool forceMaterialTransparency,
+            Clip? clipBehavior,
+            StacEdgeInsets? actionsPadding)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacSliverAppBar():
+        return $default(
+            _that.leading,
+            _that.automaticallyImplyLeading,
+            _that.title,
+            _that.actions,
+            _that.flexibleSpace,
+            _that.bottom,
+            _that.elevation,
+            _that.scrolledUnderElevation,
+            _that.shadowColor,
+            _that.surfaceTintColor,
+            _that.forceElevated,
+            _that.backgroundColor,
+            _that.foregroundColor,
+            _that.iconTheme,
+            _that.actionsIconTheme,
+            _that.primary,
+            _that.centerTitle,
+            _that.excludeHeaderSemantics,
+            _that.titleSpacing,
+            _that.collapsedHeight,
+            _that.expandedHeight,
+            _that.floating,
+            _that.pinned,
+            _that.snap,
+            _that.stretch,
+            _that.stretchTriggerOffset,
+            _that.shape,
+            _that.toolbarHeight,
+            _that.leadingWidth,
+            _that.toolbarTextStyle,
+            _that.titleTextStyle,
+            _that.systemOverlayStyle,
+            _that.forceMaterialTransparency,
+            _that.clipBehavior,
+            _that.actionsPadding);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(
+            Map<String, dynamic>? leading,
+            bool automaticallyImplyLeading,
+            Map<String, dynamic>? title,
+            List<Map<String, dynamic>>? actions,
+            Map<String, dynamic>? flexibleSpace,
+            Map<String, dynamic>? bottom,
+            StacDouble? elevation,
+            StacDouble? scrolledUnderElevation,
+            String? shadowColor,
+            String? surfaceTintColor,
+            bool forceElevated,
+            String? backgroundColor,
+            String? foregroundColor,
+            StacIconThemeData? iconTheme,
+            StacIconThemeData? actionsIconTheme,
+            bool primary,
+            bool? centerTitle,
+            bool excludeHeaderSemantics,
+            StacDouble? titleSpacing,
+            StacDouble? collapsedHeight,
+            StacDouble? expandedHeight,
+            bool floating,
+            bool pinned,
+            bool snap,
+            bool stretch,
+            StacDouble stretchTriggerOffset,
+            StacShapeBorder? shape,
+            StacDouble toolbarHeight,
+            StacDouble? leadingWidth,
+            StacTextStyle? toolbarTextStyle,
+            StacTextStyle? titleTextStyle,
+            StacSystemUIOverlayStyle? systemOverlayStyle,
+            bool forceMaterialTransparency,
+            Clip? clipBehavior,
+            StacEdgeInsets? actionsPadding)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacSliverAppBar() when $default != null:
+        return $default(
+            _that.leading,
+            _that.automaticallyImplyLeading,
+            _that.title,
+            _that.actions,
+            _that.flexibleSpace,
+            _that.bottom,
+            _that.elevation,
+            _that.scrolledUnderElevation,
+            _that.shadowColor,
+            _that.surfaceTintColor,
+            _that.forceElevated,
+            _that.backgroundColor,
+            _that.foregroundColor,
+            _that.iconTheme,
+            _that.actionsIconTheme,
+            _that.primary,
+            _that.centerTitle,
+            _that.excludeHeaderSemantics,
+            _that.titleSpacing,
+            _that.collapsedHeight,
+            _that.expandedHeight,
+            _that.floating,
+            _that.pinned,
+            _that.snap,
+            _that.stretch,
+            _that.stretchTriggerOffset,
+            _that.shape,
+            _that.toolbarHeight,
+            _that.leadingWidth,
+            _that.toolbarTextStyle,
+            _that.titleTextStyle,
+            _that.systemOverlayStyle,
+            _that.forceMaterialTransparency,
+            _that.clipBehavior,
+            _that.actionsPadding);
+      case _:
+        return null;
+    }
   }
 }
 
 /// @nodoc
 @JsonSerializable()
-class _$StacSliverAppBarImpl implements _StacSliverAppBar {
-  const _$StacSliverAppBarImpl(
+class _StacSliverAppBar implements StacSliverAppBar {
+  const _StacSliverAppBar(
       {final Map<String, dynamic>? leading,
       this.automaticallyImplyLeading = true,
       final Map<String, dynamic>? title,
@@ -691,9 +937,8 @@ class _$StacSliverAppBarImpl implements _StacSliverAppBar {
         _actions = actions,
         _flexibleSpace = flexibleSpace,
         _bottom = bottom;
-
-  factory _$StacSliverAppBarImpl.fromJson(Map<String, dynamic> json) =>
-      _$$StacSliverAppBarImplFromJson(json);
+  factory _StacSliverAppBar.fromJson(Map<String, dynamic> json) =>
+      _$StacSliverAppBarFromJson(json);
 
   final Map<String, dynamic>? _leading;
   @override
@@ -817,16 +1062,26 @@ class _$StacSliverAppBarImpl implements _StacSliverAppBar {
   @override
   final StacEdgeInsets? actionsPadding;
 
+  /// Create a copy of StacSliverAppBar
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'StacSliverAppBar(leading: $leading, automaticallyImplyLeading: $automaticallyImplyLeading, title: $title, actions: $actions, flexibleSpace: $flexibleSpace, bottom: $bottom, elevation: $elevation, scrolledUnderElevation: $scrolledUnderElevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, forceElevated: $forceElevated, backgroundColor: $backgroundColor, foregroundColor: $foregroundColor, iconTheme: $iconTheme, actionsIconTheme: $actionsIconTheme, primary: $primary, centerTitle: $centerTitle, excludeHeaderSemantics: $excludeHeaderSemantics, titleSpacing: $titleSpacing, collapsedHeight: $collapsedHeight, expandedHeight: $expandedHeight, floating: $floating, pinned: $pinned, snap: $snap, stretch: $stretch, stretchTriggerOffset: $stretchTriggerOffset, shape: $shape, toolbarHeight: $toolbarHeight, leadingWidth: $leadingWidth, toolbarTextStyle: $toolbarTextStyle, titleTextStyle: $titleTextStyle, systemOverlayStyle: $systemOverlayStyle, forceMaterialTransparency: $forceMaterialTransparency, clipBehavior: $clipBehavior, actionsPadding: $actionsPadding)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$StacSliverAppBarCopyWith<_StacSliverAppBar> get copyWith =>
+      __$StacSliverAppBarCopyWithImpl<_StacSliverAppBar>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$StacSliverAppBarToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$StacSliverAppBarImpl &&
+            other is _StacSliverAppBar &&
             const DeepCollectionEquality().equals(other._leading, _leading) &&
             (identical(other.automaticallyImplyLeading,
                     automaticallyImplyLeading) ||
@@ -892,7 +1147,7 @@ class _$StacSliverAppBarImpl implements _StacSliverAppBar {
                 other.actionsPadding == actionsPadding));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hashAll([
         runtimeType,
@@ -933,134 +1188,364 @@ class _$StacSliverAppBarImpl implements _StacSliverAppBar {
         actionsPadding
       ]);
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$StacSliverAppBarImplCopyWith<_$StacSliverAppBarImpl> get copyWith =>
-      __$$StacSliverAppBarImplCopyWithImpl<_$StacSliverAppBarImpl>(
-          this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$StacSliverAppBarImplToJson(
-      this,
-    );
+  String toString() {
+    return 'StacSliverAppBar(leading: $leading, automaticallyImplyLeading: $automaticallyImplyLeading, title: $title, actions: $actions, flexibleSpace: $flexibleSpace, bottom: $bottom, elevation: $elevation, scrolledUnderElevation: $scrolledUnderElevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, forceElevated: $forceElevated, backgroundColor: $backgroundColor, foregroundColor: $foregroundColor, iconTheme: $iconTheme, actionsIconTheme: $actionsIconTheme, primary: $primary, centerTitle: $centerTitle, excludeHeaderSemantics: $excludeHeaderSemantics, titleSpacing: $titleSpacing, collapsedHeight: $collapsedHeight, expandedHeight: $expandedHeight, floating: $floating, pinned: $pinned, snap: $snap, stretch: $stretch, stretchTriggerOffset: $stretchTriggerOffset, shape: $shape, toolbarHeight: $toolbarHeight, leadingWidth: $leadingWidth, toolbarTextStyle: $toolbarTextStyle, titleTextStyle: $titleTextStyle, systemOverlayStyle: $systemOverlayStyle, forceMaterialTransparency: $forceMaterialTransparency, clipBehavior: $clipBehavior, actionsPadding: $actionsPadding)';
   }
 }
 
-abstract class _StacSliverAppBar implements StacSliverAppBar {
-  const factory _StacSliverAppBar(
-      {final Map<String, dynamic>? leading,
-      final bool automaticallyImplyLeading,
-      final Map<String, dynamic>? title,
-      final List<Map<String, dynamic>>? actions,
-      final Map<String, dynamic>? flexibleSpace,
-      final Map<String, dynamic>? bottom,
-      final StacDouble? elevation,
-      final StacDouble? scrolledUnderElevation,
-      final String? shadowColor,
-      final String? surfaceTintColor,
-      final bool forceElevated,
-      final String? backgroundColor,
-      final String? foregroundColor,
-      final StacIconThemeData? iconTheme,
-      final StacIconThemeData? actionsIconTheme,
-      final bool primary,
-      final bool? centerTitle,
-      final bool excludeHeaderSemantics,
-      final StacDouble? titleSpacing,
-      final StacDouble? collapsedHeight,
-      final StacDouble? expandedHeight,
-      final bool floating,
-      final bool pinned,
-      final bool snap,
-      final bool stretch,
-      final StacDouble stretchTriggerOffset,
-      final StacShapeBorder? shape,
-      final StacDouble toolbarHeight,
-      final StacDouble? leadingWidth,
-      final StacTextStyle? toolbarTextStyle,
-      final StacTextStyle? titleTextStyle,
-      final StacSystemUIOverlayStyle? systemOverlayStyle,
-      final bool forceMaterialTransparency,
-      final Clip? clipBehavior,
-      final StacEdgeInsets? actionsPadding}) = _$StacSliverAppBarImpl;
+/// @nodoc
+abstract mixin class _$StacSliverAppBarCopyWith<$Res>
+    implements $StacSliverAppBarCopyWith<$Res> {
+  factory _$StacSliverAppBarCopyWith(
+          _StacSliverAppBar value, $Res Function(_StacSliverAppBar) _then) =
+      __$StacSliverAppBarCopyWithImpl;
+  @override
+  @useResult
+  $Res call(
+      {Map<String, dynamic>? leading,
+      bool automaticallyImplyLeading,
+      Map<String, dynamic>? title,
+      List<Map<String, dynamic>>? actions,
+      Map<String, dynamic>? flexibleSpace,
+      Map<String, dynamic>? bottom,
+      StacDouble? elevation,
+      StacDouble? scrolledUnderElevation,
+      String? shadowColor,
+      String? surfaceTintColor,
+      bool forceElevated,
+      String? backgroundColor,
+      String? foregroundColor,
+      StacIconThemeData? iconTheme,
+      StacIconThemeData? actionsIconTheme,
+      bool primary,
+      bool? centerTitle,
+      bool excludeHeaderSemantics,
+      StacDouble? titleSpacing,
+      StacDouble? collapsedHeight,
+      StacDouble? expandedHeight,
+      bool floating,
+      bool pinned,
+      bool snap,
+      bool stretch,
+      StacDouble stretchTriggerOffset,
+      StacShapeBorder? shape,
+      StacDouble toolbarHeight,
+      StacDouble? leadingWidth,
+      StacTextStyle? toolbarTextStyle,
+      StacTextStyle? titleTextStyle,
+      StacSystemUIOverlayStyle? systemOverlayStyle,
+      bool forceMaterialTransparency,
+      Clip? clipBehavior,
+      StacEdgeInsets? actionsPadding});
 
-  factory _StacSliverAppBar.fromJson(Map<String, dynamic> json) =
-      _$StacSliverAppBarImpl.fromJson;
-
   @override
-  Map<String, dynamic>? get leading;
+  $StacIconThemeDataCopyWith<$Res>? get iconTheme;
   @override
-  bool get automaticallyImplyLeading;
+  $StacIconThemeDataCopyWith<$Res>? get actionsIconTheme;
   @override
-  Map<String, dynamic>? get title;
+  $StacShapeBorderCopyWith<$Res>? get shape;
   @override
-  List<Map<String, dynamic>>? get actions;
+  $StacTextStyleCopyWith<$Res>? get toolbarTextStyle;
   @override
-  Map<String, dynamic>? get flexibleSpace;
+  $StacTextStyleCopyWith<$Res>? get titleTextStyle;
   @override
-  Map<String, dynamic>? get bottom;
+  $StacSystemUIOverlayStyleCopyWith<$Res>? get systemOverlayStyle;
   @override
-  StacDouble? get elevation;
-  @override
-  StacDouble? get scrolledUnderElevation;
-  @override
-  String? get shadowColor;
-  @override
-  String? get surfaceTintColor;
-  @override
-  bool get forceElevated;
-  @override
-  String? get backgroundColor;
-  @override
-  String? get foregroundColor;
-  @override
-  StacIconThemeData? get iconTheme;
-  @override
-  StacIconThemeData? get actionsIconTheme;
-  @override
-  bool get primary;
-  @override
-  bool? get centerTitle;
-  @override
-  bool get excludeHeaderSemantics;
-  @override
-  StacDouble? get titleSpacing;
-  @override
-  StacDouble? get collapsedHeight;
-  @override
-  StacDouble? get expandedHeight;
-  @override
-  bool get floating;
-  @override
-  bool get pinned;
-  @override
-  bool get snap;
-  @override
-  bool get stretch;
-  @override
-  StacDouble get stretchTriggerOffset;
-  @override
-  StacShapeBorder? get shape;
-  @override
-  StacDouble get toolbarHeight;
-  @override
-  StacDouble? get leadingWidth;
-  @override
-  StacTextStyle? get toolbarTextStyle;
-  @override
-  StacTextStyle? get titleTextStyle;
-  @override
-  StacSystemUIOverlayStyle? get systemOverlayStyle;
-  @override
-  bool get forceMaterialTransparency;
-  @override
-  Clip? get clipBehavior;
-  @override
-  StacEdgeInsets? get actionsPadding;
-  @override
-  @JsonKey(ignore: true)
-  _$$StacSliverAppBarImplCopyWith<_$StacSliverAppBarImpl> get copyWith =>
-      throw _privateConstructorUsedError;
+  $StacEdgeInsetsCopyWith<$Res>? get actionsPadding;
 }
+
+/// @nodoc
+class __$StacSliverAppBarCopyWithImpl<$Res>
+    implements _$StacSliverAppBarCopyWith<$Res> {
+  __$StacSliverAppBarCopyWithImpl(this._self, this._then);
+
+  final _StacSliverAppBar _self;
+  final $Res Function(_StacSliverAppBar) _then;
+
+  /// Create a copy of StacSliverAppBar
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? leading = freezed,
+    Object? automaticallyImplyLeading = null,
+    Object? title = freezed,
+    Object? actions = freezed,
+    Object? flexibleSpace = freezed,
+    Object? bottom = freezed,
+    Object? elevation = freezed,
+    Object? scrolledUnderElevation = freezed,
+    Object? shadowColor = freezed,
+    Object? surfaceTintColor = freezed,
+    Object? forceElevated = null,
+    Object? backgroundColor = freezed,
+    Object? foregroundColor = freezed,
+    Object? iconTheme = freezed,
+    Object? actionsIconTheme = freezed,
+    Object? primary = null,
+    Object? centerTitle = freezed,
+    Object? excludeHeaderSemantics = null,
+    Object? titleSpacing = freezed,
+    Object? collapsedHeight = freezed,
+    Object? expandedHeight = freezed,
+    Object? floating = null,
+    Object? pinned = null,
+    Object? snap = null,
+    Object? stretch = null,
+    Object? stretchTriggerOffset = null,
+    Object? shape = freezed,
+    Object? toolbarHeight = null,
+    Object? leadingWidth = freezed,
+    Object? toolbarTextStyle = freezed,
+    Object? titleTextStyle = freezed,
+    Object? systemOverlayStyle = freezed,
+    Object? forceMaterialTransparency = null,
+    Object? clipBehavior = freezed,
+    Object? actionsPadding = freezed,
+  }) {
+    return _then(_StacSliverAppBar(
+      leading: freezed == leading
+          ? _self._leading
+          : leading // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      automaticallyImplyLeading: null == automaticallyImplyLeading
+          ? _self.automaticallyImplyLeading
+          : automaticallyImplyLeading // ignore: cast_nullable_to_non_nullable
+              as bool,
+      title: freezed == title
+          ? _self._title
+          : title // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      actions: freezed == actions
+          ? _self._actions
+          : actions // ignore: cast_nullable_to_non_nullable
+              as List<Map<String, dynamic>>?,
+      flexibleSpace: freezed == flexibleSpace
+          ? _self._flexibleSpace
+          : flexibleSpace // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      bottom: freezed == bottom
+          ? _self._bottom
+          : bottom // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      elevation: freezed == elevation
+          ? _self.elevation
+          : elevation // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      scrolledUnderElevation: freezed == scrolledUnderElevation
+          ? _self.scrolledUnderElevation
+          : scrolledUnderElevation // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      shadowColor: freezed == shadowColor
+          ? _self.shadowColor
+          : shadowColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      surfaceTintColor: freezed == surfaceTintColor
+          ? _self.surfaceTintColor
+          : surfaceTintColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      forceElevated: null == forceElevated
+          ? _self.forceElevated
+          : forceElevated // ignore: cast_nullable_to_non_nullable
+              as bool,
+      backgroundColor: freezed == backgroundColor
+          ? _self.backgroundColor
+          : backgroundColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      foregroundColor: freezed == foregroundColor
+          ? _self.foregroundColor
+          : foregroundColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      iconTheme: freezed == iconTheme
+          ? _self.iconTheme
+          : iconTheme // ignore: cast_nullable_to_non_nullable
+              as StacIconThemeData?,
+      actionsIconTheme: freezed == actionsIconTheme
+          ? _self.actionsIconTheme
+          : actionsIconTheme // ignore: cast_nullable_to_non_nullable
+              as StacIconThemeData?,
+      primary: null == primary
+          ? _self.primary
+          : primary // ignore: cast_nullable_to_non_nullable
+              as bool,
+      centerTitle: freezed == centerTitle
+          ? _self.centerTitle
+          : centerTitle // ignore: cast_nullable_to_non_nullable
+              as bool?,
+      excludeHeaderSemantics: null == excludeHeaderSemantics
+          ? _self.excludeHeaderSemantics
+          : excludeHeaderSemantics // ignore: cast_nullable_to_non_nullable
+              as bool,
+      titleSpacing: freezed == titleSpacing
+          ? _self.titleSpacing
+          : titleSpacing // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      collapsedHeight: freezed == collapsedHeight
+          ? _self.collapsedHeight
+          : collapsedHeight // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      expandedHeight: freezed == expandedHeight
+          ? _self.expandedHeight
+          : expandedHeight // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      floating: null == floating
+          ? _self.floating
+          : floating // ignore: cast_nullable_to_non_nullable
+              as bool,
+      pinned: null == pinned
+          ? _self.pinned
+          : pinned // ignore: cast_nullable_to_non_nullable
+              as bool,
+      snap: null == snap
+          ? _self.snap
+          : snap // ignore: cast_nullable_to_non_nullable
+              as bool,
+      stretch: null == stretch
+          ? _self.stretch
+          : stretch // ignore: cast_nullable_to_non_nullable
+              as bool,
+      stretchTriggerOffset: null == stretchTriggerOffset
+          ? _self.stretchTriggerOffset
+          : stretchTriggerOffset // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      shape: freezed == shape
+          ? _self.shape
+          : shape // ignore: cast_nullable_to_non_nullable
+              as StacShapeBorder?,
+      toolbarHeight: null == toolbarHeight
+          ? _self.toolbarHeight
+          : toolbarHeight // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      leadingWidth: freezed == leadingWidth
+          ? _self.leadingWidth
+          : leadingWidth // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      toolbarTextStyle: freezed == toolbarTextStyle
+          ? _self.toolbarTextStyle
+          : toolbarTextStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      titleTextStyle: freezed == titleTextStyle
+          ? _self.titleTextStyle
+          : titleTextStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      systemOverlayStyle: freezed == systemOverlayStyle
+          ? _self.systemOverlayStyle
+          : systemOverlayStyle // ignore: cast_nullable_to_non_nullable
+              as StacSystemUIOverlayStyle?,
+      forceMaterialTransparency: null == forceMaterialTransparency
+          ? _self.forceMaterialTransparency
+          : forceMaterialTransparency // ignore: cast_nullable_to_non_nullable
+              as bool,
+      clipBehavior: freezed == clipBehavior
+          ? _self.clipBehavior
+          : clipBehavior // ignore: cast_nullable_to_non_nullable
+              as Clip?,
+      actionsPadding: freezed == actionsPadding
+          ? _self.actionsPadding
+          : actionsPadding // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets?,
+    ));
+  }
+
+  /// Create a copy of StacSliverAppBar
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacIconThemeDataCopyWith<$Res>? get iconTheme {
+    if (_self.iconTheme == null) {
+      return null;
+    }
+
+    return $StacIconThemeDataCopyWith<$Res>(_self.iconTheme!, (value) {
+      return _then(_self.copyWith(iconTheme: value));
+    });
+  }
+
+  /// Create a copy of StacSliverAppBar
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacIconThemeDataCopyWith<$Res>? get actionsIconTheme {
+    if (_self.actionsIconTheme == null) {
+      return null;
+    }
+
+    return $StacIconThemeDataCopyWith<$Res>(_self.actionsIconTheme!, (value) {
+      return _then(_self.copyWith(actionsIconTheme: value));
+    });
+  }
+
+  /// Create a copy of StacSliverAppBar
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacShapeBorderCopyWith<$Res>? get shape {
+    if (_self.shape == null) {
+      return null;
+    }
+
+    return $StacShapeBorderCopyWith<$Res>(_self.shape!, (value) {
+      return _then(_self.copyWith(shape: value));
+    });
+  }
+
+  /// Create a copy of StacSliverAppBar
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTextStyleCopyWith<$Res>? get toolbarTextStyle {
+    if (_self.toolbarTextStyle == null) {
+      return null;
+    }
+
+    return $StacTextStyleCopyWith<$Res>(_self.toolbarTextStyle!, (value) {
+      return _then(_self.copyWith(toolbarTextStyle: value));
+    });
+  }
+
+  /// Create a copy of StacSliverAppBar
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTextStyleCopyWith<$Res>? get titleTextStyle {
+    if (_self.titleTextStyle == null) {
+      return null;
+    }
+
+    return $StacTextStyleCopyWith<$Res>(_self.titleTextStyle!, (value) {
+      return _then(_self.copyWith(titleTextStyle: value));
+    });
+  }
+
+  /// Create a copy of StacSliverAppBar
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacSystemUIOverlayStyleCopyWith<$Res>? get systemOverlayStyle {
+    if (_self.systemOverlayStyle == null) {
+      return null;
+    }
+
+    return $StacSystemUIOverlayStyleCopyWith<$Res>(_self.systemOverlayStyle!,
+        (value) {
+      return _then(_self.copyWith(systemOverlayStyle: value));
+    });
+  }
+
+  /// Create a copy of StacSliverAppBar
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacEdgeInsetsCopyWith<$Res>? get actionsPadding {
+    if (_self.actionsPadding == null) {
+      return null;
+    }
+
+    return $StacEdgeInsetsCopyWith<$Res>(_self.actionsPadding!, (value) {
+      return _then(_self.copyWith(actionsPadding: value));
+    });
+  }
+}
+
+// dart format on

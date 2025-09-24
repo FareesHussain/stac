@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,99 +9,65 @@ part of 'stac_bottom_navigation_bar_item.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
-StacBottomNavigationBarItem _$StacBottomNavigationBarItemFromJson(
-    Map<String, dynamic> json) {
-  return _StacBottomNavigationBarItem.fromJson(json);
-}
 
 /// @nodoc
 mixin _$StacBottomNavigationBarItem {
-  Map<String, dynamic> get icon => throw _privateConstructorUsedError;
-  String get label => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get activeIcon => throw _privateConstructorUsedError;
-  String? get backgroundColor => throw _privateConstructorUsedError;
-  String? get tooltip => throw _privateConstructorUsedError;
+  Map<String, dynamic> get icon;
+  String get label;
+  Map<String, dynamic>? get activeIcon;
+  String? get backgroundColor;
+  String? get tooltip;
 
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
-  $StacBottomNavigationBarItemCopyWith<StacBottomNavigationBarItem>
-      get copyWith => throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $StacBottomNavigationBarItemCopyWith<$Res> {
-  factory $StacBottomNavigationBarItemCopyWith(
-          StacBottomNavigationBarItem value,
-          $Res Function(StacBottomNavigationBarItem) then) =
-      _$StacBottomNavigationBarItemCopyWithImpl<$Res,
-          StacBottomNavigationBarItem>;
-  @useResult
-  $Res call(
-      {Map<String, dynamic> icon,
-      String label,
-      Map<String, dynamic>? activeIcon,
-      String? backgroundColor,
-      String? tooltip});
-}
-
-/// @nodoc
-class _$StacBottomNavigationBarItemCopyWithImpl<$Res,
-        $Val extends StacBottomNavigationBarItem>
-    implements $StacBottomNavigationBarItemCopyWith<$Res> {
-  _$StacBottomNavigationBarItemCopyWithImpl(this._value, this._then);
-
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
-
+  /// Create a copy of StacBottomNavigationBarItem
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @pragma('vm:prefer-inline')
+  $StacBottomNavigationBarItemCopyWith<StacBottomNavigationBarItem>
+      get copyWith => _$StacBottomNavigationBarItemCopyWithImpl<
+              StacBottomNavigationBarItem>(
+          this as StacBottomNavigationBarItem, _$identity);
+
+  /// Serializes this StacBottomNavigationBarItem to a JSON map.
+  Map<String, dynamic> toJson();
+
   @override
-  $Res call({
-    Object? icon = null,
-    Object? label = null,
-    Object? activeIcon = freezed,
-    Object? backgroundColor = freezed,
-    Object? tooltip = freezed,
-  }) {
-    return _then(_value.copyWith(
-      icon: null == icon
-          ? _value.icon
-          : icon // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>,
-      label: null == label
-          ? _value.label
-          : label // ignore: cast_nullable_to_non_nullable
-              as String,
-      activeIcon: freezed == activeIcon
-          ? _value.activeIcon
-          : activeIcon // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      backgroundColor: freezed == backgroundColor
-          ? _value.backgroundColor
-          : backgroundColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      tooltip: freezed == tooltip
-          ? _value.tooltip
-          : tooltip // ignore: cast_nullable_to_non_nullable
-              as String?,
-    ) as $Val);
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is StacBottomNavigationBarItem &&
+            const DeepCollectionEquality().equals(other.icon, icon) &&
+            (identical(other.label, label) || other.label == label) &&
+            const DeepCollectionEquality()
+                .equals(other.activeIcon, activeIcon) &&
+            (identical(other.backgroundColor, backgroundColor) ||
+                other.backgroundColor == backgroundColor) &&
+            (identical(other.tooltip, tooltip) || other.tooltip == tooltip));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(icon),
+      label,
+      const DeepCollectionEquality().hash(activeIcon),
+      backgroundColor,
+      tooltip);
+
+  @override
+  String toString() {
+    return 'StacBottomNavigationBarItem(icon: $icon, label: $label, activeIcon: $activeIcon, backgroundColor: $backgroundColor, tooltip: $tooltip)';
   }
 }
 
 /// @nodoc
-abstract class _$$StacBottomNavigationBarItemImplCopyWith<$Res>
-    implements $StacBottomNavigationBarItemCopyWith<$Res> {
-  factory _$$StacBottomNavigationBarItemImplCopyWith(
-          _$StacBottomNavigationBarItemImpl value,
-          $Res Function(_$StacBottomNavigationBarItemImpl) then) =
-      __$$StacBottomNavigationBarItemImplCopyWithImpl<$Res>;
-  @override
+abstract mixin class $StacBottomNavigationBarItemCopyWith<$Res> {
+  factory $StacBottomNavigationBarItemCopyWith(
+          StacBottomNavigationBarItem value,
+          $Res Function(StacBottomNavigationBarItem) _then) =
+      _$StacBottomNavigationBarItemCopyWithImpl;
   @useResult
   $Res call(
       {Map<String, dynamic> icon,
@@ -112,15 +78,15 @@ abstract class _$$StacBottomNavigationBarItemImplCopyWith<$Res>
 }
 
 /// @nodoc
-class __$$StacBottomNavigationBarItemImplCopyWithImpl<$Res>
-    extends _$StacBottomNavigationBarItemCopyWithImpl<$Res,
-        _$StacBottomNavigationBarItemImpl>
-    implements _$$StacBottomNavigationBarItemImplCopyWith<$Res> {
-  __$$StacBottomNavigationBarItemImplCopyWithImpl(
-      _$StacBottomNavigationBarItemImpl _value,
-      $Res Function(_$StacBottomNavigationBarItemImpl) _then)
-      : super(_value, _then);
+class _$StacBottomNavigationBarItemCopyWithImpl<$Res>
+    implements $StacBottomNavigationBarItemCopyWith<$Res> {
+  _$StacBottomNavigationBarItemCopyWithImpl(this._self, this._then);
 
+  final StacBottomNavigationBarItem _self;
+  final $Res Function(StacBottomNavigationBarItem) _then;
+
+  /// Create a copy of StacBottomNavigationBarItem
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -130,36 +96,213 @@ class __$$StacBottomNavigationBarItemImplCopyWithImpl<$Res>
     Object? backgroundColor = freezed,
     Object? tooltip = freezed,
   }) {
-    return _then(_$StacBottomNavigationBarItemImpl(
+    return _then(_self.copyWith(
       icon: null == icon
-          ? _value._icon
+          ? _self.icon
           : icon // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>,
       label: null == label
-          ? _value.label
+          ? _self.label
           : label // ignore: cast_nullable_to_non_nullable
               as String,
       activeIcon: freezed == activeIcon
-          ? _value._activeIcon
+          ? _self.activeIcon
           : activeIcon // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       backgroundColor: freezed == backgroundColor
-          ? _value.backgroundColor
+          ? _self.backgroundColor
           : backgroundColor // ignore: cast_nullable_to_non_nullable
               as String?,
       tooltip: freezed == tooltip
-          ? _value.tooltip
+          ? _self.tooltip
           : tooltip // ignore: cast_nullable_to_non_nullable
               as String?,
     ));
   }
 }
 
+/// Adds pattern-matching-related methods to [StacBottomNavigationBarItem].
+extension StacBottomNavigationBarItemPatterns on StacBottomNavigationBarItem {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_StacBottomNavigationBarItem value)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacBottomNavigationBarItem() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_StacBottomNavigationBarItem value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacBottomNavigationBarItem():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_StacBottomNavigationBarItem value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacBottomNavigationBarItem() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(
+            Map<String, dynamic> icon,
+            String label,
+            Map<String, dynamic>? activeIcon,
+            String? backgroundColor,
+            String? tooltip)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacBottomNavigationBarItem() when $default != null:
+        return $default(_that.icon, _that.label, _that.activeIcon,
+            _that.backgroundColor, _that.tooltip);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(
+            Map<String, dynamic> icon,
+            String label,
+            Map<String, dynamic>? activeIcon,
+            String? backgroundColor,
+            String? tooltip)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacBottomNavigationBarItem():
+        return $default(_that.icon, _that.label, _that.activeIcon,
+            _that.backgroundColor, _that.tooltip);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(
+            Map<String, dynamic> icon,
+            String label,
+            Map<String, dynamic>? activeIcon,
+            String? backgroundColor,
+            String? tooltip)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacBottomNavigationBarItem() when $default != null:
+        return $default(_that.icon, _that.label, _that.activeIcon,
+            _that.backgroundColor, _that.tooltip);
+      case _:
+        return null;
+    }
+  }
+}
+
 /// @nodoc
 @JsonSerializable()
-class _$StacBottomNavigationBarItemImpl
-    implements _StacBottomNavigationBarItem {
-  const _$StacBottomNavigationBarItemImpl(
+class _StacBottomNavigationBarItem implements StacBottomNavigationBarItem {
+  const _StacBottomNavigationBarItem(
       {required final Map<String, dynamic> icon,
       required this.label,
       final Map<String, dynamic>? activeIcon,
@@ -167,10 +310,8 @@ class _$StacBottomNavigationBarItemImpl
       this.tooltip})
       : _icon = icon,
         _activeIcon = activeIcon;
-
-  factory _$StacBottomNavigationBarItemImpl.fromJson(
-          Map<String, dynamic> json) =>
-      _$$StacBottomNavigationBarItemImplFromJson(json);
+  factory _StacBottomNavigationBarItem.fromJson(Map<String, dynamic> json) =>
+      _$StacBottomNavigationBarItemFromJson(json);
 
   final Map<String, dynamic> _icon;
   @override
@@ -197,16 +338,27 @@ class _$StacBottomNavigationBarItemImpl
   @override
   final String? tooltip;
 
+  /// Create a copy of StacBottomNavigationBarItem
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'StacBottomNavigationBarItem(icon: $icon, label: $label, activeIcon: $activeIcon, backgroundColor: $backgroundColor, tooltip: $tooltip)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$StacBottomNavigationBarItemCopyWith<_StacBottomNavigationBarItem>
+      get copyWith => __$StacBottomNavigationBarItemCopyWithImpl<
+          _StacBottomNavigationBarItem>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$StacBottomNavigationBarItemToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$StacBottomNavigationBarItemImpl &&
+            other is _StacBottomNavigationBarItem &&
             const DeepCollectionEquality().equals(other._icon, _icon) &&
             (identical(other.label, label) || other.label == label) &&
             const DeepCollectionEquality()
@@ -216,7 +368,7 @@ class _$StacBottomNavigationBarItemImpl
             (identical(other.tooltip, tooltip) || other.tooltip == tooltip));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -226,45 +378,71 @@ class _$StacBottomNavigationBarItemImpl
       backgroundColor,
       tooltip);
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$StacBottomNavigationBarItemImplCopyWith<_$StacBottomNavigationBarItemImpl>
-      get copyWith => __$$StacBottomNavigationBarItemImplCopyWithImpl<
-          _$StacBottomNavigationBarItemImpl>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$StacBottomNavigationBarItemImplToJson(
-      this,
-    );
+  String toString() {
+    return 'StacBottomNavigationBarItem(icon: $icon, label: $label, activeIcon: $activeIcon, backgroundColor: $backgroundColor, tooltip: $tooltip)';
   }
 }
 
-abstract class _StacBottomNavigationBarItem
-    implements StacBottomNavigationBarItem {
-  const factory _StacBottomNavigationBarItem(
-      {required final Map<String, dynamic> icon,
-      required final String label,
-      final Map<String, dynamic>? activeIcon,
-      final String? backgroundColor,
-      final String? tooltip}) = _$StacBottomNavigationBarItemImpl;
-
-  factory _StacBottomNavigationBarItem.fromJson(Map<String, dynamic> json) =
-      _$StacBottomNavigationBarItemImpl.fromJson;
-
+/// @nodoc
+abstract mixin class _$StacBottomNavigationBarItemCopyWith<$Res>
+    implements $StacBottomNavigationBarItemCopyWith<$Res> {
+  factory _$StacBottomNavigationBarItemCopyWith(
+          _StacBottomNavigationBarItem value,
+          $Res Function(_StacBottomNavigationBarItem) _then) =
+      __$StacBottomNavigationBarItemCopyWithImpl;
   @override
-  Map<String, dynamic> get icon;
-  @override
-  String get label;
-  @override
-  Map<String, dynamic>? get activeIcon;
-  @override
-  String? get backgroundColor;
-  @override
-  String? get tooltip;
-  @override
-  @JsonKey(ignore: true)
-  _$$StacBottomNavigationBarItemImplCopyWith<_$StacBottomNavigationBarItemImpl>
-      get copyWith => throw _privateConstructorUsedError;
+  @useResult
+  $Res call(
+      {Map<String, dynamic> icon,
+      String label,
+      Map<String, dynamic>? activeIcon,
+      String? backgroundColor,
+      String? tooltip});
 }
+
+/// @nodoc
+class __$StacBottomNavigationBarItemCopyWithImpl<$Res>
+    implements _$StacBottomNavigationBarItemCopyWith<$Res> {
+  __$StacBottomNavigationBarItemCopyWithImpl(this._self, this._then);
+
+  final _StacBottomNavigationBarItem _self;
+  final $Res Function(_StacBottomNavigationBarItem) _then;
+
+  /// Create a copy of StacBottomNavigationBarItem
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? icon = null,
+    Object? label = null,
+    Object? activeIcon = freezed,
+    Object? backgroundColor = freezed,
+    Object? tooltip = freezed,
+  }) {
+    return _then(_StacBottomNavigationBarItem(
+      icon: null == icon
+          ? _self._icon
+          : icon // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>,
+      label: null == label
+          ? _self.label
+          : label // ignore: cast_nullable_to_non_nullable
+              as String,
+      activeIcon: freezed == activeIcon
+          ? _self._activeIcon
+          : activeIcon // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      backgroundColor: freezed == backgroundColor
+          ? _self.backgroundColor
+          : backgroundColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      tooltip: freezed == tooltip
+          ? _self.tooltip
+          : tooltip // ignore: cast_nullable_to_non_nullable
+              as String?,
+    ));
+  }
+}
+
+// dart format on

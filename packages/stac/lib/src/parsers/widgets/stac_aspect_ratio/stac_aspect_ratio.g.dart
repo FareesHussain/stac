@@ -6,17 +6,15 @@ part of 'stac_aspect_ratio.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$StacAspectRatioImpl _$$StacAspectRatioImplFromJson(
-        Map<String, dynamic> json) =>
-    _$StacAspectRatioImpl(
+_StacAspectRatio _$StacAspectRatioFromJson(Map<String, dynamic> json) =>
+    _StacAspectRatio(
       aspectRatio: json['aspectRatio'] == null
           ? const StacDouble(1)
           : StacDouble.fromJson(json['aspectRatio']),
       child: json['child'] as Map<String, dynamic>?,
     );
 
-Map<String, dynamic> _$$StacAspectRatioImplToJson(
-        _$StacAspectRatioImpl instance) =>
+Map<String, dynamic> _$StacAspectRatioToJson(_StacAspectRatio instance) =>
     <String, dynamic>{
       'aspectRatio': instance.aspectRatio,
       'child': instance.child,

@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,36 +9,72 @@ part of 'stac_dynamic_view.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
-StacDynamicView _$StacDynamicViewFromJson(Map<String, dynamic> json) {
-  return _StacDynamicView.fromJson(json);
-}
 
 /// @nodoc
 mixin _$StacDynamicView {
-  StacNetworkRequest get request => throw _privateConstructorUsedError;
-  String get targetPath => throw _privateConstructorUsedError;
-  Map<String, dynamic> get template => throw _privateConstructorUsedError;
-  String get resultTarget => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get emptyTemplate => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get loaderWidget => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get errorWidget => throw _privateConstructorUsedError;
+  StacNetworkRequest get request;
+  String get targetPath;
+  Map<String, dynamic> get template;
+  String get resultTarget;
+  Map<String, dynamic>? get emptyTemplate;
+  StacWidget? get loaderWidget;
+  StacWidget? get errorWidget;
 
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
+  /// Create a copy of StacDynamicView
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
   $StacDynamicViewCopyWith<StacDynamicView> get copyWith =>
-      throw _privateConstructorUsedError;
+      _$StacDynamicViewCopyWithImpl<StacDynamicView>(
+          this as StacDynamicView, _$identity);
+
+  /// Serializes this StacDynamicView to a JSON map.
+  Map<String, dynamic> toJson();
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is StacDynamicView &&
+            (identical(other.request, request) || other.request == request) &&
+            (identical(other.targetPath, targetPath) ||
+                other.targetPath == targetPath) &&
+            const DeepCollectionEquality().equals(other.template, template) &&
+            (identical(other.resultTarget, resultTarget) ||
+                other.resultTarget == resultTarget) &&
+            const DeepCollectionEquality()
+                .equals(other.emptyTemplate, emptyTemplate) &&
+            const DeepCollectionEquality()
+                .equals(other.loaderWidget, loaderWidget) &&
+            const DeepCollectionEquality()
+                .equals(other.errorWidget, errorWidget));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(
+      runtimeType,
+      request,
+      targetPath,
+      const DeepCollectionEquality().hash(template),
+      resultTarget,
+      const DeepCollectionEquality().hash(emptyTemplate),
+      const DeepCollectionEquality().hash(loaderWidget),
+      const DeepCollectionEquality().hash(errorWidget));
+
+  @override
+  String toString() {
+    return 'StacDynamicView(request: $request, targetPath: $targetPath, template: $template, resultTarget: $resultTarget, emptyTemplate: $emptyTemplate, loaderWidget: $loaderWidget, errorWidget: $errorWidget)';
+  }
 }
 
 /// @nodoc
-abstract class $StacDynamicViewCopyWith<$Res> {
+abstract mixin class $StacDynamicViewCopyWith<$Res> {
   factory $StacDynamicViewCopyWith(
-          StacDynamicView value, $Res Function(StacDynamicView) then) =
-      _$StacDynamicViewCopyWithImpl<$Res, StacDynamicView>;
+          StacDynamicView value, $Res Function(StacDynamicView) _then) =
+      _$StacDynamicViewCopyWithImpl;
   @useResult
   $Res call(
       {StacNetworkRequest request,
@@ -46,22 +82,22 @@ abstract class $StacDynamicViewCopyWith<$Res> {
       Map<String, dynamic> template,
       String resultTarget,
       Map<String, dynamic>? emptyTemplate,
-      Map<String, dynamic>? loaderWidget,
-      Map<String, dynamic>? errorWidget});
+      StacWidget? loaderWidget,
+      StacWidget? errorWidget});
 
   $StacNetworkRequestCopyWith<$Res> get request;
 }
 
 /// @nodoc
-class _$StacDynamicViewCopyWithImpl<$Res, $Val extends StacDynamicView>
+class _$StacDynamicViewCopyWithImpl<$Res>
     implements $StacDynamicViewCopyWith<$Res> {
-  _$StacDynamicViewCopyWithImpl(this._value, this._then);
+  _$StacDynamicViewCopyWithImpl(this._self, this._then);
 
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
+  final StacDynamicView _self;
+  final $Res Function(StacDynamicView) _then;
 
+  /// Create a copy of StacDynamicView
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -73,138 +109,268 @@ class _$StacDynamicViewCopyWithImpl<$Res, $Val extends StacDynamicView>
     Object? loaderWidget = freezed,
     Object? errorWidget = freezed,
   }) {
-    return _then(_value.copyWith(
+    return _then(_self.copyWith(
       request: null == request
-          ? _value.request
+          ? _self.request
           : request // ignore: cast_nullable_to_non_nullable
               as StacNetworkRequest,
       targetPath: null == targetPath
-          ? _value.targetPath
+          ? _self.targetPath
           : targetPath // ignore: cast_nullable_to_non_nullable
               as String,
       template: null == template
-          ? _value.template
+          ? _self.template
           : template // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>,
       resultTarget: null == resultTarget
-          ? _value.resultTarget
+          ? _self.resultTarget
           : resultTarget // ignore: cast_nullable_to_non_nullable
               as String,
       emptyTemplate: freezed == emptyTemplate
-          ? _value.emptyTemplate
+          ? _self.emptyTemplate
           : emptyTemplate // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       loaderWidget: freezed == loaderWidget
-          ? _value.loaderWidget
+          ? _self.loaderWidget
           : loaderWidget // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
+              as StacWidget?,
       errorWidget: freezed == errorWidget
-          ? _value.errorWidget
+          ? _self.errorWidget
           : errorWidget // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-    ) as $Val);
+              as StacWidget?,
+    ));
   }
 
+  /// Create a copy of StacDynamicView
+  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacNetworkRequestCopyWith<$Res> get request {
-    return $StacNetworkRequestCopyWith<$Res>(_value.request, (value) {
-      return _then(_value.copyWith(request: value) as $Val);
+    return $StacNetworkRequestCopyWith<$Res>(_self.request, (value) {
+      return _then(_self.copyWith(request: value));
     });
   }
 }
 
-/// @nodoc
-abstract class _$$StacDynamicViewImplCopyWith<$Res>
-    implements $StacDynamicViewCopyWith<$Res> {
-  factory _$$StacDynamicViewImplCopyWith(_$StacDynamicViewImpl value,
-          $Res Function(_$StacDynamicViewImpl) then) =
-      __$$StacDynamicViewImplCopyWithImpl<$Res>;
-  @override
-  @useResult
-  $Res call(
-      {StacNetworkRequest request,
-      String targetPath,
-      Map<String, dynamic> template,
-      String resultTarget,
-      Map<String, dynamic>? emptyTemplate,
-      Map<String, dynamic>? loaderWidget,
-      Map<String, dynamic>? errorWidget});
+/// Adds pattern-matching-related methods to [StacDynamicView].
+extension StacDynamicViewPatterns on StacDynamicView {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
 
-  @override
-  $StacNetworkRequestCopyWith<$Res> get request;
-}
-
-/// @nodoc
-class __$$StacDynamicViewImplCopyWithImpl<$Res>
-    extends _$StacDynamicViewCopyWithImpl<$Res, _$StacDynamicViewImpl>
-    implements _$$StacDynamicViewImplCopyWith<$Res> {
-  __$$StacDynamicViewImplCopyWithImpl(
-      _$StacDynamicViewImpl _value, $Res Function(_$StacDynamicViewImpl) _then)
-      : super(_value, _then);
-
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? request = null,
-    Object? targetPath = null,
-    Object? template = null,
-    Object? resultTarget = null,
-    Object? emptyTemplate = freezed,
-    Object? loaderWidget = freezed,
-    Object? errorWidget = freezed,
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_StacDynamicView value)? $default, {
+    required TResult orElse(),
   }) {
-    return _then(_$StacDynamicViewImpl(
-      request: null == request
-          ? _value.request
-          : request // ignore: cast_nullable_to_non_nullable
-              as StacNetworkRequest,
-      targetPath: null == targetPath
-          ? _value.targetPath
-          : targetPath // ignore: cast_nullable_to_non_nullable
-              as String,
-      template: null == template
-          ? _value._template
-          : template // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>,
-      resultTarget: null == resultTarget
-          ? _value.resultTarget
-          : resultTarget // ignore: cast_nullable_to_non_nullable
-              as String,
-      emptyTemplate: freezed == emptyTemplate
-          ? _value._emptyTemplate
-          : emptyTemplate // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      loaderWidget: freezed == loaderWidget
-          ? _value._loaderWidget
-          : loaderWidget // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      errorWidget: freezed == errorWidget
-          ? _value._errorWidget
-          : errorWidget // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-    ));
+    final _that = this;
+    switch (_that) {
+      case _StacDynamicView() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_StacDynamicView value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacDynamicView():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_StacDynamicView value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacDynamicView() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(
+            StacNetworkRequest request,
+            String targetPath,
+            Map<String, dynamic> template,
+            String resultTarget,
+            Map<String, dynamic>? emptyTemplate,
+            StacWidget? loaderWidget,
+            StacWidget? errorWidget)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacDynamicView() when $default != null:
+        return $default(
+            _that.request,
+            _that.targetPath,
+            _that.template,
+            _that.resultTarget,
+            _that.emptyTemplate,
+            _that.loaderWidget,
+            _that.errorWidget);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(
+            StacNetworkRequest request,
+            String targetPath,
+            Map<String, dynamic> template,
+            String resultTarget,
+            Map<String, dynamic>? emptyTemplate,
+            StacWidget? loaderWidget,
+            StacWidget? errorWidget)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacDynamicView():
+        return $default(
+            _that.request,
+            _that.targetPath,
+            _that.template,
+            _that.resultTarget,
+            _that.emptyTemplate,
+            _that.loaderWidget,
+            _that.errorWidget);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(
+            StacNetworkRequest request,
+            String targetPath,
+            Map<String, dynamic> template,
+            String resultTarget,
+            Map<String, dynamic>? emptyTemplate,
+            StacWidget? loaderWidget,
+            StacWidget? errorWidget)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacDynamicView() when $default != null:
+        return $default(
+            _that.request,
+            _that.targetPath,
+            _that.template,
+            _that.resultTarget,
+            _that.emptyTemplate,
+            _that.loaderWidget,
+            _that.errorWidget);
+      case _:
+        return null;
+    }
   }
 }
 
 /// @nodoc
 @JsonSerializable()
-class _$StacDynamicViewImpl implements _StacDynamicView {
-  const _$StacDynamicViewImpl(
+class _StacDynamicView implements StacDynamicView {
+  const _StacDynamicView(
       {required this.request,
       this.targetPath = '',
       required final Map<String, dynamic> template,
       this.resultTarget = '',
       final Map<String, dynamic>? emptyTemplate,
-      final Map<String, dynamic>? loaderWidget,
-      final Map<String, dynamic>? errorWidget})
+      final StacWidget? loaderWidget,
+      final StacWidget? errorWidget})
       : _template = template,
         _emptyTemplate = emptyTemplate,
         _loaderWidget = loaderWidget,
         _errorWidget = errorWidget;
-
-  factory _$StacDynamicViewImpl.fromJson(Map<String, dynamic> json) =>
-      _$$StacDynamicViewImplFromJson(json);
+  factory _StacDynamicView.fromJson(Map<String, dynamic> json) =>
+      _$StacDynamicViewFromJson(json);
 
   @override
   final StacNetworkRequest request;
@@ -232,9 +398,9 @@ class _$StacDynamicViewImpl implements _StacDynamicView {
     return EqualUnmodifiableMapView(value);
   }
 
-  final Map<String, dynamic>? _loaderWidget;
+  final StacWidget? _loaderWidget;
   @override
-  Map<String, dynamic>? get loaderWidget {
+  StacWidget? get loaderWidget {
     final value = _loaderWidget;
     if (value == null) return null;
     if (_loaderWidget is EqualUnmodifiableMapView) return _loaderWidget;
@@ -242,9 +408,9 @@ class _$StacDynamicViewImpl implements _StacDynamicView {
     return EqualUnmodifiableMapView(value);
   }
 
-  final Map<String, dynamic>? _errorWidget;
+  final StacWidget? _errorWidget;
   @override
-  Map<String, dynamic>? get errorWidget {
+  StacWidget? get errorWidget {
     final value = _errorWidget;
     if (value == null) return null;
     if (_errorWidget is EqualUnmodifiableMapView) return _errorWidget;
@@ -252,16 +418,26 @@ class _$StacDynamicViewImpl implements _StacDynamicView {
     return EqualUnmodifiableMapView(value);
   }
 
+  /// Create a copy of StacDynamicView
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'StacDynamicView(request: $request, targetPath: $targetPath, template: $template, resultTarget: $resultTarget, emptyTemplate: $emptyTemplate, loaderWidget: $loaderWidget, errorWidget: $errorWidget)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$StacDynamicViewCopyWith<_StacDynamicView> get copyWith =>
+      __$StacDynamicViewCopyWithImpl<_StacDynamicView>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$StacDynamicViewToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$StacDynamicViewImpl &&
+            other is _StacDynamicView &&
             (identical(other.request, request) || other.request == request) &&
             (identical(other.targetPath, targetPath) ||
                 other.targetPath == targetPath) &&
@@ -276,7 +452,7 @@ class _$StacDynamicViewImpl implements _StacDynamicView {
                 .equals(other._errorWidget, _errorWidget));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -288,50 +464,95 @@ class _$StacDynamicViewImpl implements _StacDynamicView {
       const DeepCollectionEquality().hash(_loaderWidget),
       const DeepCollectionEquality().hash(_errorWidget));
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$StacDynamicViewImplCopyWith<_$StacDynamicViewImpl> get copyWith =>
-      __$$StacDynamicViewImplCopyWithImpl<_$StacDynamicViewImpl>(
-          this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$StacDynamicViewImplToJson(
-      this,
-    );
+  String toString() {
+    return 'StacDynamicView(request: $request, targetPath: $targetPath, template: $template, resultTarget: $resultTarget, emptyTemplate: $emptyTemplate, loaderWidget: $loaderWidget, errorWidget: $errorWidget)';
   }
 }
 
-abstract class _StacDynamicView implements StacDynamicView {
-  const factory _StacDynamicView(
-      {required final StacNetworkRequest request,
-      final String targetPath,
-      required final Map<String, dynamic> template,
-      final String resultTarget,
-      final Map<String, dynamic>? emptyTemplate,
-      final Map<String, dynamic>? loaderWidget,
-      final Map<String, dynamic>? errorWidget}) = _$StacDynamicViewImpl;
+/// @nodoc
+abstract mixin class _$StacDynamicViewCopyWith<$Res>
+    implements $StacDynamicViewCopyWith<$Res> {
+  factory _$StacDynamicViewCopyWith(
+          _StacDynamicView value, $Res Function(_StacDynamicView) _then) =
+      __$StacDynamicViewCopyWithImpl;
+  @override
+  @useResult
+  $Res call(
+      {StacNetworkRequest request,
+      String targetPath,
+      Map<String, dynamic> template,
+      String resultTarget,
+      Map<String, dynamic>? emptyTemplate,
+      StacWidget? loaderWidget,
+      StacWidget? errorWidget});
 
-  factory _StacDynamicView.fromJson(Map<String, dynamic> json) =
-      _$StacDynamicViewImpl.fromJson;
-
   @override
-  StacNetworkRequest get request;
-  @override
-  String get targetPath;
-  @override
-  Map<String, dynamic> get template;
-  @override
-  String get resultTarget;
-  @override
-  Map<String, dynamic>? get emptyTemplate;
-  @override
-  Map<String, dynamic>? get loaderWidget;
-  @override
-  Map<String, dynamic>? get errorWidget;
-  @override
-  @JsonKey(ignore: true)
-  _$$StacDynamicViewImplCopyWith<_$StacDynamicViewImpl> get copyWith =>
-      throw _privateConstructorUsedError;
+  $StacNetworkRequestCopyWith<$Res> get request;
 }
+
+/// @nodoc
+class __$StacDynamicViewCopyWithImpl<$Res>
+    implements _$StacDynamicViewCopyWith<$Res> {
+  __$StacDynamicViewCopyWithImpl(this._self, this._then);
+
+  final _StacDynamicView _self;
+  final $Res Function(_StacDynamicView) _then;
+
+  /// Create a copy of StacDynamicView
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? request = null,
+    Object? targetPath = null,
+    Object? template = null,
+    Object? resultTarget = null,
+    Object? emptyTemplate = freezed,
+    Object? loaderWidget = freezed,
+    Object? errorWidget = freezed,
+  }) {
+    return _then(_StacDynamicView(
+      request: null == request
+          ? _self.request
+          : request // ignore: cast_nullable_to_non_nullable
+              as StacNetworkRequest,
+      targetPath: null == targetPath
+          ? _self.targetPath
+          : targetPath // ignore: cast_nullable_to_non_nullable
+              as String,
+      template: null == template
+          ? _self._template
+          : template // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>,
+      resultTarget: null == resultTarget
+          ? _self.resultTarget
+          : resultTarget // ignore: cast_nullable_to_non_nullable
+              as String,
+      emptyTemplate: freezed == emptyTemplate
+          ? _self._emptyTemplate
+          : emptyTemplate // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      loaderWidget: freezed == loaderWidget
+          ? _self._loaderWidget
+          : loaderWidget // ignore: cast_nullable_to_non_nullable
+              as StacWidget?,
+      errorWidget: freezed == errorWidget
+          ? _self._errorWidget
+          : errorWidget // ignore: cast_nullable_to_non_nullable
+              as StacWidget?,
+    ));
+  }
+
+  /// Create a copy of StacDynamicView
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacNetworkRequestCopyWith<$Res> get request {
+    return $StacNetworkRequestCopyWith<$Res>(_self.request, (value) {
+      return _then(_self.copyWith(request: value));
+    });
+  }
+}
+
+// dart format on

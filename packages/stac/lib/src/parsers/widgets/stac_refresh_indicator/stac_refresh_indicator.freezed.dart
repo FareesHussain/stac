@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,131 +9,83 @@ part of 'stac_refresh_indicator.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
-StacRefreshIndicator _$StacRefreshIndicatorFromJson(Map<String, dynamic> json) {
-  return _StacRefreshIndicator.fromJson(json);
-}
 
 /// @nodoc
 mixin _$StacRefreshIndicator {
-  Map<String, dynamic>? get child => throw _privateConstructorUsedError;
-  StacDouble get displacement => throw _privateConstructorUsedError;
-  StacDouble get edgeOffset => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onRefresh => throw _privateConstructorUsedError;
-  String? get color => throw _privateConstructorUsedError;
-  String? get backgroundColor => throw _privateConstructorUsedError;
-  String? get semanticsLabel => throw _privateConstructorUsedError;
-  String? get semanticsValue => throw _privateConstructorUsedError;
-  StacDouble get strokeWidth => throw _privateConstructorUsedError;
-  RefreshIndicatorTriggerMode get triggerMode =>
-      throw _privateConstructorUsedError;
+  Map<String, dynamic>? get child;
+  StacDouble get displacement;
+  StacDouble get edgeOffset;
+  Map<String, dynamic>? get onRefresh;
+  String? get color;
+  String? get backgroundColor;
+  String? get semanticsLabel;
+  String? get semanticsValue;
+  StacDouble get strokeWidth;
+  RefreshIndicatorTriggerMode get triggerMode;
 
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
-  $StacRefreshIndicatorCopyWith<StacRefreshIndicator> get copyWith =>
-      throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $StacRefreshIndicatorCopyWith<$Res> {
-  factory $StacRefreshIndicatorCopyWith(StacRefreshIndicator value,
-          $Res Function(StacRefreshIndicator) then) =
-      _$StacRefreshIndicatorCopyWithImpl<$Res, StacRefreshIndicator>;
-  @useResult
-  $Res call(
-      {Map<String, dynamic>? child,
-      StacDouble displacement,
-      StacDouble edgeOffset,
-      Map<String, dynamic>? onRefresh,
-      String? color,
-      String? backgroundColor,
-      String? semanticsLabel,
-      String? semanticsValue,
-      StacDouble strokeWidth,
-      RefreshIndicatorTriggerMode triggerMode});
-}
-
-/// @nodoc
-class _$StacRefreshIndicatorCopyWithImpl<$Res,
-        $Val extends StacRefreshIndicator>
-    implements $StacRefreshIndicatorCopyWith<$Res> {
-  _$StacRefreshIndicatorCopyWithImpl(this._value, this._then);
-
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
-
+  /// Create a copy of StacRefreshIndicator
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @pragma('vm:prefer-inline')
+  $StacRefreshIndicatorCopyWith<StacRefreshIndicator> get copyWith =>
+      _$StacRefreshIndicatorCopyWithImpl<StacRefreshIndicator>(
+          this as StacRefreshIndicator, _$identity);
+
+  /// Serializes this StacRefreshIndicator to a JSON map.
+  Map<String, dynamic> toJson();
+
   @override
-  $Res call({
-    Object? child = freezed,
-    Object? displacement = null,
-    Object? edgeOffset = null,
-    Object? onRefresh = freezed,
-    Object? color = freezed,
-    Object? backgroundColor = freezed,
-    Object? semanticsLabel = freezed,
-    Object? semanticsValue = freezed,
-    Object? strokeWidth = null,
-    Object? triggerMode = null,
-  }) {
-    return _then(_value.copyWith(
-      child: freezed == child
-          ? _value.child
-          : child // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      displacement: null == displacement
-          ? _value.displacement
-          : displacement // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      edgeOffset: null == edgeOffset
-          ? _value.edgeOffset
-          : edgeOffset // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      onRefresh: freezed == onRefresh
-          ? _value.onRefresh
-          : onRefresh // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      color: freezed == color
-          ? _value.color
-          : color // ignore: cast_nullable_to_non_nullable
-              as String?,
-      backgroundColor: freezed == backgroundColor
-          ? _value.backgroundColor
-          : backgroundColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      semanticsLabel: freezed == semanticsLabel
-          ? _value.semanticsLabel
-          : semanticsLabel // ignore: cast_nullable_to_non_nullable
-              as String?,
-      semanticsValue: freezed == semanticsValue
-          ? _value.semanticsValue
-          : semanticsValue // ignore: cast_nullable_to_non_nullable
-              as String?,
-      strokeWidth: null == strokeWidth
-          ? _value.strokeWidth
-          : strokeWidth // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      triggerMode: null == triggerMode
-          ? _value.triggerMode
-          : triggerMode // ignore: cast_nullable_to_non_nullable
-              as RefreshIndicatorTriggerMode,
-    ) as $Val);
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is StacRefreshIndicator &&
+            const DeepCollectionEquality().equals(other.child, child) &&
+            (identical(other.displacement, displacement) ||
+                other.displacement == displacement) &&
+            (identical(other.edgeOffset, edgeOffset) ||
+                other.edgeOffset == edgeOffset) &&
+            const DeepCollectionEquality().equals(other.onRefresh, onRefresh) &&
+            (identical(other.color, color) || other.color == color) &&
+            (identical(other.backgroundColor, backgroundColor) ||
+                other.backgroundColor == backgroundColor) &&
+            (identical(other.semanticsLabel, semanticsLabel) ||
+                other.semanticsLabel == semanticsLabel) &&
+            (identical(other.semanticsValue, semanticsValue) ||
+                other.semanticsValue == semanticsValue) &&
+            (identical(other.strokeWidth, strokeWidth) ||
+                other.strokeWidth == strokeWidth) &&
+            (identical(other.triggerMode, triggerMode) ||
+                other.triggerMode == triggerMode));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(child),
+      displacement,
+      edgeOffset,
+      const DeepCollectionEquality().hash(onRefresh),
+      color,
+      backgroundColor,
+      semanticsLabel,
+      semanticsValue,
+      strokeWidth,
+      triggerMode);
+
+  @override
+  String toString() {
+    return 'StacRefreshIndicator(child: $child, displacement: $displacement, edgeOffset: $edgeOffset, onRefresh: $onRefresh, color: $color, backgroundColor: $backgroundColor, semanticsLabel: $semanticsLabel, semanticsValue: $semanticsValue, strokeWidth: $strokeWidth, triggerMode: $triggerMode)';
   }
 }
 
 /// @nodoc
-abstract class _$$StacRefreshIndicatorImplCopyWith<$Res>
-    implements $StacRefreshIndicatorCopyWith<$Res> {
-  factory _$$StacRefreshIndicatorImplCopyWith(_$StacRefreshIndicatorImpl value,
-          $Res Function(_$StacRefreshIndicatorImpl) then) =
-      __$$StacRefreshIndicatorImplCopyWithImpl<$Res>;
-  @override
+abstract mixin class $StacRefreshIndicatorCopyWith<$Res> {
+  factory $StacRefreshIndicatorCopyWith(StacRefreshIndicator value,
+          $Res Function(StacRefreshIndicator) _then) =
+      _$StacRefreshIndicatorCopyWithImpl;
   @useResult
   $Res call(
       {Map<String, dynamic>? child,
@@ -149,13 +101,15 @@ abstract class _$$StacRefreshIndicatorImplCopyWith<$Res>
 }
 
 /// @nodoc
-class __$$StacRefreshIndicatorImplCopyWithImpl<$Res>
-    extends _$StacRefreshIndicatorCopyWithImpl<$Res, _$StacRefreshIndicatorImpl>
-    implements _$$StacRefreshIndicatorImplCopyWith<$Res> {
-  __$$StacRefreshIndicatorImplCopyWithImpl(_$StacRefreshIndicatorImpl _value,
-      $Res Function(_$StacRefreshIndicatorImpl) _then)
-      : super(_value, _then);
+class _$StacRefreshIndicatorCopyWithImpl<$Res>
+    implements $StacRefreshIndicatorCopyWith<$Res> {
+  _$StacRefreshIndicatorCopyWithImpl(this._self, this._then);
 
+  final StacRefreshIndicator _self;
+  final $Res Function(StacRefreshIndicator) _then;
+
+  /// Create a copy of StacRefreshIndicator
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -170,55 +124,275 @@ class __$$StacRefreshIndicatorImplCopyWithImpl<$Res>
     Object? strokeWidth = null,
     Object? triggerMode = null,
   }) {
-    return _then(_$StacRefreshIndicatorImpl(
+    return _then(_self.copyWith(
       child: freezed == child
-          ? _value._child
+          ? _self.child
           : child // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       displacement: null == displacement
-          ? _value.displacement
+          ? _self.displacement
           : displacement // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       edgeOffset: null == edgeOffset
-          ? _value.edgeOffset
+          ? _self.edgeOffset
           : edgeOffset // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       onRefresh: freezed == onRefresh
-          ? _value._onRefresh
+          ? _self.onRefresh
           : onRefresh // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       color: freezed == color
-          ? _value.color
+          ? _self.color
           : color // ignore: cast_nullable_to_non_nullable
               as String?,
       backgroundColor: freezed == backgroundColor
-          ? _value.backgroundColor
+          ? _self.backgroundColor
           : backgroundColor // ignore: cast_nullable_to_non_nullable
               as String?,
       semanticsLabel: freezed == semanticsLabel
-          ? _value.semanticsLabel
+          ? _self.semanticsLabel
           : semanticsLabel // ignore: cast_nullable_to_non_nullable
               as String?,
       semanticsValue: freezed == semanticsValue
-          ? _value.semanticsValue
+          ? _self.semanticsValue
           : semanticsValue // ignore: cast_nullable_to_non_nullable
               as String?,
       strokeWidth: null == strokeWidth
-          ? _value.strokeWidth
+          ? _self.strokeWidth
           : strokeWidth // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       triggerMode: null == triggerMode
-          ? _value.triggerMode
+          ? _self.triggerMode
           : triggerMode // ignore: cast_nullable_to_non_nullable
               as RefreshIndicatorTriggerMode,
     ));
   }
 }
 
+/// Adds pattern-matching-related methods to [StacRefreshIndicator].
+extension StacRefreshIndicatorPatterns on StacRefreshIndicator {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_StacRefreshIndicator value)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacRefreshIndicator() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_StacRefreshIndicator value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacRefreshIndicator():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_StacRefreshIndicator value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacRefreshIndicator() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(
+            Map<String, dynamic>? child,
+            StacDouble displacement,
+            StacDouble edgeOffset,
+            Map<String, dynamic>? onRefresh,
+            String? color,
+            String? backgroundColor,
+            String? semanticsLabel,
+            String? semanticsValue,
+            StacDouble strokeWidth,
+            RefreshIndicatorTriggerMode triggerMode)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacRefreshIndicator() when $default != null:
+        return $default(
+            _that.child,
+            _that.displacement,
+            _that.edgeOffset,
+            _that.onRefresh,
+            _that.color,
+            _that.backgroundColor,
+            _that.semanticsLabel,
+            _that.semanticsValue,
+            _that.strokeWidth,
+            _that.triggerMode);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(
+            Map<String, dynamic>? child,
+            StacDouble displacement,
+            StacDouble edgeOffset,
+            Map<String, dynamic>? onRefresh,
+            String? color,
+            String? backgroundColor,
+            String? semanticsLabel,
+            String? semanticsValue,
+            StacDouble strokeWidth,
+            RefreshIndicatorTriggerMode triggerMode)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacRefreshIndicator():
+        return $default(
+            _that.child,
+            _that.displacement,
+            _that.edgeOffset,
+            _that.onRefresh,
+            _that.color,
+            _that.backgroundColor,
+            _that.semanticsLabel,
+            _that.semanticsValue,
+            _that.strokeWidth,
+            _that.triggerMode);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(
+            Map<String, dynamic>? child,
+            StacDouble displacement,
+            StacDouble edgeOffset,
+            Map<String, dynamic>? onRefresh,
+            String? color,
+            String? backgroundColor,
+            String? semanticsLabel,
+            String? semanticsValue,
+            StacDouble strokeWidth,
+            RefreshIndicatorTriggerMode triggerMode)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacRefreshIndicator() when $default != null:
+        return $default(
+            _that.child,
+            _that.displacement,
+            _that.edgeOffset,
+            _that.onRefresh,
+            _that.color,
+            _that.backgroundColor,
+            _that.semanticsLabel,
+            _that.semanticsValue,
+            _that.strokeWidth,
+            _that.triggerMode);
+      case _:
+        return null;
+    }
+  }
+}
+
 /// @nodoc
 @JsonSerializable()
-class _$StacRefreshIndicatorImpl implements _StacRefreshIndicator {
-  const _$StacRefreshIndicatorImpl(
+class _StacRefreshIndicator implements StacRefreshIndicator {
+  const _StacRefreshIndicator(
       {final Map<String, dynamic>? child,
       this.displacement = const StacDouble(40),
       this.edgeOffset = StacDouble.zero,
@@ -232,9 +406,8 @@ class _$StacRefreshIndicatorImpl implements _StacRefreshIndicator {
       this.triggerMode = RefreshIndicatorTriggerMode.onEdge})
       : _child = child,
         _onRefresh = onRefresh;
-
-  factory _$StacRefreshIndicatorImpl.fromJson(Map<String, dynamic> json) =>
-      _$$StacRefreshIndicatorImplFromJson(json);
+  factory _StacRefreshIndicator.fromJson(Map<String, dynamic> json) =>
+      _$StacRefreshIndicatorFromJson(json);
 
   final Map<String, dynamic>? _child;
   @override
@@ -277,16 +450,27 @@ class _$StacRefreshIndicatorImpl implements _StacRefreshIndicator {
   @JsonKey()
   final RefreshIndicatorTriggerMode triggerMode;
 
+  /// Create a copy of StacRefreshIndicator
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'StacRefreshIndicator(child: $child, displacement: $displacement, edgeOffset: $edgeOffset, onRefresh: $onRefresh, color: $color, backgroundColor: $backgroundColor, semanticsLabel: $semanticsLabel, semanticsValue: $semanticsValue, strokeWidth: $strokeWidth, triggerMode: $triggerMode)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$StacRefreshIndicatorCopyWith<_StacRefreshIndicator> get copyWith =>
+      __$StacRefreshIndicatorCopyWithImpl<_StacRefreshIndicator>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$StacRefreshIndicatorToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$StacRefreshIndicatorImpl &&
+            other is _StacRefreshIndicator &&
             const DeepCollectionEquality().equals(other._child, _child) &&
             (identical(other.displacement, displacement) ||
                 other.displacement == displacement) &&
@@ -307,7 +491,7 @@ class _$StacRefreshIndicatorImpl implements _StacRefreshIndicator {
                 other.triggerMode == triggerMode));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -322,61 +506,100 @@ class _$StacRefreshIndicatorImpl implements _StacRefreshIndicator {
       strokeWidth,
       triggerMode);
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$StacRefreshIndicatorImplCopyWith<_$StacRefreshIndicatorImpl>
-      get copyWith =>
-          __$$StacRefreshIndicatorImplCopyWithImpl<_$StacRefreshIndicatorImpl>(
-              this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$StacRefreshIndicatorImplToJson(
-      this,
-    );
+  String toString() {
+    return 'StacRefreshIndicator(child: $child, displacement: $displacement, edgeOffset: $edgeOffset, onRefresh: $onRefresh, color: $color, backgroundColor: $backgroundColor, semanticsLabel: $semanticsLabel, semanticsValue: $semanticsValue, strokeWidth: $strokeWidth, triggerMode: $triggerMode)';
   }
 }
 
-abstract class _StacRefreshIndicator implements StacRefreshIndicator {
-  const factory _StacRefreshIndicator(
-          {final Map<String, dynamic>? child,
-          final StacDouble displacement,
-          final StacDouble edgeOffset,
-          final Map<String, dynamic>? onRefresh,
-          final String? color,
-          final String? backgroundColor,
-          final String? semanticsLabel,
-          final String? semanticsValue,
-          final StacDouble strokeWidth,
-          final RefreshIndicatorTriggerMode triggerMode}) =
-      _$StacRefreshIndicatorImpl;
-
-  factory _StacRefreshIndicator.fromJson(Map<String, dynamic> json) =
-      _$StacRefreshIndicatorImpl.fromJson;
-
+/// @nodoc
+abstract mixin class _$StacRefreshIndicatorCopyWith<$Res>
+    implements $StacRefreshIndicatorCopyWith<$Res> {
+  factory _$StacRefreshIndicatorCopyWith(_StacRefreshIndicator value,
+          $Res Function(_StacRefreshIndicator) _then) =
+      __$StacRefreshIndicatorCopyWithImpl;
   @override
-  Map<String, dynamic>? get child;
-  @override
-  StacDouble get displacement;
-  @override
-  StacDouble get edgeOffset;
-  @override
-  Map<String, dynamic>? get onRefresh;
-  @override
-  String? get color;
-  @override
-  String? get backgroundColor;
-  @override
-  String? get semanticsLabel;
-  @override
-  String? get semanticsValue;
-  @override
-  StacDouble get strokeWidth;
-  @override
-  RefreshIndicatorTriggerMode get triggerMode;
-  @override
-  @JsonKey(ignore: true)
-  _$$StacRefreshIndicatorImplCopyWith<_$StacRefreshIndicatorImpl>
-      get copyWith => throw _privateConstructorUsedError;
+  @useResult
+  $Res call(
+      {Map<String, dynamic>? child,
+      StacDouble displacement,
+      StacDouble edgeOffset,
+      Map<String, dynamic>? onRefresh,
+      String? color,
+      String? backgroundColor,
+      String? semanticsLabel,
+      String? semanticsValue,
+      StacDouble strokeWidth,
+      RefreshIndicatorTriggerMode triggerMode});
 }
+
+/// @nodoc
+class __$StacRefreshIndicatorCopyWithImpl<$Res>
+    implements _$StacRefreshIndicatorCopyWith<$Res> {
+  __$StacRefreshIndicatorCopyWithImpl(this._self, this._then);
+
+  final _StacRefreshIndicator _self;
+  final $Res Function(_StacRefreshIndicator) _then;
+
+  /// Create a copy of StacRefreshIndicator
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? child = freezed,
+    Object? displacement = null,
+    Object? edgeOffset = null,
+    Object? onRefresh = freezed,
+    Object? color = freezed,
+    Object? backgroundColor = freezed,
+    Object? semanticsLabel = freezed,
+    Object? semanticsValue = freezed,
+    Object? strokeWidth = null,
+    Object? triggerMode = null,
+  }) {
+    return _then(_StacRefreshIndicator(
+      child: freezed == child
+          ? _self._child
+          : child // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      displacement: null == displacement
+          ? _self.displacement
+          : displacement // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      edgeOffset: null == edgeOffset
+          ? _self.edgeOffset
+          : edgeOffset // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      onRefresh: freezed == onRefresh
+          ? _self._onRefresh
+          : onRefresh // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      color: freezed == color
+          ? _self.color
+          : color // ignore: cast_nullable_to_non_nullable
+              as String?,
+      backgroundColor: freezed == backgroundColor
+          ? _self.backgroundColor
+          : backgroundColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      semanticsLabel: freezed == semanticsLabel
+          ? _self.semanticsLabel
+          : semanticsLabel // ignore: cast_nullable_to_non_nullable
+              as String?,
+      semanticsValue: freezed == semanticsValue
+          ? _self.semanticsValue
+          : semanticsValue // ignore: cast_nullable_to_non_nullable
+              as String?,
+      strokeWidth: null == strokeWidth
+          ? _self.strokeWidth
+          : strokeWidth // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      triggerMode: null == triggerMode
+          ? _self.triggerMode
+          : triggerMode // ignore: cast_nullable_to_non_nullable
+              as RefreshIndicatorTriggerMode,
+    ));
+  }
+}
+
+// dart format on

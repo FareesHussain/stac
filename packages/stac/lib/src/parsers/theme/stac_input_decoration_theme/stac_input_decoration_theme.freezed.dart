@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,65 +9,172 @@ part of 'stac_input_decoration_theme.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
-StacInputDecorationTheme _$StacInputDecorationThemeFromJson(
-    Map<String, dynamic> json) {
-  return _StacInputDecorationTheme.fromJson(json);
-}
 
 /// @nodoc
 mixin _$StacInputDecorationTheme {
-  StacTextStyle? get labelStyle => throw _privateConstructorUsedError;
-  StacTextStyle? get floatingLabelStyle => throw _privateConstructorUsedError;
-  StacTextStyle? get helperStyle => throw _privateConstructorUsedError;
-  int? get helperMaxLines => throw _privateConstructorUsedError;
-  StacTextStyle? get hintStyle => throw _privateConstructorUsedError;
-  StacTextStyle? get errorStyle => throw _privateConstructorUsedError;
-  int? get errorMaxLines => throw _privateConstructorUsedError;
-  FloatingLabelBehavior? get floatingLabelBehavior =>
-      throw _privateConstructorUsedError;
-  StacFloatingLabelAlignment? get floatingLabelAlignment =>
-      throw _privateConstructorUsedError;
-  bool get isDense => throw _privateConstructorUsedError;
-  StacEdgeInsets? get contentPadding => throw _privateConstructorUsedError;
-  bool get isCollapsed => throw _privateConstructorUsedError;
-  String? get iconColor => throw _privateConstructorUsedError;
-  StacTextStyle? get prefixStyle => throw _privateConstructorUsedError;
-  String? get prefixIconColor => throw _privateConstructorUsedError;
-  StacTextStyle? get suffixStyle => throw _privateConstructorUsedError;
-  String? get suffixIconColor => throw _privateConstructorUsedError;
-  StacTextStyle? get counterStyle => throw _privateConstructorUsedError;
-  bool get filled => throw _privateConstructorUsedError;
-  String? get fillColor => throw _privateConstructorUsedError;
-  StacBorderSide? get activeIndicatorBorder =>
-      throw _privateConstructorUsedError;
-  StacBorderSide? get outlineBorder => throw _privateConstructorUsedError;
-  String? get focusColor => throw _privateConstructorUsedError;
-  String? get hoverColor => throw _privateConstructorUsedError;
-  StacInputBorder? get errorBorder => throw _privateConstructorUsedError;
-  StacInputBorder? get focusedBorder => throw _privateConstructorUsedError;
-  StacInputBorder? get focusedErrorBorder => throw _privateConstructorUsedError;
-  StacInputBorder? get disabledBorder => throw _privateConstructorUsedError;
-  StacInputBorder? get enabledBorder => throw _privateConstructorUsedError;
-  StacInputBorder? get border => throw _privateConstructorUsedError;
-  bool get alignLabelWithHint => throw _privateConstructorUsedError;
-  StacBoxConstraints? get constraints => throw _privateConstructorUsedError;
+  StacTextStyle? get labelStyle;
+  StacTextStyle? get floatingLabelStyle;
+  StacTextStyle? get helperStyle;
+  int? get helperMaxLines;
+  StacTextStyle? get hintStyle;
+  StacTextStyle? get errorStyle;
+  int? get errorMaxLines;
+  FloatingLabelBehavior? get floatingLabelBehavior;
+  StacFloatingLabelAlignment? get floatingLabelAlignment;
+  bool get isDense;
+  StacEdgeInsets? get contentPadding;
+  bool get isCollapsed;
+  String? get iconColor;
+  StacTextStyle? get prefixStyle;
+  String? get prefixIconColor;
+  StacTextStyle? get suffixStyle;
+  String? get suffixIconColor;
+  StacTextStyle? get counterStyle;
+  bool get filled;
+  String? get fillColor;
+  StacBorderSide? get activeIndicatorBorder;
+  StacBorderSide? get outlineBorder;
+  String? get focusColor;
+  String? get hoverColor;
+  StacInputBorder? get errorBorder;
+  StacInputBorder? get focusedBorder;
+  StacInputBorder? get focusedErrorBorder;
+  StacInputBorder? get disabledBorder;
+  StacInputBorder? get enabledBorder;
+  StacInputBorder? get border;
+  bool get alignLabelWithHint;
+  StacBoxConstraints? get constraints;
 
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
   $StacInputDecorationThemeCopyWith<StacInputDecorationTheme> get copyWith =>
-      throw _privateConstructorUsedError;
+      _$StacInputDecorationThemeCopyWithImpl<StacInputDecorationTheme>(
+          this as StacInputDecorationTheme, _$identity);
+
+  /// Serializes this StacInputDecorationTheme to a JSON map.
+  Map<String, dynamic> toJson();
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is StacInputDecorationTheme &&
+            (identical(other.labelStyle, labelStyle) ||
+                other.labelStyle == labelStyle) &&
+            (identical(other.floatingLabelStyle, floatingLabelStyle) ||
+                other.floatingLabelStyle == floatingLabelStyle) &&
+            (identical(other.helperStyle, helperStyle) ||
+                other.helperStyle == helperStyle) &&
+            (identical(other.helperMaxLines, helperMaxLines) ||
+                other.helperMaxLines == helperMaxLines) &&
+            (identical(other.hintStyle, hintStyle) ||
+                other.hintStyle == hintStyle) &&
+            (identical(other.errorStyle, errorStyle) ||
+                other.errorStyle == errorStyle) &&
+            (identical(other.errorMaxLines, errorMaxLines) ||
+                other.errorMaxLines == errorMaxLines) &&
+            (identical(other.floatingLabelBehavior, floatingLabelBehavior) ||
+                other.floatingLabelBehavior == floatingLabelBehavior) &&
+            (identical(other.floatingLabelAlignment, floatingLabelAlignment) ||
+                other.floatingLabelAlignment == floatingLabelAlignment) &&
+            (identical(other.isDense, isDense) || other.isDense == isDense) &&
+            (identical(other.contentPadding, contentPadding) ||
+                other.contentPadding == contentPadding) &&
+            (identical(other.isCollapsed, isCollapsed) ||
+                other.isCollapsed == isCollapsed) &&
+            (identical(other.iconColor, iconColor) ||
+                other.iconColor == iconColor) &&
+            (identical(other.prefixStyle, prefixStyle) ||
+                other.prefixStyle == prefixStyle) &&
+            (identical(other.prefixIconColor, prefixIconColor) ||
+                other.prefixIconColor == prefixIconColor) &&
+            (identical(other.suffixStyle, suffixStyle) ||
+                other.suffixStyle == suffixStyle) &&
+            (identical(other.suffixIconColor, suffixIconColor) ||
+                other.suffixIconColor == suffixIconColor) &&
+            (identical(other.counterStyle, counterStyle) ||
+                other.counterStyle == counterStyle) &&
+            (identical(other.filled, filled) || other.filled == filled) &&
+            (identical(other.fillColor, fillColor) ||
+                other.fillColor == fillColor) &&
+            (identical(other.activeIndicatorBorder, activeIndicatorBorder) ||
+                other.activeIndicatorBorder == activeIndicatorBorder) &&
+            (identical(other.outlineBorder, outlineBorder) ||
+                other.outlineBorder == outlineBorder) &&
+            (identical(other.focusColor, focusColor) ||
+                other.focusColor == focusColor) &&
+            (identical(other.hoverColor, hoverColor) ||
+                other.hoverColor == hoverColor) &&
+            (identical(other.errorBorder, errorBorder) ||
+                other.errorBorder == errorBorder) &&
+            (identical(other.focusedBorder, focusedBorder) ||
+                other.focusedBorder == focusedBorder) &&
+            (identical(other.focusedErrorBorder, focusedErrorBorder) ||
+                other.focusedErrorBorder == focusedErrorBorder) &&
+            (identical(other.disabledBorder, disabledBorder) ||
+                other.disabledBorder == disabledBorder) &&
+            (identical(other.enabledBorder, enabledBorder) ||
+                other.enabledBorder == enabledBorder) &&
+            (identical(other.border, border) || other.border == border) &&
+            (identical(other.alignLabelWithHint, alignLabelWithHint) ||
+                other.alignLabelWithHint == alignLabelWithHint) &&
+            (identical(other.constraints, constraints) ||
+                other.constraints == constraints));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hashAll([
+        runtimeType,
+        labelStyle,
+        floatingLabelStyle,
+        helperStyle,
+        helperMaxLines,
+        hintStyle,
+        errorStyle,
+        errorMaxLines,
+        floatingLabelBehavior,
+        floatingLabelAlignment,
+        isDense,
+        contentPadding,
+        isCollapsed,
+        iconColor,
+        prefixStyle,
+        prefixIconColor,
+        suffixStyle,
+        suffixIconColor,
+        counterStyle,
+        filled,
+        fillColor,
+        activeIndicatorBorder,
+        outlineBorder,
+        focusColor,
+        hoverColor,
+        errorBorder,
+        focusedBorder,
+        focusedErrorBorder,
+        disabledBorder,
+        enabledBorder,
+        border,
+        alignLabelWithHint,
+        constraints
+      ]);
+
+  @override
+  String toString() {
+    return 'StacInputDecorationTheme(labelStyle: $labelStyle, floatingLabelStyle: $floatingLabelStyle, helperStyle: $helperStyle, helperMaxLines: $helperMaxLines, hintStyle: $hintStyle, errorStyle: $errorStyle, errorMaxLines: $errorMaxLines, floatingLabelBehavior: $floatingLabelBehavior, floatingLabelAlignment: $floatingLabelAlignment, isDense: $isDense, contentPadding: $contentPadding, isCollapsed: $isCollapsed, iconColor: $iconColor, prefixStyle: $prefixStyle, prefixIconColor: $prefixIconColor, suffixStyle: $suffixStyle, suffixIconColor: $suffixIconColor, counterStyle: $counterStyle, filled: $filled, fillColor: $fillColor, activeIndicatorBorder: $activeIndicatorBorder, outlineBorder: $outlineBorder, focusColor: $focusColor, hoverColor: $hoverColor, errorBorder: $errorBorder, focusedBorder: $focusedBorder, focusedErrorBorder: $focusedErrorBorder, disabledBorder: $disabledBorder, enabledBorder: $enabledBorder, border: $border, alignLabelWithHint: $alignLabelWithHint, constraints: $constraints)';
+  }
 }
 
 /// @nodoc
-abstract class $StacInputDecorationThemeCopyWith<$Res> {
+abstract mixin class $StacInputDecorationThemeCopyWith<$Res> {
   factory $StacInputDecorationThemeCopyWith(StacInputDecorationTheme value,
-          $Res Function(StacInputDecorationTheme) then) =
-      _$StacInputDecorationThemeCopyWithImpl<$Res, StacInputDecorationTheme>;
+          $Res Function(StacInputDecorationTheme) _then) =
+      _$StacInputDecorationThemeCopyWithImpl;
   @useResult
   $Res call(
       {StacTextStyle? labelStyle,
@@ -124,16 +231,15 @@ abstract class $StacInputDecorationThemeCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacInputDecorationThemeCopyWithImpl<$Res,
-        $Val extends StacInputDecorationTheme>
+class _$StacInputDecorationThemeCopyWithImpl<$Res>
     implements $StacInputDecorationThemeCopyWith<$Res> {
-  _$StacInputDecorationThemeCopyWithImpl(this._value, this._then);
+  _$StacInputDecorationThemeCopyWithImpl(this._self, this._then);
 
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
+  final StacInputDecorationTheme _self;
+  final $Res Function(StacInputDecorationTheme) _then;
 
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -170,620 +276,747 @@ class _$StacInputDecorationThemeCopyWithImpl<$Res,
     Object? alignLabelWithHint = null,
     Object? constraints = freezed,
   }) {
-    return _then(_value.copyWith(
+    return _then(_self.copyWith(
       labelStyle: freezed == labelStyle
-          ? _value.labelStyle
+          ? _self.labelStyle
           : labelStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       floatingLabelStyle: freezed == floatingLabelStyle
-          ? _value.floatingLabelStyle
+          ? _self.floatingLabelStyle
           : floatingLabelStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       helperStyle: freezed == helperStyle
-          ? _value.helperStyle
+          ? _self.helperStyle
           : helperStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       helperMaxLines: freezed == helperMaxLines
-          ? _value.helperMaxLines
+          ? _self.helperMaxLines
           : helperMaxLines // ignore: cast_nullable_to_non_nullable
               as int?,
       hintStyle: freezed == hintStyle
-          ? _value.hintStyle
+          ? _self.hintStyle
           : hintStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       errorStyle: freezed == errorStyle
-          ? _value.errorStyle
+          ? _self.errorStyle
           : errorStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       errorMaxLines: freezed == errorMaxLines
-          ? _value.errorMaxLines
+          ? _self.errorMaxLines
           : errorMaxLines // ignore: cast_nullable_to_non_nullable
               as int?,
       floatingLabelBehavior: freezed == floatingLabelBehavior
-          ? _value.floatingLabelBehavior
+          ? _self.floatingLabelBehavior
           : floatingLabelBehavior // ignore: cast_nullable_to_non_nullable
               as FloatingLabelBehavior?,
       floatingLabelAlignment: freezed == floatingLabelAlignment
-          ? _value.floatingLabelAlignment
+          ? _self.floatingLabelAlignment
           : floatingLabelAlignment // ignore: cast_nullable_to_non_nullable
               as StacFloatingLabelAlignment?,
       isDense: null == isDense
-          ? _value.isDense
+          ? _self.isDense
           : isDense // ignore: cast_nullable_to_non_nullable
               as bool,
       contentPadding: freezed == contentPadding
-          ? _value.contentPadding
+          ? _self.contentPadding
           : contentPadding // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets?,
       isCollapsed: null == isCollapsed
-          ? _value.isCollapsed
+          ? _self.isCollapsed
           : isCollapsed // ignore: cast_nullable_to_non_nullable
               as bool,
       iconColor: freezed == iconColor
-          ? _value.iconColor
+          ? _self.iconColor
           : iconColor // ignore: cast_nullable_to_non_nullable
               as String?,
       prefixStyle: freezed == prefixStyle
-          ? _value.prefixStyle
+          ? _self.prefixStyle
           : prefixStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       prefixIconColor: freezed == prefixIconColor
-          ? _value.prefixIconColor
+          ? _self.prefixIconColor
           : prefixIconColor // ignore: cast_nullable_to_non_nullable
               as String?,
       suffixStyle: freezed == suffixStyle
-          ? _value.suffixStyle
+          ? _self.suffixStyle
           : suffixStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       suffixIconColor: freezed == suffixIconColor
-          ? _value.suffixIconColor
+          ? _self.suffixIconColor
           : suffixIconColor // ignore: cast_nullable_to_non_nullable
               as String?,
       counterStyle: freezed == counterStyle
-          ? _value.counterStyle
+          ? _self.counterStyle
           : counterStyle // ignore: cast_nullable_to_non_nullable
               as StacTextStyle?,
       filled: null == filled
-          ? _value.filled
+          ? _self.filled
           : filled // ignore: cast_nullable_to_non_nullable
               as bool,
       fillColor: freezed == fillColor
-          ? _value.fillColor
+          ? _self.fillColor
           : fillColor // ignore: cast_nullable_to_non_nullable
               as String?,
       activeIndicatorBorder: freezed == activeIndicatorBorder
-          ? _value.activeIndicatorBorder
+          ? _self.activeIndicatorBorder
           : activeIndicatorBorder // ignore: cast_nullable_to_non_nullable
               as StacBorderSide?,
       outlineBorder: freezed == outlineBorder
-          ? _value.outlineBorder
+          ? _self.outlineBorder
           : outlineBorder // ignore: cast_nullable_to_non_nullable
               as StacBorderSide?,
       focusColor: freezed == focusColor
-          ? _value.focusColor
+          ? _self.focusColor
           : focusColor // ignore: cast_nullable_to_non_nullable
               as String?,
       hoverColor: freezed == hoverColor
-          ? _value.hoverColor
+          ? _self.hoverColor
           : hoverColor // ignore: cast_nullable_to_non_nullable
               as String?,
       errorBorder: freezed == errorBorder
-          ? _value.errorBorder
+          ? _self.errorBorder
           : errorBorder // ignore: cast_nullable_to_non_nullable
               as StacInputBorder?,
       focusedBorder: freezed == focusedBorder
-          ? _value.focusedBorder
+          ? _self.focusedBorder
           : focusedBorder // ignore: cast_nullable_to_non_nullable
               as StacInputBorder?,
       focusedErrorBorder: freezed == focusedErrorBorder
-          ? _value.focusedErrorBorder
+          ? _self.focusedErrorBorder
           : focusedErrorBorder // ignore: cast_nullable_to_non_nullable
               as StacInputBorder?,
       disabledBorder: freezed == disabledBorder
-          ? _value.disabledBorder
+          ? _self.disabledBorder
           : disabledBorder // ignore: cast_nullable_to_non_nullable
               as StacInputBorder?,
       enabledBorder: freezed == enabledBorder
-          ? _value.enabledBorder
+          ? _self.enabledBorder
           : enabledBorder // ignore: cast_nullable_to_non_nullable
               as StacInputBorder?,
       border: freezed == border
-          ? _value.border
+          ? _self.border
           : border // ignore: cast_nullable_to_non_nullable
               as StacInputBorder?,
       alignLabelWithHint: null == alignLabelWithHint
-          ? _value.alignLabelWithHint
+          ? _self.alignLabelWithHint
           : alignLabelWithHint // ignore: cast_nullable_to_non_nullable
               as bool,
       constraints: freezed == constraints
-          ? _value.constraints
-          : constraints // ignore: cast_nullable_to_non_nullable
-              as StacBoxConstraints?,
-    ) as $Val);
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get labelStyle {
-    if (_value.labelStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_value.labelStyle!, (value) {
-      return _then(_value.copyWith(labelStyle: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get floatingLabelStyle {
-    if (_value.floatingLabelStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_value.floatingLabelStyle!, (value) {
-      return _then(_value.copyWith(floatingLabelStyle: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get helperStyle {
-    if (_value.helperStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_value.helperStyle!, (value) {
-      return _then(_value.copyWith(helperStyle: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get hintStyle {
-    if (_value.hintStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_value.hintStyle!, (value) {
-      return _then(_value.copyWith(hintStyle: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get errorStyle {
-    if (_value.errorStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_value.errorStyle!, (value) {
-      return _then(_value.copyWith(errorStyle: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacEdgeInsetsCopyWith<$Res>? get contentPadding {
-    if (_value.contentPadding == null) {
-      return null;
-    }
-
-    return $StacEdgeInsetsCopyWith<$Res>(_value.contentPadding!, (value) {
-      return _then(_value.copyWith(contentPadding: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get prefixStyle {
-    if (_value.prefixStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_value.prefixStyle!, (value) {
-      return _then(_value.copyWith(prefixStyle: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get suffixStyle {
-    if (_value.suffixStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_value.suffixStyle!, (value) {
-      return _then(_value.copyWith(suffixStyle: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacTextStyleCopyWith<$Res>? get counterStyle {
-    if (_value.counterStyle == null) {
-      return null;
-    }
-
-    return $StacTextStyleCopyWith<$Res>(_value.counterStyle!, (value) {
-      return _then(_value.copyWith(counterStyle: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacBorderSideCopyWith<$Res>? get activeIndicatorBorder {
-    if (_value.activeIndicatorBorder == null) {
-      return null;
-    }
-
-    return $StacBorderSideCopyWith<$Res>(_value.activeIndicatorBorder!,
-        (value) {
-      return _then(_value.copyWith(activeIndicatorBorder: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacBorderSideCopyWith<$Res>? get outlineBorder {
-    if (_value.outlineBorder == null) {
-      return null;
-    }
-
-    return $StacBorderSideCopyWith<$Res>(_value.outlineBorder!, (value) {
-      return _then(_value.copyWith(outlineBorder: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacInputBorderCopyWith<$Res>? get errorBorder {
-    if (_value.errorBorder == null) {
-      return null;
-    }
-
-    return $StacInputBorderCopyWith<$Res>(_value.errorBorder!, (value) {
-      return _then(_value.copyWith(errorBorder: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacInputBorderCopyWith<$Res>? get focusedBorder {
-    if (_value.focusedBorder == null) {
-      return null;
-    }
-
-    return $StacInputBorderCopyWith<$Res>(_value.focusedBorder!, (value) {
-      return _then(_value.copyWith(focusedBorder: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacInputBorderCopyWith<$Res>? get focusedErrorBorder {
-    if (_value.focusedErrorBorder == null) {
-      return null;
-    }
-
-    return $StacInputBorderCopyWith<$Res>(_value.focusedErrorBorder!, (value) {
-      return _then(_value.copyWith(focusedErrorBorder: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacInputBorderCopyWith<$Res>? get disabledBorder {
-    if (_value.disabledBorder == null) {
-      return null;
-    }
-
-    return $StacInputBorderCopyWith<$Res>(_value.disabledBorder!, (value) {
-      return _then(_value.copyWith(disabledBorder: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacInputBorderCopyWith<$Res>? get enabledBorder {
-    if (_value.enabledBorder == null) {
-      return null;
-    }
-
-    return $StacInputBorderCopyWith<$Res>(_value.enabledBorder!, (value) {
-      return _then(_value.copyWith(enabledBorder: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacInputBorderCopyWith<$Res>? get border {
-    if (_value.border == null) {
-      return null;
-    }
-
-    return $StacInputBorderCopyWith<$Res>(_value.border!, (value) {
-      return _then(_value.copyWith(border: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacBoxConstraintsCopyWith<$Res>? get constraints {
-    if (_value.constraints == null) {
-      return null;
-    }
-
-    return $StacBoxConstraintsCopyWith<$Res>(_value.constraints!, (value) {
-      return _then(_value.copyWith(constraints: value) as $Val);
-    });
-  }
-}
-
-/// @nodoc
-abstract class _$$StacInputDecorationThemeImplCopyWith<$Res>
-    implements $StacInputDecorationThemeCopyWith<$Res> {
-  factory _$$StacInputDecorationThemeImplCopyWith(
-          _$StacInputDecorationThemeImpl value,
-          $Res Function(_$StacInputDecorationThemeImpl) then) =
-      __$$StacInputDecorationThemeImplCopyWithImpl<$Res>;
-  @override
-  @useResult
-  $Res call(
-      {StacTextStyle? labelStyle,
-      StacTextStyle? floatingLabelStyle,
-      StacTextStyle? helperStyle,
-      int? helperMaxLines,
-      StacTextStyle? hintStyle,
-      StacTextStyle? errorStyle,
-      int? errorMaxLines,
-      FloatingLabelBehavior? floatingLabelBehavior,
-      StacFloatingLabelAlignment? floatingLabelAlignment,
-      bool isDense,
-      StacEdgeInsets? contentPadding,
-      bool isCollapsed,
-      String? iconColor,
-      StacTextStyle? prefixStyle,
-      String? prefixIconColor,
-      StacTextStyle? suffixStyle,
-      String? suffixIconColor,
-      StacTextStyle? counterStyle,
-      bool filled,
-      String? fillColor,
-      StacBorderSide? activeIndicatorBorder,
-      StacBorderSide? outlineBorder,
-      String? focusColor,
-      String? hoverColor,
-      StacInputBorder? errorBorder,
-      StacInputBorder? focusedBorder,
-      StacInputBorder? focusedErrorBorder,
-      StacInputBorder? disabledBorder,
-      StacInputBorder? enabledBorder,
-      StacInputBorder? border,
-      bool alignLabelWithHint,
-      StacBoxConstraints? constraints});
-
-  @override
-  $StacTextStyleCopyWith<$Res>? get labelStyle;
-  @override
-  $StacTextStyleCopyWith<$Res>? get floatingLabelStyle;
-  @override
-  $StacTextStyleCopyWith<$Res>? get helperStyle;
-  @override
-  $StacTextStyleCopyWith<$Res>? get hintStyle;
-  @override
-  $StacTextStyleCopyWith<$Res>? get errorStyle;
-  @override
-  $StacEdgeInsetsCopyWith<$Res>? get contentPadding;
-  @override
-  $StacTextStyleCopyWith<$Res>? get prefixStyle;
-  @override
-  $StacTextStyleCopyWith<$Res>? get suffixStyle;
-  @override
-  $StacTextStyleCopyWith<$Res>? get counterStyle;
-  @override
-  $StacBorderSideCopyWith<$Res>? get activeIndicatorBorder;
-  @override
-  $StacBorderSideCopyWith<$Res>? get outlineBorder;
-  @override
-  $StacInputBorderCopyWith<$Res>? get errorBorder;
-  @override
-  $StacInputBorderCopyWith<$Res>? get focusedBorder;
-  @override
-  $StacInputBorderCopyWith<$Res>? get focusedErrorBorder;
-  @override
-  $StacInputBorderCopyWith<$Res>? get disabledBorder;
-  @override
-  $StacInputBorderCopyWith<$Res>? get enabledBorder;
-  @override
-  $StacInputBorderCopyWith<$Res>? get border;
-  @override
-  $StacBoxConstraintsCopyWith<$Res>? get constraints;
-}
-
-/// @nodoc
-class __$$StacInputDecorationThemeImplCopyWithImpl<$Res>
-    extends _$StacInputDecorationThemeCopyWithImpl<$Res,
-        _$StacInputDecorationThemeImpl>
-    implements _$$StacInputDecorationThemeImplCopyWith<$Res> {
-  __$$StacInputDecorationThemeImplCopyWithImpl(
-      _$StacInputDecorationThemeImpl _value,
-      $Res Function(_$StacInputDecorationThemeImpl) _then)
-      : super(_value, _then);
-
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? labelStyle = freezed,
-    Object? floatingLabelStyle = freezed,
-    Object? helperStyle = freezed,
-    Object? helperMaxLines = freezed,
-    Object? hintStyle = freezed,
-    Object? errorStyle = freezed,
-    Object? errorMaxLines = freezed,
-    Object? floatingLabelBehavior = freezed,
-    Object? floatingLabelAlignment = freezed,
-    Object? isDense = null,
-    Object? contentPadding = freezed,
-    Object? isCollapsed = null,
-    Object? iconColor = freezed,
-    Object? prefixStyle = freezed,
-    Object? prefixIconColor = freezed,
-    Object? suffixStyle = freezed,
-    Object? suffixIconColor = freezed,
-    Object? counterStyle = freezed,
-    Object? filled = null,
-    Object? fillColor = freezed,
-    Object? activeIndicatorBorder = freezed,
-    Object? outlineBorder = freezed,
-    Object? focusColor = freezed,
-    Object? hoverColor = freezed,
-    Object? errorBorder = freezed,
-    Object? focusedBorder = freezed,
-    Object? focusedErrorBorder = freezed,
-    Object? disabledBorder = freezed,
-    Object? enabledBorder = freezed,
-    Object? border = freezed,
-    Object? alignLabelWithHint = null,
-    Object? constraints = freezed,
-  }) {
-    return _then(_$StacInputDecorationThemeImpl(
-      labelStyle: freezed == labelStyle
-          ? _value.labelStyle
-          : labelStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      floatingLabelStyle: freezed == floatingLabelStyle
-          ? _value.floatingLabelStyle
-          : floatingLabelStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      helperStyle: freezed == helperStyle
-          ? _value.helperStyle
-          : helperStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      helperMaxLines: freezed == helperMaxLines
-          ? _value.helperMaxLines
-          : helperMaxLines // ignore: cast_nullable_to_non_nullable
-              as int?,
-      hintStyle: freezed == hintStyle
-          ? _value.hintStyle
-          : hintStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      errorStyle: freezed == errorStyle
-          ? _value.errorStyle
-          : errorStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      errorMaxLines: freezed == errorMaxLines
-          ? _value.errorMaxLines
-          : errorMaxLines // ignore: cast_nullable_to_non_nullable
-              as int?,
-      floatingLabelBehavior: freezed == floatingLabelBehavior
-          ? _value.floatingLabelBehavior
-          : floatingLabelBehavior // ignore: cast_nullable_to_non_nullable
-              as FloatingLabelBehavior?,
-      floatingLabelAlignment: freezed == floatingLabelAlignment
-          ? _value.floatingLabelAlignment
-          : floatingLabelAlignment // ignore: cast_nullable_to_non_nullable
-              as StacFloatingLabelAlignment?,
-      isDense: null == isDense
-          ? _value.isDense
-          : isDense // ignore: cast_nullable_to_non_nullable
-              as bool,
-      contentPadding: freezed == contentPadding
-          ? _value.contentPadding
-          : contentPadding // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets?,
-      isCollapsed: null == isCollapsed
-          ? _value.isCollapsed
-          : isCollapsed // ignore: cast_nullable_to_non_nullable
-              as bool,
-      iconColor: freezed == iconColor
-          ? _value.iconColor
-          : iconColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      prefixStyle: freezed == prefixStyle
-          ? _value.prefixStyle
-          : prefixStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      prefixIconColor: freezed == prefixIconColor
-          ? _value.prefixIconColor
-          : prefixIconColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      suffixStyle: freezed == suffixStyle
-          ? _value.suffixStyle
-          : suffixStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      suffixIconColor: freezed == suffixIconColor
-          ? _value.suffixIconColor
-          : suffixIconColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      counterStyle: freezed == counterStyle
-          ? _value.counterStyle
-          : counterStyle // ignore: cast_nullable_to_non_nullable
-              as StacTextStyle?,
-      filled: null == filled
-          ? _value.filled
-          : filled // ignore: cast_nullable_to_non_nullable
-              as bool,
-      fillColor: freezed == fillColor
-          ? _value.fillColor
-          : fillColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      activeIndicatorBorder: freezed == activeIndicatorBorder
-          ? _value.activeIndicatorBorder
-          : activeIndicatorBorder // ignore: cast_nullable_to_non_nullable
-              as StacBorderSide?,
-      outlineBorder: freezed == outlineBorder
-          ? _value.outlineBorder
-          : outlineBorder // ignore: cast_nullable_to_non_nullable
-              as StacBorderSide?,
-      focusColor: freezed == focusColor
-          ? _value.focusColor
-          : focusColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      hoverColor: freezed == hoverColor
-          ? _value.hoverColor
-          : hoverColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      errorBorder: freezed == errorBorder
-          ? _value.errorBorder
-          : errorBorder // ignore: cast_nullable_to_non_nullable
-              as StacInputBorder?,
-      focusedBorder: freezed == focusedBorder
-          ? _value.focusedBorder
-          : focusedBorder // ignore: cast_nullable_to_non_nullable
-              as StacInputBorder?,
-      focusedErrorBorder: freezed == focusedErrorBorder
-          ? _value.focusedErrorBorder
-          : focusedErrorBorder // ignore: cast_nullable_to_non_nullable
-              as StacInputBorder?,
-      disabledBorder: freezed == disabledBorder
-          ? _value.disabledBorder
-          : disabledBorder // ignore: cast_nullable_to_non_nullable
-              as StacInputBorder?,
-      enabledBorder: freezed == enabledBorder
-          ? _value.enabledBorder
-          : enabledBorder // ignore: cast_nullable_to_non_nullable
-              as StacInputBorder?,
-      border: freezed == border
-          ? _value.border
-          : border // ignore: cast_nullable_to_non_nullable
-              as StacInputBorder?,
-      alignLabelWithHint: null == alignLabelWithHint
-          ? _value.alignLabelWithHint
-          : alignLabelWithHint // ignore: cast_nullable_to_non_nullable
-              as bool,
-      constraints: freezed == constraints
-          ? _value.constraints
+          ? _self.constraints
           : constraints // ignore: cast_nullable_to_non_nullable
               as StacBoxConstraints?,
     ));
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTextStyleCopyWith<$Res>? get labelStyle {
+    if (_self.labelStyle == null) {
+      return null;
+    }
+
+    return $StacTextStyleCopyWith<$Res>(_self.labelStyle!, (value) {
+      return _then(_self.copyWith(labelStyle: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTextStyleCopyWith<$Res>? get floatingLabelStyle {
+    if (_self.floatingLabelStyle == null) {
+      return null;
+    }
+
+    return $StacTextStyleCopyWith<$Res>(_self.floatingLabelStyle!, (value) {
+      return _then(_self.copyWith(floatingLabelStyle: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTextStyleCopyWith<$Res>? get helperStyle {
+    if (_self.helperStyle == null) {
+      return null;
+    }
+
+    return $StacTextStyleCopyWith<$Res>(_self.helperStyle!, (value) {
+      return _then(_self.copyWith(helperStyle: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTextStyleCopyWith<$Res>? get hintStyle {
+    if (_self.hintStyle == null) {
+      return null;
+    }
+
+    return $StacTextStyleCopyWith<$Res>(_self.hintStyle!, (value) {
+      return _then(_self.copyWith(hintStyle: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTextStyleCopyWith<$Res>? get errorStyle {
+    if (_self.errorStyle == null) {
+      return null;
+    }
+
+    return $StacTextStyleCopyWith<$Res>(_self.errorStyle!, (value) {
+      return _then(_self.copyWith(errorStyle: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacEdgeInsetsCopyWith<$Res>? get contentPadding {
+    if (_self.contentPadding == null) {
+      return null;
+    }
+
+    return $StacEdgeInsetsCopyWith<$Res>(_self.contentPadding!, (value) {
+      return _then(_self.copyWith(contentPadding: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTextStyleCopyWith<$Res>? get prefixStyle {
+    if (_self.prefixStyle == null) {
+      return null;
+    }
+
+    return $StacTextStyleCopyWith<$Res>(_self.prefixStyle!, (value) {
+      return _then(_self.copyWith(prefixStyle: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTextStyleCopyWith<$Res>? get suffixStyle {
+    if (_self.suffixStyle == null) {
+      return null;
+    }
+
+    return $StacTextStyleCopyWith<$Res>(_self.suffixStyle!, (value) {
+      return _then(_self.copyWith(suffixStyle: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTextStyleCopyWith<$Res>? get counterStyle {
+    if (_self.counterStyle == null) {
+      return null;
+    }
+
+    return $StacTextStyleCopyWith<$Res>(_self.counterStyle!, (value) {
+      return _then(_self.copyWith(counterStyle: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacBorderSideCopyWith<$Res>? get activeIndicatorBorder {
+    if (_self.activeIndicatorBorder == null) {
+      return null;
+    }
+
+    return $StacBorderSideCopyWith<$Res>(_self.activeIndicatorBorder!, (value) {
+      return _then(_self.copyWith(activeIndicatorBorder: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacBorderSideCopyWith<$Res>? get outlineBorder {
+    if (_self.outlineBorder == null) {
+      return null;
+    }
+
+    return $StacBorderSideCopyWith<$Res>(_self.outlineBorder!, (value) {
+      return _then(_self.copyWith(outlineBorder: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacInputBorderCopyWith<$Res>? get errorBorder {
+    if (_self.errorBorder == null) {
+      return null;
+    }
+
+    return $StacInputBorderCopyWith<$Res>(_self.errorBorder!, (value) {
+      return _then(_self.copyWith(errorBorder: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacInputBorderCopyWith<$Res>? get focusedBorder {
+    if (_self.focusedBorder == null) {
+      return null;
+    }
+
+    return $StacInputBorderCopyWith<$Res>(_self.focusedBorder!, (value) {
+      return _then(_self.copyWith(focusedBorder: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacInputBorderCopyWith<$Res>? get focusedErrorBorder {
+    if (_self.focusedErrorBorder == null) {
+      return null;
+    }
+
+    return $StacInputBorderCopyWith<$Res>(_self.focusedErrorBorder!, (value) {
+      return _then(_self.copyWith(focusedErrorBorder: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacInputBorderCopyWith<$Res>? get disabledBorder {
+    if (_self.disabledBorder == null) {
+      return null;
+    }
+
+    return $StacInputBorderCopyWith<$Res>(_self.disabledBorder!, (value) {
+      return _then(_self.copyWith(disabledBorder: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacInputBorderCopyWith<$Res>? get enabledBorder {
+    if (_self.enabledBorder == null) {
+      return null;
+    }
+
+    return $StacInputBorderCopyWith<$Res>(_self.enabledBorder!, (value) {
+      return _then(_self.copyWith(enabledBorder: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacInputBorderCopyWith<$Res>? get border {
+    if (_self.border == null) {
+      return null;
+    }
+
+    return $StacInputBorderCopyWith<$Res>(_self.border!, (value) {
+      return _then(_self.copyWith(border: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacBoxConstraintsCopyWith<$Res>? get constraints {
+    if (_self.constraints == null) {
+      return null;
+    }
+
+    return $StacBoxConstraintsCopyWith<$Res>(_self.constraints!, (value) {
+      return _then(_self.copyWith(constraints: value));
+    });
+  }
+}
+
+/// Adds pattern-matching-related methods to [StacInputDecorationTheme].
+extension StacInputDecorationThemePatterns on StacInputDecorationTheme {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_StacInputDecorationTheme value)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacInputDecorationTheme() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_StacInputDecorationTheme value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacInputDecorationTheme():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_StacInputDecorationTheme value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacInputDecorationTheme() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(
+            StacTextStyle? labelStyle,
+            StacTextStyle? floatingLabelStyle,
+            StacTextStyle? helperStyle,
+            int? helperMaxLines,
+            StacTextStyle? hintStyle,
+            StacTextStyle? errorStyle,
+            int? errorMaxLines,
+            FloatingLabelBehavior? floatingLabelBehavior,
+            StacFloatingLabelAlignment? floatingLabelAlignment,
+            bool isDense,
+            StacEdgeInsets? contentPadding,
+            bool isCollapsed,
+            String? iconColor,
+            StacTextStyle? prefixStyle,
+            String? prefixIconColor,
+            StacTextStyle? suffixStyle,
+            String? suffixIconColor,
+            StacTextStyle? counterStyle,
+            bool filled,
+            String? fillColor,
+            StacBorderSide? activeIndicatorBorder,
+            StacBorderSide? outlineBorder,
+            String? focusColor,
+            String? hoverColor,
+            StacInputBorder? errorBorder,
+            StacInputBorder? focusedBorder,
+            StacInputBorder? focusedErrorBorder,
+            StacInputBorder? disabledBorder,
+            StacInputBorder? enabledBorder,
+            StacInputBorder? border,
+            bool alignLabelWithHint,
+            StacBoxConstraints? constraints)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacInputDecorationTheme() when $default != null:
+        return $default(
+            _that.labelStyle,
+            _that.floatingLabelStyle,
+            _that.helperStyle,
+            _that.helperMaxLines,
+            _that.hintStyle,
+            _that.errorStyle,
+            _that.errorMaxLines,
+            _that.floatingLabelBehavior,
+            _that.floatingLabelAlignment,
+            _that.isDense,
+            _that.contentPadding,
+            _that.isCollapsed,
+            _that.iconColor,
+            _that.prefixStyle,
+            _that.prefixIconColor,
+            _that.suffixStyle,
+            _that.suffixIconColor,
+            _that.counterStyle,
+            _that.filled,
+            _that.fillColor,
+            _that.activeIndicatorBorder,
+            _that.outlineBorder,
+            _that.focusColor,
+            _that.hoverColor,
+            _that.errorBorder,
+            _that.focusedBorder,
+            _that.focusedErrorBorder,
+            _that.disabledBorder,
+            _that.enabledBorder,
+            _that.border,
+            _that.alignLabelWithHint,
+            _that.constraints);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(
+            StacTextStyle? labelStyle,
+            StacTextStyle? floatingLabelStyle,
+            StacTextStyle? helperStyle,
+            int? helperMaxLines,
+            StacTextStyle? hintStyle,
+            StacTextStyle? errorStyle,
+            int? errorMaxLines,
+            FloatingLabelBehavior? floatingLabelBehavior,
+            StacFloatingLabelAlignment? floatingLabelAlignment,
+            bool isDense,
+            StacEdgeInsets? contentPadding,
+            bool isCollapsed,
+            String? iconColor,
+            StacTextStyle? prefixStyle,
+            String? prefixIconColor,
+            StacTextStyle? suffixStyle,
+            String? suffixIconColor,
+            StacTextStyle? counterStyle,
+            bool filled,
+            String? fillColor,
+            StacBorderSide? activeIndicatorBorder,
+            StacBorderSide? outlineBorder,
+            String? focusColor,
+            String? hoverColor,
+            StacInputBorder? errorBorder,
+            StacInputBorder? focusedBorder,
+            StacInputBorder? focusedErrorBorder,
+            StacInputBorder? disabledBorder,
+            StacInputBorder? enabledBorder,
+            StacInputBorder? border,
+            bool alignLabelWithHint,
+            StacBoxConstraints? constraints)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacInputDecorationTheme():
+        return $default(
+            _that.labelStyle,
+            _that.floatingLabelStyle,
+            _that.helperStyle,
+            _that.helperMaxLines,
+            _that.hintStyle,
+            _that.errorStyle,
+            _that.errorMaxLines,
+            _that.floatingLabelBehavior,
+            _that.floatingLabelAlignment,
+            _that.isDense,
+            _that.contentPadding,
+            _that.isCollapsed,
+            _that.iconColor,
+            _that.prefixStyle,
+            _that.prefixIconColor,
+            _that.suffixStyle,
+            _that.suffixIconColor,
+            _that.counterStyle,
+            _that.filled,
+            _that.fillColor,
+            _that.activeIndicatorBorder,
+            _that.outlineBorder,
+            _that.focusColor,
+            _that.hoverColor,
+            _that.errorBorder,
+            _that.focusedBorder,
+            _that.focusedErrorBorder,
+            _that.disabledBorder,
+            _that.enabledBorder,
+            _that.border,
+            _that.alignLabelWithHint,
+            _that.constraints);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(
+            StacTextStyle? labelStyle,
+            StacTextStyle? floatingLabelStyle,
+            StacTextStyle? helperStyle,
+            int? helperMaxLines,
+            StacTextStyle? hintStyle,
+            StacTextStyle? errorStyle,
+            int? errorMaxLines,
+            FloatingLabelBehavior? floatingLabelBehavior,
+            StacFloatingLabelAlignment? floatingLabelAlignment,
+            bool isDense,
+            StacEdgeInsets? contentPadding,
+            bool isCollapsed,
+            String? iconColor,
+            StacTextStyle? prefixStyle,
+            String? prefixIconColor,
+            StacTextStyle? suffixStyle,
+            String? suffixIconColor,
+            StacTextStyle? counterStyle,
+            bool filled,
+            String? fillColor,
+            StacBorderSide? activeIndicatorBorder,
+            StacBorderSide? outlineBorder,
+            String? focusColor,
+            String? hoverColor,
+            StacInputBorder? errorBorder,
+            StacInputBorder? focusedBorder,
+            StacInputBorder? focusedErrorBorder,
+            StacInputBorder? disabledBorder,
+            StacInputBorder? enabledBorder,
+            StacInputBorder? border,
+            bool alignLabelWithHint,
+            StacBoxConstraints? constraints)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacInputDecorationTheme() when $default != null:
+        return $default(
+            _that.labelStyle,
+            _that.floatingLabelStyle,
+            _that.helperStyle,
+            _that.helperMaxLines,
+            _that.hintStyle,
+            _that.errorStyle,
+            _that.errorMaxLines,
+            _that.floatingLabelBehavior,
+            _that.floatingLabelAlignment,
+            _that.isDense,
+            _that.contentPadding,
+            _that.isCollapsed,
+            _that.iconColor,
+            _that.prefixStyle,
+            _that.prefixIconColor,
+            _that.suffixStyle,
+            _that.suffixIconColor,
+            _that.counterStyle,
+            _that.filled,
+            _that.fillColor,
+            _that.activeIndicatorBorder,
+            _that.outlineBorder,
+            _that.focusColor,
+            _that.hoverColor,
+            _that.errorBorder,
+            _that.focusedBorder,
+            _that.focusedErrorBorder,
+            _that.disabledBorder,
+            _that.enabledBorder,
+            _that.border,
+            _that.alignLabelWithHint,
+            _that.constraints);
+      case _:
+        return null;
+    }
   }
 }
 
 /// @nodoc
 @JsonSerializable()
-class _$StacInputDecorationThemeImpl implements _StacInputDecorationTheme {
-  const _$StacInputDecorationThemeImpl(
+class _StacInputDecorationTheme implements StacInputDecorationTheme {
+  const _StacInputDecorationTheme(
       {this.labelStyle,
       this.floatingLabelStyle,
       this.helperStyle,
@@ -816,9 +1049,8 @@ class _$StacInputDecorationThemeImpl implements _StacInputDecorationTheme {
       this.border,
       this.alignLabelWithHint = false,
       this.constraints});
-
-  factory _$StacInputDecorationThemeImpl.fromJson(Map<String, dynamic> json) =>
-      _$$StacInputDecorationThemeImplFromJson(json);
+  factory _StacInputDecorationTheme.fromJson(Map<String, dynamic> json) =>
+      _$StacInputDecorationThemeFromJson(json);
 
   @override
   final StacTextStyle? labelStyle;
@@ -889,16 +1121,27 @@ class _$StacInputDecorationThemeImpl implements _StacInputDecorationTheme {
   @override
   final StacBoxConstraints? constraints;
 
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'StacInputDecorationTheme(labelStyle: $labelStyle, floatingLabelStyle: $floatingLabelStyle, helperStyle: $helperStyle, helperMaxLines: $helperMaxLines, hintStyle: $hintStyle, errorStyle: $errorStyle, errorMaxLines: $errorMaxLines, floatingLabelBehavior: $floatingLabelBehavior, floatingLabelAlignment: $floatingLabelAlignment, isDense: $isDense, contentPadding: $contentPadding, isCollapsed: $isCollapsed, iconColor: $iconColor, prefixStyle: $prefixStyle, prefixIconColor: $prefixIconColor, suffixStyle: $suffixStyle, suffixIconColor: $suffixIconColor, counterStyle: $counterStyle, filled: $filled, fillColor: $fillColor, activeIndicatorBorder: $activeIndicatorBorder, outlineBorder: $outlineBorder, focusColor: $focusColor, hoverColor: $hoverColor, errorBorder: $errorBorder, focusedBorder: $focusedBorder, focusedErrorBorder: $focusedErrorBorder, disabledBorder: $disabledBorder, enabledBorder: $enabledBorder, border: $border, alignLabelWithHint: $alignLabelWithHint, constraints: $constraints)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$StacInputDecorationThemeCopyWith<_StacInputDecorationTheme> get copyWith =>
+      __$StacInputDecorationThemeCopyWithImpl<_StacInputDecorationTheme>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$StacInputDecorationThemeToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$StacInputDecorationThemeImpl &&
+            other is _StacInputDecorationTheme &&
             (identical(other.labelStyle, labelStyle) ||
                 other.labelStyle == labelStyle) &&
             (identical(other.floatingLabelStyle, floatingLabelStyle) ||
@@ -962,7 +1205,7 @@ class _$StacInputDecorationThemeImpl implements _StacInputDecorationTheme {
                 other.constraints == constraints));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hashAll([
         runtimeType,
@@ -1000,125 +1243,521 @@ class _$StacInputDecorationThemeImpl implements _StacInputDecorationTheme {
         constraints
       ]);
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$StacInputDecorationThemeImplCopyWith<_$StacInputDecorationThemeImpl>
-      get copyWith => __$$StacInputDecorationThemeImplCopyWithImpl<
-          _$StacInputDecorationThemeImpl>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$StacInputDecorationThemeImplToJson(
-      this,
-    );
+  String toString() {
+    return 'StacInputDecorationTheme(labelStyle: $labelStyle, floatingLabelStyle: $floatingLabelStyle, helperStyle: $helperStyle, helperMaxLines: $helperMaxLines, hintStyle: $hintStyle, errorStyle: $errorStyle, errorMaxLines: $errorMaxLines, floatingLabelBehavior: $floatingLabelBehavior, floatingLabelAlignment: $floatingLabelAlignment, isDense: $isDense, contentPadding: $contentPadding, isCollapsed: $isCollapsed, iconColor: $iconColor, prefixStyle: $prefixStyle, prefixIconColor: $prefixIconColor, suffixStyle: $suffixStyle, suffixIconColor: $suffixIconColor, counterStyle: $counterStyle, filled: $filled, fillColor: $fillColor, activeIndicatorBorder: $activeIndicatorBorder, outlineBorder: $outlineBorder, focusColor: $focusColor, hoverColor: $hoverColor, errorBorder: $errorBorder, focusedBorder: $focusedBorder, focusedErrorBorder: $focusedErrorBorder, disabledBorder: $disabledBorder, enabledBorder: $enabledBorder, border: $border, alignLabelWithHint: $alignLabelWithHint, constraints: $constraints)';
   }
 }
 
-abstract class _StacInputDecorationTheme implements StacInputDecorationTheme {
-  const factory _StacInputDecorationTheme(
-      {final StacTextStyle? labelStyle,
-      final StacTextStyle? floatingLabelStyle,
-      final StacTextStyle? helperStyle,
-      final int? helperMaxLines,
-      final StacTextStyle? hintStyle,
-      final StacTextStyle? errorStyle,
-      final int? errorMaxLines,
-      final FloatingLabelBehavior? floatingLabelBehavior,
-      final StacFloatingLabelAlignment? floatingLabelAlignment,
-      final bool isDense,
-      final StacEdgeInsets? contentPadding,
-      final bool isCollapsed,
-      final String? iconColor,
-      final StacTextStyle? prefixStyle,
-      final String? prefixIconColor,
-      final StacTextStyle? suffixStyle,
-      final String? suffixIconColor,
-      final StacTextStyle? counterStyle,
-      final bool filled,
-      final String? fillColor,
-      final StacBorderSide? activeIndicatorBorder,
-      final StacBorderSide? outlineBorder,
-      final String? focusColor,
-      final String? hoverColor,
-      final StacInputBorder? errorBorder,
-      final StacInputBorder? focusedBorder,
-      final StacInputBorder? focusedErrorBorder,
-      final StacInputBorder? disabledBorder,
-      final StacInputBorder? enabledBorder,
-      final StacInputBorder? border,
-      final bool alignLabelWithHint,
-      final StacBoxConstraints? constraints}) = _$StacInputDecorationThemeImpl;
+/// @nodoc
+abstract mixin class _$StacInputDecorationThemeCopyWith<$Res>
+    implements $StacInputDecorationThemeCopyWith<$Res> {
+  factory _$StacInputDecorationThemeCopyWith(_StacInputDecorationTheme value,
+          $Res Function(_StacInputDecorationTheme) _then) =
+      __$StacInputDecorationThemeCopyWithImpl;
+  @override
+  @useResult
+  $Res call(
+      {StacTextStyle? labelStyle,
+      StacTextStyle? floatingLabelStyle,
+      StacTextStyle? helperStyle,
+      int? helperMaxLines,
+      StacTextStyle? hintStyle,
+      StacTextStyle? errorStyle,
+      int? errorMaxLines,
+      FloatingLabelBehavior? floatingLabelBehavior,
+      StacFloatingLabelAlignment? floatingLabelAlignment,
+      bool isDense,
+      StacEdgeInsets? contentPadding,
+      bool isCollapsed,
+      String? iconColor,
+      StacTextStyle? prefixStyle,
+      String? prefixIconColor,
+      StacTextStyle? suffixStyle,
+      String? suffixIconColor,
+      StacTextStyle? counterStyle,
+      bool filled,
+      String? fillColor,
+      StacBorderSide? activeIndicatorBorder,
+      StacBorderSide? outlineBorder,
+      String? focusColor,
+      String? hoverColor,
+      StacInputBorder? errorBorder,
+      StacInputBorder? focusedBorder,
+      StacInputBorder? focusedErrorBorder,
+      StacInputBorder? disabledBorder,
+      StacInputBorder? enabledBorder,
+      StacInputBorder? border,
+      bool alignLabelWithHint,
+      StacBoxConstraints? constraints});
 
-  factory _StacInputDecorationTheme.fromJson(Map<String, dynamic> json) =
-      _$StacInputDecorationThemeImpl.fromJson;
-
   @override
-  StacTextStyle? get labelStyle;
+  $StacTextStyleCopyWith<$Res>? get labelStyle;
   @override
-  StacTextStyle? get floatingLabelStyle;
+  $StacTextStyleCopyWith<$Res>? get floatingLabelStyle;
   @override
-  StacTextStyle? get helperStyle;
+  $StacTextStyleCopyWith<$Res>? get helperStyle;
   @override
-  int? get helperMaxLines;
+  $StacTextStyleCopyWith<$Res>? get hintStyle;
   @override
-  StacTextStyle? get hintStyle;
+  $StacTextStyleCopyWith<$Res>? get errorStyle;
   @override
-  StacTextStyle? get errorStyle;
+  $StacEdgeInsetsCopyWith<$Res>? get contentPadding;
   @override
-  int? get errorMaxLines;
+  $StacTextStyleCopyWith<$Res>? get prefixStyle;
   @override
-  FloatingLabelBehavior? get floatingLabelBehavior;
+  $StacTextStyleCopyWith<$Res>? get suffixStyle;
   @override
-  StacFloatingLabelAlignment? get floatingLabelAlignment;
+  $StacTextStyleCopyWith<$Res>? get counterStyle;
   @override
-  bool get isDense;
+  $StacBorderSideCopyWith<$Res>? get activeIndicatorBorder;
   @override
-  StacEdgeInsets? get contentPadding;
+  $StacBorderSideCopyWith<$Res>? get outlineBorder;
   @override
-  bool get isCollapsed;
+  $StacInputBorderCopyWith<$Res>? get errorBorder;
   @override
-  String? get iconColor;
+  $StacInputBorderCopyWith<$Res>? get focusedBorder;
   @override
-  StacTextStyle? get prefixStyle;
+  $StacInputBorderCopyWith<$Res>? get focusedErrorBorder;
   @override
-  String? get prefixIconColor;
+  $StacInputBorderCopyWith<$Res>? get disabledBorder;
   @override
-  StacTextStyle? get suffixStyle;
+  $StacInputBorderCopyWith<$Res>? get enabledBorder;
   @override
-  String? get suffixIconColor;
+  $StacInputBorderCopyWith<$Res>? get border;
   @override
-  StacTextStyle? get counterStyle;
-  @override
-  bool get filled;
-  @override
-  String? get fillColor;
-  @override
-  StacBorderSide? get activeIndicatorBorder;
-  @override
-  StacBorderSide? get outlineBorder;
-  @override
-  String? get focusColor;
-  @override
-  String? get hoverColor;
-  @override
-  StacInputBorder? get errorBorder;
-  @override
-  StacInputBorder? get focusedBorder;
-  @override
-  StacInputBorder? get focusedErrorBorder;
-  @override
-  StacInputBorder? get disabledBorder;
-  @override
-  StacInputBorder? get enabledBorder;
-  @override
-  StacInputBorder? get border;
-  @override
-  bool get alignLabelWithHint;
-  @override
-  StacBoxConstraints? get constraints;
-  @override
-  @JsonKey(ignore: true)
-  _$$StacInputDecorationThemeImplCopyWith<_$StacInputDecorationThemeImpl>
-      get copyWith => throw _privateConstructorUsedError;
+  $StacBoxConstraintsCopyWith<$Res>? get constraints;
 }
+
+/// @nodoc
+class __$StacInputDecorationThemeCopyWithImpl<$Res>
+    implements _$StacInputDecorationThemeCopyWith<$Res> {
+  __$StacInputDecorationThemeCopyWithImpl(this._self, this._then);
+
+  final _StacInputDecorationTheme _self;
+  final $Res Function(_StacInputDecorationTheme) _then;
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? labelStyle = freezed,
+    Object? floatingLabelStyle = freezed,
+    Object? helperStyle = freezed,
+    Object? helperMaxLines = freezed,
+    Object? hintStyle = freezed,
+    Object? errorStyle = freezed,
+    Object? errorMaxLines = freezed,
+    Object? floatingLabelBehavior = freezed,
+    Object? floatingLabelAlignment = freezed,
+    Object? isDense = null,
+    Object? contentPadding = freezed,
+    Object? isCollapsed = null,
+    Object? iconColor = freezed,
+    Object? prefixStyle = freezed,
+    Object? prefixIconColor = freezed,
+    Object? suffixStyle = freezed,
+    Object? suffixIconColor = freezed,
+    Object? counterStyle = freezed,
+    Object? filled = null,
+    Object? fillColor = freezed,
+    Object? activeIndicatorBorder = freezed,
+    Object? outlineBorder = freezed,
+    Object? focusColor = freezed,
+    Object? hoverColor = freezed,
+    Object? errorBorder = freezed,
+    Object? focusedBorder = freezed,
+    Object? focusedErrorBorder = freezed,
+    Object? disabledBorder = freezed,
+    Object? enabledBorder = freezed,
+    Object? border = freezed,
+    Object? alignLabelWithHint = null,
+    Object? constraints = freezed,
+  }) {
+    return _then(_StacInputDecorationTheme(
+      labelStyle: freezed == labelStyle
+          ? _self.labelStyle
+          : labelStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      floatingLabelStyle: freezed == floatingLabelStyle
+          ? _self.floatingLabelStyle
+          : floatingLabelStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      helperStyle: freezed == helperStyle
+          ? _self.helperStyle
+          : helperStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      helperMaxLines: freezed == helperMaxLines
+          ? _self.helperMaxLines
+          : helperMaxLines // ignore: cast_nullable_to_non_nullable
+              as int?,
+      hintStyle: freezed == hintStyle
+          ? _self.hintStyle
+          : hintStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      errorStyle: freezed == errorStyle
+          ? _self.errorStyle
+          : errorStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      errorMaxLines: freezed == errorMaxLines
+          ? _self.errorMaxLines
+          : errorMaxLines // ignore: cast_nullable_to_non_nullable
+              as int?,
+      floatingLabelBehavior: freezed == floatingLabelBehavior
+          ? _self.floatingLabelBehavior
+          : floatingLabelBehavior // ignore: cast_nullable_to_non_nullable
+              as FloatingLabelBehavior?,
+      floatingLabelAlignment: freezed == floatingLabelAlignment
+          ? _self.floatingLabelAlignment
+          : floatingLabelAlignment // ignore: cast_nullable_to_non_nullable
+              as StacFloatingLabelAlignment?,
+      isDense: null == isDense
+          ? _self.isDense
+          : isDense // ignore: cast_nullable_to_non_nullable
+              as bool,
+      contentPadding: freezed == contentPadding
+          ? _self.contentPadding
+          : contentPadding // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets?,
+      isCollapsed: null == isCollapsed
+          ? _self.isCollapsed
+          : isCollapsed // ignore: cast_nullable_to_non_nullable
+              as bool,
+      iconColor: freezed == iconColor
+          ? _self.iconColor
+          : iconColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      prefixStyle: freezed == prefixStyle
+          ? _self.prefixStyle
+          : prefixStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      prefixIconColor: freezed == prefixIconColor
+          ? _self.prefixIconColor
+          : prefixIconColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      suffixStyle: freezed == suffixStyle
+          ? _self.suffixStyle
+          : suffixStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      suffixIconColor: freezed == suffixIconColor
+          ? _self.suffixIconColor
+          : suffixIconColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      counterStyle: freezed == counterStyle
+          ? _self.counterStyle
+          : counterStyle // ignore: cast_nullable_to_non_nullable
+              as StacTextStyle?,
+      filled: null == filled
+          ? _self.filled
+          : filled // ignore: cast_nullable_to_non_nullable
+              as bool,
+      fillColor: freezed == fillColor
+          ? _self.fillColor
+          : fillColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      activeIndicatorBorder: freezed == activeIndicatorBorder
+          ? _self.activeIndicatorBorder
+          : activeIndicatorBorder // ignore: cast_nullable_to_non_nullable
+              as StacBorderSide?,
+      outlineBorder: freezed == outlineBorder
+          ? _self.outlineBorder
+          : outlineBorder // ignore: cast_nullable_to_non_nullable
+              as StacBorderSide?,
+      focusColor: freezed == focusColor
+          ? _self.focusColor
+          : focusColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      hoverColor: freezed == hoverColor
+          ? _self.hoverColor
+          : hoverColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      errorBorder: freezed == errorBorder
+          ? _self.errorBorder
+          : errorBorder // ignore: cast_nullable_to_non_nullable
+              as StacInputBorder?,
+      focusedBorder: freezed == focusedBorder
+          ? _self.focusedBorder
+          : focusedBorder // ignore: cast_nullable_to_non_nullable
+              as StacInputBorder?,
+      focusedErrorBorder: freezed == focusedErrorBorder
+          ? _self.focusedErrorBorder
+          : focusedErrorBorder // ignore: cast_nullable_to_non_nullable
+              as StacInputBorder?,
+      disabledBorder: freezed == disabledBorder
+          ? _self.disabledBorder
+          : disabledBorder // ignore: cast_nullable_to_non_nullable
+              as StacInputBorder?,
+      enabledBorder: freezed == enabledBorder
+          ? _self.enabledBorder
+          : enabledBorder // ignore: cast_nullable_to_non_nullable
+              as StacInputBorder?,
+      border: freezed == border
+          ? _self.border
+          : border // ignore: cast_nullable_to_non_nullable
+              as StacInputBorder?,
+      alignLabelWithHint: null == alignLabelWithHint
+          ? _self.alignLabelWithHint
+          : alignLabelWithHint // ignore: cast_nullable_to_non_nullable
+              as bool,
+      constraints: freezed == constraints
+          ? _self.constraints
+          : constraints // ignore: cast_nullable_to_non_nullable
+              as StacBoxConstraints?,
+    ));
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTextStyleCopyWith<$Res>? get labelStyle {
+    if (_self.labelStyle == null) {
+      return null;
+    }
+
+    return $StacTextStyleCopyWith<$Res>(_self.labelStyle!, (value) {
+      return _then(_self.copyWith(labelStyle: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTextStyleCopyWith<$Res>? get floatingLabelStyle {
+    if (_self.floatingLabelStyle == null) {
+      return null;
+    }
+
+    return $StacTextStyleCopyWith<$Res>(_self.floatingLabelStyle!, (value) {
+      return _then(_self.copyWith(floatingLabelStyle: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTextStyleCopyWith<$Res>? get helperStyle {
+    if (_self.helperStyle == null) {
+      return null;
+    }
+
+    return $StacTextStyleCopyWith<$Res>(_self.helperStyle!, (value) {
+      return _then(_self.copyWith(helperStyle: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTextStyleCopyWith<$Res>? get hintStyle {
+    if (_self.hintStyle == null) {
+      return null;
+    }
+
+    return $StacTextStyleCopyWith<$Res>(_self.hintStyle!, (value) {
+      return _then(_self.copyWith(hintStyle: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTextStyleCopyWith<$Res>? get errorStyle {
+    if (_self.errorStyle == null) {
+      return null;
+    }
+
+    return $StacTextStyleCopyWith<$Res>(_self.errorStyle!, (value) {
+      return _then(_self.copyWith(errorStyle: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacEdgeInsetsCopyWith<$Res>? get contentPadding {
+    if (_self.contentPadding == null) {
+      return null;
+    }
+
+    return $StacEdgeInsetsCopyWith<$Res>(_self.contentPadding!, (value) {
+      return _then(_self.copyWith(contentPadding: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTextStyleCopyWith<$Res>? get prefixStyle {
+    if (_self.prefixStyle == null) {
+      return null;
+    }
+
+    return $StacTextStyleCopyWith<$Res>(_self.prefixStyle!, (value) {
+      return _then(_self.copyWith(prefixStyle: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTextStyleCopyWith<$Res>? get suffixStyle {
+    if (_self.suffixStyle == null) {
+      return null;
+    }
+
+    return $StacTextStyleCopyWith<$Res>(_self.suffixStyle!, (value) {
+      return _then(_self.copyWith(suffixStyle: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacTextStyleCopyWith<$Res>? get counterStyle {
+    if (_self.counterStyle == null) {
+      return null;
+    }
+
+    return $StacTextStyleCopyWith<$Res>(_self.counterStyle!, (value) {
+      return _then(_self.copyWith(counterStyle: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacBorderSideCopyWith<$Res>? get activeIndicatorBorder {
+    if (_self.activeIndicatorBorder == null) {
+      return null;
+    }
+
+    return $StacBorderSideCopyWith<$Res>(_self.activeIndicatorBorder!, (value) {
+      return _then(_self.copyWith(activeIndicatorBorder: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacBorderSideCopyWith<$Res>? get outlineBorder {
+    if (_self.outlineBorder == null) {
+      return null;
+    }
+
+    return $StacBorderSideCopyWith<$Res>(_self.outlineBorder!, (value) {
+      return _then(_self.copyWith(outlineBorder: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacInputBorderCopyWith<$Res>? get errorBorder {
+    if (_self.errorBorder == null) {
+      return null;
+    }
+
+    return $StacInputBorderCopyWith<$Res>(_self.errorBorder!, (value) {
+      return _then(_self.copyWith(errorBorder: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacInputBorderCopyWith<$Res>? get focusedBorder {
+    if (_self.focusedBorder == null) {
+      return null;
+    }
+
+    return $StacInputBorderCopyWith<$Res>(_self.focusedBorder!, (value) {
+      return _then(_self.copyWith(focusedBorder: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacInputBorderCopyWith<$Res>? get focusedErrorBorder {
+    if (_self.focusedErrorBorder == null) {
+      return null;
+    }
+
+    return $StacInputBorderCopyWith<$Res>(_self.focusedErrorBorder!, (value) {
+      return _then(_self.copyWith(focusedErrorBorder: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacInputBorderCopyWith<$Res>? get disabledBorder {
+    if (_self.disabledBorder == null) {
+      return null;
+    }
+
+    return $StacInputBorderCopyWith<$Res>(_self.disabledBorder!, (value) {
+      return _then(_self.copyWith(disabledBorder: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacInputBorderCopyWith<$Res>? get enabledBorder {
+    if (_self.enabledBorder == null) {
+      return null;
+    }
+
+    return $StacInputBorderCopyWith<$Res>(_self.enabledBorder!, (value) {
+      return _then(_self.copyWith(enabledBorder: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacInputBorderCopyWith<$Res>? get border {
+    if (_self.border == null) {
+      return null;
+    }
+
+    return $StacInputBorderCopyWith<$Res>(_self.border!, (value) {
+      return _then(_self.copyWith(border: value));
+    });
+  }
+
+  /// Create a copy of StacInputDecorationTheme
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacBoxConstraintsCopyWith<$Res>? get constraints {
+    if (_self.constraints == null) {
+      return null;
+    }
+
+    return $StacBoxConstraintsCopyWith<$Res>(_self.constraints!, (value) {
+      return _then(_self.copyWith(constraints: value));
+    });
+  }
+}
+
+// dart format on

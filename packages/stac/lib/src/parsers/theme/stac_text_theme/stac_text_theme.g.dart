@@ -6,8 +6,8 @@ part of 'stac_text_theme.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$StacTextThemeImpl _$$StacTextThemeImplFromJson(Map<String, dynamic> json) =>
-    _$StacTextThemeImpl(
+_StacTextTheme _$StacTextThemeFromJson(Map<String, dynamic> json) =>
+    _StacTextTheme(
       displayLarge: json['displayLarge'] == null
           ? null
           : StacTextStyle.fromJson(json['displayLarge']),
@@ -55,7 +55,7 @@ _$StacTextThemeImpl _$$StacTextThemeImplFromJson(Map<String, dynamic> json) =>
           : StacTextStyle.fromJson(json['labelSmall']),
     );
 
-Map<String, dynamic> _$$StacTextThemeImplToJson(_$StacTextThemeImpl instance) =>
+Map<String, dynamic> _$StacTextThemeToJson(_StacTextTheme instance) =>
     <String, dynamic>{
       'displayLarge': instance.displayLarge,
       'displayMedium': instance.displayMedium,

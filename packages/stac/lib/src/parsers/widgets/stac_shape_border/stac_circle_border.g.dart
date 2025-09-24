@@ -6,9 +6,8 @@ part of 'stac_circle_border.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$StacCircleBorderImpl _$$StacCircleBorderImplFromJson(
-        Map<String, dynamic> json) =>
-    _$StacCircleBorderImpl(
+_StacCircleBorder _$StacCircleBorderFromJson(Map<String, dynamic> json) =>
+    _StacCircleBorder(
       side: json['side'] == null
           ? StacBorderSide.none
           : StacBorderSide.fromJson(json['side'] as Map<String, dynamic>),
@@ -17,8 +16,7 @@ _$StacCircleBorderImpl _$$StacCircleBorderImplFromJson(
           : StacDouble.fromJson(json['eccentricity']),
     );
 
-Map<String, dynamic> _$$StacCircleBorderImplToJson(
-        _$StacCircleBorderImpl instance) =>
+Map<String, dynamic> _$StacCircleBorderToJson(_StacCircleBorder instance) =>
     <String, dynamic>{
       'side': instance.side,
       'eccentricity': instance.eccentricity,

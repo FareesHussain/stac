@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,66 +9,163 @@ part of 'stac_inkwell.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
-StacInkWell _$StacInkWellFromJson(Map<String, dynamic> json) {
-  return _StacInkWell.fromJson(json);
-}
 
 /// @nodoc
 mixin _$StacInkWell {
-  Map<String, dynamic>? get child => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onTap => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onDoubleTap => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onLongPress => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onTapDown => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onTapUp => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onTapCancel => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onSecondaryTap =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onSecondaryTapUp =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onSecondaryTapDown =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onSecondaryTapCancel =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onHighlightChanged =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onHover => throw _privateConstructorUsedError;
-  StacMouseCursor? get mouseCursor => throw _privateConstructorUsedError;
-  String? get focusColor => throw _privateConstructorUsedError;
-  String? get hoverColor => throw _privateConstructorUsedError;
-  String? get highlightColor => throw _privateConstructorUsedError;
-  String? get overlayColor => throw _privateConstructorUsedError;
-  String? get splashColor => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get splashFactory => throw _privateConstructorUsedError;
-  StacDouble? get radius => throw _privateConstructorUsedError;
-  StacBorderRadius? get borderRadius => throw _privateConstructorUsedError;
-  StacBorder? get customBorder => throw _privateConstructorUsedError;
-  bool get enableFeedback => throw _privateConstructorUsedError;
-  bool get excludeFromSemantics => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get focusNode => throw _privateConstructorUsedError;
-  bool get canRequestFocus => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onFocusChange => throw _privateConstructorUsedError;
-  bool get autofocus => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get statesController =>
-      throw _privateConstructorUsedError;
-  StacDuration? get hoverDuration => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get child;
+  Map<String, dynamic>? get onTap;
+  Map<String, dynamic>? get onDoubleTap;
+  Map<String, dynamic>? get onLongPress;
+  Map<String, dynamic>? get onTapDown;
+  Map<String, dynamic>? get onTapUp;
+  Map<String, dynamic>? get onTapCancel;
+  Map<String, dynamic>? get onSecondaryTap;
+  Map<String, dynamic>? get onSecondaryTapUp;
+  Map<String, dynamic>? get onSecondaryTapDown;
+  Map<String, dynamic>? get onSecondaryTapCancel;
+  Map<String, dynamic>? get onHighlightChanged;
+  Map<String, dynamic>? get onHover;
+  StacMouseCursor? get mouseCursor;
+  String? get focusColor;
+  String? get hoverColor;
+  String? get highlightColor;
+  String? get overlayColor;
+  String? get splashColor;
+  Map<String, dynamic>? get splashFactory;
+  StacDouble? get radius;
+  StacBorderRadius? get borderRadius;
+  StacBorder? get customBorder;
+  bool get enableFeedback;
+  bool get excludeFromSemantics;
+  Map<String, dynamic>? get focusNode;
+  bool get canRequestFocus;
+  Map<String, dynamic>? get onFocusChange;
+  bool get autofocus;
+  Map<String, dynamic>? get statesController;
+  StacDuration? get hoverDuration;
 
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
+  /// Create a copy of StacInkWell
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
   $StacInkWellCopyWith<StacInkWell> get copyWith =>
-      throw _privateConstructorUsedError;
+      _$StacInkWellCopyWithImpl<StacInkWell>(this as StacInkWell, _$identity);
+
+  /// Serializes this StacInkWell to a JSON map.
+  Map<String, dynamic> toJson();
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is StacInkWell &&
+            const DeepCollectionEquality().equals(other.child, child) &&
+            const DeepCollectionEquality().equals(other.onTap, onTap) &&
+            const DeepCollectionEquality()
+                .equals(other.onDoubleTap, onDoubleTap) &&
+            const DeepCollectionEquality()
+                .equals(other.onLongPress, onLongPress) &&
+            const DeepCollectionEquality().equals(other.onTapDown, onTapDown) &&
+            const DeepCollectionEquality().equals(other.onTapUp, onTapUp) &&
+            const DeepCollectionEquality()
+                .equals(other.onTapCancel, onTapCancel) &&
+            const DeepCollectionEquality()
+                .equals(other.onSecondaryTap, onSecondaryTap) &&
+            const DeepCollectionEquality()
+                .equals(other.onSecondaryTapUp, onSecondaryTapUp) &&
+            const DeepCollectionEquality()
+                .equals(other.onSecondaryTapDown, onSecondaryTapDown) &&
+            const DeepCollectionEquality()
+                .equals(other.onSecondaryTapCancel, onSecondaryTapCancel) &&
+            const DeepCollectionEquality()
+                .equals(other.onHighlightChanged, onHighlightChanged) &&
+            const DeepCollectionEquality().equals(other.onHover, onHover) &&
+            (identical(other.mouseCursor, mouseCursor) ||
+                other.mouseCursor == mouseCursor) &&
+            (identical(other.focusColor, focusColor) ||
+                other.focusColor == focusColor) &&
+            (identical(other.hoverColor, hoverColor) ||
+                other.hoverColor == hoverColor) &&
+            (identical(other.highlightColor, highlightColor) ||
+                other.highlightColor == highlightColor) &&
+            (identical(other.overlayColor, overlayColor) ||
+                other.overlayColor == overlayColor) &&
+            (identical(other.splashColor, splashColor) ||
+                other.splashColor == splashColor) &&
+            const DeepCollectionEquality()
+                .equals(other.splashFactory, splashFactory) &&
+            (identical(other.radius, radius) || other.radius == radius) &&
+            (identical(other.borderRadius, borderRadius) ||
+                other.borderRadius == borderRadius) &&
+            (identical(other.customBorder, customBorder) ||
+                other.customBorder == customBorder) &&
+            (identical(other.enableFeedback, enableFeedback) ||
+                other.enableFeedback == enableFeedback) &&
+            (identical(other.excludeFromSemantics, excludeFromSemantics) ||
+                other.excludeFromSemantics == excludeFromSemantics) &&
+            const DeepCollectionEquality().equals(other.focusNode, focusNode) &&
+            (identical(other.canRequestFocus, canRequestFocus) ||
+                other.canRequestFocus == canRequestFocus) &&
+            const DeepCollectionEquality()
+                .equals(other.onFocusChange, onFocusChange) &&
+            (identical(other.autofocus, autofocus) ||
+                other.autofocus == autofocus) &&
+            const DeepCollectionEquality()
+                .equals(other.statesController, statesController) &&
+            (identical(other.hoverDuration, hoverDuration) ||
+                other.hoverDuration == hoverDuration));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hashAll([
+        runtimeType,
+        const DeepCollectionEquality().hash(child),
+        const DeepCollectionEquality().hash(onTap),
+        const DeepCollectionEquality().hash(onDoubleTap),
+        const DeepCollectionEquality().hash(onLongPress),
+        const DeepCollectionEquality().hash(onTapDown),
+        const DeepCollectionEquality().hash(onTapUp),
+        const DeepCollectionEquality().hash(onTapCancel),
+        const DeepCollectionEquality().hash(onSecondaryTap),
+        const DeepCollectionEquality().hash(onSecondaryTapUp),
+        const DeepCollectionEquality().hash(onSecondaryTapDown),
+        const DeepCollectionEquality().hash(onSecondaryTapCancel),
+        const DeepCollectionEquality().hash(onHighlightChanged),
+        const DeepCollectionEquality().hash(onHover),
+        mouseCursor,
+        focusColor,
+        hoverColor,
+        highlightColor,
+        overlayColor,
+        splashColor,
+        const DeepCollectionEquality().hash(splashFactory),
+        radius,
+        borderRadius,
+        customBorder,
+        enableFeedback,
+        excludeFromSemantics,
+        const DeepCollectionEquality().hash(focusNode),
+        canRequestFocus,
+        const DeepCollectionEquality().hash(onFocusChange),
+        autofocus,
+        const DeepCollectionEquality().hash(statesController),
+        hoverDuration
+      ]);
+
+  @override
+  String toString() {
+    return 'StacInkWell(child: $child, onTap: $onTap, onDoubleTap: $onDoubleTap, onLongPress: $onLongPress, onTapDown: $onTapDown, onTapUp: $onTapUp, onTapCancel: $onTapCancel, onSecondaryTap: $onSecondaryTap, onSecondaryTapUp: $onSecondaryTapUp, onSecondaryTapDown: $onSecondaryTapDown, onSecondaryTapCancel: $onSecondaryTapCancel, onHighlightChanged: $onHighlightChanged, onHover: $onHover, mouseCursor: $mouseCursor, focusColor: $focusColor, hoverColor: $hoverColor, highlightColor: $highlightColor, overlayColor: $overlayColor, splashColor: $splashColor, splashFactory: $splashFactory, radius: $radius, borderRadius: $borderRadius, customBorder: $customBorder, enableFeedback: $enableFeedback, excludeFromSemantics: $excludeFromSemantics, focusNode: $focusNode, canRequestFocus: $canRequestFocus, onFocusChange: $onFocusChange, autofocus: $autofocus, statesController: $statesController, hoverDuration: $hoverDuration)';
+  }
 }
 
 /// @nodoc
-abstract class $StacInkWellCopyWith<$Res> {
+abstract mixin class $StacInkWellCopyWith<$Res> {
   factory $StacInkWellCopyWith(
-          StacInkWell value, $Res Function(StacInkWell) then) =
-      _$StacInkWellCopyWithImpl<$Res, StacInkWell>;
+          StacInkWell value, $Res Function(StacInkWell) _then) =
+      _$StacInkWellCopyWithImpl;
   @useResult
   $Res call(
       {Map<String, dynamic>? child,
@@ -109,15 +206,14 @@ abstract class $StacInkWellCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacInkWellCopyWithImpl<$Res, $Val extends StacInkWell>
-    implements $StacInkWellCopyWith<$Res> {
-  _$StacInkWellCopyWithImpl(this._value, this._then);
+class _$StacInkWellCopyWithImpl<$Res> implements $StacInkWellCopyWith<$Res> {
+  _$StacInkWellCopyWithImpl(this._self, this._then);
 
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
+  final StacInkWell _self;
+  final $Res Function(StacInkWell) _then;
 
+  /// Create a copy of StacInkWell
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -153,396 +249,527 @@ class _$StacInkWellCopyWithImpl<$Res, $Val extends StacInkWell>
     Object? statesController = freezed,
     Object? hoverDuration = freezed,
   }) {
-    return _then(_value.copyWith(
+    return _then(_self.copyWith(
       child: freezed == child
-          ? _value.child
+          ? _self.child
           : child // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onTap: freezed == onTap
-          ? _value.onTap
+          ? _self.onTap
           : onTap // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onDoubleTap: freezed == onDoubleTap
-          ? _value.onDoubleTap
+          ? _self.onDoubleTap
           : onDoubleTap // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onLongPress: freezed == onLongPress
-          ? _value.onLongPress
+          ? _self.onLongPress
           : onLongPress // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onTapDown: freezed == onTapDown
-          ? _value.onTapDown
+          ? _self.onTapDown
           : onTapDown // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onTapUp: freezed == onTapUp
-          ? _value.onTapUp
+          ? _self.onTapUp
           : onTapUp // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onTapCancel: freezed == onTapCancel
-          ? _value.onTapCancel
+          ? _self.onTapCancel
           : onTapCancel // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onSecondaryTap: freezed == onSecondaryTap
-          ? _value.onSecondaryTap
+          ? _self.onSecondaryTap
           : onSecondaryTap // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onSecondaryTapUp: freezed == onSecondaryTapUp
-          ? _value.onSecondaryTapUp
+          ? _self.onSecondaryTapUp
           : onSecondaryTapUp // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onSecondaryTapDown: freezed == onSecondaryTapDown
-          ? _value.onSecondaryTapDown
+          ? _self.onSecondaryTapDown
           : onSecondaryTapDown // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onSecondaryTapCancel: freezed == onSecondaryTapCancel
-          ? _value.onSecondaryTapCancel
+          ? _self.onSecondaryTapCancel
           : onSecondaryTapCancel // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onHighlightChanged: freezed == onHighlightChanged
-          ? _value.onHighlightChanged
+          ? _self.onHighlightChanged
           : onHighlightChanged // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onHover: freezed == onHover
-          ? _value.onHover
+          ? _self.onHover
           : onHover // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       mouseCursor: freezed == mouseCursor
-          ? _value.mouseCursor
+          ? _self.mouseCursor
           : mouseCursor // ignore: cast_nullable_to_non_nullable
               as StacMouseCursor?,
       focusColor: freezed == focusColor
-          ? _value.focusColor
+          ? _self.focusColor
           : focusColor // ignore: cast_nullable_to_non_nullable
               as String?,
       hoverColor: freezed == hoverColor
-          ? _value.hoverColor
+          ? _self.hoverColor
           : hoverColor // ignore: cast_nullable_to_non_nullable
               as String?,
       highlightColor: freezed == highlightColor
-          ? _value.highlightColor
+          ? _self.highlightColor
           : highlightColor // ignore: cast_nullable_to_non_nullable
               as String?,
       overlayColor: freezed == overlayColor
-          ? _value.overlayColor
+          ? _self.overlayColor
           : overlayColor // ignore: cast_nullable_to_non_nullable
               as String?,
       splashColor: freezed == splashColor
-          ? _value.splashColor
+          ? _self.splashColor
           : splashColor // ignore: cast_nullable_to_non_nullable
               as String?,
       splashFactory: freezed == splashFactory
-          ? _value.splashFactory
+          ? _self.splashFactory
           : splashFactory // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       radius: freezed == radius
-          ? _value.radius
+          ? _self.radius
           : radius // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       borderRadius: freezed == borderRadius
-          ? _value.borderRadius
+          ? _self.borderRadius
           : borderRadius // ignore: cast_nullable_to_non_nullable
               as StacBorderRadius?,
       customBorder: freezed == customBorder
-          ? _value.customBorder
+          ? _self.customBorder
           : customBorder // ignore: cast_nullable_to_non_nullable
               as StacBorder?,
       enableFeedback: null == enableFeedback
-          ? _value.enableFeedback
+          ? _self.enableFeedback
           : enableFeedback // ignore: cast_nullable_to_non_nullable
               as bool,
       excludeFromSemantics: null == excludeFromSemantics
-          ? _value.excludeFromSemantics
+          ? _self.excludeFromSemantics
           : excludeFromSemantics // ignore: cast_nullable_to_non_nullable
               as bool,
       focusNode: freezed == focusNode
-          ? _value.focusNode
+          ? _self.focusNode
           : focusNode // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       canRequestFocus: null == canRequestFocus
-          ? _value.canRequestFocus
+          ? _self.canRequestFocus
           : canRequestFocus // ignore: cast_nullable_to_non_nullable
               as bool,
       onFocusChange: freezed == onFocusChange
-          ? _value.onFocusChange
+          ? _self.onFocusChange
           : onFocusChange // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       autofocus: null == autofocus
-          ? _value.autofocus
+          ? _self.autofocus
           : autofocus // ignore: cast_nullable_to_non_nullable
               as bool,
       statesController: freezed == statesController
-          ? _value.statesController
+          ? _self.statesController
           : statesController // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       hoverDuration: freezed == hoverDuration
-          ? _value.hoverDuration
-          : hoverDuration // ignore: cast_nullable_to_non_nullable
-              as StacDuration?,
-    ) as $Val);
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacBorderRadiusCopyWith<$Res>? get borderRadius {
-    if (_value.borderRadius == null) {
-      return null;
-    }
-
-    return $StacBorderRadiusCopyWith<$Res>(_value.borderRadius!, (value) {
-      return _then(_value.copyWith(borderRadius: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacBorderCopyWith<$Res>? get customBorder {
-    if (_value.customBorder == null) {
-      return null;
-    }
-
-    return $StacBorderCopyWith<$Res>(_value.customBorder!, (value) {
-      return _then(_value.copyWith(customBorder: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacDurationCopyWith<$Res>? get hoverDuration {
-    if (_value.hoverDuration == null) {
-      return null;
-    }
-
-    return $StacDurationCopyWith<$Res>(_value.hoverDuration!, (value) {
-      return _then(_value.copyWith(hoverDuration: value) as $Val);
-    });
-  }
-}
-
-/// @nodoc
-abstract class _$$StacInkWellImplCopyWith<$Res>
-    implements $StacInkWellCopyWith<$Res> {
-  factory _$$StacInkWellImplCopyWith(
-          _$StacInkWellImpl value, $Res Function(_$StacInkWellImpl) then) =
-      __$$StacInkWellImplCopyWithImpl<$Res>;
-  @override
-  @useResult
-  $Res call(
-      {Map<String, dynamic>? child,
-      Map<String, dynamic>? onTap,
-      Map<String, dynamic>? onDoubleTap,
-      Map<String, dynamic>? onLongPress,
-      Map<String, dynamic>? onTapDown,
-      Map<String, dynamic>? onTapUp,
-      Map<String, dynamic>? onTapCancel,
-      Map<String, dynamic>? onSecondaryTap,
-      Map<String, dynamic>? onSecondaryTapUp,
-      Map<String, dynamic>? onSecondaryTapDown,
-      Map<String, dynamic>? onSecondaryTapCancel,
-      Map<String, dynamic>? onHighlightChanged,
-      Map<String, dynamic>? onHover,
-      StacMouseCursor? mouseCursor,
-      String? focusColor,
-      String? hoverColor,
-      String? highlightColor,
-      String? overlayColor,
-      String? splashColor,
-      Map<String, dynamic>? splashFactory,
-      StacDouble? radius,
-      StacBorderRadius? borderRadius,
-      StacBorder? customBorder,
-      bool enableFeedback,
-      bool excludeFromSemantics,
-      Map<String, dynamic>? focusNode,
-      bool canRequestFocus,
-      Map<String, dynamic>? onFocusChange,
-      bool autofocus,
-      Map<String, dynamic>? statesController,
-      StacDuration? hoverDuration});
-
-  @override
-  $StacBorderRadiusCopyWith<$Res>? get borderRadius;
-  @override
-  $StacBorderCopyWith<$Res>? get customBorder;
-  @override
-  $StacDurationCopyWith<$Res>? get hoverDuration;
-}
-
-/// @nodoc
-class __$$StacInkWellImplCopyWithImpl<$Res>
-    extends _$StacInkWellCopyWithImpl<$Res, _$StacInkWellImpl>
-    implements _$$StacInkWellImplCopyWith<$Res> {
-  __$$StacInkWellImplCopyWithImpl(
-      _$StacInkWellImpl _value, $Res Function(_$StacInkWellImpl) _then)
-      : super(_value, _then);
-
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? child = freezed,
-    Object? onTap = freezed,
-    Object? onDoubleTap = freezed,
-    Object? onLongPress = freezed,
-    Object? onTapDown = freezed,
-    Object? onTapUp = freezed,
-    Object? onTapCancel = freezed,
-    Object? onSecondaryTap = freezed,
-    Object? onSecondaryTapUp = freezed,
-    Object? onSecondaryTapDown = freezed,
-    Object? onSecondaryTapCancel = freezed,
-    Object? onHighlightChanged = freezed,
-    Object? onHover = freezed,
-    Object? mouseCursor = freezed,
-    Object? focusColor = freezed,
-    Object? hoverColor = freezed,
-    Object? highlightColor = freezed,
-    Object? overlayColor = freezed,
-    Object? splashColor = freezed,
-    Object? splashFactory = freezed,
-    Object? radius = freezed,
-    Object? borderRadius = freezed,
-    Object? customBorder = freezed,
-    Object? enableFeedback = null,
-    Object? excludeFromSemantics = null,
-    Object? focusNode = freezed,
-    Object? canRequestFocus = null,
-    Object? onFocusChange = freezed,
-    Object? autofocus = null,
-    Object? statesController = freezed,
-    Object? hoverDuration = freezed,
-  }) {
-    return _then(_$StacInkWellImpl(
-      child: freezed == child
-          ? _value._child
-          : child // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onTap: freezed == onTap
-          ? _value._onTap
-          : onTap // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onDoubleTap: freezed == onDoubleTap
-          ? _value._onDoubleTap
-          : onDoubleTap // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onLongPress: freezed == onLongPress
-          ? _value._onLongPress
-          : onLongPress // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onTapDown: freezed == onTapDown
-          ? _value._onTapDown
-          : onTapDown // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onTapUp: freezed == onTapUp
-          ? _value._onTapUp
-          : onTapUp // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onTapCancel: freezed == onTapCancel
-          ? _value._onTapCancel
-          : onTapCancel // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onSecondaryTap: freezed == onSecondaryTap
-          ? _value._onSecondaryTap
-          : onSecondaryTap // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onSecondaryTapUp: freezed == onSecondaryTapUp
-          ? _value._onSecondaryTapUp
-          : onSecondaryTapUp // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onSecondaryTapDown: freezed == onSecondaryTapDown
-          ? _value._onSecondaryTapDown
-          : onSecondaryTapDown // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onSecondaryTapCancel: freezed == onSecondaryTapCancel
-          ? _value._onSecondaryTapCancel
-          : onSecondaryTapCancel // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onHighlightChanged: freezed == onHighlightChanged
-          ? _value._onHighlightChanged
-          : onHighlightChanged // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onHover: freezed == onHover
-          ? _value._onHover
-          : onHover // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      mouseCursor: freezed == mouseCursor
-          ? _value.mouseCursor
-          : mouseCursor // ignore: cast_nullable_to_non_nullable
-              as StacMouseCursor?,
-      focusColor: freezed == focusColor
-          ? _value.focusColor
-          : focusColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      hoverColor: freezed == hoverColor
-          ? _value.hoverColor
-          : hoverColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      highlightColor: freezed == highlightColor
-          ? _value.highlightColor
-          : highlightColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      overlayColor: freezed == overlayColor
-          ? _value.overlayColor
-          : overlayColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      splashColor: freezed == splashColor
-          ? _value.splashColor
-          : splashColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      splashFactory: freezed == splashFactory
-          ? _value._splashFactory
-          : splashFactory // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      radius: freezed == radius
-          ? _value.radius
-          : radius // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      borderRadius: freezed == borderRadius
-          ? _value.borderRadius
-          : borderRadius // ignore: cast_nullable_to_non_nullable
-              as StacBorderRadius?,
-      customBorder: freezed == customBorder
-          ? _value.customBorder
-          : customBorder // ignore: cast_nullable_to_non_nullable
-              as StacBorder?,
-      enableFeedback: null == enableFeedback
-          ? _value.enableFeedback
-          : enableFeedback // ignore: cast_nullable_to_non_nullable
-              as bool,
-      excludeFromSemantics: null == excludeFromSemantics
-          ? _value.excludeFromSemantics
-          : excludeFromSemantics // ignore: cast_nullable_to_non_nullable
-              as bool,
-      focusNode: freezed == focusNode
-          ? _value._focusNode
-          : focusNode // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      canRequestFocus: null == canRequestFocus
-          ? _value.canRequestFocus
-          : canRequestFocus // ignore: cast_nullable_to_non_nullable
-              as bool,
-      onFocusChange: freezed == onFocusChange
-          ? _value._onFocusChange
-          : onFocusChange // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      autofocus: null == autofocus
-          ? _value.autofocus
-          : autofocus // ignore: cast_nullable_to_non_nullable
-              as bool,
-      statesController: freezed == statesController
-          ? _value._statesController
-          : statesController // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      hoverDuration: freezed == hoverDuration
-          ? _value.hoverDuration
+          ? _self.hoverDuration
           : hoverDuration // ignore: cast_nullable_to_non_nullable
               as StacDuration?,
     ));
+  }
+
+  /// Create a copy of StacInkWell
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacBorderRadiusCopyWith<$Res>? get borderRadius {
+    if (_self.borderRadius == null) {
+      return null;
+    }
+
+    return $StacBorderRadiusCopyWith<$Res>(_self.borderRadius!, (value) {
+      return _then(_self.copyWith(borderRadius: value));
+    });
+  }
+
+  /// Create a copy of StacInkWell
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacBorderCopyWith<$Res>? get customBorder {
+    if (_self.customBorder == null) {
+      return null;
+    }
+
+    return $StacBorderCopyWith<$Res>(_self.customBorder!, (value) {
+      return _then(_self.copyWith(customBorder: value));
+    });
+  }
+
+  /// Create a copy of StacInkWell
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacDurationCopyWith<$Res>? get hoverDuration {
+    if (_self.hoverDuration == null) {
+      return null;
+    }
+
+    return $StacDurationCopyWith<$Res>(_self.hoverDuration!, (value) {
+      return _then(_self.copyWith(hoverDuration: value));
+    });
+  }
+}
+
+/// Adds pattern-matching-related methods to [StacInkWell].
+extension StacInkWellPatterns on StacInkWell {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_StacInkWell value)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacInkWell() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_StacInkWell value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacInkWell():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_StacInkWell value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacInkWell() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(
+            Map<String, dynamic>? child,
+            Map<String, dynamic>? onTap,
+            Map<String, dynamic>? onDoubleTap,
+            Map<String, dynamic>? onLongPress,
+            Map<String, dynamic>? onTapDown,
+            Map<String, dynamic>? onTapUp,
+            Map<String, dynamic>? onTapCancel,
+            Map<String, dynamic>? onSecondaryTap,
+            Map<String, dynamic>? onSecondaryTapUp,
+            Map<String, dynamic>? onSecondaryTapDown,
+            Map<String, dynamic>? onSecondaryTapCancel,
+            Map<String, dynamic>? onHighlightChanged,
+            Map<String, dynamic>? onHover,
+            StacMouseCursor? mouseCursor,
+            String? focusColor,
+            String? hoverColor,
+            String? highlightColor,
+            String? overlayColor,
+            String? splashColor,
+            Map<String, dynamic>? splashFactory,
+            StacDouble? radius,
+            StacBorderRadius? borderRadius,
+            StacBorder? customBorder,
+            bool enableFeedback,
+            bool excludeFromSemantics,
+            Map<String, dynamic>? focusNode,
+            bool canRequestFocus,
+            Map<String, dynamic>? onFocusChange,
+            bool autofocus,
+            Map<String, dynamic>? statesController,
+            StacDuration? hoverDuration)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacInkWell() when $default != null:
+        return $default(
+            _that.child,
+            _that.onTap,
+            _that.onDoubleTap,
+            _that.onLongPress,
+            _that.onTapDown,
+            _that.onTapUp,
+            _that.onTapCancel,
+            _that.onSecondaryTap,
+            _that.onSecondaryTapUp,
+            _that.onSecondaryTapDown,
+            _that.onSecondaryTapCancel,
+            _that.onHighlightChanged,
+            _that.onHover,
+            _that.mouseCursor,
+            _that.focusColor,
+            _that.hoverColor,
+            _that.highlightColor,
+            _that.overlayColor,
+            _that.splashColor,
+            _that.splashFactory,
+            _that.radius,
+            _that.borderRadius,
+            _that.customBorder,
+            _that.enableFeedback,
+            _that.excludeFromSemantics,
+            _that.focusNode,
+            _that.canRequestFocus,
+            _that.onFocusChange,
+            _that.autofocus,
+            _that.statesController,
+            _that.hoverDuration);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(
+            Map<String, dynamic>? child,
+            Map<String, dynamic>? onTap,
+            Map<String, dynamic>? onDoubleTap,
+            Map<String, dynamic>? onLongPress,
+            Map<String, dynamic>? onTapDown,
+            Map<String, dynamic>? onTapUp,
+            Map<String, dynamic>? onTapCancel,
+            Map<String, dynamic>? onSecondaryTap,
+            Map<String, dynamic>? onSecondaryTapUp,
+            Map<String, dynamic>? onSecondaryTapDown,
+            Map<String, dynamic>? onSecondaryTapCancel,
+            Map<String, dynamic>? onHighlightChanged,
+            Map<String, dynamic>? onHover,
+            StacMouseCursor? mouseCursor,
+            String? focusColor,
+            String? hoverColor,
+            String? highlightColor,
+            String? overlayColor,
+            String? splashColor,
+            Map<String, dynamic>? splashFactory,
+            StacDouble? radius,
+            StacBorderRadius? borderRadius,
+            StacBorder? customBorder,
+            bool enableFeedback,
+            bool excludeFromSemantics,
+            Map<String, dynamic>? focusNode,
+            bool canRequestFocus,
+            Map<String, dynamic>? onFocusChange,
+            bool autofocus,
+            Map<String, dynamic>? statesController,
+            StacDuration? hoverDuration)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacInkWell():
+        return $default(
+            _that.child,
+            _that.onTap,
+            _that.onDoubleTap,
+            _that.onLongPress,
+            _that.onTapDown,
+            _that.onTapUp,
+            _that.onTapCancel,
+            _that.onSecondaryTap,
+            _that.onSecondaryTapUp,
+            _that.onSecondaryTapDown,
+            _that.onSecondaryTapCancel,
+            _that.onHighlightChanged,
+            _that.onHover,
+            _that.mouseCursor,
+            _that.focusColor,
+            _that.hoverColor,
+            _that.highlightColor,
+            _that.overlayColor,
+            _that.splashColor,
+            _that.splashFactory,
+            _that.radius,
+            _that.borderRadius,
+            _that.customBorder,
+            _that.enableFeedback,
+            _that.excludeFromSemantics,
+            _that.focusNode,
+            _that.canRequestFocus,
+            _that.onFocusChange,
+            _that.autofocus,
+            _that.statesController,
+            _that.hoverDuration);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(
+            Map<String, dynamic>? child,
+            Map<String, dynamic>? onTap,
+            Map<String, dynamic>? onDoubleTap,
+            Map<String, dynamic>? onLongPress,
+            Map<String, dynamic>? onTapDown,
+            Map<String, dynamic>? onTapUp,
+            Map<String, dynamic>? onTapCancel,
+            Map<String, dynamic>? onSecondaryTap,
+            Map<String, dynamic>? onSecondaryTapUp,
+            Map<String, dynamic>? onSecondaryTapDown,
+            Map<String, dynamic>? onSecondaryTapCancel,
+            Map<String, dynamic>? onHighlightChanged,
+            Map<String, dynamic>? onHover,
+            StacMouseCursor? mouseCursor,
+            String? focusColor,
+            String? hoverColor,
+            String? highlightColor,
+            String? overlayColor,
+            String? splashColor,
+            Map<String, dynamic>? splashFactory,
+            StacDouble? radius,
+            StacBorderRadius? borderRadius,
+            StacBorder? customBorder,
+            bool enableFeedback,
+            bool excludeFromSemantics,
+            Map<String, dynamic>? focusNode,
+            bool canRequestFocus,
+            Map<String, dynamic>? onFocusChange,
+            bool autofocus,
+            Map<String, dynamic>? statesController,
+            StacDuration? hoverDuration)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacInkWell() when $default != null:
+        return $default(
+            _that.child,
+            _that.onTap,
+            _that.onDoubleTap,
+            _that.onLongPress,
+            _that.onTapDown,
+            _that.onTapUp,
+            _that.onTapCancel,
+            _that.onSecondaryTap,
+            _that.onSecondaryTapUp,
+            _that.onSecondaryTapDown,
+            _that.onSecondaryTapCancel,
+            _that.onHighlightChanged,
+            _that.onHover,
+            _that.mouseCursor,
+            _that.focusColor,
+            _that.hoverColor,
+            _that.highlightColor,
+            _that.overlayColor,
+            _that.splashColor,
+            _that.splashFactory,
+            _that.radius,
+            _that.borderRadius,
+            _that.customBorder,
+            _that.enableFeedback,
+            _that.excludeFromSemantics,
+            _that.focusNode,
+            _that.canRequestFocus,
+            _that.onFocusChange,
+            _that.autofocus,
+            _that.statesController,
+            _that.hoverDuration);
+      case _:
+        return null;
+    }
   }
 }
 
 /// @nodoc
 @JsonSerializable()
-class _$StacInkWellImpl implements _StacInkWell {
-  const _$StacInkWellImpl(
+class _StacInkWell implements StacInkWell {
+  const _StacInkWell(
       {final Map<String, dynamic>? child,
       final Map<String, dynamic>? onTap,
       final Map<String, dynamic>? onDoubleTap,
@@ -591,9 +818,8 @@ class _$StacInkWellImpl implements _StacInkWell {
         _focusNode = focusNode,
         _onFocusChange = onFocusChange,
         _statesController = statesController;
-
-  factory _$StacInkWellImpl.fromJson(Map<String, dynamic> json) =>
-      _$$StacInkWellImplFromJson(json);
+  factory _StacInkWell.fromJson(Map<String, dynamic> json) =>
+      _$StacInkWellFromJson(json);
 
   final Map<String, dynamic>? _child;
   @override
@@ -801,16 +1027,26 @@ class _$StacInkWellImpl implements _StacInkWell {
   @override
   final StacDuration? hoverDuration;
 
+  /// Create a copy of StacInkWell
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'StacInkWell(child: $child, onTap: $onTap, onDoubleTap: $onDoubleTap, onLongPress: $onLongPress, onTapDown: $onTapDown, onTapUp: $onTapUp, onTapCancel: $onTapCancel, onSecondaryTap: $onSecondaryTap, onSecondaryTapUp: $onSecondaryTapUp, onSecondaryTapDown: $onSecondaryTapDown, onSecondaryTapCancel: $onSecondaryTapCancel, onHighlightChanged: $onHighlightChanged, onHover: $onHover, mouseCursor: $mouseCursor, focusColor: $focusColor, hoverColor: $hoverColor, highlightColor: $highlightColor, overlayColor: $overlayColor, splashColor: $splashColor, splashFactory: $splashFactory, radius: $radius, borderRadius: $borderRadius, customBorder: $customBorder, enableFeedback: $enableFeedback, excludeFromSemantics: $excludeFromSemantics, focusNode: $focusNode, canRequestFocus: $canRequestFocus, onFocusChange: $onFocusChange, autofocus: $autofocus, statesController: $statesController, hoverDuration: $hoverDuration)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$StacInkWellCopyWith<_StacInkWell> get copyWith =>
+      __$StacInkWellCopyWithImpl<_StacInkWell>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$StacInkWellToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$StacInkWellImpl &&
+            other is _StacInkWell &&
             const DeepCollectionEquality().equals(other._child, _child) &&
             const DeepCollectionEquality().equals(other._onTap, _onTap) &&
             const DeepCollectionEquality()
@@ -870,7 +1106,7 @@ class _$StacInkWellImpl implements _StacInkWell {
                 other.hoverDuration == hoverDuration));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hashAll([
         runtimeType,
@@ -907,121 +1143,274 @@ class _$StacInkWellImpl implements _StacInkWell {
         hoverDuration
       ]);
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$StacInkWellImplCopyWith<_$StacInkWellImpl> get copyWith =>
-      __$$StacInkWellImplCopyWithImpl<_$StacInkWellImpl>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$StacInkWellImplToJson(
-      this,
-    );
+  String toString() {
+    return 'StacInkWell(child: $child, onTap: $onTap, onDoubleTap: $onDoubleTap, onLongPress: $onLongPress, onTapDown: $onTapDown, onTapUp: $onTapUp, onTapCancel: $onTapCancel, onSecondaryTap: $onSecondaryTap, onSecondaryTapUp: $onSecondaryTapUp, onSecondaryTapDown: $onSecondaryTapDown, onSecondaryTapCancel: $onSecondaryTapCancel, onHighlightChanged: $onHighlightChanged, onHover: $onHover, mouseCursor: $mouseCursor, focusColor: $focusColor, hoverColor: $hoverColor, highlightColor: $highlightColor, overlayColor: $overlayColor, splashColor: $splashColor, splashFactory: $splashFactory, radius: $radius, borderRadius: $borderRadius, customBorder: $customBorder, enableFeedback: $enableFeedback, excludeFromSemantics: $excludeFromSemantics, focusNode: $focusNode, canRequestFocus: $canRequestFocus, onFocusChange: $onFocusChange, autofocus: $autofocus, statesController: $statesController, hoverDuration: $hoverDuration)';
   }
 }
 
-abstract class _StacInkWell implements StacInkWell {
-  const factory _StacInkWell(
-      {final Map<String, dynamic>? child,
-      final Map<String, dynamic>? onTap,
-      final Map<String, dynamic>? onDoubleTap,
-      final Map<String, dynamic>? onLongPress,
-      final Map<String, dynamic>? onTapDown,
-      final Map<String, dynamic>? onTapUp,
-      final Map<String, dynamic>? onTapCancel,
-      final Map<String, dynamic>? onSecondaryTap,
-      final Map<String, dynamic>? onSecondaryTapUp,
-      final Map<String, dynamic>? onSecondaryTapDown,
-      final Map<String, dynamic>? onSecondaryTapCancel,
-      final Map<String, dynamic>? onHighlightChanged,
-      final Map<String, dynamic>? onHover,
-      final StacMouseCursor? mouseCursor,
-      final String? focusColor,
-      final String? hoverColor,
-      final String? highlightColor,
-      final String? overlayColor,
-      final String? splashColor,
-      final Map<String, dynamic>? splashFactory,
-      final StacDouble? radius,
-      final StacBorderRadius? borderRadius,
-      final StacBorder? customBorder,
-      final bool enableFeedback,
-      final bool excludeFromSemantics,
-      final Map<String, dynamic>? focusNode,
-      final bool canRequestFocus,
-      final Map<String, dynamic>? onFocusChange,
-      final bool autofocus,
-      final Map<String, dynamic>? statesController,
-      final StacDuration? hoverDuration}) = _$StacInkWellImpl;
+/// @nodoc
+abstract mixin class _$StacInkWellCopyWith<$Res>
+    implements $StacInkWellCopyWith<$Res> {
+  factory _$StacInkWellCopyWith(
+          _StacInkWell value, $Res Function(_StacInkWell) _then) =
+      __$StacInkWellCopyWithImpl;
+  @override
+  @useResult
+  $Res call(
+      {Map<String, dynamic>? child,
+      Map<String, dynamic>? onTap,
+      Map<String, dynamic>? onDoubleTap,
+      Map<String, dynamic>? onLongPress,
+      Map<String, dynamic>? onTapDown,
+      Map<String, dynamic>? onTapUp,
+      Map<String, dynamic>? onTapCancel,
+      Map<String, dynamic>? onSecondaryTap,
+      Map<String, dynamic>? onSecondaryTapUp,
+      Map<String, dynamic>? onSecondaryTapDown,
+      Map<String, dynamic>? onSecondaryTapCancel,
+      Map<String, dynamic>? onHighlightChanged,
+      Map<String, dynamic>? onHover,
+      StacMouseCursor? mouseCursor,
+      String? focusColor,
+      String? hoverColor,
+      String? highlightColor,
+      String? overlayColor,
+      String? splashColor,
+      Map<String, dynamic>? splashFactory,
+      StacDouble? radius,
+      StacBorderRadius? borderRadius,
+      StacBorder? customBorder,
+      bool enableFeedback,
+      bool excludeFromSemantics,
+      Map<String, dynamic>? focusNode,
+      bool canRequestFocus,
+      Map<String, dynamic>? onFocusChange,
+      bool autofocus,
+      Map<String, dynamic>? statesController,
+      StacDuration? hoverDuration});
 
-  factory _StacInkWell.fromJson(Map<String, dynamic> json) =
-      _$StacInkWellImpl.fromJson;
-
   @override
-  Map<String, dynamic>? get child;
+  $StacBorderRadiusCopyWith<$Res>? get borderRadius;
   @override
-  Map<String, dynamic>? get onTap;
+  $StacBorderCopyWith<$Res>? get customBorder;
   @override
-  Map<String, dynamic>? get onDoubleTap;
-  @override
-  Map<String, dynamic>? get onLongPress;
-  @override
-  Map<String, dynamic>? get onTapDown;
-  @override
-  Map<String, dynamic>? get onTapUp;
-  @override
-  Map<String, dynamic>? get onTapCancel;
-  @override
-  Map<String, dynamic>? get onSecondaryTap;
-  @override
-  Map<String, dynamic>? get onSecondaryTapUp;
-  @override
-  Map<String, dynamic>? get onSecondaryTapDown;
-  @override
-  Map<String, dynamic>? get onSecondaryTapCancel;
-  @override
-  Map<String, dynamic>? get onHighlightChanged;
-  @override
-  Map<String, dynamic>? get onHover;
-  @override
-  StacMouseCursor? get mouseCursor;
-  @override
-  String? get focusColor;
-  @override
-  String? get hoverColor;
-  @override
-  String? get highlightColor;
-  @override
-  String? get overlayColor;
-  @override
-  String? get splashColor;
-  @override
-  Map<String, dynamic>? get splashFactory;
-  @override
-  StacDouble? get radius;
-  @override
-  StacBorderRadius? get borderRadius;
-  @override
-  StacBorder? get customBorder;
-  @override
-  bool get enableFeedback;
-  @override
-  bool get excludeFromSemantics;
-  @override
-  Map<String, dynamic>? get focusNode;
-  @override
-  bool get canRequestFocus;
-  @override
-  Map<String, dynamic>? get onFocusChange;
-  @override
-  bool get autofocus;
-  @override
-  Map<String, dynamic>? get statesController;
-  @override
-  StacDuration? get hoverDuration;
-  @override
-  @JsonKey(ignore: true)
-  _$$StacInkWellImplCopyWith<_$StacInkWellImpl> get copyWith =>
-      throw _privateConstructorUsedError;
+  $StacDurationCopyWith<$Res>? get hoverDuration;
 }
+
+/// @nodoc
+class __$StacInkWellCopyWithImpl<$Res> implements _$StacInkWellCopyWith<$Res> {
+  __$StacInkWellCopyWithImpl(this._self, this._then);
+
+  final _StacInkWell _self;
+  final $Res Function(_StacInkWell) _then;
+
+  /// Create a copy of StacInkWell
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? child = freezed,
+    Object? onTap = freezed,
+    Object? onDoubleTap = freezed,
+    Object? onLongPress = freezed,
+    Object? onTapDown = freezed,
+    Object? onTapUp = freezed,
+    Object? onTapCancel = freezed,
+    Object? onSecondaryTap = freezed,
+    Object? onSecondaryTapUp = freezed,
+    Object? onSecondaryTapDown = freezed,
+    Object? onSecondaryTapCancel = freezed,
+    Object? onHighlightChanged = freezed,
+    Object? onHover = freezed,
+    Object? mouseCursor = freezed,
+    Object? focusColor = freezed,
+    Object? hoverColor = freezed,
+    Object? highlightColor = freezed,
+    Object? overlayColor = freezed,
+    Object? splashColor = freezed,
+    Object? splashFactory = freezed,
+    Object? radius = freezed,
+    Object? borderRadius = freezed,
+    Object? customBorder = freezed,
+    Object? enableFeedback = null,
+    Object? excludeFromSemantics = null,
+    Object? focusNode = freezed,
+    Object? canRequestFocus = null,
+    Object? onFocusChange = freezed,
+    Object? autofocus = null,
+    Object? statesController = freezed,
+    Object? hoverDuration = freezed,
+  }) {
+    return _then(_StacInkWell(
+      child: freezed == child
+          ? _self._child
+          : child // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onTap: freezed == onTap
+          ? _self._onTap
+          : onTap // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onDoubleTap: freezed == onDoubleTap
+          ? _self._onDoubleTap
+          : onDoubleTap // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onLongPress: freezed == onLongPress
+          ? _self._onLongPress
+          : onLongPress // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onTapDown: freezed == onTapDown
+          ? _self._onTapDown
+          : onTapDown // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onTapUp: freezed == onTapUp
+          ? _self._onTapUp
+          : onTapUp // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onTapCancel: freezed == onTapCancel
+          ? _self._onTapCancel
+          : onTapCancel // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onSecondaryTap: freezed == onSecondaryTap
+          ? _self._onSecondaryTap
+          : onSecondaryTap // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onSecondaryTapUp: freezed == onSecondaryTapUp
+          ? _self._onSecondaryTapUp
+          : onSecondaryTapUp // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onSecondaryTapDown: freezed == onSecondaryTapDown
+          ? _self._onSecondaryTapDown
+          : onSecondaryTapDown // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onSecondaryTapCancel: freezed == onSecondaryTapCancel
+          ? _self._onSecondaryTapCancel
+          : onSecondaryTapCancel // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onHighlightChanged: freezed == onHighlightChanged
+          ? _self._onHighlightChanged
+          : onHighlightChanged // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onHover: freezed == onHover
+          ? _self._onHover
+          : onHover // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      mouseCursor: freezed == mouseCursor
+          ? _self.mouseCursor
+          : mouseCursor // ignore: cast_nullable_to_non_nullable
+              as StacMouseCursor?,
+      focusColor: freezed == focusColor
+          ? _self.focusColor
+          : focusColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      hoverColor: freezed == hoverColor
+          ? _self.hoverColor
+          : hoverColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      highlightColor: freezed == highlightColor
+          ? _self.highlightColor
+          : highlightColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      overlayColor: freezed == overlayColor
+          ? _self.overlayColor
+          : overlayColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      splashColor: freezed == splashColor
+          ? _self.splashColor
+          : splashColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      splashFactory: freezed == splashFactory
+          ? _self._splashFactory
+          : splashFactory // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      radius: freezed == radius
+          ? _self.radius
+          : radius // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      borderRadius: freezed == borderRadius
+          ? _self.borderRadius
+          : borderRadius // ignore: cast_nullable_to_non_nullable
+              as StacBorderRadius?,
+      customBorder: freezed == customBorder
+          ? _self.customBorder
+          : customBorder // ignore: cast_nullable_to_non_nullable
+              as StacBorder?,
+      enableFeedback: null == enableFeedback
+          ? _self.enableFeedback
+          : enableFeedback // ignore: cast_nullable_to_non_nullable
+              as bool,
+      excludeFromSemantics: null == excludeFromSemantics
+          ? _self.excludeFromSemantics
+          : excludeFromSemantics // ignore: cast_nullable_to_non_nullable
+              as bool,
+      focusNode: freezed == focusNode
+          ? _self._focusNode
+          : focusNode // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      canRequestFocus: null == canRequestFocus
+          ? _self.canRequestFocus
+          : canRequestFocus // ignore: cast_nullable_to_non_nullable
+              as bool,
+      onFocusChange: freezed == onFocusChange
+          ? _self._onFocusChange
+          : onFocusChange // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      autofocus: null == autofocus
+          ? _self.autofocus
+          : autofocus // ignore: cast_nullable_to_non_nullable
+              as bool,
+      statesController: freezed == statesController
+          ? _self._statesController
+          : statesController // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      hoverDuration: freezed == hoverDuration
+          ? _self.hoverDuration
+          : hoverDuration // ignore: cast_nullable_to_non_nullable
+              as StacDuration?,
+    ));
+  }
+
+  /// Create a copy of StacInkWell
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacBorderRadiusCopyWith<$Res>? get borderRadius {
+    if (_self.borderRadius == null) {
+      return null;
+    }
+
+    return $StacBorderRadiusCopyWith<$Res>(_self.borderRadius!, (value) {
+      return _then(_self.copyWith(borderRadius: value));
+    });
+  }
+
+  /// Create a copy of StacInkWell
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacBorderCopyWith<$Res>? get customBorder {
+    if (_self.customBorder == null) {
+      return null;
+    }
+
+    return $StacBorderCopyWith<$Res>(_self.customBorder!, (value) {
+      return _then(_self.copyWith(customBorder: value));
+    });
+  }
+
+  /// Create a copy of StacInkWell
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacDurationCopyWith<$Res>? get hoverDuration {
+    if (_self.hoverDuration == null) {
+      return null;
+    }
+
+    return $StacDurationCopyWith<$Res>(_self.hoverDuration!, (value) {
+      return _then(_self.copyWith(hoverDuration: value));
+    });
+  }
+}
+
+// dart format on

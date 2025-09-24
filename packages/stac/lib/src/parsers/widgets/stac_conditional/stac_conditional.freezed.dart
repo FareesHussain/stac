@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,95 +9,70 @@ part of 'stac_conditional.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
-StacConditional _$StacConditionalFromJson(Map<String, dynamic> json) {
-  return _StacConditional.fromJson(json);
-}
 
 /// @nodoc
 mixin _$StacConditional {
-  String get condition => throw _privateConstructorUsedError;
-  Map<String, dynamic> get ifTrue => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get ifFalse => throw _privateConstructorUsedError;
+  String get condition;
+  StacWidget get ifTrue;
+  StacWidget? get ifFalse;
 
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
-  $StacConditionalCopyWith<StacConditional> get copyWith =>
-      throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $StacConditionalCopyWith<$Res> {
-  factory $StacConditionalCopyWith(
-          StacConditional value, $Res Function(StacConditional) then) =
-      _$StacConditionalCopyWithImpl<$Res, StacConditional>;
-  @useResult
-  $Res call(
-      {String condition,
-      Map<String, dynamic> ifTrue,
-      Map<String, dynamic>? ifFalse});
-}
-
-/// @nodoc
-class _$StacConditionalCopyWithImpl<$Res, $Val extends StacConditional>
-    implements $StacConditionalCopyWith<$Res> {
-  _$StacConditionalCopyWithImpl(this._value, this._then);
-
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
-
+  /// Create a copy of StacConditional
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @pragma('vm:prefer-inline')
+  $StacConditionalCopyWith<StacConditional> get copyWith =>
+      _$StacConditionalCopyWithImpl<StacConditional>(
+          this as StacConditional, _$identity);
+
+  /// Serializes this StacConditional to a JSON map.
+  Map<String, dynamic> toJson();
+
   @override
-  $Res call({
-    Object? condition = null,
-    Object? ifTrue = null,
-    Object? ifFalse = freezed,
-  }) {
-    return _then(_value.copyWith(
-      condition: null == condition
-          ? _value.condition
-          : condition // ignore: cast_nullable_to_non_nullable
-              as String,
-      ifTrue: null == ifTrue
-          ? _value.ifTrue
-          : ifTrue // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>,
-      ifFalse: freezed == ifFalse
-          ? _value.ifFalse
-          : ifFalse // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-    ) as $Val);
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is StacConditional &&
+            (identical(other.condition, condition) ||
+                other.condition == condition) &&
+            const DeepCollectionEquality().equals(other.ifTrue, ifTrue) &&
+            const DeepCollectionEquality().equals(other.ifFalse, ifFalse));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(
+      runtimeType,
+      condition,
+      const DeepCollectionEquality().hash(ifTrue),
+      const DeepCollectionEquality().hash(ifFalse));
+
+  @override
+  String toString() {
+    return 'StacConditional(condition: $condition, ifTrue: $ifTrue, ifFalse: $ifFalse)';
   }
 }
 
 /// @nodoc
-abstract class _$$StacConditionalImplCopyWith<$Res>
-    implements $StacConditionalCopyWith<$Res> {
-  factory _$$StacConditionalImplCopyWith(_$StacConditionalImpl value,
-          $Res Function(_$StacConditionalImpl) then) =
-      __$$StacConditionalImplCopyWithImpl<$Res>;
-  @override
+abstract mixin class $StacConditionalCopyWith<$Res> {
+  factory $StacConditionalCopyWith(
+          StacConditional value, $Res Function(StacConditional) _then) =
+      _$StacConditionalCopyWithImpl;
   @useResult
-  $Res call(
-      {String condition,
-      Map<String, dynamic> ifTrue,
-      Map<String, dynamic>? ifFalse});
+  $Res call({String condition, StacWidget ifTrue, StacWidget? ifFalse});
 }
 
 /// @nodoc
-class __$$StacConditionalImplCopyWithImpl<$Res>
-    extends _$StacConditionalCopyWithImpl<$Res, _$StacConditionalImpl>
-    implements _$$StacConditionalImplCopyWith<$Res> {
-  __$$StacConditionalImplCopyWithImpl(
-      _$StacConditionalImpl _value, $Res Function(_$StacConditionalImpl) _then)
-      : super(_value, _then);
+class _$StacConditionalCopyWithImpl<$Res>
+    implements $StacConditionalCopyWith<$Res> {
+  _$StacConditionalCopyWithImpl(this._self, this._then);
 
+  final StacConditional _self;
+  final $Res Function(StacConditional) _then;
+
+  /// Create a copy of StacConditional
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -105,49 +80,208 @@ class __$$StacConditionalImplCopyWithImpl<$Res>
     Object? ifTrue = null,
     Object? ifFalse = freezed,
   }) {
-    return _then(_$StacConditionalImpl(
+    return _then(_self.copyWith(
       condition: null == condition
-          ? _value.condition
+          ? _self.condition
           : condition // ignore: cast_nullable_to_non_nullable
               as String,
       ifTrue: null == ifTrue
-          ? _value._ifTrue
+          ? _self.ifTrue
           : ifTrue // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>,
+              as StacWidget,
       ifFalse: freezed == ifFalse
-          ? _value._ifFalse
+          ? _self.ifFalse
           : ifFalse // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
+              as StacWidget?,
     ));
+  }
+}
+
+/// Adds pattern-matching-related methods to [StacConditional].
+extension StacConditionalPatterns on StacConditional {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_StacConditional value)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacConditional() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_StacConditional value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacConditional():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_StacConditional value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacConditional() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(String condition, StacWidget ifTrue, StacWidget? ifFalse)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacConditional() when $default != null:
+        return $default(_that.condition, _that.ifTrue, _that.ifFalse);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(String condition, StacWidget ifTrue, StacWidget? ifFalse)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacConditional():
+        return $default(_that.condition, _that.ifTrue, _that.ifFalse);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(String condition, StacWidget ifTrue, StacWidget? ifFalse)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacConditional() when $default != null:
+        return $default(_that.condition, _that.ifTrue, _that.ifFalse);
+      case _:
+        return null;
+    }
   }
 }
 
 /// @nodoc
 @JsonSerializable()
-class _$StacConditionalImpl implements _StacConditional {
-  const _$StacConditionalImpl(
+class _StacConditional implements StacConditional {
+  const _StacConditional(
       {required this.condition,
-      required final Map<String, dynamic> ifTrue,
-      final Map<String, dynamic>? ifFalse})
+      required final StacWidget ifTrue,
+      final StacWidget? ifFalse})
       : _ifTrue = ifTrue,
         _ifFalse = ifFalse;
-
-  factory _$StacConditionalImpl.fromJson(Map<String, dynamic> json) =>
-      _$$StacConditionalImplFromJson(json);
+  factory _StacConditional.fromJson(Map<String, dynamic> json) =>
+      _$StacConditionalFromJson(json);
 
   @override
   final String condition;
-  final Map<String, dynamic> _ifTrue;
+  final StacWidget _ifTrue;
   @override
-  Map<String, dynamic> get ifTrue {
+  StacWidget get ifTrue {
     if (_ifTrue is EqualUnmodifiableMapView) return _ifTrue;
     // ignore: implicit_dynamic_type
     return EqualUnmodifiableMapView(_ifTrue);
   }
 
-  final Map<String, dynamic>? _ifFalse;
+  final StacWidget? _ifFalse;
   @override
-  Map<String, dynamic>? get ifFalse {
+  StacWidget? get ifFalse {
     final value = _ifFalse;
     if (value == null) return null;
     if (_ifFalse is EqualUnmodifiableMapView) return _ifFalse;
@@ -155,23 +289,33 @@ class _$StacConditionalImpl implements _StacConditional {
     return EqualUnmodifiableMapView(value);
   }
 
+  /// Create a copy of StacConditional
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'StacConditional(condition: $condition, ifTrue: $ifTrue, ifFalse: $ifFalse)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$StacConditionalCopyWith<_StacConditional> get copyWith =>
+      __$StacConditionalCopyWithImpl<_StacConditional>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$StacConditionalToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$StacConditionalImpl &&
+            other is _StacConditional &&
             (identical(other.condition, condition) ||
                 other.condition == condition) &&
             const DeepCollectionEquality().equals(other._ifTrue, _ifTrue) &&
             const DeepCollectionEquality().equals(other._ifFalse, _ifFalse));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -179,38 +323,55 @@ class _$StacConditionalImpl implements _StacConditional {
       const DeepCollectionEquality().hash(_ifTrue),
       const DeepCollectionEquality().hash(_ifFalse));
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$StacConditionalImplCopyWith<_$StacConditionalImpl> get copyWith =>
-      __$$StacConditionalImplCopyWithImpl<_$StacConditionalImpl>(
-          this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$StacConditionalImplToJson(
-      this,
-    );
+  String toString() {
+    return 'StacConditional(condition: $condition, ifTrue: $ifTrue, ifFalse: $ifFalse)';
   }
 }
 
-abstract class _StacConditional implements StacConditional {
-  const factory _StacConditional(
-      {required final String condition,
-      required final Map<String, dynamic> ifTrue,
-      final Map<String, dynamic>? ifFalse}) = _$StacConditionalImpl;
-
-  factory _StacConditional.fromJson(Map<String, dynamic> json) =
-      _$StacConditionalImpl.fromJson;
-
+/// @nodoc
+abstract mixin class _$StacConditionalCopyWith<$Res>
+    implements $StacConditionalCopyWith<$Res> {
+  factory _$StacConditionalCopyWith(
+          _StacConditional value, $Res Function(_StacConditional) _then) =
+      __$StacConditionalCopyWithImpl;
   @override
-  String get condition;
-  @override
-  Map<String, dynamic> get ifTrue;
-  @override
-  Map<String, dynamic>? get ifFalse;
-  @override
-  @JsonKey(ignore: true)
-  _$$StacConditionalImplCopyWith<_$StacConditionalImpl> get copyWith =>
-      throw _privateConstructorUsedError;
+  @useResult
+  $Res call({String condition, StacWidget ifTrue, StacWidget? ifFalse});
 }
+
+/// @nodoc
+class __$StacConditionalCopyWithImpl<$Res>
+    implements _$StacConditionalCopyWith<$Res> {
+  __$StacConditionalCopyWithImpl(this._self, this._then);
+
+  final _StacConditional _self;
+  final $Res Function(_StacConditional) _then;
+
+  /// Create a copy of StacConditional
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? condition = null,
+    Object? ifTrue = null,
+    Object? ifFalse = freezed,
+  }) {
+    return _then(_StacConditional(
+      condition: null == condition
+          ? _self.condition
+          : condition // ignore: cast_nullable_to_non_nullable
+              as String,
+      ifTrue: null == ifTrue
+          ? _self._ifTrue
+          : ifTrue // ignore: cast_nullable_to_non_nullable
+              as StacWidget,
+      ifFalse: freezed == ifFalse
+          ? _self._ifFalse
+          : ifFalse // ignore: cast_nullable_to_non_nullable
+              as StacWidget?,
+    ));
+  }
+}
+
+// dart format on

@@ -6,9 +6,8 @@ part of 'stac_dropdown_menu.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$StacDropdownMenuImpl _$$StacDropdownMenuImplFromJson(
-        Map<String, dynamic> json) =>
-    _$StacDropdownMenuImpl(
+_StacDropdownMenu _$StacDropdownMenuFromJson(Map<String, dynamic> json) =>
+    _StacDropdownMenu(
       enabled: json['enabled'] as bool? ?? true,
       width: json['width'] == null ? null : StacDouble.fromJson(json['width']),
       menuHeight: json['menuHeight'] == null
@@ -59,8 +58,7 @@ _$StacDropdownMenuImpl _$$StacDropdownMenuImplFromJson(
           DropdownMenuCloseBehavior.all,
     );
 
-Map<String, dynamic> _$$StacDropdownMenuImplToJson(
-        _$StacDropdownMenuImpl instance) =>
+Map<String, dynamic> _$StacDropdownMenuToJson(_StacDropdownMenu instance) =>
     <String, dynamic>{
       'enabled': instance.enabled,
       'width': instance.width,

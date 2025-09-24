@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,159 +9,98 @@ part of 'stac_custom_scroll_view.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
-StacCustomScrollView _$StacCustomScrollViewFromJson(Map<String, dynamic> json) {
-  return _StacCustomScrollView.fromJson(json);
-}
 
 /// @nodoc
 mixin _$StacCustomScrollView {
-  List<Map<String, dynamic>> get slivers => throw _privateConstructorUsedError;
-  Axis get scrollDirection => throw _privateConstructorUsedError;
-  bool get reverse => throw _privateConstructorUsedError;
-  bool? get primary => throw _privateConstructorUsedError;
-  StacScrollPhysics? get physics => throw _privateConstructorUsedError;
-  bool get shrinkWrap => throw _privateConstructorUsedError;
-  StacDouble get anchor => throw _privateConstructorUsedError;
-  StacDouble? get cacheExtent => throw _privateConstructorUsedError;
-  int? get semanticChildCount => throw _privateConstructorUsedError;
-  DragStartBehavior get dragStartBehavior => throw _privateConstructorUsedError;
-  ScrollViewKeyboardDismissBehavior get keyboardDismissBehavior =>
-      throw _privateConstructorUsedError;
-  String? get restorationId => throw _privateConstructorUsedError;
-  Clip get clipBehavior => throw _privateConstructorUsedError;
-  HitTestBehavior get hitTestBehavior => throw _privateConstructorUsedError;
+  List<Map<String, dynamic>> get slivers;
+  Axis get scrollDirection;
+  bool get reverse;
+  bool? get primary;
+  StacScrollPhysics? get physics;
+  bool get shrinkWrap;
+  StacDouble get anchor;
+  StacDouble? get cacheExtent;
+  int? get semanticChildCount;
+  DragStartBehavior get dragStartBehavior;
+  ScrollViewKeyboardDismissBehavior get keyboardDismissBehavior;
+  String? get restorationId;
+  Clip get clipBehavior;
+  HitTestBehavior get hitTestBehavior;
 
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
-  $StacCustomScrollViewCopyWith<StacCustomScrollView> get copyWith =>
-      throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $StacCustomScrollViewCopyWith<$Res> {
-  factory $StacCustomScrollViewCopyWith(StacCustomScrollView value,
-          $Res Function(StacCustomScrollView) then) =
-      _$StacCustomScrollViewCopyWithImpl<$Res, StacCustomScrollView>;
-  @useResult
-  $Res call(
-      {List<Map<String, dynamic>> slivers,
-      Axis scrollDirection,
-      bool reverse,
-      bool? primary,
-      StacScrollPhysics? physics,
-      bool shrinkWrap,
-      StacDouble anchor,
-      StacDouble? cacheExtent,
-      int? semanticChildCount,
-      DragStartBehavior dragStartBehavior,
-      ScrollViewKeyboardDismissBehavior keyboardDismissBehavior,
-      String? restorationId,
-      Clip clipBehavior,
-      HitTestBehavior hitTestBehavior});
-}
-
-/// @nodoc
-class _$StacCustomScrollViewCopyWithImpl<$Res,
-        $Val extends StacCustomScrollView>
-    implements $StacCustomScrollViewCopyWith<$Res> {
-  _$StacCustomScrollViewCopyWithImpl(this._value, this._then);
-
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
-
+  /// Create a copy of StacCustomScrollView
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @pragma('vm:prefer-inline')
+  $StacCustomScrollViewCopyWith<StacCustomScrollView> get copyWith =>
+      _$StacCustomScrollViewCopyWithImpl<StacCustomScrollView>(
+          this as StacCustomScrollView, _$identity);
+
+  /// Serializes this StacCustomScrollView to a JSON map.
+  Map<String, dynamic> toJson();
+
   @override
-  $Res call({
-    Object? slivers = null,
-    Object? scrollDirection = null,
-    Object? reverse = null,
-    Object? primary = freezed,
-    Object? physics = freezed,
-    Object? shrinkWrap = null,
-    Object? anchor = null,
-    Object? cacheExtent = freezed,
-    Object? semanticChildCount = freezed,
-    Object? dragStartBehavior = null,
-    Object? keyboardDismissBehavior = null,
-    Object? restorationId = freezed,
-    Object? clipBehavior = null,
-    Object? hitTestBehavior = null,
-  }) {
-    return _then(_value.copyWith(
-      slivers: null == slivers
-          ? _value.slivers
-          : slivers // ignore: cast_nullable_to_non_nullable
-              as List<Map<String, dynamic>>,
-      scrollDirection: null == scrollDirection
-          ? _value.scrollDirection
-          : scrollDirection // ignore: cast_nullable_to_non_nullable
-              as Axis,
-      reverse: null == reverse
-          ? _value.reverse
-          : reverse // ignore: cast_nullable_to_non_nullable
-              as bool,
-      primary: freezed == primary
-          ? _value.primary
-          : primary // ignore: cast_nullable_to_non_nullable
-              as bool?,
-      physics: freezed == physics
-          ? _value.physics
-          : physics // ignore: cast_nullable_to_non_nullable
-              as StacScrollPhysics?,
-      shrinkWrap: null == shrinkWrap
-          ? _value.shrinkWrap
-          : shrinkWrap // ignore: cast_nullable_to_non_nullable
-              as bool,
-      anchor: null == anchor
-          ? _value.anchor
-          : anchor // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      cacheExtent: freezed == cacheExtent
-          ? _value.cacheExtent
-          : cacheExtent // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      semanticChildCount: freezed == semanticChildCount
-          ? _value.semanticChildCount
-          : semanticChildCount // ignore: cast_nullable_to_non_nullable
-              as int?,
-      dragStartBehavior: null == dragStartBehavior
-          ? _value.dragStartBehavior
-          : dragStartBehavior // ignore: cast_nullable_to_non_nullable
-              as DragStartBehavior,
-      keyboardDismissBehavior: null == keyboardDismissBehavior
-          ? _value.keyboardDismissBehavior
-          : keyboardDismissBehavior // ignore: cast_nullable_to_non_nullable
-              as ScrollViewKeyboardDismissBehavior,
-      restorationId: freezed == restorationId
-          ? _value.restorationId
-          : restorationId // ignore: cast_nullable_to_non_nullable
-              as String?,
-      clipBehavior: null == clipBehavior
-          ? _value.clipBehavior
-          : clipBehavior // ignore: cast_nullable_to_non_nullable
-              as Clip,
-      hitTestBehavior: null == hitTestBehavior
-          ? _value.hitTestBehavior
-          : hitTestBehavior // ignore: cast_nullable_to_non_nullable
-              as HitTestBehavior,
-    ) as $Val);
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is StacCustomScrollView &&
+            const DeepCollectionEquality().equals(other.slivers, slivers) &&
+            (identical(other.scrollDirection, scrollDirection) ||
+                other.scrollDirection == scrollDirection) &&
+            (identical(other.reverse, reverse) || other.reverse == reverse) &&
+            (identical(other.primary, primary) || other.primary == primary) &&
+            (identical(other.physics, physics) || other.physics == physics) &&
+            (identical(other.shrinkWrap, shrinkWrap) ||
+                other.shrinkWrap == shrinkWrap) &&
+            (identical(other.anchor, anchor) || other.anchor == anchor) &&
+            (identical(other.cacheExtent, cacheExtent) ||
+                other.cacheExtent == cacheExtent) &&
+            (identical(other.semanticChildCount, semanticChildCount) ||
+                other.semanticChildCount == semanticChildCount) &&
+            (identical(other.dragStartBehavior, dragStartBehavior) ||
+                other.dragStartBehavior == dragStartBehavior) &&
+            (identical(
+                    other.keyboardDismissBehavior, keyboardDismissBehavior) ||
+                other.keyboardDismissBehavior == keyboardDismissBehavior) &&
+            (identical(other.restorationId, restorationId) ||
+                other.restorationId == restorationId) &&
+            (identical(other.clipBehavior, clipBehavior) ||
+                other.clipBehavior == clipBehavior) &&
+            (identical(other.hitTestBehavior, hitTestBehavior) ||
+                other.hitTestBehavior == hitTestBehavior));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(slivers),
+      scrollDirection,
+      reverse,
+      primary,
+      physics,
+      shrinkWrap,
+      anchor,
+      cacheExtent,
+      semanticChildCount,
+      dragStartBehavior,
+      keyboardDismissBehavior,
+      restorationId,
+      clipBehavior,
+      hitTestBehavior);
+
+  @override
+  String toString() {
+    return 'StacCustomScrollView(slivers: $slivers, scrollDirection: $scrollDirection, reverse: $reverse, primary: $primary, physics: $physics, shrinkWrap: $shrinkWrap, anchor: $anchor, cacheExtent: $cacheExtent, semanticChildCount: $semanticChildCount, dragStartBehavior: $dragStartBehavior, keyboardDismissBehavior: $keyboardDismissBehavior, restorationId: $restorationId, clipBehavior: $clipBehavior, hitTestBehavior: $hitTestBehavior)';
   }
 }
 
 /// @nodoc
-abstract class _$$StacCustomScrollViewImplCopyWith<$Res>
-    implements $StacCustomScrollViewCopyWith<$Res> {
-  factory _$$StacCustomScrollViewImplCopyWith(_$StacCustomScrollViewImpl value,
-          $Res Function(_$StacCustomScrollViewImpl) then) =
-      __$$StacCustomScrollViewImplCopyWithImpl<$Res>;
-  @override
+abstract mixin class $StacCustomScrollViewCopyWith<$Res> {
+  factory $StacCustomScrollViewCopyWith(StacCustomScrollView value,
+          $Res Function(StacCustomScrollView) _then) =
+      _$StacCustomScrollViewCopyWithImpl;
   @useResult
   $Res call(
       {List<Map<String, dynamic>> slivers,
@@ -181,13 +120,15 @@ abstract class _$$StacCustomScrollViewImplCopyWith<$Res>
 }
 
 /// @nodoc
-class __$$StacCustomScrollViewImplCopyWithImpl<$Res>
-    extends _$StacCustomScrollViewCopyWithImpl<$Res, _$StacCustomScrollViewImpl>
-    implements _$$StacCustomScrollViewImplCopyWith<$Res> {
-  __$$StacCustomScrollViewImplCopyWithImpl(_$StacCustomScrollViewImpl _value,
-      $Res Function(_$StacCustomScrollViewImpl) _then)
-      : super(_value, _then);
+class _$StacCustomScrollViewCopyWithImpl<$Res>
+    implements $StacCustomScrollViewCopyWith<$Res> {
+  _$StacCustomScrollViewCopyWithImpl(this._self, this._then);
 
+  final StacCustomScrollView _self;
+  final $Res Function(StacCustomScrollView) _then;
+
+  /// Create a copy of StacCustomScrollView
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -206,71 +147,315 @@ class __$$StacCustomScrollViewImplCopyWithImpl<$Res>
     Object? clipBehavior = null,
     Object? hitTestBehavior = null,
   }) {
-    return _then(_$StacCustomScrollViewImpl(
+    return _then(_self.copyWith(
       slivers: null == slivers
-          ? _value._slivers
+          ? _self.slivers
           : slivers // ignore: cast_nullable_to_non_nullable
               as List<Map<String, dynamic>>,
       scrollDirection: null == scrollDirection
-          ? _value.scrollDirection
+          ? _self.scrollDirection
           : scrollDirection // ignore: cast_nullable_to_non_nullable
               as Axis,
       reverse: null == reverse
-          ? _value.reverse
+          ? _self.reverse
           : reverse // ignore: cast_nullable_to_non_nullable
               as bool,
       primary: freezed == primary
-          ? _value.primary
+          ? _self.primary
           : primary // ignore: cast_nullable_to_non_nullable
               as bool?,
       physics: freezed == physics
-          ? _value.physics
+          ? _self.physics
           : physics // ignore: cast_nullable_to_non_nullable
               as StacScrollPhysics?,
       shrinkWrap: null == shrinkWrap
-          ? _value.shrinkWrap
+          ? _self.shrinkWrap
           : shrinkWrap // ignore: cast_nullable_to_non_nullable
               as bool,
       anchor: null == anchor
-          ? _value.anchor
+          ? _self.anchor
           : anchor // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       cacheExtent: freezed == cacheExtent
-          ? _value.cacheExtent
+          ? _self.cacheExtent
           : cacheExtent // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       semanticChildCount: freezed == semanticChildCount
-          ? _value.semanticChildCount
+          ? _self.semanticChildCount
           : semanticChildCount // ignore: cast_nullable_to_non_nullable
               as int?,
       dragStartBehavior: null == dragStartBehavior
-          ? _value.dragStartBehavior
+          ? _self.dragStartBehavior
           : dragStartBehavior // ignore: cast_nullable_to_non_nullable
               as DragStartBehavior,
       keyboardDismissBehavior: null == keyboardDismissBehavior
-          ? _value.keyboardDismissBehavior
+          ? _self.keyboardDismissBehavior
           : keyboardDismissBehavior // ignore: cast_nullable_to_non_nullable
               as ScrollViewKeyboardDismissBehavior,
       restorationId: freezed == restorationId
-          ? _value.restorationId
+          ? _self.restorationId
           : restorationId // ignore: cast_nullable_to_non_nullable
               as String?,
       clipBehavior: null == clipBehavior
-          ? _value.clipBehavior
+          ? _self.clipBehavior
           : clipBehavior // ignore: cast_nullable_to_non_nullable
               as Clip,
       hitTestBehavior: null == hitTestBehavior
-          ? _value.hitTestBehavior
+          ? _self.hitTestBehavior
           : hitTestBehavior // ignore: cast_nullable_to_non_nullable
               as HitTestBehavior,
     ));
   }
 }
 
+/// Adds pattern-matching-related methods to [StacCustomScrollView].
+extension StacCustomScrollViewPatterns on StacCustomScrollView {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_StacCustomScrollView value)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacCustomScrollView() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_StacCustomScrollView value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacCustomScrollView():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_StacCustomScrollView value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacCustomScrollView() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(
+            List<Map<String, dynamic>> slivers,
+            Axis scrollDirection,
+            bool reverse,
+            bool? primary,
+            StacScrollPhysics? physics,
+            bool shrinkWrap,
+            StacDouble anchor,
+            StacDouble? cacheExtent,
+            int? semanticChildCount,
+            DragStartBehavior dragStartBehavior,
+            ScrollViewKeyboardDismissBehavior keyboardDismissBehavior,
+            String? restorationId,
+            Clip clipBehavior,
+            HitTestBehavior hitTestBehavior)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacCustomScrollView() when $default != null:
+        return $default(
+            _that.slivers,
+            _that.scrollDirection,
+            _that.reverse,
+            _that.primary,
+            _that.physics,
+            _that.shrinkWrap,
+            _that.anchor,
+            _that.cacheExtent,
+            _that.semanticChildCount,
+            _that.dragStartBehavior,
+            _that.keyboardDismissBehavior,
+            _that.restorationId,
+            _that.clipBehavior,
+            _that.hitTestBehavior);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(
+            List<Map<String, dynamic>> slivers,
+            Axis scrollDirection,
+            bool reverse,
+            bool? primary,
+            StacScrollPhysics? physics,
+            bool shrinkWrap,
+            StacDouble anchor,
+            StacDouble? cacheExtent,
+            int? semanticChildCount,
+            DragStartBehavior dragStartBehavior,
+            ScrollViewKeyboardDismissBehavior keyboardDismissBehavior,
+            String? restorationId,
+            Clip clipBehavior,
+            HitTestBehavior hitTestBehavior)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacCustomScrollView():
+        return $default(
+            _that.slivers,
+            _that.scrollDirection,
+            _that.reverse,
+            _that.primary,
+            _that.physics,
+            _that.shrinkWrap,
+            _that.anchor,
+            _that.cacheExtent,
+            _that.semanticChildCount,
+            _that.dragStartBehavior,
+            _that.keyboardDismissBehavior,
+            _that.restorationId,
+            _that.clipBehavior,
+            _that.hitTestBehavior);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(
+            List<Map<String, dynamic>> slivers,
+            Axis scrollDirection,
+            bool reverse,
+            bool? primary,
+            StacScrollPhysics? physics,
+            bool shrinkWrap,
+            StacDouble anchor,
+            StacDouble? cacheExtent,
+            int? semanticChildCount,
+            DragStartBehavior dragStartBehavior,
+            ScrollViewKeyboardDismissBehavior keyboardDismissBehavior,
+            String? restorationId,
+            Clip clipBehavior,
+            HitTestBehavior hitTestBehavior)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacCustomScrollView() when $default != null:
+        return $default(
+            _that.slivers,
+            _that.scrollDirection,
+            _that.reverse,
+            _that.primary,
+            _that.physics,
+            _that.shrinkWrap,
+            _that.anchor,
+            _that.cacheExtent,
+            _that.semanticChildCount,
+            _that.dragStartBehavior,
+            _that.keyboardDismissBehavior,
+            _that.restorationId,
+            _that.clipBehavior,
+            _that.hitTestBehavior);
+      case _:
+        return null;
+    }
+  }
+}
+
 /// @nodoc
 @JsonSerializable()
-class _$StacCustomScrollViewImpl implements _StacCustomScrollView {
-  const _$StacCustomScrollViewImpl(
+class _StacCustomScrollView implements StacCustomScrollView {
+  const _StacCustomScrollView(
       {final List<Map<String, dynamic>> slivers = const [],
       this.scrollDirection = Axis.vertical,
       this.reverse = false,
@@ -286,9 +471,8 @@ class _$StacCustomScrollViewImpl implements _StacCustomScrollView {
       this.clipBehavior = Clip.hardEdge,
       this.hitTestBehavior = HitTestBehavior.opaque})
       : _slivers = slivers;
-
-  factory _$StacCustomScrollViewImpl.fromJson(Map<String, dynamic> json) =>
-      _$$StacCustomScrollViewImplFromJson(json);
+  factory _StacCustomScrollView.fromJson(Map<String, dynamic> json) =>
+      _$StacCustomScrollViewFromJson(json);
 
   final List<Map<String, dynamic>> _slivers;
   @override
@@ -334,16 +518,27 @@ class _$StacCustomScrollViewImpl implements _StacCustomScrollView {
   @JsonKey()
   final HitTestBehavior hitTestBehavior;
 
+  /// Create a copy of StacCustomScrollView
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'StacCustomScrollView(slivers: $slivers, scrollDirection: $scrollDirection, reverse: $reverse, primary: $primary, physics: $physics, shrinkWrap: $shrinkWrap, anchor: $anchor, cacheExtent: $cacheExtent, semanticChildCount: $semanticChildCount, dragStartBehavior: $dragStartBehavior, keyboardDismissBehavior: $keyboardDismissBehavior, restorationId: $restorationId, clipBehavior: $clipBehavior, hitTestBehavior: $hitTestBehavior)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$StacCustomScrollViewCopyWith<_StacCustomScrollView> get copyWith =>
+      __$StacCustomScrollViewCopyWithImpl<_StacCustomScrollView>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$StacCustomScrollViewToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$StacCustomScrollViewImpl &&
+            other is _StacCustomScrollView &&
             const DeepCollectionEquality().equals(other._slivers, _slivers) &&
             (identical(other.scrollDirection, scrollDirection) ||
                 other.scrollDirection == scrollDirection) &&
@@ -370,7 +565,7 @@ class _$StacCustomScrollViewImpl implements _StacCustomScrollView {
                 other.hitTestBehavior == hitTestBehavior));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -389,72 +584,124 @@ class _$StacCustomScrollViewImpl implements _StacCustomScrollView {
       clipBehavior,
       hitTestBehavior);
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$StacCustomScrollViewImplCopyWith<_$StacCustomScrollViewImpl>
-      get copyWith =>
-          __$$StacCustomScrollViewImplCopyWithImpl<_$StacCustomScrollViewImpl>(
-              this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$StacCustomScrollViewImplToJson(
-      this,
-    );
+  String toString() {
+    return 'StacCustomScrollView(slivers: $slivers, scrollDirection: $scrollDirection, reverse: $reverse, primary: $primary, physics: $physics, shrinkWrap: $shrinkWrap, anchor: $anchor, cacheExtent: $cacheExtent, semanticChildCount: $semanticChildCount, dragStartBehavior: $dragStartBehavior, keyboardDismissBehavior: $keyboardDismissBehavior, restorationId: $restorationId, clipBehavior: $clipBehavior, hitTestBehavior: $hitTestBehavior)';
   }
 }
 
-abstract class _StacCustomScrollView implements StacCustomScrollView {
-  const factory _StacCustomScrollView(
-      {final List<Map<String, dynamic>> slivers,
-      final Axis scrollDirection,
-      final bool reverse,
-      final bool? primary,
-      final StacScrollPhysics? physics,
-      final bool shrinkWrap,
-      final StacDouble anchor,
-      final StacDouble? cacheExtent,
-      final int? semanticChildCount,
-      final DragStartBehavior dragStartBehavior,
-      final ScrollViewKeyboardDismissBehavior keyboardDismissBehavior,
-      final String? restorationId,
-      final Clip clipBehavior,
-      final HitTestBehavior hitTestBehavior}) = _$StacCustomScrollViewImpl;
-
-  factory _StacCustomScrollView.fromJson(Map<String, dynamic> json) =
-      _$StacCustomScrollViewImpl.fromJson;
-
+/// @nodoc
+abstract mixin class _$StacCustomScrollViewCopyWith<$Res>
+    implements $StacCustomScrollViewCopyWith<$Res> {
+  factory _$StacCustomScrollViewCopyWith(_StacCustomScrollView value,
+          $Res Function(_StacCustomScrollView) _then) =
+      __$StacCustomScrollViewCopyWithImpl;
   @override
-  List<Map<String, dynamic>> get slivers;
-  @override
-  Axis get scrollDirection;
-  @override
-  bool get reverse;
-  @override
-  bool? get primary;
-  @override
-  StacScrollPhysics? get physics;
-  @override
-  bool get shrinkWrap;
-  @override
-  StacDouble get anchor;
-  @override
-  StacDouble? get cacheExtent;
-  @override
-  int? get semanticChildCount;
-  @override
-  DragStartBehavior get dragStartBehavior;
-  @override
-  ScrollViewKeyboardDismissBehavior get keyboardDismissBehavior;
-  @override
-  String? get restorationId;
-  @override
-  Clip get clipBehavior;
-  @override
-  HitTestBehavior get hitTestBehavior;
-  @override
-  @JsonKey(ignore: true)
-  _$$StacCustomScrollViewImplCopyWith<_$StacCustomScrollViewImpl>
-      get copyWith => throw _privateConstructorUsedError;
+  @useResult
+  $Res call(
+      {List<Map<String, dynamic>> slivers,
+      Axis scrollDirection,
+      bool reverse,
+      bool? primary,
+      StacScrollPhysics? physics,
+      bool shrinkWrap,
+      StacDouble anchor,
+      StacDouble? cacheExtent,
+      int? semanticChildCount,
+      DragStartBehavior dragStartBehavior,
+      ScrollViewKeyboardDismissBehavior keyboardDismissBehavior,
+      String? restorationId,
+      Clip clipBehavior,
+      HitTestBehavior hitTestBehavior});
 }
+
+/// @nodoc
+class __$StacCustomScrollViewCopyWithImpl<$Res>
+    implements _$StacCustomScrollViewCopyWith<$Res> {
+  __$StacCustomScrollViewCopyWithImpl(this._self, this._then);
+
+  final _StacCustomScrollView _self;
+  final $Res Function(_StacCustomScrollView) _then;
+
+  /// Create a copy of StacCustomScrollView
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? slivers = null,
+    Object? scrollDirection = null,
+    Object? reverse = null,
+    Object? primary = freezed,
+    Object? physics = freezed,
+    Object? shrinkWrap = null,
+    Object? anchor = null,
+    Object? cacheExtent = freezed,
+    Object? semanticChildCount = freezed,
+    Object? dragStartBehavior = null,
+    Object? keyboardDismissBehavior = null,
+    Object? restorationId = freezed,
+    Object? clipBehavior = null,
+    Object? hitTestBehavior = null,
+  }) {
+    return _then(_StacCustomScrollView(
+      slivers: null == slivers
+          ? _self._slivers
+          : slivers // ignore: cast_nullable_to_non_nullable
+              as List<Map<String, dynamic>>,
+      scrollDirection: null == scrollDirection
+          ? _self.scrollDirection
+          : scrollDirection // ignore: cast_nullable_to_non_nullable
+              as Axis,
+      reverse: null == reverse
+          ? _self.reverse
+          : reverse // ignore: cast_nullable_to_non_nullable
+              as bool,
+      primary: freezed == primary
+          ? _self.primary
+          : primary // ignore: cast_nullable_to_non_nullable
+              as bool?,
+      physics: freezed == physics
+          ? _self.physics
+          : physics // ignore: cast_nullable_to_non_nullable
+              as StacScrollPhysics?,
+      shrinkWrap: null == shrinkWrap
+          ? _self.shrinkWrap
+          : shrinkWrap // ignore: cast_nullable_to_non_nullable
+              as bool,
+      anchor: null == anchor
+          ? _self.anchor
+          : anchor // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      cacheExtent: freezed == cacheExtent
+          ? _self.cacheExtent
+          : cacheExtent // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      semanticChildCount: freezed == semanticChildCount
+          ? _self.semanticChildCount
+          : semanticChildCount // ignore: cast_nullable_to_non_nullable
+              as int?,
+      dragStartBehavior: null == dragStartBehavior
+          ? _self.dragStartBehavior
+          : dragStartBehavior // ignore: cast_nullable_to_non_nullable
+              as DragStartBehavior,
+      keyboardDismissBehavior: null == keyboardDismissBehavior
+          ? _self.keyboardDismissBehavior
+          : keyboardDismissBehavior // ignore: cast_nullable_to_non_nullable
+              as ScrollViewKeyboardDismissBehavior,
+      restorationId: freezed == restorationId
+          ? _self.restorationId
+          : restorationId // ignore: cast_nullable_to_non_nullable
+              as String?,
+      clipBehavior: null == clipBehavior
+          ? _self.clipBehavior
+          : clipBehavior // ignore: cast_nullable_to_non_nullable
+              as Clip,
+      hitTestBehavior: null == hitTestBehavior
+          ? _self.hitTestBehavior
+          : hitTestBehavior // ignore: cast_nullable_to_non_nullable
+              as HitTestBehavior,
+    ));
+  }
+}
+
+// dart format on

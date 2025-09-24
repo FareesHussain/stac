@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,113 +9,259 @@ part of 'stac_form_validate.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
-StacFormValidate _$StacFormValidateFromJson(Map<String, dynamic> json) {
-  return _StacFormValidate.fromJson(json);
-}
 
 /// @nodoc
 mixin _$StacFormValidate {
-  Map<String, dynamic>? get isValid => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get isNotValid => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get isValid;
+  Map<String, dynamic>? get isNotValid;
 
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
-  $StacFormValidateCopyWith<StacFormValidate> get copyWith =>
-      throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $StacFormValidateCopyWith<$Res> {
-  factory $StacFormValidateCopyWith(
-          StacFormValidate value, $Res Function(StacFormValidate) then) =
-      _$StacFormValidateCopyWithImpl<$Res, StacFormValidate>;
-  @useResult
-  $Res call({Map<String, dynamic>? isValid, Map<String, dynamic>? isNotValid});
-}
-
-/// @nodoc
-class _$StacFormValidateCopyWithImpl<$Res, $Val extends StacFormValidate>
-    implements $StacFormValidateCopyWith<$Res> {
-  _$StacFormValidateCopyWithImpl(this._value, this._then);
-
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
-
+  /// Create a copy of StacFormValidate
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @pragma('vm:prefer-inline')
+  $StacFormValidateCopyWith<StacFormValidate> get copyWith =>
+      _$StacFormValidateCopyWithImpl<StacFormValidate>(
+          this as StacFormValidate, _$identity);
+
+  /// Serializes this StacFormValidate to a JSON map.
+  Map<String, dynamic> toJson();
+
   @override
-  $Res call({
-    Object? isValid = freezed,
-    Object? isNotValid = freezed,
-  }) {
-    return _then(_value.copyWith(
-      isValid: freezed == isValid
-          ? _value.isValid
-          : isValid // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      isNotValid: freezed == isNotValid
-          ? _value.isNotValid
-          : isNotValid // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-    ) as $Val);
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is StacFormValidate &&
+            const DeepCollectionEquality().equals(other.isValid, isValid) &&
+            const DeepCollectionEquality()
+                .equals(other.isNotValid, isNotValid));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(isValid),
+      const DeepCollectionEquality().hash(isNotValid));
+
+  @override
+  String toString() {
+    return 'StacFormValidate(isValid: $isValid, isNotValid: $isNotValid)';
   }
 }
 
 /// @nodoc
-abstract class _$$StacFormValidateImplCopyWith<$Res>
-    implements $StacFormValidateCopyWith<$Res> {
-  factory _$$StacFormValidateImplCopyWith(_$StacFormValidateImpl value,
-          $Res Function(_$StacFormValidateImpl) then) =
-      __$$StacFormValidateImplCopyWithImpl<$Res>;
-  @override
+abstract mixin class $StacFormValidateCopyWith<$Res> {
+  factory $StacFormValidateCopyWith(
+          StacFormValidate value, $Res Function(StacFormValidate) _then) =
+      _$StacFormValidateCopyWithImpl;
   @useResult
   $Res call({Map<String, dynamic>? isValid, Map<String, dynamic>? isNotValid});
 }
 
 /// @nodoc
-class __$$StacFormValidateImplCopyWithImpl<$Res>
-    extends _$StacFormValidateCopyWithImpl<$Res, _$StacFormValidateImpl>
-    implements _$$StacFormValidateImplCopyWith<$Res> {
-  __$$StacFormValidateImplCopyWithImpl(_$StacFormValidateImpl _value,
-      $Res Function(_$StacFormValidateImpl) _then)
-      : super(_value, _then);
+class _$StacFormValidateCopyWithImpl<$Res>
+    implements $StacFormValidateCopyWith<$Res> {
+  _$StacFormValidateCopyWithImpl(this._self, this._then);
 
+  final StacFormValidate _self;
+  final $Res Function(StacFormValidate) _then;
+
+  /// Create a copy of StacFormValidate
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? isValid = freezed,
     Object? isNotValid = freezed,
   }) {
-    return _then(_$StacFormValidateImpl(
+    return _then(_self.copyWith(
       isValid: freezed == isValid
-          ? _value._isValid
+          ? _self.isValid
           : isValid // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       isNotValid: freezed == isNotValid
-          ? _value._isNotValid
+          ? _self.isNotValid
           : isNotValid // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
     ));
   }
 }
 
+/// Adds pattern-matching-related methods to [StacFormValidate].
+extension StacFormValidatePatterns on StacFormValidate {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_StacFormValidate value)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacFormValidate() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_StacFormValidate value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacFormValidate():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_StacFormValidate value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacFormValidate() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(
+            Map<String, dynamic>? isValid, Map<String, dynamic>? isNotValid)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacFormValidate() when $default != null:
+        return $default(_that.isValid, _that.isNotValid);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(
+            Map<String, dynamic>? isValid, Map<String, dynamic>? isNotValid)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacFormValidate():
+        return $default(_that.isValid, _that.isNotValid);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(
+            Map<String, dynamic>? isValid, Map<String, dynamic>? isNotValid)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacFormValidate() when $default != null:
+        return $default(_that.isValid, _that.isNotValid);
+      case _:
+        return null;
+    }
+  }
+}
+
 /// @nodoc
 @JsonSerializable()
-class _$StacFormValidateImpl implements _StacFormValidate {
-  const _$StacFormValidateImpl(
+class _StacFormValidate implements StacFormValidate {
+  const _StacFormValidate(
       {final Map<String, dynamic>? isValid,
       final Map<String, dynamic>? isNotValid})
       : _isValid = isValid,
         _isNotValid = isNotValid;
-
-  factory _$StacFormValidateImpl.fromJson(Map<String, dynamic> json) =>
-      _$$StacFormValidateImplFromJson(json);
+  factory _StacFormValidate.fromJson(Map<String, dynamic> json) =>
+      _$StacFormValidateFromJson(json);
 
   final Map<String, dynamic>? _isValid;
   @override
@@ -137,57 +283,82 @@ class _$StacFormValidateImpl implements _StacFormValidate {
     return EqualUnmodifiableMapView(value);
   }
 
+  /// Create a copy of StacFormValidate
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'StacFormValidate(isValid: $isValid, isNotValid: $isNotValid)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$StacFormValidateCopyWith<_StacFormValidate> get copyWith =>
+      __$StacFormValidateCopyWithImpl<_StacFormValidate>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$StacFormValidateToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$StacFormValidateImpl &&
+            other is _StacFormValidate &&
             const DeepCollectionEquality().equals(other._isValid, _isValid) &&
             const DeepCollectionEquality()
                 .equals(other._isNotValid, _isNotValid));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(
       runtimeType,
       const DeepCollectionEquality().hash(_isValid),
       const DeepCollectionEquality().hash(_isNotValid));
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$StacFormValidateImplCopyWith<_$StacFormValidateImpl> get copyWith =>
-      __$$StacFormValidateImplCopyWithImpl<_$StacFormValidateImpl>(
-          this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$StacFormValidateImplToJson(
-      this,
-    );
+  String toString() {
+    return 'StacFormValidate(isValid: $isValid, isNotValid: $isNotValid)';
   }
 }
 
-abstract class _StacFormValidate implements StacFormValidate {
-  const factory _StacFormValidate(
-      {final Map<String, dynamic>? isValid,
-      final Map<String, dynamic>? isNotValid}) = _$StacFormValidateImpl;
-
-  factory _StacFormValidate.fromJson(Map<String, dynamic> json) =
-      _$StacFormValidateImpl.fromJson;
-
+/// @nodoc
+abstract mixin class _$StacFormValidateCopyWith<$Res>
+    implements $StacFormValidateCopyWith<$Res> {
+  factory _$StacFormValidateCopyWith(
+          _StacFormValidate value, $Res Function(_StacFormValidate) _then) =
+      __$StacFormValidateCopyWithImpl;
   @override
-  Map<String, dynamic>? get isValid;
-  @override
-  Map<String, dynamic>? get isNotValid;
-  @override
-  @JsonKey(ignore: true)
-  _$$StacFormValidateImplCopyWith<_$StacFormValidateImpl> get copyWith =>
-      throw _privateConstructorUsedError;
+  @useResult
+  $Res call({Map<String, dynamic>? isValid, Map<String, dynamic>? isNotValid});
 }
+
+/// @nodoc
+class __$StacFormValidateCopyWithImpl<$Res>
+    implements _$StacFormValidateCopyWith<$Res> {
+  __$StacFormValidateCopyWithImpl(this._self, this._then);
+
+  final _StacFormValidate _self;
+  final $Res Function(_StacFormValidate) _then;
+
+  /// Create a copy of StacFormValidate
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? isValid = freezed,
+    Object? isNotValid = freezed,
+  }) {
+    return _then(_StacFormValidate(
+      isValid: freezed == isValid
+          ? _self._isValid
+          : isValid // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      isNotValid: freezed == isNotValid
+          ? _self._isNotValid
+          : isNotValid // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+    ));
+  }
+}
+
+// dart format on

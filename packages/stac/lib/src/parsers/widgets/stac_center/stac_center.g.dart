@@ -6,8 +6,7 @@ part of 'stac_center.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$StacCenterImpl _$$StacCenterImplFromJson(Map<String, dynamic> json) =>
-    _$StacCenterImpl(
+_StacCenter _$StacCenterFromJson(Map<String, dynamic> json) => _StacCenter(
       widthFactor: json['widthFactor'] == null
           ? null
           : StacDouble.fromJson(json['widthFactor']),
@@ -17,7 +16,7 @@ _$StacCenterImpl _$$StacCenterImplFromJson(Map<String, dynamic> json) =>
       child: json['child'] as Map<String, dynamic>?,
     );
 
-Map<String, dynamic> _$$StacCenterImplToJson(_$StacCenterImpl instance) =>
+Map<String, dynamic> _$StacCenterToJson(_StacCenter instance) =>
     <String, dynamic>{
       'widthFactor': instance.widthFactor,
       'heightFactor': instance.heightFactor,

@@ -6,14 +6,14 @@ part of 'stac_clip_oval.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$StacClipOvalImpl _$$StacClipOvalImplFromJson(Map<String, dynamic> json) =>
-    _$StacClipOvalImpl(
+_StacClipOval _$StacClipOvalFromJson(Map<String, dynamic> json) =>
+    _StacClipOval(
       clipBehavior: $enumDecodeNullable(_$ClipEnumMap, json['clipBehavior']) ??
           Clip.antiAlias,
       child: json['child'] as Map<String, dynamic>?,
     );
 
-Map<String, dynamic> _$$StacClipOvalImplToJson(_$StacClipOvalImpl instance) =>
+Map<String, dynamic> _$StacClipOvalToJson(_StacClipOval instance) =>
     <String, dynamic>{
       'clipBehavior': _$ClipEnumMap[instance.clipBehavior]!,
       'child': instance.child,

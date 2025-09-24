@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,465 +9,244 @@ part of 'stac_gesture_detector.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
-StacGestureDetector _$StacGestureDetectorFromJson(Map<String, dynamic> json) {
-  return _StacGestureDetector.fromJson(json);
-}
 
 /// @nodoc
 mixin _$StacGestureDetector {
-  Map<String, dynamic>? get child => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onTapDown => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onTapUp => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onTap => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onTapCancel => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onSecondaryTap =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onSecondaryTapDown =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onSecondaryTapUp =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onSecondaryTapCancel =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onTertiaryTapDown =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onTertiaryTapUp =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onTertiaryTapCancel =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onDoubleTapDown =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onDoubleTap => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onDoubleTapCancel =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onLongPressDown =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onLongPressCancel =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onLongPress => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onLongPressStart =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onLongPressMoveUpdate =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onLongPressUp => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onLongPressEnd =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onSecondaryLongPressDown =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onSecondaryLongPressCancel =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onSecondaryLongPress =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onSecondaryLongPressStart =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onSecondaryLongPressMoveUpdate =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onSecondaryLongPressUp =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onSecondaryLongPressEnd =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onTertiaryLongPressDown =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onTertiaryLongPressCancel =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onTertiaryLongPress =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onTertiaryLongPressStart =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onTertiaryLongPressMoveUpdate =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onTertiaryLongPressUp =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onTertiaryLongPressEnd =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onVerticalDragDown =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onVerticalDragStart =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onVerticalDragUpdate =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onVerticalDragEnd =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onVerticalDragCancel =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onHorizontalDragDown =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onHorizontalDragStart =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onHorizontalDragUpdate =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onHorizontalDragEnd =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onHorizontalDragCancel =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onForcePressStart =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onForcePressPeak =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onForcePressUpdate =>
-      throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onForcePressEnd =>
-      throw _privateConstructorUsedError;
-  bool get excludeFromSemantics => throw _privateConstructorUsedError;
-  DragStartBehavior get dragStartBehavior => throw _privateConstructorUsedError;
+  Map<String, dynamic>? get child;
+  Map<String, dynamic>? get onTapDown;
+  Map<String, dynamic>? get onTapUp;
+  Map<String, dynamic>? get onTap;
+  Map<String, dynamic>? get onTapCancel;
+  Map<String, dynamic>? get onSecondaryTap;
+  Map<String, dynamic>? get onSecondaryTapDown;
+  Map<String, dynamic>? get onSecondaryTapUp;
+  Map<String, dynamic>? get onSecondaryTapCancel;
+  Map<String, dynamic>? get onTertiaryTapDown;
+  Map<String, dynamic>? get onTertiaryTapUp;
+  Map<String, dynamic>? get onTertiaryTapCancel;
+  Map<String, dynamic>? get onDoubleTapDown;
+  Map<String, dynamic>? get onDoubleTap;
+  Map<String, dynamic>? get onDoubleTapCancel;
+  Map<String, dynamic>? get onLongPressDown;
+  Map<String, dynamic>? get onLongPressCancel;
+  Map<String, dynamic>? get onLongPress;
+  Map<String, dynamic>? get onLongPressStart;
+  Map<String, dynamic>? get onLongPressMoveUpdate;
+  Map<String, dynamic>? get onLongPressUp;
+  Map<String, dynamic>? get onLongPressEnd;
+  Map<String, dynamic>? get onSecondaryLongPressDown;
+  Map<String, dynamic>? get onSecondaryLongPressCancel;
+  Map<String, dynamic>? get onSecondaryLongPress;
+  Map<String, dynamic>? get onSecondaryLongPressStart;
+  Map<String, dynamic>? get onSecondaryLongPressMoveUpdate;
+  Map<String, dynamic>? get onSecondaryLongPressUp;
+  Map<String, dynamic>? get onSecondaryLongPressEnd;
+  Map<String, dynamic>? get onTertiaryLongPressDown;
+  Map<String, dynamic>? get onTertiaryLongPressCancel;
+  Map<String, dynamic>? get onTertiaryLongPress;
+  Map<String, dynamic>? get onTertiaryLongPressStart;
+  Map<String, dynamic>? get onTertiaryLongPressMoveUpdate;
+  Map<String, dynamic>? get onTertiaryLongPressUp;
+  Map<String, dynamic>? get onTertiaryLongPressEnd;
+  Map<String, dynamic>? get onVerticalDragDown;
+  Map<String, dynamic>? get onVerticalDragStart;
+  Map<String, dynamic>? get onVerticalDragUpdate;
+  Map<String, dynamic>? get onVerticalDragEnd;
+  Map<String, dynamic>? get onVerticalDragCancel;
+  Map<String, dynamic>? get onHorizontalDragDown;
+  Map<String, dynamic>? get onHorizontalDragStart;
+  Map<String, dynamic>? get onHorizontalDragUpdate;
+  Map<String, dynamic>? get onHorizontalDragEnd;
+  Map<String, dynamic>? get onHorizontalDragCancel;
+  Map<String, dynamic>? get onForcePressStart;
+  Map<String, dynamic>? get onForcePressPeak;
+  Map<String, dynamic>? get onForcePressUpdate;
+  Map<String, dynamic>? get onForcePressEnd;
+  bool get excludeFromSemantics;
+  DragStartBehavior get dragStartBehavior;
 
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
-  $StacGestureDetectorCopyWith<StacGestureDetector> get copyWith =>
-      throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $StacGestureDetectorCopyWith<$Res> {
-  factory $StacGestureDetectorCopyWith(
-          StacGestureDetector value, $Res Function(StacGestureDetector) then) =
-      _$StacGestureDetectorCopyWithImpl<$Res, StacGestureDetector>;
-  @useResult
-  $Res call(
-      {Map<String, dynamic>? child,
-      Map<String, dynamic>? onTapDown,
-      Map<String, dynamic>? onTapUp,
-      Map<String, dynamic>? onTap,
-      Map<String, dynamic>? onTapCancel,
-      Map<String, dynamic>? onSecondaryTap,
-      Map<String, dynamic>? onSecondaryTapDown,
-      Map<String, dynamic>? onSecondaryTapUp,
-      Map<String, dynamic>? onSecondaryTapCancel,
-      Map<String, dynamic>? onTertiaryTapDown,
-      Map<String, dynamic>? onTertiaryTapUp,
-      Map<String, dynamic>? onTertiaryTapCancel,
-      Map<String, dynamic>? onDoubleTapDown,
-      Map<String, dynamic>? onDoubleTap,
-      Map<String, dynamic>? onDoubleTapCancel,
-      Map<String, dynamic>? onLongPressDown,
-      Map<String, dynamic>? onLongPressCancel,
-      Map<String, dynamic>? onLongPress,
-      Map<String, dynamic>? onLongPressStart,
-      Map<String, dynamic>? onLongPressMoveUpdate,
-      Map<String, dynamic>? onLongPressUp,
-      Map<String, dynamic>? onLongPressEnd,
-      Map<String, dynamic>? onSecondaryLongPressDown,
-      Map<String, dynamic>? onSecondaryLongPressCancel,
-      Map<String, dynamic>? onSecondaryLongPress,
-      Map<String, dynamic>? onSecondaryLongPressStart,
-      Map<String, dynamic>? onSecondaryLongPressMoveUpdate,
-      Map<String, dynamic>? onSecondaryLongPressUp,
-      Map<String, dynamic>? onSecondaryLongPressEnd,
-      Map<String, dynamic>? onTertiaryLongPressDown,
-      Map<String, dynamic>? onTertiaryLongPressCancel,
-      Map<String, dynamic>? onTertiaryLongPress,
-      Map<String, dynamic>? onTertiaryLongPressStart,
-      Map<String, dynamic>? onTertiaryLongPressMoveUpdate,
-      Map<String, dynamic>? onTertiaryLongPressUp,
-      Map<String, dynamic>? onTertiaryLongPressEnd,
-      Map<String, dynamic>? onVerticalDragDown,
-      Map<String, dynamic>? onVerticalDragStart,
-      Map<String, dynamic>? onVerticalDragUpdate,
-      Map<String, dynamic>? onVerticalDragEnd,
-      Map<String, dynamic>? onVerticalDragCancel,
-      Map<String, dynamic>? onHorizontalDragDown,
-      Map<String, dynamic>? onHorizontalDragStart,
-      Map<String, dynamic>? onHorizontalDragUpdate,
-      Map<String, dynamic>? onHorizontalDragEnd,
-      Map<String, dynamic>? onHorizontalDragCancel,
-      Map<String, dynamic>? onForcePressStart,
-      Map<String, dynamic>? onForcePressPeak,
-      Map<String, dynamic>? onForcePressUpdate,
-      Map<String, dynamic>? onForcePressEnd,
-      bool excludeFromSemantics,
-      DragStartBehavior dragStartBehavior});
-}
-
-/// @nodoc
-class _$StacGestureDetectorCopyWithImpl<$Res, $Val extends StacGestureDetector>
-    implements $StacGestureDetectorCopyWith<$Res> {
-  _$StacGestureDetectorCopyWithImpl(this._value, this._then);
-
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
-
+  /// Create a copy of StacGestureDetector
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @pragma('vm:prefer-inline')
+  $StacGestureDetectorCopyWith<StacGestureDetector> get copyWith =>
+      _$StacGestureDetectorCopyWithImpl<StacGestureDetector>(
+          this as StacGestureDetector, _$identity);
+
+  /// Serializes this StacGestureDetector to a JSON map.
+  Map<String, dynamic> toJson();
+
   @override
-  $Res call({
-    Object? child = freezed,
-    Object? onTapDown = freezed,
-    Object? onTapUp = freezed,
-    Object? onTap = freezed,
-    Object? onTapCancel = freezed,
-    Object? onSecondaryTap = freezed,
-    Object? onSecondaryTapDown = freezed,
-    Object? onSecondaryTapUp = freezed,
-    Object? onSecondaryTapCancel = freezed,
-    Object? onTertiaryTapDown = freezed,
-    Object? onTertiaryTapUp = freezed,
-    Object? onTertiaryTapCancel = freezed,
-    Object? onDoubleTapDown = freezed,
-    Object? onDoubleTap = freezed,
-    Object? onDoubleTapCancel = freezed,
-    Object? onLongPressDown = freezed,
-    Object? onLongPressCancel = freezed,
-    Object? onLongPress = freezed,
-    Object? onLongPressStart = freezed,
-    Object? onLongPressMoveUpdate = freezed,
-    Object? onLongPressUp = freezed,
-    Object? onLongPressEnd = freezed,
-    Object? onSecondaryLongPressDown = freezed,
-    Object? onSecondaryLongPressCancel = freezed,
-    Object? onSecondaryLongPress = freezed,
-    Object? onSecondaryLongPressStart = freezed,
-    Object? onSecondaryLongPressMoveUpdate = freezed,
-    Object? onSecondaryLongPressUp = freezed,
-    Object? onSecondaryLongPressEnd = freezed,
-    Object? onTertiaryLongPressDown = freezed,
-    Object? onTertiaryLongPressCancel = freezed,
-    Object? onTertiaryLongPress = freezed,
-    Object? onTertiaryLongPressStart = freezed,
-    Object? onTertiaryLongPressMoveUpdate = freezed,
-    Object? onTertiaryLongPressUp = freezed,
-    Object? onTertiaryLongPressEnd = freezed,
-    Object? onVerticalDragDown = freezed,
-    Object? onVerticalDragStart = freezed,
-    Object? onVerticalDragUpdate = freezed,
-    Object? onVerticalDragEnd = freezed,
-    Object? onVerticalDragCancel = freezed,
-    Object? onHorizontalDragDown = freezed,
-    Object? onHorizontalDragStart = freezed,
-    Object? onHorizontalDragUpdate = freezed,
-    Object? onHorizontalDragEnd = freezed,
-    Object? onHorizontalDragCancel = freezed,
-    Object? onForcePressStart = freezed,
-    Object? onForcePressPeak = freezed,
-    Object? onForcePressUpdate = freezed,
-    Object? onForcePressEnd = freezed,
-    Object? excludeFromSemantics = null,
-    Object? dragStartBehavior = null,
-  }) {
-    return _then(_value.copyWith(
-      child: freezed == child
-          ? _value.child
-          : child // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onTapDown: freezed == onTapDown
-          ? _value.onTapDown
-          : onTapDown // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onTapUp: freezed == onTapUp
-          ? _value.onTapUp
-          : onTapUp // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onTap: freezed == onTap
-          ? _value.onTap
-          : onTap // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onTapCancel: freezed == onTapCancel
-          ? _value.onTapCancel
-          : onTapCancel // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onSecondaryTap: freezed == onSecondaryTap
-          ? _value.onSecondaryTap
-          : onSecondaryTap // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onSecondaryTapDown: freezed == onSecondaryTapDown
-          ? _value.onSecondaryTapDown
-          : onSecondaryTapDown // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onSecondaryTapUp: freezed == onSecondaryTapUp
-          ? _value.onSecondaryTapUp
-          : onSecondaryTapUp // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onSecondaryTapCancel: freezed == onSecondaryTapCancel
-          ? _value.onSecondaryTapCancel
-          : onSecondaryTapCancel // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onTertiaryTapDown: freezed == onTertiaryTapDown
-          ? _value.onTertiaryTapDown
-          : onTertiaryTapDown // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onTertiaryTapUp: freezed == onTertiaryTapUp
-          ? _value.onTertiaryTapUp
-          : onTertiaryTapUp // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onTertiaryTapCancel: freezed == onTertiaryTapCancel
-          ? _value.onTertiaryTapCancel
-          : onTertiaryTapCancel // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onDoubleTapDown: freezed == onDoubleTapDown
-          ? _value.onDoubleTapDown
-          : onDoubleTapDown // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onDoubleTap: freezed == onDoubleTap
-          ? _value.onDoubleTap
-          : onDoubleTap // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onDoubleTapCancel: freezed == onDoubleTapCancel
-          ? _value.onDoubleTapCancel
-          : onDoubleTapCancel // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onLongPressDown: freezed == onLongPressDown
-          ? _value.onLongPressDown
-          : onLongPressDown // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onLongPressCancel: freezed == onLongPressCancel
-          ? _value.onLongPressCancel
-          : onLongPressCancel // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onLongPress: freezed == onLongPress
-          ? _value.onLongPress
-          : onLongPress // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onLongPressStart: freezed == onLongPressStart
-          ? _value.onLongPressStart
-          : onLongPressStart // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onLongPressMoveUpdate: freezed == onLongPressMoveUpdate
-          ? _value.onLongPressMoveUpdate
-          : onLongPressMoveUpdate // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onLongPressUp: freezed == onLongPressUp
-          ? _value.onLongPressUp
-          : onLongPressUp // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onLongPressEnd: freezed == onLongPressEnd
-          ? _value.onLongPressEnd
-          : onLongPressEnd // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onSecondaryLongPressDown: freezed == onSecondaryLongPressDown
-          ? _value.onSecondaryLongPressDown
-          : onSecondaryLongPressDown // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onSecondaryLongPressCancel: freezed == onSecondaryLongPressCancel
-          ? _value.onSecondaryLongPressCancel
-          : onSecondaryLongPressCancel // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onSecondaryLongPress: freezed == onSecondaryLongPress
-          ? _value.onSecondaryLongPress
-          : onSecondaryLongPress // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onSecondaryLongPressStart: freezed == onSecondaryLongPressStart
-          ? _value.onSecondaryLongPressStart
-          : onSecondaryLongPressStart // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onSecondaryLongPressMoveUpdate: freezed == onSecondaryLongPressMoveUpdate
-          ? _value.onSecondaryLongPressMoveUpdate
-          : onSecondaryLongPressMoveUpdate // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onSecondaryLongPressUp: freezed == onSecondaryLongPressUp
-          ? _value.onSecondaryLongPressUp
-          : onSecondaryLongPressUp // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onSecondaryLongPressEnd: freezed == onSecondaryLongPressEnd
-          ? _value.onSecondaryLongPressEnd
-          : onSecondaryLongPressEnd // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onTertiaryLongPressDown: freezed == onTertiaryLongPressDown
-          ? _value.onTertiaryLongPressDown
-          : onTertiaryLongPressDown // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onTertiaryLongPressCancel: freezed == onTertiaryLongPressCancel
-          ? _value.onTertiaryLongPressCancel
-          : onTertiaryLongPressCancel // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onTertiaryLongPress: freezed == onTertiaryLongPress
-          ? _value.onTertiaryLongPress
-          : onTertiaryLongPress // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onTertiaryLongPressStart: freezed == onTertiaryLongPressStart
-          ? _value.onTertiaryLongPressStart
-          : onTertiaryLongPressStart // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onTertiaryLongPressMoveUpdate: freezed == onTertiaryLongPressMoveUpdate
-          ? _value.onTertiaryLongPressMoveUpdate
-          : onTertiaryLongPressMoveUpdate // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onTertiaryLongPressUp: freezed == onTertiaryLongPressUp
-          ? _value.onTertiaryLongPressUp
-          : onTertiaryLongPressUp // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onTertiaryLongPressEnd: freezed == onTertiaryLongPressEnd
-          ? _value.onTertiaryLongPressEnd
-          : onTertiaryLongPressEnd // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onVerticalDragDown: freezed == onVerticalDragDown
-          ? _value.onVerticalDragDown
-          : onVerticalDragDown // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onVerticalDragStart: freezed == onVerticalDragStart
-          ? _value.onVerticalDragStart
-          : onVerticalDragStart // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onVerticalDragUpdate: freezed == onVerticalDragUpdate
-          ? _value.onVerticalDragUpdate
-          : onVerticalDragUpdate // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onVerticalDragEnd: freezed == onVerticalDragEnd
-          ? _value.onVerticalDragEnd
-          : onVerticalDragEnd // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onVerticalDragCancel: freezed == onVerticalDragCancel
-          ? _value.onVerticalDragCancel
-          : onVerticalDragCancel // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onHorizontalDragDown: freezed == onHorizontalDragDown
-          ? _value.onHorizontalDragDown
-          : onHorizontalDragDown // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onHorizontalDragStart: freezed == onHorizontalDragStart
-          ? _value.onHorizontalDragStart
-          : onHorizontalDragStart // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onHorizontalDragUpdate: freezed == onHorizontalDragUpdate
-          ? _value.onHorizontalDragUpdate
-          : onHorizontalDragUpdate // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onHorizontalDragEnd: freezed == onHorizontalDragEnd
-          ? _value.onHorizontalDragEnd
-          : onHorizontalDragEnd // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onHorizontalDragCancel: freezed == onHorizontalDragCancel
-          ? _value.onHorizontalDragCancel
-          : onHorizontalDragCancel // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onForcePressStart: freezed == onForcePressStart
-          ? _value.onForcePressStart
-          : onForcePressStart // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onForcePressPeak: freezed == onForcePressPeak
-          ? _value.onForcePressPeak
-          : onForcePressPeak // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onForcePressUpdate: freezed == onForcePressUpdate
-          ? _value.onForcePressUpdate
-          : onForcePressUpdate // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      onForcePressEnd: freezed == onForcePressEnd
-          ? _value.onForcePressEnd
-          : onForcePressEnd // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      excludeFromSemantics: null == excludeFromSemantics
-          ? _value.excludeFromSemantics
-          : excludeFromSemantics // ignore: cast_nullable_to_non_nullable
-              as bool,
-      dragStartBehavior: null == dragStartBehavior
-          ? _value.dragStartBehavior
-          : dragStartBehavior // ignore: cast_nullable_to_non_nullable
-              as DragStartBehavior,
-    ) as $Val);
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is StacGestureDetector &&
+            const DeepCollectionEquality().equals(other.child, child) &&
+            const DeepCollectionEquality().equals(other.onTapDown, onTapDown) &&
+            const DeepCollectionEquality().equals(other.onTapUp, onTapUp) &&
+            const DeepCollectionEquality().equals(other.onTap, onTap) &&
+            const DeepCollectionEquality()
+                .equals(other.onTapCancel, onTapCancel) &&
+            const DeepCollectionEquality()
+                .equals(other.onSecondaryTap, onSecondaryTap) &&
+            const DeepCollectionEquality()
+                .equals(other.onSecondaryTapDown, onSecondaryTapDown) &&
+            const DeepCollectionEquality()
+                .equals(other.onSecondaryTapUp, onSecondaryTapUp) &&
+            const DeepCollectionEquality()
+                .equals(other.onSecondaryTapCancel, onSecondaryTapCancel) &&
+            const DeepCollectionEquality()
+                .equals(other.onTertiaryTapDown, onTertiaryTapDown) &&
+            const DeepCollectionEquality()
+                .equals(other.onTertiaryTapUp, onTertiaryTapUp) &&
+            const DeepCollectionEquality()
+                .equals(other.onTertiaryTapCancel, onTertiaryTapCancel) &&
+            const DeepCollectionEquality()
+                .equals(other.onDoubleTapDown, onDoubleTapDown) &&
+            const DeepCollectionEquality()
+                .equals(other.onDoubleTap, onDoubleTap) &&
+            const DeepCollectionEquality()
+                .equals(other.onDoubleTapCancel, onDoubleTapCancel) &&
+            const DeepCollectionEquality()
+                .equals(other.onLongPressDown, onLongPressDown) &&
+            const DeepCollectionEquality()
+                .equals(other.onLongPressCancel, onLongPressCancel) &&
+            const DeepCollectionEquality()
+                .equals(other.onLongPress, onLongPress) &&
+            const DeepCollectionEquality()
+                .equals(other.onLongPressStart, onLongPressStart) &&
+            const DeepCollectionEquality()
+                .equals(other.onLongPressMoveUpdate, onLongPressMoveUpdate) &&
+            const DeepCollectionEquality()
+                .equals(other.onLongPressUp, onLongPressUp) &&
+            const DeepCollectionEquality()
+                .equals(other.onLongPressEnd, onLongPressEnd) &&
+            const DeepCollectionEquality().equals(
+                other.onSecondaryLongPressDown, onSecondaryLongPressDown) &&
+            const DeepCollectionEquality().equals(
+                other.onSecondaryLongPressCancel, onSecondaryLongPressCancel) &&
+            const DeepCollectionEquality()
+                .equals(other.onSecondaryLongPress, onSecondaryLongPress) &&
+            const DeepCollectionEquality().equals(
+                other.onSecondaryLongPressStart, onSecondaryLongPressStart) &&
+            const DeepCollectionEquality().equals(
+                other.onSecondaryLongPressMoveUpdate,
+                onSecondaryLongPressMoveUpdate) &&
+            const DeepCollectionEquality()
+                .equals(other.onSecondaryLongPressUp, onSecondaryLongPressUp) &&
+            const DeepCollectionEquality().equals(
+                other.onSecondaryLongPressEnd, onSecondaryLongPressEnd) &&
+            const DeepCollectionEquality().equals(
+                other.onTertiaryLongPressDown, onTertiaryLongPressDown) &&
+            const DeepCollectionEquality().equals(
+                other.onTertiaryLongPressCancel, onTertiaryLongPressCancel) &&
+            const DeepCollectionEquality()
+                .equals(other.onTertiaryLongPress, onTertiaryLongPress) &&
+            const DeepCollectionEquality().equals(
+                other.onTertiaryLongPressStart, onTertiaryLongPressStart) &&
+            const DeepCollectionEquality().equals(
+                other.onTertiaryLongPressMoveUpdate,
+                onTertiaryLongPressMoveUpdate) &&
+            const DeepCollectionEquality()
+                .equals(other.onTertiaryLongPressUp, onTertiaryLongPressUp) &&
+            const DeepCollectionEquality()
+                .equals(other.onTertiaryLongPressEnd, onTertiaryLongPressEnd) &&
+            const DeepCollectionEquality()
+                .equals(other.onVerticalDragDown, onVerticalDragDown) &&
+            const DeepCollectionEquality()
+                .equals(other.onVerticalDragStart, onVerticalDragStart) &&
+            const DeepCollectionEquality()
+                .equals(other.onVerticalDragUpdate, onVerticalDragUpdate) &&
+            const DeepCollectionEquality()
+                .equals(other.onVerticalDragEnd, onVerticalDragEnd) &&
+            const DeepCollectionEquality()
+                .equals(other.onVerticalDragCancel, onVerticalDragCancel) &&
+            const DeepCollectionEquality()
+                .equals(other.onHorizontalDragDown, onHorizontalDragDown) &&
+            const DeepCollectionEquality()
+                .equals(other.onHorizontalDragStart, onHorizontalDragStart) &&
+            const DeepCollectionEquality().equals(other.onHorizontalDragUpdate, onHorizontalDragUpdate) &&
+            const DeepCollectionEquality().equals(other.onHorizontalDragEnd, onHorizontalDragEnd) &&
+            const DeepCollectionEquality().equals(other.onHorizontalDragCancel, onHorizontalDragCancel) &&
+            const DeepCollectionEquality().equals(other.onForcePressStart, onForcePressStart) &&
+            const DeepCollectionEquality().equals(other.onForcePressPeak, onForcePressPeak) &&
+            const DeepCollectionEquality().equals(other.onForcePressUpdate, onForcePressUpdate) &&
+            const DeepCollectionEquality().equals(other.onForcePressEnd, onForcePressEnd) &&
+            (identical(other.excludeFromSemantics, excludeFromSemantics) || other.excludeFromSemantics == excludeFromSemantics) &&
+            (identical(other.dragStartBehavior, dragStartBehavior) || other.dragStartBehavior == dragStartBehavior));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hashAll([
+        runtimeType,
+        const DeepCollectionEquality().hash(child),
+        const DeepCollectionEquality().hash(onTapDown),
+        const DeepCollectionEquality().hash(onTapUp),
+        const DeepCollectionEquality().hash(onTap),
+        const DeepCollectionEquality().hash(onTapCancel),
+        const DeepCollectionEquality().hash(onSecondaryTap),
+        const DeepCollectionEquality().hash(onSecondaryTapDown),
+        const DeepCollectionEquality().hash(onSecondaryTapUp),
+        const DeepCollectionEquality().hash(onSecondaryTapCancel),
+        const DeepCollectionEquality().hash(onTertiaryTapDown),
+        const DeepCollectionEquality().hash(onTertiaryTapUp),
+        const DeepCollectionEquality().hash(onTertiaryTapCancel),
+        const DeepCollectionEquality().hash(onDoubleTapDown),
+        const DeepCollectionEquality().hash(onDoubleTap),
+        const DeepCollectionEquality().hash(onDoubleTapCancel),
+        const DeepCollectionEquality().hash(onLongPressDown),
+        const DeepCollectionEquality().hash(onLongPressCancel),
+        const DeepCollectionEquality().hash(onLongPress),
+        const DeepCollectionEquality().hash(onLongPressStart),
+        const DeepCollectionEquality().hash(onLongPressMoveUpdate),
+        const DeepCollectionEquality().hash(onLongPressUp),
+        const DeepCollectionEquality().hash(onLongPressEnd),
+        const DeepCollectionEquality().hash(onSecondaryLongPressDown),
+        const DeepCollectionEquality().hash(onSecondaryLongPressCancel),
+        const DeepCollectionEquality().hash(onSecondaryLongPress),
+        const DeepCollectionEquality().hash(onSecondaryLongPressStart),
+        const DeepCollectionEquality().hash(onSecondaryLongPressMoveUpdate),
+        const DeepCollectionEquality().hash(onSecondaryLongPressUp),
+        const DeepCollectionEquality().hash(onSecondaryLongPressEnd),
+        const DeepCollectionEquality().hash(onTertiaryLongPressDown),
+        const DeepCollectionEquality().hash(onTertiaryLongPressCancel),
+        const DeepCollectionEquality().hash(onTertiaryLongPress),
+        const DeepCollectionEquality().hash(onTertiaryLongPressStart),
+        const DeepCollectionEquality().hash(onTertiaryLongPressMoveUpdate),
+        const DeepCollectionEquality().hash(onTertiaryLongPressUp),
+        const DeepCollectionEquality().hash(onTertiaryLongPressEnd),
+        const DeepCollectionEquality().hash(onVerticalDragDown),
+        const DeepCollectionEquality().hash(onVerticalDragStart),
+        const DeepCollectionEquality().hash(onVerticalDragUpdate),
+        const DeepCollectionEquality().hash(onVerticalDragEnd),
+        const DeepCollectionEquality().hash(onVerticalDragCancel),
+        const DeepCollectionEquality().hash(onHorizontalDragDown),
+        const DeepCollectionEquality().hash(onHorizontalDragStart),
+        const DeepCollectionEquality().hash(onHorizontalDragUpdate),
+        const DeepCollectionEquality().hash(onHorizontalDragEnd),
+        const DeepCollectionEquality().hash(onHorizontalDragCancel),
+        const DeepCollectionEquality().hash(onForcePressStart),
+        const DeepCollectionEquality().hash(onForcePressPeak),
+        const DeepCollectionEquality().hash(onForcePressUpdate),
+        const DeepCollectionEquality().hash(onForcePressEnd),
+        excludeFromSemantics,
+        dragStartBehavior
+      ]);
+
+  @override
+  String toString() {
+    return 'StacGestureDetector(child: $child, onTapDown: $onTapDown, onTapUp: $onTapUp, onTap: $onTap, onTapCancel: $onTapCancel, onSecondaryTap: $onSecondaryTap, onSecondaryTapDown: $onSecondaryTapDown, onSecondaryTapUp: $onSecondaryTapUp, onSecondaryTapCancel: $onSecondaryTapCancel, onTertiaryTapDown: $onTertiaryTapDown, onTertiaryTapUp: $onTertiaryTapUp, onTertiaryTapCancel: $onTertiaryTapCancel, onDoubleTapDown: $onDoubleTapDown, onDoubleTap: $onDoubleTap, onDoubleTapCancel: $onDoubleTapCancel, onLongPressDown: $onLongPressDown, onLongPressCancel: $onLongPressCancel, onLongPress: $onLongPress, onLongPressStart: $onLongPressStart, onLongPressMoveUpdate: $onLongPressMoveUpdate, onLongPressUp: $onLongPressUp, onLongPressEnd: $onLongPressEnd, onSecondaryLongPressDown: $onSecondaryLongPressDown, onSecondaryLongPressCancel: $onSecondaryLongPressCancel, onSecondaryLongPress: $onSecondaryLongPress, onSecondaryLongPressStart: $onSecondaryLongPressStart, onSecondaryLongPressMoveUpdate: $onSecondaryLongPressMoveUpdate, onSecondaryLongPressUp: $onSecondaryLongPressUp, onSecondaryLongPressEnd: $onSecondaryLongPressEnd, onTertiaryLongPressDown: $onTertiaryLongPressDown, onTertiaryLongPressCancel: $onTertiaryLongPressCancel, onTertiaryLongPress: $onTertiaryLongPress, onTertiaryLongPressStart: $onTertiaryLongPressStart, onTertiaryLongPressMoveUpdate: $onTertiaryLongPressMoveUpdate, onTertiaryLongPressUp: $onTertiaryLongPressUp, onTertiaryLongPressEnd: $onTertiaryLongPressEnd, onVerticalDragDown: $onVerticalDragDown, onVerticalDragStart: $onVerticalDragStart, onVerticalDragUpdate: $onVerticalDragUpdate, onVerticalDragEnd: $onVerticalDragEnd, onVerticalDragCancel: $onVerticalDragCancel, onHorizontalDragDown: $onHorizontalDragDown, onHorizontalDragStart: $onHorizontalDragStart, onHorizontalDragUpdate: $onHorizontalDragUpdate, onHorizontalDragEnd: $onHorizontalDragEnd, onHorizontalDragCancel: $onHorizontalDragCancel, onForcePressStart: $onForcePressStart, onForcePressPeak: $onForcePressPeak, onForcePressUpdate: $onForcePressUpdate, onForcePressEnd: $onForcePressEnd, excludeFromSemantics: $excludeFromSemantics, dragStartBehavior: $dragStartBehavior)';
   }
 }
 
 /// @nodoc
-abstract class _$$StacGestureDetectorImplCopyWith<$Res>
-    implements $StacGestureDetectorCopyWith<$Res> {
-  factory _$$StacGestureDetectorImplCopyWith(_$StacGestureDetectorImpl value,
-          $Res Function(_$StacGestureDetectorImpl) then) =
-      __$$StacGestureDetectorImplCopyWithImpl<$Res>;
-  @override
+abstract mixin class $StacGestureDetectorCopyWith<$Res> {
+  factory $StacGestureDetectorCopyWith(
+          StacGestureDetector value, $Res Function(StacGestureDetector) _then) =
+      _$StacGestureDetectorCopyWithImpl;
   @useResult
   $Res call(
       {Map<String, dynamic>? child,
@@ -525,13 +304,15 @@ abstract class _$$StacGestureDetectorImplCopyWith<$Res>
 }
 
 /// @nodoc
-class __$$StacGestureDetectorImplCopyWithImpl<$Res>
-    extends _$StacGestureDetectorCopyWithImpl<$Res, _$StacGestureDetectorImpl>
-    implements _$$StacGestureDetectorImplCopyWith<$Res> {
-  __$$StacGestureDetectorImplCopyWithImpl(_$StacGestureDetectorImpl _value,
-      $Res Function(_$StacGestureDetectorImpl) _then)
-      : super(_value, _then);
+class _$StacGestureDetectorCopyWithImpl<$Res>
+    implements $StacGestureDetectorCopyWith<$Res> {
+  _$StacGestureDetectorCopyWithImpl(this._self, this._then);
 
+  final StacGestureDetector _self;
+  final $Res Function(StacGestureDetector) _then;
+
+  /// Create a copy of StacGestureDetector
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -588,223 +369,695 @@ class __$$StacGestureDetectorImplCopyWithImpl<$Res>
     Object? excludeFromSemantics = null,
     Object? dragStartBehavior = null,
   }) {
-    return _then(_$StacGestureDetectorImpl(
+    return _then(_self.copyWith(
       child: freezed == child
-          ? _value._child
+          ? _self.child
           : child // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onTapDown: freezed == onTapDown
-          ? _value._onTapDown
+          ? _self.onTapDown
           : onTapDown // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onTapUp: freezed == onTapUp
-          ? _value._onTapUp
+          ? _self.onTapUp
           : onTapUp // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onTap: freezed == onTap
-          ? _value._onTap
+          ? _self.onTap
           : onTap // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onTapCancel: freezed == onTapCancel
-          ? _value._onTapCancel
+          ? _self.onTapCancel
           : onTapCancel // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onSecondaryTap: freezed == onSecondaryTap
-          ? _value._onSecondaryTap
+          ? _self.onSecondaryTap
           : onSecondaryTap // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onSecondaryTapDown: freezed == onSecondaryTapDown
-          ? _value._onSecondaryTapDown
+          ? _self.onSecondaryTapDown
           : onSecondaryTapDown // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onSecondaryTapUp: freezed == onSecondaryTapUp
-          ? _value._onSecondaryTapUp
+          ? _self.onSecondaryTapUp
           : onSecondaryTapUp // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onSecondaryTapCancel: freezed == onSecondaryTapCancel
-          ? _value._onSecondaryTapCancel
+          ? _self.onSecondaryTapCancel
           : onSecondaryTapCancel // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onTertiaryTapDown: freezed == onTertiaryTapDown
-          ? _value._onTertiaryTapDown
+          ? _self.onTertiaryTapDown
           : onTertiaryTapDown // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onTertiaryTapUp: freezed == onTertiaryTapUp
-          ? _value._onTertiaryTapUp
+          ? _self.onTertiaryTapUp
           : onTertiaryTapUp // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onTertiaryTapCancel: freezed == onTertiaryTapCancel
-          ? _value._onTertiaryTapCancel
+          ? _self.onTertiaryTapCancel
           : onTertiaryTapCancel // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onDoubleTapDown: freezed == onDoubleTapDown
-          ? _value._onDoubleTapDown
+          ? _self.onDoubleTapDown
           : onDoubleTapDown // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onDoubleTap: freezed == onDoubleTap
-          ? _value._onDoubleTap
+          ? _self.onDoubleTap
           : onDoubleTap // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onDoubleTapCancel: freezed == onDoubleTapCancel
-          ? _value._onDoubleTapCancel
+          ? _self.onDoubleTapCancel
           : onDoubleTapCancel // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onLongPressDown: freezed == onLongPressDown
-          ? _value._onLongPressDown
+          ? _self.onLongPressDown
           : onLongPressDown // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onLongPressCancel: freezed == onLongPressCancel
-          ? _value._onLongPressCancel
+          ? _self.onLongPressCancel
           : onLongPressCancel // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onLongPress: freezed == onLongPress
-          ? _value._onLongPress
+          ? _self.onLongPress
           : onLongPress // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onLongPressStart: freezed == onLongPressStart
-          ? _value._onLongPressStart
+          ? _self.onLongPressStart
           : onLongPressStart // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onLongPressMoveUpdate: freezed == onLongPressMoveUpdate
-          ? _value._onLongPressMoveUpdate
+          ? _self.onLongPressMoveUpdate
           : onLongPressMoveUpdate // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onLongPressUp: freezed == onLongPressUp
-          ? _value._onLongPressUp
+          ? _self.onLongPressUp
           : onLongPressUp // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onLongPressEnd: freezed == onLongPressEnd
-          ? _value._onLongPressEnd
+          ? _self.onLongPressEnd
           : onLongPressEnd // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onSecondaryLongPressDown: freezed == onSecondaryLongPressDown
-          ? _value._onSecondaryLongPressDown
+          ? _self.onSecondaryLongPressDown
           : onSecondaryLongPressDown // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onSecondaryLongPressCancel: freezed == onSecondaryLongPressCancel
-          ? _value._onSecondaryLongPressCancel
+          ? _self.onSecondaryLongPressCancel
           : onSecondaryLongPressCancel // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onSecondaryLongPress: freezed == onSecondaryLongPress
-          ? _value._onSecondaryLongPress
+          ? _self.onSecondaryLongPress
           : onSecondaryLongPress // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onSecondaryLongPressStart: freezed == onSecondaryLongPressStart
-          ? _value._onSecondaryLongPressStart
+          ? _self.onSecondaryLongPressStart
           : onSecondaryLongPressStart // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onSecondaryLongPressMoveUpdate: freezed == onSecondaryLongPressMoveUpdate
-          ? _value._onSecondaryLongPressMoveUpdate
+          ? _self.onSecondaryLongPressMoveUpdate
           : onSecondaryLongPressMoveUpdate // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onSecondaryLongPressUp: freezed == onSecondaryLongPressUp
-          ? _value._onSecondaryLongPressUp
+          ? _self.onSecondaryLongPressUp
           : onSecondaryLongPressUp // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onSecondaryLongPressEnd: freezed == onSecondaryLongPressEnd
-          ? _value._onSecondaryLongPressEnd
+          ? _self.onSecondaryLongPressEnd
           : onSecondaryLongPressEnd // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onTertiaryLongPressDown: freezed == onTertiaryLongPressDown
-          ? _value._onTertiaryLongPressDown
+          ? _self.onTertiaryLongPressDown
           : onTertiaryLongPressDown // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onTertiaryLongPressCancel: freezed == onTertiaryLongPressCancel
-          ? _value._onTertiaryLongPressCancel
+          ? _self.onTertiaryLongPressCancel
           : onTertiaryLongPressCancel // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onTertiaryLongPress: freezed == onTertiaryLongPress
-          ? _value._onTertiaryLongPress
+          ? _self.onTertiaryLongPress
           : onTertiaryLongPress // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onTertiaryLongPressStart: freezed == onTertiaryLongPressStart
-          ? _value._onTertiaryLongPressStart
+          ? _self.onTertiaryLongPressStart
           : onTertiaryLongPressStart // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onTertiaryLongPressMoveUpdate: freezed == onTertiaryLongPressMoveUpdate
-          ? _value._onTertiaryLongPressMoveUpdate
+          ? _self.onTertiaryLongPressMoveUpdate
           : onTertiaryLongPressMoveUpdate // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onTertiaryLongPressUp: freezed == onTertiaryLongPressUp
-          ? _value._onTertiaryLongPressUp
+          ? _self.onTertiaryLongPressUp
           : onTertiaryLongPressUp // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onTertiaryLongPressEnd: freezed == onTertiaryLongPressEnd
-          ? _value._onTertiaryLongPressEnd
+          ? _self.onTertiaryLongPressEnd
           : onTertiaryLongPressEnd // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onVerticalDragDown: freezed == onVerticalDragDown
-          ? _value._onVerticalDragDown
+          ? _self.onVerticalDragDown
           : onVerticalDragDown // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onVerticalDragStart: freezed == onVerticalDragStart
-          ? _value._onVerticalDragStart
+          ? _self.onVerticalDragStart
           : onVerticalDragStart // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onVerticalDragUpdate: freezed == onVerticalDragUpdate
-          ? _value._onVerticalDragUpdate
+          ? _self.onVerticalDragUpdate
           : onVerticalDragUpdate // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onVerticalDragEnd: freezed == onVerticalDragEnd
-          ? _value._onVerticalDragEnd
+          ? _self.onVerticalDragEnd
           : onVerticalDragEnd // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onVerticalDragCancel: freezed == onVerticalDragCancel
-          ? _value._onVerticalDragCancel
+          ? _self.onVerticalDragCancel
           : onVerticalDragCancel // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onHorizontalDragDown: freezed == onHorizontalDragDown
-          ? _value._onHorizontalDragDown
+          ? _self.onHorizontalDragDown
           : onHorizontalDragDown // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onHorizontalDragStart: freezed == onHorizontalDragStart
-          ? _value._onHorizontalDragStart
+          ? _self.onHorizontalDragStart
           : onHorizontalDragStart // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onHorizontalDragUpdate: freezed == onHorizontalDragUpdate
-          ? _value._onHorizontalDragUpdate
+          ? _self.onHorizontalDragUpdate
           : onHorizontalDragUpdate // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onHorizontalDragEnd: freezed == onHorizontalDragEnd
-          ? _value._onHorizontalDragEnd
+          ? _self.onHorizontalDragEnd
           : onHorizontalDragEnd // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onHorizontalDragCancel: freezed == onHorizontalDragCancel
-          ? _value._onHorizontalDragCancel
+          ? _self.onHorizontalDragCancel
           : onHorizontalDragCancel // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onForcePressStart: freezed == onForcePressStart
-          ? _value._onForcePressStart
+          ? _self.onForcePressStart
           : onForcePressStart // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onForcePressPeak: freezed == onForcePressPeak
-          ? _value._onForcePressPeak
+          ? _self.onForcePressPeak
           : onForcePressPeak // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onForcePressUpdate: freezed == onForcePressUpdate
-          ? _value._onForcePressUpdate
+          ? _self.onForcePressUpdate
           : onForcePressUpdate // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       onForcePressEnd: freezed == onForcePressEnd
-          ? _value._onForcePressEnd
+          ? _self.onForcePressEnd
           : onForcePressEnd // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       excludeFromSemantics: null == excludeFromSemantics
-          ? _value.excludeFromSemantics
+          ? _self.excludeFromSemantics
           : excludeFromSemantics // ignore: cast_nullable_to_non_nullable
               as bool,
       dragStartBehavior: null == dragStartBehavior
-          ? _value.dragStartBehavior
+          ? _self.dragStartBehavior
           : dragStartBehavior // ignore: cast_nullable_to_non_nullable
               as DragStartBehavior,
     ));
   }
 }
 
+/// Adds pattern-matching-related methods to [StacGestureDetector].
+extension StacGestureDetectorPatterns on StacGestureDetector {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_StacGestureDetector value)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacGestureDetector() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_StacGestureDetector value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacGestureDetector():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_StacGestureDetector value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacGestureDetector() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(
+            Map<String, dynamic>? child,
+            Map<String, dynamic>? onTapDown,
+            Map<String, dynamic>? onTapUp,
+            Map<String, dynamic>? onTap,
+            Map<String, dynamic>? onTapCancel,
+            Map<String, dynamic>? onSecondaryTap,
+            Map<String, dynamic>? onSecondaryTapDown,
+            Map<String, dynamic>? onSecondaryTapUp,
+            Map<String, dynamic>? onSecondaryTapCancel,
+            Map<String, dynamic>? onTertiaryTapDown,
+            Map<String, dynamic>? onTertiaryTapUp,
+            Map<String, dynamic>? onTertiaryTapCancel,
+            Map<String, dynamic>? onDoubleTapDown,
+            Map<String, dynamic>? onDoubleTap,
+            Map<String, dynamic>? onDoubleTapCancel,
+            Map<String, dynamic>? onLongPressDown,
+            Map<String, dynamic>? onLongPressCancel,
+            Map<String, dynamic>? onLongPress,
+            Map<String, dynamic>? onLongPressStart,
+            Map<String, dynamic>? onLongPressMoveUpdate,
+            Map<String, dynamic>? onLongPressUp,
+            Map<String, dynamic>? onLongPressEnd,
+            Map<String, dynamic>? onSecondaryLongPressDown,
+            Map<String, dynamic>? onSecondaryLongPressCancel,
+            Map<String, dynamic>? onSecondaryLongPress,
+            Map<String, dynamic>? onSecondaryLongPressStart,
+            Map<String, dynamic>? onSecondaryLongPressMoveUpdate,
+            Map<String, dynamic>? onSecondaryLongPressUp,
+            Map<String, dynamic>? onSecondaryLongPressEnd,
+            Map<String, dynamic>? onTertiaryLongPressDown,
+            Map<String, dynamic>? onTertiaryLongPressCancel,
+            Map<String, dynamic>? onTertiaryLongPress,
+            Map<String, dynamic>? onTertiaryLongPressStart,
+            Map<String, dynamic>? onTertiaryLongPressMoveUpdate,
+            Map<String, dynamic>? onTertiaryLongPressUp,
+            Map<String, dynamic>? onTertiaryLongPressEnd,
+            Map<String, dynamic>? onVerticalDragDown,
+            Map<String, dynamic>? onVerticalDragStart,
+            Map<String, dynamic>? onVerticalDragUpdate,
+            Map<String, dynamic>? onVerticalDragEnd,
+            Map<String, dynamic>? onVerticalDragCancel,
+            Map<String, dynamic>? onHorizontalDragDown,
+            Map<String, dynamic>? onHorizontalDragStart,
+            Map<String, dynamic>? onHorizontalDragUpdate,
+            Map<String, dynamic>? onHorizontalDragEnd,
+            Map<String, dynamic>? onHorizontalDragCancel,
+            Map<String, dynamic>? onForcePressStart,
+            Map<String, dynamic>? onForcePressPeak,
+            Map<String, dynamic>? onForcePressUpdate,
+            Map<String, dynamic>? onForcePressEnd,
+            bool excludeFromSemantics,
+            DragStartBehavior dragStartBehavior)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacGestureDetector() when $default != null:
+        return $default(
+            _that.child,
+            _that.onTapDown,
+            _that.onTapUp,
+            _that.onTap,
+            _that.onTapCancel,
+            _that.onSecondaryTap,
+            _that.onSecondaryTapDown,
+            _that.onSecondaryTapUp,
+            _that.onSecondaryTapCancel,
+            _that.onTertiaryTapDown,
+            _that.onTertiaryTapUp,
+            _that.onTertiaryTapCancel,
+            _that.onDoubleTapDown,
+            _that.onDoubleTap,
+            _that.onDoubleTapCancel,
+            _that.onLongPressDown,
+            _that.onLongPressCancel,
+            _that.onLongPress,
+            _that.onLongPressStart,
+            _that.onLongPressMoveUpdate,
+            _that.onLongPressUp,
+            _that.onLongPressEnd,
+            _that.onSecondaryLongPressDown,
+            _that.onSecondaryLongPressCancel,
+            _that.onSecondaryLongPress,
+            _that.onSecondaryLongPressStart,
+            _that.onSecondaryLongPressMoveUpdate,
+            _that.onSecondaryLongPressUp,
+            _that.onSecondaryLongPressEnd,
+            _that.onTertiaryLongPressDown,
+            _that.onTertiaryLongPressCancel,
+            _that.onTertiaryLongPress,
+            _that.onTertiaryLongPressStart,
+            _that.onTertiaryLongPressMoveUpdate,
+            _that.onTertiaryLongPressUp,
+            _that.onTertiaryLongPressEnd,
+            _that.onVerticalDragDown,
+            _that.onVerticalDragStart,
+            _that.onVerticalDragUpdate,
+            _that.onVerticalDragEnd,
+            _that.onVerticalDragCancel,
+            _that.onHorizontalDragDown,
+            _that.onHorizontalDragStart,
+            _that.onHorizontalDragUpdate,
+            _that.onHorizontalDragEnd,
+            _that.onHorizontalDragCancel,
+            _that.onForcePressStart,
+            _that.onForcePressPeak,
+            _that.onForcePressUpdate,
+            _that.onForcePressEnd,
+            _that.excludeFromSemantics,
+            _that.dragStartBehavior);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(
+            Map<String, dynamic>? child,
+            Map<String, dynamic>? onTapDown,
+            Map<String, dynamic>? onTapUp,
+            Map<String, dynamic>? onTap,
+            Map<String, dynamic>? onTapCancel,
+            Map<String, dynamic>? onSecondaryTap,
+            Map<String, dynamic>? onSecondaryTapDown,
+            Map<String, dynamic>? onSecondaryTapUp,
+            Map<String, dynamic>? onSecondaryTapCancel,
+            Map<String, dynamic>? onTertiaryTapDown,
+            Map<String, dynamic>? onTertiaryTapUp,
+            Map<String, dynamic>? onTertiaryTapCancel,
+            Map<String, dynamic>? onDoubleTapDown,
+            Map<String, dynamic>? onDoubleTap,
+            Map<String, dynamic>? onDoubleTapCancel,
+            Map<String, dynamic>? onLongPressDown,
+            Map<String, dynamic>? onLongPressCancel,
+            Map<String, dynamic>? onLongPress,
+            Map<String, dynamic>? onLongPressStart,
+            Map<String, dynamic>? onLongPressMoveUpdate,
+            Map<String, dynamic>? onLongPressUp,
+            Map<String, dynamic>? onLongPressEnd,
+            Map<String, dynamic>? onSecondaryLongPressDown,
+            Map<String, dynamic>? onSecondaryLongPressCancel,
+            Map<String, dynamic>? onSecondaryLongPress,
+            Map<String, dynamic>? onSecondaryLongPressStart,
+            Map<String, dynamic>? onSecondaryLongPressMoveUpdate,
+            Map<String, dynamic>? onSecondaryLongPressUp,
+            Map<String, dynamic>? onSecondaryLongPressEnd,
+            Map<String, dynamic>? onTertiaryLongPressDown,
+            Map<String, dynamic>? onTertiaryLongPressCancel,
+            Map<String, dynamic>? onTertiaryLongPress,
+            Map<String, dynamic>? onTertiaryLongPressStart,
+            Map<String, dynamic>? onTertiaryLongPressMoveUpdate,
+            Map<String, dynamic>? onTertiaryLongPressUp,
+            Map<String, dynamic>? onTertiaryLongPressEnd,
+            Map<String, dynamic>? onVerticalDragDown,
+            Map<String, dynamic>? onVerticalDragStart,
+            Map<String, dynamic>? onVerticalDragUpdate,
+            Map<String, dynamic>? onVerticalDragEnd,
+            Map<String, dynamic>? onVerticalDragCancel,
+            Map<String, dynamic>? onHorizontalDragDown,
+            Map<String, dynamic>? onHorizontalDragStart,
+            Map<String, dynamic>? onHorizontalDragUpdate,
+            Map<String, dynamic>? onHorizontalDragEnd,
+            Map<String, dynamic>? onHorizontalDragCancel,
+            Map<String, dynamic>? onForcePressStart,
+            Map<String, dynamic>? onForcePressPeak,
+            Map<String, dynamic>? onForcePressUpdate,
+            Map<String, dynamic>? onForcePressEnd,
+            bool excludeFromSemantics,
+            DragStartBehavior dragStartBehavior)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacGestureDetector():
+        return $default(
+            _that.child,
+            _that.onTapDown,
+            _that.onTapUp,
+            _that.onTap,
+            _that.onTapCancel,
+            _that.onSecondaryTap,
+            _that.onSecondaryTapDown,
+            _that.onSecondaryTapUp,
+            _that.onSecondaryTapCancel,
+            _that.onTertiaryTapDown,
+            _that.onTertiaryTapUp,
+            _that.onTertiaryTapCancel,
+            _that.onDoubleTapDown,
+            _that.onDoubleTap,
+            _that.onDoubleTapCancel,
+            _that.onLongPressDown,
+            _that.onLongPressCancel,
+            _that.onLongPress,
+            _that.onLongPressStart,
+            _that.onLongPressMoveUpdate,
+            _that.onLongPressUp,
+            _that.onLongPressEnd,
+            _that.onSecondaryLongPressDown,
+            _that.onSecondaryLongPressCancel,
+            _that.onSecondaryLongPress,
+            _that.onSecondaryLongPressStart,
+            _that.onSecondaryLongPressMoveUpdate,
+            _that.onSecondaryLongPressUp,
+            _that.onSecondaryLongPressEnd,
+            _that.onTertiaryLongPressDown,
+            _that.onTertiaryLongPressCancel,
+            _that.onTertiaryLongPress,
+            _that.onTertiaryLongPressStart,
+            _that.onTertiaryLongPressMoveUpdate,
+            _that.onTertiaryLongPressUp,
+            _that.onTertiaryLongPressEnd,
+            _that.onVerticalDragDown,
+            _that.onVerticalDragStart,
+            _that.onVerticalDragUpdate,
+            _that.onVerticalDragEnd,
+            _that.onVerticalDragCancel,
+            _that.onHorizontalDragDown,
+            _that.onHorizontalDragStart,
+            _that.onHorizontalDragUpdate,
+            _that.onHorizontalDragEnd,
+            _that.onHorizontalDragCancel,
+            _that.onForcePressStart,
+            _that.onForcePressPeak,
+            _that.onForcePressUpdate,
+            _that.onForcePressEnd,
+            _that.excludeFromSemantics,
+            _that.dragStartBehavior);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(
+            Map<String, dynamic>? child,
+            Map<String, dynamic>? onTapDown,
+            Map<String, dynamic>? onTapUp,
+            Map<String, dynamic>? onTap,
+            Map<String, dynamic>? onTapCancel,
+            Map<String, dynamic>? onSecondaryTap,
+            Map<String, dynamic>? onSecondaryTapDown,
+            Map<String, dynamic>? onSecondaryTapUp,
+            Map<String, dynamic>? onSecondaryTapCancel,
+            Map<String, dynamic>? onTertiaryTapDown,
+            Map<String, dynamic>? onTertiaryTapUp,
+            Map<String, dynamic>? onTertiaryTapCancel,
+            Map<String, dynamic>? onDoubleTapDown,
+            Map<String, dynamic>? onDoubleTap,
+            Map<String, dynamic>? onDoubleTapCancel,
+            Map<String, dynamic>? onLongPressDown,
+            Map<String, dynamic>? onLongPressCancel,
+            Map<String, dynamic>? onLongPress,
+            Map<String, dynamic>? onLongPressStart,
+            Map<String, dynamic>? onLongPressMoveUpdate,
+            Map<String, dynamic>? onLongPressUp,
+            Map<String, dynamic>? onLongPressEnd,
+            Map<String, dynamic>? onSecondaryLongPressDown,
+            Map<String, dynamic>? onSecondaryLongPressCancel,
+            Map<String, dynamic>? onSecondaryLongPress,
+            Map<String, dynamic>? onSecondaryLongPressStart,
+            Map<String, dynamic>? onSecondaryLongPressMoveUpdate,
+            Map<String, dynamic>? onSecondaryLongPressUp,
+            Map<String, dynamic>? onSecondaryLongPressEnd,
+            Map<String, dynamic>? onTertiaryLongPressDown,
+            Map<String, dynamic>? onTertiaryLongPressCancel,
+            Map<String, dynamic>? onTertiaryLongPress,
+            Map<String, dynamic>? onTertiaryLongPressStart,
+            Map<String, dynamic>? onTertiaryLongPressMoveUpdate,
+            Map<String, dynamic>? onTertiaryLongPressUp,
+            Map<String, dynamic>? onTertiaryLongPressEnd,
+            Map<String, dynamic>? onVerticalDragDown,
+            Map<String, dynamic>? onVerticalDragStart,
+            Map<String, dynamic>? onVerticalDragUpdate,
+            Map<String, dynamic>? onVerticalDragEnd,
+            Map<String, dynamic>? onVerticalDragCancel,
+            Map<String, dynamic>? onHorizontalDragDown,
+            Map<String, dynamic>? onHorizontalDragStart,
+            Map<String, dynamic>? onHorizontalDragUpdate,
+            Map<String, dynamic>? onHorizontalDragEnd,
+            Map<String, dynamic>? onHorizontalDragCancel,
+            Map<String, dynamic>? onForcePressStart,
+            Map<String, dynamic>? onForcePressPeak,
+            Map<String, dynamic>? onForcePressUpdate,
+            Map<String, dynamic>? onForcePressEnd,
+            bool excludeFromSemantics,
+            DragStartBehavior dragStartBehavior)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacGestureDetector() when $default != null:
+        return $default(
+            _that.child,
+            _that.onTapDown,
+            _that.onTapUp,
+            _that.onTap,
+            _that.onTapCancel,
+            _that.onSecondaryTap,
+            _that.onSecondaryTapDown,
+            _that.onSecondaryTapUp,
+            _that.onSecondaryTapCancel,
+            _that.onTertiaryTapDown,
+            _that.onTertiaryTapUp,
+            _that.onTertiaryTapCancel,
+            _that.onDoubleTapDown,
+            _that.onDoubleTap,
+            _that.onDoubleTapCancel,
+            _that.onLongPressDown,
+            _that.onLongPressCancel,
+            _that.onLongPress,
+            _that.onLongPressStart,
+            _that.onLongPressMoveUpdate,
+            _that.onLongPressUp,
+            _that.onLongPressEnd,
+            _that.onSecondaryLongPressDown,
+            _that.onSecondaryLongPressCancel,
+            _that.onSecondaryLongPress,
+            _that.onSecondaryLongPressStart,
+            _that.onSecondaryLongPressMoveUpdate,
+            _that.onSecondaryLongPressUp,
+            _that.onSecondaryLongPressEnd,
+            _that.onTertiaryLongPressDown,
+            _that.onTertiaryLongPressCancel,
+            _that.onTertiaryLongPress,
+            _that.onTertiaryLongPressStart,
+            _that.onTertiaryLongPressMoveUpdate,
+            _that.onTertiaryLongPressUp,
+            _that.onTertiaryLongPressEnd,
+            _that.onVerticalDragDown,
+            _that.onVerticalDragStart,
+            _that.onVerticalDragUpdate,
+            _that.onVerticalDragEnd,
+            _that.onVerticalDragCancel,
+            _that.onHorizontalDragDown,
+            _that.onHorizontalDragStart,
+            _that.onHorizontalDragUpdate,
+            _that.onHorizontalDragEnd,
+            _that.onHorizontalDragCancel,
+            _that.onForcePressStart,
+            _that.onForcePressPeak,
+            _that.onForcePressUpdate,
+            _that.onForcePressEnd,
+            _that.excludeFromSemantics,
+            _that.dragStartBehavior);
+      case _:
+        return null;
+    }
+  }
+}
+
 /// @nodoc
 @JsonSerializable()
-class _$StacGestureDetectorImpl implements _StacGestureDetector {
-  const _$StacGestureDetectorImpl(
+class _StacGestureDetector implements StacGestureDetector {
+  const _StacGestureDetector(
       {final Map<String, dynamic>? child,
       final Map<String, dynamic>? onTapDown,
       final Map<String, dynamic>? onTapUp,
@@ -907,9 +1160,8 @@ class _$StacGestureDetectorImpl implements _StacGestureDetector {
         _onForcePressPeak = onForcePressPeak,
         _onForcePressUpdate = onForcePressUpdate,
         _onForcePressEnd = onForcePressEnd;
-
-  factory _$StacGestureDetectorImpl.fromJson(Map<String, dynamic> json) =>
-      _$$StacGestureDetectorImplFromJson(json);
+  factory _StacGestureDetector.fromJson(Map<String, dynamic> json) =>
+      _$StacGestureDetectorFromJson(json);
 
   final Map<String, dynamic>? _child;
   @override
@@ -1451,16 +1703,27 @@ class _$StacGestureDetectorImpl implements _StacGestureDetector {
   @JsonKey()
   final DragStartBehavior dragStartBehavior;
 
+  /// Create a copy of StacGestureDetector
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'StacGestureDetector(child: $child, onTapDown: $onTapDown, onTapUp: $onTapUp, onTap: $onTap, onTapCancel: $onTapCancel, onSecondaryTap: $onSecondaryTap, onSecondaryTapDown: $onSecondaryTapDown, onSecondaryTapUp: $onSecondaryTapUp, onSecondaryTapCancel: $onSecondaryTapCancel, onTertiaryTapDown: $onTertiaryTapDown, onTertiaryTapUp: $onTertiaryTapUp, onTertiaryTapCancel: $onTertiaryTapCancel, onDoubleTapDown: $onDoubleTapDown, onDoubleTap: $onDoubleTap, onDoubleTapCancel: $onDoubleTapCancel, onLongPressDown: $onLongPressDown, onLongPressCancel: $onLongPressCancel, onLongPress: $onLongPress, onLongPressStart: $onLongPressStart, onLongPressMoveUpdate: $onLongPressMoveUpdate, onLongPressUp: $onLongPressUp, onLongPressEnd: $onLongPressEnd, onSecondaryLongPressDown: $onSecondaryLongPressDown, onSecondaryLongPressCancel: $onSecondaryLongPressCancel, onSecondaryLongPress: $onSecondaryLongPress, onSecondaryLongPressStart: $onSecondaryLongPressStart, onSecondaryLongPressMoveUpdate: $onSecondaryLongPressMoveUpdate, onSecondaryLongPressUp: $onSecondaryLongPressUp, onSecondaryLongPressEnd: $onSecondaryLongPressEnd, onTertiaryLongPressDown: $onTertiaryLongPressDown, onTertiaryLongPressCancel: $onTertiaryLongPressCancel, onTertiaryLongPress: $onTertiaryLongPress, onTertiaryLongPressStart: $onTertiaryLongPressStart, onTertiaryLongPressMoveUpdate: $onTertiaryLongPressMoveUpdate, onTertiaryLongPressUp: $onTertiaryLongPressUp, onTertiaryLongPressEnd: $onTertiaryLongPressEnd, onVerticalDragDown: $onVerticalDragDown, onVerticalDragStart: $onVerticalDragStart, onVerticalDragUpdate: $onVerticalDragUpdate, onVerticalDragEnd: $onVerticalDragEnd, onVerticalDragCancel: $onVerticalDragCancel, onHorizontalDragDown: $onHorizontalDragDown, onHorizontalDragStart: $onHorizontalDragStart, onHorizontalDragUpdate: $onHorizontalDragUpdate, onHorizontalDragEnd: $onHorizontalDragEnd, onHorizontalDragCancel: $onHorizontalDragCancel, onForcePressStart: $onForcePressStart, onForcePressPeak: $onForcePressPeak, onForcePressUpdate: $onForcePressUpdate, onForcePressEnd: $onForcePressEnd, excludeFromSemantics: $excludeFromSemantics, dragStartBehavior: $dragStartBehavior)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$StacGestureDetectorCopyWith<_StacGestureDetector> get copyWith =>
+      __$StacGestureDetectorCopyWithImpl<_StacGestureDetector>(
+          this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$StacGestureDetectorToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$StacGestureDetectorImpl &&
+            other is _StacGestureDetector &&
             const DeepCollectionEquality().equals(other._child, _child) &&
             const DeepCollectionEquality()
                 .equals(other._onTapDown, _onTapDown) &&
@@ -1556,7 +1819,7 @@ class _$StacGestureDetectorImpl implements _StacGestureDetector {
             (identical(other.dragStartBehavior, dragStartBehavior) || other.dragStartBehavior == dragStartBehavior));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hashAll([
         runtimeType,
@@ -1614,185 +1877,352 @@ class _$StacGestureDetectorImpl implements _StacGestureDetector {
         dragStartBehavior
       ]);
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$StacGestureDetectorImplCopyWith<_$StacGestureDetectorImpl> get copyWith =>
-      __$$StacGestureDetectorImplCopyWithImpl<_$StacGestureDetectorImpl>(
-          this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$StacGestureDetectorImplToJson(
-      this,
-    );
+  String toString() {
+    return 'StacGestureDetector(child: $child, onTapDown: $onTapDown, onTapUp: $onTapUp, onTap: $onTap, onTapCancel: $onTapCancel, onSecondaryTap: $onSecondaryTap, onSecondaryTapDown: $onSecondaryTapDown, onSecondaryTapUp: $onSecondaryTapUp, onSecondaryTapCancel: $onSecondaryTapCancel, onTertiaryTapDown: $onTertiaryTapDown, onTertiaryTapUp: $onTertiaryTapUp, onTertiaryTapCancel: $onTertiaryTapCancel, onDoubleTapDown: $onDoubleTapDown, onDoubleTap: $onDoubleTap, onDoubleTapCancel: $onDoubleTapCancel, onLongPressDown: $onLongPressDown, onLongPressCancel: $onLongPressCancel, onLongPress: $onLongPress, onLongPressStart: $onLongPressStart, onLongPressMoveUpdate: $onLongPressMoveUpdate, onLongPressUp: $onLongPressUp, onLongPressEnd: $onLongPressEnd, onSecondaryLongPressDown: $onSecondaryLongPressDown, onSecondaryLongPressCancel: $onSecondaryLongPressCancel, onSecondaryLongPress: $onSecondaryLongPress, onSecondaryLongPressStart: $onSecondaryLongPressStart, onSecondaryLongPressMoveUpdate: $onSecondaryLongPressMoveUpdate, onSecondaryLongPressUp: $onSecondaryLongPressUp, onSecondaryLongPressEnd: $onSecondaryLongPressEnd, onTertiaryLongPressDown: $onTertiaryLongPressDown, onTertiaryLongPressCancel: $onTertiaryLongPressCancel, onTertiaryLongPress: $onTertiaryLongPress, onTertiaryLongPressStart: $onTertiaryLongPressStart, onTertiaryLongPressMoveUpdate: $onTertiaryLongPressMoveUpdate, onTertiaryLongPressUp: $onTertiaryLongPressUp, onTertiaryLongPressEnd: $onTertiaryLongPressEnd, onVerticalDragDown: $onVerticalDragDown, onVerticalDragStart: $onVerticalDragStart, onVerticalDragUpdate: $onVerticalDragUpdate, onVerticalDragEnd: $onVerticalDragEnd, onVerticalDragCancel: $onVerticalDragCancel, onHorizontalDragDown: $onHorizontalDragDown, onHorizontalDragStart: $onHorizontalDragStart, onHorizontalDragUpdate: $onHorizontalDragUpdate, onHorizontalDragEnd: $onHorizontalDragEnd, onHorizontalDragCancel: $onHorizontalDragCancel, onForcePressStart: $onForcePressStart, onForcePressPeak: $onForcePressPeak, onForcePressUpdate: $onForcePressUpdate, onForcePressEnd: $onForcePressEnd, excludeFromSemantics: $excludeFromSemantics, dragStartBehavior: $dragStartBehavior)';
   }
 }
 
-abstract class _StacGestureDetector implements StacGestureDetector {
-  const factory _StacGestureDetector(
-      {final Map<String, dynamic>? child,
-      final Map<String, dynamic>? onTapDown,
-      final Map<String, dynamic>? onTapUp,
-      final Map<String, dynamic>? onTap,
-      final Map<String, dynamic>? onTapCancel,
-      final Map<String, dynamic>? onSecondaryTap,
-      final Map<String, dynamic>? onSecondaryTapDown,
-      final Map<String, dynamic>? onSecondaryTapUp,
-      final Map<String, dynamic>? onSecondaryTapCancel,
-      final Map<String, dynamic>? onTertiaryTapDown,
-      final Map<String, dynamic>? onTertiaryTapUp,
-      final Map<String, dynamic>? onTertiaryTapCancel,
-      final Map<String, dynamic>? onDoubleTapDown,
-      final Map<String, dynamic>? onDoubleTap,
-      final Map<String, dynamic>? onDoubleTapCancel,
-      final Map<String, dynamic>? onLongPressDown,
-      final Map<String, dynamic>? onLongPressCancel,
-      final Map<String, dynamic>? onLongPress,
-      final Map<String, dynamic>? onLongPressStart,
-      final Map<String, dynamic>? onLongPressMoveUpdate,
-      final Map<String, dynamic>? onLongPressUp,
-      final Map<String, dynamic>? onLongPressEnd,
-      final Map<String, dynamic>? onSecondaryLongPressDown,
-      final Map<String, dynamic>? onSecondaryLongPressCancel,
-      final Map<String, dynamic>? onSecondaryLongPress,
-      final Map<String, dynamic>? onSecondaryLongPressStart,
-      final Map<String, dynamic>? onSecondaryLongPressMoveUpdate,
-      final Map<String, dynamic>? onSecondaryLongPressUp,
-      final Map<String, dynamic>? onSecondaryLongPressEnd,
-      final Map<String, dynamic>? onTertiaryLongPressDown,
-      final Map<String, dynamic>? onTertiaryLongPressCancel,
-      final Map<String, dynamic>? onTertiaryLongPress,
-      final Map<String, dynamic>? onTertiaryLongPressStart,
-      final Map<String, dynamic>? onTertiaryLongPressMoveUpdate,
-      final Map<String, dynamic>? onTertiaryLongPressUp,
-      final Map<String, dynamic>? onTertiaryLongPressEnd,
-      final Map<String, dynamic>? onVerticalDragDown,
-      final Map<String, dynamic>? onVerticalDragStart,
-      final Map<String, dynamic>? onVerticalDragUpdate,
-      final Map<String, dynamic>? onVerticalDragEnd,
-      final Map<String, dynamic>? onVerticalDragCancel,
-      final Map<String, dynamic>? onHorizontalDragDown,
-      final Map<String, dynamic>? onHorizontalDragStart,
-      final Map<String, dynamic>? onHorizontalDragUpdate,
-      final Map<String, dynamic>? onHorizontalDragEnd,
-      final Map<String, dynamic>? onHorizontalDragCancel,
-      final Map<String, dynamic>? onForcePressStart,
-      final Map<String, dynamic>? onForcePressPeak,
-      final Map<String, dynamic>? onForcePressUpdate,
-      final Map<String, dynamic>? onForcePressEnd,
-      final bool excludeFromSemantics,
-      final DragStartBehavior dragStartBehavior}) = _$StacGestureDetectorImpl;
-
-  factory _StacGestureDetector.fromJson(Map<String, dynamic> json) =
-      _$StacGestureDetectorImpl.fromJson;
-
+/// @nodoc
+abstract mixin class _$StacGestureDetectorCopyWith<$Res>
+    implements $StacGestureDetectorCopyWith<$Res> {
+  factory _$StacGestureDetectorCopyWith(_StacGestureDetector value,
+          $Res Function(_StacGestureDetector) _then) =
+      __$StacGestureDetectorCopyWithImpl;
   @override
-  Map<String, dynamic>? get child;
-  @override
-  Map<String, dynamic>? get onTapDown;
-  @override
-  Map<String, dynamic>? get onTapUp;
-  @override
-  Map<String, dynamic>? get onTap;
-  @override
-  Map<String, dynamic>? get onTapCancel;
-  @override
-  Map<String, dynamic>? get onSecondaryTap;
-  @override
-  Map<String, dynamic>? get onSecondaryTapDown;
-  @override
-  Map<String, dynamic>? get onSecondaryTapUp;
-  @override
-  Map<String, dynamic>? get onSecondaryTapCancel;
-  @override
-  Map<String, dynamic>? get onTertiaryTapDown;
-  @override
-  Map<String, dynamic>? get onTertiaryTapUp;
-  @override
-  Map<String, dynamic>? get onTertiaryTapCancel;
-  @override
-  Map<String, dynamic>? get onDoubleTapDown;
-  @override
-  Map<String, dynamic>? get onDoubleTap;
-  @override
-  Map<String, dynamic>? get onDoubleTapCancel;
-  @override
-  Map<String, dynamic>? get onLongPressDown;
-  @override
-  Map<String, dynamic>? get onLongPressCancel;
-  @override
-  Map<String, dynamic>? get onLongPress;
-  @override
-  Map<String, dynamic>? get onLongPressStart;
-  @override
-  Map<String, dynamic>? get onLongPressMoveUpdate;
-  @override
-  Map<String, dynamic>? get onLongPressUp;
-  @override
-  Map<String, dynamic>? get onLongPressEnd;
-  @override
-  Map<String, dynamic>? get onSecondaryLongPressDown;
-  @override
-  Map<String, dynamic>? get onSecondaryLongPressCancel;
-  @override
-  Map<String, dynamic>? get onSecondaryLongPress;
-  @override
-  Map<String, dynamic>? get onSecondaryLongPressStart;
-  @override
-  Map<String, dynamic>? get onSecondaryLongPressMoveUpdate;
-  @override
-  Map<String, dynamic>? get onSecondaryLongPressUp;
-  @override
-  Map<String, dynamic>? get onSecondaryLongPressEnd;
-  @override
-  Map<String, dynamic>? get onTertiaryLongPressDown;
-  @override
-  Map<String, dynamic>? get onTertiaryLongPressCancel;
-  @override
-  Map<String, dynamic>? get onTertiaryLongPress;
-  @override
-  Map<String, dynamic>? get onTertiaryLongPressStart;
-  @override
-  Map<String, dynamic>? get onTertiaryLongPressMoveUpdate;
-  @override
-  Map<String, dynamic>? get onTertiaryLongPressUp;
-  @override
-  Map<String, dynamic>? get onTertiaryLongPressEnd;
-  @override
-  Map<String, dynamic>? get onVerticalDragDown;
-  @override
-  Map<String, dynamic>? get onVerticalDragStart;
-  @override
-  Map<String, dynamic>? get onVerticalDragUpdate;
-  @override
-  Map<String, dynamic>? get onVerticalDragEnd;
-  @override
-  Map<String, dynamic>? get onVerticalDragCancel;
-  @override
-  Map<String, dynamic>? get onHorizontalDragDown;
-  @override
-  Map<String, dynamic>? get onHorizontalDragStart;
-  @override
-  Map<String, dynamic>? get onHorizontalDragUpdate;
-  @override
-  Map<String, dynamic>? get onHorizontalDragEnd;
-  @override
-  Map<String, dynamic>? get onHorizontalDragCancel;
-  @override
-  Map<String, dynamic>? get onForcePressStart;
-  @override
-  Map<String, dynamic>? get onForcePressPeak;
-  @override
-  Map<String, dynamic>? get onForcePressUpdate;
-  @override
-  Map<String, dynamic>? get onForcePressEnd;
-  @override
-  bool get excludeFromSemantics;
-  @override
-  DragStartBehavior get dragStartBehavior;
-  @override
-  @JsonKey(ignore: true)
-  _$$StacGestureDetectorImplCopyWith<_$StacGestureDetectorImpl> get copyWith =>
-      throw _privateConstructorUsedError;
+  @useResult
+  $Res call(
+      {Map<String, dynamic>? child,
+      Map<String, dynamic>? onTapDown,
+      Map<String, dynamic>? onTapUp,
+      Map<String, dynamic>? onTap,
+      Map<String, dynamic>? onTapCancel,
+      Map<String, dynamic>? onSecondaryTap,
+      Map<String, dynamic>? onSecondaryTapDown,
+      Map<String, dynamic>? onSecondaryTapUp,
+      Map<String, dynamic>? onSecondaryTapCancel,
+      Map<String, dynamic>? onTertiaryTapDown,
+      Map<String, dynamic>? onTertiaryTapUp,
+      Map<String, dynamic>? onTertiaryTapCancel,
+      Map<String, dynamic>? onDoubleTapDown,
+      Map<String, dynamic>? onDoubleTap,
+      Map<String, dynamic>? onDoubleTapCancel,
+      Map<String, dynamic>? onLongPressDown,
+      Map<String, dynamic>? onLongPressCancel,
+      Map<String, dynamic>? onLongPress,
+      Map<String, dynamic>? onLongPressStart,
+      Map<String, dynamic>? onLongPressMoveUpdate,
+      Map<String, dynamic>? onLongPressUp,
+      Map<String, dynamic>? onLongPressEnd,
+      Map<String, dynamic>? onSecondaryLongPressDown,
+      Map<String, dynamic>? onSecondaryLongPressCancel,
+      Map<String, dynamic>? onSecondaryLongPress,
+      Map<String, dynamic>? onSecondaryLongPressStart,
+      Map<String, dynamic>? onSecondaryLongPressMoveUpdate,
+      Map<String, dynamic>? onSecondaryLongPressUp,
+      Map<String, dynamic>? onSecondaryLongPressEnd,
+      Map<String, dynamic>? onTertiaryLongPressDown,
+      Map<String, dynamic>? onTertiaryLongPressCancel,
+      Map<String, dynamic>? onTertiaryLongPress,
+      Map<String, dynamic>? onTertiaryLongPressStart,
+      Map<String, dynamic>? onTertiaryLongPressMoveUpdate,
+      Map<String, dynamic>? onTertiaryLongPressUp,
+      Map<String, dynamic>? onTertiaryLongPressEnd,
+      Map<String, dynamic>? onVerticalDragDown,
+      Map<String, dynamic>? onVerticalDragStart,
+      Map<String, dynamic>? onVerticalDragUpdate,
+      Map<String, dynamic>? onVerticalDragEnd,
+      Map<String, dynamic>? onVerticalDragCancel,
+      Map<String, dynamic>? onHorizontalDragDown,
+      Map<String, dynamic>? onHorizontalDragStart,
+      Map<String, dynamic>? onHorizontalDragUpdate,
+      Map<String, dynamic>? onHorizontalDragEnd,
+      Map<String, dynamic>? onHorizontalDragCancel,
+      Map<String, dynamic>? onForcePressStart,
+      Map<String, dynamic>? onForcePressPeak,
+      Map<String, dynamic>? onForcePressUpdate,
+      Map<String, dynamic>? onForcePressEnd,
+      bool excludeFromSemantics,
+      DragStartBehavior dragStartBehavior});
 }
+
+/// @nodoc
+class __$StacGestureDetectorCopyWithImpl<$Res>
+    implements _$StacGestureDetectorCopyWith<$Res> {
+  __$StacGestureDetectorCopyWithImpl(this._self, this._then);
+
+  final _StacGestureDetector _self;
+  final $Res Function(_StacGestureDetector) _then;
+
+  /// Create a copy of StacGestureDetector
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? child = freezed,
+    Object? onTapDown = freezed,
+    Object? onTapUp = freezed,
+    Object? onTap = freezed,
+    Object? onTapCancel = freezed,
+    Object? onSecondaryTap = freezed,
+    Object? onSecondaryTapDown = freezed,
+    Object? onSecondaryTapUp = freezed,
+    Object? onSecondaryTapCancel = freezed,
+    Object? onTertiaryTapDown = freezed,
+    Object? onTertiaryTapUp = freezed,
+    Object? onTertiaryTapCancel = freezed,
+    Object? onDoubleTapDown = freezed,
+    Object? onDoubleTap = freezed,
+    Object? onDoubleTapCancel = freezed,
+    Object? onLongPressDown = freezed,
+    Object? onLongPressCancel = freezed,
+    Object? onLongPress = freezed,
+    Object? onLongPressStart = freezed,
+    Object? onLongPressMoveUpdate = freezed,
+    Object? onLongPressUp = freezed,
+    Object? onLongPressEnd = freezed,
+    Object? onSecondaryLongPressDown = freezed,
+    Object? onSecondaryLongPressCancel = freezed,
+    Object? onSecondaryLongPress = freezed,
+    Object? onSecondaryLongPressStart = freezed,
+    Object? onSecondaryLongPressMoveUpdate = freezed,
+    Object? onSecondaryLongPressUp = freezed,
+    Object? onSecondaryLongPressEnd = freezed,
+    Object? onTertiaryLongPressDown = freezed,
+    Object? onTertiaryLongPressCancel = freezed,
+    Object? onTertiaryLongPress = freezed,
+    Object? onTertiaryLongPressStart = freezed,
+    Object? onTertiaryLongPressMoveUpdate = freezed,
+    Object? onTertiaryLongPressUp = freezed,
+    Object? onTertiaryLongPressEnd = freezed,
+    Object? onVerticalDragDown = freezed,
+    Object? onVerticalDragStart = freezed,
+    Object? onVerticalDragUpdate = freezed,
+    Object? onVerticalDragEnd = freezed,
+    Object? onVerticalDragCancel = freezed,
+    Object? onHorizontalDragDown = freezed,
+    Object? onHorizontalDragStart = freezed,
+    Object? onHorizontalDragUpdate = freezed,
+    Object? onHorizontalDragEnd = freezed,
+    Object? onHorizontalDragCancel = freezed,
+    Object? onForcePressStart = freezed,
+    Object? onForcePressPeak = freezed,
+    Object? onForcePressUpdate = freezed,
+    Object? onForcePressEnd = freezed,
+    Object? excludeFromSemantics = null,
+    Object? dragStartBehavior = null,
+  }) {
+    return _then(_StacGestureDetector(
+      child: freezed == child
+          ? _self._child
+          : child // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onTapDown: freezed == onTapDown
+          ? _self._onTapDown
+          : onTapDown // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onTapUp: freezed == onTapUp
+          ? _self._onTapUp
+          : onTapUp // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onTap: freezed == onTap
+          ? _self._onTap
+          : onTap // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onTapCancel: freezed == onTapCancel
+          ? _self._onTapCancel
+          : onTapCancel // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onSecondaryTap: freezed == onSecondaryTap
+          ? _self._onSecondaryTap
+          : onSecondaryTap // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onSecondaryTapDown: freezed == onSecondaryTapDown
+          ? _self._onSecondaryTapDown
+          : onSecondaryTapDown // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onSecondaryTapUp: freezed == onSecondaryTapUp
+          ? _self._onSecondaryTapUp
+          : onSecondaryTapUp // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onSecondaryTapCancel: freezed == onSecondaryTapCancel
+          ? _self._onSecondaryTapCancel
+          : onSecondaryTapCancel // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onTertiaryTapDown: freezed == onTertiaryTapDown
+          ? _self._onTertiaryTapDown
+          : onTertiaryTapDown // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onTertiaryTapUp: freezed == onTertiaryTapUp
+          ? _self._onTertiaryTapUp
+          : onTertiaryTapUp // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onTertiaryTapCancel: freezed == onTertiaryTapCancel
+          ? _self._onTertiaryTapCancel
+          : onTertiaryTapCancel // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onDoubleTapDown: freezed == onDoubleTapDown
+          ? _self._onDoubleTapDown
+          : onDoubleTapDown // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onDoubleTap: freezed == onDoubleTap
+          ? _self._onDoubleTap
+          : onDoubleTap // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onDoubleTapCancel: freezed == onDoubleTapCancel
+          ? _self._onDoubleTapCancel
+          : onDoubleTapCancel // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onLongPressDown: freezed == onLongPressDown
+          ? _self._onLongPressDown
+          : onLongPressDown // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onLongPressCancel: freezed == onLongPressCancel
+          ? _self._onLongPressCancel
+          : onLongPressCancel // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onLongPress: freezed == onLongPress
+          ? _self._onLongPress
+          : onLongPress // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onLongPressStart: freezed == onLongPressStart
+          ? _self._onLongPressStart
+          : onLongPressStart // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onLongPressMoveUpdate: freezed == onLongPressMoveUpdate
+          ? _self._onLongPressMoveUpdate
+          : onLongPressMoveUpdate // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onLongPressUp: freezed == onLongPressUp
+          ? _self._onLongPressUp
+          : onLongPressUp // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onLongPressEnd: freezed == onLongPressEnd
+          ? _self._onLongPressEnd
+          : onLongPressEnd // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onSecondaryLongPressDown: freezed == onSecondaryLongPressDown
+          ? _self._onSecondaryLongPressDown
+          : onSecondaryLongPressDown // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onSecondaryLongPressCancel: freezed == onSecondaryLongPressCancel
+          ? _self._onSecondaryLongPressCancel
+          : onSecondaryLongPressCancel // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onSecondaryLongPress: freezed == onSecondaryLongPress
+          ? _self._onSecondaryLongPress
+          : onSecondaryLongPress // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onSecondaryLongPressStart: freezed == onSecondaryLongPressStart
+          ? _self._onSecondaryLongPressStart
+          : onSecondaryLongPressStart // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onSecondaryLongPressMoveUpdate: freezed == onSecondaryLongPressMoveUpdate
+          ? _self._onSecondaryLongPressMoveUpdate
+          : onSecondaryLongPressMoveUpdate // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onSecondaryLongPressUp: freezed == onSecondaryLongPressUp
+          ? _self._onSecondaryLongPressUp
+          : onSecondaryLongPressUp // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onSecondaryLongPressEnd: freezed == onSecondaryLongPressEnd
+          ? _self._onSecondaryLongPressEnd
+          : onSecondaryLongPressEnd // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onTertiaryLongPressDown: freezed == onTertiaryLongPressDown
+          ? _self._onTertiaryLongPressDown
+          : onTertiaryLongPressDown // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onTertiaryLongPressCancel: freezed == onTertiaryLongPressCancel
+          ? _self._onTertiaryLongPressCancel
+          : onTertiaryLongPressCancel // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onTertiaryLongPress: freezed == onTertiaryLongPress
+          ? _self._onTertiaryLongPress
+          : onTertiaryLongPress // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onTertiaryLongPressStart: freezed == onTertiaryLongPressStart
+          ? _self._onTertiaryLongPressStart
+          : onTertiaryLongPressStart // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onTertiaryLongPressMoveUpdate: freezed == onTertiaryLongPressMoveUpdate
+          ? _self._onTertiaryLongPressMoveUpdate
+          : onTertiaryLongPressMoveUpdate // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onTertiaryLongPressUp: freezed == onTertiaryLongPressUp
+          ? _self._onTertiaryLongPressUp
+          : onTertiaryLongPressUp // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onTertiaryLongPressEnd: freezed == onTertiaryLongPressEnd
+          ? _self._onTertiaryLongPressEnd
+          : onTertiaryLongPressEnd // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onVerticalDragDown: freezed == onVerticalDragDown
+          ? _self._onVerticalDragDown
+          : onVerticalDragDown // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onVerticalDragStart: freezed == onVerticalDragStart
+          ? _self._onVerticalDragStart
+          : onVerticalDragStart // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onVerticalDragUpdate: freezed == onVerticalDragUpdate
+          ? _self._onVerticalDragUpdate
+          : onVerticalDragUpdate // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onVerticalDragEnd: freezed == onVerticalDragEnd
+          ? _self._onVerticalDragEnd
+          : onVerticalDragEnd // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onVerticalDragCancel: freezed == onVerticalDragCancel
+          ? _self._onVerticalDragCancel
+          : onVerticalDragCancel // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onHorizontalDragDown: freezed == onHorizontalDragDown
+          ? _self._onHorizontalDragDown
+          : onHorizontalDragDown // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onHorizontalDragStart: freezed == onHorizontalDragStart
+          ? _self._onHorizontalDragStart
+          : onHorizontalDragStart // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onHorizontalDragUpdate: freezed == onHorizontalDragUpdate
+          ? _self._onHorizontalDragUpdate
+          : onHorizontalDragUpdate // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onHorizontalDragEnd: freezed == onHorizontalDragEnd
+          ? _self._onHorizontalDragEnd
+          : onHorizontalDragEnd // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onHorizontalDragCancel: freezed == onHorizontalDragCancel
+          ? _self._onHorizontalDragCancel
+          : onHorizontalDragCancel // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onForcePressStart: freezed == onForcePressStart
+          ? _self._onForcePressStart
+          : onForcePressStart // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onForcePressPeak: freezed == onForcePressPeak
+          ? _self._onForcePressPeak
+          : onForcePressPeak // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onForcePressUpdate: freezed == onForcePressUpdate
+          ? _self._onForcePressUpdate
+          : onForcePressUpdate // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      onForcePressEnd: freezed == onForcePressEnd
+          ? _self._onForcePressEnd
+          : onForcePressEnd // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      excludeFromSemantics: null == excludeFromSemantics
+          ? _self.excludeFromSemantics
+          : excludeFromSemantics // ignore: cast_nullable_to_non_nullable
+              as bool,
+      dragStartBehavior: null == dragStartBehavior
+          ? _self.dragStartBehavior
+          : dragStartBehavior // ignore: cast_nullable_to_non_nullable
+              as DragStartBehavior,
+    ));
+  }
+}
+
+// dart format on

@@ -6,9 +6,9 @@ part of 'stac_snack_bar_theme_data.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$StacSnackBarThemeDataImpl _$$StacSnackBarThemeDataImplFromJson(
+_StacSnackBarThemeData _$StacSnackBarThemeDataFromJson(
         Map<String, dynamic> json) =>
-    _$StacSnackBarThemeDataImpl(
+    _StacSnackBarThemeData(
       behavior:
           $enumDecodeNullable(_$SnackBarBehaviorEnumMap, json['behavior']),
       backgroundColor: json['backgroundColor'] as String?,
@@ -36,8 +36,8 @@ _$StacSnackBarThemeDataImpl _$$StacSnackBarThemeDataImplFromJson(
           json['disabledActionBackgroundColor'] as String?,
     );
 
-Map<String, dynamic> _$$StacSnackBarThemeDataImplToJson(
-        _$StacSnackBarThemeDataImpl instance) =>
+Map<String, dynamic> _$StacSnackBarThemeDataToJson(
+        _StacSnackBarThemeData instance) =>
     <String, dynamic>{
       'behavior': _$SnackBarBehaviorEnumMap[instance.behavior],
       'backgroundColor': instance.backgroundColor,

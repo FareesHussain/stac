@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,41 +9,87 @@ part of 'stac_gradient.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
-StacGradient _$StacGradientFromJson(Map<String, dynamic> json) {
-  return _StacGradient.fromJson(json);
-}
 
 /// @nodoc
 mixin _$StacGradient {
-  List<String> get colors => throw _privateConstructorUsedError;
-  List<StacDouble>? get stops => throw _privateConstructorUsedError;
-  StacAlignment get begin => throw _privateConstructorUsedError;
-  StacAlignment get end => throw _privateConstructorUsedError;
-  StacAlignment get center => throw _privateConstructorUsedError;
-  StacGradientType get gradientType => throw _privateConstructorUsedError;
-  StacAlignmentGeometry? get focal => throw _privateConstructorUsedError;
-  TileMode get tileMode => throw _privateConstructorUsedError;
-  StacDouble get focalRadius => throw _privateConstructorUsedError;
-  StacDouble get radius => throw _privateConstructorUsedError;
-  StacDouble get startAngle => throw _privateConstructorUsedError;
-  StacDouble get endAngle => throw _privateConstructorUsedError;
+  List<String> get colors;
+  List<StacDouble>? get stops;
+  StacAlignment get begin;
+  StacAlignment get end;
+  StacAlignment get center;
+  StacGradientType get gradientType;
+  StacAlignmentGeometry? get focal;
+  TileMode get tileMode;
+  StacDouble get focalRadius;
+  StacDouble get radius;
+  StacDouble get startAngle;
+  StacDouble get endAngle;
 
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
+  /// Create a copy of StacGradient
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
   $StacGradientCopyWith<StacGradient> get copyWith =>
-      throw _privateConstructorUsedError;
+      _$StacGradientCopyWithImpl<StacGradient>(
+          this as StacGradient, _$identity);
+
+  /// Serializes this StacGradient to a JSON map.
+  Map<String, dynamic> toJson();
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is StacGradient &&
+            const DeepCollectionEquality().equals(other.colors, colors) &&
+            const DeepCollectionEquality().equals(other.stops, stops) &&
+            (identical(other.begin, begin) || other.begin == begin) &&
+            (identical(other.end, end) || other.end == end) &&
+            (identical(other.center, center) || other.center == center) &&
+            (identical(other.gradientType, gradientType) ||
+                other.gradientType == gradientType) &&
+            (identical(other.focal, focal) || other.focal == focal) &&
+            (identical(other.tileMode, tileMode) ||
+                other.tileMode == tileMode) &&
+            (identical(other.focalRadius, focalRadius) ||
+                other.focalRadius == focalRadius) &&
+            (identical(other.radius, radius) || other.radius == radius) &&
+            (identical(other.startAngle, startAngle) ||
+                other.startAngle == startAngle) &&
+            (identical(other.endAngle, endAngle) ||
+                other.endAngle == endAngle));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(colors),
+      const DeepCollectionEquality().hash(stops),
+      begin,
+      end,
+      center,
+      gradientType,
+      focal,
+      tileMode,
+      focalRadius,
+      radius,
+      startAngle,
+      endAngle);
+
+  @override
+  String toString() {
+    return 'StacGradient(colors: $colors, stops: $stops, begin: $begin, end: $end, center: $center, gradientType: $gradientType, focal: $focal, tileMode: $tileMode, focalRadius: $focalRadius, radius: $radius, startAngle: $startAngle, endAngle: $endAngle)';
+  }
 }
 
 /// @nodoc
-abstract class $StacGradientCopyWith<$Res> {
+abstract mixin class $StacGradientCopyWith<$Res> {
   factory $StacGradientCopyWith(
-          StacGradient value, $Res Function(StacGradient) then) =
-      _$StacGradientCopyWithImpl<$Res, StacGradient>;
+          StacGradient value, $Res Function(StacGradient) _then) =
+      _$StacGradientCopyWithImpl;
   @useResult
   $Res call(
       {List<String> colors,
@@ -63,15 +109,14 @@ abstract class $StacGradientCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacGradientCopyWithImpl<$Res, $Val extends StacGradient>
-    implements $StacGradientCopyWith<$Res> {
-  _$StacGradientCopyWithImpl(this._value, this._then);
+class _$StacGradientCopyWithImpl<$Res> implements $StacGradientCopyWith<$Res> {
+  _$StacGradientCopyWithImpl(this._self, this._then);
 
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
+  final StacGradient _self;
+  final $Res Function(StacGradient) _then;
 
+  /// Create a copy of StacGradient
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -88,178 +133,309 @@ class _$StacGradientCopyWithImpl<$Res, $Val extends StacGradient>
     Object? startAngle = null,
     Object? endAngle = null,
   }) {
-    return _then(_value.copyWith(
+    return _then(_self.copyWith(
       colors: null == colors
-          ? _value.colors
+          ? _self.colors
           : colors // ignore: cast_nullable_to_non_nullable
               as List<String>,
       stops: freezed == stops
-          ? _value.stops
+          ? _self.stops
           : stops // ignore: cast_nullable_to_non_nullable
               as List<StacDouble>?,
       begin: null == begin
-          ? _value.begin
+          ? _self.begin
           : begin // ignore: cast_nullable_to_non_nullable
               as StacAlignment,
       end: null == end
-          ? _value.end
+          ? _self.end
           : end // ignore: cast_nullable_to_non_nullable
               as StacAlignment,
       center: null == center
-          ? _value.center
+          ? _self.center
           : center // ignore: cast_nullable_to_non_nullable
               as StacAlignment,
       gradientType: null == gradientType
-          ? _value.gradientType
+          ? _self.gradientType
           : gradientType // ignore: cast_nullable_to_non_nullable
               as StacGradientType,
       focal: freezed == focal
-          ? _value.focal
+          ? _self.focal
           : focal // ignore: cast_nullable_to_non_nullable
               as StacAlignmentGeometry?,
       tileMode: null == tileMode
-          ? _value.tileMode
+          ? _self.tileMode
           : tileMode // ignore: cast_nullable_to_non_nullable
               as TileMode,
       focalRadius: null == focalRadius
-          ? _value.focalRadius
+          ? _self.focalRadius
           : focalRadius // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       radius: null == radius
-          ? _value.radius
+          ? _self.radius
           : radius // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       startAngle: null == startAngle
-          ? _value.startAngle
+          ? _self.startAngle
           : startAngle // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       endAngle: null == endAngle
-          ? _value.endAngle
+          ? _self.endAngle
           : endAngle // ignore: cast_nullable_to_non_nullable
               as StacDouble,
-    ) as $Val);
+    ));
   }
 
+  /// Create a copy of StacGradient
+  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacAlignmentGeometryCopyWith<$Res>? get focal {
-    if (_value.focal == null) {
+    if (_self.focal == null) {
       return null;
     }
 
-    return $StacAlignmentGeometryCopyWith<$Res>(_value.focal!, (value) {
-      return _then(_value.copyWith(focal: value) as $Val);
+    return $StacAlignmentGeometryCopyWith<$Res>(_self.focal!, (value) {
+      return _then(_self.copyWith(focal: value));
     });
   }
 }
 
-/// @nodoc
-abstract class _$$StacGradientImplCopyWith<$Res>
-    implements $StacGradientCopyWith<$Res> {
-  factory _$$StacGradientImplCopyWith(
-          _$StacGradientImpl value, $Res Function(_$StacGradientImpl) then) =
-      __$$StacGradientImplCopyWithImpl<$Res>;
-  @override
-  @useResult
-  $Res call(
-      {List<String> colors,
-      List<StacDouble>? stops,
-      StacAlignment begin,
-      StacAlignment end,
-      StacAlignment center,
-      StacGradientType gradientType,
-      StacAlignmentGeometry? focal,
-      TileMode tileMode,
-      StacDouble focalRadius,
-      StacDouble radius,
-      StacDouble startAngle,
-      StacDouble endAngle});
+/// Adds pattern-matching-related methods to [StacGradient].
+extension StacGradientPatterns on StacGradient {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
 
-  @override
-  $StacAlignmentGeometryCopyWith<$Res>? get focal;
-}
-
-/// @nodoc
-class __$$StacGradientImplCopyWithImpl<$Res>
-    extends _$StacGradientCopyWithImpl<$Res, _$StacGradientImpl>
-    implements _$$StacGradientImplCopyWith<$Res> {
-  __$$StacGradientImplCopyWithImpl(
-      _$StacGradientImpl _value, $Res Function(_$StacGradientImpl) _then)
-      : super(_value, _then);
-
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? colors = null,
-    Object? stops = freezed,
-    Object? begin = null,
-    Object? end = null,
-    Object? center = null,
-    Object? gradientType = null,
-    Object? focal = freezed,
-    Object? tileMode = null,
-    Object? focalRadius = null,
-    Object? radius = null,
-    Object? startAngle = null,
-    Object? endAngle = null,
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_StacGradient value)? $default, {
+    required TResult orElse(),
   }) {
-    return _then(_$StacGradientImpl(
-      colors: null == colors
-          ? _value._colors
-          : colors // ignore: cast_nullable_to_non_nullable
-              as List<String>,
-      stops: freezed == stops
-          ? _value._stops
-          : stops // ignore: cast_nullable_to_non_nullable
-              as List<StacDouble>?,
-      begin: null == begin
-          ? _value.begin
-          : begin // ignore: cast_nullable_to_non_nullable
-              as StacAlignment,
-      end: null == end
-          ? _value.end
-          : end // ignore: cast_nullable_to_non_nullable
-              as StacAlignment,
-      center: null == center
-          ? _value.center
-          : center // ignore: cast_nullable_to_non_nullable
-              as StacAlignment,
-      gradientType: null == gradientType
-          ? _value.gradientType
-          : gradientType // ignore: cast_nullable_to_non_nullable
-              as StacGradientType,
-      focal: freezed == focal
-          ? _value.focal
-          : focal // ignore: cast_nullable_to_non_nullable
-              as StacAlignmentGeometry?,
-      tileMode: null == tileMode
-          ? _value.tileMode
-          : tileMode // ignore: cast_nullable_to_non_nullable
-              as TileMode,
-      focalRadius: null == focalRadius
-          ? _value.focalRadius
-          : focalRadius // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      radius: null == radius
-          ? _value.radius
-          : radius // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      startAngle: null == startAngle
-          ? _value.startAngle
-          : startAngle // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      endAngle: null == endAngle
-          ? _value.endAngle
-          : endAngle // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-    ));
+    final _that = this;
+    switch (_that) {
+      case _StacGradient() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_StacGradient value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacGradient():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_StacGradient value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacGradient() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(
+            List<String> colors,
+            List<StacDouble>? stops,
+            StacAlignment begin,
+            StacAlignment end,
+            StacAlignment center,
+            StacGradientType gradientType,
+            StacAlignmentGeometry? focal,
+            TileMode tileMode,
+            StacDouble focalRadius,
+            StacDouble radius,
+            StacDouble startAngle,
+            StacDouble endAngle)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacGradient() when $default != null:
+        return $default(
+            _that.colors,
+            _that.stops,
+            _that.begin,
+            _that.end,
+            _that.center,
+            _that.gradientType,
+            _that.focal,
+            _that.tileMode,
+            _that.focalRadius,
+            _that.radius,
+            _that.startAngle,
+            _that.endAngle);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(
+            List<String> colors,
+            List<StacDouble>? stops,
+            StacAlignment begin,
+            StacAlignment end,
+            StacAlignment center,
+            StacGradientType gradientType,
+            StacAlignmentGeometry? focal,
+            TileMode tileMode,
+            StacDouble focalRadius,
+            StacDouble radius,
+            StacDouble startAngle,
+            StacDouble endAngle)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacGradient():
+        return $default(
+            _that.colors,
+            _that.stops,
+            _that.begin,
+            _that.end,
+            _that.center,
+            _that.gradientType,
+            _that.focal,
+            _that.tileMode,
+            _that.focalRadius,
+            _that.radius,
+            _that.startAngle,
+            _that.endAngle);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(
+            List<String> colors,
+            List<StacDouble>? stops,
+            StacAlignment begin,
+            StacAlignment end,
+            StacAlignment center,
+            StacGradientType gradientType,
+            StacAlignmentGeometry? focal,
+            TileMode tileMode,
+            StacDouble focalRadius,
+            StacDouble radius,
+            StacDouble startAngle,
+            StacDouble endAngle)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacGradient() when $default != null:
+        return $default(
+            _that.colors,
+            _that.stops,
+            _that.begin,
+            _that.end,
+            _that.center,
+            _that.gradientType,
+            _that.focal,
+            _that.tileMode,
+            _that.focalRadius,
+            _that.radius,
+            _that.startAngle,
+            _that.endAngle);
+      case _:
+        return null;
+    }
   }
 }
 
 /// @nodoc
 @JsonSerializable()
-class _$StacGradientImpl implements _StacGradient {
-  const _$StacGradientImpl(
+class _StacGradient implements StacGradient {
+  const _StacGradient(
       {required final List<String> colors,
       final List<StacDouble>? stops,
       this.begin = StacAlignment.centerLeft,
@@ -274,9 +450,8 @@ class _$StacGradientImpl implements _StacGradient {
       this.endAngle = const StacDouble(math.pi * 2)})
       : _colors = colors,
         _stops = stops;
-
-  factory _$StacGradientImpl.fromJson(Map<String, dynamic> json) =>
-      _$$StacGradientImplFromJson(json);
+  factory _StacGradient.fromJson(Map<String, dynamic> json) =>
+      _$StacGradientFromJson(json);
 
   final List<String> _colors;
   @override
@@ -326,16 +501,26 @@ class _$StacGradientImpl implements _StacGradient {
   @JsonKey()
   final StacDouble endAngle;
 
+  /// Create a copy of StacGradient
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'StacGradient(colors: $colors, stops: $stops, begin: $begin, end: $end, center: $center, gradientType: $gradientType, focal: $focal, tileMode: $tileMode, focalRadius: $focalRadius, radius: $radius, startAngle: $startAngle, endAngle: $endAngle)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$StacGradientCopyWith<_StacGradient> get copyWith =>
+      __$StacGradientCopyWithImpl<_StacGradient>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$StacGradientToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$StacGradientImpl &&
+            other is _StacGradient &&
             const DeepCollectionEquality().equals(other._colors, _colors) &&
             const DeepCollectionEquality().equals(other._stops, _stops) &&
             (identical(other.begin, begin) || other.begin == begin) &&
@@ -355,7 +540,7 @@ class _$StacGradientImpl implements _StacGradient {
                 other.endAngle == endAngle));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -372,64 +557,129 @@ class _$StacGradientImpl implements _StacGradient {
       startAngle,
       endAngle);
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$StacGradientImplCopyWith<_$StacGradientImpl> get copyWith =>
-      __$$StacGradientImplCopyWithImpl<_$StacGradientImpl>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$StacGradientImplToJson(
-      this,
-    );
+  String toString() {
+    return 'StacGradient(colors: $colors, stops: $stops, begin: $begin, end: $end, center: $center, gradientType: $gradientType, focal: $focal, tileMode: $tileMode, focalRadius: $focalRadius, radius: $radius, startAngle: $startAngle, endAngle: $endAngle)';
   }
 }
 
-abstract class _StacGradient implements StacGradient {
-  const factory _StacGradient(
-      {required final List<String> colors,
-      final List<StacDouble>? stops,
-      final StacAlignment begin,
-      final StacAlignment end,
-      final StacAlignment center,
-      final StacGradientType gradientType,
-      final StacAlignmentGeometry? focal,
-      final TileMode tileMode,
-      final StacDouble focalRadius,
-      final StacDouble radius,
-      final StacDouble startAngle,
-      final StacDouble endAngle}) = _$StacGradientImpl;
+/// @nodoc
+abstract mixin class _$StacGradientCopyWith<$Res>
+    implements $StacGradientCopyWith<$Res> {
+  factory _$StacGradientCopyWith(
+          _StacGradient value, $Res Function(_StacGradient) _then) =
+      __$StacGradientCopyWithImpl;
+  @override
+  @useResult
+  $Res call(
+      {List<String> colors,
+      List<StacDouble>? stops,
+      StacAlignment begin,
+      StacAlignment end,
+      StacAlignment center,
+      StacGradientType gradientType,
+      StacAlignmentGeometry? focal,
+      TileMode tileMode,
+      StacDouble focalRadius,
+      StacDouble radius,
+      StacDouble startAngle,
+      StacDouble endAngle});
 
-  factory _StacGradient.fromJson(Map<String, dynamic> json) =
-      _$StacGradientImpl.fromJson;
-
   @override
-  List<String> get colors;
-  @override
-  List<StacDouble>? get stops;
-  @override
-  StacAlignment get begin;
-  @override
-  StacAlignment get end;
-  @override
-  StacAlignment get center;
-  @override
-  StacGradientType get gradientType;
-  @override
-  StacAlignmentGeometry? get focal;
-  @override
-  TileMode get tileMode;
-  @override
-  StacDouble get focalRadius;
-  @override
-  StacDouble get radius;
-  @override
-  StacDouble get startAngle;
-  @override
-  StacDouble get endAngle;
-  @override
-  @JsonKey(ignore: true)
-  _$$StacGradientImplCopyWith<_$StacGradientImpl> get copyWith =>
-      throw _privateConstructorUsedError;
+  $StacAlignmentGeometryCopyWith<$Res>? get focal;
 }
+
+/// @nodoc
+class __$StacGradientCopyWithImpl<$Res>
+    implements _$StacGradientCopyWith<$Res> {
+  __$StacGradientCopyWithImpl(this._self, this._then);
+
+  final _StacGradient _self;
+  final $Res Function(_StacGradient) _then;
+
+  /// Create a copy of StacGradient
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? colors = null,
+    Object? stops = freezed,
+    Object? begin = null,
+    Object? end = null,
+    Object? center = null,
+    Object? gradientType = null,
+    Object? focal = freezed,
+    Object? tileMode = null,
+    Object? focalRadius = null,
+    Object? radius = null,
+    Object? startAngle = null,
+    Object? endAngle = null,
+  }) {
+    return _then(_StacGradient(
+      colors: null == colors
+          ? _self._colors
+          : colors // ignore: cast_nullable_to_non_nullable
+              as List<String>,
+      stops: freezed == stops
+          ? _self._stops
+          : stops // ignore: cast_nullable_to_non_nullable
+              as List<StacDouble>?,
+      begin: null == begin
+          ? _self.begin
+          : begin // ignore: cast_nullable_to_non_nullable
+              as StacAlignment,
+      end: null == end
+          ? _self.end
+          : end // ignore: cast_nullable_to_non_nullable
+              as StacAlignment,
+      center: null == center
+          ? _self.center
+          : center // ignore: cast_nullable_to_non_nullable
+              as StacAlignment,
+      gradientType: null == gradientType
+          ? _self.gradientType
+          : gradientType // ignore: cast_nullable_to_non_nullable
+              as StacGradientType,
+      focal: freezed == focal
+          ? _self.focal
+          : focal // ignore: cast_nullable_to_non_nullable
+              as StacAlignmentGeometry?,
+      tileMode: null == tileMode
+          ? _self.tileMode
+          : tileMode // ignore: cast_nullable_to_non_nullable
+              as TileMode,
+      focalRadius: null == focalRadius
+          ? _self.focalRadius
+          : focalRadius // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      radius: null == radius
+          ? _self.radius
+          : radius // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      startAngle: null == startAngle
+          ? _self.startAngle
+          : startAngle // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      endAngle: null == endAngle
+          ? _self.endAngle
+          : endAngle // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+    ));
+  }
+
+  /// Create a copy of StacGradient
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacAlignmentGeometryCopyWith<$Res>? get focal {
+    if (_self.focal == null) {
+      return null;
+    }
+
+    return $StacAlignmentGeometryCopyWith<$Res>(_self.focal!, (value) {
+      return _then(_self.copyWith(focal: value));
+    });
+  }
+}
+
+// dart format on

@@ -6,8 +6,8 @@ part of 'stac_icon_button.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$StacIconButtonImpl _$$StacIconButtonImplFromJson(Map<String, dynamic> json) =>
-    _$StacIconButtonImpl(
+_StacIconButton _$StacIconButtonFromJson(Map<String, dynamic> json) =>
+    _StacIconButton(
       iconSize: json['iconSize'] == null
           ? null
           : StacDouble.fromJson(json['iconSize']),
@@ -40,8 +40,7 @@ _$StacIconButtonImpl _$$StacIconButtonImplFromJson(Map<String, dynamic> json) =>
       icon: json['icon'] as Map<String, dynamic>?,
     );
 
-Map<String, dynamic> _$$StacIconButtonImplToJson(
-        _$StacIconButtonImpl instance) =>
+Map<String, dynamic> _$StacIconButtonToJson(_StacIconButton instance) =>
     <String, dynamic>{
       'iconSize': instance.iconSize,
       'padding': instance.padding,

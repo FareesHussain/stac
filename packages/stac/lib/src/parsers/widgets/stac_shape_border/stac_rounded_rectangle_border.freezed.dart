@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,33 +9,51 @@ part of 'stac_rounded_rectangle_border.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
-StacRoundedRactangleBorder _$StacRoundedRactangleBorderFromJson(
-    Map<String, dynamic> json) {
-  return _StacRoundedRactangleBorder.fromJson(json);
-}
 
 /// @nodoc
 mixin _$StacRoundedRactangleBorder {
-  StacBorderSide get side => throw _privateConstructorUsedError;
-  StacBorderRadius get borderRadius => throw _privateConstructorUsedError;
+  StacBorderSide get side;
+  StacBorderRadius get borderRadius;
 
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
+  /// Create a copy of StacRoundedRactangleBorder
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
   $StacRoundedRactangleBorderCopyWith<StacRoundedRactangleBorder>
-      get copyWith => throw _privateConstructorUsedError;
+      get copyWith =>
+          _$StacRoundedRactangleBorderCopyWithImpl<StacRoundedRactangleBorder>(
+              this as StacRoundedRactangleBorder, _$identity);
+
+  /// Serializes this StacRoundedRactangleBorder to a JSON map.
+  Map<String, dynamic> toJson();
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is StacRoundedRactangleBorder &&
+            (identical(other.side, side) || other.side == side) &&
+            (identical(other.borderRadius, borderRadius) ||
+                other.borderRadius == borderRadius));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(runtimeType, side, borderRadius);
+
+  @override
+  String toString() {
+    return 'StacRoundedRactangleBorder(side: $side, borderRadius: $borderRadius)';
+  }
 }
 
 /// @nodoc
-abstract class $StacRoundedRactangleBorderCopyWith<$Res> {
+abstract mixin class $StacRoundedRactangleBorderCopyWith<$Res> {
   factory $StacRoundedRactangleBorderCopyWith(StacRoundedRactangleBorder value,
-          $Res Function(StacRoundedRactangleBorder) then) =
-      _$StacRoundedRactangleBorderCopyWithImpl<$Res,
-          StacRoundedRactangleBorder>;
+          $Res Function(StacRoundedRactangleBorder) _then) =
+      _$StacRoundedRactangleBorderCopyWithImpl;
   @useResult
   $Res call({StacBorderSide side, StacBorderRadius borderRadius});
 
@@ -44,107 +62,222 @@ abstract class $StacRoundedRactangleBorderCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacRoundedRactangleBorderCopyWithImpl<$Res,
-        $Val extends StacRoundedRactangleBorder>
+class _$StacRoundedRactangleBorderCopyWithImpl<$Res>
     implements $StacRoundedRactangleBorderCopyWith<$Res> {
-  _$StacRoundedRactangleBorderCopyWithImpl(this._value, this._then);
+  _$StacRoundedRactangleBorderCopyWithImpl(this._self, this._then);
 
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
+  final StacRoundedRactangleBorder _self;
+  final $Res Function(StacRoundedRactangleBorder) _then;
 
+  /// Create a copy of StacRoundedRactangleBorder
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? side = null,
     Object? borderRadius = null,
   }) {
-    return _then(_value.copyWith(
+    return _then(_self.copyWith(
       side: null == side
-          ? _value.side
+          ? _self.side
           : side // ignore: cast_nullable_to_non_nullable
               as StacBorderSide,
       borderRadius: null == borderRadius
-          ? _value.borderRadius
-          : borderRadius // ignore: cast_nullable_to_non_nullable
-              as StacBorderRadius,
-    ) as $Val);
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacBorderSideCopyWith<$Res> get side {
-    return $StacBorderSideCopyWith<$Res>(_value.side, (value) {
-      return _then(_value.copyWith(side: value) as $Val);
-    });
-  }
-
-  @override
-  @pragma('vm:prefer-inline')
-  $StacBorderRadiusCopyWith<$Res> get borderRadius {
-    return $StacBorderRadiusCopyWith<$Res>(_value.borderRadius, (value) {
-      return _then(_value.copyWith(borderRadius: value) as $Val);
-    });
-  }
-}
-
-/// @nodoc
-abstract class _$$StacRoundedRactangleBorderImplCopyWith<$Res>
-    implements $StacRoundedRactangleBorderCopyWith<$Res> {
-  factory _$$StacRoundedRactangleBorderImplCopyWith(
-          _$StacRoundedRactangleBorderImpl value,
-          $Res Function(_$StacRoundedRactangleBorderImpl) then) =
-      __$$StacRoundedRactangleBorderImplCopyWithImpl<$Res>;
-  @override
-  @useResult
-  $Res call({StacBorderSide side, StacBorderRadius borderRadius});
-
-  @override
-  $StacBorderSideCopyWith<$Res> get side;
-  @override
-  $StacBorderRadiusCopyWith<$Res> get borderRadius;
-}
-
-/// @nodoc
-class __$$StacRoundedRactangleBorderImplCopyWithImpl<$Res>
-    extends _$StacRoundedRactangleBorderCopyWithImpl<$Res,
-        _$StacRoundedRactangleBorderImpl>
-    implements _$$StacRoundedRactangleBorderImplCopyWith<$Res> {
-  __$$StacRoundedRactangleBorderImplCopyWithImpl(
-      _$StacRoundedRactangleBorderImpl _value,
-      $Res Function(_$StacRoundedRactangleBorderImpl) _then)
-      : super(_value, _then);
-
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? side = null,
-    Object? borderRadius = null,
-  }) {
-    return _then(_$StacRoundedRactangleBorderImpl(
-      side: null == side
-          ? _value.side
-          : side // ignore: cast_nullable_to_non_nullable
-              as StacBorderSide,
-      borderRadius: null == borderRadius
-          ? _value.borderRadius
+          ? _self.borderRadius
           : borderRadius // ignore: cast_nullable_to_non_nullable
               as StacBorderRadius,
     ));
+  }
+
+  /// Create a copy of StacRoundedRactangleBorder
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacBorderSideCopyWith<$Res> get side {
+    return $StacBorderSideCopyWith<$Res>(_self.side, (value) {
+      return _then(_self.copyWith(side: value));
+    });
+  }
+
+  /// Create a copy of StacRoundedRactangleBorder
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacBorderRadiusCopyWith<$Res> get borderRadius {
+    return $StacBorderRadiusCopyWith<$Res>(_self.borderRadius, (value) {
+      return _then(_self.copyWith(borderRadius: value));
+    });
+  }
+}
+
+/// Adds pattern-matching-related methods to [StacRoundedRactangleBorder].
+extension StacRoundedRactangleBorderPatterns on StacRoundedRactangleBorder {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_StacRoundedRactangleBorder value)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacRoundedRactangleBorder() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_StacRoundedRactangleBorder value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacRoundedRactangleBorder():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_StacRoundedRactangleBorder value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacRoundedRactangleBorder() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(StacBorderSide side, StacBorderRadius borderRadius)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacRoundedRactangleBorder() when $default != null:
+        return $default(_that.side, _that.borderRadius);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(StacBorderSide side, StacBorderRadius borderRadius)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacRoundedRactangleBorder():
+        return $default(_that.side, _that.borderRadius);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(StacBorderSide side, StacBorderRadius borderRadius)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacRoundedRactangleBorder() when $default != null:
+        return $default(_that.side, _that.borderRadius);
+      case _:
+        return null;
+    }
   }
 }
 
 /// @nodoc
 @JsonSerializable()
-class _$StacRoundedRactangleBorderImpl implements _StacRoundedRactangleBorder {
-  const _$StacRoundedRactangleBorderImpl(
+class _StacRoundedRactangleBorder implements StacRoundedRactangleBorder {
+  const _StacRoundedRactangleBorder(
       {this.side = StacBorderSide.none,
       this.borderRadius = const StacBorderRadius()});
-
-  factory _$StacRoundedRactangleBorderImpl.fromJson(
-          Map<String, dynamic> json) =>
-      _$$StacRoundedRactangleBorderImplFromJson(json);
+  factory _StacRoundedRactangleBorder.fromJson(Map<String, dynamic> json) =>
+      _$StacRoundedRactangleBorderFromJson(json);
 
   @override
   @JsonKey()
@@ -153,55 +286,106 @@ class _$StacRoundedRactangleBorderImpl implements _StacRoundedRactangleBorder {
   @JsonKey()
   final StacBorderRadius borderRadius;
 
+  /// Create a copy of StacRoundedRactangleBorder
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'StacRoundedRactangleBorder(side: $side, borderRadius: $borderRadius)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$StacRoundedRactangleBorderCopyWith<_StacRoundedRactangleBorder>
+      get copyWith => __$StacRoundedRactangleBorderCopyWithImpl<
+          _StacRoundedRactangleBorder>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$StacRoundedRactangleBorderToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$StacRoundedRactangleBorderImpl &&
+            other is _StacRoundedRactangleBorder &&
             (identical(other.side, side) || other.side == side) &&
             (identical(other.borderRadius, borderRadius) ||
                 other.borderRadius == borderRadius));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(runtimeType, side, borderRadius);
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$StacRoundedRactangleBorderImplCopyWith<_$StacRoundedRactangleBorderImpl>
-      get copyWith => __$$StacRoundedRactangleBorderImplCopyWithImpl<
-          _$StacRoundedRactangleBorderImpl>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$StacRoundedRactangleBorderImplToJson(
-      this,
-    );
+  String toString() {
+    return 'StacRoundedRactangleBorder(side: $side, borderRadius: $borderRadius)';
   }
 }
 
-abstract class _StacRoundedRactangleBorder
-    implements StacRoundedRactangleBorder {
-  const factory _StacRoundedRactangleBorder(
-      {final StacBorderSide side,
-      final StacBorderRadius borderRadius}) = _$StacRoundedRactangleBorderImpl;
+/// @nodoc
+abstract mixin class _$StacRoundedRactangleBorderCopyWith<$Res>
+    implements $StacRoundedRactangleBorderCopyWith<$Res> {
+  factory _$StacRoundedRactangleBorderCopyWith(
+          _StacRoundedRactangleBorder value,
+          $Res Function(_StacRoundedRactangleBorder) _then) =
+      __$StacRoundedRactangleBorderCopyWithImpl;
+  @override
+  @useResult
+  $Res call({StacBorderSide side, StacBorderRadius borderRadius});
 
-  factory _StacRoundedRactangleBorder.fromJson(Map<String, dynamic> json) =
-      _$StacRoundedRactangleBorderImpl.fromJson;
-
   @override
-  StacBorderSide get side;
+  $StacBorderSideCopyWith<$Res> get side;
   @override
-  StacBorderRadius get borderRadius;
-  @override
-  @JsonKey(ignore: true)
-  _$$StacRoundedRactangleBorderImplCopyWith<_$StacRoundedRactangleBorderImpl>
-      get copyWith => throw _privateConstructorUsedError;
+  $StacBorderRadiusCopyWith<$Res> get borderRadius;
 }
+
+/// @nodoc
+class __$StacRoundedRactangleBorderCopyWithImpl<$Res>
+    implements _$StacRoundedRactangleBorderCopyWith<$Res> {
+  __$StacRoundedRactangleBorderCopyWithImpl(this._self, this._then);
+
+  final _StacRoundedRactangleBorder _self;
+  final $Res Function(_StacRoundedRactangleBorder) _then;
+
+  /// Create a copy of StacRoundedRactangleBorder
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? side = null,
+    Object? borderRadius = null,
+  }) {
+    return _then(_StacRoundedRactangleBorder(
+      side: null == side
+          ? _self.side
+          : side // ignore: cast_nullable_to_non_nullable
+              as StacBorderSide,
+      borderRadius: null == borderRadius
+          ? _self.borderRadius
+          : borderRadius // ignore: cast_nullable_to_non_nullable
+              as StacBorderRadius,
+    ));
+  }
+
+  /// Create a copy of StacRoundedRactangleBorder
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacBorderSideCopyWith<$Res> get side {
+    return $StacBorderSideCopyWith<$Res>(_self.side, (value) {
+      return _then(_self.copyWith(side: value));
+    });
+  }
+
+  /// Create a copy of StacRoundedRactangleBorder
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacBorderRadiusCopyWith<$Res> get borderRadius {
+    return $StacBorderRadiusCopyWith<$Res>(_self.borderRadius, (value) {
+      return _then(_self.copyWith(borderRadius: value));
+    });
+  }
+}
+
+// dart format on

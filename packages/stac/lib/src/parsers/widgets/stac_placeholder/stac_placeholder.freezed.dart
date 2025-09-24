@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,94 +9,59 @@ part of 'stac_placeholder.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
-StacPlaceholder _$StacPlaceholderFromJson(Map<String, dynamic> json) {
-  return _StacPlaceholder.fromJson(json);
-}
 
 /// @nodoc
 mixin _$StacPlaceholder {
-  StacDouble get fallbackWidth => throw _privateConstructorUsedError;
-  StacDouble get fallbackHeight => throw _privateConstructorUsedError;
-  StacDouble get strokeWidth => throw _privateConstructorUsedError;
-  String get color => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get child => throw _privateConstructorUsedError;
+  StacDouble get fallbackWidth;
+  StacDouble get fallbackHeight;
+  StacDouble get strokeWidth;
+  String get color;
+  Map<String, dynamic>? get child;
 
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
-  $StacPlaceholderCopyWith<StacPlaceholder> get copyWith =>
-      throw _privateConstructorUsedError;
-}
-
-/// @nodoc
-abstract class $StacPlaceholderCopyWith<$Res> {
-  factory $StacPlaceholderCopyWith(
-          StacPlaceholder value, $Res Function(StacPlaceholder) then) =
-      _$StacPlaceholderCopyWithImpl<$Res, StacPlaceholder>;
-  @useResult
-  $Res call(
-      {StacDouble fallbackWidth,
-      StacDouble fallbackHeight,
-      StacDouble strokeWidth,
-      String color,
-      Map<String, dynamic>? child});
-}
-
-/// @nodoc
-class _$StacPlaceholderCopyWithImpl<$Res, $Val extends StacPlaceholder>
-    implements $StacPlaceholderCopyWith<$Res> {
-  _$StacPlaceholderCopyWithImpl(this._value, this._then);
-
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
-
+  /// Create a copy of StacPlaceholder
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @pragma('vm:prefer-inline')
+  $StacPlaceholderCopyWith<StacPlaceholder> get copyWith =>
+      _$StacPlaceholderCopyWithImpl<StacPlaceholder>(
+          this as StacPlaceholder, _$identity);
+
+  /// Serializes this StacPlaceholder to a JSON map.
+  Map<String, dynamic> toJson();
+
   @override
-  $Res call({
-    Object? fallbackWidth = null,
-    Object? fallbackHeight = null,
-    Object? strokeWidth = null,
-    Object? color = null,
-    Object? child = freezed,
-  }) {
-    return _then(_value.copyWith(
-      fallbackWidth: null == fallbackWidth
-          ? _value.fallbackWidth
-          : fallbackWidth // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      fallbackHeight: null == fallbackHeight
-          ? _value.fallbackHeight
-          : fallbackHeight // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      strokeWidth: null == strokeWidth
-          ? _value.strokeWidth
-          : strokeWidth // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      color: null == color
-          ? _value.color
-          : color // ignore: cast_nullable_to_non_nullable
-              as String,
-      child: freezed == child
-          ? _value.child
-          : child // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-    ) as $Val);
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is StacPlaceholder &&
+            (identical(other.fallbackWidth, fallbackWidth) ||
+                other.fallbackWidth == fallbackWidth) &&
+            (identical(other.fallbackHeight, fallbackHeight) ||
+                other.fallbackHeight == fallbackHeight) &&
+            (identical(other.strokeWidth, strokeWidth) ||
+                other.strokeWidth == strokeWidth) &&
+            (identical(other.color, color) || other.color == color) &&
+            const DeepCollectionEquality().equals(other.child, child));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(runtimeType, fallbackWidth, fallbackHeight,
+      strokeWidth, color, const DeepCollectionEquality().hash(child));
+
+  @override
+  String toString() {
+    return 'StacPlaceholder(fallbackWidth: $fallbackWidth, fallbackHeight: $fallbackHeight, strokeWidth: $strokeWidth, color: $color, child: $child)';
   }
 }
 
 /// @nodoc
-abstract class _$$StacPlaceholderImplCopyWith<$Res>
-    implements $StacPlaceholderCopyWith<$Res> {
-  factory _$$StacPlaceholderImplCopyWith(_$StacPlaceholderImpl value,
-          $Res Function(_$StacPlaceholderImpl) then) =
-      __$$StacPlaceholderImplCopyWithImpl<$Res>;
-  @override
+abstract mixin class $StacPlaceholderCopyWith<$Res> {
+  factory $StacPlaceholderCopyWith(
+          StacPlaceholder value, $Res Function(StacPlaceholder) _then) =
+      _$StacPlaceholderCopyWithImpl;
   @useResult
   $Res call(
       {StacDouble fallbackWidth,
@@ -107,13 +72,15 @@ abstract class _$$StacPlaceholderImplCopyWith<$Res>
 }
 
 /// @nodoc
-class __$$StacPlaceholderImplCopyWithImpl<$Res>
-    extends _$StacPlaceholderCopyWithImpl<$Res, _$StacPlaceholderImpl>
-    implements _$$StacPlaceholderImplCopyWith<$Res> {
-  __$$StacPlaceholderImplCopyWithImpl(
-      _$StacPlaceholderImpl _value, $Res Function(_$StacPlaceholderImpl) _then)
-      : super(_value, _then);
+class _$StacPlaceholderCopyWithImpl<$Res>
+    implements $StacPlaceholderCopyWith<$Res> {
+  _$StacPlaceholderCopyWithImpl(this._self, this._then);
 
+  final StacPlaceholder _self;
+  final $Res Function(StacPlaceholder) _then;
+
+  /// Create a copy of StacPlaceholder
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -123,44 +90,209 @@ class __$$StacPlaceholderImplCopyWithImpl<$Res>
     Object? color = null,
     Object? child = freezed,
   }) {
-    return _then(_$StacPlaceholderImpl(
+    return _then(_self.copyWith(
       fallbackWidth: null == fallbackWidth
-          ? _value.fallbackWidth
+          ? _self.fallbackWidth
           : fallbackWidth // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       fallbackHeight: null == fallbackHeight
-          ? _value.fallbackHeight
+          ? _self.fallbackHeight
           : fallbackHeight // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       strokeWidth: null == strokeWidth
-          ? _value.strokeWidth
+          ? _self.strokeWidth
           : strokeWidth // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       color: null == color
-          ? _value.color
+          ? _self.color
           : color // ignore: cast_nullable_to_non_nullable
               as String,
       child: freezed == child
-          ? _value._child
+          ? _self.child
           : child // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
     ));
   }
 }
 
+/// Adds pattern-matching-related methods to [StacPlaceholder].
+extension StacPlaceholderPatterns on StacPlaceholder {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_StacPlaceholder value)? $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacPlaceholder() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_StacPlaceholder value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacPlaceholder():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_StacPlaceholder value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacPlaceholder() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(StacDouble fallbackWidth, StacDouble fallbackHeight,
+            StacDouble strokeWidth, String color, Map<String, dynamic>? child)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacPlaceholder() when $default != null:
+        return $default(_that.fallbackWidth, _that.fallbackHeight,
+            _that.strokeWidth, _that.color, _that.child);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(StacDouble fallbackWidth, StacDouble fallbackHeight,
+            StacDouble strokeWidth, String color, Map<String, dynamic>? child)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacPlaceholder():
+        return $default(_that.fallbackWidth, _that.fallbackHeight,
+            _that.strokeWidth, _that.color, _that.child);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(StacDouble fallbackWidth, StacDouble fallbackHeight,
+            StacDouble strokeWidth, String color, Map<String, dynamic>? child)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacPlaceholder() when $default != null:
+        return $default(_that.fallbackWidth, _that.fallbackHeight,
+            _that.strokeWidth, _that.color, _that.child);
+      case _:
+        return null;
+    }
+  }
+}
+
 /// @nodoc
 @JsonSerializable()
-class _$StacPlaceholderImpl implements _StacPlaceholder {
-  const _$StacPlaceholderImpl(
+class _StacPlaceholder implements StacPlaceholder {
+  const _StacPlaceholder(
       {this.fallbackWidth = const StacDouble(2.0),
       this.fallbackHeight = const StacDouble(400.0),
       this.strokeWidth = const StacDouble(400.0),
       this.color = '#455A64',
       final Map<String, dynamic>? child})
       : _child = child;
-
-  factory _$StacPlaceholderImpl.fromJson(Map<String, dynamic> json) =>
-      _$$StacPlaceholderImplFromJson(json);
+  factory _StacPlaceholder.fromJson(Map<String, dynamic> json) =>
+      _$StacPlaceholderFromJson(json);
 
   @override
   @JsonKey()
@@ -184,16 +316,26 @@ class _$StacPlaceholderImpl implements _StacPlaceholder {
     return EqualUnmodifiableMapView(value);
   }
 
+  /// Create a copy of StacPlaceholder
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'StacPlaceholder(fallbackWidth: $fallbackWidth, fallbackHeight: $fallbackHeight, strokeWidth: $strokeWidth, color: $color, child: $child)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$StacPlaceholderCopyWith<_StacPlaceholder> get copyWith =>
+      __$StacPlaceholderCopyWithImpl<_StacPlaceholder>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$StacPlaceholderToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$StacPlaceholderImpl &&
+            other is _StacPlaceholder &&
             (identical(other.fallbackWidth, fallbackWidth) ||
                 other.fallbackWidth == fallbackWidth) &&
             (identical(other.fallbackHeight, fallbackHeight) ||
@@ -204,49 +346,75 @@ class _$StacPlaceholderImpl implements _StacPlaceholder {
             const DeepCollectionEquality().equals(other._child, _child));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(runtimeType, fallbackWidth, fallbackHeight,
       strokeWidth, color, const DeepCollectionEquality().hash(_child));
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$StacPlaceholderImplCopyWith<_$StacPlaceholderImpl> get copyWith =>
-      __$$StacPlaceholderImplCopyWithImpl<_$StacPlaceholderImpl>(
-          this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$StacPlaceholderImplToJson(
-      this,
-    );
+  String toString() {
+    return 'StacPlaceholder(fallbackWidth: $fallbackWidth, fallbackHeight: $fallbackHeight, strokeWidth: $strokeWidth, color: $color, child: $child)';
   }
 }
 
-abstract class _StacPlaceholder implements StacPlaceholder {
-  const factory _StacPlaceholder(
-      {final StacDouble fallbackWidth,
-      final StacDouble fallbackHeight,
-      final StacDouble strokeWidth,
-      final String color,
-      final Map<String, dynamic>? child}) = _$StacPlaceholderImpl;
-
-  factory _StacPlaceholder.fromJson(Map<String, dynamic> json) =
-      _$StacPlaceholderImpl.fromJson;
-
+/// @nodoc
+abstract mixin class _$StacPlaceholderCopyWith<$Res>
+    implements $StacPlaceholderCopyWith<$Res> {
+  factory _$StacPlaceholderCopyWith(
+          _StacPlaceholder value, $Res Function(_StacPlaceholder) _then) =
+      __$StacPlaceholderCopyWithImpl;
   @override
-  StacDouble get fallbackWidth;
-  @override
-  StacDouble get fallbackHeight;
-  @override
-  StacDouble get strokeWidth;
-  @override
-  String get color;
-  @override
-  Map<String, dynamic>? get child;
-  @override
-  @JsonKey(ignore: true)
-  _$$StacPlaceholderImplCopyWith<_$StacPlaceholderImpl> get copyWith =>
-      throw _privateConstructorUsedError;
+  @useResult
+  $Res call(
+      {StacDouble fallbackWidth,
+      StacDouble fallbackHeight,
+      StacDouble strokeWidth,
+      String color,
+      Map<String, dynamic>? child});
 }
+
+/// @nodoc
+class __$StacPlaceholderCopyWithImpl<$Res>
+    implements _$StacPlaceholderCopyWith<$Res> {
+  __$StacPlaceholderCopyWithImpl(this._self, this._then);
+
+  final _StacPlaceholder _self;
+  final $Res Function(_StacPlaceholder) _then;
+
+  /// Create a copy of StacPlaceholder
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? fallbackWidth = null,
+    Object? fallbackHeight = null,
+    Object? strokeWidth = null,
+    Object? color = null,
+    Object? child = freezed,
+  }) {
+    return _then(_StacPlaceholder(
+      fallbackWidth: null == fallbackWidth
+          ? _self.fallbackWidth
+          : fallbackWidth // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      fallbackHeight: null == fallbackHeight
+          ? _self.fallbackHeight
+          : fallbackHeight // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      strokeWidth: null == strokeWidth
+          ? _self.strokeWidth
+          : strokeWidth // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      color: null == color
+          ? _self.color
+          : color // ignore: cast_nullable_to_non_nullable
+              as String,
+      child: freezed == child
+          ? _self._child
+          : child // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+    ));
+  }
+}
+
+// dart format on

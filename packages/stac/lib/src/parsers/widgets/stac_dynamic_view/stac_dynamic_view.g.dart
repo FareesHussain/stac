@@ -6,9 +6,8 @@ part of 'stac_dynamic_view.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$StacDynamicViewImpl _$$StacDynamicViewImplFromJson(
-        Map<String, dynamic> json) =>
-    _$StacDynamicViewImpl(
+_StacDynamicView _$StacDynamicViewFromJson(Map<String, dynamic> json) =>
+    _StacDynamicView(
       request:
           StacNetworkRequest.fromJson(json['request'] as Map<String, dynamic>),
       targetPath: json['targetPath'] as String? ?? '',
@@ -19,8 +18,7 @@ _$StacDynamicViewImpl _$$StacDynamicViewImplFromJson(
       errorWidget: json['errorWidget'] as Map<String, dynamic>?,
     );
 
-Map<String, dynamic> _$$StacDynamicViewImplToJson(
-        _$StacDynamicViewImpl instance) =>
+Map<String, dynamic> _$StacDynamicViewToJson(_StacDynamicView instance) =>
     <String, dynamic>{
       'request': instance.request,
       'targetPath': instance.targetPath,

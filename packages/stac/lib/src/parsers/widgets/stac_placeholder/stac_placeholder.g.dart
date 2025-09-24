@@ -6,9 +6,8 @@ part of 'stac_placeholder.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$StacPlaceholderImpl _$$StacPlaceholderImplFromJson(
-        Map<String, dynamic> json) =>
-    _$StacPlaceholderImpl(
+_StacPlaceholder _$StacPlaceholderFromJson(Map<String, dynamic> json) =>
+    _StacPlaceholder(
       fallbackWidth: json['fallbackWidth'] == null
           ? const StacDouble(2.0)
           : StacDouble.fromJson(json['fallbackWidth']),
@@ -22,8 +21,7 @@ _$StacPlaceholderImpl _$$StacPlaceholderImplFromJson(
       child: json['child'] as Map<String, dynamic>?,
     );
 
-Map<String, dynamic> _$$StacPlaceholderImplToJson(
-        _$StacPlaceholderImpl instance) =>
+Map<String, dynamic> _$StacPlaceholderToJson(_StacPlaceholder instance) =>
     <String, dynamic>{
       'fallbackWidth': instance.fallbackWidth,
       'fallbackHeight': instance.fallbackHeight,

@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,38 +9,78 @@ part of 'stac_drawer.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
-StacDrawer _$StacDrawerFromJson(Map<String, dynamic> json) {
-  return _StacDrawer.fromJson(json);
-}
 
 /// @nodoc
 mixin _$StacDrawer {
-  String? get backgroundColor => throw _privateConstructorUsedError;
-  StacDouble? get elevation => throw _privateConstructorUsedError;
-  String? get shadowColor => throw _privateConstructorUsedError;
-  String? get surfaceTintColor => throw _privateConstructorUsedError;
-  StacShapeBorder? get shape => throw _privateConstructorUsedError;
-  StacDouble? get width => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get child => throw _privateConstructorUsedError;
-  String? get semanticLabel => throw _privateConstructorUsedError;
-  Clip? get clipBehavior => throw _privateConstructorUsedError;
+  String? get backgroundColor;
+  StacDouble? get elevation;
+  String? get shadowColor;
+  String? get surfaceTintColor;
+  StacShapeBorder? get shape;
+  StacDouble? get width;
+  Map<String, dynamic>? get child;
+  String? get semanticLabel;
+  Clip? get clipBehavior;
 
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
+  /// Create a copy of StacDrawer
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
   $StacDrawerCopyWith<StacDrawer> get copyWith =>
-      throw _privateConstructorUsedError;
+      _$StacDrawerCopyWithImpl<StacDrawer>(this as StacDrawer, _$identity);
+
+  /// Serializes this StacDrawer to a JSON map.
+  Map<String, dynamic> toJson();
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is StacDrawer &&
+            (identical(other.backgroundColor, backgroundColor) ||
+                other.backgroundColor == backgroundColor) &&
+            (identical(other.elevation, elevation) ||
+                other.elevation == elevation) &&
+            (identical(other.shadowColor, shadowColor) ||
+                other.shadowColor == shadowColor) &&
+            (identical(other.surfaceTintColor, surfaceTintColor) ||
+                other.surfaceTintColor == surfaceTintColor) &&
+            (identical(other.shape, shape) || other.shape == shape) &&
+            (identical(other.width, width) || other.width == width) &&
+            const DeepCollectionEquality().equals(other.child, child) &&
+            (identical(other.semanticLabel, semanticLabel) ||
+                other.semanticLabel == semanticLabel) &&
+            (identical(other.clipBehavior, clipBehavior) ||
+                other.clipBehavior == clipBehavior));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(
+      runtimeType,
+      backgroundColor,
+      elevation,
+      shadowColor,
+      surfaceTintColor,
+      shape,
+      width,
+      const DeepCollectionEquality().hash(child),
+      semanticLabel,
+      clipBehavior);
+
+  @override
+  String toString() {
+    return 'StacDrawer(backgroundColor: $backgroundColor, elevation: $elevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, shape: $shape, width: $width, child: $child, semanticLabel: $semanticLabel, clipBehavior: $clipBehavior)';
+  }
 }
 
 /// @nodoc
-abstract class $StacDrawerCopyWith<$Res> {
+abstract mixin class $StacDrawerCopyWith<$Res> {
   factory $StacDrawerCopyWith(
-          StacDrawer value, $Res Function(StacDrawer) then) =
-      _$StacDrawerCopyWithImpl<$Res, StacDrawer>;
+          StacDrawer value, $Res Function(StacDrawer) _then) =
+      _$StacDrawerCopyWithImpl;
   @useResult
   $Res call(
       {String? backgroundColor,
@@ -57,15 +97,14 @@ abstract class $StacDrawerCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacDrawerCopyWithImpl<$Res, $Val extends StacDrawer>
-    implements $StacDrawerCopyWith<$Res> {
-  _$StacDrawerCopyWithImpl(this._value, this._then);
+class _$StacDrawerCopyWithImpl<$Res> implements $StacDrawerCopyWith<$Res> {
+  _$StacDrawerCopyWithImpl(this._self, this._then);
 
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
+  final StacDrawer _self;
+  final $Res Function(StacDrawer) _then;
 
+  /// Create a copy of StacDrawer
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -79,148 +118,279 @@ class _$StacDrawerCopyWithImpl<$Res, $Val extends StacDrawer>
     Object? semanticLabel = freezed,
     Object? clipBehavior = freezed,
   }) {
-    return _then(_value.copyWith(
+    return _then(_self.copyWith(
       backgroundColor: freezed == backgroundColor
-          ? _value.backgroundColor
+          ? _self.backgroundColor
           : backgroundColor // ignore: cast_nullable_to_non_nullable
               as String?,
       elevation: freezed == elevation
-          ? _value.elevation
+          ? _self.elevation
           : elevation // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       shadowColor: freezed == shadowColor
-          ? _value.shadowColor
+          ? _self.shadowColor
           : shadowColor // ignore: cast_nullable_to_non_nullable
               as String?,
       surfaceTintColor: freezed == surfaceTintColor
-          ? _value.surfaceTintColor
+          ? _self.surfaceTintColor
           : surfaceTintColor // ignore: cast_nullable_to_non_nullable
               as String?,
       shape: freezed == shape
-          ? _value.shape
+          ? _self.shape
           : shape // ignore: cast_nullable_to_non_nullable
               as StacShapeBorder?,
       width: freezed == width
-          ? _value.width
+          ? _self.width
           : width // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       child: freezed == child
-          ? _value.child
+          ? _self.child
           : child // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       semanticLabel: freezed == semanticLabel
-          ? _value.semanticLabel
+          ? _self.semanticLabel
           : semanticLabel // ignore: cast_nullable_to_non_nullable
               as String?,
       clipBehavior: freezed == clipBehavior
-          ? _value.clipBehavior
+          ? _self.clipBehavior
           : clipBehavior // ignore: cast_nullable_to_non_nullable
               as Clip?,
-    ) as $Val);
+    ));
   }
 
+  /// Create a copy of StacDrawer
+  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacShapeBorderCopyWith<$Res>? get shape {
-    if (_value.shape == null) {
+    if (_self.shape == null) {
       return null;
     }
 
-    return $StacShapeBorderCopyWith<$Res>(_value.shape!, (value) {
-      return _then(_value.copyWith(shape: value) as $Val);
+    return $StacShapeBorderCopyWith<$Res>(_self.shape!, (value) {
+      return _then(_self.copyWith(shape: value));
     });
   }
 }
 
-/// @nodoc
-abstract class _$$StacDrawerImplCopyWith<$Res>
-    implements $StacDrawerCopyWith<$Res> {
-  factory _$$StacDrawerImplCopyWith(
-          _$StacDrawerImpl value, $Res Function(_$StacDrawerImpl) then) =
-      __$$StacDrawerImplCopyWithImpl<$Res>;
-  @override
-  @useResult
-  $Res call(
-      {String? backgroundColor,
-      StacDouble? elevation,
-      String? shadowColor,
-      String? surfaceTintColor,
-      StacShapeBorder? shape,
-      StacDouble? width,
-      Map<String, dynamic>? child,
-      String? semanticLabel,
-      Clip? clipBehavior});
+/// Adds pattern-matching-related methods to [StacDrawer].
+extension StacDrawerPatterns on StacDrawer {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
 
-  @override
-  $StacShapeBorderCopyWith<$Res>? get shape;
-}
-
-/// @nodoc
-class __$$StacDrawerImplCopyWithImpl<$Res>
-    extends _$StacDrawerCopyWithImpl<$Res, _$StacDrawerImpl>
-    implements _$$StacDrawerImplCopyWith<$Res> {
-  __$$StacDrawerImplCopyWithImpl(
-      _$StacDrawerImpl _value, $Res Function(_$StacDrawerImpl) _then)
-      : super(_value, _then);
-
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? backgroundColor = freezed,
-    Object? elevation = freezed,
-    Object? shadowColor = freezed,
-    Object? surfaceTintColor = freezed,
-    Object? shape = freezed,
-    Object? width = freezed,
-    Object? child = freezed,
-    Object? semanticLabel = freezed,
-    Object? clipBehavior = freezed,
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_StacDrawer value)? $default, {
+    required TResult orElse(),
   }) {
-    return _then(_$StacDrawerImpl(
-      backgroundColor: freezed == backgroundColor
-          ? _value.backgroundColor
-          : backgroundColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      elevation: freezed == elevation
-          ? _value.elevation
-          : elevation // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      shadowColor: freezed == shadowColor
-          ? _value.shadowColor
-          : shadowColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      surfaceTintColor: freezed == surfaceTintColor
-          ? _value.surfaceTintColor
-          : surfaceTintColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      shape: freezed == shape
-          ? _value.shape
-          : shape // ignore: cast_nullable_to_non_nullable
-              as StacShapeBorder?,
-      width: freezed == width
-          ? _value.width
-          : width // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      child: freezed == child
-          ? _value._child
-          : child // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      semanticLabel: freezed == semanticLabel
-          ? _value.semanticLabel
-          : semanticLabel // ignore: cast_nullable_to_non_nullable
-              as String?,
-      clipBehavior: freezed == clipBehavior
-          ? _value.clipBehavior
-          : clipBehavior // ignore: cast_nullable_to_non_nullable
-              as Clip?,
-    ));
+    final _that = this;
+    switch (_that) {
+      case _StacDrawer() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_StacDrawer value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacDrawer():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_StacDrawer value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacDrawer() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(
+            String? backgroundColor,
+            StacDouble? elevation,
+            String? shadowColor,
+            String? surfaceTintColor,
+            StacShapeBorder? shape,
+            StacDouble? width,
+            Map<String, dynamic>? child,
+            String? semanticLabel,
+            Clip? clipBehavior)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacDrawer() when $default != null:
+        return $default(
+            _that.backgroundColor,
+            _that.elevation,
+            _that.shadowColor,
+            _that.surfaceTintColor,
+            _that.shape,
+            _that.width,
+            _that.child,
+            _that.semanticLabel,
+            _that.clipBehavior);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(
+            String? backgroundColor,
+            StacDouble? elevation,
+            String? shadowColor,
+            String? surfaceTintColor,
+            StacShapeBorder? shape,
+            StacDouble? width,
+            Map<String, dynamic>? child,
+            String? semanticLabel,
+            Clip? clipBehavior)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacDrawer():
+        return $default(
+            _that.backgroundColor,
+            _that.elevation,
+            _that.shadowColor,
+            _that.surfaceTintColor,
+            _that.shape,
+            _that.width,
+            _that.child,
+            _that.semanticLabel,
+            _that.clipBehavior);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(
+            String? backgroundColor,
+            StacDouble? elevation,
+            String? shadowColor,
+            String? surfaceTintColor,
+            StacShapeBorder? shape,
+            StacDouble? width,
+            Map<String, dynamic>? child,
+            String? semanticLabel,
+            Clip? clipBehavior)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacDrawer() when $default != null:
+        return $default(
+            _that.backgroundColor,
+            _that.elevation,
+            _that.shadowColor,
+            _that.surfaceTintColor,
+            _that.shape,
+            _that.width,
+            _that.child,
+            _that.semanticLabel,
+            _that.clipBehavior);
+      case _:
+        return null;
+    }
   }
 }
 
 /// @nodoc
 @JsonSerializable()
-class _$StacDrawerImpl implements _StacDrawer {
-  const _$StacDrawerImpl(
+class _StacDrawer implements StacDrawer {
+  const _StacDrawer(
       {this.backgroundColor,
       this.elevation,
       this.shadowColor,
@@ -231,9 +401,8 @@ class _$StacDrawerImpl implements _StacDrawer {
       this.semanticLabel,
       this.clipBehavior})
       : _child = child;
-
-  factory _$StacDrawerImpl.fromJson(Map<String, dynamic> json) =>
-      _$$StacDrawerImplFromJson(json);
+  factory _StacDrawer.fromJson(Map<String, dynamic> json) =>
+      _$StacDrawerFromJson(json);
 
   @override
   final String? backgroundColor;
@@ -262,16 +431,26 @@ class _$StacDrawerImpl implements _StacDrawer {
   @override
   final Clip? clipBehavior;
 
+  /// Create a copy of StacDrawer
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'StacDrawer(backgroundColor: $backgroundColor, elevation: $elevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, shape: $shape, width: $width, child: $child, semanticLabel: $semanticLabel, clipBehavior: $clipBehavior)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$StacDrawerCopyWith<_StacDrawer> get copyWith =>
+      __$StacDrawerCopyWithImpl<_StacDrawer>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$StacDrawerToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$StacDrawerImpl &&
+            other is _StacDrawer &&
             (identical(other.backgroundColor, backgroundColor) ||
                 other.backgroundColor == backgroundColor) &&
             (identical(other.elevation, elevation) ||
@@ -289,7 +468,7 @@ class _$StacDrawerImpl implements _StacDrawer {
                 other.clipBehavior == clipBehavior));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -303,55 +482,110 @@ class _$StacDrawerImpl implements _StacDrawer {
       semanticLabel,
       clipBehavior);
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$StacDrawerImplCopyWith<_$StacDrawerImpl> get copyWith =>
-      __$$StacDrawerImplCopyWithImpl<_$StacDrawerImpl>(this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$StacDrawerImplToJson(
-      this,
-    );
+  String toString() {
+    return 'StacDrawer(backgroundColor: $backgroundColor, elevation: $elevation, shadowColor: $shadowColor, surfaceTintColor: $surfaceTintColor, shape: $shape, width: $width, child: $child, semanticLabel: $semanticLabel, clipBehavior: $clipBehavior)';
   }
 }
 
-abstract class _StacDrawer implements StacDrawer {
-  const factory _StacDrawer(
-      {final String? backgroundColor,
-      final StacDouble? elevation,
-      final String? shadowColor,
-      final String? surfaceTintColor,
-      final StacShapeBorder? shape,
-      final StacDouble? width,
-      final Map<String, dynamic>? child,
-      final String? semanticLabel,
-      final Clip? clipBehavior}) = _$StacDrawerImpl;
+/// @nodoc
+abstract mixin class _$StacDrawerCopyWith<$Res>
+    implements $StacDrawerCopyWith<$Res> {
+  factory _$StacDrawerCopyWith(
+          _StacDrawer value, $Res Function(_StacDrawer) _then) =
+      __$StacDrawerCopyWithImpl;
+  @override
+  @useResult
+  $Res call(
+      {String? backgroundColor,
+      StacDouble? elevation,
+      String? shadowColor,
+      String? surfaceTintColor,
+      StacShapeBorder? shape,
+      StacDouble? width,
+      Map<String, dynamic>? child,
+      String? semanticLabel,
+      Clip? clipBehavior});
 
-  factory _StacDrawer.fromJson(Map<String, dynamic> json) =
-      _$StacDrawerImpl.fromJson;
-
   @override
-  String? get backgroundColor;
-  @override
-  StacDouble? get elevation;
-  @override
-  String? get shadowColor;
-  @override
-  String? get surfaceTintColor;
-  @override
-  StacShapeBorder? get shape;
-  @override
-  StacDouble? get width;
-  @override
-  Map<String, dynamic>? get child;
-  @override
-  String? get semanticLabel;
-  @override
-  Clip? get clipBehavior;
-  @override
-  @JsonKey(ignore: true)
-  _$$StacDrawerImplCopyWith<_$StacDrawerImpl> get copyWith =>
-      throw _privateConstructorUsedError;
+  $StacShapeBorderCopyWith<$Res>? get shape;
 }
+
+/// @nodoc
+class __$StacDrawerCopyWithImpl<$Res> implements _$StacDrawerCopyWith<$Res> {
+  __$StacDrawerCopyWithImpl(this._self, this._then);
+
+  final _StacDrawer _self;
+  final $Res Function(_StacDrawer) _then;
+
+  /// Create a copy of StacDrawer
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? backgroundColor = freezed,
+    Object? elevation = freezed,
+    Object? shadowColor = freezed,
+    Object? surfaceTintColor = freezed,
+    Object? shape = freezed,
+    Object? width = freezed,
+    Object? child = freezed,
+    Object? semanticLabel = freezed,
+    Object? clipBehavior = freezed,
+  }) {
+    return _then(_StacDrawer(
+      backgroundColor: freezed == backgroundColor
+          ? _self.backgroundColor
+          : backgroundColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      elevation: freezed == elevation
+          ? _self.elevation
+          : elevation // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      shadowColor: freezed == shadowColor
+          ? _self.shadowColor
+          : shadowColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      surfaceTintColor: freezed == surfaceTintColor
+          ? _self.surfaceTintColor
+          : surfaceTintColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      shape: freezed == shape
+          ? _self.shape
+          : shape // ignore: cast_nullable_to_non_nullable
+              as StacShapeBorder?,
+      width: freezed == width
+          ? _self.width
+          : width // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      child: freezed == child
+          ? _self._child
+          : child // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      semanticLabel: freezed == semanticLabel
+          ? _self.semanticLabel
+          : semanticLabel // ignore: cast_nullable_to_non_nullable
+              as String?,
+      clipBehavior: freezed == clipBehavior
+          ? _self.clipBehavior
+          : clipBehavior // ignore: cast_nullable_to_non_nullable
+              as Clip?,
+    ));
+  }
+
+  /// Create a copy of StacDrawer
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacShapeBorderCopyWith<$Res>? get shape {
+    if (_self.shape == null) {
+      return null;
+    }
+
+    return $StacShapeBorderCopyWith<$Res>(_self.shape!, (value) {
+      return _then(_self.copyWith(shape: value));
+    });
+  }
+}
+
+// dart format on

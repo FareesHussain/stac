@@ -1,5 +1,5 @@
-// coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
@@ -9,44 +9,98 @@ part of 'stac_carousel_view.dart';
 // FreezedGenerator
 // **************************************************************************
 
+// dart format off
 T _$identity<T>(T value) => value;
-
-final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
-
-StacCarouselView _$StacCarouselViewFromJson(Map<String, dynamic> json) {
-  return _StacCarouselView.fromJson(json);
-}
 
 /// @nodoc
 mixin _$StacCarouselView {
-  StacCarouselViewType get carouselType => throw _privateConstructorUsedError;
-  StacEdgeInsets? get padding => throw _privateConstructorUsedError;
-  String? get backgroundColor => throw _privateConstructorUsedError;
-  StacDouble? get elevation => throw _privateConstructorUsedError;
-  String? get overlayColor => throw _privateConstructorUsedError;
-  bool get itemSnapping => throw _privateConstructorUsedError;
-  StacDouble get shrinkExtent => throw _privateConstructorUsedError;
-  Axis get scrollDirection => throw _privateConstructorUsedError;
-  bool get reverse => throw _privateConstructorUsedError;
-  Map<String, dynamic>? get onTap => throw _privateConstructorUsedError;
-  bool get enableSplash => throw _privateConstructorUsedError;
-  StacDouble? get itemExtent => throw _privateConstructorUsedError;
-  List<int>? get flexWeights => throw _privateConstructorUsedError;
-  List<Map<String, dynamic>>? get children =>
-      throw _privateConstructorUsedError;
+  StacCarouselViewType get carouselType;
+  StacEdgeInsets? get padding;
+  String? get backgroundColor;
+  StacDouble? get elevation;
+  String? get overlayColor;
+  bool get itemSnapping;
+  StacDouble get shrinkExtent;
+  Axis get scrollDirection;
+  bool get reverse;
+  Map<String, dynamic>? get onTap;
+  bool get enableSplash;
+  StacDouble? get itemExtent;
+  List<int>? get flexWeights;
+  List<Map<String, dynamic>>? get children;
 
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-  @JsonKey(ignore: true)
+  /// Create a copy of StacCarouselView
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
   $StacCarouselViewCopyWith<StacCarouselView> get copyWith =>
-      throw _privateConstructorUsedError;
+      _$StacCarouselViewCopyWithImpl<StacCarouselView>(
+          this as StacCarouselView, _$identity);
+
+  /// Serializes this StacCarouselView to a JSON map.
+  Map<String, dynamic> toJson();
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is StacCarouselView &&
+            (identical(other.carouselType, carouselType) ||
+                other.carouselType == carouselType) &&
+            (identical(other.padding, padding) || other.padding == padding) &&
+            (identical(other.backgroundColor, backgroundColor) ||
+                other.backgroundColor == backgroundColor) &&
+            (identical(other.elevation, elevation) ||
+                other.elevation == elevation) &&
+            (identical(other.overlayColor, overlayColor) ||
+                other.overlayColor == overlayColor) &&
+            (identical(other.itemSnapping, itemSnapping) ||
+                other.itemSnapping == itemSnapping) &&
+            (identical(other.shrinkExtent, shrinkExtent) ||
+                other.shrinkExtent == shrinkExtent) &&
+            (identical(other.scrollDirection, scrollDirection) ||
+                other.scrollDirection == scrollDirection) &&
+            (identical(other.reverse, reverse) || other.reverse == reverse) &&
+            const DeepCollectionEquality().equals(other.onTap, onTap) &&
+            (identical(other.enableSplash, enableSplash) ||
+                other.enableSplash == enableSplash) &&
+            (identical(other.itemExtent, itemExtent) ||
+                other.itemExtent == itemExtent) &&
+            const DeepCollectionEquality()
+                .equals(other.flexWeights, flexWeights) &&
+            const DeepCollectionEquality().equals(other.children, children));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode => Object.hash(
+      runtimeType,
+      carouselType,
+      padding,
+      backgroundColor,
+      elevation,
+      overlayColor,
+      itemSnapping,
+      shrinkExtent,
+      scrollDirection,
+      reverse,
+      const DeepCollectionEquality().hash(onTap),
+      enableSplash,
+      itemExtent,
+      const DeepCollectionEquality().hash(flexWeights),
+      const DeepCollectionEquality().hash(children));
+
+  @override
+  String toString() {
+    return 'StacCarouselView(carouselType: $carouselType, padding: $padding, backgroundColor: $backgroundColor, elevation: $elevation, overlayColor: $overlayColor, itemSnapping: $itemSnapping, shrinkExtent: $shrinkExtent, scrollDirection: $scrollDirection, reverse: $reverse, onTap: $onTap, enableSplash: $enableSplash, itemExtent: $itemExtent, flexWeights: $flexWeights, children: $children)';
+  }
 }
 
 /// @nodoc
-abstract class $StacCarouselViewCopyWith<$Res> {
+abstract mixin class $StacCarouselViewCopyWith<$Res> {
   factory $StacCarouselViewCopyWith(
-          StacCarouselView value, $Res Function(StacCarouselView) then) =
-      _$StacCarouselViewCopyWithImpl<$Res, StacCarouselView>;
+          StacCarouselView value, $Res Function(StacCarouselView) _then) =
+      _$StacCarouselViewCopyWithImpl;
   @useResult
   $Res call(
       {StacCarouselViewType carouselType,
@@ -68,15 +122,15 @@ abstract class $StacCarouselViewCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$StacCarouselViewCopyWithImpl<$Res, $Val extends StacCarouselView>
+class _$StacCarouselViewCopyWithImpl<$Res>
     implements $StacCarouselViewCopyWith<$Res> {
-  _$StacCarouselViewCopyWithImpl(this._value, this._then);
+  _$StacCarouselViewCopyWithImpl(this._self, this._then);
 
-  // ignore: unused_field
-  final $Val _value;
-  // ignore: unused_field
-  final $Res Function($Val) _then;
+  final StacCarouselView _self;
+  final $Res Function(StacCarouselView) _then;
 
+  /// Create a copy of StacCarouselView
+  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -95,198 +149,329 @@ class _$StacCarouselViewCopyWithImpl<$Res, $Val extends StacCarouselView>
     Object? flexWeights = freezed,
     Object? children = freezed,
   }) {
-    return _then(_value.copyWith(
+    return _then(_self.copyWith(
       carouselType: null == carouselType
-          ? _value.carouselType
+          ? _self.carouselType
           : carouselType // ignore: cast_nullable_to_non_nullable
               as StacCarouselViewType,
       padding: freezed == padding
-          ? _value.padding
+          ? _self.padding
           : padding // ignore: cast_nullable_to_non_nullable
               as StacEdgeInsets?,
       backgroundColor: freezed == backgroundColor
-          ? _value.backgroundColor
+          ? _self.backgroundColor
           : backgroundColor // ignore: cast_nullable_to_non_nullable
               as String?,
       elevation: freezed == elevation
-          ? _value.elevation
+          ? _self.elevation
           : elevation // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       overlayColor: freezed == overlayColor
-          ? _value.overlayColor
+          ? _self.overlayColor
           : overlayColor // ignore: cast_nullable_to_non_nullable
               as String?,
       itemSnapping: null == itemSnapping
-          ? _value.itemSnapping
+          ? _self.itemSnapping
           : itemSnapping // ignore: cast_nullable_to_non_nullable
               as bool,
       shrinkExtent: null == shrinkExtent
-          ? _value.shrinkExtent
+          ? _self.shrinkExtent
           : shrinkExtent // ignore: cast_nullable_to_non_nullable
               as StacDouble,
       scrollDirection: null == scrollDirection
-          ? _value.scrollDirection
+          ? _self.scrollDirection
           : scrollDirection // ignore: cast_nullable_to_non_nullable
               as Axis,
       reverse: null == reverse
-          ? _value.reverse
+          ? _self.reverse
           : reverse // ignore: cast_nullable_to_non_nullable
               as bool,
       onTap: freezed == onTap
-          ? _value.onTap
+          ? _self.onTap
           : onTap // ignore: cast_nullable_to_non_nullable
               as Map<String, dynamic>?,
       enableSplash: null == enableSplash
-          ? _value.enableSplash
+          ? _self.enableSplash
           : enableSplash // ignore: cast_nullable_to_non_nullable
               as bool,
       itemExtent: freezed == itemExtent
-          ? _value.itemExtent
+          ? _self.itemExtent
           : itemExtent // ignore: cast_nullable_to_non_nullable
               as StacDouble?,
       flexWeights: freezed == flexWeights
-          ? _value.flexWeights
+          ? _self.flexWeights
           : flexWeights // ignore: cast_nullable_to_non_nullable
               as List<int>?,
       children: freezed == children
-          ? _value.children
+          ? _self.children
           : children // ignore: cast_nullable_to_non_nullable
               as List<Map<String, dynamic>>?,
-    ) as $Val);
+    ));
   }
 
+  /// Create a copy of StacCarouselView
+  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $StacEdgeInsetsCopyWith<$Res>? get padding {
-    if (_value.padding == null) {
+    if (_self.padding == null) {
       return null;
     }
 
-    return $StacEdgeInsetsCopyWith<$Res>(_value.padding!, (value) {
-      return _then(_value.copyWith(padding: value) as $Val);
+    return $StacEdgeInsetsCopyWith<$Res>(_self.padding!, (value) {
+      return _then(_self.copyWith(padding: value));
     });
   }
 }
 
-/// @nodoc
-abstract class _$$StacCarouselViewImplCopyWith<$Res>
-    implements $StacCarouselViewCopyWith<$Res> {
-  factory _$$StacCarouselViewImplCopyWith(_$StacCarouselViewImpl value,
-          $Res Function(_$StacCarouselViewImpl) then) =
-      __$$StacCarouselViewImplCopyWithImpl<$Res>;
-  @override
-  @useResult
-  $Res call(
-      {StacCarouselViewType carouselType,
-      StacEdgeInsets? padding,
-      String? backgroundColor,
-      StacDouble? elevation,
-      String? overlayColor,
-      bool itemSnapping,
-      StacDouble shrinkExtent,
-      Axis scrollDirection,
-      bool reverse,
-      Map<String, dynamic>? onTap,
-      bool enableSplash,
-      StacDouble? itemExtent,
-      List<int>? flexWeights,
-      List<Map<String, dynamic>>? children});
+/// Adds pattern-matching-related methods to [StacCarouselView].
+extension StacCarouselViewPatterns on StacCarouselView {
+  /// A variant of `map` that fallback to returning `orElse`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
 
-  @override
-  $StacEdgeInsetsCopyWith<$Res>? get padding;
-}
-
-/// @nodoc
-class __$$StacCarouselViewImplCopyWithImpl<$Res>
-    extends _$StacCarouselViewCopyWithImpl<$Res, _$StacCarouselViewImpl>
-    implements _$$StacCarouselViewImplCopyWith<$Res> {
-  __$$StacCarouselViewImplCopyWithImpl(_$StacCarouselViewImpl _value,
-      $Res Function(_$StacCarouselViewImpl) _then)
-      : super(_value, _then);
-
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({
-    Object? carouselType = null,
-    Object? padding = freezed,
-    Object? backgroundColor = freezed,
-    Object? elevation = freezed,
-    Object? overlayColor = freezed,
-    Object? itemSnapping = null,
-    Object? shrinkExtent = null,
-    Object? scrollDirection = null,
-    Object? reverse = null,
-    Object? onTap = freezed,
-    Object? enableSplash = null,
-    Object? itemExtent = freezed,
-    Object? flexWeights = freezed,
-    Object? children = freezed,
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>(
+    TResult Function(_StacCarouselView value)? $default, {
+    required TResult orElse(),
   }) {
-    return _then(_$StacCarouselViewImpl(
-      carouselType: null == carouselType
-          ? _value.carouselType
-          : carouselType // ignore: cast_nullable_to_non_nullable
-              as StacCarouselViewType,
-      padding: freezed == padding
-          ? _value.padding
-          : padding // ignore: cast_nullable_to_non_nullable
-              as StacEdgeInsets?,
-      backgroundColor: freezed == backgroundColor
-          ? _value.backgroundColor
-          : backgroundColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      elevation: freezed == elevation
-          ? _value.elevation
-          : elevation // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      overlayColor: freezed == overlayColor
-          ? _value.overlayColor
-          : overlayColor // ignore: cast_nullable_to_non_nullable
-              as String?,
-      itemSnapping: null == itemSnapping
-          ? _value.itemSnapping
-          : itemSnapping // ignore: cast_nullable_to_non_nullable
-              as bool,
-      shrinkExtent: null == shrinkExtent
-          ? _value.shrinkExtent
-          : shrinkExtent // ignore: cast_nullable_to_non_nullable
-              as StacDouble,
-      scrollDirection: null == scrollDirection
-          ? _value.scrollDirection
-          : scrollDirection // ignore: cast_nullable_to_non_nullable
-              as Axis,
-      reverse: null == reverse
-          ? _value.reverse
-          : reverse // ignore: cast_nullable_to_non_nullable
-              as bool,
-      onTap: freezed == onTap
-          ? _value._onTap
-          : onTap // ignore: cast_nullable_to_non_nullable
-              as Map<String, dynamic>?,
-      enableSplash: null == enableSplash
-          ? _value.enableSplash
-          : enableSplash // ignore: cast_nullable_to_non_nullable
-              as bool,
-      itemExtent: freezed == itemExtent
-          ? _value.itemExtent
-          : itemExtent // ignore: cast_nullable_to_non_nullable
-              as StacDouble?,
-      flexWeights: freezed == flexWeights
-          ? _value._flexWeights
-          : flexWeights // ignore: cast_nullable_to_non_nullable
-              as List<int>?,
-      children: freezed == children
-          ? _value._children
-          : children // ignore: cast_nullable_to_non_nullable
-              as List<Map<String, dynamic>>?,
-    ));
+    final _that = this;
+    switch (_that) {
+      case _StacCarouselView() when $default != null:
+        return $default(_that);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// Callbacks receives the raw object, upcasted.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case final Subclass2 value:
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>(
+    TResult Function(_StacCarouselView value) $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacCarouselView():
+        return $default(_that);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `map` that fallback to returning `null`.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case final Subclass value:
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>(
+    TResult? Function(_StacCarouselView value)? $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacCarouselView() when $default != null:
+        return $default(_that);
+      case _:
+        return null;
+    }
+  }
+
+  /// A variant of `when` that fallback to an `orElse` callback.
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return orElse();
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>(
+    TResult Function(
+            StacCarouselViewType carouselType,
+            StacEdgeInsets? padding,
+            String? backgroundColor,
+            StacDouble? elevation,
+            String? overlayColor,
+            bool itemSnapping,
+            StacDouble shrinkExtent,
+            Axis scrollDirection,
+            bool reverse,
+            Map<String, dynamic>? onTap,
+            bool enableSplash,
+            StacDouble? itemExtent,
+            List<int>? flexWeights,
+            List<Map<String, dynamic>>? children)?
+        $default, {
+    required TResult orElse(),
+  }) {
+    final _that = this;
+    switch (_that) {
+      case _StacCarouselView() when $default != null:
+        return $default(
+            _that.carouselType,
+            _that.padding,
+            _that.backgroundColor,
+            _that.elevation,
+            _that.overlayColor,
+            _that.itemSnapping,
+            _that.shrinkExtent,
+            _that.scrollDirection,
+            _that.reverse,
+            _that.onTap,
+            _that.enableSplash,
+            _that.itemExtent,
+            _that.flexWeights,
+            _that.children);
+      case _:
+        return orElse();
+    }
+  }
+
+  /// A `switch`-like method, using callbacks.
+  ///
+  /// As opposed to `map`, this offers destructuring.
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case Subclass2(:final field2):
+  ///     return ...;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>(
+    TResult Function(
+            StacCarouselViewType carouselType,
+            StacEdgeInsets? padding,
+            String? backgroundColor,
+            StacDouble? elevation,
+            String? overlayColor,
+            bool itemSnapping,
+            StacDouble shrinkExtent,
+            Axis scrollDirection,
+            bool reverse,
+            Map<String, dynamic>? onTap,
+            bool enableSplash,
+            StacDouble? itemExtent,
+            List<int>? flexWeights,
+            List<Map<String, dynamic>>? children)
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacCarouselView():
+        return $default(
+            _that.carouselType,
+            _that.padding,
+            _that.backgroundColor,
+            _that.elevation,
+            _that.overlayColor,
+            _that.itemSnapping,
+            _that.shrinkExtent,
+            _that.scrollDirection,
+            _that.reverse,
+            _that.onTap,
+            _that.enableSplash,
+            _that.itemExtent,
+            _that.flexWeights,
+            _that.children);
+      case _:
+        throw StateError('Unexpected subclass');
+    }
+  }
+
+  /// A variant of `when` that fallback to returning `null`
+  ///
+  /// It is equivalent to doing:
+  /// ```dart
+  /// switch (sealedClass) {
+  ///   case Subclass(:final field):
+  ///     return ...;
+  ///   case _:
+  ///     return null;
+  /// }
+  /// ```
+
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>(
+    TResult? Function(
+            StacCarouselViewType carouselType,
+            StacEdgeInsets? padding,
+            String? backgroundColor,
+            StacDouble? elevation,
+            String? overlayColor,
+            bool itemSnapping,
+            StacDouble shrinkExtent,
+            Axis scrollDirection,
+            bool reverse,
+            Map<String, dynamic>? onTap,
+            bool enableSplash,
+            StacDouble? itemExtent,
+            List<int>? flexWeights,
+            List<Map<String, dynamic>>? children)?
+        $default,
+  ) {
+    final _that = this;
+    switch (_that) {
+      case _StacCarouselView() when $default != null:
+        return $default(
+            _that.carouselType,
+            _that.padding,
+            _that.backgroundColor,
+            _that.elevation,
+            _that.overlayColor,
+            _that.itemSnapping,
+            _that.shrinkExtent,
+            _that.scrollDirection,
+            _that.reverse,
+            _that.onTap,
+            _that.enableSplash,
+            _that.itemExtent,
+            _that.flexWeights,
+            _that.children);
+      case _:
+        return null;
+    }
   }
 }
 
 /// @nodoc
 @JsonSerializable()
-class _$StacCarouselViewImpl implements _StacCarouselView {
-  const _$StacCarouselViewImpl(
+class _StacCarouselView implements StacCarouselView {
+  const _StacCarouselView(
       {this.carouselType = StacCarouselViewType.regular,
       this.padding,
       this.backgroundColor,
@@ -304,9 +489,8 @@ class _$StacCarouselViewImpl implements _StacCarouselView {
       : _onTap = onTap,
         _flexWeights = flexWeights,
         _children = children;
-
-  factory _$StacCarouselViewImpl.fromJson(Map<String, dynamic> json) =>
-      _$$StacCarouselViewImplFromJson(json);
+  factory _StacCarouselView.fromJson(Map<String, dynamic> json) =>
+      _$StacCarouselViewFromJson(json);
 
   @override
   @JsonKey()
@@ -366,16 +550,26 @@ class _$StacCarouselViewImpl implements _StacCarouselView {
     return EqualUnmodifiableListView(value);
   }
 
+  /// Create a copy of StacCarouselView
+  /// with the given fields replaced by the non-null parameter values.
   @override
-  String toString() {
-    return 'StacCarouselView(carouselType: $carouselType, padding: $padding, backgroundColor: $backgroundColor, elevation: $elevation, overlayColor: $overlayColor, itemSnapping: $itemSnapping, shrinkExtent: $shrinkExtent, scrollDirection: $scrollDirection, reverse: $reverse, onTap: $onTap, enableSplash: $enableSplash, itemExtent: $itemExtent, flexWeights: $flexWeights, children: $children)';
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @pragma('vm:prefer-inline')
+  _$StacCarouselViewCopyWith<_StacCarouselView> get copyWith =>
+      __$StacCarouselViewCopyWithImpl<_StacCarouselView>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$StacCarouselViewToJson(
+      this,
+    );
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$StacCarouselViewImpl &&
+            other is _StacCarouselView &&
             (identical(other.carouselType, carouselType) ||
                 other.carouselType == carouselType) &&
             (identical(other.padding, padding) || other.padding == padding) &&
@@ -402,7 +596,7 @@ class _$StacCarouselViewImpl implements _StacCarouselView {
             const DeepCollectionEquality().equals(other._children, _children));
   }
 
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -421,72 +615,141 @@ class _$StacCarouselViewImpl implements _StacCarouselView {
       const DeepCollectionEquality().hash(_flexWeights),
       const DeepCollectionEquality().hash(_children));
 
-  @JsonKey(ignore: true)
   @override
-  @pragma('vm:prefer-inline')
-  _$$StacCarouselViewImplCopyWith<_$StacCarouselViewImpl> get copyWith =>
-      __$$StacCarouselViewImplCopyWithImpl<_$StacCarouselViewImpl>(
-          this, _$identity);
-
-  @override
-  Map<String, dynamic> toJson() {
-    return _$$StacCarouselViewImplToJson(
-      this,
-    );
+  String toString() {
+    return 'StacCarouselView(carouselType: $carouselType, padding: $padding, backgroundColor: $backgroundColor, elevation: $elevation, overlayColor: $overlayColor, itemSnapping: $itemSnapping, shrinkExtent: $shrinkExtent, scrollDirection: $scrollDirection, reverse: $reverse, onTap: $onTap, enableSplash: $enableSplash, itemExtent: $itemExtent, flexWeights: $flexWeights, children: $children)';
   }
 }
 
-abstract class _StacCarouselView implements StacCarouselView {
-  const factory _StacCarouselView(
-          {final StacCarouselViewType carouselType,
-          final StacEdgeInsets? padding,
-          final String? backgroundColor,
-          final StacDouble? elevation,
-          final String? overlayColor,
-          final bool itemSnapping,
-          final StacDouble shrinkExtent,
-          final Axis scrollDirection,
-          final bool reverse,
-          final Map<String, dynamic>? onTap,
-          final bool enableSplash,
-          final StacDouble? itemExtent,
-          final List<int>? flexWeights,
-          required final List<Map<String, dynamic>>? children}) =
-      _$StacCarouselViewImpl;
+/// @nodoc
+abstract mixin class _$StacCarouselViewCopyWith<$Res>
+    implements $StacCarouselViewCopyWith<$Res> {
+  factory _$StacCarouselViewCopyWith(
+          _StacCarouselView value, $Res Function(_StacCarouselView) _then) =
+      __$StacCarouselViewCopyWithImpl;
+  @override
+  @useResult
+  $Res call(
+      {StacCarouselViewType carouselType,
+      StacEdgeInsets? padding,
+      String? backgroundColor,
+      StacDouble? elevation,
+      String? overlayColor,
+      bool itemSnapping,
+      StacDouble shrinkExtent,
+      Axis scrollDirection,
+      bool reverse,
+      Map<String, dynamic>? onTap,
+      bool enableSplash,
+      StacDouble? itemExtent,
+      List<int>? flexWeights,
+      List<Map<String, dynamic>>? children});
 
-  factory _StacCarouselView.fromJson(Map<String, dynamic> json) =
-      _$StacCarouselViewImpl.fromJson;
-
   @override
-  StacCarouselViewType get carouselType;
-  @override
-  StacEdgeInsets? get padding;
-  @override
-  String? get backgroundColor;
-  @override
-  StacDouble? get elevation;
-  @override
-  String? get overlayColor;
-  @override
-  bool get itemSnapping;
-  @override
-  StacDouble get shrinkExtent;
-  @override
-  Axis get scrollDirection;
-  @override
-  bool get reverse;
-  @override
-  Map<String, dynamic>? get onTap;
-  @override
-  bool get enableSplash;
-  @override
-  StacDouble? get itemExtent;
-  @override
-  List<int>? get flexWeights;
-  @override
-  List<Map<String, dynamic>>? get children;
-  @override
-  @JsonKey(ignore: true)
-  _$$StacCarouselViewImplCopyWith<_$StacCarouselViewImpl> get copyWith =>
-      throw _privateConstructorUsedError;
+  $StacEdgeInsetsCopyWith<$Res>? get padding;
 }
+
+/// @nodoc
+class __$StacCarouselViewCopyWithImpl<$Res>
+    implements _$StacCarouselViewCopyWith<$Res> {
+  __$StacCarouselViewCopyWithImpl(this._self, this._then);
+
+  final _StacCarouselView _self;
+  final $Res Function(_StacCarouselView) _then;
+
+  /// Create a copy of StacCarouselView
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $Res call({
+    Object? carouselType = null,
+    Object? padding = freezed,
+    Object? backgroundColor = freezed,
+    Object? elevation = freezed,
+    Object? overlayColor = freezed,
+    Object? itemSnapping = null,
+    Object? shrinkExtent = null,
+    Object? scrollDirection = null,
+    Object? reverse = null,
+    Object? onTap = freezed,
+    Object? enableSplash = null,
+    Object? itemExtent = freezed,
+    Object? flexWeights = freezed,
+    Object? children = freezed,
+  }) {
+    return _then(_StacCarouselView(
+      carouselType: null == carouselType
+          ? _self.carouselType
+          : carouselType // ignore: cast_nullable_to_non_nullable
+              as StacCarouselViewType,
+      padding: freezed == padding
+          ? _self.padding
+          : padding // ignore: cast_nullable_to_non_nullable
+              as StacEdgeInsets?,
+      backgroundColor: freezed == backgroundColor
+          ? _self.backgroundColor
+          : backgroundColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      elevation: freezed == elevation
+          ? _self.elevation
+          : elevation // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      overlayColor: freezed == overlayColor
+          ? _self.overlayColor
+          : overlayColor // ignore: cast_nullable_to_non_nullable
+              as String?,
+      itemSnapping: null == itemSnapping
+          ? _self.itemSnapping
+          : itemSnapping // ignore: cast_nullable_to_non_nullable
+              as bool,
+      shrinkExtent: null == shrinkExtent
+          ? _self.shrinkExtent
+          : shrinkExtent // ignore: cast_nullable_to_non_nullable
+              as StacDouble,
+      scrollDirection: null == scrollDirection
+          ? _self.scrollDirection
+          : scrollDirection // ignore: cast_nullable_to_non_nullable
+              as Axis,
+      reverse: null == reverse
+          ? _self.reverse
+          : reverse // ignore: cast_nullable_to_non_nullable
+              as bool,
+      onTap: freezed == onTap
+          ? _self._onTap
+          : onTap // ignore: cast_nullable_to_non_nullable
+              as Map<String, dynamic>?,
+      enableSplash: null == enableSplash
+          ? _self.enableSplash
+          : enableSplash // ignore: cast_nullable_to_non_nullable
+              as bool,
+      itemExtent: freezed == itemExtent
+          ? _self.itemExtent
+          : itemExtent // ignore: cast_nullable_to_non_nullable
+              as StacDouble?,
+      flexWeights: freezed == flexWeights
+          ? _self._flexWeights
+          : flexWeights // ignore: cast_nullable_to_non_nullable
+              as List<int>?,
+      children: freezed == children
+          ? _self._children
+          : children // ignore: cast_nullable_to_non_nullable
+              as List<Map<String, dynamic>>?,
+    ));
+  }
+
+  /// Create a copy of StacCarouselView
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @pragma('vm:prefer-inline')
+  $StacEdgeInsetsCopyWith<$Res>? get padding {
+    if (_self.padding == null) {
+      return null;
+    }
+
+    return $StacEdgeInsetsCopyWith<$Res>(_self.padding!, (value) {
+      return _then(_self.copyWith(padding: value));
+    });
+  }
+}
+
+// dart format on

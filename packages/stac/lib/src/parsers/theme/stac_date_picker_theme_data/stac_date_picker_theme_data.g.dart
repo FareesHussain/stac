@@ -6,9 +6,9 @@ part of 'stac_date_picker_theme_data.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$StacDatePickerThemeDataImpl _$$StacDatePickerThemeDataImplFromJson(
+_StacDatePickerThemeData _$StacDatePickerThemeDataFromJson(
         Map<String, dynamic> json) =>
-    _$StacDatePickerThemeDataImpl(
+    _StacDatePickerThemeData(
       backgroundColor: json['backgroundColor'] as String?,
       elevation: (json['elevation'] as num?)?.toDouble(),
       shadowColor: json['shadowColor'] as String?,
@@ -86,8 +86,8 @@ _$StacDatePickerThemeDataImpl _$$StacDatePickerThemeDataImplFromJson(
               json['confirmButtonStyle'] as Map<String, dynamic>),
     );
 
-Map<String, dynamic> _$$StacDatePickerThemeDataImplToJson(
-        _$StacDatePickerThemeDataImpl instance) =>
+Map<String, dynamic> _$StacDatePickerThemeDataToJson(
+        _StacDatePickerThemeData instance) =>
     <String, dynamic>{
       'backgroundColor': instance.backgroundColor,
       'elevation': instance.elevation,
