@@ -22,7 +22,7 @@ abstract class StacBottomAppBarTheme with _$StacBottomAppBarTheme {
 }
 
 extension StacBottomAppBarThemeParser on StacBottomAppBarTheme {
-  BottomAppBarTheme? parse(BuildContext context) {
+  BottomAppBarThemeData? parse(BuildContext context) {
     return BottomAppBarTheme(
       color: color?.toColor(context),
       elevation: elevation,
