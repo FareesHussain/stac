@@ -21,7 +21,11 @@ dependencies:
   logger: ^2.5.0
   dio: ^5.8.0+1
   stac_framework: ^0.3.0
-  cached_network_image: ^3.4.1
+  cached_network_image:
+    git:
+      url: https://github.com/FareesHussain/flutter_cached_network_image.git
+      ref: fix/gpu_allocation
+      path: cached_network_image
   flutter_svg: 2.0.17
   stac_logger: ^1.0.0
 
