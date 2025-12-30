@@ -24,7 +24,7 @@ dependencies:
   cached_network_image:
     git:
       url: https://github.com/FareesHussain/flutter_cached_network_image.git
-      ref: 3f791f22d167f60555aab94e01c450501c626d70
+      ref: 31cc4ceba3af6007400131ff0c8b8cabbac271d9
       path: cached_network_image
   flutter_svg: 2.0.17
   stac_logger: ^1.0.0
